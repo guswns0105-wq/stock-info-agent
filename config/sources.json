@@ -5,7 +5,8 @@
       "type": "youtube_channel",
       "region": "domestic",
       "url": "https://youtube.com/channel/UC7usMJDHmtbs_oegmzQKKMA?si=8xlqXxz9mhIqb1O2",
-      "channel_id": "UC7usMJDHmtbs_oegmzQKKMA"
+      "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
+      "prefer_shorts": true
     },
     {
       "name": "Naver blog magic_rabb1t",

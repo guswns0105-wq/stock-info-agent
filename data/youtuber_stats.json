@@ -4,6 +4,8 @@
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
     "video_count": 10,
+    "short_count": 0,
+    "regular_video_count": 10,
     "mention_count": 71,
     "transcript_count": 0,
     "metadata_count": 10,
@@ -87,7 +89,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
@@ -103,7 +106,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
@@ -121,7 +125,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)",
@@ -136,7 +141,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10",
@@ -152,7 +158,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10",
@@ -169,7 +176,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀",
@@ -182,7 +190,8 @@
           "034020"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)",
@@ -197,7 +206,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식",
@@ -215,7 +225,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "코스피 8천 재돌파 ! 외국인•기관•연기금이 쓸어담은 한국주식 TOP11",
@@ -230,7 +241,8 @@
           "009150"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       }
     ]
   },
@@ -238,16 +250,18 @@
     "region": "global",
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
     "channel_id": "",
-    "video_count": 10,
-    "mention_count": 39,
+    "video_count": 20,
+    "short_count": 10,
+    "regular_video_count": 10,
+    "mention_count": 40,
     "transcript_count": 0,
-    "metadata_count": 10,
+    "metadata_count": 20,
     "transcript_chars": 0,
     "stocks": [
       {
         "ticker": "TSLA",
         "name": "Tesla",
-        "count": 8
+        "count": 9
       },
       {
         "ticker": "NVDA",
@@ -292,7 +306,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
@@ -308,7 +323,8 @@
           "META"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
@@ -319,7 +335,8 @@
           "TSLA"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
@@ -334,7 +351,8 @@
           "META"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
@@ -348,7 +366,8 @@
           "GOOG"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
@@ -364,7 +383,8 @@
           "AMZN"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "4/9 (Wed) Membership-Exclusive Video: US Stock Response Strategy Before Big Tech Earnings Announc...",
@@ -372,7 +392,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
@@ -385,7 +406,8 @@
           "META"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
@@ -398,7 +420,8 @@
           "META"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
@@ -411,7 +434,100 @@
           "META"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "Buy When the Stock Finds Support at the First Moving Average After an Uptrend Alignment",
+        "url": "https://youtu.be/1KJBq6v3YGA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돌파, 돌파지지 매수",
+        "url": "https://youtu.be/sqKAFVyuiiY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돈 지키는 자리",
+        "url": "https://youtu.be/j_MO4BG8oIo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돈 버는 자리",
+        "url": "https://youtu.be/gbNwCWJiDkY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 $300 돌파 명장면~",
+        "url": "https://youtu.be/T8YHAx9MwQw",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 스페이스X 빠꾸 성공!  #테슬라",
+        "url": "https://youtu.be/DdPU3mBkPZg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[쉬운 주식강의] 도지 캔들",
+        "url": "https://youtu.be/igYSD1PGTG8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[쉬운 주식강의] 장대양봉, 장대음봉 #shorts",
+        "url": "https://youtu.be/kuYyeKkO7Kw",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[쉬운 주식강의] 망치형 #shorts",
+        "url": "https://youtu.be/Qu4-ymmzmb4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Nov 29, 2023 (Wed) US Stock Market 1-Minute Briefing #Tesla #Cybertruck #ChartAnalysis #tmf",
+        "url": "https://youtu.be/YiGFF2JL6fE",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -419,21 +535,23 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 10,
-    "mention_count": 22,
+    "video_count": 15,
+    "short_count": 5,
+    "regular_video_count": 10,
+    "mention_count": 23,
     "transcript_count": 0,
-    "metadata_count": 10,
+    "metadata_count": 15,
     "transcript_chars": 0,
     "stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 7
+      },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
         "count": 7
-      },
-      {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "count": 6
       },
       {
         "ticker": "035720",
@@ -462,7 +580,8 @@
           "035720"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "LG그룹주 급등 이유, 끝나지 않은 호재",
@@ -472,7 +591,8 @@
           "003550"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
@@ -484,7 +604,8 @@
           "035720"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
@@ -492,7 +613,8 @@
         "published_at": "2026-05-28T10:00:08+00:00",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
@@ -504,7 +626,8 @@
           "035720"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "sk하이닉스 삼성전자 급등한 이유",
@@ -515,7 +638,8 @@
           "000660"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
@@ -528,7 +652,8 @@
           "003550"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "sk하이닉스, IHBM 공개",
@@ -538,7 +663,8 @@
           "000660"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자, LG, 현대차 전망🔴뉴욕 증시, 메모리얼 데이로 휴장  #코스닥 #코스피 #나스닥",
@@ -552,7 +678,8 @@
           "003550"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "AI이후 미국 정부가 선택한 테마는?",
@@ -560,7 +687,55 @@
         "published_at": "2026-05-25T08:35:48+00:00",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "Secondary Battery Stocks Supported by the National Growth Fund",
+        "url": "https://youtu.be/zqdHI95eiuc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "How High Will Samsung Electronics Go?",
+        "url": "https://youtu.be/HbyhhcZKy4w",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "KOSPI Decline: Was the Semiconductor Boom a Bubble?",
+        "url": "https://youtu.be/OulpwObpAP4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "What Are the Strategies for Domestic Stocks Linked to Wall Street's Next Big Theme After Semicond...",
+        "url": "https://youtu.be/2UuW8ly9m2o",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자,하이닉스가 가진 의외의 리스크",
+        "url": "https://youtu.be/fcje1fZLvbY",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -568,10 +743,12 @@
     "region": "global",
     "youtuber": "T3chfeed - Tech Stock Insights",
     "channel_id": "",
-    "video_count": 10,
-    "mention_count": 4,
+    "video_count": 20,
+    "short_count": 10,
+    "regular_video_count": 10,
+    "mention_count": 5,
     "transcript_count": 0,
-    "metadata_count": 10,
+    "metadata_count": 20,
     "transcript_chars": 0,
     "stocks": [
       {
@@ -583,6 +760,11 @@
         "ticker": "PLTR",
         "name": "Palantir",
         "count": 1
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 1
       }
     ],
     "videos": [
@@ -592,7 +774,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It",
@@ -602,7 +785,8 @@
           "NVDA"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "NVIDIA's shocking Q1 results...",
@@ -612,7 +796,8 @@
           "NVDA"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "SpaceX IPO Filing, Shocking Revenue Levels",
@@ -620,7 +805,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Will China accept these two?",
@@ -628,7 +814,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Even Wall Street legends are openly speaking about the current market conditions",
@@ -636,7 +823,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Is the widening of IonQ's losses justified?",
@@ -644,7 +832,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "\"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise",
@@ -654,7 +843,8 @@
           "PLTR"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Nvidia challenges confidence to prove it, new high achieved",
@@ -664,7 +854,8 @@
           "NVDA"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "스페이스X 다큐멘터리: 비행하듯 시험하라",
@@ -672,108 +863,100 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
-      }
-    ]
-  },
-  {
-    "region": "domestic",
-    "youtuber": "경제사냥꾼",
-    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 10,
-    "mention_count": 1,
-    "transcript_count": 0,
-    "metadata_count": 10,
-    "transcript_chars": 0,
-    "stocks": [
-      {
-        "ticker": "003550",
-        "name": "LG",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "트럼프가 14조 쏟아붓자, 역대급 상승장 올 수도 있다는 '한국 종목' 정체",
-        "url": "https://youtu.be/CGGitwvIEwk",
-        "published_at": "2026-06-01T04:45:10+00:00",
-        "tickers": [],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
-        "title": "6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지",
-        "url": "https://youtu.be/LL7jqfzZI0k",
-        "published_at": "2026-06-01T02:29:07+00:00",
+        "title": "Gene editing that defies God",
+        "url": "https://youtu.be/O_KNCAkiG-o",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       },
       {
-        "title": "월가에서 372% 오른 '로켓랩' 다음으로 상승장 올 수 있다는 '종목' 정체",
-        "url": "https://youtu.be/YetajTuzG04",
-        "published_at": "2026-05-31T21:42:07+00:00",
+        "title": "모기를 멸종시켜버릴 수 있는 유전자편집 기술",
+        "url": "https://youtu.be/zqG8V_iUWRI",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       },
       {
-        "title": "현재 '미국 주식' 중에서 가장 저평가됐다는 '종목' 3개",
-        "url": "https://youtu.be/bICJIzEYXiA",
-        "published_at": "2026-05-31T14:30:22+00:00",
+        "title": "유전자편집의 시대가 열렸습니다.",
+        "url": "https://youtu.be/bzBtnC37WcU",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       },
       {
-        "title": "'오픈AI' 상장 후, 역대급 상승장 올 수도 있다는 ‘한국 수혜주’ 정체",
-        "url": "https://youtu.be/yE1BXDeSnnw",
-        "published_at": "2026-05-31T11:30:05+00:00",
-        "tickers": [],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0
-      },
-      {
-        "title": "이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)",
-        "url": "https://youtu.be/r5a6RLvYSNk",
-        "published_at": "2026-05-31T09:33:37+00:00",
-        "tickers": [],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0
-      },
-      {
-        "title": "LG 주식들 12월까지 주가 끌어 올릴 수 있다는 '신의 한수'",
-        "url": "https://youtu.be/ZKVt7vdyx7s",
-        "published_at": "2026-05-31T06:26:34+00:00",
+        "title": "The Cyborg Era Opened by Tesla #USStocks #TargetPrice #Tesla",
+        "url": "https://youtu.be/8QprJRquCMc",
+        "published_at": "",
         "tickers": [
-          "003550"
+          "TSLA"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       },
       {
-        "title": "'제2의 하이닉스' 월가가 지금 주목하고 있다는 '신규 대장주' 정체",
-        "url": "https://youtu.be/HDI_HnYzxrE",
-        "published_at": "2026-05-31T03:00:33+00:00",
+        "title": "뇌에 칩을 이식 하는 과정  #미국주식 #테슬라",
+        "url": "https://youtu.be/LNlGNQs19nU",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       },
       {
-        "title": "투자자들이 미리 체크하는, 다음주 '투자' 포인트(06.01~06.05)",
-        "url": "https://youtu.be/EfNfXvCxOac",
-        "published_at": "2026-05-31T01:00:05+00:00",
+        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
+        "url": "https://youtu.be/A45bkodmBEQ",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       },
       {
-        "title": "월가가 지금 보고 있다는 ‘조선주’ 매수 타이밍",
-        "url": "https://youtu.be/SSPXSGdl0jE",
-        "published_at": "2026-05-30T23:00:18+00:00",
+        "title": "아이온큐 양자컴퓨터의 분자구조 모델  #미국주식 #목표주가 #아이온큐 #양자컴퓨터",
+        "url": "https://youtu.be/rF5hgYKZbiA",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 vs 일반 자동차 회사들의 시급비교 #미국주식 #테슬라 #장기투자",
+        "url": "https://youtu.be/9CqTLCuTuns",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "아이온큐의 신제품, 포르테 엔터프라이즈 #미국주식 #목표주가 #양자컴퓨터 #아이온큐",
+        "url": "https://youtu.be/SK5XW-9pPOI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "아이온큐의 새로운 원자, 바륨 #아이온큐 #미국주식 #양자컴퓨터",
+        "url": "https://youtu.be/7tOVUuYYl3U",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -781,10 +964,12 @@
     "region": "global",
     "youtuber": "월가아재의 과학적 투자",
     "channel_id": "",
-    "video_count": 10,
+    "video_count": 20,
+    "short_count": 10,
+    "regular_video_count": 10,
     "mention_count": 1,
     "transcript_count": 0,
-    "metadata_count": 10,
+    "metadata_count": 20,
     "transcript_chars": 0,
     "stocks": [
       {
@@ -802,7 +987,8 @@
           "ORCL"
         ],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Uncle] \"US Stocks Are Expensive Right Now\": Why a Wall Street Legend Is Wary of AI",
@@ -810,7 +996,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Uncle] The Wall Street Titan Who Went All-In on Chinese Stocks: Dumping China to Bet...",
@@ -818,7 +1005,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[월가아재] \"버블 8회 말이다\" 30년 무패 거장이 AI 대장주 전량 청산하고 몰빵한 이 종목 (Q1 13f 분석)",
@@ -826,7 +1014,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Jae] \"Evidence\" comes before profit. How to study for evidence-based investing | Val...",
@@ -834,7 +1023,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[월가아재] 앞으로 10년 매크로 투자의 핵심? 달러는 이제 보험이 아니다 | 배리 아이켄그린 2부",
@@ -842,7 +1032,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Uncle] Is Dollar Hegemony Shaken? The Dollar May No Longer Be Free | Barry Eichengre...",
@@ -850,7 +1041,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Uncle] The Wall Street Uncle Team's Practical Investment Training Program Prepared f...",
@@ -858,7 +1050,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Guy] I’ll tell you the perfect asset for your account right now.",
@@ -866,7 +1059,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "[Wall Street Uncle] Now that everyone is cheering for the AI ​​bull market, you should pay attent...",
@@ -874,7 +1068,98 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현대인에게 '행동경제학'이 필수인 이유",
+        "url": "https://youtu.be/-DL5I2LV06Y",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Will becoming rich really make you happy?",
+        "url": "https://youtu.be/km8lJ-Ro-aE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "베센트가 예고한 재무부의 역습",
+        "url": "https://youtu.be/64J0SPhxvPo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "NEXT 엔비디아는 '전력'?",
+        "url": "https://youtu.be/0hHEB8bI_X8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "공대에 미친 중국",
+        "url": "https://youtu.be/EVyO0tv4j8M",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "비트코인은 '쓰레기'일까?",
+        "url": "https://youtu.be/5giuK6ay6-A",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "미국이 인플레를 '방치'하는 속사정",
+        "url": "https://youtu.be/O0-kHcJWClo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "차기 연준의장 후보 케빈 워시의 정책 철학은?",
+        "url": "https://youtu.be/7cblTl0Egms",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Japan's Interest Rate Shock: Why Are My Stocks Falling?",
+        "url": "https://youtu.be/Spvnt9ERpCA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "오픈AI, 스페이스X 상장은 재앙?",
+        "url": "https://youtu.be/1LUYF4CFExI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -882,10 +1167,12 @@
     "region": "global",
     "youtuber": "주식쇼퍼 - 투자도 쇼핑처럼",
     "channel_id": "",
-    "video_count": 10,
+    "video_count": 20,
+    "short_count": 10,
+    "regular_video_count": 10,
     "mention_count": 0,
     "transcript_count": 0,
-    "metadata_count": 10,
+    "metadata_count": 20,
     "transcript_chars": 0,
     "stocks": [],
     "videos": [
@@ -895,7 +1182,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Should You Buy or Sell U.S. Stocks? Comparing Contrasting Perspectives",
@@ -903,7 +1191,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "Samsung Electronics/Hynix Leverage/Inverse ETFs Are Coming on \"May 27\"",
@@ -911,7 +1200,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "\"Earned 250 Trillion Won\": Let's Take a Look at the National Pension Service Portfolio, the Stock...",
@@ -919,7 +1209,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "\"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다",
@@ -927,7 +1218,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "How much would I get back with my annual salary? National Growth Fund Refund Simulation",
@@ -935,7 +1227,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "\"Why buy Samsung Electronics Preferred Stock?\" Foreigners know the answer (Samsung Electronics vs...",
@@ -943,7 +1236,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "\"A dividend investment site built with determination\" The Google Sheets household ledger used by ...",
@@ -951,7 +1245,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "\"Covered Call ❌\" 13% Odds? If you are debating whether to buy now (BDC ARCC MAIN)",
@@ -959,7 +1254,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "In the \"era of high exchange rates,\" companies that have stockpiled three years' worth of work wi...",
@@ -967,7 +1263,203 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "Investing in Bitcoin with your retirement pension #RetirementPensionBitcoin",
+        "url": "https://youtu.be/9qBeO2oFD1Y",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "월배당 100만원을 받으면 인생이 바뀔까?",
+        "url": "https://youtu.be/rt09KsDUr_U",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "용돈받는 남편 아직도 있나요?",
+        "url": "https://youtu.be/RWrE1YzTIaY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "스타벅스 커피를 평생 공짜로 마시는 방법 #SBUX",
+        "url": "https://youtu.be/5pusYkdM5ic",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "The average office worker's salary is 3.55 million won, but what if you earn less than that? #Salary",
+        "url": "https://youtu.be/fyQkVUs4XPo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "요즘 유행하는 어둠의 멍거형과 대화해봤다 #찰리멍거",
+        "url": "https://youtu.be/61jiWsy_Aeg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "부자가 되기 전 하면 안되는 3가지",
+        "url": "https://youtu.be/76EYAobZlzo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "A portfolio of a 27-year investor receiving a monthly dividend of 13 million won",
+        "url": "https://youtu.be/RgsqMvirIzk",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "도지코인 사버렸습니다. 진짜로 떨어질 듯?",
+        "url": "https://youtu.be/Tqt_4l1Ynfg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Once you save your first 100 million, your assets will snowball. #save100million #snowball #compo...",
+        "url": "https://youtu.be/Ncsmwc3tNGc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
+    "youtuber": "경제사냥꾼",
+    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
+    "video_count": 10,
+    "short_count": 10,
+    "regular_video_count": 0,
+    "mention_count": 0,
+    "transcript_count": 0,
+    "metadata_count": 10,
+    "transcript_chars": 0,
+    "stocks": [],
+    "videos": [
+      {
+        "title": "The Identity of 'Korean Stocks' That Could Bring an All-Time Bull Market After Trump Pours 14 Tri...",
+        "url": "https://youtu.be/CGGitwvIEwk",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "3 Key Investment Points Investors Must Know for June 1st",
+        "url": "https://youtu.be/LL7jqfzZI0k",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Identity of the 'stock' on Wall Street that could lead to a bull market following 'Rocket Lab,' w...",
+        "url": "https://youtu.be/YetajTuzG04",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "The 3 'stocks' currently considered the most undervalued among 'US stocks'",
+        "url": "https://youtu.be/bICJIzEYXiA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Identity of the ‘Korean Beneficiary Stocks’ That Could Bring an All-Time Record Bull Market After...",
+        "url": "https://youtu.be/yE1BXDeSnnw",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "The Identity of the ‘AI Company’ into which the Lee Jae-myung Administration is pouring 800 billi...",
+        "url": "https://youtu.be/r5a6RLvYSNk",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "The Identity of the 'New Leading Stock' That Wall Street Is Currently Paying Attention to as the ...",
+        "url": "https://youtu.be/HDI_HnYzxrE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Next Week's 'Investment' Points Investors Check in Advance (June 1–June 5)",
+        "url": "https://youtu.be/EfNfXvCxOac",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Buying Timing for the ‘Shipbuilding Stocks’ Wall Street Is Currently Watching",
+        "url": "https://youtu.be/SSPXSGdl0jE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "Kakao’s ‘First Strike’: 3 Issues Shareholders Must Know Right Now",
+        "url": "https://youtu.be/fhzgzWQLp4k",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -976,6 +1468,8 @@
     "youtuber": "올랜도 킴 미국주식",
     "channel_id": "",
     "video_count": 10,
+    "short_count": 0,
+    "regular_video_count": 10,
     "mention_count": 0,
     "transcript_count": 0,
     "metadata_count": 10,
@@ -988,7 +1482,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
@@ -996,7 +1491,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
@@ -1004,7 +1500,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
@@ -1012,7 +1509,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(아이온큐) 남들이 비난할때 매수하고 칭찬할때는 조심하자!!!",
@@ -1020,7 +1518,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
@@ -1028,7 +1527,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(긴급시황) 전쟁 다시 시작? 그러면 기회를 찿자!!!",
@@ -1036,7 +1536,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(시황분석) 조정은 있지만 조정의 폭이 깊지 않다",
@@ -1044,7 +1545,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
@@ -1052,7 +1554,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       },
       {
         "title": "(시황분석) 지금은 버블이 무서워서 매도를 하거나 매수를 못할때가 아니다!!!",
@@ -1060,7 +1563,8 @@
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
-        "transcript_chars": 0
+        "transcript_chars": 0,
+        "youtube_kind": "video"
       }
     ]
   }

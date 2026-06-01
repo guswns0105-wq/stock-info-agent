@@ -183,31 +183,74 @@ def collect_youtube_channel(src):
     try:
         channel_title=src.get('name','')
         entries=[]
-        if cid:
+        seen_ids=set()
+
+        def add_entry(entry, kind):
+            vid=(entry.get('vid') or entry.get('id') or '').strip()
+            if not vid or vid in seen_ids:
+                return
+            seen_ids.add(vid)
+            entries.append({
+                'vid':vid,
+                'title':entry.get('title') or '',
+                'published':entry.get('published') or '',
+                'desc':entry.get('desc') or entry.get('description') or '',
+                'kind':kind,
+            })
+
+        def collect_rss_videos():
+            nonlocal channel_title
+            if not cid:
+                return
             feed=f'https://www.youtube.com/feeds/videos.xml?channel_id={cid}'
             _,_,b=fetch(feed)
             root=ET.fromstring(b)
             ns={'a':'http://www.w3.org/2005/Atom','yt':'http://www.youtube.com/xml/schemas/2015','m':'http://search.yahoo.com/mrss/'}
             channel_title=root.findtext('a:title', default=src.get('name',''), namespaces=ns) or src.get('name','')
             for e in root.findall('a:entry',ns)[:YOUTUBE_LATEST_LIMIT]:
-                vid=(e.findtext('yt:videoId', default='', namespaces=ns) or '').strip()
-                title=e.findtext('a:title', default='', namespaces=ns)
-                published=e.findtext('a:published', default='', namespaces=ns)
                 desc=''; mg=e.find('m:group',ns)
                 if mg is not None: desc=mg.findtext('m:description', default='', namespaces=ns)
-                entries.append({'vid':vid,'title':title,'published':published,'desc':desc})
-        else:
+                add_entry({
+                    'vid':e.findtext('yt:videoId', default='', namespaces=ns),
+                    'title':e.findtext('a:title', default='', namespaces=ns),
+                    'published':e.findtext('a:published', default='', namespaces=ns),
+                    'desc':desc,
+                }, 'video')
+
+        def collect_flat_tab(tab):
+            nonlocal channel_title
             ytdlp=shutil.which('yt-dlp') or '/Users/mac1/.hermes-4/home/.local/bin/yt-dlp'
-            channel_url=src.get('url','').split('?')[0]
-            if channel_url and not channel_url.endswith('/videos'):
-                channel_url=channel_url.rstrip('/')+'/videos'
-            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(YOUTUBE_LATEST_LIMIT),'--dump-single-json','--ignore-no-formats-error','--no-warnings',channel_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
+            base=src.get('url','').split('?')[0].rstrip('/')
+            if cid:
+                base='https://www.youtube.com/channel/'+cid
+            tab_url=base+'/'+tab
+            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(YOUTUBE_LATEST_LIMIT),'--dump-single-json','--ignore-no-formats-error','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
             if proc.returncode != 0 or not proc.stdout.strip():
                 raise RuntimeError((proc.stderr or proc.stdout)[-400:])
             data=json.loads(proc.stdout)
-            channel_title=(data.get('title') or src.get('name','')).replace(' - Videos','')
+            channel_title=(data.get('channel') or data.get('uploader') or data.get('title') or src.get('name','')).replace(' - Videos','').replace(' - Shorts','')
+            kind='short' if tab == 'shorts' else 'video'
             for e in (data.get('entries') or [])[:YOUTUBE_LATEST_LIMIT]:
-                entries.append({'vid':e.get('id',''), 'title':e.get('title',''), 'published':'', 'desc':e.get('description') or ''})
+                add_entry(e, kind)
+
+        tabs=[]
+        if src.get('prefer_shorts'):
+            tabs=['shorts']
+        else:
+            tabs=['videos','shorts']
+        for tab in tabs:
+            try:
+                if tab == 'videos' and cid:
+                    collect_rss_videos()
+                else:
+                    collect_flat_tab(tab)
+            except Exception as tab_error:
+                # RSS can miss Shorts and some handle pages need yt-dlp; keep other tabs alive.
+                if tab == 'videos' and not cid:
+                    raise
+                if tab == 'shorts':
+                    print(f'warning: shorts collection failed for {src.get("name")}: {str(tab_error)[:180]}')
+
         transcripts={}
         def transcript_for(entry):
             vid=entry.get('vid')
@@ -229,11 +272,11 @@ def collect_youtube_channel(src):
         for entry in entries:
             vid=entry['vid']; title=entry['title']; desc=entry['desc']; published=entry['published']
             transcript, method, status=transcripts.get(vid, ('', 'none', 'missing transcript task'))
-            is_short = '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
+            is_short = entry.get('kind') == 'short' or '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
             summary = clean_text(transcript[:900] if transcript else desc[:700])
             if not summary: summary = '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
             confidence = 'transcript' if transcript else 'metadata'
-            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
+            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
     except Exception as e:
         out.append({'source':src.get('name','YouTube channel'),'channel_id':cid,'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed','transcript_chars':0,'extraction_quality':'failed'})
     return out
@@ -321,14 +364,18 @@ def main():
         if not str(item.get('source_type','')).startswith('youtube'):
             continue
         ykey=(item.get('region','domestic'), item.get('channel_id') or item.get('source'))
-        ys=ystats_map.setdefault(ykey, {'region':item.get('region','domestic'), 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
+        ys=ystats_map.setdefault(ykey, {'region':item.get('region','domestic'), 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'short_count':0, 'regular_video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
         ys['video_count'] += 1
+        if item.get('source_type') == 'youtube_short':
+            ys['short_count'] += 1
+        else:
+            ys['regular_video_count'] += 1
         if item.get('confidence') == 'transcript':
             ys['transcript_count'] += 1
         else:
             ys['metadata_count'] += 1
         ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
-        ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':item.get('tickers', []), 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0)})
+        ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':item.get('tickers', []), 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
         for ticker in item.get('tickers', []):
             name=lex.get(item.get('region','domestic'),{}).get(ticker) or lex.get('global',{}).get(ticker) or ticker
             stock=ys['stocks'].setdefault(ticker, {'ticker':ticker, 'name':name, 'count':0})
