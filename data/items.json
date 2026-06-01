@@ -1,0 +1,32 @@
+[
+  {
+    "region": "domestic",
+    "source": "샘플",
+    "title": "국내 탭 예시: 반도체/AI 관련 뉴스와 유튜버 언급을 이곳에 표시",
+    "summary": "유튜버/블로그 목록을 주시면 매일 오전 8시에 핵심 이슈, 종목 언급, 근거, 리스크를 요약합니다.",
+    "tickers": [
+      "005930",
+      "000660"
+    ],
+    "recommendation": "관심",
+    "confidence": "sample",
+    "url": "",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:50"
+  },
+  {
+    "region": "global",
+    "source": "샘플",
+    "title": "해외 탭 예시: 미국 주식/ETF/매크로 이슈를 이곳에 표시",
+    "summary": "해외 유튜버/블로그/RSS를 받아 핵심 뉴스, 종목 언급, 촉매, 리스크를 분리해 보여줍니다.",
+    "tickers": [
+      "NVDA",
+      "TSLA"
+    ],
+    "recommendation": "관심",
+    "confidence": "sample",
+    "url": "",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:50"
+  }
+]

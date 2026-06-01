@@ -1,0 +1,8 @@
+{
+  "domestic": [],
+  "global": [],
+  "news": [
+    {"name":"연합뉴스 경제","type":"rss","region":"domestic","url":"https://www.yna.co.kr/rss/economy.xml"},
+    {"name":"Yahoo Finance Top Stories","type":"rss","region":"global","url":"https://finance.yahoo.com/news/rssindex"}
+  ]
+}
