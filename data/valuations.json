@@ -1,0 +1,849 @@
+{
+  "generated_at": "2026-06-01T15:03",
+  "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) 기반 휴리스틱 적정가·관찰매수가 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
+  "valuations": [
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "region": "global",
+      "price": 435.79,
+      "currency": "USD",
+      "pe": 423.798,
+      "forward_pe": 202.636,
+      "pb": 19.454,
+      "roe": 4.901,
+      "profit_margin": 3.946,
+      "eps": null,
+      "fair_value": 51.65796606777976,
+      "watch_buy_price": 42.3595321755794,
+      "margin_to_fair_pct": -88.14613321375438,
+      "verdict": "고평가 주의",
+      "action": "42.36 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -4,
+      "positives": [
+        "출처 언급 16회"
+      ],
+      "risks": [
+        "ROE 낮음 4.90%",
+        "PER 부담 202.6배"
+      ],
+      "valuation_basis": [
+        "PER 202.6배 → 기준 PER 22.00배",
+        "PBR 19.45배 → 기준 PBR 2.50배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/TSLA",
+        "https://stockanalysis.com/stocks/tsla/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "region": "global",
+      "price": 211.14,
+      "currency": "USD",
+      "pe": 32.336,
+      "forward_pe": 21.245,
+      "pb": 26.162,
+      "roe": 114.288,
+      "profit_margin": 62.966,
+      "eps": null,
+      "fair_value": 195.03105960221885,
+      "watch_buy_price": 159.92546887381945,
+      "margin_to_fair_pct": -7.629506676982634,
+      "verdict": "중립/대기",
+      "action": "159.9 USD 근처 대기",
+      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
+      "score": 5,
+      "positives": [
+        "출처 언급 15회",
+        "ROE 114.3%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 21.25배 → 기준 PER 36.00배",
+        "PBR 26.16배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+        "https://stockanalysis.com/stocks/nvda/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "region": "domestic",
+      "price": 350500.0,
+      "currency": "KRW",
+      "pe": 36.84,
+      "forward_pe": null,
+      "pb": 1.51,
+      "roe": 4.15,
+      "profit_margin": null,
+      "eps": 2131.0,
+      "fair_value": 108478.91511530081,
+      "watch_buy_price": 88952.71039454667,
+      "margin_to_fair_pct": -69.05023819820232,
+      "verdict": "고평가 주의",
+      "action": "88,953 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -4,
+      "positives": [
+        "출처 언급 11회"
+      ],
+      "risks": [
+        "ROE 낮음 4.15%",
+        "PER 부담 36.84배"
+      ],
+      "valuation_basis": [
+        "PER 36.84배 → 기준 PER 12.00배",
+        "EPS 2,131 → 기준 PER 12.00배",
+        "PBR 1.51배 → 기준 PBR 0.80배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=005930",
+        "https://query1.finance.yahoo.com/v8/finance/chart/005930.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "region": "domestic",
+      "price": 2367000.0,
+      "currency": "KRW",
+      "pe": 6.4,
+      "forward_pe": null,
+      "pb": 1.82,
+      "roe": 31.06,
+      "profit_margin": null,
+      "eps": 27182.0,
+      "fair_value": 3333603.792124542,
+      "watch_buy_price": 2733555.1095421244,
+      "margin_to_fair_pct": 40.83666210919061,
+      "verdict": "저평가 후보",
+      "action": "2,733,555 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 7,
+      "positives": [
+        "출처 언급 11회",
+        "ROE 31.06%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 6.40배 → 기준 PER 17.00배",
+        "EPS 27,182 → 기준 PER 17.00배",
+        "PBR 1.82배 → 기준 PBR 2.50배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=000660",
+        "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "003550",
+      "name": "LG",
+      "region": "domestic",
+      "price": 168300.0,
+      "currency": "KRW",
+      "pe": 10.92,
+      "forward_pe": null,
+      "pb": 0.51,
+      "roe": 4.89,
+      "profit_margin": null,
+      "eps": 7867.0,
+      "fair_value": 181116.35164835164,
+      "watch_buy_price": 148515.40835164834,
+      "margin_to_fair_pct": 7.615182203417503,
+      "verdict": "관심권",
+      "action": "148,515 KRW 부근까지 조정 시 매력 증가",
+      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
+      "score": 2,
+      "positives": [
+        "출처 언급 8회",
+        "PBR 0.51배"
+      ],
+      "risks": [
+        "ROE 낮음 4.89%"
+      ],
+      "valuation_basis": [
+        "PER 10.92배 → 기준 PER 12.00배",
+        "EPS 7,867 → 기준 PER 12.00배",
+        "PBR 0.51배 → 기준 PBR 0.80배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=003550",
+        "https://query1.finance.yahoo.com/v8/finance/chart/003550.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ",
+      "region": "global",
+      "price": 72.07,
+      "currency": "USD",
+      "pe": 78.222,
+      "forward_pe": null,
+      "pb": 5.405,
+      "roe": 11.286,
+      "profit_margin": 174.881,
+      "eps": null,
+      "fair_value": 29.566366247955155,
+      "watch_buy_price": 24.244420323323226,
+      "margin_to_fair_pct": -58.97548737622429,
+      "verdict": "고평가 주의",
+      "action": "24.24 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -2,
+      "positives": [
+        "출처 언급 8회",
+        "ROE 11.29%"
+      ],
+      "risks": [
+        "PER 부담 78.22배"
+      ],
+      "valuation_basis": [
+        "PER 78.22배 → 기준 PER 28.00배",
+        "PBR 5.41배 → 기준 PBR 2.50배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/IONQ",
+        "https://stockanalysis.com/stocks/ionq/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "region": "global",
+      "price": 450.24,
+      "currency": "USD",
+      "pe": 26.816,
+      "forward_pe": 24.357,
+      "pb": 8.072,
+      "roe": 34.014,
+      "profit_margin": 39.342,
+      "eps": null,
+      "fair_value": 444.2866278868921,
+      "watch_buy_price": 364.31503486725154,
+      "margin_to_fair_pct": -1.3222663719589356,
+      "verdict": "중립/대기",
+      "action": "364.3 USD 근처 대기",
+      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
+      "score": 5,
+      "positives": [
+        "출처 언급 6회",
+        "ROE 34.01%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 24.36배 → 기준 PER 36.00배",
+        "PBR 8.07배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
+        "https://stockanalysis.com/stocks/msft/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "region": "global",
+      "price": 156.54,
+      "currency": "USD",
+      "pe": 175.972,
+      "forward_pe": 99.34,
+      "pb": 44.41,
+      "roe": 32.587,
+      "profit_margin": 43.673,
+      "eps": null,
+      "fair_value": 35.414168640249244,
+      "watch_buy_price": 29.03961828500438,
+      "margin_to_fair_pct": -77.37692050578175,
+      "verdict": "고평가 주의",
+      "action": "29.04 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -1,
+      "positives": [
+        "출처 언급 5회",
+        "ROE 32.59%"
+      ],
+      "risks": [
+        "PER 부담 99.34배"
+      ],
+      "valuation_basis": [
+        "PER 99.34배 → 기준 PER 36.00배",
+        "PBR 44.41배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/PLTR",
+        "https://stockanalysis.com/stocks/pltr/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "035720",
+      "name": "카카오",
+      "region": "domestic",
+      "price": 42850.0,
+      "currency": "KRW",
+      "pe": 306.86,
+      "forward_pe": null,
+      "pb": 2.44,
+      "roe": 0.56,
+      "profit_margin": null,
+      "eps": 124.0,
+      "fair_value": 5737.621016543741,
+      "watch_buy_price": 4704.849233565867,
+      "margin_to_fair_pct": -86.60998595905778,
+      "verdict": "고평가 주의",
+      "action": "4,705 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -4,
+      "positives": [
+        "출처 언급 5회"
+      ],
+      "risks": [
+        "ROE 낮음 0.56%",
+        "PER 부담 306.9배"
+      ],
+      "valuation_basis": [
+        "PER 306.9배 → 기준 PER 12.00배",
+        "EPS 124.0 → 기준 PER 12.00배",
+        "PBR 2.44배 → 기준 PBR 0.80배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=035720",
+        "https://query1.finance.yahoo.com/v8/finance/chart/035720.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "META",
+      "name": "Meta",
+      "region": "global",
+      "price": 632.51,
+      "currency": "USD",
+      "pe": 23.01,
+      "forward_pe": 19.27,
+      "pb": 6.588,
+      "roe": 32.93,
+      "profit_margin": 32.837,
+      "eps": null,
+      "fair_value": 815.6664609176031,
+      "watch_buy_price": 668.8464979524346,
+      "margin_to_fair_pct": 28.9570854085474,
+      "verdict": "저평가 후보",
+      "action": "668.8 USD 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 7,
+      "positives": [
+        "출처 언급 5회",
+        "ROE 32.93%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 19.27배 → 기준 PER 38.00배",
+        "PBR 6.59배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/META",
+        "https://stockanalysis.com/stocks/meta/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "region": "global",
+      "price": 380.34,
+      "currency": "USD",
+      "pe": 29.017,
+      "forward_pe": 30.391,
+      "pb": 9.626,
+      "roe": 38.885,
+      "profit_margin": 37.919,
+      "eps": null,
+      "fair_value": 304.29148505594884,
+      "watch_buy_price": 249.51901774587805,
+      "margin_to_fair_pct": -19.994876937490435,
+      "verdict": "고평가 주의",
+      "action": "249.5 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 2,
+      "positives": [
+        "출처 언급 4회",
+        "ROE 38.88%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 30.39배 → 기준 PER 36.00배",
+        "PBR 9.63배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL",
+        "https://stockanalysis.com/stocks/googl/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet",
+      "region": "global",
+      "price": 376.43,
+      "currency": "USD",
+      "pe": 28.63,
+      "forward_pe": 30.041,
+      "pb": 9.581,
+      "roe": 38.885,
+      "profit_margin": 37.919,
+      "eps": null,
+      "fair_value": 304.12818516569257,
+      "watch_buy_price": 249.3851118358679,
+      "margin_to_fair_pct": -19.207240345962706,
+      "verdict": "고평가 주의",
+      "action": "249.4 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 2,
+      "positives": [
+        "출처 언급 4회",
+        "ROE 38.88%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 30.04배 → 기준 PER 36.00배",
+        "PBR 9.58배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/GOOG",
+        "https://stockanalysis.com/stocks/goog/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "region": "global",
+      "price": 971.0,
+      "currency": "USD",
+      "pe": 45.679,
+      "forward_pe": 10.269,
+      "pb": 15.116,
+      "roe": 39.823,
+      "profit_margin": 41.486,
+      "eps": null,
+      "fair_value": 1925.0453486577562,
+      "watch_buy_price": 1578.53718589936,
+      "margin_to_fair_pct": 98.25389790502123,
+      "verdict": "저평가 후보",
+      "action": "1,579 USD 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 7,
+      "positives": [
+        "출처 언급 3회",
+        "ROE 39.82%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 10.27배 → 기준 PER 38.00배",
+        "PBR 15.12배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/MU",
+        "https://stockanalysis.com/stocks/mu/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "region": "global",
+      "price": 270.64,
+      "currency": "USD",
+      "pe": 32.368,
+      "forward_pe": 32.445,
+      "pb": 6.586,
+      "roe": 24.285,
+      "profit_margin": 12.224,
+      "eps": null,
+      "fair_value": 173.94296713768733,
+      "watch_buy_price": 142.6332330529036,
+      "margin_to_fair_pct": -35.7290248530567,
+      "verdict": "고평가 주의",
+      "action": "142.6 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 1,
+      "positives": [
+        "출처 언급 3회",
+        "ROE 24.29%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 32.45배 → 기준 PER 22.00배",
+        "PBR 6.59배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
+        "https://stockanalysis.com/stocks/amzn/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "005380",
+      "name": "현대차",
+      "region": "domestic",
+      "price": 755000.0,
+      "currency": "KRW",
+      "pe": 4.67,
+      "forward_pe": null,
+      "pb": 0.58,
+      "roe": 13.68,
+      "profit_margin": null,
+      "eps": 43589.0,
+      "fair_value": 1699859.1911688696,
+      "watch_buy_price": 1393884.536758473,
+      "margin_to_fair_pct": 125.14691273759864,
+      "verdict": "저평가 후보",
+      "action": "1,393,885 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 6,
+      "positives": [
+        "ROE 13.68%",
+        "PER가 기준보다 낮음",
+        "PBR 0.58배"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 4.67배 → 기준 PER 14.00배",
+        "EPS 43,589 → 기준 PER 14.00배",
+        "PBR 0.58배 → 기준 PBR 1.71배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=005380",
+        "https://query1.finance.yahoo.com/v8/finance/chart/005380.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "region": "global",
+      "price": 312.06,
+      "currency": "USD",
+      "pe": 37.83,
+      "forward_pe": 34.236,
+      "pb": 42.982,
+      "roe": 141.471,
+      "profit_margin": 27.152,
+      "eps": null,
+      "fair_value": 178.58989758312742,
+      "watch_buy_price": 146.44371601816448,
+      "margin_to_fair_pct": -42.770653854025696,
+      "verdict": "고평가 주의",
+      "action": "146.4 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 1,
+      "positives": [
+        "ROE 141.5%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 34.24배 → 기준 PER 36.00배",
+        "PBR 42.98배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
+        "https://stockanalysis.com/stocks/aapl/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "region": "domestic",
+      "price": 461000.0,
+      "currency": "KRW",
+      "pe": 80.86,
+      "forward_pe": null,
+      "pb": 4.95,
+      "roe": 6.35,
+      "profit_margin": null,
+      "eps": 5287.0,
+      "fair_value": 68787.86472025058,
+      "watch_buy_price": 56406.04907060548,
+      "margin_to_fair_pct": -85.07855429061809,
+      "verdict": "고평가 주의",
+      "action": "56,406 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -5,
+      "positives": [],
+      "risks": [
+        "PER 부담 80.86배",
+        "PBR 부담 4.95배"
+      ],
+      "valuation_basis": [
+        "PER 80.86배 → 기준 PER 12.00배",
+        "EPS 5,287 → 기준 PER 12.00배",
+        "PBR 4.95배 → 기준 PBR 0.80배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=373220",
+        "https://query1.finance.yahoo.com/v8/finance/chart/373220.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "006400",
+      "name": "삼성SDI",
+      "region": "domestic",
+      "price": 654000.0,
+      "currency": "KRW",
+      "pe": 16.63,
+      "forward_pe": null,
+      "pb": 1.72,
+      "roe": 11.48,
+      "profit_margin": null,
+      "eps": 27788.0,
+      "fair_value": 495078.99256503844,
+      "watch_buy_price": 405964.7739033315,
+      "margin_to_fair_pct": -24.299848231645495,
+      "verdict": "고평가 주의",
+      "action": "405,965 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -1,
+      "positives": [
+        "ROE 11.48%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 16.63배 → 기준 PER 14.00배",
+        "EPS 27,788 → 기준 PER 14.00배",
+        "PBR 1.72배 → 기준 PBR 1.44배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=006400",
+        "https://query1.finance.yahoo.com/v8/finance/chart/006400.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "009150",
+      "name": "삼성전기",
+      "region": "domestic",
+      "price": 2018000.0,
+      "currency": "KRW",
+      "pe": 28.11,
+      "forward_pe": null,
+      "pb": 1.47,
+      "roe": 5.5,
+      "profit_margin": null,
+      "eps": 5450.0,
+      "fair_value": 675034.6926675331,
+      "watch_buy_price": 553528.4479873771,
+      "margin_to_fair_pct": -66.54932147336308,
+      "verdict": "고평가 주의",
+      "action": "553,528 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -4,
+      "positives": [],
+      "risks": [
+        "PER 부담 28.11배"
+      ],
+      "valuation_basis": [
+        "PER 28.11배 → 기준 PER 12.00배",
+        "EPS 5,450 → 기준 PER 12.00배",
+        "PBR 1.47배 → 기준 PBR 0.80배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=009150",
+        "https://query1.finance.yahoo.com/v8/finance/chart/009150.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "region": "global",
+      "price": 225.78,
+      "currency": "USD",
+      "pe": 40.513,
+      "forward_pe": 29.994,
+      "pb": 19.353,
+      "roe": 57.572,
+      "profit_margin": 25.298,
+      "eps": null,
+      "fair_value": 158.82791563738263,
+      "watch_buy_price": 130.23889082265376,
+      "margin_to_fair_pct": -29.65368250625271,
+      "verdict": "고평가 주의",
+      "action": "130.2 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 1,
+      "positives": [
+        "ROE 57.57%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 29.99배 → 기준 PER 36.00배",
+        "PBR 19.35배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/ORCL",
+        "https://stockanalysis.com/stocks/orcl/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "region": "global",
+      "price": 418.45,
+      "currency": "USD",
+      "pe": 32.591,
+      "forward_pe": 22.647,
+      "pb": 10.485,
+      "roe": 36.21,
+      "profit_margin": 46.505,
+      "eps": null,
+      "fair_value": 412.40588637465237,
+      "watch_buy_price": 338.1728268272149,
+      "margin_to_fair_pct": -1.4444052157599807,
+      "verdict": "중립/대기",
+      "action": "338.2 USD 근처 대기",
+      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
+      "score": 4,
+      "positives": [
+        "ROE 36.21%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 22.65배 → 기준 PER 36.00배",
+        "PBR 10.48배 → 기준 PBR 4.00배"
+      ],
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/TSM",
+        "https://stockanalysis.com/stocks/tsm/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "000270",
+      "name": "기아",
+      "region": "domestic",
+      "price": 170550.0,
+      "currency": "KRW",
+      "pe": 4.59,
+      "forward_pe": null,
+      "pb": 0.85,
+      "roe": 20.44,
+      "profit_margin": null,
+      "eps": 21770.0,
+      "fair_value": 501124.77124183014,
+      "watch_buy_price": 410922.3124183007,
+      "margin_to_fair_pct": 193.8286550816946,
+      "verdict": "저평가 후보",
+      "action": "410,922 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 7,
+      "positives": [
+        "ROE 20.44%",
+        "PER가 기준보다 낮음",
+        "PBR 0.85배"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 4.59배 → 기준 PER 17.00배",
+        "EPS 21,770 → 기준 PER 17.00배",
+        "PBR 0.85배 → 기준 PBR 2.50배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=000270",
+        "https://query1.finance.yahoo.com/v8/finance/chart/000270.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "012330",
+      "name": "현대모비스",
+      "region": "domestic",
+      "price": 770000.0,
+      "currency": "KRW",
+      "pe": 6.52,
+      "forward_pe": null,
+      "pb": 0.53,
+      "roe": 8.73,
+      "profit_margin": null,
+      "eps": 36340.0,
+      "fair_value": 1249178.3921750204,
+      "watch_buy_price": 1024326.2815835166,
+      "margin_to_fair_pct": 62.23096002272992,
+      "verdict": "저평가 후보",
+      "action": "1,024,326 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 6,
+      "positives": [
+        "ROE 8.73%",
+        "PER가 기준보다 낮음",
+        "PBR 0.53배"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 6.52배 → 기준 PER 14.00배",
+        "EPS 36,340 → 기준 PER 14.00배",
+        "PBR 0.53배 → 기준 PBR 1.09배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=012330",
+        "https://query1.finance.yahoo.com/v8/finance/chart/012330.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "034020",
+      "name": "두산에너빌리티",
+      "region": "domestic",
+      "price": 107400.0,
+      "currency": "KRW",
+      "pe": 183.04,
+      "forward_pe": null,
+      "pb": 1.43,
+      "roe": 0.78,
+      "profit_margin": null,
+      "eps": 87.0,
+      "fair_value": 22723.0,
+      "watch_buy_price": 18632.86,
+      "margin_to_fair_pct": -78.84264432029795,
+      "verdict": "고평가 주의",
+      "action": "18,633 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -5,
+      "positives": [],
+      "risks": [
+        "ROE 낮음 0.78%",
+        "PER 부담 183.0배"
+      ],
+      "valuation_basis": [
+        "PER 183.0배 → 기준 PER 12.00배",
+        "EPS 87.00 → 기준 PER 12.00배",
+        "PBR 1.43배 → 기준 PBR 0.80배"
+      ],
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=034020",
+        "https://query1.finance.yahoo.com/v8/finance/chart/034020.KS"
+      ],
+      "fetch_note": ""
+    }
+  ]
+}

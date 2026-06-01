@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data' / 'items.json'
 COMMON = ROOT / 'data' / 'common_recommendations.json'
 YSTATS = ROOT / 'data' / 'youtuber_stats.json'
+VALUATIONS = ROOT / 'data' / 'valuations.json'
 OUT = ROOT / 'public' / 'index.html'
 LABEL = {'domestic': '국내', 'global': '해외'}
 
@@ -64,6 +65,55 @@ def rec_card(rec, rank):
     </div>'''
 
 
+def money(value, currency=''):
+    if value is None or value == '':
+        return '확인 불가'
+    try:
+        v = float(value)
+    except Exception:
+        return esc(value)
+    if currency == 'KRW':
+        return f'{v:,.0f}원'
+    if currency:
+        return f'{v:,.2f} {esc(currency)}'
+    return f'{v:,.2f}'
+
+
+def metric(value, suffix=''):
+    if value is None or value == '':
+        return '확인 불가'
+    try:
+        return f'{float(value):,.2f}{suffix}'
+    except Exception:
+        return esc(value)
+
+
+def valuation_card(v):
+    positives = ''.join(f'<span class="good">{esc(x)}</span>' for x in v.get('positives', [])) or '<span class="empty">강점 미확인</span>'
+    risks = ''.join(f'<span class="risk-pill">{esc(x)}</span>' for x in v.get('risks', [])) or '<span class="empty">주요 리스크 미표시</span>'
+    basis = ' / '.join(v.get('valuation_basis', [])) or '공개 재무지표 부족'
+    verdict_cls = 'value-good' if v.get('verdict') == '저평가 후보' else ('value-watch' if v.get('verdict') in ('관심권','중립/대기') else 'value-risk')
+    source_links = ''.join(f'<a href="{esc(url)}" target="_blank" rel="noreferrer">재무출처</a>' for url in v.get('data_sources', [])[:2])
+    return f'''
+    <article class="valuation-card {verdict_cls}">
+      <div class="valuation-head"><div><b>{esc(v.get('name'))}</b><span>{esc(v.get('ticker'))}</span></div>{badge(v.get('verdict'), 'rec')}</div>
+      <div class="valuation-price"><span>현재가 {money(v.get('price'), v.get('currency'))}</span><span>판단 적정가 {money(v.get('fair_value'), v.get('currency'))}</span><span>관찰매수가 {money(v.get('watch_buy_price'), v.get('currency'))}</span></div>
+      <p><b>Hermes 판단:</b> {esc(v.get('rationale'))}<br><b>실행 기준:</b> {esc(v.get('action'))}</p>
+      <div class="valuation-metrics"><span>PER {metric(v.get('pe'))}</span><span>Fwd PER {metric(v.get('forward_pe'))}</span><span>PBR {metric(v.get('pb'))}</span><span>ROE {metric(v.get('roe'), '%')}</span><span>순마진 {metric(v.get('profit_margin'), '%')}</span></div>
+      <div class="valuation-basis">산식: {esc(basis)}</div>
+      <div class="valuation-pills"><b>강점</b>{positives}</div>
+      <div class="valuation-pills"><b>주의</b>{risks}</div>
+      <div class="valuation-links">{source_links}</div>
+    </article>'''
+
+
+def valuation_section(region, valuations):
+    vals = [v for v in valuations if v.get('region') == region]
+    vals = sorted(vals, key=lambda v: (v.get('score', -99), v.get('margin_to_fair_pct') or -999), reverse=True)
+    html = ''.join(valuation_card(v) for v in vals[:10]) or '<p class="empty">재무 판단 데이터가 아직 없습니다.</p>'
+    return f'<h2>{LABEL[region]} Hermes 재무·저평가 판단</h2><p class="section-note">공개 재무지표 기반 스크리닝입니다. 매수 지시가 아니라 “관찰 가격대” 산정이며, 실적·공시·수급을 별도로 확인해야 합니다.</p><div class="valuation-grid">{html}</div>'
+
+
 def youtuber_card(stat):
     stocks = stat.get('stocks', [])[:8]
     stock_html = ''.join(f'<span class="yt-stock">{esc(s.get("name"))} <b>{s.get("count",0)}</b>회</span>' for s in stocks) or '<span class="empty">거론 종목 없음</span>'
@@ -117,19 +167,21 @@ def item_card(item, region=None):
     </article>'''
 
 
-def section(region, common, items, ystats):
+def section(region, common, items, ystats, valuations):
     recs = [rec for rec in common if rec.get('region') == region]
     recs = sorted(recs, key=lambda r: (len(r.get('evidence', [])), r.get('source_count', 0)), reverse=True)
     details = [item for item in items if region in (item.get('stock_regions') or [item.get('region')])]
     rec_html = '<div class="stock-rank-grid">' + '\n'.join(rec_card(rec, idx + 1) for idx, rec in enumerate(recs)) + '</div>' if recs else '<p class="empty">추천/관심 종목이 아직 없습니다.</p>'
     detail_html = '\n'.join(item_card(item, region) for item in details[:14]) or '<p class="empty">수집 항목이 없습니다.</p>'
-    return f'<section id="{region}" class="tabpanel"><h2>{LABEL[region]} 종목 언급 순위</h2>{rec_html}{youtuber_section(region, ystats)}<h2>{LABEL[region]} 소스별 최신 발언</h2>{detail_html}</section>'
+    return f'<section id="{region}" class="tabpanel"><h2>{LABEL[region]} 종목 언급 순위</h2>{rec_html}{valuation_section(region, valuations)}{youtuber_section(region, ystats)}<h2>{LABEL[region]} 소스별 최신 발언</h2>{detail_html}</section>'
 
 
 def main():
     items = load(DATA, [])
     common = load(COMMON, [])
     ystats = load(YSTATS, [])
+    valuation_data = load(VALUATIONS, {'valuations': []})
+    valuations = valuation_data.get('valuations', []) if isinstance(valuation_data, dict) else valuation_data
     generated = datetime.now().strftime('%Y-%m-%d %H:%M')
     total_sources = len(set(item.get('source') for item in items))
     yt_items = [item for item in items if str(item.get('source_type','')).startswith('youtube')]
@@ -147,7 +199,8 @@ header,main{{max-width:1180px;margin:auto}} header{{padding:36px 22px 18px}} h1{
 .tabs{{display:flex;gap:10px;max-width:1180px;margin:0 auto 16px;padding:0 22px}} .tabs a{{text-decoration:none;color:var(--text);background:var(--panel);border:1px solid #26385f;padding:10px 18px;border-radius:999px}}
 main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55}} h2{{color:var(--accent);margin-top:30px}}
 .card{{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)}} .small h4{{font-size:18px;margin:8px 0}} .card p{{color:#d9e4ff;line-height:1.56}}
-.stock-rank-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px}} .stock-rank-card{{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)}} .rank{{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px}} .stock-name{{grid-area:name;font-size:20px;font-weight:800;color:#fff}} .stock-code{{grid-area:code;color:var(--green);font-size:14px}} .mention-count{{grid-area:count;color:var(--yellow);white-space:nowrap}} .mention-count b{{font-size:28px}}
+.stock-rank-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px}} .stock-rank-card{{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)}} .rank{{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px}} .stock-name{{grid-area:name;font-size:20px;font-weight:800;color:#fff}} .stock-code{{grid-area:code;color:var(--green);font-size:14px}} .mention-count{{grid-area:count;color:var(--yellow);white-space:nowrap}} .mention-count b{{font-size:28px}} .section-note{{color:var(--muted);line-height:1.55}}
+.valuation-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin:12px 0 30px}} .valuation-card{{background:rgba(18,26,51,.94);border:1px solid rgba(101,214,255,.22);border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.23)}} .valuation-card.value-good{{border-color:rgba(137,247,165,.5)}} .valuation-card.value-watch{{border-color:rgba(255,224,138,.42)}} .valuation-card.value-risk{{border-color:rgba(255,208,208,.38)}} .valuation-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .valuation-head b{{display:block;font-size:19px}} .valuation-head span{{color:var(--muted)}} .valuation-price{{display:grid;grid-template-columns:1fr;gap:7px;margin:12px 0}} .valuation-price span{{background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.16);border-radius:12px;padding:8px 10px}} .valuation-metrics,.valuation-pills{{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}} .valuation-metrics span,.good,.risk-pill{{font-size:12px;border-radius:999px;padding:5px 9px;background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.2)}} .good{{color:var(--green);border-color:rgba(137,247,165,.28)}} .risk-pill{{color:var(--red);border-color:rgba(255,208,208,.28)}} .valuation-basis{{color:var(--muted);font-size:13px;margin-top:10px;line-height:1.45}} .valuation-links{{display:flex;gap:10px;margin-top:10px;font-size:13px}}
 .youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-quality{{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0}} .yt-quality span{{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}} .yt-video-list{{margin:14px 0 0;padding-left:20px;border-top:1px solid rgba(137,247,165,.18)}} .yt-video-list li{{padding:10px 0;color:#eaf3ff;line-height:1.38}} .yt-video-list b{{display:block;margin:4px 0;font-size:14px}} .yt-video-list small{{color:var(--muted)}} .yt-video-kind{{font-size:12px;color:var(--yellow);border:1px solid rgba(255,224,138,.28);border-radius:999px;padding:2px 7px}}
 .rec-head{{display:flex;justify-content:space-between;gap:16px}} .rec-head h3{{font-size:24px;margin:0 0 6px}} .ticker-text{{color:var(--green);font-size:18px}} .score{{text-align:right;color:var(--yellow);white-space:nowrap}} .score strong{{font-size:26px}} .stance{{margin:0;color:#eaf1ff}} .risk{{color:var(--red)!important}}
 .summary-grid,.price-grid,.mini-price{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}} .summary-grid>div{{background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.16);border-radius:14px;padding:12px}} .summary-grid p{{margin:6px 0 0}}
@@ -159,7 +212,7 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 <body>
 <header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div></div></header>
 <nav class="tabs"><a href="#domestic">국내</a><a href="#global">해외</a></nav>
-<main><div class="notice">이 페이지는 출처 발언을 구조화한 정보 대시보드입니다. 유튜버별 통계는 각 채널 최신 영상과 쇼츠에서 종목이 몇 번 거론됐는지 집계합니다. 경제사냥꾼은 쇼츠 중심으로 집계합니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div>{section('domestic', common, items, ystats)}{section('global', common, items, ystats)}</main>
+<main><div class="notice">이 페이지는 출처 발언과 공개 재무지표를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 유튜버별 통계는 각 채널 최신 영상과 쇼츠에서 종목이 몇 번 거론됐는지 집계합니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div>{section('domestic', common, items, ystats, valuations)}{section('global', common, items, ystats, valuations)}</main>
 <footer>Generated by Hermes Stock Info Agent</footer>
 </body></html>'''
     OUT.parent.mkdir(parents=True, exist_ok=True)
