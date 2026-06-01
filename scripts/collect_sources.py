@@ -14,6 +14,7 @@ from datetime import datetime
 from html.parser import HTMLParser
 
 DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'data'/'common_recommendations.json'; YSTATS=ROOT/'data'/'youtuber_stats.json'
+HISTORY=ROOT/'data'/'items_history.jsonl'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
 RATE_LIMIT_FILE=TRANSCRIPTS/'youtube_caption_rate_limited_until.txt'
@@ -77,11 +78,43 @@ def strip_vtt(vtt_text):
         if line and (not lines or lines[-1] != line): lines.append(line)
     return ' '.join(lines)
 
-def get_youtube_transcript(video_id):
+def get_local_asr_transcript(video_id, pack_path=''):
+    """Read user-approved local-pack ASR transcripts (e.g. 경제사냥꾼 50 Shorts)."""
+    if not pack_path:
+        return '', 'no local ASR pack configured'
+    pack=Path(pack_path)
+    if not pack.exists():
+        return '', 'local ASR pack missing'
+    candidates=[pack/'asr'/f'{video_id}.transcript.txt']
+    item_file=pack/'asr_items.json'
+    if item_file.exists():
+        try:
+            for item in json.loads(item_file.read_text(encoding='utf-8')):
+                if item.get('video_id') == video_id and item.get('transcript_path'):
+                    candidates.insert(0, Path(item['transcript_path']))
+        except Exception:
+            pass
+    for p in candidates:
+        try:
+            if p.exists() and p.stat().st_size > 20:
+                text=p.read_text(encoding='utf-8', errors='ignore')
+                # Cache into repo-local transcript cache so future 4h cron runs use it instantly.
+                TRANSCRIPTS.mkdir(parents=True, exist_ok=True)
+                (TRANSCRIPTS/f'{video_id}.txt').write_text(text, encoding='utf-8')
+                (TRANSCRIPTS/f'{video_id}.json').write_text(json.dumps({'video_id':video_id,'method':'local_pack_asr','status':'ok','pack_path':str(pack)}, ensure_ascii=False, indent=2), encoding='utf-8')
+                return text, 'ok'
+        except Exception:
+            continue
+    return '', 'local ASR transcript not found'
+
+def get_youtube_transcript(video_id, local_asr_pack=''):
     TRANSCRIPTS.mkdir(parents=True, exist_ok=True)
     cache=TRANSCRIPTS/f'{video_id}.txt'; meta=TRANSCRIPTS/f'{video_id}.json'
     if cache.exists() and cache.stat().st_size > 20:
         return cache.read_text(encoding='utf-8', errors='ignore'), 'cache', 'ok'
+    local_text, local_status = get_local_asr_transcript(video_id, local_asr_pack)
+    if local_text:
+        return local_text, 'local_pack_asr', 'ok'
     if RATE_LIMIT_FILE.exists():
         try:
             until=float(RATE_LIMIT_FILE.read_text().strip() or '0')
@@ -295,7 +328,7 @@ def collect_youtube_channel(src):
             if cache.exists() and cache.stat().st_size > 20:
                 return vid, cache.read_text(encoding='utf-8', errors='ignore'), 'cache', 'ok'
             if PRECISE_YOUTUBE:
-                text, method, status = get_youtube_transcript(vid)
+                text, method, status = get_youtube_transcript(vid, src.get('local_asr_pack',''))
                 return vid, text, method, status
             return vid, '', 'metadata', 'metadata-only mode'
         workers=max(1, min(TRANSCRIPT_WORKERS, len(entries) or 1))
@@ -378,40 +411,82 @@ def detect_all_mentions(text, lex):
                 seen.add(key); mentions.append(m)
     return mentions
 
-def main():
-    srcs=json.loads(SOURCES.read_text(encoding='utf-8')); lex=json.loads(LEX.read_text(encoding='utf-8'))
-    records=[]
-    # 공유된 개별 YouTube 영상은 해당 유튜버 채널로 확장해 최신 10개 영상을 취합한다.
-    for ch in youtube_channel_sources(srcs):
-        records += collect_youtube_channel(ch)
-    for bucket in ['domestic','global','news']:
-        for src in srcs.get(bucket,[]):
-            typ=src.get('type')
-            if typ in ('youtube_channel','youtube_video'):
-                continue
-            elif typ=='naver_blog_post': records += collect_naver(src)
-            elif typ=='rss': records += collect_rss(src)
-    now=datetime.now().isoformat(timespec='minutes')
-    items=[]; agg={}
-    for r in records:
-        source_region=r.get('region','domestic')
-        if str(r.get('source_type','')).startswith('youtube') and YOUTUBE_REQUIRE_TRANSCRIPT and r.get('transcript_status') != 'ok':
-            text=''
+def item_key(item):
+    if item.get('video_id'):
+        return 'youtube:'+str(item.get('video_id'))
+    if item.get('url'):
+        return 'url:'+str(item.get('url'))
+    return 'source-title:'+str(item.get('source'))+'|'+str(item.get('title'))
+
+def quality_rank(item):
+    if item.get('confidence') == 'transcript':
+        return 3
+    if item.get('confidence') == 'source-title/meta':
+        return 2
+    if item.get('confidence') == 'metadata':
+        return 1
+    return 0
+
+def merge_accumulated_items(current_items, now):
+    """Keep historical source items so recommendations do not disappear on no-upload days."""
+    previous=[]
+    if DATA.exists():
+        try:
+            previous=json.loads(DATA.read_text(encoding='utf-8'))
+        except Exception:
+            previous=[]
+    merged={}
+    for item in previous:
+        key=item_key(item)
+        item.setdefault('first_seen_at', item.get('collected_at') or now)
+        item.setdefault('last_seen_at', item.get('last_seen_at') or item.get('collected_at') or now)
+        item.setdefault('accumulated', True)
+        merged[key]=item
+    newly=[]
+    for item in current_items:
+        key=item_key(item)
+        old=merged.get(key)
+        item['first_seen_at']=(old or {}).get('first_seen_at') or item.get('collected_at') or now
+        item['last_seen_at']=now
+        item['accumulated']=True
+        if old and quality_rank(old) > quality_rank(item):
+            # Keep the older, stronger transcript-backed evidence, but mark it as seen again.
+            kept=dict(old)
+            kept['last_seen_at']=now
+            kept['collected_at']=item.get('collected_at') or kept.get('collected_at')
+            merged[key]=kept
         else:
-            text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
-        mentions=detect_all_mentions(text, lex)
-        stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
-        title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
-        price_fields=extract_price_fields(text)
-        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta'), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
-        items.append(item)
-        for m in mentions:
-            market=m['market']
-            key=(market,m['ticker'])
-            a=agg.setdefault(key, {'region':market,'ticker':m['ticker'],'name':m['name'],'sources':[], 'source_count':0, 'evidence':[]})
-            if r['source'] not in a['sources']: a['sources'].append(r['source']); a['source_count']=len(a['sources'])
-            ev_price=extract_price_fields(text, m['ticker'], m['name'])
-            a['evidence'].append({'source':r['source'],'source_role':item['source_role'],'title':title,'url':r['url'],'published_at':r.get('published_at',''),'reason':infer_reason(text,title,m['ticker'],m['name']),'target_price':ev_price['target_price'],'buy_zone':ev_price['buy_zone'],'price_note':ev_price['price_note'],'confidence':item['confidence']})
+            merged[key]=item
+        if not old:
+            newly.append(item)
+    if newly:
+        HISTORY.parent.mkdir(parents=True, exist_ok=True)
+        with HISTORY.open('a', encoding='utf-8') as f:
+            for item in newly:
+                f.write(json.dumps({'added_at':now, 'key':item_key(item), 'item':item}, ensure_ascii=False)+'\n')
+    def sort_key(item):
+        return str(item.get('published_at') or item.get('last_seen_at') or item.get('collected_at') or '')
+    return sorted(merged.values(), key=sort_key, reverse=True), len(previous), len(newly)
+
+def recompute_common_and_ystats(items, lex):
+    agg={}
+    for item in items:
+        for ticker in item.get('tickers') or []:
+            market=(item.get('ticker_markets') or {}).get(ticker) or item.get('region') or 'domestic'
+            name=lex.get(market,{}).get(ticker) or ticker
+            key=(market,ticker)
+            a=agg.setdefault(key, {'region':market,'ticker':ticker,'name':name,'sources':[], 'source_count':0, 'evidence':[]})
+            if item.get('source') not in a['sources']:
+                a['sources'].append(item.get('source')); a['source_count']=len(a['sources'])
+            a['evidence'].append({'source':item.get('source'),'source_role':item.get('source_role'),'title':item.get('title'),'url':item.get('url'),'published_at':item.get('published_at'),'reason':item.get('summary') or '근거 문장 추출 대기','target_price':item.get('target_price') or '출처에서 명시 안 됨','buy_zone':item.get('buy_zone') or '출처에서 명시 안 됨','price_note':item.get('price_note') or '','confidence':item.get('confidence')})
+    common=sorted(agg.values(), key=lambda x:(x['source_count'], len(x['evidence'])), reverse=True)
+    for c in common:
+        c['stance']='복수 출처 추천/관심' if c['source_count']>=2 else '단일 출처 추천/관심'
+        targets=[ev['target_price'] for ev in c['evidence'] if ev.get('target_price') and not str(ev['target_price']).startswith('출처')]
+        buys=[ev['buy_zone'] for ev in c['evidence'] if ev.get('buy_zone') and not str(ev['buy_zone']).startswith('출처')]
+        c['target_price_summary']=', '.join(dict.fromkeys(targets)) if targets else '출처에서 적정가/목표가를 명시하지 않았습니다.'
+        c['buy_zone_summary']=', '.join(dict.fromkeys(buys)) if buys else '출처에서 매수가/진입가를 명시하지 않았습니다.'
+        c['caution']='출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.'
     ystats_map={}
     for item in items:
         if not str(item.get('source_type','')).startswith('youtube'):
@@ -422,14 +497,10 @@ def main():
             ykey=(stat_region, item.get('channel_id') or item.get('source'))
             ys=ystats_map.setdefault(ykey, {'region':stat_region, 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'short_count':0, 'regular_video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
             ys['video_count'] += 1
-            if item.get('source_type') == 'youtube_short':
-                ys['short_count'] += 1
-            else:
-                ys['regular_video_count'] += 1
-            if item.get('confidence') == 'transcript':
-                ys['transcript_count'] += 1
-            else:
-                ys['metadata_count'] += 1
+            if item.get('source_type') == 'youtube_short': ys['short_count'] += 1
+            else: ys['regular_video_count'] += 1
+            if item.get('confidence') == 'transcript': ys['transcript_count'] += 1
+            else: ys['metadata_count'] += 1
             ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
             ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':region_tickers, 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
             for ticker in region_tickers:
@@ -439,22 +510,45 @@ def main():
                 ys['mention_count'] += 1
     ystats=[]
     for ys in ystats_map.values():
-        ys['stocks']=sorted(ys['stocks'].values(), key=lambda s:s['count'], reverse=True)
+        ys['stocks']=sorted(ys['stocks'].values(), key=lambda st:st['count'], reverse=True)
+        ys['videos']=sorted(ys['videos'], key=lambda v: str(v.get('published_at') or ''), reverse=True)[:30]
         ystats.append(ys)
     ystats=sorted(ystats, key=lambda y:(y['mention_count'], y['video_count']), reverse=True)
+    return common, ystats
 
-    common=sorted(agg.values(), key=lambda x:(x['source_count'], len(x['evidence'])), reverse=True)
-    for c in common:
-        c['stance']='복수 출처 추천/관심' if c['source_count']>=2 else '단일 출처 추천/관심'
-        targets=[ev['target_price'] for ev in c['evidence'] if ev.get('target_price') and not ev['target_price'].startswith('출처')]
-        buys=[ev['buy_zone'] for ev in c['evidence'] if ev.get('buy_zone') and not ev['buy_zone'].startswith('출처')]
-        c['target_price_summary']=', '.join(dict.fromkeys(targets)) if targets else '출처에서 적정가/목표가를 명시하지 않았습니다.'
-        c['buy_zone_summary']=', '.join(dict.fromkeys(buys)) if buys else '출처에서 매수가/진입가를 명시하지 않았습니다.'
-        c['caution']='출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.'
+def main():
+    srcs=json.loads(SOURCES.read_text(encoding='utf-8')); lex=json.loads(LEX.read_text(encoding='utf-8'))
+    records=[]
+    # 공유된 개별 YouTube 영상은 해당 유튜버 채널로 확장해 최신 영상을 취합한다.
+    for ch in youtube_channel_sources(srcs):
+        records += collect_youtube_channel(ch)
+    for bucket in ['domestic','global','news']:
+        for src in srcs.get(bucket,[]):
+            typ=src.get('type')
+            if typ in ('youtube_channel','youtube_video'):
+                continue
+            elif typ=='naver_blog_post': records += collect_naver(src)
+            elif typ=='rss': records += collect_rss(src)
+    now=datetime.now().isoformat(timespec='minutes')
+    current_items=[]
+    for r in records:
+        source_region=r.get('region','domestic')
+        if str(r.get('source_type','')).startswith('youtube') and YOUTUBE_REQUIRE_TRANSCRIPT and r.get('transcript_status') != 'ok':
+            text=''
+        else:
+            text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
+        mentions=detect_all_mentions(text, lex)
+        stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
+        title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
+        price_fields=extract_price_fields(text)
+        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta'), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
+        current_items.append(item)
+    items, previous_count, newly_added = merge_accumulated_items(current_items, now)
+    common, ystats = recompute_common_and_ystats(items, lex)
     DATA.write_text(json.dumps(items,ensure_ascii=False,indent=2),encoding='utf-8')
     RAW.write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
     COMMON.write_text(json.dumps(common,ensure_ascii=False,indent=2),encoding='utf-8')
     YSTATS.write_text(json.dumps(ystats,ensure_ascii=False,indent=2),encoding='utf-8')
-    print(f'collected records={len(records)} items={len(items)} common={len(common)} youtubers={len(ystats)}')
-    for c in common[:10]: print(c['region'], c['ticker'], c['name'], c['source_count'])
+    print(f'collected records={len(records)} current_items={len(current_items)} accumulated_items={len(items)} previous={previous_count} new={newly_added} common={len(common)} youtubers={len(ystats)}')
+    for c in common[:10]: print(c['region'], c['ticker'], c['name'], c['source_count'], 'evidence=', len(c.get('evidence', [])))
 if __name__=='__main__': main()

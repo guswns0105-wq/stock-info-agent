@@ -372,8 +372,8 @@ def make_ai_recommendations(valuations):
     for region in grouped:
         region_items = [v for v in eligible if v.get('region') == region]
         region_items.sort(key=sort_key, reverse=True)
-        grouped[region] = [build_recommendation(rank, v) for rank, v in enumerate(region_items[:3], 1)]
-    # Backward-compatible flat list: 국내 3개 다음 미국/해외 3개.
+        grouped[region] = [build_recommendation(rank, v) for rank, v in enumerate(region_items[:5], 1)]
+    # Backward-compatible flat list: 국내 5개 다음 미국/해외 5개.
     flat = grouped['domestic'] + grouped['global']
     return {'domestic': grouped['domestic'], 'global': grouped['global'], 'flat': flat}
 
@@ -406,9 +406,9 @@ def main():
         except Exception as e:
             valuations.append({'region': c['region'], 'ticker': c['ticker'], 'name': c['name'], 'verdict': '자료 부족', 'action': '수집 실패', 'rationale': str(e)[:200]})
     ai_recommendations = make_ai_recommendations(valuations)
-    out = {'generated_at': datetime.now().isoformat(timespec='minutes'), 'method': '공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top3와 미국/해외 AI 추천 Top3 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.', 'ai_recommendations': ai_recommendations, 'valuations': valuations}
+    out = {'generated_at': datetime.now().isoformat(timespec='minutes'), 'method': '공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.', 'ai_recommendations': ai_recommendations, 'valuations': valuations}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f'wrote {OUT} valuations={len(valuations)} ai_top3_domestic={len(ai_recommendations.get("domestic", []))} ai_top3_global={len(ai_recommendations.get("global", []))}')
+    print(f'wrote {OUT} valuations={len(valuations)} ai_top5_domestic={len(ai_recommendations.get("domestic", []))} ai_top5_global={len(ai_recommendations.get("global", []))}')
     for region in ['domestic', 'global']:
         for r in ai_recommendations.get(region, []):
             print('AI_TOP', region, r['rank'], r['ticker'], r['name'], 'buy=', fmt_num(r.get('ai_buy_price')), 'sell=', fmt_num(r.get('ai_sell_price')), 'score=', fmt_num(r.get('ai_score')))

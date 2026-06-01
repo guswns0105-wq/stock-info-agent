@@ -6,7 +6,10 @@
       "region": "domestic",
       "url": "https://youtube.com/channel/UC7usMJDHmtbs_oegmzQKKMA?si=8xlqXxz9mhIqb1O2",
       "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-      "prefer_shorts": true
+      "prefer_shorts": true,
+      "latest_limit": 50,
+      "detail_extract": true,
+      "local_asr_pack": "/Users/mac1/opencrab-local-packs/pipeline-ingest/youtube-channel-UC7usMJDHmtbs_oegmzQKKMA-20260602"
     },
     {
       "name": "Naver blog magic_rabb1t",
