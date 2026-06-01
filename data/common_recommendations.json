@@ -1,15 +1,338 @@
 [
   {
+    "region": "global",
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "sources": [
+      "강지한 차트연구소",
+      "T3chfeed - Tech Stock Insights",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "월가아재의 과학적 투자",
+      "블로그 magic_rabb1t",
+      "블로그 ranto28",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 7,
+    "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
+        "url": "https://youtu.be/DMxWlG37qEY",
+        "published_at": "2026-05-31T11:42:02+00:00",
+        "reason": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 LG씨엔에스 다음 / 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 급등주 후보 AI 인프라 관련주 데이터센터 관련주 ESS 전력망 수혜주 오픈AI 아마존 AWS 오라클 테슬라 공급망 관련주 SK텔레콤 AWS AI 데이터센터 구축 오픈AI 전용 AI 데이터센터 MOU 체결 울산 AI 클러스터 해인 프로젝트 수혜주 LG에너지솔루션 ESS 관련주 오라클 오픈AI 데이터센터 ESS 공급 계약 테슬",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
+        "url": "https://youtu.be/sJ0A2JG8fJ4",
+        "published_at": "2026-05-31T09:45:10+00:00",
+        "reason": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
+        "url": "https://youtu.be/audbaebTWh0",
+        "published_at": "2026-05-30T11:45:23+00:00",
+        "reason": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금 수혜주 3종목 총정리 대주전자재료 NC HL만도 주가 전망 급등주 후보 국민연금 보유 종목 국민연금 포트폴리오 분석 2026년 1분기 국민연금 매수 종목 수혜주 대주전자재료 실리콘 음극재 관련주 포르쉐 타이칸 배터리 소재 공급 기업 삼성전기 MLCC 핵심 소재 공급망 스페이스X 태양전지 관련주 NC 리니지 아이온2 게임 / 관련주 실적 개선 수혜주 피지컬 AI 관련 사업 진출 현대로템 신한금융 협력 AI 관련주 HL만도 자율주행 로봇 관련주 보스턴다이내믹스 스팟 액추에이터 공급 테슬라 옵티머스 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)",
+        "url": "https://youtu.be/SlqAdSCK68o",
+        "published_at": "2026-05-30T04:45:13+00:00",
+        "reason": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #LG전자 #lg이노텍 #lg씨엔에스 #미국주식 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 1천조 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10",
+        "url": "https://youtu.be/3cWWX6JQX2s",
+        "published_at": "2026-05-29T11:45:21+00:00",
+        "reason": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #현대모비스 #삼성sds #lg씨엔에스 #lg전자 #스마트팩토리 #네이버주가 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10",
+        "url": "https://youtu.be/or5gMJ3XPvk",
+        "published_at": "2026-05-28T10:45:07+00:00",
+        "reason": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #ess관련주 #2차전지 #에코프로 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀",
+        "url": "https://youtu.be/FR-0wupxVt8",
+        "published_at": "2026-05-27T11:45:14+00:00",
+        "reason": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀 삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀 삼성전자 하이닉스 2배 ETF 투자 위험 총정리 레버리지 ETF 장기투자하면 손해보는 이유 삼성전자 ETF SK하이닉스 ETF SOXL 레버리지 투자 주의 변동성 드래그 복리 효과 ETF 구조 설명 2배 ETF 수익률 계산 방법 주가가 올라도 ETF 수익이 안나는 이유 삼성전자 SK하이닉스 장기 우상향인데 레버리지 ETF는 왜 원금이 녹을까 ETF 투자 초보 필수 영상 레버리지 ETF 장기투자 리스크 분석 삼성전자 주가 전망 SK하이닉스 주가 전망 반도체 조정장 대비 투자 전략 주식 단타 매매 수급 분석 상승 하락 타이밍 보",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)",
+        "url": "https://youtu.be/QKc7qe1GKEg",
+        "published_at": "2026-05-27T10:45:30+00:00",
+        "reason": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10) 삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #ls일렉트릭 #삼성sds #현대차 #lg씨엔에스 #lg이노텍 #현대오토에버 #삼성전자레버리지 #하이닉스레버리지 본 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식",
+        "url": "https://youtu.be/5EKMn0kg64c",
+        "published_at": "2026-05-26T10:45:40+00:00",
+        "reason": "급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 LG이노텍, 삼성전기 다음 / 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 삼성전기 LG이노텍 다음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 8천 재돌파 ! 외국인•기관•연기금이 쓸어담은 한국주식 TOP11",
+        "url": "https://youtu.be/_SaezOGJpGU",
+        "published_at": "2026-05-26T09:45:36+00:00",
+        "reason": "외국인•기관•연기금이 쓸어담은 한국주식 TOP11 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #한화오션 #에코프로 #현대모비스 #알테오젠 #리가켐바이오 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 외국인•기관•연기금이 쓸어담은 한국주식 TOP11 #대우건설 #두산에너빌리티 #차트분석 #차트매매",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "무서운 속도로 올라오는 아틀라스, 그 뒤에 숨겨진 엔비디아",
+        "url": "https://youtu.be/Gd3nrzPV5uY",
+        "published_at": "2026-05-28T09:55:39+00:00",
+        "reason": "무서운 속도로 올라오는 아틀라스, 그 뒤에 숨겨진 엔비디아",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "엔비디아가 보여주는 충격적인 1분기 실적...",
+        "url": "https://youtu.be/og-O3Ujymn0",
+        "published_at": "2026-05-21T22:24:08+00:00",
+        "reason": "엔비디아가 보여주는 충격적인 1분기 실적... / 엔비디아가 보여주는 충격적인 1분기 실적...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "자신있으면 입증하라는 엔비디아, 신고가 달성",
+        "url": "https://youtu.be/5xC937PqmyY",
+        "published_at": "2026-04-28T10:44:42+00:00",
+        "reason": "자신있으면 입증하라는 엔비디아, 신고가 달성",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/d5bXnCLWrvo",
+        "published_at": "2026-05-31T13:59:30+00:00",
+        "reason": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/jI89d1bYzFY",
+        "published_at": "2026-05-31T13:28:14+00:00",
+        "reason": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "포모를 못참고 반도체 몰빵했습니다. / ㅠㅠ 포모를 못참고 반도체 몰빵했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
+        "url": "https://youtu.be/ZSTrI_ryiZ8",
+        "published_at": "2026-05-27T15:33:12+00:00",
+        "reason": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/25 (월) 테슬라 $500 보러 가나?",
+        "url": "https://youtu.be/iFTuiuHmA6Y",
+        "published_at": "2026-05-25T13:20:25+00:00",
+        "reason": "5/25 (월) 테슬라 $500 보러 가나?",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
+        "url": "https://youtu.be/2X-ugUjZMuo",
+        "published_at": "2026-05-21T16:00:11+00:00",
+        "reason": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "url": "https://youtu.be/cwMSV6imFo0",
+        "published_at": "2026-05-17T12:41:48+00:00",
+        "reason": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "월가아재의 과학적 투자",
+        "source_role": "유튜버",
+        "title": "NEXT 엔비디아는 '전력'?",
+        "url": "https://youtu.be/0hHEB8bI_X8",
+        "published_at": "",
+        "reason": "NEXT 엔비디아는 '전력'?",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "블로그 magic_rabb1t",
+        "source_role": "블로거",
+        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "url": "https://blog.naver.com/magic_rabb1t/224302304075",
+        "published_at": "",
+        "reason": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "블로그 ranto28",
+        "source_role": "블로거",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201",
+        "published_at": "",
+        "reason": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Nvidia’s latest product is a game-changer",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html",
+        "published_at": "2026-05-31T01:03:00Z",
+        "reason": "Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "005930",
     "name": "삼성전자",
     "sources": [
       "주식용사부",
       "강지한 차트연구소",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "주식쇼퍼 - 투자도 쇼핑처럼",
       "블로그 magic_rabb1t",
       "블로그 ranto28"
     ],
-    "source_count": 4,
+    "source_count": 6,
     "evidence": [
       {
         "source": "주식용사부",
@@ -216,6 +539,54 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "ㅠㅠ #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스닥 전망 #반도체전망 #반도체etf #labu ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "유튜버",
+        "title": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다",
+        "url": "https://youtu.be/glYX_p-sBOc",
+        "published_at": "2026-05-17T05:15:23+00:00",
+        "reason": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다 / \"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다 #삼성전자레버리지 #하이닉스레버리지 #KORU #레버리지ETF #인버스ETF #일본금리인상 #엔캐리트레이드 드디어 한국에도 개별 종목 레버리지/인버스 ETF가 상장합니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "유튜버",
+        "title": "\"삼성전자우 왜 사요?\" 답은 외국인이 알고 있습니다 (삼성전자 vs 삼성전자우)",
+        "url": "https://youtu.be/Yrl_I2hlheo",
+        "published_at": "2026-04-19T05:15:00+00:00",
+        "reason": "\"삼성전자우 왜 사요?\" 답은 외국인이 알고 있습니다 (삼성전자 vs 삼성전자우) \"삼성전자우 왜 사요?\" 답은 외국인이 알고 있습니다 (삼성전자 vs 삼성전자우) #삼성전자우 #삼성전자주식 #삼성전자주가 #삼성전자삼성전자우 삼성전자 vs 삼성전자우 뭘 사야 할까 고민이 되는 분들 많을 겁니다. / 00:00 인트로 00:22 코스피 시가총액 확인 01:22 삼성전자 vs 삼성전자우 02:51 괴리율이란 04:22 삼성전자우 배당률 05:25 삼성전자 vs 삼성전자우 (토탈 리턴) 06:14 외국인 지분율 06:59 그래서 뭐 사요?",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "블로그 magic_rabb1t",
         "source_role": "블로거",
         "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
@@ -252,10 +623,11 @@
     "sources": [
       "주식용사부",
       "강지한 차트연구소",
+      "주식쇼퍼 - 투자도 쇼핑처럼",
       "블로그 magic_rabb1t",
       "블로그 ranto28"
     ],
-    "source_count": 4,
+    "source_count": 5,
     "evidence": [
       {
         "source": "주식용사부",
@@ -462,6 +834,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "유튜버",
+        "title": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다",
+        "url": "https://youtu.be/glYX_p-sBOc",
+        "published_at": "2026-05-17T05:15:23+00:00",
+        "reason": "첫 타자로 삼성전자와 SK하이닉스의 일일 성과를 2배로 추종하는 ETF가 16개나 출시됩니다. / 첫 타자로 삼성전자와 SK하이닉스의 일일 성과를 2배로 추종하는 ETF가 16개나 출시됩니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "블로그 magic_rabb1t",
         "source_role": "블로거",
         "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
@@ -493,177 +877,40 @@
   },
   {
     "region": "global",
-    "ticker": "NVDA",
-    "name": "NVIDIA",
-    "sources": [
-      "T3chfeed - Tech Stock Insights",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-      "월가아재의 과학적 투자",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 4,
-    "evidence": [
-      {
-        "source": "T3chfeed - Tech Stock Insights",
-        "source_role": "유튜버",
-        "title": "Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It",
-        "url": "https://youtu.be/Gd3nrzPV5uY",
-        "published_at": "",
-        "reason": "Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It 자막/설명에서 요약 가능한 본문이 아직 없습니다. / Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "T3chfeed - Tech Stock Insights",
-        "source_role": "유튜버",
-        "title": "NVIDIA's shocking Q1 results...",
-        "url": "https://youtu.be/og-O3Ujymn0",
-        "published_at": "",
-        "reason": "NVIDIA's shocking Q1 results... / NVIDIA's shocking Q1 results...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "T3chfeed - Tech Stock Insights",
-        "source_role": "유튜버",
-        "title": "Nvidia challenges confidence to prove it, new high achieved",
-        "url": "https://youtu.be/5xC937PqmyY",
-        "published_at": "",
-        "reason": "Nvidia challenges confidence to prove it, new high achieved Nvidia challenges confidence to prove it, new high achieved 자막/설명에서 요약 가능한 본문이 아직 없습니다. / Nvidia challenges confidence to prove it, new high achieved",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
-        "url": "https://youtu.be/5FeyG-xJWF0",
-        "published_at": "",
-        "reason": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook 자막/설명에서 요약 가능한 본문이 아직 없습니다. / (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "url": "https://youtu.be/9nyTamqkeW8",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "url": "https://youtu.be/4kCkPb4c528",
-        "published_at": "",
-        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "url": "https://youtu.be/bKP_QdAAO1U",
-        "published_at": "",
-        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "url": "https://youtu.be/DRebgU7BKxI",
-        "published_at": "",
-        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
-        "url": "https://youtu.be/3KTU1_hLA_0",
-        "published_at": "",
-        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "월가아재의 과학적 투자",
-        "source_role": "유튜버",
-        "title": "NEXT 엔비디아는 '전력'?",
-        "url": "https://youtu.be/0hHEB8bI_X8",
-        "published_at": "",
-        "reason": "NEXT 엔비디아는 '전력'?",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Nvidia’s latest product is a game-changer",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html",
-        "published_at": "2026-05-31T01:03:00Z",
-        "reason": "Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "TSLA",
     "name": "Tesla",
     "sources": [
+      "강지한 차트연구소",
       "T3chfeed - Tech Stock Insights",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "올랜도 킴 미국주식"
     ],
-    "source_count": 3,
+    "source_count": 4,
     "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
+        "url": "https://youtu.be/DMxWlG37qEY",
+        "published_at": "2026-05-31T11:42:02+00:00",
+        "reason": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 LG씨엔에스 다음 / 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 급등주 후보 AI 인프라 관련주 데이터센터 관련주 ESS 전력망 수혜주 오픈AI 아마존 AWS 오라클 테슬라 공급망 관련주 SK텔레콤 AWS AI 데이터센터 구축 오픈AI 전용 AI 데이터센터 MOU 체결 울산 AI 클러스터 해인 프로젝트 수혜주 LG에너지솔루션 ESS 관련주 오라클 오픈AI 데이터센터 ESS 공급 계약 테슬",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
+        "url": "https://youtu.be/audbaebTWh0",
+        "published_at": "2026-05-30T11:45:23+00:00",
+        "reason": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금 수혜주 3종목 총정리 대주전자재료 NC HL만도 주가 전망 급등주 후보 국민연금 보유 종목 국민연금 포트폴리오 분석 2026년 1분기 국민연금 매수 종목 수혜주 대주전자재료 실리콘 음극재 관련주 포르쉐 타이칸 배터리 소재 공급 기업 삼성전기 MLCC 핵심 소재 공급망 스페이스X 태양전지 관련주 NC 리니지 아이온2 게임 / 관련주 실적 개선 수혜주 피지컬 AI 관련 사업 진출 현대로템 신한금융 협력 AI 관련주 HL만도 자율주행 로봇 관련주 보스턴다이내믹스 스팟 액추에이터 공급 테슬라 옵티머스 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "T3chfeed - Tech Stock Insights",
         "source_role": "유튜버",
@@ -703,10 +950,46 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/d5bXnCLWrvo",
+        "published_at": "2026-05-31T13:59:30+00:00",
+        "reason": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/jI89d1bYzFY",
+        "published_at": "2026-05-31T13:28:14+00:00",
+        "reason": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "포모를 못참고 반도체 몰빵했습니다. / ㅠㅠ 포모를 못참고 반도체 몰빵했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
         "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -715,10 +998,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
-        "url": "https://youtu.be/5FeyG-xJWF0",
-        "published_at": "",
-        "reason": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook 자막/설명에서 요약 가능한 본문이 아직 없습니다. / (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
+        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
+        "url": "https://youtu.be/ZSTrI_ryiZ8",
+        "published_at": "2026-05-27T15:33:12+00:00",
+        "reason": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -727,10 +1010,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "url": "https://youtu.be/9nyTamqkeW8",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "title": "5/25 (월) 테슬라 $500 보러 가나?",
+        "url": "https://youtu.be/iFTuiuHmA6Y",
+        "published_at": "2026-05-25T13:20:25+00:00",
+        "reason": "5/25 (월) 테슬라 $500 보러 가나?",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -739,10 +1022,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "url": "https://youtu.be/4kCkPb4c528",
-        "published_at": "",
-        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
+        "url": "https://youtu.be/2X-ugUjZMuo",
+        "published_at": "2026-05-21T16:00:11+00:00",
+        "reason": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -751,46 +1034,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "url": "https://youtu.be/bKP_QdAAO1U",
-        "published_at": "",
-        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "url": "https://youtu.be/DRebgU7BKxI",
-        "published_at": "",
-        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
-        "url": "https://youtu.be/3KTU1_hLA_0",
-        "published_at": "",
-        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "url": "https://youtu.be/cwMSV6imFo0",
+        "published_at": "2026-05-17T12:41:48+00:00",
+        "reason": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -851,6 +1098,108 @@
         "url": "https://youtu.be/zqraarRFQYg",
         "published_at": "",
         "reason": "(테슬라) 내일 옵션 만기일 남겨두고 출렁거리나?",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "PLTR",
+    "name": "Palantir",
+    "sources": [
+      "강지한 차트연구소",
+      "T3chfeed - Tech Stock Insights",
+      "주식쇼퍼 - 투자도 쇼핑처럼",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 4,
+    "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식",
+        "url": "https://youtu.be/5EKMn0kg64c",
+        "published_at": "2026-05-26T10:45:40+00:00",
+        "reason": "급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 LG이노텍, 삼성전기 다음 / 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 삼성전기 LG이노텍 다음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "url": "https://youtu.be/bkuop8jLgOc",
+        "published_at": "2026-05-29T06:37:35+00:00",
+        "reason": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "\"직접 전화해서 물어보세요\", 앤트로픽 공포깨고 서프라이즈 내는 팔란티어",
+        "url": "https://youtu.be/Bt4CRidq3eU",
+        "published_at": "2026-05-05T00:22:31+00:00",
+        "reason": "\"직접 전화해서 물어보세요\", 앤트로픽 공포깨고 서프라이즈 내는 팔란티어",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
+        "url": "https://youtu.be/A45bkodmBEQ",
+        "published_at": "",
+        "reason": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자 #미국주식 #목표주가 #팔란티어 #장기투자 AI 국방의 시대, 팔란티어가 가장 큰 수혜자 #미국주식 #목표주가 #팔란티어 #장기투자 자막/설명에서 요약 가능한 본문이 아직 없습니다. / AI 국방의 시대, 팔란티어가 가장 큰 수혜자 #미국주식 #목표주가 #팔란티어 #장기투자",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "유튜버",
+        "title": "\"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다",
+        "url": "https://youtu.be/jhDSNrb2xPw",
+        "published_at": "2026-05-03T05:15:00+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/ap \"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다 #커버드콜 #고배당etf #SOL팔란티어커",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
+        "url": "https://youtu.be/KM1gxblQq9s",
+        "published_at": "",
+        "reason": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(팔란티어) 소프트웨어가 반등중에 있다!!!",
+        "url": "https://youtu.be/xKhKlxTPMfU",
+        "published_at": "",
+        "reason": "(팔란티어) 소프트웨어가 반등중에 있다!!!",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1037,167 +1386,6 @@
   },
   {
     "region": "domestic",
-    "ticker": "NVDA",
-    "name": "NVIDIA",
-    "sources": [
-      "강지한 차트연구소",
-      "블로그 magic_rabb1t",
-      "블로그 ranto28"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
-        "url": "https://youtu.be/DMxWlG37qEY",
-        "published_at": "2026-05-31T11:42:02+00:00",
-        "reason": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 LG씨엔에스 다음 / 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 급등주 후보 AI 인프라 관련주 데이터센터 관련주 ESS 전력망 수혜주 오픈AI 아마존 AWS 오라클 테슬라 공급망 관련주 SK텔레콤 AWS AI 데이터센터 구축 오픈AI 전용 AI 데이터센터 MOU 체결 울산 AI 클러스터 해인 프로젝트 수혜주 LG에너지솔루션 ESS 관련주 오라클 오픈AI 데이터센터 ESS 공급 계약 테슬",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
-        "url": "https://youtu.be/sJ0A2JG8fJ4",
-        "published_at": "2026-05-31T09:45:10+00:00",
-        "reason": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
-        "url": "https://youtu.be/audbaebTWh0",
-        "published_at": "2026-05-30T11:45:23+00:00",
-        "reason": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금 수혜주 3종목 총정리 대주전자재료 NC HL만도 주가 전망 급등주 후보 국민연금 보유 종목 국민연금 포트폴리오 분석 2026년 1분기 국민연금 매수 종목 수혜주 대주전자재료 실리콘 음극재 관련주 포르쉐 타이칸 배터리 소재 공급 기업 삼성전기 MLCC 핵심 소재 공급망 스페이스X 태양전지 관련주 NC 리니지 아이온2 게임 / 관련주 실적 개선 수혜주 피지컬 AI 관련 사업 진출 현대로템 신한금융 협력 AI 관련주 HL만도 자율주행 로봇 관련주 보스턴다이내믹스 스팟 액추에이터 공급 테슬라 옵티머스 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)",
-        "url": "https://youtu.be/SlqAdSCK68o",
-        "published_at": "2026-05-30T04:45:13+00:00",
-        "reason": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #LG전자 #lg이노텍 #lg씨엔에스 #미국주식 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 1천조 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10",
-        "url": "https://youtu.be/3cWWX6JQX2s",
-        "published_at": "2026-05-29T11:45:21+00:00",
-        "reason": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #현대모비스 #삼성sds #lg씨엔에스 #lg전자 #스마트팩토리 #네이버주가 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10",
-        "url": "https://youtu.be/or5gMJ3XPvk",
-        "published_at": "2026-05-28T10:45:07+00:00",
-        "reason": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #ess관련주 #2차전지 #에코프로 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀",
-        "url": "https://youtu.be/FR-0wupxVt8",
-        "published_at": "2026-05-27T11:45:14+00:00",
-        "reason": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀 삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀 삼성전자 하이닉스 2배 ETF 투자 위험 총정리 레버리지 ETF 장기투자하면 손해보는 이유 삼성전자 ETF SK하이닉스 ETF SOXL 레버리지 투자 주의 변동성 드래그 복리 효과 ETF 구조 설명 2배 ETF 수익률 계산 방법 주가가 올라도 ETF 수익이 안나는 이유 삼성전자 SK하이닉스 장기 우상향인데 레버리지 ETF는 왜 원금이 녹을까 ETF 투자 초보 필수 영상 레버리지 ETF 장기투자 리스크 분석 삼성전자 주가 전망 SK하이닉스 주가 전망 반도체 조정장 대비 투자 전략 주식 단타 매매 수급 분석 상승 하락 타이밍 보",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)",
-        "url": "https://youtu.be/QKc7qe1GKEg",
-        "published_at": "2026-05-27T10:45:30+00:00",
-        "reason": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10) 삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #ls일렉트릭 #삼성sds #현대차 #lg씨엔에스 #lg이노텍 #현대오토에버 #삼성전자레버리지 #하이닉스레버리지 본 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식",
-        "url": "https://youtu.be/5EKMn0kg64c",
-        "published_at": "2026-05-26T10:45:40+00:00",
-        "reason": "급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 LG이노텍, 삼성전기 다음 / 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 삼성전기 LG이노텍 다음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "코스피 8천 재돌파 ! 외국인•기관•연기금이 쓸어담은 한국주식 TOP11",
-        "url": "https://youtu.be/_SaezOGJpGU",
-        "published_at": "2026-05-26T09:45:36+00:00",
-        "reason": "외국인•기관•연기금이 쓸어담은 한국주식 TOP11 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #한화오션 #에코프로 #현대모비스 #알테오젠 #리가켐바이오 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 외국인•기관•연기금이 쓸어담은 한국주식 TOP11 #대우건설 #두산에너빌리티 #차트분석 #차트매매",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "블로그 magic_rabb1t",
-        "source_role": "블로거",
-        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
-        "url": "https://blog.naver.com/magic_rabb1t/224302304075",
-        "published_at": "",
-        "reason": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "블로그 ranto28",
-        "source_role": "블로거",
-        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-        "url": "https://blog.naver.com/ranto28/224302397201",
-        "published_at": "",
-        "reason": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
     "ticker": "005380",
     "name": "현대차",
     "sources": [
@@ -1274,6 +1462,83 @@
         "url": "https://blog.naver.com/ranto28/224302397201",
         "published_at": "",
         "reason": ": 네이버블로그 2026년의 화두는 A/S (feat 피지컬AI, 현대차, 삼성전자, 로봇) 2026년의 화두는 ? / ​ ​ 현대차의 보스턴 다이나믹스로 37~49번에 언급되어 있다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "MU",
+    "name": "Micron",
+    "sources": [
+      "주식용사부",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "sk하이닉스 삼성전자 급등한 이유",
+        "url": "https://youtu.be/56Ec9B1U4p8",
+        "published_at": "2026-05-27T09:30:16+00:00",
+        "reason": "sk하이닉스 삼성전자 급등한 이유 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/gCkOwzqTiC0",
+        "published_at": "2026-05-27T03:33:12+00:00",
+        "reason": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파 #코스닥 #코스피 #나스닥 “2만원에 ‘200만닉스’ 투자” 드디어 때가 왔다…삼전닉스 레버리지 ETF 일제히 출시 KB證 “LG이노텍 기판 공급 부족, 메모리 반도체와 유사…목표가 160만원” 시초가 단타 스윙 중장기 라이브 방송입니다 * 방송에서 제공되는 차트분석은 개인적 견해입니다. / 주식용사부 실시간 장중 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "포모를 못참고 반도체 몰빵했습니다. / ㅠㅠ 포모를 못참고 반도체 몰빵했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
+        "url": "https://youtu.be/G8gDkLB2I0s",
+        "published_at": "",
+        "reason": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1435,6 +1700,130 @@
   },
   {
     "region": "global",
+    "ticker": "QQQ",
+    "name": "Nasdaq 100 ETF",
+    "sources": [
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "월가아재의 과학적 투자"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/d5bXnCLWrvo",
+        "published_at": "2026-05-31T13:59:30+00:00",
+        "reason": "🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림 5/31 (일) 마이크로소프트 심상치 않은 모습 입니다. / 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/jI89d1bYzFY",
+        "published_at": "2026-05-31T13:28:14+00:00",
+        "reason": "🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림 5/31 (일) 마이크로소프트 심상치 않은 모습 입니다. / 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "포모를 못참고 반도체 몰빵했습니다. / ㅠㅠ 포모를 못참고 반도체 몰빵했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
+        "url": "https://youtu.be/ZSTrI_ryiZ8",
+        "published_at": "2026-05-27T15:33:12+00:00",
+        "reason": "🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림 5/27 (수) 미국주식 마지막 불꽃 상승 인가? / 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/25 (월) 테슬라 $500 보러 가나?",
+        "url": "https://youtu.be/iFTuiuHmA6Y",
+        "published_at": "2026-05-25T13:20:25+00:00",
+        "reason": "🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림 5/25 (월) 테슬라 $500 보러 가나? / 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
+        "url": "https://youtu.be/2X-ugUjZMuo",
+        "published_at": "2026-05-21T16:00:11+00:00",
+        "reason": "I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림 5/21 (목) 테슬라 앞으로 방향성은? / I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "url": "https://youtu.be/cwMSV6imFo0",
+        "published_at": "2026-05-17T12:41:48+00:00",
+        "reason": "(테슬라,엔비디아,마소,아마존,메타,알파벳) 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림 5/17 (일) 폭락의 시작일까? / (테슬라,엔비디아,마소,아마존,메타,알파벳) 🔥인베스팅 프로 + 마피디 이벤트 50% 할인 링크 https://www.investing-referral.com/mapd/ #마피디 #차트분석 #테슬라 #엔비디아 #TQQQ #SOXL #미국주식 #주식 #주식투자 #실시간 #스트림",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "월가아재의 과학적 투자",
+        "source_role": "유튜버",
+        "title": "[월가아재] \"지금 미국 주식은 비쌉니다\" 월가의 거장이 AI를 경계하는 이유",
+        "url": "https://youtu.be/X1zPw_QdVVw",
+        "published_at": "2026-05-29T11:02:08+00:00",
+        "reason": "https://valleyai.link/bil 0:00 인트로 3:41 하워드 막스의 매수·매도 패턴 5:15 1월 메모 - bubble.com 25주년·우려 4가지 8:04 2월 메모 - 속도·순환매출·클로드 인터뷰 10:39 4월 CNBC - \"지금은 세일이 아니다\" 12:40 5억$ QQQ·XOP 풋옵션 15:56 관전포인트 #월가아재 #하워드막스 #ai버블 [월가아재] \"지금 미국 주식은 비쌉니다\" 월가의 거장이 AI를 경계하는 이유 개인 투자자를 위한 블룸버그, Valley AI를 소개합니다! / https://valleyai.link/bil 0:00 인트로 3:41 하워드 막스의 매수·매도 패턴 5:15 1월 메모 - bubb",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "IONQ",
     "name": "IonQ",
     "sources": [
@@ -1446,10 +1835,10 @@
       {
         "source": "T3chfeed - Tech Stock Insights",
         "source_role": "유튜버",
-        "title": "Is the widening of IonQ's losses justified?",
+        "title": "아이온큐의 손실 확대는 정당화 될까?",
         "url": "https://youtu.be/KyA-NywDwSY",
-        "published_at": "",
-        "reason": "Is the widening of IonQ's losses justified? / Is the widening of IonQ's losses justified?",
+        "published_at": "2026-05-07T01:28:24+00:00",
+        "reason": "아이온큐의 손실 확대는 정당화 될까?",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1623,69 +2012,45 @@
   },
   {
     "region": "global",
-    "ticker": "PLTR",
-    "name": "Palantir",
+    "ticker": "TSM",
+    "name": "TSMC",
     "sources": [
-      "T3chfeed - Tech Stock Insights",
-      "올랜도 킴 미국주식"
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "블로그 magic_rabb1t"
     ],
     "source_count": 2,
     "evidence": [
       {
-        "source": "T3chfeed - Tech Stock Insights",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
-        "url": "https://youtu.be/bkuop8jLgOc",
-        "published_at": "",
-        "reason": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "ㅠㅠ #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스닥 전망 #반도체전망 #반도체etf #labu ",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "T3chfeed - Tech Stock Insights",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "\"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise",
-        "url": "https://youtu.be/Bt4CRidq3eU",
-        "published_at": "",
-        "reason": "\"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise \"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise 자막/설명에서 요약 가능한 본문이 아직 없습니다. / \"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "T3chfeed - Tech Stock Insights",
-        "source_role": "유튜버",
-        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
-        "url": "https://youtu.be/A45bkodmBEQ",
+        "source": "블로그 magic_rabb1t",
+        "source_role": "블로거",
+        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "url": "https://blog.naver.com/magic_rabb1t/224302304075",
         "published_at": "",
-        "reason": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자 #미국주식 #목표주가 #팔란티어 #장기투자 AI 국방의 시대, 팔란티어가 가장 큰 수혜자 #미국주식 #목표주가 #팔란티어 #장기투자 자막/설명에서 요약 가능한 본문이 아직 없습니다. / AI 국방의 시대, 팔란티어가 가장 큰 수혜자 #미국주식 #목표주가 #팔란티어 #장기투자",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
-        "url": "https://youtu.be/KM1gxblQq9s",
-        "published_at": "",
-        "reason": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(팔란티어) 소프트웨어가 반등중에 있다!!!",
-        "url": "https://youtu.be/xKhKlxTPMfU",
-        "published_at": "",
-        "reason": "(팔란티어) 소프트웨어가 반등중에 있다!!!",
+        "reason": "​ ​ ​ SK하이닉스는 HBM3E까지는 베이스 다이를 자체 공정으로 만들었지만, HBM4부터는 TSMC 외주를 주는 전략이에요. / ​ ​ ​ 순서로 보면 SK하이닉스가 TSMC에 베이스 다이를 주문해서 받아오고요.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1822,80 +2187,92 @@
   },
   {
     "region": "global",
-    "ticker": "MSFT",
-    "name": "Microsoft",
+    "ticker": "AAPL",
+    "name": "Apple",
     "sources": [
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+      "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
     "source_count": 1,
     "evidence": [
       {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
         "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "title": "\"대한민국 국회의원들\" 주식 포트폴리오, 이런걸 샀다고?",
+        "url": "https://youtu.be/UI9jju3rFjU",
+        "published_at": "2026-05-31T05:15:10+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 국회의원 보유종목 보러가기 https://etfshopping.com/lab/congress-stocks 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/ap",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
         "source_role": "유튜버",
-        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "url": "https://youtu.be/9nyTamqkeW8",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "title": "미국주식 살 때일까 팔 때일까, 정반대 의견을 비교해봤다",
+        "url": "https://youtu.be/kVFCqILBA40",
+        "published_at": "2026-05-24T05:15:36+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91 미국주식 살 때일까 팔 때일까, 정반대 의견을 비교해봤다 #켄피",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
         "source_role": "유튜버",
-        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "url": "https://youtu.be/4kCkPb4c528",
-        "published_at": "",
-        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "title": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다",
+        "url": "https://youtu.be/glYX_p-sBOc",
+        "published_at": "2026-05-17T05:15:23+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91/id6762693045",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
         "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "title": "\"250조 벌었다\" 주식 치트키 국민연금 포트폴리오를 살펴보자",
+        "url": "https://youtu.be/6GCfo4MIYp8",
+        "published_at": "2026-05-10T05:15:00+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 국민연금 포트폴리오 보러가기 https://etfshopping.com/lab/nps-portfolio 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
         "source_role": "유튜버",
-        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "url": "https://youtu.be/bKP_QdAAO1U",
-        "published_at": "",
-        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "title": "\"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다",
+        "url": "https://youtu.be/jhDSNrb2xPw",
+        "published_at": "2026-05-03T05:15:00+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/ap \"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다 #커버드콜 #고배당etf #SOL팔란티어커",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
         "source_role": "유튜버",
-        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
-        "url": "https://youtu.be/3KTU1_hLA_0",
-        "published_at": "",
-        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "title": "내 연봉이면 얼마 돌려받을까? 국민성장펀드 환급 시뮬레이션",
+        "url": "https://youtu.be/izV2jZwEw6w",
+        "published_at": "2026-04-26T05:15:00+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 사용하기 (PC웹) https://etfshopping.com (아이폰) https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91/id6762693045 내 연봉이면 얼마 돌려받을까? / 많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "유튜버",
+        "title": "\"작정하고 만든 배당 투자 사이트\" 7천명이 썼던 구글시트 가계부는 끝",
+        "url": "https://youtu.be/CWLHZD6xzzY",
+        "published_at": "2026-04-12T05:15:00+00:00",
+        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📚 ETF쇼핑 어플 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91/id6762693045",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1971,81 +2348,6 @@
         "url": "https://youtu.be/lhpsuDfhjl0",
         "published_at": "2026-05-26T03:49:10+00:00",
         "reason": "카카오톡 사칭 사기에 유의하세요! / 카카오톡 사칭 사기에 유의하세요!",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "META",
-    "name": "Meta",
-    "sources": [
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "url": "https://youtu.be/9nyTamqkeW8",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "url": "https://youtu.be/bKP_QdAAO1U",
-        "published_at": "",
-        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "url": "https://youtu.be/DRebgU7BKxI",
-        "published_at": "",
-        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
-        "url": "https://youtu.be/3KTU1_hLA_0",
-        "published_at": "",
-        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -2184,132 +2486,6 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
-    "region": "global",
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "sources": [
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "url": "https://youtu.be/9nyTamqkeW8",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "url": "https://youtu.be/4kCkPb4c528",
-        "published_at": "",
-        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "GOOG",
-    "name": "Alphabet",
-    "sources": [
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "url": "https://youtu.be/9nyTamqkeW8",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "url": "https://youtu.be/4kCkPb4c528",
-        "published_at": "",
-        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
     "region": "domestic",
     "ticker": "006400",
     "name": "삼성SDI",
@@ -2413,8 +2589,8 @@
   },
   {
     "region": "global",
-    "ticker": "AMZN",
-    "name": "Amazon",
+    "ticker": "ASML",
+    "name": "ASML",
     "sources": [
       "마피디 미국주식 (테슬라,TQQQ,SOXL)"
     ],
@@ -2423,112 +2599,22 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "ㅠㅠ #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스닥 전망 #반도체전망 #반도체etf #labu ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
         "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "url": "https://youtu.be/DRebgU7BKxI",
-        "published_at": "",
-        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
-    "ticker": "MU",
-    "name": "Micron",
-    "sources": [
-      "주식용사부"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "sk하이닉스 삼성전자 급등한 이유",
-        "url": "https://youtu.be/56Ec9B1U4p8",
-        "published_at": "2026-05-27T09:30:16+00:00",
-        "reason": "sk하이닉스 삼성전자 급등한 이유 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/gCkOwzqTiC0",
-        "published_at": "2026-05-27T03:33:12+00:00",
-        "reason": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파 #코스닥 #코스피 #나스닥 “2만원에 ‘200만닉스’ 투자” 드디어 때가 왔다…삼전닉스 레버리지 ETF 일제히 출시 KB證 “LG이노텍 기판 공급 부족, 메모리 반도체와 유사…목표가 160만원” 시초가 단타 스윙 중장기 라이브 방송입니다 * 방송에서 제공되는 차트분석은 개인적 견해입니다. / 주식용사부 실시간 장중 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
-    "ticker": "TSLA",
-    "name": "Tesla",
-    "sources": [
-      "강지한 차트연구소"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
-        "url": "https://youtu.be/DMxWlG37qEY",
-        "published_at": "2026-05-31T11:42:02+00:00",
-        "reason": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 LG씨엔에스 다음 / 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 급등주 후보 AI 인프라 관련주 데이터센터 관련주 ESS 전력망 수혜주 오픈AI 아마존 AWS 오라클 테슬라 공급망 관련주 SK텔레콤 AWS AI 데이터센터 구축 오픈AI 전용 AI 데이터센터 MOU 체결 울산 AI 클러스터 해인 프로젝트 수혜주 LG에너지솔루션 ESS 관련주 오라클 오픈AI 데이터센터 ESS 공급 계약 테슬",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
-        "url": "https://youtu.be/audbaebTWh0",
-        "published_at": "2026-05-30T11:45:23+00:00",
-        "reason": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금 수혜주 3종목 총정리 대주전자재료 NC HL만도 주가 전망 급등주 후보 국민연금 보유 종목 국민연금 포트폴리오 분석 2026년 1분기 국민연금 매수 종목 수혜주 대주전자재료 실리콘 음극재 관련주 포르쉐 타이칸 배터리 소재 공급 기업 삼성전기 MLCC 핵심 소재 공급망 스페이스X 태양전지 관련주 NC 리니지 아이온2 게임 / 관련주 실적 개선 수혜주 피지컬 AI 관련 사업 진출 현대로템 신한금융 협력 AI 관련주 HL만도 자율주행 로봇 관련주 보스턴다이내믹스 스팟 액추에이터 공급 테슬라 옵티머스 ",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -2542,8 +2628,8 @@
   },
   {
     "region": "global",
-    "ticker": "AAPL",
-    "name": "Apple",
+    "ticker": "SOXX",
+    "name": "Semiconductor ETF",
     "sources": [
       "마피디 미국주식 (테슬라,TQQQ,SOXL)"
     ],
@@ -2552,10 +2638,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "",
-        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "reason": "포모를 못참고 반도체 몰빵했습니다. / ㅠㅠ 포모를 못참고 반도체 몰빵했습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -2564,10 +2650,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
-        "url": "https://youtu.be/UTgX2vlmqBw",
-        "published_at": "",
-        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -2608,114 +2694,6 @@
   },
   {
     "region": "domestic",
-    "ticker": "PLTR",
-    "name": "Palantir",
-    "sources": [
-      "강지한 차트연구소"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식",
-        "url": "https://youtu.be/5EKMn0kg64c",
-        "published_at": "2026-05-26T10:45:40+00:00",
-        "reason": "급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 LG이노텍, 삼성전기 다음 / 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식 삼성전기 LG이노텍 다음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "ORCL",
-    "name": "Oracle",
-    "sources": [
-      "월가아재의 과학적 투자"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "월가아재의 과학적 투자",
-        "source_role": "유튜버",
-        "title": "[Wall Street Uncle] The Oracle of Boston is buying this stock",
-        "url": "https://youtu.be/rxwa9wn9v0U",
-        "published_at": "",
-        "reason": "[Wall Street Uncle] The Oracle of Boston is buying this stock [Wall Street Uncle] The Oracle of Boston is buying this stock 자막/설명에서 요약 가능한 본문이 아직 없습니다. / [Wall Street Uncle] The Oracle of Boston is buying this stock",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "MU",
-    "name": "Micron",
-    "sources": [
-      "올랜도 킴 미국주식"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
-        "url": "https://youtu.be/G8gDkLB2I0s",
-        "published_at": "",
-        "reason": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
-    "ticker": "TSM",
-    "name": "TSMC",
-    "sources": [
-      "블로그 magic_rabb1t"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "블로그 magic_rabb1t",
-        "source_role": "블로거",
-        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
-        "url": "https://blog.naver.com/magic_rabb1t/224302304075",
-        "published_at": "",
-        "reason": "​ ​ ​ SK하이닉스는 HBM3E까지는 베이스 다이를 자체 공정으로 만들었지만, HBM4부터는 TSMC 외주를 주는 전략이에요. / ​ ​ ​ 순서로 보면 SK하이닉스가 TSMC에 베이스 다이를 주문해서 받아오고요.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
     "ticker": "000270",
     "name": "기아",
     "sources": [
@@ -2730,6 +2708,33 @@
         "url": "https://blog.naver.com/ranto28/224302397201",
         "published_at": "",
         "reason": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "domestic",
+    "ticker": "068270",
+    "name": "셀트리온",
+    "sources": [
+      "연합뉴스 경제"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "셀트리온 창사 첫 노조 출범…성과급·인력 충원 요구",
+        "url": "https://www.yna.co.kr/view/AKR20260601103500017",
+        "published_at": "Mon, 1 Jun 2026 14:34:29 +0900",
+        "reason": "셀트리온 창사 첫 노조 출범…성과급·인력 충원 요구 셀트리온 창사 첫 노조 출범…성과급·인력 충원 요구 (서울=연합뉴스) 신선미 기자 = 셀트리온[068270] 노동조합이 1일 출범했다. / 노조 설립은 지난 2002년 셀트리온 창사 이래 처음이다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",

@@ -98,8 +98,11 @@ def youtuber_section(region, ystats):
     return f'<h2>{LABEL[region]} 유튜버별 최신 영상·쇼츠 통계</h2><div class="youtuber-grid">{html}</div>'
 
 
-def item_card(item):
-    tickers = ''.join(badge(ticker, 'ticker') for ticker in item.get('tickers', []))
+def item_card(item, region=None):
+    markets = item.get('ticker_markets') or {}
+    raw_tickers = item.get('tickers', [])
+    visible_tickers = [t for t in raw_tickers if not region or markets.get(t, region) == region]
+    tickers = ''.join(badge(ticker, 'ticker') for ticker in visible_tickers)
     link = f'<a class="source-link" href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문</a>' if item.get('url') else ''
     when = item.get('published_at') or item.get('collected_at') or ''
     confidence = badge('자막 기반', 'conf') if item.get('confidence') == 'transcript' else badge('제목/설명 기반', 'meta-badge')
@@ -117,9 +120,9 @@ def item_card(item):
 def section(region, common, items, ystats):
     recs = [rec for rec in common if rec.get('region') == region]
     recs = sorted(recs, key=lambda r: (len(r.get('evidence', [])), r.get('source_count', 0)), reverse=True)
-    details = [item for item in items if item.get('region') == region]
+    details = [item for item in items if region in (item.get('stock_regions') or [item.get('region')])]
     rec_html = '<div class="stock-rank-grid">' + '\n'.join(rec_card(rec, idx + 1) for idx, rec in enumerate(recs)) + '</div>' if recs else '<p class="empty">추천/관심 종목이 아직 없습니다.</p>'
-    detail_html = '\n'.join(item_card(item) for item in details[:14]) or '<p class="empty">수집 항목이 없습니다.</p>'
+    detail_html = '\n'.join(item_card(item, region) for item in details[:14]) or '<p class="empty">수집 항목이 없습니다.</p>'
     return f'<section id="{region}" class="tabpanel"><h2>{LABEL[region]} 종목 언급 순위</h2>{rec_html}{youtuber_section(region, ystats)}<h2>{LABEL[region]} 소스별 최신 발언</h2>{detail_html}</section>'
 
 

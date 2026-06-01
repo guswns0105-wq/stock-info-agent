@@ -335,18 +335,26 @@ def collect_rss(src):
         out.append({'source':src['name'],'source_type':'rss','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':''})
     return out
 
-def detect_mentions(text, lex_region):
+def detect_mentions(text, lex_region, market_region='domestic'):
     mentions=[]; low=text.lower()
-    alias_region='global' if lex_region and any(k in lex_region for k in ['PLTR','NVDA','TSLA','MU','IONQ']) else 'domestic'
     for code,name in lex_region.items():
         hit=False
         if re.search(r'(?<![A-Z0-9])'+re.escape(code)+r'(?![A-Z0-9])', text): hit=True
         if name and name.lower() in low: hit=True
-        for alias in STOCK_ALIASES.get(alias_region, {}).get(code, []):
+        for alias in STOCK_ALIASES.get(market_region, {}).get(code, []):
             if alias.lower() in low:
                 hit=True
         if code == '035420' and '네이버' not in text and not re.search(r'(?<![A-Z0-9])035420(?![A-Z0-9])', text): hit = False
-        if hit: mentions.append({'ticker':code,'name':name})
+        if hit: mentions.append({'ticker':code,'name':name,'market':market_region})
+    return mentions
+
+def detect_all_mentions(text, lex):
+    mentions=[]; seen=set()
+    for market in ['domestic','global']:
+        for m in detect_mentions(text, lex.get(market, {}), market):
+            key=(m['market'], m['ticker'])
+            if key not in seen:
+                seen.add(key); mentions.append(m)
     return mentions
 
 def main():
@@ -365,17 +373,18 @@ def main():
     now=datetime.now().isoformat(timespec='minutes')
     items=[]; agg={}
     for r in records:
-        region=r.get('region','domestic')
+        source_region=r.get('region','domestic')
         text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
-        mentions=detect_mentions(text, lex.get(region,{}))
-        if region=='domestic': mentions += [m for m in detect_mentions(text, lex.get('global',{})) if m not in mentions]
+        mentions=detect_all_mentions(text, lex)
+        stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
-        item={'region':region,'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
+        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
         items.append(item)
         for m in mentions:
-            key=(region,m['ticker'])
-            a=agg.setdefault(key, {'region':region,'ticker':m['ticker'],'name':m['name'],'sources':[], 'source_count':0, 'evidence':[]})
+            market=m['market']
+            key=(market,m['ticker'])
+            a=agg.setdefault(key, {'region':market,'ticker':m['ticker'],'name':m['name'],'sources':[], 'source_count':0, 'evidence':[]})
             if r['source'] not in a['sources']: a['sources'].append(r['source']); a['source_count']=len(a['sources'])
             ev_price=extract_price_fields(text, m['ticker'], m['name'])
             a['evidence'].append({'source':r['source'],'source_role':item['source_role'],'title':title,'url':r['url'],'published_at':r.get('published_at',''),'reason':infer_reason(text,title,m['ticker'],m['name']),'target_price':ev_price['target_price'],'buy_zone':ev_price['buy_zone'],'price_note':ev_price['price_note'],'confidence':item['confidence']})
@@ -383,24 +392,27 @@ def main():
     for item in items:
         if not str(item.get('source_type','')).startswith('youtube'):
             continue
-        ykey=(item.get('region','domestic'), item.get('channel_id') or item.get('source'))
-        ys=ystats_map.setdefault(ykey, {'region':item.get('region','domestic'), 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'short_count':0, 'regular_video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
-        ys['video_count'] += 1
-        if item.get('source_type') == 'youtube_short':
-            ys['short_count'] += 1
-        else:
-            ys['regular_video_count'] += 1
-        if item.get('confidence') == 'transcript':
-            ys['transcript_count'] += 1
-        else:
-            ys['metadata_count'] += 1
-        ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
-        ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':item.get('tickers', []), 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
-        for ticker in item.get('tickers', []):
-            name=lex.get(item.get('region','domestic'),{}).get(ticker) or lex.get('global',{}).get(ticker) or ticker
-            stock=ys['stocks'].setdefault(ticker, {'ticker':ticker, 'name':name, 'count':0})
-            stock['count'] += 1
-            ys['mention_count'] += 1
+        ticker_markets=item.get('ticker_markets', {})
+        for stat_region in item.get('stock_regions') or [item.get('region','domestic')]:
+            region_tickers=[t for t in item.get('tickers', []) if ticker_markets.get(t, stat_region) == stat_region]
+            ykey=(stat_region, item.get('channel_id') or item.get('source'))
+            ys=ystats_map.setdefault(ykey, {'region':stat_region, 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'short_count':0, 'regular_video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
+            ys['video_count'] += 1
+            if item.get('source_type') == 'youtube_short':
+                ys['short_count'] += 1
+            else:
+                ys['regular_video_count'] += 1
+            if item.get('confidence') == 'transcript':
+                ys['transcript_count'] += 1
+            else:
+                ys['metadata_count'] += 1
+            ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
+            ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':region_tickers, 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
+            for ticker in region_tickers:
+                name=lex.get(stat_region,{}).get(ticker) or ticker
+                stock=ys['stocks'].setdefault(ticker, {'ticker':ticker, 'name':name, 'count':0})
+                stock['count'] += 1
+                ys['mention_count'] += 1
     ystats=[]
     for ys in ystats_map.values():
         ys['stocks']=sorted(ys['stocks'].values(), key=lambda s:s['count'], reverse=True)
