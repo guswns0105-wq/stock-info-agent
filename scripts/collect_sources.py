@@ -78,7 +78,9 @@ def get_youtube_transcript(video_id):
     errors=[]
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
-        api=YouTubeTranscriptApi(); fetched=api.fetch(video_id, languages=['ko','en'])
+        # Korean Shorts often expose captions as `ko-orig` (original Korean) plus translated tracks.
+        # Prefer Korean/original captions before falling back to English.
+        api=YouTubeTranscriptApi(); fetched=api.fetch(video_id, languages=['ko-orig','ko','en'])
         text=' '.join(snippet.text for snippet in fetched if getattr(snippet, 'text', '').strip())
         if len(text) > 20:
             cache.write_text(text, encoding='utf-8')
@@ -90,7 +92,7 @@ def get_youtube_transcript(video_id):
     if os.path.exists(ytdlp):
         with tempfile.TemporaryDirectory() as td:
             outtmpl=str(Path(td)/'%(id)s.%(ext)s')
-            cmd=[ytdlp,'--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko,en','--sub-format','vtt','--ignore-no-formats-error','--sleep-subtitles','1','--retries','2','--socket-timeout','15','--no-warnings','-o',outtmpl,url]
+            cmd=[ytdlp,'--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko-orig,ko,en','--sub-format','vtt','--ignore-no-formats-error','--extractor-args','youtube:lang=ko','--sleep-subtitles','1','--retries','2','--socket-timeout','15','--no-warnings','-o',outtmpl,url]
             if os.environ.get('STOCK_YTDLP_COOKIES') == '1':
                 cmd[1:1]=['--cookies-from-browser','chrome']
             try:
@@ -240,7 +242,7 @@ def collect_youtube_channel(src):
             if cid:
                 base='https://www.youtube.com/channel/'+cid
             tab_url=base+'/'+tab
-            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(latest_limit),'--dump-single-json','--ignore-no-formats-error','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
+            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(latest_limit),'--dump-single-json','--ignore-no-formats-error','--extractor-args','youtube:lang=ko','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
             if proc.returncode != 0 or not proc.stdout.strip():
                 raise RuntimeError((proc.stderr or proc.stdout)[-400:])
             data=json.loads(proc.stdout)
@@ -289,7 +291,7 @@ def collect_youtube_channel(src):
             vid=entry['vid']; title=entry['title']; desc=entry['desc']; published=entry['published']
             transcript, method, status=transcripts.get(vid, ('', 'none', 'missing transcript task'))
             is_short = entry.get('kind') == 'short' or '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
-            summary = clean_text(transcript[:900] if transcript else desc[:700])
+            summary = clean_text(transcript[:900] if transcript else (desc[:700] or title[:700]))
             if not summary: summary = '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
             confidence = 'transcript' if transcript else 'metadata'
             out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})

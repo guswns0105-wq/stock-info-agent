@@ -249,13 +249,13 @@
   {
     "region": "global",
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-    "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
-    "video_count": 18,
-    "short_count": 8,
+    "channel_id": "",
+    "video_count": 20,
+    "short_count": 10,
     "regular_video_count": 10,
-    "mention_count": 35,
+    "mention_count": 24,
     "transcript_count": 0,
-    "metadata_count": 18,
+    "metadata_count": 20,
     "transcript_chars": 0,
     "stocks": [
       {
@@ -266,74 +266,25 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 8
+        "count": 7
       },
       {
-        "ticker": "QQQ",
-        "name": "Nasdaq 100 ETF",
-        "count": 8
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 3
       },
       {
-        "ticker": "TSM",
-        "name": "TSMC",
-        "count": 2
-      },
-      {
-        "ticker": "ASML",
-        "name": "ASML",
-        "count": 2
-      },
-      {
-        "ticker": "SOXX",
-        "name": "Semiconductor ETF",
-        "count": 2
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 2
+        "ticker": "IONQ",
+        "name": "IonQ",
+        "count": 3
       }
     ],
     "videos": [
       {
-        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
-        "url": "https://youtu.be/d5bXnCLWrvo",
-        "published_at": "2026-05-31T13:59:30+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "QQQ"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
-        "url": "https://youtu.be/jI89d1bYzFY",
-        "published_at": "2026-05-31T13:28:14+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "QQQ"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
         "url": "https://youtu.be/V2YUu1TNb8k",
-        "published_at": "2026-05-29T21:34:55+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "TSM",
-          "ASML",
-          "QQQ",
-          "SOXX",
-          "MU"
-        ],
+        "published_at": "",
+        "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "video"
@@ -341,54 +292,108 @@
       {
         "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
         "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "2026-05-28T11:00:30+00:00",
+        "published_at": "",
         "tickers": [
-          "NVDA",
-          "TSLA",
-          "TSM",
-          "ASML",
-          "QQQ",
-          "SOXX",
-          "MU"
+          "TSLA"
         ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "video"
       },
       {
-        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
-        "url": "https://youtu.be/ZSTrI_ryiZ8",
-        "published_at": "2026-05-27T15:33:12+00:00",
+        "title": "(멤버십 전용) 5/20 (수) 반도체 단기 투자전략, 엔비디아, 테슬라 뷰 전달",
+        "url": "https://youtu.be/5FeyG-xJWF0",
+        "published_at": "",
         "tickers": [
           "NVDA",
-          "TSLA",
-          "QQQ"
+          "TSLA"
         ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "video"
       },
       {
-        "title": "5/25 (월) 테슬라 $500 보러 가나?",
-        "url": "https://youtu.be/iFTuiuHmA6Y",
-        "published_at": "2026-05-25T13:20:25+00:00",
+        "title": "이젠 반도체 조심해야 할 것 같습니다. (테슬라,메타,엔비디아,마소,알파벳,아마존,팔란티어,아이온큐)",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
         "tickers": [
           "NVDA",
           "TSLA",
-          "QQQ"
+          "PLTR",
+          "IONQ"
         ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "video"
       },
       {
-        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
-        "url": "https://youtu.be/2X-ugUjZMuo",
-        "published_at": "2026-05-21T16:00:11+00:00",
+        "title": "CPI발표후 대응전략 (테슬라,메타,엔비디아,알파벳,마소,미국증시 투자전략)",
+        "url": "https://youtu.be/4kCkPb4c528",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "뭔가 시장의 변화가 감지되고 있습니다. (테슬라,마소,엔비디아,애플,구글,아마존,알파벳,비트코인)",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "4/9 (수) 멤버십 전용 영상, 빅테크 실적발표전 미국주식 대응전략",
+        "url": "https://youtu.be/vo-pREQ69Vs",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "상승장의 시작인가? 미국주식 투자전략 (테슬라,메타,마소,엔비디아,알파벳,애플,아마존,비트코인,이더리움,아이온큐,팔란티어)",
+        "url": "https://youtu.be/bKP_QdAAO1U",
+        "published_at": "",
         "tickers": [
           "NVDA",
           "TSLA",
-          "QQQ"
+          "PLTR",
+          "IONQ"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "기존 뷰를  약간 수정합니다. 중요한 움직인 포착 (테슬라,엔비디아,아마존,메타,구글,애플,마소)",
+        "url": "https://youtu.be/DRebgU7BKxI",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "트럼프 타코 But 이란 반대 , 미국주식 대응전략 공개 (테슬라,엔비디아,메타,마소,알파벳,아마존,애플,팔란티어,아이온큐,비트코인,이더리움)",
+        "url": "https://youtu.be/3KTU1_hLA_0",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "PLTR",
+          "IONQ"
         ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -397,33 +402,20 @@
       {
         "title": "정배열후 첫번째 이평선 지지 받을때 매수",
         "url": "https://youtu.be/1KJBq6v3YGA",
-        "published_at": "2026-05-18T20:15:06+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
-        "youtube_kind": "video"
+        "youtube_kind": "short"
       },
       {
         "title": "돌파, 돌파지지 매수",
         "url": "https://youtu.be/sqKAFVyuiiY",
-        "published_at": "2026-05-17T15:10:23+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
-        "url": "https://youtu.be/cwMSV6imFo0",
-        "published_at": "2026-05-17T12:41:48+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "QQQ"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
+        "youtube_kind": "short"
       },
       {
         "title": "돈 지키는 자리",
@@ -493,7 +485,7 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Nov 29, 2023 (Wed) US Stock Market 1-Minute Briefing #Tesla #Cybertruck #ChartAnalysis #tmf",
+        "title": "23년 11월29일 (수) 미국증시 1분 브리핑  #테슬라 #사이버트럭  #차트분석 #tmf",
         "url": "https://youtu.be/YiGFF2JL6fE",
         "published_at": "",
         "tickers": [
@@ -512,7 +504,7 @@
     "video_count": 15,
     "short_count": 5,
     "regular_video_count": 10,
-    "mention_count": 23,
+    "mention_count": 24,
     "transcript_count": 0,
     "metadata_count": 15,
     "transcript_chars": 0,
@@ -520,7 +512,7 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 7
+        "count": 8
       },
       {
         "ticker": "000660",
@@ -665,7 +657,7 @@
         "youtube_kind": "video"
       },
       {
-        "title": "Secondary Battery Stocks Supported by the National Growth Fund",
+        "title": "국민성장펀드도 힘을 보태는 2차전지주",
         "url": "https://youtu.be/zqdHI95eiuc",
         "published_at": "",
         "tickers": [],
@@ -674,16 +666,18 @@
         "youtube_kind": "short"
       },
       {
-        "title": "How High Will Samsung Electronics Go?",
+        "title": "삼성전자 어디까지 오를까",
         "url": "https://youtu.be/HbyhhcZKy4w",
         "published_at": "",
-        "tickers": [],
+        "tickers": [
+          "005930"
+        ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "short"
       },
       {
-        "title": "KOSPI Decline: Was the Semiconductor Boom a Bubble?",
+        "title": "코스피 하락, 반도체는 버블이었나?",
         "url": "https://youtu.be/OulpwObpAP4",
         "published_at": "",
         "tickers": [],
@@ -692,7 +686,7 @@
         "youtube_kind": "short"
       },
       {
-        "title": "What Are the Strategies for Domestic Stocks Linked to Wall Street's Next Big Theme After Semicond...",
+        "title": "반도체 다음 월가가 찍은 테마 관련된 국내 종목 대응법은?",
         "url": "https://youtu.be/2UuW8ly9m2o",
         "published_at": "",
         "tickers": [],
@@ -715,8 +709,8 @@
   },
   {
     "region": "global",
-    "youtuber": "T3chfeed - Tech Stock Insights",
-    "channel_id": "UCH2sxkxg_vdJSK4KYRXNE0Q",
+    "youtuber": "T3chfeed - 테크피드 미국 주식 인사이트",
+    "channel_id": "",
     "video_count": 20,
     "short_count": 10,
     "regular_video_count": 10,
@@ -750,7 +744,7 @@
       {
         "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
         "url": "https://youtu.be/bkuop8jLgOc",
-        "published_at": "2026-05-29T06:37:35+00:00",
+        "published_at": "",
         "tickers": [
           "PLTR"
         ],
@@ -761,7 +755,7 @@
       {
         "title": "무서운 속도로 올라오는 아틀라스, 그 뒤에 숨겨진 엔비디아",
         "url": "https://youtu.be/Gd3nrzPV5uY",
-        "published_at": "2026-05-28T09:55:39+00:00",
+        "published_at": "",
         "tickers": [
           "NVDA"
         ],
@@ -772,7 +766,7 @@
       {
         "title": "엔비디아가 보여주는 충격적인 1분기 실적...",
         "url": "https://youtu.be/og-O3Ujymn0",
-        "published_at": "2026-05-21T22:24:08+00:00",
+        "published_at": "",
         "tickers": [
           "NVDA"
         ],
@@ -783,7 +777,7 @@
       {
         "title": "스페이스X 상장 신청, 충격적인 매출의 수준",
         "url": "https://youtu.be/CwOeak_dDCw",
-        "published_at": "2026-05-21T00:58:32+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -792,7 +786,7 @@
       {
         "title": "중국은 이 둘을 받아들일 것인가",
         "url": "https://youtu.be/_pTWwwdUdpo",
-        "published_at": "2026-05-16T07:43:12+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -801,7 +795,7 @@
       {
         "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
         "url": "https://youtu.be/AnDxrYqudj0",
-        "published_at": "2026-05-10T08:41:18+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -810,7 +804,7 @@
       {
         "title": "아이온큐의 손실 확대는 정당화 될까?",
         "url": "https://youtu.be/KyA-NywDwSY",
-        "published_at": "2026-05-07T01:28:24+00:00",
+        "published_at": "",
         "tickers": [
           "IONQ"
         ],
@@ -821,7 +815,7 @@
       {
         "title": "\"직접 전화해서 물어보세요\", 앤트로픽 공포깨고 서프라이즈 내는 팔란티어",
         "url": "https://youtu.be/Bt4CRidq3eU",
-        "published_at": "2026-05-05T00:22:31+00:00",
+        "published_at": "",
         "tickers": [
           "PLTR"
         ],
@@ -832,7 +826,7 @@
       {
         "title": "자신있으면 입증하라는 엔비디아, 신고가 달성",
         "url": "https://youtu.be/5xC937PqmyY",
-        "published_at": "2026-04-28T10:44:42+00:00",
+        "published_at": "",
         "tickers": [
           "NVDA"
         ],
@@ -843,14 +837,14 @@
       {
         "title": "스페이스X 다큐멘터리: 비행하듯 시험하라",
         "url": "https://youtu.be/Uc6MCnYwvE4",
-        "published_at": "2026-04-26T05:40:04+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "video"
       },
       {
-        "title": "Gene editing that defies God",
+        "title": "신을 거역하는 유전자 편집",
         "url": "https://youtu.be/O_KNCAkiG-o",
         "published_at": "",
         "tickers": [],
@@ -877,7 +871,7 @@
         "youtube_kind": "short"
       },
       {
-        "title": "The Cyborg Era Opened by Tesla #USStocks #TargetPrice #Tesla",
+        "title": "테슬라가 열고 있는 사이보그 시대  #미국주식 #목표주가 #테슬라",
         "url": "https://youtu.be/8QprJRquCMc",
         "published_at": "",
         "tickers": [
@@ -1424,128 +1418,44 @@
     ]
   },
   {
-    "region": "global",
-    "youtuber": "주식쇼퍼 - 투자도 쇼핑처럼",
-    "channel_id": "UC9Qalq_Mh1GLKv5W2W3_n-A",
-    "video_count": 19,
+    "region": "domestic",
+    "youtuber": "경제사냥꾼",
+    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
+    "video_count": 10,
     "short_count": 10,
-    "regular_video_count": 9,
-    "mention_count": 8,
+    "regular_video_count": 0,
+    "mention_count": 2,
     "transcript_count": 0,
-    "metadata_count": 19,
+    "metadata_count": 10,
     "transcript_chars": 0,
     "stocks": [
       {
-        "ticker": "AAPL",
-        "name": "Apple",
-        "count": 7
+        "ticker": "066570",
+        "name": "LG전자",
+        "count": 1
       },
       {
-        "ticker": "PLTR",
-        "name": "Palantir",
+        "ticker": "003550",
+        "name": "LG",
         "count": 1
       }
     ],
     "videos": [
       {
-        "title": "\"대한민국 국회의원들\" 주식 포트폴리오, 이런걸 샀다고?",
-        "url": "https://youtu.be/UI9jju3rFjU",
-        "published_at": "2026-05-31T05:15:10+00:00",
+        "title": "월가에서 437% 오른 ‘LG전자’ 다음으로, 상승장 올 수 있다는 ‘2차 수혜주’ 정체",
+        "url": "https://youtu.be/RDTVr6j1SxQ",
+        "published_at": "",
         "tickers": [
-          "AAPL"
+          "066570",
+          "003550"
         ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
-        "youtube_kind": "video"
+        "youtube_kind": "short"
       },
       {
-        "title": "미국주식 살 때일까 팔 때일까, 정반대 의견을 비교해봤다",
-        "url": "https://youtu.be/kVFCqILBA40",
-        "published_at": "2026-05-24T05:15:36+00:00",
-        "tickers": [
-          "AAPL"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다",
-        "url": "https://youtu.be/glYX_p-sBOc",
-        "published_at": "2026-05-17T05:15:23+00:00",
-        "tickers": [
-          "AAPL"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"250조 벌었다\" 주식 치트키 국민연금 포트폴리오를 살펴보자",
-        "url": "https://youtu.be/6GCfo4MIYp8",
-        "published_at": "2026-05-10T05:15:00+00:00",
-        "tickers": [
-          "AAPL"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다",
-        "url": "https://youtu.be/jhDSNrb2xPw",
-        "published_at": "2026-05-03T05:15:00+00:00",
-        "tickers": [
-          "AAPL",
-          "PLTR"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "내 연봉이면 얼마 돌려받을까? 국민성장펀드 환급 시뮬레이션",
-        "url": "https://youtu.be/izV2jZwEw6w",
-        "published_at": "2026-04-26T05:15:00+00:00",
-        "tickers": [
-          "AAPL"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"작정하고 만든 배당 투자 사이트\" 7천명이 썼던 구글시트 가계부는 끝",
-        "url": "https://youtu.be/CWLHZD6xzzY",
-        "published_at": "2026-04-12T05:15:00+00:00",
-        "tickers": [
-          "AAPL"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"커버드콜 ❌\"  배당률 13%? 지금 살까 말까 고민된다면 (BDC ARCC MAIN)",
-        "url": "https://youtu.be/_zNtWJUOf1k",
-        "published_at": "2026-04-05T05:15:00+00:00",
-        "tickers": [],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"고환율 시대\" 3년 치 일감 다 쌓아둔 기업들은 결국 오른다",
-        "url": "https://youtu.be/8A8HsgMsHXA",
-        "published_at": "2026-03-29T05:15:00+00:00",
-        "tickers": [],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "Investing in Bitcoin with your retirement pension #RetirementPensionBitcoin",
-        "url": "https://youtu.be/9qBeO2oFD1Y",
+        "title": "트럼프가 14조 쏟아붓자, 역대급 상승장 올 수도 있다는 '한국 종목' 정체",
+        "url": "https://youtu.be/CGGitwvIEwk",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1553,8 +1463,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "월배당 100만원을 받으면 인생이 바뀔까?",
-        "url": "https://youtu.be/rt09KsDUr_U",
+        "title": "6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지",
+        "url": "https://youtu.be/LL7jqfzZI0k",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1562,8 +1472,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "용돈받는 남편 아직도 있나요?",
-        "url": "https://youtu.be/RWrE1YzTIaY",
+        "title": "월가에서 372% 오른 '로켓랩' 다음으로 상승장 올 수 있다는 '종목' 정체",
+        "url": "https://youtu.be/YetajTuzG04",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1571,8 +1481,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "스타벅스 커피를 평생 공짜로 마시는 방법 #SBUX",
-        "url": "https://youtu.be/5pusYkdM5ic",
+        "title": "현재 '미국 주식' 중에서 가장 저평가됐다는 '종목' 3개",
+        "url": "https://youtu.be/bICJIzEYXiA",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1580,8 +1490,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "The average office worker's salary is 3.55 million won, but what if you earn less than that? #Salary",
-        "url": "https://youtu.be/fyQkVUs4XPo",
+        "title": "'오픈AI' 상장 후, 역대급 상승장 올 수도 있다는 ‘한국 수혜주’ 정체",
+        "url": "https://youtu.be/yE1BXDeSnnw",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1589,8 +1499,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "요즘 유행하는 어둠의 멍거형과 대화해봤다 #찰리멍거",
-        "url": "https://youtu.be/61jiWsy_Aeg",
+        "title": "이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)",
+        "url": "https://youtu.be/r5a6RLvYSNk",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1598,8 +1508,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "부자가 되기 전 하면 안되는 3가지",
-        "url": "https://youtu.be/76EYAobZlzo",
+        "title": "'제2의 하이닉스' 월가가 지금 주목하고 있다는 '신규 대장주' 정체",
+        "url": "https://youtu.be/HDI_HnYzxrE",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1607,8 +1517,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "A portfolio of a 27-year investor receiving a monthly dividend of 13 million won",
-        "url": "https://youtu.be/RgsqMvirIzk",
+        "title": "투자자들이 미리 체크하는, 다음주 '투자' 포인트(06.01~06.05)",
+        "url": "https://youtu.be/EfNfXvCxOac",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1616,17 +1526,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "도지코인 사버렸습니다. 진짜로 떨어질 듯?",
-        "url": "https://youtu.be/Tqt_4l1Ynfg",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "Once you save your first 100 million, your assets will snowball. #save100million #snowball #compo...",
-        "url": "https://youtu.be/Ncsmwc3tNGc",
+        "title": "월가가 지금 보고 있다는 ‘조선주’ 매수 타이밍",
+        "url": "https://youtu.be/SSPXSGdl0jE",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -1636,13 +1537,56 @@
     ]
   },
   {
-    "region": "domestic",
-    "youtuber": "주식쇼퍼 - 투자도 쇼핑처럼",
-    "channel_id": "UC9Qalq_Mh1GLKv5W2W3_n-A",
+    "region": "global",
+    "youtuber": "주식용사부",
+    "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
     "video_count": 2,
     "short_count": 0,
     "regular_video_count": 2,
-    "mention_count": 3,
+    "mention_count": 2,
+    "transcript_count": 0,
+    "metadata_count": 2,
+    "transcript_chars": 0,
+    "stocks": [
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 2
+      }
+    ],
+    "videos": [
+      {
+        "title": "sk하이닉스 삼성전자 급등한 이유",
+        "url": "https://youtu.be/56Ec9B1U4p8",
+        "published_at": "2026-05-27T09:30:16+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/gCkOwzqTiC0",
+        "published_at": "2026-05-27T03:33:12+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
+    "youtuber": "주식쇼퍼 - 투자도 쇼핑처럼",
+    "channel_id": "",
+    "video_count": 2,
+    "short_count": 0,
+    "regular_video_count": 2,
+    "mention_count": 2,
     "transcript_count": 0,
     "metadata_count": 2,
     "transcript_chars": 0,
@@ -1651,21 +1595,15 @@
         "ticker": "005930",
         "name": "삼성전자",
         "count": 2
-      },
-      {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "count": 1
       }
     ],
     "videos": [
       {
         "title": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다",
         "url": "https://youtu.be/glYX_p-sBOc",
-        "published_at": "2026-05-17T05:15:23+00:00",
+        "published_at": "",
         "tickers": [
-          "005930",
-          "000660"
+          "005930"
         ],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1674,7 +1612,7 @@
       {
         "title": "\"삼성전자우 왜 사요?\" 답은 외국인이 알고 있습니다 (삼성전자 vs 삼성전자우)",
         "url": "https://youtu.be/Yrl_I2hlheo",
-        "published_at": "2026-04-19T05:15:00+00:00",
+        "published_at": "",
         "tickers": [
           "005930"
         ],
@@ -1687,20 +1625,15 @@
   {
     "region": "global",
     "youtuber": "월가아재의 과학적 투자",
-    "channel_id": "UCpqD9_OJNtF6suPpi6mOQCQ",
+    "channel_id": "",
     "video_count": 20,
     "short_count": 10,
     "regular_video_count": 10,
-    "mention_count": 2,
+    "mention_count": 1,
     "transcript_count": 0,
     "metadata_count": 20,
     "transcript_chars": 0,
     "stocks": [
-      {
-        "ticker": "QQQ",
-        "name": "Nasdaq 100 ETF",
-        "count": 1
-      },
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
@@ -1711,7 +1644,7 @@
       {
         "title": "[월가아재] 보스턴의 버핏, 이 주식을 사고 있습니다",
         "url": "https://youtu.be/rxwa9wn9v0U",
-        "published_at": "2026-05-31T07:40:15+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1720,10 +1653,8 @@
       {
         "title": "[월가아재] \"지금 미국 주식은 비쌉니다\" 월가의 거장이 AI를 경계하는 이유",
         "url": "https://youtu.be/X1zPw_QdVVw",
-        "published_at": "2026-05-29T11:02:08+00:00",
-        "tickers": [
-          "QQQ"
-        ],
+        "published_at": "",
+        "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
         "youtube_kind": "video"
@@ -1731,7 +1662,7 @@
       {
         "title": "[월가아재] 중국주식에 올인했던 월가의 거장, 이제는 중국 버리고 한국 주식에 몰빵? (1분기 13F)",
         "url": "https://youtu.be/t0xdXQH_tVk",
-        "published_at": "2026-05-28T10:43:03+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1740,7 +1671,7 @@
       {
         "title": "[월가아재] \"버블 8회 말이다\" 30년 무패 거장이 AI 대장주 전량 청산하고 몰빵한 이 종목 (Q1 13f 분석)",
         "url": "https://youtu.be/SgPL3kBb4TM",
-        "published_at": "2026-05-20T09:48:19+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1749,7 +1680,7 @@
       {
         "title": "[월가아재] 수익보다 \"근거\"가 먼저입니다. 근거 있는 투자를 위한 공부법 | Valley Expert 커리큘럼 설명 및 Q&A",
         "url": "https://youtu.be/zV_iG7Fpv40",
-        "published_at": "2026-05-18T11:25:37+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1758,7 +1689,7 @@
       {
         "title": "[월가아재] 앞으로 10년 매크로 투자의 핵심? 달러는 이제 보험이 아니다 | 배리 아이켄그린 2부",
         "url": "https://youtu.be/mYA0tppJkcg",
-        "published_at": "2026-05-16T02:34:01+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1767,7 +1698,7 @@
       {
         "title": "[월가아재] 달러 패권이 흔들렸다? 달러는 더 이상 공짜가 아닐 수 있습니다 | 배리 아이켄그린 1부",
         "url": "https://youtu.be/LnmXc3m-WIo",
-        "published_at": "2026-05-13T10:33:53+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1776,7 +1707,7 @@
       {
         "title": "[월가아재] 4년간 준비해 온 월가아재팀의 실전투자 훈련프로그램 (얼리버드 혜택 + 7일 환불)",
         "url": "https://youtu.be/HfsjO10ysDA",
-        "published_at": "2026-05-11T12:08:42+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1785,7 +1716,7 @@
       {
         "title": "[월가아재] 지금 내 계좌에 찰떡인 자산을 알려드립니다.",
         "url": "https://youtu.be/ZUmGdPMtuXo",
-        "published_at": "2026-05-09T08:20:13+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1794,7 +1725,7 @@
       {
         "title": "[월가아재] 모두가 AI 강세장에 환호하는 지금 '이 자산'을 주목해야 합니다.",
         "url": "https://youtu.be/MyTNV9ZB9Bo",
-        "published_at": "2026-05-06T10:58:41+00:00",
+        "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
@@ -1810,7 +1741,7 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Will becoming rich really make you happy?",
+        "title": "부자가 되면 정말 행복해질까?",
         "url": "https://youtu.be/km8lJ-Ro-aE",
         "published_at": "",
         "tickers": [],
@@ -1875,7 +1806,7 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Japan's Interest Rate Shock: Why Are My Stocks Falling?",
+        "title": "일본 금리 발작, 왜 내 주식이 떨어질까?",
         "url": "https://youtu.be/Spvnt9ERpCA",
         "published_at": "",
         "tickers": [],
@@ -1896,123 +1827,92 @@
   },
   {
     "region": "global",
-    "youtuber": "주식용사부",
-    "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 2,
-    "short_count": 0,
-    "regular_video_count": 2,
-    "mention_count": 2,
-    "transcript_count": 0,
-    "metadata_count": 2,
-    "transcript_chars": 0,
-    "stocks": [
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 2
-      }
-    ],
-    "videos": [
-      {
-        "title": "sk하이닉스 삼성전자 급등한 이유",
-        "url": "https://youtu.be/56Ec9B1U4p8",
-        "published_at": "2026-05-27T09:30:16+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/gCkOwzqTiC0",
-        "published_at": "2026-05-27T03:33:12+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      }
-    ]
-  },
-  {
-    "region": "domestic",
-    "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-    "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
-    "video_count": 2,
-    "short_count": 0,
-    "regular_video_count": 2,
-    "mention_count": 2,
-    "transcript_count": 0,
-    "metadata_count": 2,
-    "transcript_chars": 0,
-    "stocks": [
-      {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "count": 2
-      }
-    ],
-    "videos": [
-      {
-        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
-        "url": "https://youtu.be/V2YUu1TNb8k",
-        "published_at": "2026-05-29T21:34:55+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "2026-05-28T11:00:30+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "source-title/meta",
-        "transcript_chars": 0,
-        "youtube_kind": "video"
-      }
-    ]
-  },
-  {
-    "region": "domestic",
-    "youtuber": "경제사냥꾼",
-    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 10,
+    "youtuber": "주식쇼퍼 - 투자도 쇼핑처럼",
+    "channel_id": "",
+    "video_count": 18,
     "short_count": 10,
-    "regular_video_count": 0,
-    "mention_count": 1,
+    "regular_video_count": 8,
+    "mention_count": 0,
     "transcript_count": 0,
-    "metadata_count": 10,
+    "metadata_count": 18,
     "transcript_chars": 0,
-    "stocks": [
-      {
-        "ticker": "003550",
-        "name": "LG",
-        "count": 1
-      }
-    ],
+    "stocks": [],
     "videos": [
       {
-        "title": "Following LG Electronics, which surged 437% on Wall Street, the 'secondary beneficiary stocks' th...",
-        "url": "https://youtu.be/RDTVr6j1SxQ",
+        "title": "\"대한민국 국회의원들\" 주식 포트폴리오, 이런걸 샀다고?",
+        "url": "https://youtu.be/UI9jju3rFjU",
         "published_at": "",
-        "tickers": [
-          "003550"
-        ],
+        "tickers": [],
         "confidence": "source-title/meta",
         "transcript_chars": 0,
-        "youtube_kind": "short"
+        "youtube_kind": "video"
       },
       {
-        "title": "The Identity of 'Korean Stocks' That Could Bring an All-Time Bull Market After Trump Pours 14 Tri...",
-        "url": "https://youtu.be/CGGitwvIEwk",
+        "title": "미국주식 살 때일까 팔 때일까, 정반대 의견을 비교해봤다",
+        "url": "https://youtu.be/kVFCqILBA40",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"250조 벌었다\" 주식 치트키 국민연금 포트폴리오를 살펴보자",
+        "url": "https://youtu.be/6GCfo4MIYp8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다",
+        "url": "https://youtu.be/jhDSNrb2xPw",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "내 연봉이면 얼마 돌려받을까? 국민성장펀드 환급 시뮬레이션",
+        "url": "https://youtu.be/izV2jZwEw6w",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"작정하고 만든 배당 투자 사이트\" 7천명이 썼던 구글시트 가계부는 끝",
+        "url": "https://youtu.be/CWLHZD6xzzY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"커버드콜 ❌\"  배당률 13%? 지금 살까 말까 고민된다면 (BDC ARCC MAIN)",
+        "url": "https://youtu.be/_zNtWJUOf1k",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"고환율 시대\" 3년 치 일감 다 쌓아둔 기업들은 결국 오른다",
+        "url": "https://youtu.be/8A8HsgMsHXA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "퇴직연금으로 비트코인을 투자하게 되다니 #퇴직연금비트코인",
+        "url": "https://youtu.be/9qBeO2oFD1Y",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2020,8 +1920,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "3 Key Investment Points Investors Must Know for June 1st",
-        "url": "https://youtu.be/LL7jqfzZI0k",
+        "title": "월배당 100만원을 받으면 인생이 바뀔까?",
+        "url": "https://youtu.be/rt09KsDUr_U",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2029,8 +1929,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Identity of the 'stock' on Wall Street that could lead to a bull market following 'Rocket Lab,' w...",
-        "url": "https://youtu.be/YetajTuzG04",
+        "title": "용돈받는 남편 아직도 있나요?",
+        "url": "https://youtu.be/RWrE1YzTIaY",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2038,8 +1938,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "The 3 'stocks' currently considered the most undervalued among 'US stocks'",
-        "url": "https://youtu.be/bICJIzEYXiA",
+        "title": "스타벅스 커피를 평생 공짜로 마시는 방법 #SBUX",
+        "url": "https://youtu.be/5pusYkdM5ic",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2047,8 +1947,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Identity of the ‘Korean Beneficiary Stocks’ That Could Bring an All-Time Record Bull Market After...",
-        "url": "https://youtu.be/yE1BXDeSnnw",
+        "title": "직장인 평균월급 355만원 이거보다 적게 번다면? #월급",
+        "url": "https://youtu.be/fyQkVUs4XPo",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2056,8 +1956,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "The Identity of the ‘AI Company’ into which the Lee Jae-myung Administration is pouring 800 billi...",
-        "url": "https://youtu.be/r5a6RLvYSNk",
+        "title": "요즘 유행하는 어둠의 멍거형과 대화해봤다 #찰리멍거",
+        "url": "https://youtu.be/61jiWsy_Aeg",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2065,8 +1965,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "The Identity of the 'New Leading Stock' That Wall Street Is Currently Paying Attention to as the ...",
-        "url": "https://youtu.be/HDI_HnYzxrE",
+        "title": "부자가 되기 전 하면 안되는 3가지",
+        "url": "https://youtu.be/76EYAobZlzo",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2074,8 +1974,8 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Next Week's 'Investment' Points Investors Check in Advance (June 1–June 5)",
-        "url": "https://youtu.be/EfNfXvCxOac",
+        "title": "월배당 1300만원 받는 27년차 투자자 포트폴리오",
+        "url": "https://youtu.be/RgsqMvirIzk",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
@@ -2083,8 +1983,17 @@
         "youtube_kind": "short"
       },
       {
-        "title": "Buying Timing for the ‘Shipbuilding Stocks’ Wall Street Is Currently Watching",
-        "url": "https://youtu.be/SSPXSGdl0jE",
+        "title": "도지코인 사버렸습니다. 진짜로 떨어질 듯?",
+        "url": "https://youtu.be/Tqt_4l1Ynfg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "source-title/meta",
+        "transcript_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "첫 1억을 모으면 자산이 눈덩이처럼 불어난다 #1억모으기 #스노우볼 #복리효과",
+        "url": "https://youtu.be/Ncsmwc3tNGc",
         "published_at": "",
         "tickers": [],
         "confidence": "source-title/meta",
