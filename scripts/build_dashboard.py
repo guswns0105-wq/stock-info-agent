@@ -59,12 +59,14 @@ def item_card(item):
     tickers = ''.join(badge(ticker, 'ticker') for ticker in item.get('tickers', []))
     link = f'<a class="source-link" href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문</a>' if item.get('url') else ''
     when = item.get('published_at') or item.get('collected_at') or ''
+    transcript_badge = badge('자막 기반', 'conf') if item.get('confidence') == 'transcript' else badge('메타 기반', 'meta-badge')
+    type_badge = badge(item.get('source_type', ''), 'type')
     return f'''
     <article class="card small">
       <div class="meta"><strong>{esc(item.get('source'))}</strong><span>{esc(when)}</span>{link}</div>
       <h4>{esc(item.get('title'))}</h4>
       <p>{esc(item.get('summary'))}</p>
-      <div class="badges">{badge(item.get('recommendation'), 'rec')}{tickers}</div>
+      <div class="badges">{badge(item.get('recommendation'), 'rec')}{transcript_badge}{type_badge}{tickers}</div>
     </article>'''
 
 

@@ -2,68 +2,131 @@
   {
     "region": "domestic",
     "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
     "title": "6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지",
-    "summary": "요약 없음",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/LL7jqfzZI0k",
     "published_at": "2026-06-01T02:29:07+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
     "title": "월가에서 372% 오른 '로켓랩' 다음으로 상승장 올 수 있다는 '종목' 정체",
-    "summary": "요약 없음",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/YetajTuzG04",
     "published_at": "2026-05-31T21:42:07+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
     "title": "현재 '미국 주식' 중에서 가장 저평가됐다는 '종목' 3개",
-    "summary": "요약 없음",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/bICJIzEYXiA",
     "published_at": "2026-05-31T14:30:22+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
     "title": "'오픈AI' 상장 후, 역대급 상승장 올 수도 있다는 ‘한국 수혜주’ 정체",
-    "summary": "요약 없음",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/yE1BXDeSnnw",
     "published_at": "2026-05-31T11:30:05+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
     "title": "이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)",
-    "summary": "요약 없음",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/r5a6RLvYSNk",
     "published_at": "2026-05-31T09:33:37+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
+    "title": "LG 주식들 12월까지 주가 끌어 올릴 수 있다는 '신의 한수'",
+    "summary": "※본 내용은 투자의 참고용일 뿐이며, 최종 투자 판단과 책임은 투자자 본인에게 있습니다.\n\n이 밖에도 경제사냥꾼의 더 많은 경제 분석 자료를 보고 싶다면 해당 링크를 방문해 주세요!\n➡ https://inpk.link/moneyhunter | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
+    "tickers": [
+      "003550"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/ZKVt7vdyx7s",
+    "published_at": "2026-05-31T06:26:34+00:00",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
+    "title": "'제2의 하이닉스' 월가가 지금 주목하고 있다는 '신규 대장주' 정체",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/HDI_HnYzxrE",
+    "published_at": "2026-05-31T03:00:33+00:00",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "source_type": "youtube_video",
+    "title": "투자자들이 미리 체크하는, 다음주 '투자' 포인트(06.01~06.05)",
+    "summary": " | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/EfNfXvCxOac",
+    "published_at": "2026-05-31T01:00:05+00:00",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "Naver blog magic_rabb1t",
+    "source_type": "naver_blog_post",
     "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
-    "summary": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 ",
+    "summary": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.nav",
     "tickers": [
       "005930",
       "000660",
@@ -73,13 +136,16 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224302304075",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "domestic",
     "source": "Naver blog ranto28",
+    "source_type": "naver_blog_post",
     "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-    "summary": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 59 새 댓글 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전",
+    "summary": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 62 새 댓글 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.naver.co",
     "tickers": [
       "005930",
       "000660",
@@ -94,13 +160,16 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224302397201",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
     "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
-    "summary": "2028년 삼전+하이닉스 영업익 1000조 시대\n아시아 최대 IT전시회 컴퓨텍스 개막 D-2\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 무료 전수 (https://cafe.naver.c",
+    "summary": "2028년 삼전+하이닉스 영업익 1000조 시대\n아시아 최대 IT전시회 컴퓨텍스 개막 D-2\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 무료 전수 (https://cafe.naver.c | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [
       "005930",
       "000660",
@@ -110,13 +179,16 @@
     "confidence": "source-title/meta",
     "url": "https://youtu.be/GTShwWRIaCI",
     "published_at": "2026-05-31T23:40:24+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
     "title": "LG그룹주 급등 이유, 끝나지 않은 호재",
-    "summary": "젠슨황 방한으로 인한 lg그룹주의 급등과 끝나지 않은 호재\n#lg이노텍 #lg씨엔에스 #주식정보 #주식시황",
+    "summary": "젠슨황 방한으로 인한 lg그룹주의 급등과 끝나지 않은 호재\n#lg이노텍 #lg씨엔에스 #주식정보 #주식시황 | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [
       "003550"
     ],
@@ -124,13 +196,16 @@
     "confidence": "source-title/meta",
     "url": "https://youtu.be/yg09E60M_xo",
     "published_at": "2026-05-29T09:30:20+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
     "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
-    "summary": "“ETF인데 결국 삼성전자·SK하이닉스”…반도체 쏠림 더 커졌다\n\"한국 생큐, 잘 먹고 간다\" 외인 던지고 또 던지고...4개월째 매도세\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 무료",
+    "summary": "“ETF인데 결국 삼성전자·SK하이닉스”…반도체 쏠림 더 커졌다\n\"한국 생큐, 잘 먹고 간다\" 외인 던지고 또 던지고...4개월째 매도세\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 무료 | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [
       "005930",
       "000660",
@@ -140,25 +215,31 @@
     "confidence": "source-title/meta",
     "url": "https://youtu.be/h7ejUIGpCOo",
     "published_at": "2026-05-29T03:42:01+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
     "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
-    "summary": "주식시장에서 선거철인데도 관련 테마주들이 조용한 이유\n#주식정보 #테마주 #주식기초 #주식초보",
+    "summary": "주식시장에서 선거철인데도 관련 테마주들이 조용한 이유\n#주식정보 #테마주 #주식기초 #주식초보 | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/otySTRJtd-A",
     "published_at": "2026-05-28T10:00:08+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
     "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
-    "summary": "\"미국 빼면 한국뿐\"…'1조달러 기업 2개' 보유국 됐다\n삼전·하이닉스'가 코스피 시총 절반 차지···두 종목 코스피 비중 50.44% 차지\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 ",
+    "summary": "\"미국 빼면 한국뿐\"…'1조달러 기업 2개' 보유국 됐다\n삼전·하이닉스'가 코스피 시총 절반 차지···두 종목 코스피 비중 50.44% 차지\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법  | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [
       "005930",
       "000660",
@@ -168,131 +249,219 @@
     "confidence": "source-title/meta",
     "url": "https://youtu.be/pF7Pg-eWUGs",
     "published_at": "2026-05-28T03:26:06+00:00",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
+    "title": "sk하이닉스 삼성전자 급등한 이유",
+    "summary": "sk하이닉스와 삼성전자가 급등한 이유\n마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다\n#주식정보 #sk하이닉스 #삼성전자 #주식이슈 | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
+    "tickers": [
+      "005930",
+      "000660"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/56Ec9B1U4p8",
+    "published_at": "2026-05-27T09:30:16+00:00",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
+    "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
+    "summary": "“2만원에 ‘200만닉스’ 투자” 드디어 때가 왔다…삼전닉스 레버리지 ETF 일제히 출시\nKB證 “LG이노텍 기판 공급 부족, 메모리 반도체와 유사…목표가 160만원”\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
+    "tickers": [
+      "005930",
+      "000660",
+      "035720",
+      "003550"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/gCkOwzqTiC0",
+    "published_at": "2026-05-27T03:33:12+00:00",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "source_type": "youtube_video",
+    "title": "sk하이닉스, IHBM 공개",
+    "summary": "sk하이닉스가 ICE를 활용한 IHBM을 공개했습니다\n이 기술로 HBM의 발열을 잡아 열효율이 30%이상 증가했는데요\nIHBM은 차세대 HBM5부터 적용될 예정입니다\n#주식정보 #sk하이닉스 #주식시황 | 자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
+    "tickers": [
+      "000660"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/avtz-xgjyUk",
+    "published_at": "2026-05-26T09:00:16+00:00",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "global",
     "source": "YouTube video bkuop8jLgOc",
+    "source_type": "youtube_video",
     "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
-    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "summary": "자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/bkuop8jLgOc",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "global",
     "source": "YouTube video V2YUu1TNb8k",
+    "source_type": "youtube_video",
     "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
-    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "summary": "자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/V2YUu1TNb8k",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "global",
     "source": "YouTube video UI9jju3rFjU",
+    "source_type": "youtube_video",
     "title": "\"대한민국 국회의원들\" 주식 포트폴리오, 이런걸 샀다고?",
-    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "summary": "자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/UI9jju3rFjU",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "global",
     "source": "YouTube video rxwa9wn9v0U",
+    "source_type": "youtube_video",
     "title": "[월가아재] 보스턴의 버핏, 이 주식을 사고 있습니다",
-    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "summary": "자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/rxwa9wn9v0U",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "global",
     "source": "YouTube video vAaKxAp-3xA",
+    "source_type": "youtube_video",
     "title": "(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!",
-    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "summary": "자막추출 실패/없음: youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
     "url": "https://youtu.be/vAaKxAp-3xA",
     "published_at": "",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: Deprecated Feature: Support for Python version 3.9 has been deprecated. Please update to Python 3.10 or above\n"
   },
   {
     "region": "domestic",
     "source": "연합뉴스 경제",
-    "title": "토스인컴, 국내 세무 플랫폼 업계 최초 ISMS-P 인증 획득",
-    "summary": "(서울=연합뉴스) 한상용 기자 = 토스의 세금신고·환급 도움 서비스 자회사 토스인컴은 정보보호 및 개인정보보호 관리체계 인증인 ISMS-P를 획...",
+    "source_type": "rss",
+    "title": "테슬라 효과에 4월 차 온라인거래 2.5배로…5년 만에 최대폭↑",
+    "summary": "(세종=연합뉴스) 김수현 기자 = 지난 4월 온라인 쇼핑 거래액이 동월 기준 역대 최대 기록을 썼다.",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
-    "url": "https://www.yna.co.kr/view/AKR20260601079800017",
-    "published_at": "Mon, 1 Jun 2026 11:47:50 +0900",
-    "collected_at": "2026-06-01T11:57"
+    "url": "https://www.yna.co.kr/view/AKR20260601039400002",
+    "published_at": "Mon, 1 Jun 2026 12:00:08 +0900",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "domestic",
     "source": "연합뉴스 경제",
-    "title": "춘천시, 공사장 AI 안전관리 도입…중대재해 예방 기대",
-    "summary": "(춘천=연합뉴스) 이상학 기자 = 강원 춘천시가 공공건축 공사현장 안전사고 예방을 위해 인공지능(AI) 기반 CCTV 안전관리시스템을 도입하는 ...",
+    "source_type": "rss",
+    "title": "소방헬기·고정익항공기 124대 통합보험…보험금 한도 상향",
+    "summary": "(서울=연합뉴스) 홍준석 기자 = 소방청은 1일 산림청, 경찰청, 해양경찰청과 공동으로 &apos;2026년 국가기관 항공보험 종합계약&apos;을 체결했다고 밝...",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
-    "url": "https://www.yna.co.kr/view/AKR20260601075800062",
-    "published_at": "Mon, 1 Jun 2026 11:42:40 +0900",
-    "collected_at": "2026-06-01T11:57"
+    "url": "https://www.yna.co.kr/view/AKR20260601046100530",
+    "published_at": "Mon, 1 Jun 2026 12:00:06 +0900",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "domestic",
     "source": "연합뉴스 경제",
-    "title": "국고채 금리 일제히 상승…3년물 장중 연 3.787%",
-    "summary": "(서울=연합뉴스) 1일 국고채 금리가 일제히 상승하고 있다.",
+    "source_type": "rss",
+    "title": "중동전쟁에 기관 해외 증권투자 15개월 만에 감소…42.6억달러↓",
+    "summary": "(서울=연합뉴스) 임지우 기자 = 중동 전쟁으로 주가가 내리고 채권 금리는 오르면서 올해 1분기(1∼3월) 국내 기관투자가의 해외 외화증권 투자...",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
-    "url": "https://www.yna.co.kr/view/AKR20260601077800008",
-    "published_at": "Mon, 1 Jun 2026 11:41:10 +0900",
-    "collected_at": "2026-06-01T11:57"
+    "url": "https://www.yna.co.kr/view/AKR20260601062300002",
+    "published_at": "Mon, 1 Jun 2026 12:00:04 +0900",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "domestic",
     "source": "연합뉴스 경제",
-    "title": "30개 국가연구소 학생 '딥테크 창업' 이끈다…UST 특임교원 임용",
-    "summary": "(대전＝연합뉴스) 김준호 기자 = 국가연구소대학인 과학기술연합대학원대학교(UST)가 30개 국가연구소의 기술을 기반으로 한 학생들의 &apos;딥테크 창...",
+    "source_type": "rss",
+    "title": "항공권 환불대금, 항공사 바우처로 준 트립닷컴…공정위 제재",
+    "summary": "(세종=연합뉴스) 김수현 기자 = 트립닷컴이 30억원 이상의 항공사 환불 대금을 현금이 아닌 항공사 바우처로 지급했다가 제재받게 됐다.",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
-    "url": "https://www.yna.co.kr/view/AKR20260601070200063",
-    "published_at": "Mon, 1 Jun 2026 11:37:51 +0900",
-    "collected_at": "2026-06-01T11:57"
+    "url": "https://www.yna.co.kr/view/AKR20260601069100002",
+    "published_at": "Mon, 1 Jun 2026 12:00:04 +0900",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "domestic",
     "source": "연합뉴스 경제",
-    "title": "코스피 급등에 3거래일만에 또 매수 사이드카 발동",
-    "summary": "(서울=연합뉴스) 이민영 기자 = 코스피가 급등하면서 1일 프로그램매수호가 일시효력정지(사이드카)가 3거래일 만에 발동했다.",
+    "source_type": "rss",
+    "title": "증선위, 작년 10개 회계법인 품질관리 감리서 평균 8건 지적",
+    "summary": "(서울=연합뉴스) 강수련 기자 = 금융위원회 산하 증권선물위원회는 작년 삼일회계법인 등 10개 회계법인 품질관리 감리 결과 평균 8건의 지적사항...",
     "tickers": [],
     "recommendation": "정보",
     "confidence": "source-title/meta",
-    "url": "https://www.yna.co.kr/view/AKR20260601077000008",
-    "published_at": "Mon, 1 Jun 2026 11:37:19 +0900",
-    "collected_at": "2026-06-01T11:57"
+    "url": "https://www.yna.co.kr/view/AKR20260601069500002",
+    "published_at": "Mon, 1 Jun 2026 12:00:03 +0900",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "global",
     "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
     "title": "Another company shuts down Bitcoin treasury",
     "summary": "요약 없음",
     "tickers": [],
@@ -300,11 +469,14 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/crypto/articles/another-company-shuts-down-bitcoin-160000343.html",
     "published_at": "2026-05-30T16:00:00Z",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "global",
     "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
     "title": "Warren Buffett's Berkshire dumps entire stake in dividend stock",
     "summary": "요약 없음",
     "tickers": [],
@@ -312,11 +484,31 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-dumps-entire-203300760.html",
     "published_at": "2026-05-30T20:33:00Z",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "global",
     "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "title": "Nvidia’s latest product is a game-changer",
+    "summary": "요약 없음",
+    "tickers": [
+      "NVDA"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html",
+    "published_at": "2026-05-31T01:03:00Z",
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
+  },
+  {
+    "region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
     "title": "AI Hyperscalers Are Taking on Debt, But the Broader Market Looks More Leveraged",
     "summary": "요약 없음",
     "tickers": [],
@@ -324,23 +516,14 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/ai-hyperscalers-taking-debt-broader-160002115.html",
     "published_at": "2026-05-30T16:00:02Z",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   },
   {
     "region": "global",
     "source": "Yahoo Finance Top Stories",
-    "title": "Chevron Corporation (CVX): Renaissance Technologies Trims Position",
-    "summary": "요약 없음",
-    "tickers": [],
-    "recommendation": "정보",
-    "confidence": "source-title/meta",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-renaissance-technologies-155754998.html",
-    "published_at": "2026-05-30T15:57:54Z",
-    "collected_at": "2026-06-01T11:57"
-  },
-  {
-    "region": "global",
-    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
     "title": "Roblox Corporation (RBLX): Renaissance Technologies Remains Bullish",
     "summary": "요약 없음",
     "tickers": [],
@@ -348,6 +531,8 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-corporation-rblx-renaissance-technologies-155845579.html",
     "published_at": "2026-05-30T15:58:45Z",
-    "collected_at": "2026-06-01T11:57"
+    "collected_at": "2026-06-01T12:05",
+    "transcript_method": "",
+    "transcript_status": ""
   }
 ]
