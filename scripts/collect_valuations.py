@@ -363,17 +363,19 @@ def build_recommendation(rank, v):
 
 
 def make_ai_recommendations(valuations):
-    eligible = [v for v in valuations if v.get('price') and v.get('fair_value') and v.get('ai_buy_price') and v.get('ai_sell_price')]
-    # 고평가 주의는 Top3에서 제외하고, 가치+차트+언급량을 종합해 시장별로 정렬한다.
-    eligible = [v for v in eligible if v.get('verdict') != '고평가 주의']
+    base = [v for v in valuations if v.get('price') and v.get('fair_value') and v.get('ai_buy_price') and v.get('ai_sell_price')]
     def sort_key(v):
-        return (v.get('ai_score', -99), v.get('margin_to_fair_pct') or -999, v.get('mention_count') or 0)
+        high_penalty = -5 if v.get('verdict') == '고평가 주의' else 0
+        return (high_penalty + v.get('ai_score', -99), v.get('margin_to_fair_pct') or -999, v.get('mention_count') or 0)
     grouped = {'domestic': [], 'global': []}
     for region in grouped:
-        region_items = [v for v in eligible if v.get('region') == region]
-        region_items.sort(key=sort_key, reverse=True)
-        grouped[region] = [build_recommendation(rank, v) for rank, v in enumerate(region_items[:5], 1)]
-    # Backward-compatible flat list: 국내 5개 다음 미국/해외 5개.
+        preferred = [v for v in base if v.get('region') == region and v.get('verdict') != '고평가 주의']
+        fallback = [v for v in base if v.get('region') == region and v.get('verdict') == '고평가 주의']
+        preferred.sort(key=sort_key, reverse=True)
+        fallback.sort(key=sort_key, reverse=True)
+        # Always try to show 5 per market as requested; if the fifth is overvalued, the card keeps the risk verdict.
+        region_items = (preferred + fallback)[:5]
+        grouped[region] = [build_recommendation(rank, v) for rank, v in enumerate(region_items, 1)]
     flat = grouped['domestic'] + grouped['global']
     return {'domestic': grouped['domestic'], 'global': grouped['global'], 'flat': flat}
 
