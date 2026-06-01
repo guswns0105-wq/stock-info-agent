@@ -11,6 +11,7 @@ header,main{max-width:1180px;margin:auto} header{padding:36px 22px 18px} h1{marg
 .tabs{display:flex;gap:10px;max-width:1180px;margin:0 auto 16px;padding:0 22px} .tabs a{text-decoration:none;color:var(--text);background:var(--panel);border:1px solid #26385f;padding:10px 18px;border-radius:999px}
 main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55} h2{color:var(--accent);margin-top:30px}
 .card{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)} .small h4{font-size:18px;margin:8px 0} .card p{color:#d9e4ff;line-height:1.56}
+.stock-rank-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px} .stock-rank-card{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)} .rank{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px} .stock-name{grid-area:name;font-size:20px;font-weight:800;color:#fff} .stock-code{grid-area:code;color:var(--green);font-size:14px} .mention-count{grid-area:count;color:var(--yellow);white-space:nowrap} .mention-count b{font-size:28px}
 .rec-head{display:flex;justify-content:space-between;gap:16px} .rec-head h3{font-size:24px;margin:0 0 6px} .ticker-text{color:var(--green);font-size:18px} .score{text-align:right;color:var(--yellow);white-space:nowrap} .score strong{font-size:26px} .stance{margin:0;color:#eaf1ff} .risk{color:var(--red)!important}
 .summary-grid,.price-grid,.mini-price{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px} .summary-grid>div{background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.16);border-radius:14px;padding:12px} .summary-grid p{margin:6px 0 0}
 .evidence-list{list-style:none;padding:0;margin:14px 0 0} .evidence-row{border-top:1px solid #26385f;padding:12px 0} .ev-top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#dbe7ff} .ev-title{margin-top:6px;color:#fff} .ev-reason{margin-top:8px;color:#d9e4ff;line-height:1.5}
@@ -19,640 +20,113 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 @media (max-width:760px){.summary-grid,.price-grid,.mini-price{grid-template-columns:1fr} .rec-head{display:block} .score{text-align:left;margin-top:8px}}
 </style></head>
 <body>
-<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">유튜버·블로거·뉴스가 왜 추천/언급했는지, 날짜와 가격 발언을 함께 정리합니다. / 생성: 2026-06-01 12:29</div><div class="kpis"><div class="kpi">수집 소스 12개</div><div class="kpi">소스 로그 41개</div><div class="kpi">추천/관심 종목 16개</div></div></header>
+<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: 2026-06-01 13:46</div><div class="kpis"><div class="kpi">수집 소스 12개</div><div class="kpi">소스 로그 41개</div><div class="kpi">추천/관심 종목 16개</div></div></header>
 <nav class="tabs"><a href="#domestic">국내</a><a href="#global">해외</a></nav>
-<main><div class="notice">이 페이지는 출처 발언을 구조화한 정보 대시보드입니다. ‘적정가·목표가’와 ‘매수·진입가’는 원문에 명시된 경우만 표시하고, 없으면 명시 안 됨으로 둡니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="domestic" class="tabpanel"><h2>국내 추천/관심 종목</h2>
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>SK하이닉스 <span class="ticker-text">000660</span></h3>
-          <p class="stance">복수 출처 추천/관심 · 강한 반복 언급</p>
-        </div>
-        <div class="score"><strong>4</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">강한 반복 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 magic_rabb1t</b><span>날짜 미확인</span><a href="https://blog.naver.com/magic_rabb1t/224302304075" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검 HBM4 전략 비교 (feat. / SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검 HBM4 전략 비교 (feat.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+<main><div class="notice">이 페이지는 출처 발언을 구조화한 정보 대시보드입니다. ‘적정가·목표가’와 ‘매수·진입가’는 원문에 명시된 경우만 표시하고, 없으면 명시 안 됨으로 둡니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="domestic" class="tabpanel"><h2>국내 종목 언급 순위</h2><div class="stock-rank-grid">
+    <div class="stock-rank-card">
+      <span class="rank">#1</span>
+      <span class="stock-name">SK하이닉스</span>
+      <span class="stock-code">000660</span>
+      <span class="mention-count"><b>16</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> ​ ​ ​ ​ ​ ​ ​ ​ 베라 루빈의 수혜를 받는 기업으로 34~36번에서 삼성전자와 SK하이닉스에 대해 다음과 같이 이야기 했다. / 삼성전자는 베라 루빈용 샘플을 엔비디아에 제공했고, SK하이닉스는 베라 루빈에 직접 탑재해서 검증을 진행 중이라고 함.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#2</span>
+      <span class="stock-name">삼성전자</span>
+      <span class="stock-code">005930</span>
+      <span class="mention-count"><b>15</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-31</span><a href="https://youtu.be/GTShwWRIaCI" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식용사부 실시간 장중 무료 방송 (유튜브) : 월 ~ 금 오전 8:40~ 13:00 ▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc) ▶ 네이버밴드 &quot;주식달인연합&quot; 검색 (https://band.us/@diskcc) ▶ 인스타그램 바로가기 ( / imtaeho11 ) ▶ 네이버 카페 주식 기법 무료 전수 (https://cafe.naver.com/diskcc1) ▶ 단테사단 홈페이지 주식 정보 무료 제공 (https://xn--6j1bp61aksejsj.com/) ▶ 주식단테의 기법들을 1분 만에 배워보는 1분 주식( / @1minstock ) ▶ 남해의 자연과 프라이빗 해변을 담은 키마리스 펜션(htt</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#3</span>
+      <span class="stock-name">LG</span>
+      <span class="stock-code">003550</span>
+      <span class="mention-count"><b>12</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-29</span><a href="https://youtu.be/h7ejUIGpCOo" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치 #코스닥 #코스피 #나스닥 “ETF인데 결국 삼성전자·SK하이닉스”…반도체 쏠림 더 커졌다 / 주식용사부 실시간 장중 무료 방송 (유튜브) : 월 ~ 금 오전 8:40~ 13:00 ▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc) ▶ 네이버밴드 &quot;주식달인연합&quot; 검색 (https://b</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#4</span>
+      <span class="stock-name">두산에너빌리티</span>
+      <span class="stock-code">034020</span>
+      <span class="mention-count"><b>9</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-28</span><a href="https://youtu.be/pF7Pg-eWUGs" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식용사부 실시간 장중 무료 방송 (유튜브) : 월 ~ 금 오전 8:40~ 13:00 ▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc) ▶ 네이버밴드 &quot;주식달인연합&quot; 검색 (https://band.us/@diskcc) ▶ 인스타그램 바로가기 ( / imtaeho11 ) ▶ 네이버 카페 주식 기법 무료 전수 (https://cafe.naver.com/diskcc1) ▶ 단테사단 홈페이지 주식 정보 무료 제공 (https://xn--6j1bp61aksejsj.com/) ▶ 주식단테의 기법들을 1분 만에 배워보는 1분 주식( / @1minstock ) ▶ 남해의 자연과 프라이빗 해변을 담은 키마리스 펜션(htt</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#5</span>
+      <span class="stock-name">삼성전기</span>
+      <span class="stock-code">009150</span>
+      <span class="mention-count"><b>7</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-27</span><a href="https://youtu.be/56Ec9B1U4p8" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">sk하이닉스 삼성전자 급등한 이유</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> sk하이닉스 삼성전자 급등한 이유 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
+    <div class="stock-rank-card">
+      <span class="rank">#6</span>
+      <span class="stock-name">현대차</span>
+      <span class="stock-code">005380</span>
+      <span class="mention-count"><b>4</b>번 거론</span>
+    </div>
 
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>삼성전자 <span class="ticker-text">005930</span></h3>
-          <p class="stance">복수 출처 추천/관심 · 강한 반복 언급</p>
-        </div>
-        <div class="score"><strong>4</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">강한 반복 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 magic_rabb1t</b><span>날짜 미확인</span><a href="https://blog.naver.com/magic_rabb1t/224302304075" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검 HBM4 전략 비교 (feat. / SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검 HBM4 전략 비교 (feat.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#7</span>
+      <span class="stock-name">현대모비스</span>
+      <span class="stock-code">012330</span>
+      <span class="mention-count"><b>4</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> : 네이버블로그 2026년의 화두는 A/S (feat 피지컬AI, 현대차, 삼성전자, 로봇) 2026년의 화두는 ? / ​ ​ ​ ​ ​ ​ ​ ​ 베라 루빈의 수혜를 받는 기업으로 34~36번에서 삼성전자와 SK하이닉스에 대해 다음과 같이 이야기 했다.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#8</span>
+      <span class="stock-name">카카오</span>
+      <span class="stock-code">035720</span>
+      <span class="mention-count"><b>4</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-31</span><a href="https://youtu.be/GTShwWRIaCI" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥 2028년 삼전+하이닉스 영업익 1000조 시대 아시아 최대 IT전시회 컴퓨텍스 개막 D-2 시초가 단타 스윙 중장기 라이브 방송입니다 * 방송에서 제공되는 차트분석은 개인적 견해입니다. / 주식용사부 실시간 장중 무료 방송 (유튜브) : 월 ~ 금 오전 8:40~ 13:00 ▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskc</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#9</span>
+      <span class="stock-name">LG에너지솔루션</span>
+      <span class="stock-code">373220</span>
+      <span class="mention-count"><b>4</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-29</span><a href="https://youtu.be/h7ejUIGpCOo" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치 #코스닥 #코스피 #나스닥 “ETF인데 결국 삼성전자·SK하이닉스”…반도체 쏠림 더 커졌다 / 주식용사부 실시간 장중 무료 방송 (유튜브) : 월 ~ 금 오전 8:40~ 13:00 ▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc) ▶ 네이버밴드 &quot;주식달인연합&quot; 검색 (https://b</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#10</span>
+      <span class="stock-name">LG전자</span>
+      <span class="stock-code">066570</span>
+      <span class="mention-count"><b>4</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-28</span><a href="https://youtu.be/pF7Pg-eWUGs" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감 #코스닥 #코스피 #나스닥 &quot;미국 빼면 한국뿐&quot;…&#x27;1조달러 기업 2개&#x27; 보유국 됐다 / 주식용사부 실시간 장중 무료 방송 (유튜브) : 월 ~ 금 오전 8:40~ 13:00 ▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc) ▶ 네이버밴드 &quot;주식달인연합&quot; 검색 (https://band.us/@diskcc</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#11</span>
+      <span class="stock-name">삼성SDI</span>
+      <span class="stock-code">006400</span>
+      <span class="mention-count"><b>2</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-27</span><a href="https://youtu.be/56Ec9B1U4p8" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">sk하이닉스 삼성전자 급등한 이유</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> sk하이닉스 삼성전자 급등한 이유 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈 sk하이닉스 삼성전자 급등한 이유 sk하이닉스와 삼성전자가 급등한 이유 마이크론의 목표가가 3배 상승하며 한국의 반도체에도 영향을 미쳤습니다 #주식정보 #sk하이닉스 #삼성전자 #주식이슈</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
+    <div class="stock-rank-card">
+      <span class="rank">#12</span>
+      <span class="stock-name">TSMC</span>
+      <span class="stock-code">TSM</span>
+      <span class="mention-count"><b>1</b>번 거론</span>
+    </div>
 
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>LG <span class="ticker-text">003550</span></h3>
-          <p class="stance">복수 출처 추천/관심 · 강한 반복 언급</p>
-        </div>
-        <div class="score"><strong>4</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">강한 반복 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>160만원</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 경제사냥꾼</b><span>2026-05-31</span><a href="https://youtu.be/ZKVt7vdyx7s" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG 주식들 12월까지 주가 끌어 올릴 수 있다는 &#x27;신의 한수&#x27;</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG 주식들 12월까지 주가 끌어 올릴 수 있다는 &#x27;신의 한수&#x27; LG 주식들 12월까지 주가 끌어 올릴 수 있다는 &#x27;신의 한수&#x27; ※본 내용은 투자의 참고용일 뿐이며, 최종 투자 판단과 책임은 투자자 본인에게 있습니다. / ➡ https://inpk.link/moneyhunter LG 주식들 12월까지 주가 끌어 올릴 수 있다는 &#x27;신의 한수&#x27; ※본 내용은 투자의 참고용일 뿐이며, 최종 투자 판단과 책임은 투자자 본인에게 있습니다.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#13</span>
+      <span class="stock-name">기아</span>
+      <span class="stock-code">000270</span>
+      <span class="mention-count"><b>1</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? / : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는?</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
+    <div class="stock-rank-card">
+      <span class="rank">#14</span>
+      <span class="stock-name">NVIDIA</span>
+      <span class="stock-code">NVDA</span>
+      <span class="mention-count"><b>1</b>번 거론</span>
+    </div>
 
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-29</span><a href="https://youtu.be/yg09E60M_xo" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG그룹주 급등 이유, 끝나지 않은 호재</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG그룹주 급등 이유, 끝나지 않은 호재 LG그룹주 급등 이유, 끝나지 않은 호재 젠슨황 방한으로 인한 lg그룹주의 급등과 끝나지 않은 호재 #lg이노텍 #lg씨엔에스 #주식정보 #주식시황 LG그룹주 급등 이유, 끝나지 않은 호재 젠슨황 방한으로 인한 lg그룹주의 급등과 끝나지 않은 호재 #lg이노텍 #lg씨엔에스 #주식정보 #주식시황</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-27</span><a href="https://youtu.be/gCkOwzqTiC0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파 #코스닥 #코스피 #나스닥 주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파 #코스닥 #코스피 #나스닥 “2만원에 ‘200만닉스’ 투자” 드디어 때가 왔다…삼전닉스 레버리지 ETF 일제히 출시 KB證 “LG이노텍 기판 공급 부족, 메모리 반도체와 유사…목표가 160만원” 시초가 단타 스윙 중장기 라이브 방송입니다 * 방송에서 제공되는 차트분석은 개인적 견해입니다. / 주식용사부 실시간 장중 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 160만원</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 LG씨엔에스 다음 / 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 급등주 후보 AI 인프라 관련주 데이터센터 관련주 ESS 전력망 수혜주 오픈AI 아마존 AWS 오라클 테슬라 공급망 관련주 SK텔레콤 AWS AI 데이터센터 구축 오픈AI 전용 AI 데이터센터 MOU 체결 울산 AI 클러스터 해인 프로젝트 수혜주 LG에너지솔루션 ESS 관련주 오라클 오픈AI 데이터센터 ESS 공급 계약 테슬</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>두산에너빌리티 <span class="ticker-text">034020</span></h3>
-          <p class="stance">복수 출처 추천/관심 · 복수 출처 언급</p>
-        </div>
-        <div class="score"><strong>2</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">복수 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버 연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개 LG씨엔에스 다음 / #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #전력주 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 # 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금 수혜주 3종목 총정리 대주전자재료 NC HL만도 주가 전망 급등주 후보 국민연금 보유 종목 국민연금 포트폴리오 분석 2026년 1분기 국민연금 매수 종목 수혜주 대주전자재료 실리콘 음극재 관련주 포르쉐 타이칸 배터리 소재 공급 기업 삼성전기 MLCC 핵심 소재 공급망 스페이스X 태양전지 관련주 NC 리니지 아이온2 게임 / #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/SlqAdSCK68o" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #LG전자 #lg이노텍 #lg씨엔에스 #미국주식 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 1천조 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-29</span><a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #현대모비스 #삼성sds #lg씨엔에스 #lg전자 #스마트팩토리 #네이버주가 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>현대차 <span class="ticker-text">005380</span></h3>
-          <p class="stance">복수 출처 추천/관심 · 복수 출처 언급</p>
-        </div>
-        <div class="score"><strong>2</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">복수 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> : 네이버블로그 2026년의 화두는 A/S (feat 피지컬AI, 현대차, 삼성전자, 로봇) 2026년의 화두는 ? / ​ ​ 현대차의 보스턴 다이나믹스로 37~49번에 언급되어 있다.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #전력주 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스 #삼성sds</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #ai반도체 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-27</span><a href="https://youtu.be/QKc7qe1GKEg" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10) 삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #ls일렉트릭 #삼성sds #현대차 #lg씨엔에스 #lg이노텍 #현대오토에버 #삼성전자레버리지 #하이닉스레버리지 본 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>현대모비스 <span class="ticker-text">012330</span></h3>
-          <p class="stance">복수 출처 추천/관심 · 복수 출처 언급</p>
-        </div>
-        <div class="score"><strong>2</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">복수 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #전력주 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스 #삼성sds</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #ai반도체 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-29</span><a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #현대모비스 #삼성sds #lg씨엔에스 #lg전자 #스마트팩토리 #네이버주가 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>삼성전기 <span class="ticker-text">009150</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> AI 인프라 대장주 분석 삼성전기 SK하이닉스 상승 사례 검증 주식 단타 매매 수급 분석 급등 타이밍 주식 초보 투자 방법 급등주 찾는법 수급 보는법 기관 수급 외국인 수급 분석 무료 주식 알림 상승 하락 타이밍 핵심 주도주 99종목 실시간 제공 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / AI 인프라 대장주 분석 삼성전기 SK하이닉스 상승 사례 검증 주식 단타 매매 수급 분석 급등 타이밍 주식 초보 투자 방법 급등주 찾는법 수급 보는법 기관 수급 외국인 수급 분석 무료 주식 알림 상승 하락 타이밍 핵심 주도주 99종목 실시간 제공 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개 국민연금 수혜주 3종목 총정리 대주전자재료 NC HL만도 주가 전망 급등주 후보 국민연금 보유 종목 국민연금 포트폴리오 분석 2026년 1분기 국민연금 매수 종목 수혜주 대주전자재료 실리콘 음극재 관련주 포르쉐 타이칸 배터리 소재 공급 기업 삼성전기 MLCC 핵심 소재 공급망 스페이스X 태양전지 관련주 NC 리니지 아이온2 게임 / 주도주 코스피 급등주 후보 분석 LG이노텍 LG씨엔에스 삼성전기 SK하이닉스 상승 사례 검증 주식 단타 매매 수급 분석 급등 타이밍 주식 초보 투자 방법 급등주 찾는법 수급 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/SlqAdSCK68o" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #LG전자 #lg이노텍 #lg씨엔에스 #미국주식 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 1천조 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-29</span><a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #현대모비스 #삼성sds #lg씨엔에스 #lg전자 #스마트팩토리 #네이버주가 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-28</span><a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #ess관련주 #2차전지 #에코프로 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>카카오 <span class="ticker-text">035720</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-31</span><a href="https://youtu.be/GTShwWRIaCI" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 카카오톡 사칭 사기에 유의하세요! / 카카오톡 사칭 사기에 유의하세요!</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-29</span><a href="https://youtu.be/h7ejUIGpCOo" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 카카오톡 사칭 사기에 유의하세요! / 카카오톡 사칭 사기에 유의하세요!</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-28</span><a href="https://youtu.be/pF7Pg-eWUGs" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 카카오톡 사칭 사기에 유의하세요! / 카카오톡 사칭 사기에 유의하세요!</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 주식용사부</b><span>2026-05-27</span><a href="https://youtu.be/gCkOwzqTiC0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 카카오톡 사칭 사기에 유의하세요! / 카카오톡 사칭 사기에 유의하세요!</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>LG에너지솔루션 <span class="ticker-text">373220</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 급등주 후보 AI 인프라 관련주 데이터센터 관련주 ESS 전력망 수혜주 오픈AI 아마존 AWS 오라클 테슬라 공급망 관련주 SK텔레콤 AWS AI 데이터센터 구축 오픈AI 전용 AI 데이터센터 MOU 체결 울산 AI 클러스터 해인 프로젝트 수혜주 LG에너지솔루션 ESS 관련주 오라클 오픈AI 데이터센터 ESS 공급 계약 테슬라 테라젠 EG4 북미 ESS 시장 수혜주 대한전선 초고압 케이블 HVDC 전력망 관련주 싱가포르 전력청 공급 계약 AI 데이터센터 전력 인프라 수혜주 AI 데이터센터 전력 수요 / 대장주 3종목 총정리 LG에너지솔루션 SK텔레콤 대한전선 주가 전망 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #ai반도체 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-28</span><a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #ess관련주 #2차전지 #에코프로 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>LG전자 <span class="ticker-text">066570</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 증가 ESS 에너지저장장치 시장 확대 초고압 송전망 전력 인프라 투자 확대 LG씨엔에스 LG전자 LG이노텍 급등 사례 이후 다음 / 증가 ESS 에너지저장장치 시장 확대 초고압 송전망 전력 인프라 투자 확대 LG씨엔에스 LG전자 LG이노텍 급등 사례 이후 다음</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #로봇관련주 #ai반도체 #현대차주가 #LG전자 #삼성전기 #네이버주가 #lg씨엔에스 #lg이노텍 #lg에너지솔루션 #현대모비스</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-30</span><a href="https://youtu.be/SlqAdSCK68o" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) 1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식) #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #LG전자 #lg이노텍 #lg씨엔에스 #미국주식 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습니다. / 1천조 </div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-29</span><a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #삼성전기 #현대모비스 #삼성sds #lg씨엔에스 #lg전자 #스마트팩토리 #네이버주가 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특정 종목의 매수·매도를 권유하지 않습</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>삼성SDI <span class="ticker-text">006400</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-31</span><a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #현대오토에버 #lg씨엔에스 #lg이노텍 #깐부회동 #젠슨황 본 영상은 투자 조언이 아닌 개인적인 의견이며,</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li>
-
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-28</span><a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #ess관련주 #2차전지 #에코프로 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>TSMC <span class="ticker-text">TSM</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 magic_rabb1t</b><span>날짜 미확인</span><a href="https://blog.naver.com/magic_rabb1t/224302304075" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> ​ ​ ​ SK하이닉스는 HBM3E까지는 베이스 다이를 자체 공정으로 만들었지만, HBM4부터는 TSMC 외주를 주는 전략이에요. / ​ ​ ​ 순서로 보면 SK하이닉스가 TSMC에 베이스 다이를 주문해서 받아오고요.</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>기아 <span class="ticker-text">000270</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>NVIDIA <span class="ticker-text">NVDA</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>블로거 블로그 ranto28</b><span>날짜 미확인</span><a href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> 젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article>
-
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>에코프로 <span class="ticker-text">086520</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">국내</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>유튜버 강지한 차트연구소</b><span>2026-05-28</span><a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10 #대우건설 #두산에너빌리티 #차트분석 #차트매매기법 #비트코인 #코인 #단타 #단타매매 #워렌버핏 #주식 #매매 #삼성전자 #SK하이닉스 #주가전망 #주식단테 #검색식 #주식기초 #급등주 #이재명 #국민연금 #국내주식 #수혜주 #주도주 #대장주 #엔비디아 #한국주식 #코스피 #주식전망 #조선주 #방산주 #로봇관련주 #국민성장펀드 #유리기판 #삼성전기 #lg에너지솔루션 #삼성sdi #ess관련주 #2차전지 #에코프로 본 영상은 투자 조언이 아닌 개인적인 의견이며, 특</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article><h2>국내 소스별 최신 발언</h2>
+    <div class="stock-rank-card">
+      <span class="rank">#15</span>
+      <span class="stock-name">에코프로</span>
+      <span class="stock-code">086520</span>
+      <span class="mention-count"><b>1</b>번 거론</span>
+    </div></div><h2>국내 소스별 최신 발언</h2>
     <article class="card small">
       <div class="meta"><strong>경제사냥꾼</strong><span>2026-06-01</span><a class="source-link" href="https://youtu.be/LL7jqfzZI0k" target="_blank" rel="noreferrer">원문</a></div>
       <h4>6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지</h4>
@@ -763,29 +237,13 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p>주식시장에서 선거철인데도 관련 테마주들이 조용한 이유 #주식정보 #테마주 #주식기초 #주식초보</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
       <div class="badges"><span class="badge rec">정보</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">유튜버</span></div>
-    </article></section><section id="global" class="tabpanel"><h2>해외 추천/관심 종목</h2>
-    <article class="card rec-card">
-      <div class="rec-head">
-        <div>
-          <h3>NVIDIA <span class="ticker-text">NVDA</span></h3>
-          <p class="stance">단일 출처 추천/관심 · 단일 출처 언급</p>
-        </div>
-        <div class="score"><strong>1</strong><br><small>출처</small></div>
-      </div>
-      <div class="badges"><span class="badge region">해외</span><span class="badge rec">추천/관심 종목</span><span class="badge type">단일 출처 언급</span></div>
-      <div class="summary-grid">
-        <div><b>적정가·목표가</b><p>출처에서 적정가/목표가를 명시하지 않았습니다.</p></div>
-        <div><b>매수·진입가</b><p>출처에서 매수가/진입가를 명시하지 않았습니다.</p></div>
-      </div>
-      <ul class="evidence-list">
-        <li class="evidence-row">
-          <div class="ev-top"><b>뉴스 Yahoo Finance Top Stories</b><span>2026-05-31</span><a href="https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html" target="_blank" rel="noreferrer">원문</a><span class="badge meta-badge">제목/설명 기반</span></div>
-          <div class="ev-title">Nvidia’s latest product is a game-changer</div>
-          <div class="ev-reason"><b>추천/언급 이유:</b> Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer</div>
-          <div class="price-grid"><span><b>적정가·목표가:</b> 출처에서 명시 안 됨</span><span><b>매수·진입가:</b> 출처에서 명시 안 됨</span></div>
-        </li></ul>
-      <p class="risk"><b>확인 필요:</b> 출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.</p>
-    </article><h2>해외 소스별 최신 발언</h2>
+    </article></section><section id="global" class="tabpanel"><h2>해외 종목 언급 순위</h2><div class="stock-rank-grid">
+    <div class="stock-rank-card">
+      <span class="rank">#1</span>
+      <span class="stock-name">NVIDIA</span>
+      <span class="stock-code">NVDA</span>
+      <span class="mention-count"><b>1</b>번 거론</span>
+    </div></div><h2>해외 소스별 최신 발언</h2>
     <article class="card small">
       <div class="meta"><strong>YouTube video bkuop8jLgOc</strong><span>2026-06-01</span><a class="source-link" href="https://youtu.be/bkuop8jLgOc" target="_blank" rel="noreferrer">원문</a></div>
       <h4>”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기</h4>
