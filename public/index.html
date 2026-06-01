@@ -12,7 +12,7 @@ header,main{max-width:1180px;margin:auto} header{padding:36px 22px 18px} h1{marg
 main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55} h2{color:var(--accent);margin-top:30px}
 .card{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)} .small h4{font-size:18px;margin:8px 0} .card p{color:#d9e4ff;line-height:1.56}
 .stock-rank-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px} .stock-rank-card{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)} .rank{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px} .stock-name{grid-area:name;font-size:20px;font-weight:800;color:#fff} .stock-code{grid-area:code;color:var(--green);font-size:14px} .mention-count{grid-area:count;color:var(--yellow);white-space:nowrap} .mention-count b{font-size:28px}
-.youtuber-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px} .youtuber-card{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)} .yt-head{display:flex;justify-content:space-between;gap:12px;align-items:start} .yt-head h3{margin:0;font-size:18px} .yt-head span{color:var(--muted);white-space:nowrap} .yt-quality{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0} .yt-quality span{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)} .yt-count{margin:12px 0;color:var(--yellow)} .yt-count b{font-size:30px} .yt-stocks{display:flex;flex-wrap:wrap;gap:8px} .yt-stock{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff} .yt-stock b{color:var(--green)}
+.youtuber-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px} .youtuber-card{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)} .yt-head{display:flex;justify-content:space-between;gap:12px;align-items:start} .yt-head h3{margin:0;font-size:18px} .yt-head span{color:var(--muted);white-space:nowrap} .yt-quality{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0} .yt-quality span{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)} .yt-count{margin:12px 0;color:var(--yellow)} .yt-count b{font-size:30px} .yt-stocks{display:flex;flex-wrap:wrap;gap:8px} .yt-stock{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff} .yt-stock b{color:var(--green)} .yt-video-list{margin:14px 0 0;padding-left:20px;border-top:1px solid rgba(137,247,165,.18)} .yt-video-list li{padding:10px 0;color:#eaf3ff;line-height:1.38} .yt-video-list b{display:block;margin:4px 0;font-size:14px} .yt-video-list small{color:var(--muted)} .yt-video-kind{font-size:12px;color:var(--yellow);border:1px solid rgba(255,224,138,.28);border-radius:999px;padding:2px 7px}
 .rec-head{display:flex;justify-content:space-between;gap:16px} .rec-head h3{font-size:24px;margin:0 0 6px} .ticker-text{color:var(--green);font-size:18px} .score{text-align:right;color:var(--yellow);white-space:nowrap} .score strong{font-size:26px} .stance{margin:0;color:#eaf1ff} .risk{color:var(--red)!important}
 .summary-grid,.price-grid,.mini-price{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px} .summary-grid>div{background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.16);border-radius:14px;padding:12px} .summary-grid p{margin:6px 0 0}
 .evidence-list{list-style:none;padding:0;margin:14px 0 0} .evidence-row{border-top:1px solid #26385f;padding:12px 0} .ev-top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#dbe7ff} .ev-title{margin-top:6px;color:#fff} .ev-reason{margin-top:8px;color:#d9e4ff;line-height:1.5}
@@ -21,7 +21,7 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 @media (max-width:760px){.summary-grid,.price-grid,.mini-price{grid-template-columns:1fr} .rec-head{display:block} .score{text-align:left;margin-top:8px}}
 </style></head>
 <body>
-<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: 2026-06-01 14:27</div><div class="kpis"><div class="kpi">수집 소스 12개</div><div class="kpi">소스 로그 137개</div><div class="kpi">추천/관심 종목 26개</div><div class="kpi">유튜브 자막 0/125개</div></div></header>
+<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: 2026-06-01 14:36</div><div class="kpis"><div class="kpi">수집 소스 12개</div><div class="kpi">소스 로그 157개</div><div class="kpi">추천/관심 종목 31개</div><div class="kpi">유튜브 자막 0/145개</div></div></header>
 <nav class="tabs"><a href="#domestic">국내</a><a href="#global">해외</a></nav>
 <main><div class="notice">이 페이지는 출처 발언을 구조화한 정보 대시보드입니다. 유튜버별 통계는 각 채널 최신 영상과 쇼츠에서 종목이 몇 번 거론됐는지 집계합니다. 경제사냥꾼은 쇼츠 중심으로 집계합니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="domestic" class="tabpanel"><h2>국내 종목 언급 순위</h2><div class="stock-rank-grid">
     <div class="stock-rank-card">
@@ -47,111 +47,135 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 
     <div class="stock-rank-card">
       <span class="rank">#4</span>
+      <span class="stock-name">NVIDIA</span>
+      <span class="stock-code">NVDA</span>
+      <span class="mention-count"><b>12</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#5</span>
       <span class="stock-name">두산에너빌리티</span>
       <span class="stock-code">034020</span>
       <span class="mention-count"><b>11</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#5</span>
+      <span class="rank">#6</span>
       <span class="stock-name">삼성전기</span>
       <span class="stock-code">009150</span>
       <span class="mention-count"><b>9</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#6</span>
+      <span class="rank">#7</span>
       <span class="stock-name">현대차</span>
       <span class="stock-code">005380</span>
       <span class="mention-count"><b>6</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#7</span>
+      <span class="rank">#8</span>
       <span class="stock-name">현대모비스</span>
       <span class="stock-code">012330</span>
       <span class="mention-count"><b>5</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#8</span>
+      <span class="rank">#9</span>
       <span class="stock-name">카카오</span>
       <span class="stock-code">035720</span>
       <span class="mention-count"><b>5</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#9</span>
+      <span class="rank">#10</span>
       <span class="stock-name">LG에너지솔루션</span>
       <span class="stock-code">373220</span>
       <span class="mention-count"><b>4</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#10</span>
+      <span class="rank">#11</span>
       <span class="stock-name">LG전자</span>
       <span class="stock-code">066570</span>
       <span class="mention-count"><b>4</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#11</span>
+      <span class="rank">#12</span>
       <span class="stock-name">삼성SDI</span>
       <span class="stock-code">006400</span>
       <span class="mention-count"><b>3</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#12</span>
+      <span class="rank">#13</span>
       <span class="stock-name">에코프로</span>
       <span class="stock-code">086520</span>
       <span class="mention-count"><b>3</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#13</span>
+      <span class="rank">#14</span>
+      <span class="stock-name">Micron</span>
+      <span class="stock-code">MU</span>
+      <span class="mention-count"><b>2</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#15</span>
+      <span class="stock-name">Tesla</span>
+      <span class="stock-code">TSLA</span>
+      <span class="mention-count"><b>2</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#16</span>
       <span class="stock-name">에코프로비엠</span>
       <span class="stock-code">247540</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#14</span>
+      <span class="rank">#17</span>
+      <span class="stock-name">Palantir</span>
+      <span class="stock-code">PLTR</span>
+      <span class="mention-count"><b>1</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#18</span>
       <span class="stock-name">TSMC</span>
       <span class="stock-code">TSM</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#15</span>
+      <span class="rank">#19</span>
       <span class="stock-name">기아</span>
       <span class="stock-code">000270</span>
-      <span class="mention-count"><b>1</b>번 거론</span>
-    </div>
-
-    <div class="stock-rank-card">
-      <span class="rank">#16</span>
-      <span class="stock-name">NVIDIA</span>
-      <span class="stock-code">NVDA</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div></div><h2>국내 유튜버별 최신 영상·쇼츠 통계</h2><div class="youtuber-grid">
     <article class="youtuber-card">
       <div class="yt-head"><h3>강지한 차트연구소</h3><span>10개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 10 / 쇼츠 0</span><span>0/10 자막</span><span>0자 분석</span></div>
-      <div class="yt-count"><b>71</b>번 거론</div>
-      <div class="yt-stocks"><span class="yt-stock">삼성전자 <b>10</b>회</span><span class="yt-stock">SK하이닉스 <b>10</b>회</span><span class="yt-stock">두산에너빌리티 <b>10</b>회</span><span class="yt-stock">LG <b>9</b>회</span><span class="yt-stock">삼성전기 <b>9</b>회</span><span class="yt-stock">현대차 <b>4</b>회</span><span class="yt-stock">LG에너지솔루션 <b>4</b>회</span><span class="yt-stock">현대모비스 <b>4</b>회</span></div>
+      <div class="yt-count"><b>84</b>번 거론</div>
+      <div class="yt-stocks"><span class="yt-stock">삼성전자 <b>10</b>회</span><span class="yt-stock">SK하이닉스 <b>10</b>회</span><span class="yt-stock">두산에너빌리티 <b>10</b>회</span><span class="yt-stock">NVIDIA <b>10</b>회</span><span class="yt-stock">LG <b>9</b>회</span><span class="yt-stock">삼성전기 <b>9</b>회</span><span class="yt-stock">현대차 <b>4</b>회</span><span class="yt-stock">LG에너지솔루션 <b>4</b>회</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">373220</span><span class="badge ticker">012330</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span></div><small>제목/설명 기반 · 2026-05-31 <a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">373220</span><span class="badge ticker">006400</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-31 <a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">373220</span><span class="badge ticker">012330</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span></div><small>제목/설명 기반 · 2026-05-30 <a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-30 <a href="https://youtu.be/SlqAdSCK68o" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">012330</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-29 <a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">373220</span><span class="badge ticker">006400</span><span class="badge ticker">086520</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-28 <a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-27 <a href="https://youtu.be/FR-0wupxVt8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-27 <a href="https://youtu.be/QKc7qe1GKEg" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">006400</span><span class="badge ticker">086520</span><span class="badge ticker">247540</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span><span class="badge ticker">PLTR</span></div><small>제목/설명 기반 · 2026-05-26 <a href="https://youtu.be/5EKMn0kg64c" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>코스피 8천 재돌파 ! 외국인•기관•연기금이 쓸어담은 한국주식 TOP11</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">012330</span><span class="badge ticker">086520</span><span class="badge ticker">034020</span><span class="badge ticker">009150</span><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 2026-05-26 <a href="https://youtu.be/_SaezOGJpGU" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>주식용사부</h3><span>15개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 10 / 쇼츠 5</span><span>0/15 자막</span><span>0자 분석</span></div>
-      <div class="yt-count"><b>23</b>번 거론</div>
-      <div class="yt-stocks"><span class="yt-stock">삼성전자 <b>7</b>회</span><span class="yt-stock">SK하이닉스 <b>7</b>회</span><span class="yt-stock">카카오 <b>5</b>회</span><span class="yt-stock">LG <b>3</b>회</span><span class="yt-stock">현대차 <b>1</b>회</span></div>
+      <div class="yt-count"><b>25</b>번 거론</div>
+      <div class="yt-stocks"><span class="yt-stock">삼성전자 <b>7</b>회</span><span class="yt-stock">SK하이닉스 <b>7</b>회</span><span class="yt-stock">카카오 <b>5</b>회</span><span class="yt-stock">LG <b>3</b>회</span><span class="yt-stock">Micron <b>2</b>회</span><span class="yt-stock">현대차 <b>1</b>회</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span></div><small>제목/설명 기반 · 2026-06-01 <a href="https://youtu.be/GTShwWRIaCI" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG그룹주 급등 이유, 끝나지 않은 호재</b><div><span class="badge ticker">003550</span></div><small>제목/설명 기반 · 2026-05-29 <a href="https://youtu.be/yg09E60M_xo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span></div><small>제목/설명 기반 · 2026-05-29 <a href="https://youtu.be/h7ejUIGpCOo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>현재 선거 테마주들보다 주식시장에서 중요한 것들</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 2026-05-28 <a href="https://youtu.be/otySTRJtd-A" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span></div><small>제목/설명 기반 · 2026-05-28 <a href="https://youtu.be/pF7Pg-eWUGs" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>sk하이닉스 삼성전자 급등한 이유</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">MU</span></div><small>제목/설명 기반 · 2026-05-27 <a href="https://youtu.be/56Ec9B1U4p8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span><span class="badge ticker">003550</span><span class="badge ticker">MU</span></div><small>제목/설명 기반 · 2026-05-27 <a href="https://youtu.be/gCkOwzqTiC0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>sk하이닉스, IHBM 공개</b><div><span class="badge ticker">000660</span></div><small>제목/설명 기반 · 2026-05-26 <a href="https://youtu.be/avtz-xgjyUk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자, LG, 현대차 전망🔴뉴욕 증시, 메모리얼 데이로 휴장  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span></div><small>제목/설명 기반 · 2026-05-26 <a href="https://youtu.be/lhpsuDfhjl0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>AI이후 미국 정부가 선택한 테마는?</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 2026-05-25 <a href="https://youtu.be/LLPBsnDFV90" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>경제사냥꾼</h3><span>10개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 0 / 쇼츠 10</span><span>0/10 자막</span><span>0자 분석</span></div>
       <div class="yt-count"><b>0</b>번 거론</div>
       <div class="yt-stocks"><span class="empty">거론 종목 없음</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">쇼츠</span><b>The Identity of &#x27;Korean Stocks&#x27; That Could Bring an All-Time Bull Market After Trump Pours 14 Tri...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/CGGitwvIEwk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>3 Key Investment Points Investors Must Know for June 1st</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/LL7jqfzZI0k" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>Identity of the &#x27;stock&#x27; on Wall Street that could lead to a bull market following &#x27;Rocket Lab,&#x27; w...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/YetajTuzG04" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>The 3 &#x27;stocks&#x27; currently considered the most undervalued among &#x27;US stocks&#x27;</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/bICJIzEYXiA" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>Identity of the ‘Korean Beneficiary Stocks’ That Could Bring an All-Time Record Bull Market After...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/yE1BXDeSnnw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>The Identity of the ‘AI Company’ into which the Lee Jae-myung Administration is pouring 800 billi...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/r5a6RLvYSNk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>The Identity of the &#x27;New Leading Stock&#x27; That Wall Street Is Currently Paying Attention to as the ...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/HDI_HnYzxrE" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>Next Week&#x27;s &#x27;Investment&#x27; Points Investors Check in Advance (June 1–June 5)</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/EfNfXvCxOac" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>Buying Timing for the ‘Shipbuilding Stocks’ Wall Street Is Currently Watching</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/SSPXSGdl0jE" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>Kakao’s ‘First Strike’: 3 Issues Shareholders Must Know Right Now</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/fhzgzWQLp4k" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article></div><h2>국내 소스별 최신 발언</h2>
     <article class="card small">
       <div class="meta"><strong>경제사냥꾼</strong><span>2026-06-01</span><a class="source-link" href="https://youtu.be/CGGitwvIEwk" target="_blank" rel="noreferrer">원문</a></div>
@@ -266,109 +290,128 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article></section><section id="global" class="tabpanel"><h2>해외 종목 언급 순위</h2><div class="stock-rank-grid">
     <div class="stock-rank-card">
       <span class="rank">#1</span>
-      <span class="stock-name">NVIDIA</span>
-      <span class="stock-code">NVDA</span>
-      <span class="mention-count"><b>11</b>번 거론</span>
+      <span class="stock-name">Tesla</span>
+      <span class="stock-code">TSLA</span>
+      <span class="mention-count"><b>16</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
       <span class="rank">#2</span>
-      <span class="stock-name">Tesla</span>
-      <span class="stock-code">TSLA</span>
-      <span class="mention-count"><b>10</b>번 거론</span>
+      <span class="stock-name">NVIDIA</span>
+      <span class="stock-code">NVDA</span>
+      <span class="mention-count"><b>12</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
       <span class="rank">#3</span>
+      <span class="stock-name">IonQ</span>
+      <span class="stock-code">IONQ</span>
+      <span class="mention-count"><b>8</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#4</span>
       <span class="stock-name">Microsoft</span>
       <span class="stock-code">MSFT</span>
       <span class="mention-count"><b>6</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#4</span>
+      <span class="rank">#5</span>
+      <span class="stock-name">Palantir</span>
+      <span class="stock-code">PLTR</span>
+      <span class="mention-count"><b>5</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#6</span>
       <span class="stock-name">Meta</span>
       <span class="stock-code">META</span>
       <span class="mention-count"><b>5</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#5</span>
+      <span class="rank">#7</span>
       <span class="stock-name">Alphabet</span>
       <span class="stock-code">GOOGL</span>
       <span class="mention-count"><b>4</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#6</span>
+      <span class="rank">#8</span>
       <span class="stock-name">Alphabet</span>
       <span class="stock-code">GOOG</span>
       <span class="mention-count"><b>4</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#7</span>
+      <span class="rank">#9</span>
       <span class="stock-name">Amazon</span>
       <span class="stock-code">AMZN</span>
       <span class="mention-count"><b>3</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#8</span>
+      <span class="rank">#10</span>
       <span class="stock-name">Apple</span>
       <span class="stock-code">AAPL</span>
       <span class="mention-count"><b>2</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#9</span>
-      <span class="stock-name">Palantir</span>
-      <span class="stock-code">PLTR</span>
+      <span class="rank">#11</span>
+      <span class="stock-name">Oracle</span>
+      <span class="stock-code">ORCL</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#10</span>
-      <span class="stock-name">Oracle</span>
-      <span class="stock-code">ORCL</span>
+      <span class="rank">#12</span>
+      <span class="stock-name">Micron</span>
+      <span class="stock-code">MU</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div></div><h2>해외 유튜버별 최신 영상·쇼츠 통계</h2><div class="youtuber-grid">
     <article class="youtuber-card">
       <div class="yt-head"><h3>마피디 미국주식 (테슬라,TQQQ,SOXL)</h3><span>20개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 10 / 쇼츠 10</span><span>0/20 자막</span><span>0자 분석</span></div>
-      <div class="yt-count"><b>40</b>번 거론</div>
-      <div class="yt-stocks"><span class="yt-stock">Tesla <b>9</b>회</span><span class="yt-stock">NVIDIA <b>7</b>회</span><span class="yt-stock">Microsoft <b>6</b>회</span><span class="yt-stock">Meta <b>5</b>회</span><span class="yt-stock">Alphabet <b>4</b>회</span><span class="yt-stock">Alphabet <b>4</b>회</span><span class="yt-stock">Amazon <b>3</b>회</span><span class="yt-stock">Apple <b>2</b>회</span></div>
+      <div class="yt-count"><b>42</b>번 거론</div>
+      <div class="yt-stocks"><span class="yt-stock">Tesla <b>11</b>회</span><span class="yt-stock">NVIDIA <b>7</b>회</span><span class="yt-stock">Microsoft <b>6</b>회</span><span class="yt-stock">Meta <b>5</b>회</span><span class="yt-stock">Alphabet <b>4</b>회</span><span class="yt-stock">Alphabet <b>4</b>회</span><span class="yt-stock">Amazon <b>3</b>회</span><span class="yt-stock">Apple <b>2</b>회</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>I couldn&#x27;t handle the FOMO, so I went all-in on semiconductors. ㅠㅠ</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/V2YUu1TNb8k" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)</b><div><span class="badge ticker">TSLA</span><span class="badge ticker">AAPL</span><span class="badge ticker">MSFT</span><span class="badge ticker">GOOGL</span><span class="badge ticker">GOOG</span><span class="badge ticker">AMZN</span><span class="badge ticker">META</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/FZj3FJrQtpY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA &amp; Tesla Outlook</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/5FeyG-xJWF0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">MSFT</span><span class="badge ticker">GOOGL</span><span class="badge ticker">GOOG</span><span class="badge ticker">META</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/9nyTamqkeW8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">MSFT</span><span class="badge ticker">GOOGL</span><span class="badge ticker">GOOG</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/4kCkPb4c528" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AAPL</span><span class="badge ticker">MSFT</span><span class="badge ticker">GOOGL</span><span class="badge ticker">GOOG</span><span class="badge ticker">AMZN</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/UTgX2vlmqBw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>4/9 (Wed) Membership-Exclusive Video: US Stock Response Strategy Before Big Tech Earnings Announc...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/vo-pREQ69Vs" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">MSFT</span><span class="badge ticker">META</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/bKP_QdAAO1U" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AMZN</span><span class="badge ticker">META</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/DRebgU7BKxI" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">MSFT</span><span class="badge ticker">META</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/3KTU1_hLA_0" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>T3chfeed - Tech Stock Insights</h3><span>20개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 10 / 쇼츠 10</span><span>0/20 자막</span><span>0자 분석</span></div>
-      <div class="yt-count"><b>5</b>번 거론</div>
-      <div class="yt-stocks"><span class="yt-stock">NVIDIA <b>3</b>회</span><span class="yt-stock">Palantir <b>1</b>회</span><span class="yt-stock">Tesla <b>1</b>회</span></div>
+      <div class="yt-count"><b>13</b>번 거론</div>
+      <div class="yt-stocks"><span class="yt-stock">IonQ <b>4</b>회</span><span class="yt-stock">Palantir <b>3</b>회</span><span class="yt-stock">NVIDIA <b>3</b>회</span><span class="yt-stock">Tesla <b>3</b>회</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기</b><div><span class="badge ticker">PLTR</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/bkuop8jLgOc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Atlas&#x27;s Terrifying Speed: The Nvidia Tech Hidden Behind It</b><div><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/Gd3nrzPV5uY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>NVIDIA&#x27;s shocking Q1 results...</b><div><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/og-O3Ujymn0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>SpaceX IPO Filing, Shocking Revenue Levels</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/CwOeak_dDCw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Will China accept these two?</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/_pTWwwdUdpo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Even Wall Street legends are openly speaking about the current market conditions</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/AnDxrYqudj0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Is the widening of IonQ&#x27;s losses justified?</b><div><span class="badge ticker">IONQ</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/KyA-NywDwSY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>&quot;Call and ask directly,&quot; Palantir breaks the entropic horror and delivers a surprise</b><div><span class="badge ticker">PLTR</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/Bt4CRidq3eU" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Nvidia challenges confidence to prove it, new high achieved</b><div><span class="badge ticker">NVDA</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/5xC937PqmyY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>스페이스X 다큐멘터리: 비행하듯 시험하라</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/Uc6MCnYwvE4" target="_blank" rel="noreferrer">보기</a></small></li></ol>
+    </article>
+    <article class="youtuber-card">
+      <div class="yt-head"><h3>올랜도 킴 미국주식</h3><span>30개 콘텐츠</span></div>
+      <div class="yt-quality"><span>영상 30 / 쇼츠 0</span><span>0/30 자막</span><span>0자 분석</span></div>
+      <div class="yt-count"><b>9</b>번 거론</div>
+      <div class="yt-stocks"><span class="yt-stock">IonQ <b>4</b>회</span><span class="yt-stock">Palantir <b>2</b>회</span><span class="yt-stock">Tesla <b>2</b>회</span><span class="yt-stock">Micron <b>1</b>회</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/vAaKxAp-3xA" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(팔란티어) 직전고점 까지 상승하나? 그 이유는?</b><div><span class="badge ticker">PLTR</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/KM1gxblQq9s" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/jh-7Hm0CkLc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/kywJ5w4Xfu8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(아이온큐) 남들이 비난할때 매수하고 칭찬할때는 조심하자!!!</b><div><span class="badge ticker">IONQ</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/ic1aOliaOxE" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/C_d4FNv4R-E" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(긴급시황) 전쟁 다시 시작? 그러면 기회를 찿자!!!</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/WGC99EzuiJQ" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(시황분석) 조정은 있지만 조정의 폭이 깊지 않다</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/FygECrJCDm0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(마이크론) 왜 자꾸 가는종목을 팔려고 하나?</b><div><span class="badge ticker">MU</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/G8gDkLB2I0s" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>(시황분석) 지금은 버블이 무서워서 매도를 하거나 매수를 못할때가 아니다!!!</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/wWc85BFeq1I" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>월가아재의 과학적 투자</h3><span>20개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 10 / 쇼츠 10</span><span>0/20 자막</span><span>0자 분석</span></div>
-      <div class="yt-count"><b>1</b>번 거론</div>
-      <div class="yt-stocks"><span class="yt-stock">Oracle <b>1</b>회</span></div>
+      <div class="yt-count"><b>2</b>번 거론</div>
+      <div class="yt-stocks"><span class="yt-stock">Oracle <b>1</b>회</span><span class="yt-stock">NVIDIA <b>1</b>회</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>[Wall Street Uncle] The Oracle of Boston is buying this stock</b><div><span class="badge ticker">ORCL</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/rxwa9wn9v0U" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Uncle] &quot;US Stocks Are Expensive Right Now&quot;: Why a Wall Street Legend Is Wary of AI</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/X1zPw_QdVVw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Uncle] The Wall Street Titan Who Went All-In on Chinese Stocks: Dumping China to Bet...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/t0xdXQH_tVk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] &quot;버블 8회 말이다&quot; 30년 무패 거장이 AI 대장주 전량 청산하고 몰빵한 이 종목 (Q1 13f 분석)</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/SgPL3kBb4TM" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Jae] &quot;Evidence&quot; comes before profit. How to study for evidence-based investing | Val...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/zV_iG7Fpv40" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 앞으로 10년 매크로 투자의 핵심? 달러는 이제 보험이 아니다 | 배리 아이켄그린 2부</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/mYA0tppJkcg" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Uncle] Is Dollar Hegemony Shaken? The Dollar May No Longer Be Free | Barry Eichengre...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/LnmXc3m-WIo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Uncle] The Wall Street Uncle Team&#x27;s Practical Investment Training Program Prepared f...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/HfsjO10ysDA" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Guy] I’ll tell you the perfect asset for your account right now.</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/ZUmGdPMtuXo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[Wall Street Uncle] Now that everyone is cheering for the AI ​​bull market, you should pay attent...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/MyTNV9ZB9Bo" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>주식쇼퍼 - 투자도 쇼핑처럼</h3><span>20개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 10 / 쇼츠 10</span><span>0/20 자막</span><span>0자 분석</span></div>
       <div class="yt-count"><b>0</b>번 거론</div>
       <div class="yt-stocks"><span class="empty">거론 종목 없음</span></div>
-    </article>
-    <article class="youtuber-card">
-      <div class="yt-head"><h3>올랜도 킴 미국주식</h3><span>10개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 10 / 쇼츠 0</span><span>0/10 자막</span><span>0자 분석</span></div>
-      <div class="yt-count"><b>0</b>번 거론</div>
-      <div class="yt-stocks"><span class="empty">거론 종목 없음</span></div>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>&quot;South Korean National Assembly Members&#x27;&quot; Stock Portfolio, Did They Really Buy This?</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/UI9jju3rFjU" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Should You Buy or Sell U.S. Stocks? Comparing Contrasting Perspectives</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/kVFCqILBA40" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>Samsung Electronics/Hynix Leverage/Inverse ETFs Are Coming on &quot;May 27&quot;</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/glYX_p-sBOc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>&quot;Earned 250 Trillion Won&quot;: Let&#x27;s Take a Look at the National Pension Service Portfolio, the Stock...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/6GCfo4MIYp8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>&quot;배당률 29%&quot;라는 ETF, 1년 진짜 수익률 계산해봤습니다</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/jhDSNrb2xPw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>How much would I get back with my annual salary? National Growth Fund Refund Simulation</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/izV2jZwEw6w" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>&quot;Why buy Samsung Electronics Preferred Stock?&quot; Foreigners know the answer (Samsung Electronics vs...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/Yrl_I2hlheo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>&quot;A dividend investment site built with determination&quot; The Google Sheets household ledger used by ...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/CWLHZD6xzzY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>&quot;Covered Call ❌&quot; 13% Odds? If you are debating whether to buy now (BDC ARCC MAIN)</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/_zNtWJUOf1k" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>In the &quot;era of high exchange rates,&quot; companies that have stockpiled three years&#x27; worth of work wi...</b><div><span class="empty">종목 미검출</span></div><small>제목/설명 기반 · 날짜 미확인 <a href="https://youtu.be/8A8HsgMsHXA" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article></div><h2>해외 소스별 최신 발언</h2>
     <article class="card small">
       <div class="meta"><strong>T3chfeed - Tech Stock Insights</strong><span>2026-06-01</span><a class="source-link" href="https://youtu.be/bkuop8jLgOc" target="_blank" rel="noreferrer">원문</a></div>
       <h4>”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기</h4>
       <p>자막/설명에서 요약 가능한 본문이 아직 없습니다.</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">정보</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">유튜버</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">유튜버</span><span class="badge ticker">PLTR</span></div>
     </article>
 
     <article class="card small">
@@ -416,7 +459,7 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <h4>Is the widening of IonQ&#x27;s losses justified?</h4>
       <p>자막/설명에서 요약 가능한 본문이 아직 없습니다.</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">정보</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">유튜버</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">유튜버</span><span class="badge ticker">IONQ</span></div>
     </article>
 
     <article class="card small">

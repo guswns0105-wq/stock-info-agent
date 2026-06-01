@@ -12,6 +12,21 @@ TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
 YOUTUBE_LATEST_LIMIT=int(os.environ.get('STOCK_YOUTUBE_LATEST_LIMIT','10'))
+STOCK_ALIASES={
+    'global': {
+        'PLTR': ['팔란티어', 'palantir'],
+        'MU': ['마이크론', 'micron'],
+        'IONQ': ['아이온큐', 'ionq'],
+        'NVDA': ['엔비디아', 'nvidia'],
+        'TSLA': ['테슬라', 'tesla'],
+        'TSM': ['tsmc', '대만반도체'],
+        'ASML': ['asml'],
+        'AMD': ['amd'],
+        'SOXX': ['soxx', '반도체 etf'],
+        'QQQ': ['qqq', '나스닥100'],
+    },
+    'domestic': {}
+}
 PRECISE_YOUTUBE=os.environ.get('STOCK_PRECISE_YOUTUBE','1') != '0'
 TRANSCRIPT_WORKERS=int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','4'))
 
@@ -181,6 +196,7 @@ def collect_youtube_channel(src):
     cid=src.get('channel_id') or (src['url'].split('/channel/')[1].split('?')[0].split('/')[0] if '/channel/' in src.get('url','') else '')
     out=[]
     try:
+        latest_limit=int(src.get('latest_limit') or YOUTUBE_LATEST_LIMIT)
         channel_title=src.get('name','')
         entries=[]
         seen_ids=set()
@@ -207,7 +223,7 @@ def collect_youtube_channel(src):
             root=ET.fromstring(b)
             ns={'a':'http://www.w3.org/2005/Atom','yt':'http://www.youtube.com/xml/schemas/2015','m':'http://search.yahoo.com/mrss/'}
             channel_title=root.findtext('a:title', default=src.get('name',''), namespaces=ns) or src.get('name','')
-            for e in root.findall('a:entry',ns)[:YOUTUBE_LATEST_LIMIT]:
+            for e in root.findall('a:entry',ns)[:latest_limit]:
                 desc=''; mg=e.find('m:group',ns)
                 if mg is not None: desc=mg.findtext('m:description', default='', namespaces=ns)
                 add_entry({
@@ -224,13 +240,13 @@ def collect_youtube_channel(src):
             if cid:
                 base='https://www.youtube.com/channel/'+cid
             tab_url=base+'/'+tab
-            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(YOUTUBE_LATEST_LIMIT),'--dump-single-json','--ignore-no-formats-error','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
+            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(latest_limit),'--dump-single-json','--ignore-no-formats-error','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
             if proc.returncode != 0 or not proc.stdout.strip():
                 raise RuntimeError((proc.stderr or proc.stdout)[-400:])
             data=json.loads(proc.stdout)
             channel_title=(data.get('channel') or data.get('uploader') or data.get('title') or src.get('name','')).replace(' - Videos','').replace(' - Shorts','')
             kind='short' if tab == 'shorts' else 'video'
-            for e in (data.get('entries') or [])[:YOUTUBE_LATEST_LIMIT]:
+            for e in (data.get('entries') or [])[:latest_limit]:
                 add_entry(e, kind)
 
         tabs=[]
@@ -321,10 +337,14 @@ def collect_rss(src):
 
 def detect_mentions(text, lex_region):
     mentions=[]; low=text.lower()
+    alias_region='global' if lex_region and any(k in lex_region for k in ['PLTR','NVDA','TSLA','MU','IONQ']) else 'domestic'
     for code,name in lex_region.items():
         hit=False
         if re.search(r'(?<![A-Z0-9])'+re.escape(code)+r'(?![A-Z0-9])', text): hit=True
         if name and name.lower() in low: hit=True
+        for alias in STOCK_ALIASES.get(alias_region, {}).get(code, []):
+            if alias.lower() in low:
+                hit=True
         if code == '035420' and '네이버' not in text and not re.search(r'(?<![A-Z0-9])035420(?![A-Z0-9])', text): hit = False
         if hit: mentions.append({'ticker':code,'name':name})
     return mentions

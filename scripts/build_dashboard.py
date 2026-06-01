@@ -72,12 +72,22 @@ def youtuber_card(stat):
     precision = f'{transcript_count}/{video_count} 자막' if video_count else '자막 0'
     short_count = stat.get('short_count', 0)
     regular_count = stat.get('regular_video_count', video_count - short_count)
+    video_rows = []
+    for video in stat.get('videos', [])[:10]:
+        tags = ''.join(badge(t, 'ticker') for t in video.get('tickers', [])) or '<span class="empty">종목 미검출</span>'
+        kind = '쇼츠' if video.get('youtube_kind') == 'short' else '영상'
+        conf = '자막' if video.get('confidence') == 'transcript' else '제목/설명'
+        url = esc(video.get('url') or '')
+        link = f'<a href="{url}" target="_blank" rel="noreferrer">보기</a>' if url else ''
+        video_rows.append(f'<li><span class="yt-video-kind">{kind}</span><b>{esc(video.get("title"))}</b><div>{tags}</div><small>{conf} 기반 · {short_date(video.get("published_at"))} {link}</small></li>')
+    video_html = '<ol class="yt-video-list">' + ''.join(video_rows) + '</ol>' if video_rows else ''
     return f'''
     <article class="youtuber-card">
       <div class="yt-head"><h3>{esc(stat.get('youtuber'))}</h3><span>{video_count}개 콘텐츠</span></div>
       <div class="yt-quality"><span>영상 {regular_count} / 쇼츠 {short_count}</span><span>{esc(precision)}</span><span>{stat.get('transcript_chars',0):,}자 분석</span></div>
       <div class="yt-count"><b>{stat.get('mention_count',0)}</b>번 거론</div>
       <div class="yt-stocks">{stock_html}</div>
+      {video_html}
     </article>'''
 
 
@@ -135,7 +145,7 @@ header,main{{max-width:1180px;margin:auto}} header{{padding:36px 22px 18px}} h1{
 main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55}} h2{{color:var(--accent);margin-top:30px}}
 .card{{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)}} .small h4{{font-size:18px;margin:8px 0}} .card p{{color:#d9e4ff;line-height:1.56}}
 .stock-rank-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px}} .stock-rank-card{{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)}} .rank{{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px}} .stock-name{{grid-area:name;font-size:20px;font-weight:800;color:#fff}} .stock-code{{grid-area:code;color:var(--green);font-size:14px}} .mention-count{{grid-area:count;color:var(--yellow);white-space:nowrap}} .mention-count b{{font-size:28px}}
-.youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-quality{{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0}} .yt-quality span{{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}}
+.youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-quality{{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0}} .yt-quality span{{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}} .yt-video-list{{margin:14px 0 0;padding-left:20px;border-top:1px solid rgba(137,247,165,.18)}} .yt-video-list li{{padding:10px 0;color:#eaf3ff;line-height:1.38}} .yt-video-list b{{display:block;margin:4px 0;font-size:14px}} .yt-video-list small{{color:var(--muted)}} .yt-video-kind{{font-size:12px;color:var(--yellow);border:1px solid rgba(255,224,138,.28);border-radius:999px;padding:2px 7px}}
 .rec-head{{display:flex;justify-content:space-between;gap:16px}} .rec-head h3{{font-size:24px;margin:0 0 6px}} .ticker-text{{color:var(--green);font-size:18px}} .score{{text-align:right;color:var(--yellow);white-space:nowrap}} .score strong{{font-size:26px}} .stance{{margin:0;color:#eaf1ff}} .risk{{color:var(--red)!important}}
 .summary-grid,.price-grid,.mini-price{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}} .summary-grid>div{{background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.16);border-radius:14px;padding:12px}} .summary-grid p{{margin:6px 0 0}}
 .evidence-list{{list-style:none;padding:0;margin:14px 0 0}} .evidence-row{{border-top:1px solid #26385f;padding:12px 0}} .ev-top{{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#dbe7ff}} .ev-title{{margin-top:6px;color:#fff}} .ev-reason{{margin-top:8px;color:#d9e4ff;line-height:1.5}}

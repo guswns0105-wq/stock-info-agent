@@ -65,11 +65,12 @@
       "video_id": "rxwa9wn9v0U"
     },
     {
-      "name": "YouTube video vAaKxAp-3xA",
-      "type": "youtube_video",
+      "name": "올랜도 킴 미국주식",
+      "type": "youtube_channel",
       "region": "global",
-      "url": "https://youtu.be/vAaKxAp-3xA?si=U8p_PUcByByGWBGw",
-      "video_id": "vAaKxAp-3xA"
+      "url": "https://www.youtube.com/@orlandocampus",
+      "latest_limit": 30,
+      "detail_extract": true
     }
   ],
   "news": [
