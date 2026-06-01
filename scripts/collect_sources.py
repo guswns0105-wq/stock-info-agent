@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json, re, html, urllib.request, urllib.parse, xml.etree.ElementTree as ET
-import os, shutil, subprocess, tempfile
+import os, shutil, subprocess, tempfile, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from html.parser import HTMLParser
@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'data'/'common_recommendations.json'; YSTATS=ROOT/'data'/'youtuber_stats.json'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
+RATE_LIMIT_FILE=TRANSCRIPTS/'youtube_caption_rate_limited_until.txt'
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
 YOUTUBE_LATEST_LIMIT=int(os.environ.get('STOCK_YOUTUBE_LATEST_LIMIT','10'))
 STOCK_ALIASES={
@@ -28,7 +29,8 @@ STOCK_ALIASES={
     'domestic': {}
 }
 PRECISE_YOUTUBE=os.environ.get('STOCK_PRECISE_YOUTUBE','1') != '0'
-TRANSCRIPT_WORKERS=int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','4'))
+TRANSCRIPT_WORKERS=int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','1'))
+YOUTUBE_REQUIRE_TRANSCRIPT=os.environ.get('STOCK_YOUTUBE_REQUIRE_TRANSCRIPT','1') != '0'
 
 class TextExtractor(HTMLParser):
     def __init__(self): super().__init__(); self.skip=False; self.parts=[]
@@ -74,6 +76,13 @@ def get_youtube_transcript(video_id):
     cache=TRANSCRIPTS/f'{video_id}.txt'; meta=TRANSCRIPTS/f'{video_id}.json'
     if cache.exists() and cache.stat().st_size > 20:
         return cache.read_text(encoding='utf-8', errors='ignore'), 'cache', 'ok'
+    if RATE_LIMIT_FILE.exists():
+        try:
+            until=float(RATE_LIMIT_FILE.read_text().strip() or '0')
+            if until > time.time():
+                return '', 'rate_limited', 'YouTube timedtext 자막 요청이 429로 제한되어 다음 실행에서 재시도합니다.'
+        except Exception:
+            pass
     url='https://www.youtube.com/watch?v='+video_id
     errors=[]
     try:
@@ -92,7 +101,7 @@ def get_youtube_transcript(video_id):
     if os.path.exists(ytdlp):
         with tempfile.TemporaryDirectory() as td:
             outtmpl=str(Path(td)/'%(id)s.%(ext)s')
-            cmd=[ytdlp,'--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko-orig,ko,en','--sub-format','vtt','--ignore-no-formats-error','--extractor-args','youtube:lang=ko','--sleep-subtitles','1','--retries','2','--socket-timeout','15','--no-warnings','-o',outtmpl,url]
+            cmd=[ytdlp,'--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko-orig,ko,en','--sub-format','vtt','--ignore-no-formats-error','--extractor-args','youtube:player_client=android;lang=ko','--sleep-subtitles','3','--retries','3','--socket-timeout','20','--no-warnings','-o',outtmpl,url]
             if os.environ.get('STOCK_YTDLP_COOKIES') == '1':
                 cmd[1:1]=['--cookies-from-browser','chrome']
             try:
@@ -110,6 +119,8 @@ def get_youtube_transcript(video_id):
             except Exception as e:
                 errors.append('yt-dlp: '+str(e)[:220])
     status='; '.join(errors)[:700] or 'no transcript tool available'
+    if '429' in status or 'Too Many Requests' in status:
+        RATE_LIMIT_FILE.write_text(str(time.time()+60*60), encoding='utf-8')
     meta.write_text(json.dumps({'video_id':video_id,'method':'none','status':'failed','errors':errors}, ensure_ascii=False, indent=2), encoding='utf-8')
     return '', 'none', status
 
@@ -242,7 +253,7 @@ def collect_youtube_channel(src):
             if cid:
                 base='https://www.youtube.com/channel/'+cid
             tab_url=base+'/'+tab
-            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(latest_limit),'--dump-single-json','--ignore-no-formats-error','--extractor-args','youtube:lang=ko','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
+            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(latest_limit),'--dump-single-json','--ignore-no-formats-error','--extractor-args','youtube:player_client=android;lang=ko','--no-warnings',tab_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
             if proc.returncode != 0 or not proc.stdout.strip():
                 raise RuntimeError((proc.stderr or proc.stdout)[-400:])
             data=json.loads(proc.stdout)
@@ -291,10 +302,11 @@ def collect_youtube_channel(src):
             vid=entry['vid']; title=entry['title']; desc=entry['desc']; published=entry['published']
             transcript, method, status=transcripts.get(vid, ('', 'none', 'missing transcript task'))
             is_short = entry.get('kind') == 'short' or '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
-            summary = clean_text(transcript[:900] if transcript else (desc[:700] or title[:700]))
-            if not summary: summary = '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
+            summary = clean_text(transcript[:900] if transcript else '')
+            if not summary: summary = '자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.'
             confidence = 'transcript' if transcript else 'metadata'
-            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
+            analysis_text = transcript if (transcript or YOUTUBE_REQUIRE_TRANSCRIPT) else (title+' '+desc)
+            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
     except Exception as e:
         out.append({'source':src.get('name','YouTube channel'),'channel_id':cid,'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed','transcript_chars':0,'extraction_quality':'failed'})
     return out
@@ -304,8 +316,9 @@ def collect_youtube_video(src):
     title=yt_oembed(vid) or src['name']
     transcript, method, status = get_youtube_transcript(vid)
     is_short = '/shorts/' in src.get('url','')
-    summary = clean_text(transcript[:900]) if transcript else '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
-    return [{'source':src['name'],'channel_id':src.get('channel_id',''),'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':title+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':'transcript' if transcript else 'metadata'}]
+    summary = clean_text(transcript[:900]) if transcript else '자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.'
+    analysis_text = transcript if (transcript or YOUTUBE_REQUIRE_TRANSCRIPT) else title
+    return [{'source':src['name'],'channel_id':src.get('channel_id',''),'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':'transcript' if transcript else 'metadata'}]
 
 def collect_naver(src):
     try:
@@ -376,12 +389,15 @@ def main():
     items=[]; agg={}
     for r in records:
         source_region=r.get('region','domestic')
-        text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
+        if str(r.get('source_type','')).startswith('youtube') and YOUTUBE_REQUIRE_TRANSCRIPT and r.get('transcript_status') != 'ok':
+            text=''
+        else:
+            text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
         mentions=detect_all_mentions(text, lex)
         stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
-        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
+        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta'), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
         items.append(item)
         for m in mentions:
             market=m['market']

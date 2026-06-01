@@ -170,7 +170,12 @@ def youtuber_card(stat, region=None):
     for video in stat.get('videos', [])[:10]:
         tags = ''.join(badge(t, 'ticker') for t in video.get('tickers', [])) or '<span class="empty">종목 미검출</span>'
         kind = '쇼츠' if video.get('youtube_kind') == 'short' else '영상'
-        conf = '자막' if video.get('confidence') == 'transcript' else '제목/설명'
+        if video.get('confidence') == 'transcript':
+            conf = '자막본문'
+        elif video.get('confidence') == 'caption_failed':
+            conf = '자막실패·분석제외'
+        else:
+            conf = '제목/설명'
         url = esc(video.get('url') or '')
         link = f'<a href="{url}" target="_blank" rel="noreferrer">보기</a>' if url else ''
         video_rows.append(f'<li><span class="yt-video-kind">{kind}</span><b>{region_text(video.get("title"), region)}</b><div>{tags}</div><small>{conf} 기반 · {short_date(video.get("published_at"))} {link}</small></li>')
