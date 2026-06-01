@@ -164,6 +164,8 @@ def youtuber_card(stat, region=None):
     transcript_count = stat.get('transcript_count', 0)
     video_count = stat.get('video_count', 0)
     precision = f'{transcript_count}/{video_count} 자막' if video_count else '자막 0'
+    ocr_count = stat.get('ocr_count', 0)
+    ocr_precision = f'{ocr_count}/{video_count} OCR' if video_count else 'OCR 0'
     short_count = stat.get('short_count', 0)
     regular_count = stat.get('regular_video_count', video_count - short_count)
     video_rows = []
@@ -172,18 +174,21 @@ def youtuber_card(stat, region=None):
         kind = '쇼츠' if video.get('youtube_kind') == 'short' else '영상'
         if video.get('confidence') == 'transcript':
             conf = '자막본문'
+        elif video.get('confidence') == 'ocr_only':
+            conf = 'OCR화면'
         elif video.get('confidence') == 'caption_failed':
             conf = '자막실패·분석제외'
         else:
             conf = '제목/설명'
+        ocr_badge = ' · OCR' if video.get('ocr_status') == 'ok' else ''
         url = esc(video.get('url') or '')
         link = f'<a href="{url}" target="_blank" rel="noreferrer">보기</a>' if url else ''
-        video_rows.append(f'<li><span class="yt-video-kind">{kind}</span><b>{region_text(video.get("title"), region)}</b><div>{tags}</div><small>{conf} 기반 · {short_date(video.get("published_at"))} {link}</small></li>')
+        video_rows.append(f'<li><span class="yt-video-kind">{kind}</span><b>{region_text(video.get("title"), region)}</b><div>{tags}</div><small>{conf} 기반{ocr_badge} · {short_date(video.get("published_at"))} {link}</small></li>')
     video_html = '<ol class="yt-video-list">' + ''.join(video_rows) + '</ol>' if video_rows else ''
     return f'''
     <article class="youtuber-card">
       <div class="yt-head"><h3>{esc(stat.get('youtuber'))}</h3><span>{video_count}개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 {regular_count} / 쇼츠 {short_count}</span><span>{esc(precision)}</span><span>{stat.get('transcript_chars',0):,}자 분석</span></div>
+      <div class="yt-quality"><span>영상 {regular_count} / 쇼츠 {short_count}</span><span>{esc(precision)}</span><span>{esc(ocr_precision)}</span><span>{stat.get('transcript_chars',0):,}자 + OCR {stat.get('ocr_chars',0):,}자</span></div>
       <div class="yt-count"><b>{stat.get('mention_count',0)}</b>번 거론</div>
       <div class="yt-stocks">{stock_html}</div>
       {video_html}

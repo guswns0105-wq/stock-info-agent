@@ -18,6 +18,7 @@ HISTORY=ROOT/'data'/'items_history.jsonl'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
 RATE_LIMIT_FILE=TRANSCRIPTS/'youtube_caption_rate_limited_until.txt'
+OCR_INDEX=ROOT/'data'/'youtube_ocr'/'ocr_index.json'
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
 YOUTUBE_LATEST_LIMIT=int(os.environ.get('STOCK_YOUTUBE_LATEST_LIMIT','10'))
 STOCK_ALIASES={
@@ -411,6 +412,29 @@ def detect_all_mentions(text, lex):
                 seen.add(key); mentions.append(m)
     return mentions
 
+def load_ocr_index():
+    if not OCR_INDEX.exists():
+        return {}
+    try:
+        raw=json.loads(OCR_INDEX.read_text(encoding='utf-8'))
+        return raw if isinstance(raw, dict) else {}
+    except Exception:
+        return {}
+
+def ocr_text_for(video_id, ocr_index):
+    if not video_id:
+        return '', None
+    rec=ocr_index.get(video_id) or {}
+    if rec.get('ocr_status') not in ('ok','no_text'):
+        return '', rec
+    path=rec.get('ocr_text_path')
+    if path and Path(path).exists():
+        try:
+            return Path(path).read_text(encoding='utf-8', errors='ignore'), rec
+        except Exception:
+            pass
+    return '', rec
+
 def item_key(item):
     if item.get('video_id'):
         return 'youtube:'+str(item.get('video_id'))
@@ -495,14 +519,16 @@ def recompute_common_and_ystats(items, lex):
         for stat_region in item.get('stock_regions') or [item.get('region','domestic')]:
             region_tickers=[t for t in item.get('tickers', []) if ticker_markets.get(t, stat_region) == stat_region]
             ykey=(stat_region, item.get('channel_id') or item.get('source'))
-            ys=ystats_map.setdefault(ykey, {'region':stat_region, 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'short_count':0, 'regular_video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
+            ys=ystats_map.setdefault(ykey, {'region':stat_region, 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'short_count':0, 'regular_video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'ocr_count':0, 'transcript_chars':0, 'ocr_chars':0, 'stocks':{}, 'videos':[]})
             ys['video_count'] += 1
             if item.get('source_type') == 'youtube_short': ys['short_count'] += 1
             else: ys['regular_video_count'] += 1
             if item.get('confidence') == 'transcript': ys['transcript_count'] += 1
             else: ys['metadata_count'] += 1
             ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
-            ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':region_tickers, 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
+            ys['ocr_chars'] += int(item.get('ocr_chars') or 0)
+            if item.get('ocr_status') == 'ok': ys['ocr_count'] += 1
+            ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':region_tickers, 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'ocr_status':item.get('ocr_status',''), 'ocr_chars':item.get('ocr_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
             for ticker in region_tickers:
                 name=lex.get(stat_region,{}).get(ticker) or ticker
                 stock=ys['stocks'].setdefault(ticker, {'ticker':ticker, 'name':name, 'count':0})
@@ -518,6 +544,7 @@ def recompute_common_and_ystats(items, lex):
 
 def main():
     srcs=json.loads(SOURCES.read_text(encoding='utf-8')); lex=json.loads(LEX.read_text(encoding='utf-8'))
+    ocr_index=load_ocr_index()
     records=[]
     # 공유된 개별 YouTube 영상은 해당 유튜버 채널로 확장해 최신 영상을 취합한다.
     for ch in youtube_channel_sources(srcs):
@@ -533,15 +560,16 @@ def main():
     current_items=[]
     for r in records:
         source_region=r.get('region','domestic')
+        ocr_text, ocr_rec = ocr_text_for(r.get('video_id',''), ocr_index)
         if str(r.get('source_type','')).startswith('youtube') and YOUTUBE_REQUIRE_TRANSCRIPT and r.get('transcript_status') != 'ok':
-            text=''
+            text=ocr_text[:12000]
         else:
-            text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
+            text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text','')+' '+ocr_text)[:24000]
         mentions=detect_all_mentions(text, lex)
         stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
-        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta'), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
+        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('ocr_only' if ocr_text else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta')), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'ocr_method':(ocr_rec or {}).get('ocr_method',''), 'ocr_status':(ocr_rec or {}).get('ocr_status',''), 'ocr_chars':(ocr_rec or {}).get('ocr_chars',0), 'ocr_text_path':(ocr_rec or {}).get('ocr_text_path',''), 'extraction_quality':('transcript+ocr' if (r.get('transcript_status')=='ok' and ocr_text) else ('ocr_only' if ocr_text else r.get('extraction_quality','metadata')))}
         current_items.append(item)
     items, previous_count, newly_added = merge_accumulated_items(current_items, now)
     common, ystats = recompute_common_and_ystats(items, lex)
