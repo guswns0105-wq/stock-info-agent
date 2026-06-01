@@ -1,7 +1,7 @@
 {
   "domestic": [
     {
-      "name": "YouTube channel UC7us...",
+      "name": "경제사냥꾼",
       "type": "youtube_channel",
       "region": "domestic",
       "url": "https://youtube.com/channel/UC7usMJDHmtbs_oegmzQKKMA?si=8xlqXxz9mhIqb1O2",
@@ -20,11 +20,18 @@
       "url": "https://blog.naver.com/ranto28/224302397201"
     },
     {
-      "name": "YouTube channel UC-jg...",
+      "name": "주식용사부",
       "type": "youtube_channel",
       "region": "domestic",
       "url": "https://youtube.com/channel/UC-jgYMsPz6NuDT9j9dmNODg?si=FchfSkCk9K47uB0K",
       "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg"
+    },
+    {
+      "name": "강지한 차트연구소",
+      "type": "youtube_channel",
+      "region": "domestic",
+      "url": "https://youtube.com/channel/UCNqWJvNS6SwrM4gApwdCUMg?si=F47m0LP7DrPX2-xF",
+      "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg"
     }
   ],
   "global": [
@@ -76,24 +83,6 @@
       "type": "rss",
       "region": "global",
       "url": "https://finance.yahoo.com/news/rssindex"
-    }
-  ],
-  "local_packs": [
-    {
-      "pack_id": "korean_stock_research_pack",
-      "region": "domestic"
-    },
-    {
-      "pack_id": "domestic_stock_market_crawl_pack",
-      "region": "domestic"
-    },
-    {
-      "pack_id": "stock_selection_research_pack",
-      "region": "global"
-    },
-    {
-      "pack_id": "finance_github_weekly_pulse_pack",
-      "region": "global"
     }
   ]
 }

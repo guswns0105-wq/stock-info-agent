@@ -1,19 +1,18 @@
 #!/usr/bin/env python3
-import json, re, html, hashlib, urllib.request, urllib.parse, xml.etree.ElementTree as ET
+import json, re, html, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 import os, shutil, subprocess, tempfile
-from datetime import datetime, timezone
+from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
-PACK_ROOT=Path('/Users/mac1/opencrab-local-packs/opencrab-portable-20260531-145915')
-DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'data'/'common_recommendations.json'; PACKCTX=ROOT/'data'/'local_pack_context.json'
+DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'data'/'common_recommendations.json'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
 
 class TextExtractor(HTMLParser):
-    def __init__(self): super().__init__(); self.skip=False; self.parts=[]; self.title=''
+    def __init__(self): super().__init__(); self.skip=False; self.parts=[]
     def handle_starttag(self, tag, attrs):
         if tag in ('script','style','noscript'): self.skip=True
     def handle_endtag(self, tag):
@@ -39,38 +38,28 @@ def yt_oembed(video_id):
         _,_,b=fetch(url); return json.loads(b.decode()).get('title','')
     except Exception: return ''
 
-
-
 def strip_vtt(vtt_text):
-    """Convert WebVTT/SRV text to readable transcript text."""
     lines=[]
     for line in vtt_text.splitlines():
         line=line.strip()
-        if not line or line == 'WEBVTT' or line.startswith('Kind:') or line.startswith('Language:'):
-            continue
-        if '-->' in line or re.fullmatch(r'\d+', line):
-            continue
+        if not line or line == 'WEBVTT' or line.startswith('Kind:') or line.startswith('Language:'): continue
+        if '-->' in line or re.fullmatch(r'\d+', line): continue
         line=re.sub(r'<[^>]+>', ' ', line)
         line=html.unescape(line)
         line=' '.join(line.split())
-        if line and (not lines or lines[-1] != line):
-            lines.append(line)
+        if line and (not lines or lines[-1] != line): lines.append(line)
     return ' '.join(lines)
 
 def get_youtube_transcript(video_id):
-    """Fetch captions for normal videos or Shorts. Returns (text, method, status)."""
     TRANSCRIPTS.mkdir(parents=True, exist_ok=True)
-    cache=TRANSCRIPTS/f'{video_id}.txt'
-    meta=TRANSCRIPTS/f'{video_id}.json'
+    cache=TRANSCRIPTS/f'{video_id}.txt'; meta=TRANSCRIPTS/f'{video_id}.json'
     if cache.exists() and cache.stat().st_size > 20:
         return cache.read_text(encoding='utf-8', errors='ignore'), 'cache', 'ok'
     url='https://www.youtube.com/watch?v='+video_id
     errors=[]
-    # 1) youtube-transcript-api: best when YouTube does not block the IP.
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
-        api=YouTubeTranscriptApi()
-        fetched=api.fetch(video_id, languages=['ko','en'])
+        api=YouTubeTranscriptApi(); fetched=api.fetch(video_id, languages=['ko','en'])
         text=' '.join(snippet.text for snippet in fetched if getattr(snippet, 'text', '').strip())
         if len(text) > 20:
             cache.write_text(text, encoding='utf-8')
@@ -78,14 +67,13 @@ def get_youtube_transcript(video_id):
             return text, 'youtube_transcript_api', 'ok'
     except Exception as e:
         errors.append('youtube_transcript_api: '+str(e).split('\n')[0][:220])
-    # 2) yt-dlp subtitles/auto captions fallback. Works for normal videos and Shorts when captions exist.
     ytdlp=shutil.which('yt-dlp') or '/Users/mac1/.hermes-4/home/.local/bin/yt-dlp'
     if os.path.exists(ytdlp):
         with tempfile.TemporaryDirectory() as td:
             outtmpl=str(Path(td)/'%(id)s.%(ext)s')
             cmd=[ytdlp,'--cookies-from-browser','chrome','--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko,en','--sub-format','vtt','--sleep-subtitles','2','--retries','3','--no-warnings','-o',outtmpl,url]
             try:
-                env=os.environ.copy(); env.setdefault('HOME', '/Users/mac1'); env['HOME']='/Users/mac1'
+                env=os.environ.copy(); env['HOME']='/Users/mac1'
                 proc=subprocess.run(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90, env=env)
                 vtts=list(Path(td).glob(f'{video_id}*.vtt'))
                 if vtts:
@@ -102,29 +90,77 @@ def get_youtube_transcript(video_id):
     meta.write_text(json.dumps({'video_id':video_id,'method':'none','status':'failed','errors':errors}, ensure_ascii=False, indent=2), encoding='utf-8')
     return '', 'none', status
 
+def clean_text(text):
+    text=re.sub(r'자막추출 실패/없음:.*', '', text or '', flags=re.S)
+    text=re.sub(r'\s+', ' ', text).strip()
+    return text
+
+def split_sentences(text):
+    text=clean_text(text)
+    parts=re.split(r'(?<=[.!?。！？])\s+|\n+|(?<=[다요죠음함됨임])\s+(?=[가-힣A-Z0-9"\'“‘])', text)
+    return [p.strip(' -·•') for p in parts if len(p.strip()) >= 8]
+
+def infer_source_role(source_type):
+    if source_type.startswith('youtube'): return '유튜버'
+    if 'blog' in source_type: return '블로거'
+    if source_type == 'rss': return '뉴스'
+    return '소스'
+
+def extract_price_fields(text, ticker=None, name=None):
+    text=clean_text(text)
+    money=r'(?:\d{1,3}(?:,\d{3})+|\d+(?:\.\d+)?)(?:\s*)(?:만원|원|달러|불|USD|KRW)'
+    fields={'target_price':'출처에서 명시 안 됨','buy_zone':'출처에서 명시 안 됨','price_note':''}
+    def is_relevant(ctx):
+        if not ticker and not name:
+            return True
+        window=ctx.lower()
+        return (ticker and ticker.lower() in window) or (name and name.lower() in window)
+    for m in re.finditer(money, text):
+        ctx=text[max(0,m.start()-80):m.end()+80]
+        # 종목별 카드에서는 가격 주변에 해당 종목명이 함께 나올 때만 표시한다.
+        # 없으면 다른 종목의 목표가를 끌어와 섞지 않는다.
+        if not is_relevant(ctx):
+            continue
+        if fields['target_price'].startswith('출처') and re.search(r'목표가|적정가|타깃|target|목표', ctx, re.I):
+            fields['target_price']=m.group(0); fields['price_note']=ctx.strip()
+        if fields['buy_zone'].startswith('출처') and re.search(r'매수|진입|분할|눌림|지지|이하|아래|구간', ctx, re.I):
+            fields['buy_zone']=m.group(0); fields['price_note']=ctx.strip()
+    return fields
+
+def infer_reason(text, title, ticker, name):
+    hay=(title or '')+' '+clean_text(text)
+    candidates=[]
+    for s in split_sentences(hay)[:80]:
+        if ticker in s or (name and name.lower() in s.lower()): candidates.append(s)
+    if not candidates:
+        for s in split_sentences(hay)[:20]:
+            if re.search(r'추천|수혜|저평가|급등|대장주|목표가|호재|실적|AI|반도체|전망|방한|국민연금|인프라', s, re.I): candidates.append(s)
+    if not candidates: candidates=[title or '근거 문장 추출 실패']
+    # keep facts, no over-polish: preserve numbers/dates/names from source text
+    return ' / '.join(candidates[:2])[:360]
+
 def collect_youtube_channel(src):
     cid=src.get('channel_id') or src['url'].split('/channel/')[1].split('?')[0].split('/')[0]
     feed=f'https://www.youtube.com/feeds/videos.xml?channel_id={cid}'
     out=[]
     try:
-        final,ctype,b=fetch(feed)
+        _,_,b=fetch(feed)
         root=ET.fromstring(b)
         ns={'a':'http://www.w3.org/2005/Atom','yt':'http://www.youtube.com/xml/schemas/2015','m':'http://search.yahoo.com/mrss/'}
+        channel_title=root.findtext('a:title', default=src.get('name',''), namespaces=ns) or src.get('name','')
         for e in root.findall('a:entry',ns)[:8]:
             vid=(e.findtext('yt:videoId', default='', namespaces=ns) or '').strip()
             title=e.findtext('a:title', default='', namespaces=ns)
             published=e.findtext('a:published', default='', namespaces=ns)
-            desc=''
-            mg=e.find('m:group',ns)
+            desc=''; mg=e.find('m:group',ns)
             if mg is not None: desc=mg.findtext('m:description', default='', namespaces=ns)
             transcript, method, status = get_youtube_transcript(vid) if vid else ('', 'none', 'no video id')
             is_short = '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
-            summary = (transcript[:900] if transcript else desc[:500])
-            if not transcript:
-                summary = (summary + ' | 자막추출 실패/없음: ' + status[:180])[:900]
-            out.append({'source':src['name'],'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status})
+            summary = clean_text(transcript[:900] if transcript else desc[:700])
+            if not summary: summary = '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
+            out.append({'source':channel_title,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status})
     except Exception as e:
-        out.append({'source':src['name'],'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed'})
+        out.append({'source':src.get('name','YouTube channel'),'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed'})
     return out
 
 def collect_youtube_video(src):
@@ -132,15 +168,15 @@ def collect_youtube_video(src):
     title=yt_oembed(vid) or src['name']
     transcript, method, status = get_youtube_transcript(vid)
     is_short = '/shorts/' in src.get('url','')
-    summary = transcript[:900] if transcript else '자막추출 실패/없음: '+status[:500]
+    summary = clean_text(transcript[:900]) if transcript else '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
     return [{'source':src['name'],'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':title+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status}]
 
 def collect_naver(src):
     try:
         final,ctype,b=fetch(src['url'])
+        raw=b.decode('utf-8','ignore')
         text=visible_text(b)
-        # try iframe PostView when homepage wrapper
-        m=re.search(r'logNo\s*=\s*["\']?(\d+)', b.decode('utf-8','ignore')) or re.search(r'/PostView\.naver\?[^"\']*logNo=(\d+)', b.decode('utf-8','ignore'))
+        m=re.search(r'logNo\s*=\s*["\']?(\d+)', raw) or re.search(r'/PostView\.naver\?[^"\']*logNo=(\d+)', raw)
         if m:
             parsed=urllib.parse.urlparse(src['url']); blog=parsed.path.strip('/').split('/')[0]
             pv=f'https://blog.naver.com/PostView.naver?blogId={blog}&logNo={m.group(1)}&redirect=Dlog&widgetTypeCall=true&directAccess=false'
@@ -149,35 +185,21 @@ def collect_naver(src):
                 if len(t2)>len(text): final,text=final2,t2
             except Exception: pass
         title=text[:80]
-        return [{'source':src['name'],'source_type':'naver_blog_post','region':src.get('region','domestic'),'title':title or src['name'],'summary':text[:700],'url':src['url'],'published_at':'','text':text}]
+        return [{'source':src['name'].replace('Naver blog ','블로그 '),'source_type':'naver_blog_post','region':src.get('region','domestic'),'title':title or src['name'],'summary':clean_text(text[:700]),'url':src['url'],'published_at':'','text':text}]
     except Exception as e:
         return [{'source':src['name'],'source_type':'naver_blog_post','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':''}]
 
 def collect_rss(src):
     out=[]
     try:
-        final,ctype,b=fetch(src['url']); root=ET.fromstring(b)
-        items=root.findall('.//item')[:5]
-        if items:
-            for it in items:
-                title=it.findtext('title') or ''; desc=it.findtext('description') or ''; link=it.findtext('link') or src['url']; pub=it.findtext('pubDate') or ''
-                out.append({'source':src['name'],'source_type':'rss','region':src.get('region','domestic'),'title':title,'summary':re.sub('<[^>]+>',' ',desc)[:500],'url':link,'published_at':pub,'text':title+' '+re.sub('<[^>]+>',' ',desc)})
+        _,_,b=fetch(src['url']); root=ET.fromstring(b)
+        for it in root.findall('.//item')[:5]:
+            title=it.findtext('title') or ''; desc=it.findtext('description') or ''; link=it.findtext('link') or src['url']; pub=it.findtext('pubDate') or ''
+            text=title+' '+re.sub('<[^>]+>',' ',desc)
+            out.append({'source':src['name'],'source_type':'rss','region':src.get('region','domestic'),'title':title,'summary':clean_text(re.sub('<[^>]+>',' ',desc)[:500]),'url':link,'published_at':pub,'text':text})
     except Exception as e:
         out.append({'source':src['name'],'source_type':'rss','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':''})
     return out
-
-def collect_local_pack(pack_id, region):
-    base=PACK_ROOT/'expanded-packs'/pack_id
-    chunks=[]
-    for rel in ['00_index/evidence_index.jsonl','00_index/chunk_index.jsonl','opencrab_pack.md','README.md','06_reports/pack_description.md']:
-        p=base/rel
-        if not p.exists(): continue
-        txt=p.read_text(encoding='utf-8',errors='ignore')[:50000]
-        for kw in ['종목','stock','selection','market','투자','리스크','섹터','theme','ticker']:
-            i=txt.lower().find(kw.lower())
-            if i>=0:
-                chunks.append(txt[max(0,i-350):i+650]); break
-    return {'pack_id':pack_id,'region':region,'evidence':chunks[:5]}
 
 def detect_mentions(text, lex_region):
     mentions=[]; low=text.lower()
@@ -185,9 +207,7 @@ def detect_mentions(text, lex_region):
         hit=False
         if re.search(r'(?<![A-Z0-9])'+re.escape(code)+r'(?![A-Z0-9])', text): hit=True
         if name and name.lower() in low: hit=True
-        # NAVER 블로그 UI의 영문 NAVER 반복은 035420 종목 언급으로 보지 않음
-        if code == '035420' and '네이버' not in text and not re.search(r'(?<![A-Z0-9])035420(?![A-Z0-9])', text):
-            hit = False
+        if code == '035420' and '네이버' not in text and not re.search(r'(?<![A-Z0-9])035420(?![A-Z0-9])', text): hit = False
         if hit: mentions.append({'ticker':code,'name':name})
     return mentions
 
@@ -201,34 +221,34 @@ def main():
             elif typ=='youtube_video': records += collect_youtube_video(src)
             elif typ=='naver_blog_post': records += collect_naver(src)
             elif typ=='rss': records += collect_rss(src)
-    pack_context=[collect_local_pack(p['pack_id'],p.get('region','domestic')) for p in srcs.get('local_packs',[])]
     now=datetime.now().isoformat(timespec='minutes')
     items=[]; agg={}
     for r in records:
         region=r.get('region','domestic')
-        text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:10000]
+        text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text',''))[:20000]
         mentions=detect_mentions(text, lex.get(region,{}))
-        # add global detection fallback for global names appearing in domestic sources too
         if region=='domestic': mentions += [m for m in detect_mentions(text, lex.get('global',{})) if m not in mentions]
+        title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
+        price_fields=extract_price_fields(text)
+        item={'region':region,'source':r.get('source'), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status','')}
+        items.append(item)
         for m in mentions:
             key=(region,m['ticker'])
             a=agg.setdefault(key, {'region':region,'ticker':m['ticker'],'name':m['name'],'sources':[], 'source_count':0, 'evidence':[]})
             if r['source'] not in a['sources']: a['sources'].append(r['source']); a['source_count']=len(a['sources'])
-            a['evidence'].append({'source':r['source'],'title':r['title'],'url':r['url']})
-        title=r.get('title') or '제목 없음'
-        summary=r.get('summary') or '요약 없음'
-        items.append({'region':region,'source':r.get('source'), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'recommendation':'공통관심 후보' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status','')})
+            ev_price=extract_price_fields(text, m['ticker'], m['name'])
+            a['evidence'].append({'source':r['source'],'source_role':item['source_role'],'title':title,'url':r['url'],'published_at':r.get('published_at',''),'reason':infer_reason(text,title,m['ticker'],m['name']),'target_price':ev_price['target_price'],'buy_zone':ev_price['buy_zone'],'price_note':ev_price['price_note'],'confidence':item['confidence']})
     common=sorted(agg.values(), key=lambda x:(x['source_count'], len(x['evidence'])), reverse=True)
-    # enrich with local pack context notes, not direct recs
     for c in common:
-        region=c['region']; relevant=[p for p in pack_context if p['region']==region and p['evidence']]
-        c['local_pack_notes']=[{'pack_id':p['pack_id'],'note':p['evidence'][0][:300]} for p in relevant[:2]]
-        c['stance']='여러 소스에서 반복 언급된 관심 종목' if c['source_count']>=2 else '단일/메타데이터 언급 종목'
-        c['risk']='로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요'
+        c['stance']='복수 출처 추천/관심' if c['source_count']>=2 else '단일 출처 추천/관심'
+        targets=[ev['target_price'] for ev in c['evidence'] if ev.get('target_price') and not ev['target_price'].startswith('출처')]
+        buys=[ev['buy_zone'] for ev in c['evidence'] if ev.get('buy_zone') and not ev['buy_zone'].startswith('출처')]
+        c['target_price_summary']=', '.join(dict.fromkeys(targets)) if targets else '출처에서 적정가/목표가를 명시하지 않았습니다.'
+        c['buy_zone_summary']=', '.join(dict.fromkeys(buys)) if buys else '출처에서 매수가/진입가를 명시하지 않았습니다.'
+        c['caution']='출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다.'
     DATA.write_text(json.dumps(items,ensure_ascii=False,indent=2),encoding='utf-8')
     RAW.write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
     COMMON.write_text(json.dumps(common,ensure_ascii=False,indent=2),encoding='utf-8')
-    PACKCTX.write_text(json.dumps(pack_context,ensure_ascii=False,indent=2),encoding='utf-8')
-    print(f'collected records={len(records)} items={len(items)} common={len(common)} packs={len(pack_context)}')
+    print(f'collected records={len(records)} items={len(items)} common={len(common)}')
     for c in common[:10]: print(c['region'], c['ticker'], c['name'], c['source_count'])
 if __name__=='__main__': main()
