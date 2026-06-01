@@ -666,6 +666,155 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "sources": [
+      "T3chfeed - Tech Stock Insights",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It",
+        "url": "https://youtu.be/Gd3nrzPV5uY",
+        "published_at": "",
+        "reason": "Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It 자막/설명에서 요약 가능한 본문이 아직 없습니다. / Atlas's Terrifying Speed: The Nvidia Tech Hidden Behind It",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "NVIDIA's shocking Q1 results...",
+        "url": "https://youtu.be/og-O3Ujymn0",
+        "published_at": "",
+        "reason": "NVIDIA's shocking Q1 results... / NVIDIA's shocking Q1 results...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - Tech Stock Insights",
+        "source_role": "유튜버",
+        "title": "Nvidia challenges confidence to prove it, new high achieved",
+        "url": "https://youtu.be/5xC937PqmyY",
+        "published_at": "",
+        "reason": "Nvidia challenges confidence to prove it, new high achieved Nvidia challenges confidence to prove it, new high achieved 자막/설명에서 요약 가능한 본문이 아직 없습니다. / Nvidia challenges confidence to prove it, new high achieved",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
+        "url": "https://youtu.be/5FeyG-xJWF0",
+        "published_at": "",
+        "reason": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook 자막/설명에서 요약 가능한 본문이 아직 없습니다. / (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "url": "https://youtu.be/4kCkPb4c528",
+        "published_at": "",
+        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "url": "https://youtu.be/bKP_QdAAO1U",
+        "published_at": "",
+        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "url": "https://youtu.be/DRebgU7BKxI",
+        "published_at": "",
+        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "url": "https://youtu.be/3KTU1_hLA_0",
+        "published_at": "",
+        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Nvidia’s latest product is a game-changer",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html",
+        "published_at": "2026-05-31T01:03:00Z",
+        "reason": "Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "005380",
     "name": "현대차",
@@ -1103,92 +1252,191 @@
   },
   {
     "region": "global",
-    "ticker": "AAPL",
-    "name": "Apple",
+    "ticker": "TSLA",
+    "name": "Tesla",
     "sources": [
-      "주식쇼퍼 - 투자도 쇼핑처럼"
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
     ],
     "source_count": 1,
     "evidence": [
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "\"대한민국 국회의원들\" 주식 포트폴리오, 이런걸 샀다고?",
-        "url": "https://youtu.be/UI9jju3rFjU",
-        "published_at": "2026-05-31T05:15:10+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 국회의원 보유종목 보러가기 https://etfshopping.com/lab/congress-stocks 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/ap",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "미국주식 살 때일까 팔 때일까, 정반대 의견을 비교해봤다",
-        "url": "https://youtu.be/kVFCqILBA40",
-        "published_at": "2026-05-24T05:15:36+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91 미국주식 살 때일까 팔 때일까, 정반대 의견을 비교해봤다 #켄피",
+        "title": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
+        "url": "https://youtu.be/5FeyG-xJWF0",
+        "published_at": "",
+        "reason": "(Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook 자막/설명에서 요약 가능한 본문이 아직 없습니다. / (Members Only) 5/20 (Wed) Short-Term Semiconductor Investment Strategy, NVIDIA & Tesla Outlook",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "\"5월 27일\" 삼성전자/하이닉스 레버리지/인버스 ETF가 온다",
-        "url": "https://youtu.be/glYX_p-sBOc",
-        "published_at": "2026-05-17T05:15:23+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91/id6762693045",
+        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "\"250조 벌었다\" 주식 치트키 국민연금 포트폴리오를 살펴보자",
-        "url": "https://youtu.be/6GCfo4MIYp8",
-        "published_at": "2026-05-10T05:15:00+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 국민연금 포트폴리오 보러가기 https://etfshopping.com/lab/nps-portfolio 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app",
+        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "url": "https://youtu.be/4kCkPb4c528",
+        "published_at": "",
+        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "\"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다",
-        "url": "https://youtu.be/jhDSNrb2xPw",
-        "published_at": "2026-05-03T05:15:00+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/ap \"배당률 29%\"라는 ETF, 1년 진짜 수익률 계산해봤습니다 #커버드콜 #고배당etf #SOL팔란티어커",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "내 연봉이면 얼마 돌려받을까? 국민성장펀드 환급 시뮬레이션",
-        "url": "https://youtu.be/izV2jZwEw6w",
-        "published_at": "2026-04-26T05:15:00+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📕 ETF쇼핑 사용하기 (PC웹) https://etfshopping.com (아이폰) https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91/id6762693045 내 연봉이면 얼마 돌려받을까? / 많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(",
+        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "url": "https://youtu.be/bKP_QdAAO1U",
+        "published_at": "",
+        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "\"작정하고 만든 배당 투자 사이트\" 7천명이 썼던 구글시트 가계부는 끝",
-        "url": "https://youtu.be/CWLHZD6xzzY",
-        "published_at": "2026-04-12T05:15:00+00:00",
-        "reason": "많은 투자수익 달성 ✅ 배당금: 20년(350만원) 21년(850만원) 22년(1300만원) 23년(2655만원) 24년(2745만원) 25년(2653만원) 🔽 네이버 블로그 https://blog.naver.com/stockshopper 🔽 기타의뢰・문의는 이쪽 stockshopper@naver.com 📚 ETF쇼핑 어플 구글 플레이스토어: https://play.google.com/store/apps/details?id=com.shopperslab.etfshopping 애플 앱스토어: https://apps.apple.com/kr/app/etf%EC%87%BC%ED%95%91/id6762693045",
+        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "url": "https://youtu.be/DRebgU7BKxI",
+        "published_at": "",
+        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "url": "https://youtu.be/3KTU1_hLA_0",
+        "published_at": "",
+        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "sources": [
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "url": "https://youtu.be/4kCkPb4c528",
+        "published_at": "",
+        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "url": "https://youtu.be/bKP_QdAAO1U",
+        "published_at": "",
+        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "url": "https://youtu.be/3KTU1_hLA_0",
+        "published_at": "",
+        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1264,6 +1512,81 @@
         "url": "https://youtu.be/lhpsuDfhjl0",
         "published_at": "2026-05-26T03:49:10+00:00",
         "reason": "카카오톡 사칭 사기에 유의하세요! / 카카오톡 사칭 사기에 유의하세요!",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "META",
+    "name": "Meta",
+    "sources": [
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Is This the Start of a Bull Market? US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "url": "https://youtu.be/bKP_QdAAO1U",
+        "published_at": "",
+        "reason": "US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,... / US Stock Investment Strategy (Tesla, Meta, Microsoft, Nvidia,...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "url": "https://youtu.be/DRebgU7BKxI",
+        "published_at": "",
+        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
+        "url": "https://youtu.be/3KTU1_hLA_0",
+        "published_at": "",
+        "reason": "Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft... / Trump Tacos But Opposes Iran, US Stock Response Strategy Revealed (Tesla, Nvidia, Meta, Microsoft...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1402,6 +1725,132 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "sources": [
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "url": "https://youtu.be/4kCkPb4c528",
+        "published_at": "",
+        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "GOOG",
+    "name": "Alphabet",
+    "sources": [
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "It seems we need to be careful with semiconductors now. (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "url": "https://youtu.be/9nyTamqkeW8",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Nvidia, Microsoft, Alphabet... / (Tesla, Meta, Nvidia, Microsoft, Alphabet...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "url": "https://youtu.be/4kCkPb4c528",
+        "published_at": "",
+        "reason": "Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke... / Response Strategy After CPI Announcement (Tesla, Eta, Nvidia, Alphabet, Microsoft, US Stock Marke...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "006400",
     "name": "삼성SDI",
@@ -1505,8 +1954,8 @@
   },
   {
     "region": "global",
-    "ticker": "TSM",
-    "name": "TSMC",
+    "ticker": "AMZN",
+    "name": "Amazon",
     "sources": [
       "마피디 미국주식 (테슬라,TQQQ,SOXL)"
     ],
@@ -1515,10 +1964,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
-        "url": "https://youtu.be/V2YUu1TNb8k",
-        "published_at": "2026-05-29T21:34:55+00:00",
-        "reason": "ㅠㅠ #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스닥 전망 #반도체전망 #반도체etf #labu ",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1527,10 +1976,22 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "2026-05-28T11:00:30+00:00",
-        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "Slightly modifying the existing view. Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
+        "url": "https://youtu.be/DRebgU7BKxI",
+        "published_at": "",
+        "reason": "Capturing important movements (Tesla, Nvidia, Amazon, Meta,... / Capturing important movements (Tesla, Nvidia, Amazon, Meta,...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1544,8 +2005,8 @@
   },
   {
     "region": "global",
-    "ticker": "ASML",
-    "name": "ASML",
+    "ticker": "AAPL",
+    "name": "Apple",
     "sources": [
       "마피디 미국주식 (테슬라,TQQQ,SOXL)"
     ],
@@ -1554,10 +2015,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
-        "url": "https://youtu.be/V2YUu1TNb8k",
-        "published_at": "2026-05-29T21:34:55+00:00",
-        "reason": "ㅠㅠ #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스닥 전망 #반도체전망 #반도체etf #labu ",
+        "title": "I bought this stock this morning. (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "",
+        "reason": "(Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) I bought this stock this morning. / (Tesla, Meta, Microsoft, Alphabet, Apple, Amazon, Redwire) 자막/설명에서 요약 가능한 본문이 아직 없습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1566,10 +2027,10 @@
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
-        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "2026-05-28T11:00:30+00:00",
-        "reason": "(테슬라,메타,마소,알파벳,애플,아마존,레드와이어) #주식차트 #차트보는법 #차트 #차트공부 #차트분석 #차트알려주는남자 #차트설정 #tqqq #soxl #미국주식 #3배레버리지 #tsla #5마일 #qqq #미국증시 #미증시 #미국증시 전망 # 테슬라뉴스 #모델Y #모델s #모델x #Models #모델3 #모델x #테슬라주식 #테슬라 코리아 #테슬라 뉴스 #자율주행 #테슬라 모델3 #테슬라sub $싸이버트럭 #사이버트럭 #테슬라가격 #테슬라전기차가격 #테슬라보조금 #테슬라 자율주행 #주식시황 #완전자율주행 #테슬라실적발표 #테슬라관련주 #테슬라전기차 #미국주식실시간 #미국주식추천 #실시간 미국증시 #상승효과 #차이나전기차 #냉철 #나스",
+        "title": "Something is shifting in the market. (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
+        "url": "https://youtu.be/UTgX2vlmqBw",
+        "published_at": "",
+        "reason": "(Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ... / (Tesla, Microsoft, Nvidia, Apple, Google, Amazon, Alphabet, ...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1610,20 +2071,20 @@
   },
   {
     "region": "global",
-    "ticker": "QQQ",
-    "name": "Nasdaq 100 ETF",
+    "ticker": "PLTR",
+    "name": "Palantir",
     "sources": [
-      "월가아재의 과학적 투자"
+      "T3chfeed - Tech Stock Insights"
     ],
     "source_count": 1,
     "evidence": [
       {
-        "source": "월가아재의 과학적 투자",
+        "source": "T3chfeed - Tech Stock Insights",
         "source_role": "유튜버",
-        "title": "[월가아재] \"지금 미국 주식은 비쌉니다\" 월가의 거장이 AI를 경계하는 이유",
-        "url": "https://youtu.be/X1zPw_QdVVw",
-        "published_at": "2026-05-29T11:02:08+00:00",
-        "reason": "https://valleyai.link/bil 0:00 인트로 3:41 하워드 막스의 매수·매도 패턴 5:15 1월 메모 - bubble.com 25주년·우려 4가지 8:04 2월 메모 - 속도·순환매출·클로드 인터뷰 10:39 4월 CNBC - \"지금은 세일이 아니다\" 12:40 5억$ QQQ·XOP 풋옵션 15:56 관전포인트 #월가아재 #하워드막스 #ai버블 [월가아재] \"지금 미국 주식은 비쌉니다\" 월가의 거장이 AI를 경계하는 이유 개인 투자자를 위한 블룸버그, Valley AI를 소개합니다! / https://valleyai.link/bil 0:00 인트로 3:41 하워드 막스의 매수·매도 패턴 5:15 1월 메모 - bubb",
+        "title": "\"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise",
+        "url": "https://youtu.be/Bt4CRidq3eU",
+        "published_at": "",
+        "reason": "\"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise \"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise 자막/설명에서 요약 가능한 본문이 아직 없습니다. / \"Call and ask directly,\" Palantir breaks the entropic horror and delivers a surprise",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1637,20 +2098,20 @@
   },
   {
     "region": "global",
-    "ticker": "SOXX",
-    "name": "Semiconductor ETF",
+    "ticker": "ORCL",
+    "name": "Oracle",
     "sources": [
-      "올랜도 킴 미국주식"
+      "월가아재의 과학적 투자"
     ],
     "source_count": 1,
     "evidence": [
       {
-        "source": "올랜도 킴 미국주식",
+        "source": "월가아재의 과학적 투자",
         "source_role": "유튜버",
-        "title": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
-        "url": "https://youtu.be/G8gDkLB2I0s",
-        "published_at": "2026-05-27T05:36:26+00:00",
-        "reason": "#올랜도킴미국주식#마이크론#샌디스크#SOXX 1️⃣올랜도킴 미국주식캠퍼스 🎓구독권(상시모집) : https://fanding.me/4oQ9pbU 📢고객센터 : https://pf.kakao.com/_uLxjhG 🫡콘텐츠 소개 : https://fanding.me/4o02Nag ===== 2️⃣시킹알파 📌 프리미엄 : https://link.seekingalpha.com/47RCN25/4G6SHH/ 📌 알파픽 : https://link.seekingalpha.com/47RCN25/4HKP84/ 📌 프리미엄+알파픽 : https://link.seekingalpha.com/47RCN25/4JZKZP/ 📌 프로: https://link.seek",
+        "title": "[Wall Street Uncle] The Oracle of Boston is buying this stock",
+        "url": "https://youtu.be/rxwa9wn9v0U",
+        "published_at": "",
+        "reason": "[Wall Street Uncle] The Oracle of Boston is buying this stock [Wall Street Uncle] The Oracle of Boston is buying this stock 자막/설명에서 요약 가능한 본문이 아직 없습니다. / [Wall Street Uncle] The Oracle of Boston is buying this stock",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1732,60 +2193,6 @@
         "url": "https://blog.naver.com/ranto28/224302397201",
         "published_at": "",
         "reason": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "NVDA",
-    "name": "NVIDIA",
-    "sources": [
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Nvidia’s latest product is a game-changer",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html",
-        "published_at": "2026-05-31T01:03:00Z",
-        "reason": "Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "MU",
-    "name": "Micron",
-    "sources": [
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Jim Cramer Discusses Micron’s Trillion Dollar Journey",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-discusses-micron-trillion-172532243.html",
-        "published_at": "2026-05-30T17:25:32Z",
-        "reason": "Jim Cramer Discusses Micron’s Trillion Dollar Journey Jim Cramer Discusses Micron’s Trillion Dollar Journey Jim Cramer Discusses Micron’s Trillion Dollar Journey",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",

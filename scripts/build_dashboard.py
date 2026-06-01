@@ -67,9 +67,13 @@ def rec_card(rec, rank):
 def youtuber_card(stat):
     stocks = stat.get('stocks', [])[:8]
     stock_html = ''.join(f'<span class="yt-stock">{esc(s.get("name"))} <b>{s.get("count",0)}</b>회</span>' for s in stocks) or '<span class="empty">거론 종목 없음</span>'
+    transcript_count = stat.get('transcript_count', 0)
+    video_count = stat.get('video_count', 0)
+    precision = f'{transcript_count}/{video_count} 자막' if video_count else '자막 0'
     return f'''
     <article class="youtuber-card">
-      <div class="yt-head"><h3>{esc(stat.get('youtuber'))}</h3><span>{stat.get('video_count',0)}개 영상</span></div>
+      <div class="yt-head"><h3>{esc(stat.get('youtuber'))}</h3><span>{video_count}개 영상</span></div>
+      <div class="yt-quality"><span>{esc(precision)}</span><span>{stat.get('transcript_chars',0):,}자 분석</span></div>
       <div class="yt-count"><b>{stat.get('mention_count',0)}</b>번 거론</div>
       <div class="yt-stocks">{stock_html}</div>
     </article>'''
@@ -113,6 +117,8 @@ def main():
     ystats = load(YSTATS, [])
     generated = datetime.now().strftime('%Y-%m-%d %H:%M')
     total_sources = len(set(item.get('source') for item in items))
+    yt_items = [item for item in items if str(item.get('source_type','')).startswith('youtube')]
+    transcript_items = [item for item in yt_items if item.get('confidence') == 'transcript']
     doc = f'''<!doctype html>
 <html lang="ko">
 <head>
@@ -127,7 +133,7 @@ header,main{{max-width:1180px;margin:auto}} header{{padding:36px 22px 18px}} h1{
 main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55}} h2{{color:var(--accent);margin-top:30px}}
 .card{{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)}} .small h4{{font-size:18px;margin:8px 0}} .card p{{color:#d9e4ff;line-height:1.56}}
 .stock-rank-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px}} .stock-rank-card{{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)}} .rank{{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px}} .stock-name{{grid-area:name;font-size:20px;font-weight:800;color:#fff}} .stock-code{{grid-area:code;color:var(--green);font-size:14px}} .mention-count{{grid-area:count;color:var(--yellow);white-space:nowrap}} .mention-count b{{font-size:28px}}
-.youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}}
+.youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-quality{{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0}} .yt-quality span{{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}}
 .rec-head{{display:flex;justify-content:space-between;gap:16px}} .rec-head h3{{font-size:24px;margin:0 0 6px}} .ticker-text{{color:var(--green);font-size:18px}} .score{{text-align:right;color:var(--yellow);white-space:nowrap}} .score strong{{font-size:26px}} .stance{{margin:0;color:#eaf1ff}} .risk{{color:var(--red)!important}}
 .summary-grid,.price-grid,.mini-price{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}} .summary-grid>div{{background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.16);border-radius:14px;padding:12px}} .summary-grid p{{margin:6px 0 0}}
 .evidence-list{{list-style:none;padding:0;margin:14px 0 0}} .evidence-row{{border-top:1px solid #26385f;padding:12px 0}} .ev-top{{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#dbe7ff}} .ev-title{{margin-top:6px;color:#fff}} .ev-reason{{margin-top:8px;color:#d9e4ff;line-height:1.5}}
@@ -136,7 +142,7 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 @media (max-width:760px){{.summary-grid,.price-grid,.mini-price{{grid-template-columns:1fr}} .rec-head{{display:block}} .score{{text-align:left;margin-top:8px}}}}
 </style></head>
 <body>
-<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div></div></header>
+<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div></div></header>
 <nav class="tabs"><a href="#domestic">국내</a><a href="#global">해외</a></nav>
 <main><div class="notice">이 페이지는 출처 발언을 구조화한 정보 대시보드입니다. 유튜버별 통계는 각 채널 최신 10개 영상에서 종목이 몇 번 거론됐는지 집계합니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div>{section('domestic', common, items, ystats)}{section('global', common, items, ystats)}</main>
 <footer>Generated by Hermes Stock Info Agent</footer>

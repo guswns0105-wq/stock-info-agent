@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json, re, html, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 import os, shutil, subprocess, tempfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
@@ -10,6 +11,9 @@ DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
 UA='Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
+YOUTUBE_LATEST_LIMIT=int(os.environ.get('STOCK_YOUTUBE_LATEST_LIMIT','10'))
+PRECISE_YOUTUBE=os.environ.get('STOCK_PRECISE_YOUTUBE','1') != '0'
+TRANSCRIPT_WORKERS=int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','4'))
 
 class TextExtractor(HTMLParser):
     def __init__(self): super().__init__(); self.skip=False; self.parts=[]
@@ -71,10 +75,12 @@ def get_youtube_transcript(video_id):
     if os.path.exists(ytdlp):
         with tempfile.TemporaryDirectory() as td:
             outtmpl=str(Path(td)/'%(id)s.%(ext)s')
-            cmd=[ytdlp,'--cookies-from-browser','chrome','--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko,en','--sub-format','vtt','--sleep-subtitles','2','--retries','3','--no-warnings','-o',outtmpl,url]
+            cmd=[ytdlp,'--skip-download','--write-auto-subs','--write-subs','--sub-langs','ko,en','--sub-format','vtt','--ignore-no-formats-error','--sleep-subtitles','1','--retries','2','--socket-timeout','15','--no-warnings','-o',outtmpl,url]
+            if os.environ.get('STOCK_YTDLP_COOKIES') == '1':
+                cmd[1:1]=['--cookies-from-browser','chrome']
             try:
                 env=os.environ.copy(); env['HOME']='/Users/mac1'
-                proc=subprocess.run(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90, env=env)
+                proc=subprocess.run(cmd, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=int(os.environ.get('STOCK_TRANSCRIPT_TIMEOUT','60')), env=env)
                 vtts=list(Path(td).glob(f'{video_id}*.vtt'))
                 if vtts:
                     raw='\n'.join(v.read_text(encoding='utf-8', errors='ignore') for v in vtts)
@@ -144,12 +150,13 @@ def resolve_youtube_video_channel(src):
     ytdlp=shutil.which('yt-dlp') or '/Users/mac1/.hermes-4/home/.local/bin/yt-dlp'
     if os.path.exists(ytdlp):
         try:
-            proc=subprocess.run([ytdlp,'--skip-download','--dump-single-json','--no-warnings','https://youtu.be/'+vid], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=60)
+            proc=subprocess.run([ytdlp,'--skip-download','--dump-single-json','--ignore-no-formats-error','--no-warnings','https://youtu.be/'+vid], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=60)
             if proc.returncode == 0 and proc.stdout.strip():
                 data=json.loads(proc.stdout)
                 cid=data.get('channel_id') or ''
-                if cid:
-                    return {'name':data.get('channel') or data.get('uploader') or src.get('name','YouTube channel'), 'type':'youtube_channel', 'region':src.get('region','global'), 'url':data.get('channel_url') or ('https://youtube.com/channel/'+cid), 'channel_id':cid, 'seed_video_id':vid}
+                channel_url=data.get('channel_url') or data.get('uploader_url') or ''
+                if cid or channel_url:
+                    return {'name':data.get('channel') or data.get('uploader') or src.get('name','YouTube channel'), 'type':'youtube_channel', 'region':src.get('region','global'), 'url':channel_url or ('https://youtube.com/channel/'+cid), 'channel_id':cid, 'seed_video_id':vid}
         except Exception:
             pass
     return None
@@ -171,32 +178,64 @@ def youtube_channel_sources(srcs):
     return channels
 
 def collect_youtube_channel(src):
-    cid=src.get('channel_id') or src['url'].split('/channel/')[1].split('?')[0].split('/')[0]
-    feed=f'https://www.youtube.com/feeds/videos.xml?channel_id={cid}'
+    cid=src.get('channel_id') or (src['url'].split('/channel/')[1].split('?')[0].split('/')[0] if '/channel/' in src.get('url','') else '')
     out=[]
     try:
-        _,_,b=fetch(feed)
-        root=ET.fromstring(b)
-        ns={'a':'http://www.w3.org/2005/Atom','yt':'http://www.youtube.com/xml/schemas/2015','m':'http://search.yahoo.com/mrss/'}
-        channel_title=root.findtext('a:title', default=src.get('name',''), namespaces=ns) or src.get('name','')
-        for e in root.findall('a:entry',ns)[:10]:
-            vid=(e.findtext('yt:videoId', default='', namespaces=ns) or '').strip()
-            title=e.findtext('a:title', default='', namespaces=ns)
-            published=e.findtext('a:published', default='', namespaces=ns)
-            desc=''; mg=e.find('m:group',ns)
-            if mg is not None: desc=mg.findtext('m:description', default='', namespaces=ns)
-            transcript, method, status = ('', 'metadata', 'latest-10 channel bulk uses title/description; set STOCK_FULL_TRANSCRIPTS=1 for full transcript refresh')
-            cache=TRANSCRIPTS/f'{vid}.txt' if vid else None
-            if cache and cache.exists() and cache.stat().st_size > 20:
-                transcript=cache.read_text(encoding='utf-8', errors='ignore'); method='cache'; status='ok'
-            elif vid and os.environ.get('STOCK_FULL_TRANSCRIPTS') == '1':
-                transcript, method, status = get_youtube_transcript(vid)
+        channel_title=src.get('name','')
+        entries=[]
+        if cid:
+            feed=f'https://www.youtube.com/feeds/videos.xml?channel_id={cid}'
+            _,_,b=fetch(feed)
+            root=ET.fromstring(b)
+            ns={'a':'http://www.w3.org/2005/Atom','yt':'http://www.youtube.com/xml/schemas/2015','m':'http://search.yahoo.com/mrss/'}
+            channel_title=root.findtext('a:title', default=src.get('name',''), namespaces=ns) or src.get('name','')
+            for e in root.findall('a:entry',ns)[:YOUTUBE_LATEST_LIMIT]:
+                vid=(e.findtext('yt:videoId', default='', namespaces=ns) or '').strip()
+                title=e.findtext('a:title', default='', namespaces=ns)
+                published=e.findtext('a:published', default='', namespaces=ns)
+                desc=''; mg=e.find('m:group',ns)
+                if mg is not None: desc=mg.findtext('m:description', default='', namespaces=ns)
+                entries.append({'vid':vid,'title':title,'published':published,'desc':desc})
+        else:
+            ytdlp=shutil.which('yt-dlp') or '/Users/mac1/.hermes-4/home/.local/bin/yt-dlp'
+            channel_url=src.get('url','').split('?')[0]
+            if channel_url and not channel_url.endswith('/videos'):
+                channel_url=channel_url.rstrip('/')+'/videos'
+            proc=subprocess.run([ytdlp,'--flat-playlist','--playlist-end',str(YOUTUBE_LATEST_LIMIT),'--dump-single-json','--ignore-no-formats-error','--no-warnings',channel_url], text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=90)
+            if proc.returncode != 0 or not proc.stdout.strip():
+                raise RuntimeError((proc.stderr or proc.stdout)[-400:])
+            data=json.loads(proc.stdout)
+            channel_title=(data.get('title') or src.get('name','')).replace(' - Videos','')
+            for e in (data.get('entries') or [])[:YOUTUBE_LATEST_LIMIT]:
+                entries.append({'vid':e.get('id',''), 'title':e.get('title',''), 'published':'', 'desc':e.get('description') or ''})
+        transcripts={}
+        def transcript_for(entry):
+            vid=entry.get('vid')
+            if not vid:
+                return vid, '', 'none', 'no video id'
+            cache=TRANSCRIPTS/f'{vid}.txt'
+            if cache.exists() and cache.stat().st_size > 20:
+                return vid, cache.read_text(encoding='utf-8', errors='ignore'), 'cache', 'ok'
+            if PRECISE_YOUTUBE:
+                text, method, status = get_youtube_transcript(vid)
+                return vid, text, method, status
+            return vid, '', 'metadata', 'metadata-only mode'
+        workers=max(1, min(TRANSCRIPT_WORKERS, len(entries) or 1))
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            futs=[ex.submit(transcript_for, entry) for entry in entries]
+            for fut in as_completed(futs):
+                vid, transcript, method, status=fut.result()
+                transcripts[vid]=(transcript, method, status)
+        for entry in entries:
+            vid=entry['vid']; title=entry['title']; desc=entry['desc']; published=entry['published']
+            transcript, method, status=transcripts.get(vid, ('', 'none', 'missing transcript task'))
             is_short = '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
             summary = clean_text(transcript[:900] if transcript else desc[:700])
             if not summary: summary = '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
-            out.append({'source':channel_title,'channel_id':cid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status})
+            confidence = 'transcript' if transcript else 'metadata'
+            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':title+' '+desc+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
     except Exception as e:
-        out.append({'source':src.get('name','YouTube channel'),'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed'})
+        out.append({'source':src.get('name','YouTube channel'),'channel_id':cid,'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed','transcript_chars':0,'extraction_quality':'failed'})
     return out
 
 def collect_youtube_video(src):
@@ -205,7 +244,7 @@ def collect_youtube_video(src):
     transcript, method, status = get_youtube_transcript(vid)
     is_short = '/shorts/' in src.get('url','')
     summary = clean_text(transcript[:900]) if transcript else '자막/설명에서 요약 가능한 본문이 아직 없습니다.'
-    return [{'source':src['name'],'channel_id':src.get('channel_id',''),'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':title+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status}]
+    return [{'source':src['name'],'channel_id':src.get('channel_id',''),'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':title+' '+transcript,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':'transcript' if transcript else 'metadata'}]
 
 def collect_naver(src):
     try:
@@ -269,7 +308,7 @@ def main():
         if region=='domestic': mentions += [m for m in detect_mentions(text, lex.get('global',{})) if m not in mentions]
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
-        item={'region':region,'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status','')}
+        item={'region':region,'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type','')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else 'source-title/meta', 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'extraction_quality':r.get('extraction_quality','metadata')}
         items.append(item)
         for m in mentions:
             key=(region,m['ticker'])
@@ -282,9 +321,14 @@ def main():
         if not str(item.get('source_type','')).startswith('youtube'):
             continue
         ykey=(item.get('region','domestic'), item.get('channel_id') or item.get('source'))
-        ys=ystats_map.setdefault(ykey, {'region':item.get('region','domestic'), 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'mention_count':0, 'stocks':{}, 'videos':[]})
+        ys=ystats_map.setdefault(ykey, {'region':item.get('region','domestic'), 'youtuber':item.get('source'), 'channel_id':item.get('channel_id',''), 'video_count':0, 'mention_count':0, 'transcript_count':0, 'metadata_count':0, 'transcript_chars':0, 'stocks':{}, 'videos':[]})
         ys['video_count'] += 1
-        ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':item.get('tickers', [])})
+        if item.get('confidence') == 'transcript':
+            ys['transcript_count'] += 1
+        else:
+            ys['metadata_count'] += 1
+        ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
+        ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':item.get('tickers', []), 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0)})
         for ticker in item.get('tickers', []):
             name=lex.get(item.get('region','domestic'),{}).get(ticker) or lex.get('global',{}).get(ticker) or ticker
             stock=ys['stocks'].setdefault(ticker, {'ticker':ticker, 'name':name, 'count':0})
