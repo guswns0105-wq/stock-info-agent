@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
+import sys
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+DEPS=ROOT/'.python-deps'
+if DEPS.exists():
+    sys.path.insert(0, str(DEPS))
+
 import json, re, html, urllib.request, urllib.parse, xml.etree.ElementTree as ET
 import os, shutil, subprocess, tempfile, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from html.parser import HTMLParser
-from pathlib import Path
 
-ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'data'/'common_recommendations.json'; YSTATS=ROOT/'data'/'youtuber_stats.json'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
@@ -304,7 +310,7 @@ def collect_youtube_channel(src):
             is_short = entry.get('kind') == 'short' or '#shorts' in (title+' '+desc).lower() or '/shorts/' in src.get('url','')
             summary = clean_text(transcript[:900] if transcript else '')
             if not summary: summary = '자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.'
-            confidence = 'transcript' if transcript else 'metadata'
+            confidence = 'transcript' if transcript else ('caption_failed' if YOUTUBE_REQUIRE_TRANSCRIPT else 'metadata')
             analysis_text = transcript if (transcript or YOUTUBE_REQUIRE_TRANSCRIPT) else (title+' '+desc)
             out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
     except Exception as e:
@@ -318,7 +324,7 @@ def collect_youtube_video(src):
     is_short = '/shorts/' in src.get('url','')
     summary = clean_text(transcript[:900]) if transcript else '자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.'
     analysis_text = transcript if (transcript or YOUTUBE_REQUIRE_TRANSCRIPT) else title
-    return [{'source':src['name'],'channel_id':src.get('channel_id',''),'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':'transcript' if transcript else 'metadata'}]
+    return [{'source':src['name'],'channel_id':src.get('channel_id',''),'video_id':vid,'source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','global'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid,'published_at':'','text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':'transcript' if transcript else ('caption_failed' if YOUTUBE_REQUIRE_TRANSCRIPT else 'metadata')}]
 
 def collect_naver(src):
     try:

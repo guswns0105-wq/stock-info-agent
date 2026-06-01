@@ -3,3 +3,4 @@ data/transcripts/
 __pycache__/
 *.pyc
 scripts/__pycache__/
+.python-deps/

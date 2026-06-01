@@ -1,58 +1,5 @@
 [
   {
-    "region": "global",
-    "ticker": "NVDA",
-    "name": "NVIDIA",
-    "sources": [
-      "블로그 magic_rabb1t",
-      "블로그 ranto28",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "블로그 magic_rabb1t",
-        "source_role": "블로거",
-        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
-        "url": "https://blog.naver.com/magic_rabb1t/224302304075",
-        "published_at": "",
-        "reason": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "블로그 ranto28",
-        "source_role": "블로거",
-        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-        "url": "https://blog.naver.com/ranto28/224302397201",
-        "published_at": "",
-        "reason": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Nvidia’s latest product is a game-changer",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-latest-product-game-changer-010300358.html",
-        "published_at": "2026-05-31T01:03:00Z",
-        "reason": "Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer Nvidia’s latest product is a game-changer",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
     "region": "domestic",
     "ticker": "005930",
     "name": "삼성전자",
@@ -121,6 +68,46 @@
         "url": "https://blog.naver.com/ranto28/224302397201",
         "published_at": "",
         "reason": "​ ​ ​ ​ ​ ​ ​ ​ 베라 루빈의 수혜를 받는 기업으로 34~36번에서 삼성전자와 SK하이닉스에 대해 다음과 같이 이야기 했다. / 삼성전자는 베라 루빈용 샘플을 엔비디아에 제공했고, SK하이닉스는 베라 루빈에 직접 탑재해서 검증을 진행 중이라고 함.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "sources": [
+      "블로그 magic_rabb1t",
+      "블로그 ranto28"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "블로그 magic_rabb1t",
+        "source_role": "블로거",
+        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "url": "https://blog.naver.com/magic_rabb1t/224302304075",
+        "published_at": "",
+        "reason": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "블로그 ranto28",
+        "source_role": "블로거",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201",
+        "published_at": "",
+        "reason": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
