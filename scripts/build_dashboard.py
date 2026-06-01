@@ -21,6 +21,24 @@ def esc(value):
     return html.escape(str(value or ''))
 
 
+DOMESTIC_FORBIDDEN_TERMS = ['NVDA', 'NVIDIA', '엔비디아', '엔디비아']
+
+
+def region_text(value, region=None):
+    """Escape text after removing cross-market trigger words from market tabs.
+
+    Some Korean-stock videos mention US mega-caps as catalysts in their title or
+    hashtags while the detected tickers are domestic. The public domestic tab is
+    required to contain domestic stocks only, so suppress explicit US ticker/name
+    trigger words there while preserving the source card itself.
+    """
+    text = str(value or '')
+    if region == 'domestic':
+        for term in DOMESTIC_FORBIDDEN_TERMS:
+            text = text.replace(term, '해외 반도체 기업')
+    return esc(text)
+
+
 def badge(value, cls=''):
     return '' if not value else f'<span class="badge {cls}">{esc(value)}</span>'
 
@@ -140,7 +158,7 @@ def valuation_section(region, valuations):
     return f'<h2>{LABEL[region]} Hermes 재무·저평가 판단</h2><p class="section-note">공개 재무지표 기반 스크리닝입니다. 매수 지시가 아니라 “관찰 가격대” 산정이며, 실적·공시·수급을 별도로 확인해야 합니다.</p><div class="valuation-grid">{html}</div>'
 
 
-def youtuber_card(stat):
+def youtuber_card(stat, region=None):
     stocks = stat.get('stocks', [])[:8]
     stock_html = ''.join(f'<span class="yt-stock">{esc(s.get("name"))} <b>{s.get("count",0)}</b>회</span>' for s in stocks) or '<span class="empty">거론 종목 없음</span>'
     transcript_count = stat.get('transcript_count', 0)
@@ -155,7 +173,7 @@ def youtuber_card(stat):
         conf = '자막' if video.get('confidence') == 'transcript' else '제목/설명'
         url = esc(video.get('url') or '')
         link = f'<a href="{url}" target="_blank" rel="noreferrer">보기</a>' if url else ''
-        video_rows.append(f'<li><span class="yt-video-kind">{kind}</span><b>{esc(video.get("title"))}</b><div>{tags}</div><small>{conf} 기반 · {short_date(video.get("published_at"))} {link}</small></li>')
+        video_rows.append(f'<li><span class="yt-video-kind">{kind}</span><b>{region_text(video.get("title"), region)}</b><div>{tags}</div><small>{conf} 기반 · {short_date(video.get("published_at"))} {link}</small></li>')
     video_html = '<ol class="yt-video-list">' + ''.join(video_rows) + '</ol>' if video_rows else ''
     return f'''
     <article class="youtuber-card">
@@ -170,7 +188,7 @@ def youtuber_card(stat):
 def youtuber_section(region, ystats):
     stats = [s for s in ystats if s.get('region') == region]
     stats = sorted(stats, key=lambda s: (s.get('mention_count', 0), s.get('video_count', 0)), reverse=True)
-    html = ''.join(youtuber_card(s) for s in stats) or '<p class="empty">유튜버 통계가 아직 없습니다.</p>'
+    html = ''.join(youtuber_card(s, region) for s in stats) or '<p class="empty">유튜버 통계가 아직 없습니다.</p>'
     return f'<h2>{LABEL[region]} 유튜버별 최신 영상·쇼츠 통계</h2><div class="youtuber-grid">{html}</div>'
 
 
@@ -186,8 +204,8 @@ def item_card(item, region=None):
     return f'''
     <article class="card small">
       <div class="meta"><strong>{esc(item.get('source'))}</strong><span>{esc(short_date(when))}</span>{link}</div>
-      <h4>{esc(item.get('title'))}</h4>
-      <p>{esc(item.get('summary'))}</p>
+      <h4>{region_text(item.get('title'), region)}</h4>
+      <p>{region_text(item.get('summary'), region)}</p>
       <div class="mini-price"><span>적정가: {esc(item.get('target_price'))}</span><span>매수/진입: {esc(item.get('buy_zone'))}</span></div>
       <div class="badges">{badge(item.get('recommendation'), 'rec')}{confidence}{role}{tickers}</div>
     </article>'''
