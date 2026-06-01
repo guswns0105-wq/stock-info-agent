@@ -1,32 +1,353 @@
 [
   {
     "region": "domestic",
-    "source": "샘플",
-    "title": "국내 탭 예시: 반도체/AI 관련 뉴스와 유튜버 언급을 이곳에 표시",
-    "summary": "유튜버/블로그 목록을 주시면 매일 오전 8시에 핵심 이슈, 종목 언급, 근거, 리스크를 요약합니다.",
+    "source": "YouTube channel UC7us...",
+    "title": "6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/LL7jqfzZI0k",
+    "published_at": "2026-06-01T02:29:07+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "title": "월가에서 372% 오른 '로켓랩' 다음으로 상승장 올 수 있다는 '종목' 정체",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/YetajTuzG04",
+    "published_at": "2026-05-31T21:42:07+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "title": "현재 '미국 주식' 중에서 가장 저평가됐다는 '종목' 3개",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/bICJIzEYXiA",
+    "published_at": "2026-05-31T14:30:22+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "title": "'오픈AI' 상장 후, 역대급 상승장 올 수도 있다는 ‘한국 수혜주’ 정체",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/yE1BXDeSnnw",
+    "published_at": "2026-05-31T11:30:05+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC7us...",
+    "title": "이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/r5a6RLvYSNk",
+    "published_at": "2026-05-31T09:33:37+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "Naver blog magic_rabb1t",
+    "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+    "summary": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 ",
     "tickers": [
       "005930",
-      "000660"
+      "000660",
+      "TSM"
     ],
-    "recommendation": "관심",
-    "confidence": "sample",
-    "url": "",
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://blog.naver.com/magic_rabb1t/224302304075",
     "published_at": "",
-    "collected_at": "2026-06-01T11:50"
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "Naver blog ranto28",
+    "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+    "summary": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 59 새 댓글 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전",
+    "tickers": [
+      "005930",
+      "000660",
+      "005380",
+      "000270",
+      "012330",
+      "003550",
+      "034020",
+      "NVDA"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://blog.naver.com/ranto28/224302397201",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
+    "summary": "2028년 삼전+하이닉스 영업익 1000조 시대\n아시아 최대 IT전시회 컴퓨텍스 개막 D-2\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 무료 전수 (https://cafe.naver.c",
+    "tickers": [
+      "005930",
+      "000660",
+      "035720"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/GTShwWRIaCI",
+    "published_at": "2026-05-31T23:40:24+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "title": "LG그룹주 급등 이유, 끝나지 않은 호재",
+    "summary": "젠슨황 방한으로 인한 lg그룹주의 급등과 끝나지 않은 호재\n#lg이노텍 #lg씨엔에스 #주식정보 #주식시황",
+    "tickers": [
+      "003550"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/yg09E60M_xo",
+    "published_at": "2026-05-29T09:30:20+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
+    "summary": "“ETF인데 결국 삼성전자·SK하이닉스”…반도체 쏠림 더 커졌다\n\"한국 생큐, 잘 먹고 간다\" 외인 던지고 또 던지고...4개월째 매도세\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 무료",
+    "tickers": [
+      "005930",
+      "000660",
+      "035720"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/h7ejUIGpCOo",
+    "published_at": "2026-05-29T03:42:01+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
+    "summary": "주식시장에서 선거철인데도 관련 테마주들이 조용한 이유\n#주식정보 #테마주 #주식기초 #주식초보",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/otySTRJtd-A",
+    "published_at": "2026-05-28T10:00:08+00:00",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "YouTube channel UC-jg...",
+    "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
+    "summary": "\"미국 빼면 한국뿐\"…'1조달러 기업 2개' 보유국 됐다\n삼전·하이닉스'가 코스피 시총 절반 차지···두 종목 코스피 비중 50.44% 차지\n시초가 단타 스윙 중장기 라이브 방송입니다\n\n* 방송에서 제공되는 차트분석은 개인적 견해입니다.\n* 자본시장법에 의해 1:1 종목 자문은 불가 합니다.\n* 투자의 몫은 본인에게 있으니 항상 신중히 생각 하시고 결정하세요.\n\n⚠ 주식단테사단은 절대 개인투자금을 받거나 운영하지 않습니다 카카오톡 사칭 사기에 유의하세요!\n📞안내 문의 : 055-242-0309 \n▶ 주식단테사단의 상품은 주식단테.com 을 입력하세요\n\n주식용사부 실시간 장중 무료 방송 (유튜브)\n: 월 ~ 금  오전 8:40~ 13:00\n\n▶ 아프리카 방송국 바로가기 (http://afreecatv.com/diskcc)\n▶ 네이버밴드 \"주식달인연합\" 검색 (https://band.us/@diskcc)\n▶ 인스타그램 바로가기 (  / imtaeho11  )\n▶ 네이버 카페 주식 기법 ",
+    "tickers": [
+      "005930",
+      "000660",
+      "035720"
+    ],
+    "recommendation": "공통관심 후보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/pF7Pg-eWUGs",
+    "published_at": "2026-05-28T03:26:06+00:00",
+    "collected_at": "2026-06-01T11:57"
   },
   {
     "region": "global",
-    "source": "샘플",
-    "title": "해외 탭 예시: 미국 주식/ETF/매크로 이슈를 이곳에 표시",
-    "summary": "해외 유튜버/블로그/RSS를 받아 핵심 뉴스, 종목 언급, 촉매, 리스크를 분리해 보여줍니다.",
-    "tickers": [
-      "NVDA",
-      "TSLA"
-    ],
-    "recommendation": "관심",
-    "confidence": "sample",
-    "url": "",
+    "source": "YouTube video bkuop8jLgOc",
+    "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/bkuop8jLgOc",
     "published_at": "",
-    "collected_at": "2026-06-01T11:50"
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "YouTube video V2YUu1TNb8k",
+    "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/V2YUu1TNb8k",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "YouTube video UI9jju3rFjU",
+    "title": "\"대한민국 국회의원들\" 주식 포트폴리오, 이런걸 샀다고?",
+    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/UI9jju3rFjU",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "YouTube video rxwa9wn9v0U",
+    "title": "[월가아재] 보스턴의 버핏, 이 주식을 사고 있습니다",
+    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/rxwa9wn9v0U",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "YouTube video vAaKxAp-3xA",
+    "title": "(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!",
+    "summary": "YouTube transcript API가 차단될 수 있어 현재 배치에서는 제목/메타데이터 기반으로 1차 분석합니다. 채널 RSS 또는 자막 접근이 가능해지면 본문 기반으로 강화합니다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://youtu.be/vAaKxAp-3xA",
+    "published_at": "",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "연합뉴스 경제",
+    "title": "토스인컴, 국내 세무 플랫폼 업계 최초 ISMS-P 인증 획득",
+    "summary": "(서울=연합뉴스) 한상용 기자 = 토스의 세금신고·환급 도움 서비스 자회사 토스인컴은 정보보호 및 개인정보보호 관리체계 인증인 ISMS-P를 획...",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.yna.co.kr/view/AKR20260601079800017",
+    "published_at": "Mon, 1 Jun 2026 11:47:50 +0900",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "연합뉴스 경제",
+    "title": "춘천시, 공사장 AI 안전관리 도입…중대재해 예방 기대",
+    "summary": "(춘천=연합뉴스) 이상학 기자 = 강원 춘천시가 공공건축 공사현장 안전사고 예방을 위해 인공지능(AI) 기반 CCTV 안전관리시스템을 도입하는 ...",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.yna.co.kr/view/AKR20260601075800062",
+    "published_at": "Mon, 1 Jun 2026 11:42:40 +0900",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "연합뉴스 경제",
+    "title": "국고채 금리 일제히 상승…3년물 장중 연 3.787%",
+    "summary": "(서울=연합뉴스) 1일 국고채 금리가 일제히 상승하고 있다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.yna.co.kr/view/AKR20260601077800008",
+    "published_at": "Mon, 1 Jun 2026 11:41:10 +0900",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "연합뉴스 경제",
+    "title": "30개 국가연구소 학생 '딥테크 창업' 이끈다…UST 특임교원 임용",
+    "summary": "(대전＝연합뉴스) 김준호 기자 = 국가연구소대학인 과학기술연합대학원대학교(UST)가 30개 국가연구소의 기술을 기반으로 한 학생들의 &apos;딥테크 창...",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.yna.co.kr/view/AKR20260601070200063",
+    "published_at": "Mon, 1 Jun 2026 11:37:51 +0900",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "domestic",
+    "source": "연합뉴스 경제",
+    "title": "코스피 급등에 3거래일만에 또 매수 사이드카 발동",
+    "summary": "(서울=연합뉴스) 이민영 기자 = 코스피가 급등하면서 1일 프로그램매수호가 일시효력정지(사이드카)가 3거래일 만에 발동했다.",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.yna.co.kr/view/AKR20260601077000008",
+    "published_at": "Mon, 1 Jun 2026 11:37:19 +0900",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "title": "Another company shuts down Bitcoin treasury",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/another-company-shuts-down-bitcoin-160000343.html",
+    "published_at": "2026-05-30T16:00:00Z",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "title": "Warren Buffett's Berkshire dumps entire stake in dividend stock",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-dumps-entire-203300760.html",
+    "published_at": "2026-05-30T20:33:00Z",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "title": "AI Hyperscalers Are Taking on Debt, But the Broader Market Looks More Leveraged",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ai-hyperscalers-taking-debt-broader-160002115.html",
+    "published_at": "2026-05-30T16:00:02Z",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "title": "Chevron Corporation (CVX): Renaissance Technologies Trims Position",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/chevron-corporation-cvx-renaissance-technologies-155754998.html",
+    "published_at": "2026-05-30T15:57:54Z",
+    "collected_at": "2026-06-01T11:57"
+  },
+  {
+    "region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "title": "Roblox Corporation (RBLX): Renaissance Technologies Remains Bullish",
+    "summary": "요약 없음",
+    "tickers": [],
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/roblox-corporation-rblx-renaissance-technologies-155845579.html",
+    "published_at": "2026-05-30T15:58:45Z",
+    "collected_at": "2026-06-01T11:57"
   }
 ]

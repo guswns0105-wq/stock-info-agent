@@ -1,8 +1,99 @@
 {
-  "domestic": [],
-  "global": [],
+  "domestic": [
+    {
+      "name": "YouTube channel UC7us...",
+      "type": "youtube_channel",
+      "region": "domestic",
+      "url": "https://youtube.com/channel/UC7usMJDHmtbs_oegmzQKKMA?si=8xlqXxz9mhIqb1O2",
+      "channel_id": "UC7usMJDHmtbs_oegmzQKKMA"
+    },
+    {
+      "name": "Naver blog magic_rabb1t",
+      "type": "naver_blog_post",
+      "region": "domestic",
+      "url": "https://blog.naver.com/magic_rabb1t/224302304075"
+    },
+    {
+      "name": "Naver blog ranto28",
+      "type": "naver_blog_post",
+      "region": "domestic",
+      "url": "https://blog.naver.com/ranto28/224302397201"
+    },
+    {
+      "name": "YouTube channel UC-jg...",
+      "type": "youtube_channel",
+      "region": "domestic",
+      "url": "https://youtube.com/channel/UC-jgYMsPz6NuDT9j9dmNODg?si=FchfSkCk9K47uB0K",
+      "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg"
+    }
+  ],
+  "global": [
+    {
+      "name": "YouTube video bkuop8jLgOc",
+      "type": "youtube_video",
+      "region": "global",
+      "url": "https://youtu.be/bkuop8jLgOc?si=Lf4xgZYnvNd--FrM",
+      "video_id": "bkuop8jLgOc"
+    },
+    {
+      "name": "YouTube video V2YUu1TNb8k",
+      "type": "youtube_video",
+      "region": "global",
+      "url": "https://youtu.be/V2YUu1TNb8k?si=6VvLce1GUwXzNysv",
+      "video_id": "V2YUu1TNb8k"
+    },
+    {
+      "name": "YouTube video UI9jju3rFjU",
+      "type": "youtube_video",
+      "region": "global",
+      "url": "https://youtu.be/UI9jju3rFjU?si=WZ1BrS2TQF-xPQTO",
+      "video_id": "UI9jju3rFjU"
+    },
+    {
+      "name": "YouTube video rxwa9wn9v0U",
+      "type": "youtube_video",
+      "region": "global",
+      "url": "https://youtu.be/rxwa9wn9v0U?si=484REuuw6Ija2ivj",
+      "video_id": "rxwa9wn9v0U"
+    },
+    {
+      "name": "YouTube video vAaKxAp-3xA",
+      "type": "youtube_video",
+      "region": "global",
+      "url": "https://youtu.be/vAaKxAp-3xA?si=U8p_PUcByByGWBGw",
+      "video_id": "vAaKxAp-3xA"
+    }
+  ],
   "news": [
-    {"name":"연합뉴스 경제","type":"rss","region":"domestic","url":"https://www.yna.co.kr/rss/economy.xml"},
-    {"name":"Yahoo Finance Top Stories","type":"rss","region":"global","url":"https://finance.yahoo.com/news/rssindex"}
+    {
+      "name": "연합뉴스 경제",
+      "type": "rss",
+      "region": "domestic",
+      "url": "https://www.yna.co.kr/rss/economy.xml"
+    },
+    {
+      "name": "Yahoo Finance Top Stories",
+      "type": "rss",
+      "region": "global",
+      "url": "https://finance.yahoo.com/news/rssindex"
+    }
+  ],
+  "local_packs": [
+    {
+      "pack_id": "korean_stock_research_pack",
+      "region": "domestic"
+    },
+    {
+      "pack_id": "domestic_stock_market_crawl_pack",
+      "region": "domestic"
+    },
+    {
+      "pack_id": "stock_selection_research_pack",
+      "region": "global"
+    },
+    {
+      "pack_id": "finance_github_weekly_pulse_pack",
+      "region": "global"
+    }
   ]
 }

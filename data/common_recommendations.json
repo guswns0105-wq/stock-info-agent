@@ -1,0 +1,342 @@
+[
+  {
+    "region": "domestic",
+    "ticker": "005930",
+    "name": "삼성전자",
+    "sources": [
+      "Naver blog magic_rabb1t",
+      "Naver blog ranto28",
+      "YouTube channel UC-jg..."
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "Naver blog magic_rabb1t",
+        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "url": "https://blog.naver.com/magic_rabb1t/224302304075"
+      },
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/GTShwWRIaCI"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/h7ejUIGpCOo"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/pF7Pg-eWUGs"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "여러 소스에서 반복 언급된 관심 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "000660",
+    "name": "SK하이닉스",
+    "sources": [
+      "Naver blog magic_rabb1t",
+      "Naver blog ranto28",
+      "YouTube channel UC-jg..."
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "Naver blog magic_rabb1t",
+        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "url": "https://blog.naver.com/magic_rabb1t/224302304075"
+      },
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/GTShwWRIaCI"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/h7ejUIGpCOo"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/pF7Pg-eWUGs"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "여러 소스에서 반복 언급된 관심 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "003550",
+    "name": "LG",
+    "sources": [
+      "Naver blog ranto28",
+      "YouTube channel UC-jg..."
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "LG그룹주 급등 이유, 끝나지 않은 호재",
+        "url": "https://youtu.be/yg09E60M_xo"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "여러 소스에서 반복 언급된 관심 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "035720",
+    "name": "카카오",
+    "sources": [
+      "YouTube channel UC-jg..."
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/GTShwWRIaCI"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/h7ejUIGpCOo"
+      },
+      {
+        "source": "YouTube channel UC-jg...",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/pF7Pg-eWUGs"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "TSM",
+    "name": "TSMC",
+    "sources": [
+      "Naver blog magic_rabb1t"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Naver blog magic_rabb1t",
+        "title": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검",
+        "url": "https://blog.naver.com/magic_rabb1t/224302304075"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "005380",
+    "name": "현대차",
+    "sources": [
+      "Naver blog ranto28"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "000270",
+    "name": "기아",
+    "sources": [
+      "Naver blog ranto28"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "012330",
+    "name": "현대모비스",
+    "sources": [
+      "Naver blog ranto28"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "034020",
+    "name": "두산에너빌리티",
+    "sources": [
+      "Naver blog ranto28"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  },
+  {
+    "region": "domestic",
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "sources": [
+      "Naver blog ranto28"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Naver blog ranto28",
+        "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
+        "url": "https://blog.naver.com/ranto28/224302397201"
+      }
+    ],
+    "local_pack_notes": [
+      {
+        "pack_id": "korean_stock_research_pack",
+        "note": "{\"evidence_id\": \"evidence:korean_stock_research_pack:0001\", \"document_id\": \"doc:korean_stock_research_pack:paper_lo_mamaysky_wang_2000\", \"chunk_id\": \"chunk:korean_stock_research_pack:0001\", \"claim\": \"Technical patterns can be converted into computational definitions and statistically tested instead "
+      },
+      {
+        "pack_id": "domestic_stock_market_crawl_pack",
+        "note": "# Domestic Stock YouTube Naver DuckDuckGo Crawl Pack\n\n국내주식 YouTube/Naver/DuckDuckGo 크롤링팩은 좋은 종목 찾기, 수익나는 매매법, 차트분석법 관련 검색 결과와 영상 메타데이터를 방법론 그래프로 정리한 보강 팩입니다. YouTube는 yt-dlp 검색 메타데이터, DuckDuckGo/Naver는 검색 결과 제목/스니펫/URL 중심으로 수집하며 원문 전체 복제는 저장하지 않습니다. 공식 공시와 기존 국내주식 방법론 팩으로 교차검증해야 하는 교육/검증용 지식이며, 과장된 "
+      }
+    ],
+    "stance": "단일/메타데이터 언급 종목",
+    "risk": "로컬팩 원칙상 출처 반복 언급은 매수 근거가 아니며, 최신 실적·수급·뉴스 확인 필요"
+  }
+]
