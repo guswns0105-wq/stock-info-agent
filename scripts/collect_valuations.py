@@ -347,26 +347,35 @@ def judge(region, ticker, name, mention_count, metrics):
     }
 
 
+def build_recommendation(rank, v):
+    return {
+        'rank': rank, 'ticker': v.get('ticker'), 'name': v.get('name'), 'region': v.get('region'),
+        'price': v.get('price'), 'currency': v.get('currency'),
+        'ai_score': v.get('ai_score'), 'verdict': v.get('verdict'),
+        'ai_buy_price': v.get('ai_buy_price'), 'ai_sell_price': v.get('ai_sell_price'), 'fair_value': v.get('fair_value'),
+        'pe': v.get('forward_pe') or v.get('pe'), 'pb': v.get('pb'), 'roe': v.get('roe'),
+        'trend': (v.get('chart') or {}).get('trend'), 'ret20_pct': (v.get('chart') or {}).get('ret20_pct'),
+        'support': (v.get('chart') or {}).get('recent_support'), 'resistance': (v.get('chart') or {}).get('recent_resistance'),
+        'comment': v.get('ai_comment'),
+        'why': [*(v.get('positives') or [])[:3], f"차트: {(v.get('chart') or {}).get('trend','확인 불가')}"],
+        'risk_comment': '과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.'
+    }
+
+
 def make_ai_recommendations(valuations):
     eligible = [v for v in valuations if v.get('price') and v.get('fair_value') and v.get('ai_buy_price') and v.get('ai_sell_price')]
-    # 고평가 주의는 Top3에서 제외하고, 가치+차트+언급량을 종합해 정렬한다.
+    # 고평가 주의는 Top3에서 제외하고, 가치+차트+언급량을 종합해 시장별로 정렬한다.
     eligible = [v for v in eligible if v.get('verdict') != '고평가 주의']
-    eligible.sort(key=lambda v: (v.get('ai_score', -99), v.get('margin_to_fair_pct') or -999, v.get('mention_count') or 0), reverse=True)
-    recs=[]
-    for rank, v in enumerate(eligible[:3], 1):
-        recs.append({
-            'rank': rank, 'ticker': v.get('ticker'), 'name': v.get('name'), 'region': v.get('region'),
-            'price': v.get('price'), 'currency': v.get('currency'),
-            'ai_score': v.get('ai_score'), 'verdict': v.get('verdict'),
-            'ai_buy_price': v.get('ai_buy_price'), 'ai_sell_price': v.get('ai_sell_price'), 'fair_value': v.get('fair_value'),
-            'pe': v.get('forward_pe') or v.get('pe'), 'pb': v.get('pb'), 'roe': v.get('roe'),
-            'trend': (v.get('chart') or {}).get('trend'), 'ret20_pct': (v.get('chart') or {}).get('ret20_pct'),
-            'support': (v.get('chart') or {}).get('recent_support'), 'resistance': (v.get('chart') or {}).get('recent_resistance'),
-            'comment': v.get('ai_comment'),
-            'why': [*(v.get('positives') or [])[:3], f"차트: {(v.get('chart') or {}).get('trend','확인 불가')}"],
-            'risk_comment': '과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.'
-        })
-    return recs
+    def sort_key(v):
+        return (v.get('ai_score', -99), v.get('margin_to_fair_pct') or -999, v.get('mention_count') or 0)
+    grouped = {'domestic': [], 'global': []}
+    for region in grouped:
+        region_items = [v for v in eligible if v.get('region') == region]
+        region_items.sort(key=sort_key, reverse=True)
+        grouped[region] = [build_recommendation(rank, v) for rank, v in enumerate(region_items[:3], 1)]
+    # Backward-compatible flat list: 국내 3개 다음 미국/해외 3개.
+    flat = grouped['domestic'] + grouped['global']
+    return {'domestic': grouped['domestic'], 'global': grouped['global'], 'flat': flat}
 
 
 def main():
@@ -397,11 +406,12 @@ def main():
         except Exception as e:
             valuations.append({'region': c['region'], 'ticker': c['ticker'], 'name': c['name'], 'verdict': '자료 부족', 'action': '수집 실패', 'rationale': str(e)[:200]})
     ai_recommendations = make_ai_recommendations(valuations)
-    out = {'generated_at': datetime.now().isoformat(timespec='minutes'), 'method': '공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 AI 추천 후보 Top3 산정. 투자 조언이 아니라 검토용 스크리닝입니다.', 'ai_recommendations': ai_recommendations, 'valuations': valuations}
+    out = {'generated_at': datetime.now().isoformat(timespec='minutes'), 'method': '공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top3와 미국/해외 AI 추천 Top3 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.', 'ai_recommendations': ai_recommendations, 'valuations': valuations}
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f'wrote {OUT} valuations={len(valuations)} ai_top3={len(ai_recommendations)}')
-    for r in ai_recommendations:
-        print('AI_TOP', r['rank'], r['ticker'], r['name'], 'buy=', fmt_num(r.get('ai_buy_price')), 'sell=', fmt_num(r.get('ai_sell_price')), 'score=', fmt_num(r.get('ai_score')))
+    print(f'wrote {OUT} valuations={len(valuations)} ai_top3_domestic={len(ai_recommendations.get("domestic", []))} ai_top3_global={len(ai_recommendations.get("global", []))}')
+    for region in ['domestic', 'global']:
+        for r in ai_recommendations.get(region, []):
+            print('AI_TOP', region, r['rank'], r['ticker'], r['name'], 'buy=', fmt_num(r.get('ai_buy_price')), 'sell=', fmt_num(r.get('ai_sell_price')), 'score=', fmt_num(r.get('ai_score')))
     for v in valuations[:12]:
         print(v.get('region'), v.get('ticker'), v.get('verdict'), 'price=', fmt_num(v.get('price')), 'fair=', fmt_num(v.get('fair_value')), 'buy=', fmt_num(v.get('watch_buy_price')))
 
