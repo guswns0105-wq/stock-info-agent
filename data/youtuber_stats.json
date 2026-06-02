@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 48,
-    "short_count": 48,
+    "video_count": 51,
+    "short_count": 51,
     "regular_video_count": 0,
     "mention_count": 78,
     "transcript_count": 47,
-    "metadata_count": 1,
+    "metadata_count": 4,
     "ocr_count": 2,
     "transcript_chars": 104868,
     "ocr_chars": 340,
@@ -787,12 +787,12 @@
     "region": "global",
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
     "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
-    "video_count": 18,
+    "video_count": 19,
     "short_count": 8,
-    "regular_video_count": 10,
+    "regular_video_count": 11,
     "mention_count": 34,
     "transcript_count": 17,
-    "metadata_count": 1,
+    "metadata_count": 2,
     "ocr_count": 3,
     "transcript_chars": 267610,
     "ocr_chars": 430,
@@ -839,6 +839,17 @@
       }
     ],
     "videos": [
+      {
+        "title": "이종목 단기매수 예정입니다. (테슬라,엔비디아,메타,마소,알파벳,애플,아마존)",
+        "url": "https://youtu.be/wAzOMO2QTQg",
+        "published_at": "2026-06-02T11:00:34+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
       {
         "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
         "url": "https://youtu.be/d5bXnCLWrvo",
@@ -1684,6 +1695,19 @@
         "youtube_kind": "short"
       },
       {
+        "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
+        "url": "https://youtu.be/FOe459_nse4",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1605,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
         "title": "스페이스X' 상장 후, '테슬라' 역대급 상승장 올 수 있다는 이유",
         "url": "https://youtu.be/qxlrr7swhVs",
         "published_at": "",
@@ -1707,19 +1731,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2243,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
-        "url": "https://youtu.be/FOe459_nse4",
-        "published_at": "",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1605,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
