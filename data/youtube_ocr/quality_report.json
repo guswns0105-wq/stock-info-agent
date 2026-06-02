@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-02T08:31",
+  "generated_at": "2026-06-02T12:01",
   "max_per_channel": 3,
   "frames_per_video": 3,
   "selected_this_run": 24,
   "processed_this_run": 24,
   "index_total": 24,
-  "ok_total": 23,
-  "total_ocr_chars": 10628,
+  "ok_total": 24,
+  "total_ocr_chars": 10699,
   "by_source": {
     "경제사냥꾼": {
       "items": 3,
@@ -35,8 +35,8 @@
     },
     "월가아재의 과학적 투자": {
       "items": 3,
-      "ok": 2,
-      "chars": 694
+      "ok": 3,
+      "chars": 765
     },
     "올랜도 킴 미국주식": {
       "items": 3,
