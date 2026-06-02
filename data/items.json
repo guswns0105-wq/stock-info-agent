@@ -18,7 +18,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260602167400003",
     "published_at": "Tue, 2 Jun 2026 22:29:49 +0900",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -31,7 +31,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-03T00:02",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -53,7 +53,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260602160500008",
     "published_at": "Tue, 2 Jun 2026 20:10:43 +0900",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -66,7 +66,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-03T00:02",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -88,7 +88,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260602153900030",
     "published_at": "Tue, 2 Jun 2026 18:38:18 +0900",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -101,7 +101,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -123,7 +123,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260602151400003",
     "published_at": "Tue, 2 Jun 2026 18:27:32 +0900",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -136,7 +136,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -162,7 +162,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260602134652017",
     "published_at": "Tue, 2 Jun 2026 18:22:04 +0900",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -175,7 +175,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1003,7 +1003,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/mbS51XsC7Ck",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1016,7 +1016,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/mbS51XsC7Ck/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1044,7 +1044,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/ONdDvSRQaak",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1057,7 +1057,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/ONdDvSRQaak/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1085,7 +1085,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/FC9m5yIzNtQ",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1098,7 +1098,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/FC9m5yIzNtQ/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1131,7 +1131,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/RDTVr6j1SxQ",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1144,7 +1144,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1170,7 +1170,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/CGGitwvIEwk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1183,7 +1183,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1211,7 +1211,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/LL7jqfzZI0k",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1224,7 +1224,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1246,7 +1246,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/YetajTuzG04",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "14달러",
     "buy_zone": "14달러",
     "price_note": "자 기업이라. [121.5s] 무작정 매수에 따간 단기 급등 후 되돌림에 크게 물릴 수 있어. [124.4s] 실제로 에널리스트 평균 목표가가 14달러대인데 [126.6s] 지금 주가가 이미 17달러를 넘어선 상태거든. [128.9s] 단기적으로는 차익 실현 물량이 나올 수 있다는 거야. [1",
@@ -1259,7 +1259,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1285,7 +1285,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/bICJIzEYXiA",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "400달러",
     "buy_zone": "400달러",
     "price_note": "도체 전체가 회복 사이클에 들어갔어. [114.2s] 그래서 월갈 리서치 전문기관인 시포트는 이 회사를 [116.6s] 매수로 올리면서 목표가 400달러를 때렸어. [118.8s] 게다가 AI 데이터센터가 800볼트 전력 구조로 바뀌면서 [121.8s] 전력 반도체 시장이 지금 50억 달러에서",
@@ -1298,7 +1298,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1324,7 +1324,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/yE1BXDeSnnw",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1337,7 +1337,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1368,7 +1368,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/r5a6RLvYSNk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1381,7 +1381,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1403,7 +1403,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/LLPBsnDFV90",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1416,7 +1416,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/LLPBsnDFV90/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1444,7 +1444,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/zqdHI95eiuc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1457,7 +1457,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/zqdHI95eiuc/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1486,7 +1486,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/HbyhhcZKy4w",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1499,7 +1499,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/HbyhhcZKy4w/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1521,7 +1521,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/O_KNCAkiG-o",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1534,7 +1534,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/O_KNCAkiG-o/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1556,7 +1556,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/zqG8V_iUWRI",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1569,7 +1569,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/zqG8V_iUWRI/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1591,7 +1591,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/bzBtnC37WcU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1604,7 +1604,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/bzBtnC37WcU/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1630,7 +1630,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/8QprJRquCMc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1643,7 +1643,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1669,7 +1669,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/LNlGNQs19nU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1682,7 +1682,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1708,7 +1708,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/A45bkodmBEQ",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1721,7 +1721,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1747,7 +1747,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/rF5hgYKZbiA",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1760,7 +1760,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1786,7 +1786,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/9CqTLCuTuns",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1799,7 +1799,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1825,7 +1825,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/SK5XW-9pPOI",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1838,7 +1838,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1864,7 +1864,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/7tOVUuYYl3U",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1877,7 +1877,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1899,7 +1899,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/j_MO4BG8oIo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1912,7 +1912,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/j_MO4BG8oIo/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1934,7 +1934,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/gbNwCWJiDkY",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1947,7 +1947,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/gbNwCWJiDkY/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -1973,7 +1973,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/T8YHAx9MwQw",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1986,7 +1986,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/T8YHAx9MwQw/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2012,7 +2012,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/DdPU3mBkPZg",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2025,7 +2025,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2047,7 +2047,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/igYSD1PGTG8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2060,7 +2060,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2082,7 +2082,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/kuYyeKkO7Kw",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2095,7 +2095,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2117,7 +2117,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Qu4-ymmzmb4",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2130,7 +2130,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2156,7 +2156,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/YiGFF2JL6fE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "4.2 달러",
     "price_note": "어이 증시가 조금 긍정적으로 보입니다 조금 10년 문 국채 금리가 추가적으로 하락하고 있습니다 상당히 많이 하락했네요 5 달러까지 갔는데 지금 4.2 달러입니다 그래서 tlt 어 단기적인 추세선을 뚫고 위로 올라왔습니다 상당히 좋아 보이죠 현재는 지금 좀 버텨볼 만한 구간이고 어 10살이 조종이",
@@ -2169,7 +2169,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2191,7 +2191,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/9qBeO2oFD1Y",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2204,7 +2204,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/9qBeO2oFD1Y/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2226,7 +2226,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/rt09KsDUr_U",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2239,7 +2239,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/rt09KsDUr_U/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2261,7 +2261,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/RWrE1YzTIaY",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2274,7 +2274,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/RWrE1YzTIaY/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2296,7 +2296,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/5pusYkdM5ic",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2309,7 +2309,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2331,7 +2331,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/fyQkVUs4XPo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2344,7 +2344,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2366,7 +2366,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/61jiWsy_Aeg",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2379,7 +2379,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2401,7 +2401,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/76EYAobZlzo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2414,7 +2414,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2440,7 +2440,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/RgsqMvirIzk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2453,7 +2453,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2475,7 +2475,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Tqt_4l1Ynfg",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2488,7 +2488,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2510,7 +2510,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Ncsmwc3tNGc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2523,7 +2523,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2545,7 +2545,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/-DL5I2LV06Y",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2558,7 +2558,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/-DL5I2LV06Y/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2580,7 +2580,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/km8lJ-Ro-aE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2593,7 +2593,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/km8lJ-Ro-aE/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2615,7 +2615,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/64J0SPhxvPo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2628,7 +2628,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/64J0SPhxvPo/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2650,7 +2650,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/0hHEB8bI_X8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2663,7 +2663,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2685,7 +2685,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/EVyO0tv4j8M",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2698,7 +2698,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2720,7 +2720,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/5giuK6ay6-A",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2733,7 +2733,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2755,7 +2755,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/O0-kHcJWClo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2768,7 +2768,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2790,7 +2790,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/7cblTl0Egms",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2803,7 +2803,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2825,7 +2825,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/Spvnt9ERpCA",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2838,7 +2838,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2860,7 +2860,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/1LUYF4CFExI",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2873,7 +2873,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2923,7 +2923,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/jLRClfOo2T0",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2936,7 +2936,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/jLRClfOo2T0/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2958,7 +2958,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/vAaKxAp-3xA",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2971,7 +2971,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/vAaKxAp-3xA/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -2997,7 +2997,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/KM1gxblQq9s",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3010,7 +3010,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/KM1gxblQq9s/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3032,7 +3032,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/jh-7Hm0CkLc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3045,7 +3045,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3067,7 +3067,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/kywJ5w4Xfu8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3080,7 +3080,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3102,7 +3102,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/ic1aOliaOxE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3115,7 +3115,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3137,7 +3137,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/C_d4FNv4R-E",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3150,7 +3150,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3172,7 +3172,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/WGC99EzuiJQ",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3185,7 +3185,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3207,7 +3207,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/FygECrJCDm0",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3220,7 +3220,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3242,7 +3242,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/G8gDkLB2I0s",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3255,7 +3255,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3277,7 +3277,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/wWc85BFeq1I",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3290,7 +3290,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3312,7 +3312,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/khPzRKrzA74",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3325,7 +3325,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3347,7 +3347,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/rlZAOQZR9y8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3360,7 +3360,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3382,7 +3382,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/qu64dHzrDew",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3395,7 +3395,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3417,7 +3417,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/0w78c8xzaEo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3430,7 +3430,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3452,7 +3452,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/3Tj1uPOo1kM",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3465,7 +3465,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3487,7 +3487,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/BqHS1gAi9Q4",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3500,7 +3500,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3522,7 +3522,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/I14ApIZK5Gg",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3535,7 +3535,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3557,7 +3557,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/iVrfw4Ul8r8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3570,7 +3570,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3592,7 +3592,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/L1H27lCRfFE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3605,7 +3605,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3627,7 +3627,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/jG9uFGDz21M",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3640,7 +3640,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3662,7 +3662,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/EfwqE-FXWrk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3675,7 +3675,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3697,7 +3697,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/xKhKlxTPMfU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3710,7 +3710,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3732,7 +3732,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/_zpt3-2jYDM",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3745,7 +3745,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3767,7 +3767,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/Ud1WhOHNd-8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3780,7 +3780,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3802,7 +3802,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/uf3JVVnOdoY",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3815,7 +3815,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3837,7 +3837,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/JT4ZxTcd2Ko",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3850,7 +3850,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3872,7 +3872,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/MmQHpsvE6ww",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3885,7 +3885,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3907,7 +3907,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/A0c3BiNr83I",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3920,7 +3920,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3942,7 +3942,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/MLcAvuTvcZo",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -3955,7 +3955,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -3988,7 +3988,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224302304075",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4001,7 +4001,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4017,7 +4017,7 @@
     "source_role": "블로거",
     "source_type": "naver_blog_post",
     "title": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감",
-    "summary": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 186 새 댓글 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.naver.c",
+    "summary": "젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 187 새 댓글 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.naver.c",
     "tickers": [
       "005930",
       "000660",
@@ -4042,7 +4042,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224302397201",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4055,7 +4055,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4086,7 +4086,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/HDI_HnYzxrE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4099,7 +4099,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4127,7 +4127,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/EfNfXvCxOac",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4140,7 +4140,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4168,7 +4168,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/SSPXSGdl0jE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4181,7 +4181,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4207,7 +4207,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/fhzgzWQLp4k",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4220,7 +4220,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4246,7 +4246,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/aGVEMI-IgqU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "200만원",
     "price_note": "' 가장 쌀 때 매수하는 방법 [0.0s] 님들, 월가에서 삼성전기 가장 쌀 때 매수하는 방법 뭔지 알고 있었어. [3.6s] 주가가 순식간에 200만원까지 순식간에 뚫으니까 다들. [6.2s] 너무 올랐다. [7.0s] 늦었다. [7.5s] 하면서 쳐다만 보고 있는데. [8.6s] 정작 월가는",
@@ -4259,7 +4259,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4285,7 +4285,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/X6kfI4zhGAA",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "5만원",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "익 2556억 원 전년 대비 69% 폭증했어. [97.2s] 신규 수주도 3조 4천억으로 21% 들었고 [99.6s] NH 투자 증권은 목표가 5만원을 제시했어. [101.8s] 지금 영상 제작 시간 기준 주가 대비 최대 96% 상승. [104.9s] 그러니까 2배 정도 상승 여력이 있다는",
@@ -4298,7 +4298,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4320,7 +4320,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/cb7uvusF7PU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "425달러",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "서 5억 6천만 달러 포트폴리오 2위로 올렸어. [90.6s] 직전 분기 EPS가 예상치를 32%나 뛰어넘었고. [93.4s] 시티가 목표가를 425달러에서 840달러로 2배 가까이 올렸거든. [97.2s] 메모리 가격이 오르면 2위기 폭발하는 구조라서 [99.4s] 해즈펀드가 제일 좋아하는 종",
@@ -4333,7 +4333,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4359,7 +4359,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/J8mptse_K30",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "55만원",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "기 위해 반드시 비중국산 원료를 써야 [110.0s] OCI 홀딩스가 딱 그 자리에 서 있는 거지 [112.1s] 하나쯤권은 여기에 목표 주가 55만원을 받았어 [114.4s] 2028년까지 생산 능력을 지금의 2배인 65,000톤으로 늘리면 [117.6s] 이 회사는 단순 태양광 소재주가 아",
@@ -4372,7 +4372,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4398,7 +4398,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/FfXpDLUyOWk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4411,7 +4411,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4439,7 +4439,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/BthLzY7zILc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "226만원",
     "price_note": "들어갔어 [20.5s] 삼성전자에 이어서 한국에서 두 번째지 [22.4s] 근데 이때 당시 기준으로 주가는 226만원인데 [24.9s] 한주가 226만원이면 우리 같은 일반 개미들한테 너무 부담이 되는 가격이야 [28.6s] 그래서 우리 구독자님들 사이에서도 [30.2s] 액련분할해야 접근성 좋",
@@ -4452,7 +4452,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4485,7 +4485,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/IiXBGYSNPTM",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4498,7 +4498,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4533,7 +4533,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/eJTM6tl54xk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4546,7 +4546,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4574,7 +4574,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/SVeVX0wVx8c",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4587,7 +4587,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4613,7 +4613,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/XnOX5QCqdds",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4626,7 +4626,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4655,7 +4655,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/tMTUM5JuQGw",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4668,7 +4668,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4699,7 +4699,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/c9fN_7VCZr4",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4712,7 +4712,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4738,7 +4738,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/iUz2-7JRSf4",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4751,7 +4751,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4777,7 +4777,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/fD_D30vOuos",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4790,7 +4790,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4820,7 +4820,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Uq61el7H9IQ",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4833,7 +4833,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4864,7 +4864,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Y4_854zyDbk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4877,7 +4877,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4899,7 +4899,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/gvg3mbndmcM",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -4912,7 +4912,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4944,7 +4944,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/cQojHs3VFk0",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "58만원",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "s] 아틀라스 3만대 양산체제가 되면 현대모비스 로봇 매출만 약 2조 원이 추정돼 [76.7s] 그래서 최근 LSD인 건은 이곳의 목표 주가를 58만원에서 [79.5s] 87만원으로 50% 상향했어 [81.4s] 단순 자동차 부품사가 아니라 로봇틱스 핵심 부품 대장 주로 다시 봐야 한다는 거지",
@@ -4957,7 +4957,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -4988,7 +4988,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/rF1oIsFbHMU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5001,7 +5001,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5033,7 +5033,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/kS8-KiqaIpc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5046,7 +5046,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5081,7 +5081,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/fQsasmeYPGs",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "535달러",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "[13.6s] 간밤의 마이크론이 하루 만에 19% 폭등하면서 [15.9s] 시총 1조 달러를 처음 돌파했어 [17.6s] 뮤비 S가 목표주가를 535달러에서 [19.6s] 1625달러로 3배 넘게 올렸고 [21.6s] SMP500이랑 나스닥도 사상 최고치를 찍었어 [24.1s] 근데 이 반도체",
@@ -5094,7 +5094,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5120,7 +5120,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/oHMOd6EZYME",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5133,7 +5133,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5168,7 +5168,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/rdSylAdzqtk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5181,7 +5181,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5212,7 +5212,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/JqCjQCrw60g",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "280만원",
     "price_note": "많이 발생하는 구간의 냉각 요소를 직접 내장해서 [60.1s] 기존 방식 대비 열정왕을 30% 이상 [0.0s] 님들 SK하이닉스가 오늘 주가 280만원 사상 최고가 뚫었는데 [3.4s] 이거 얼마나 가는지 궁금하지 않아? [4.9s] 심지어 오늘 하이닉스가 공개한 신기술 하나가 시장을 뒤집어놓",
@@ -5225,7 +5225,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5253,7 +5253,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Kup0Ym0OrRA",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5266,7 +5266,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5294,7 +5294,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/ldmquYz7eT4",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5307,7 +5307,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5333,7 +5333,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/vyM5ywe0e4o",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5346,7 +5346,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5368,7 +5368,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/5dH86LFykZc",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "34,000원",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "무부적인 배경이 생긴 거지. [110.0s] 그래서 지금 증권사들도 목표 주가를 올리고 있어. [112.3s] SK증권은 4만 원, 신형증권은 34,000원을 제시했지. [115.4s] 지금 주가가 영상 제작 시간 기준으로 29,500원인데 [118.1s] 최대 49% 상승 여력이 있다는 거야. [",
@@ -5381,7 +5381,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5409,7 +5409,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/uDyI00YbrVE",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5422,7 +5422,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:10",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5448,7 +5448,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/avtz-xgjyUk",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5461,7 +5461,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5489,7 +5489,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/7cEYNeaF6YU",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5502,7 +5502,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T12:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5524,7 +5524,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/TzcOcx3jvyI",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5537,7 +5537,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T12:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5563,7 +5563,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/FOe459_nse4",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5576,7 +5576,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T16:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5598,7 +5598,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/Ie3XyY9BbSg",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5611,7 +5611,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5633,7 +5633,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/3ezl6ZmQWRw",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5646,7 +5646,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-03T00:02",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5668,7 +5668,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/b9FELHWVwO8",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5681,7 +5681,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-03T00:02",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -5703,7 +5703,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/95IuZ1MMAHM",
     "published_at": "",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -5716,7 +5716,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-03T00:02",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6154,7 +6154,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/wAzOMO2QTQg",
     "published_at": "2026-06-02T11:00:34+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6167,7 +6167,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-03T00:02",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6232,7 +6232,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/bpY9atKnvU8",
     "published_at": "2026-06-02T10:45:14+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6245,7 +6245,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/bpY9atKnvU8/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6302,7 +6302,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/PV_Ij36qSrQ",
     "published_at": "2026-06-02T10:30:10+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6315,7 +6315,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6547,7 +6547,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/W2TMT2O0qg8",
     "published_at": "2026-06-02T09:30:23+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6560,7 +6560,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T20:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6667,7 +6667,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/9Y-tTtQGfFA",
     "published_at": "2026-06-02T03:57:40+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6680,7 +6680,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T16:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6727,7 +6727,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/rapTrDT6EcM",
     "published_at": "2026-06-02T03:35:18+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6740,7 +6740,147 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T12:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_type": "rss",
+    "title": "‘I have no preexisting conditions’: I’m 56, earn $198,000 and want to retire early. Can I afford private healthcare?",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/no-preexisting-conditions-m-56-205500184.html",
+    "published_at": "2026-06-01T10:00:00Z",
+    "collected_at": "2026-06-03T04:00",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-03T04:00",
+    "last_seen_at": "2026-06-03T04:00",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_type": "rss",
+    "title": "It’s a New Day For Canadian Energy. How to Capture It With Pipeline Stocks.",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.barrons.com/articles/canada-energy-pipeline-stocks-dividends-c0842557?siteid=yhoof2&yptr=yahoo",
+    "published_at": "2026-06-01T09:55:00Z",
+    "collected_at": "2026-06-03T04:01",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-03T04:01",
+    "last_seen_at": "2026-06-03T04:01",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_type": "rss",
+    "title": "Is Boeing Company Stock Underperforming the S&P 500?",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-company-stock-underperforming-p-095308786.html",
+    "published_at": "2026-06-01T09:53:08Z",
+    "collected_at": "2026-06-03T04:01",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-03T04:00",
+    "last_seen_at": "2026-06-03T04:01",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_type": "rss",
+    "title": "Wall Street futures gain as AI advances overshadow US-Iran tensions",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-gain-ai-095009105.html",
+    "published_at": "2026-06-01T09:50:09Z",
+    "collected_at": "2026-06-03T04:01",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-03T04:00",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6766,7 +6906,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/wQxVjw-DlRk",
     "published_at": "2026-06-01T09:30:23+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6779,7 +6919,42 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_type": "rss",
+    "title": "New Jersey governor has a plan to stop residents’ electricity bills from subsidizing massive data center energy costs",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/jersey-governor-plan-stop-residents-093000851.html",
+    "published_at": "2026-06-01T09:30:00Z",
+    "collected_at": "2026-06-03T04:01",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-03T04:00",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6801,7 +6976,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/_y5f0yhVF7Q",
     "published_at": "2026-06-01T09:03:12+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6814,7 +6989,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -6855,7 +7030,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/GTShwWRIaCI",
     "published_at": "2026-06-01T03:39:23+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "500달러",
     "buy_zone": "5,600달러",
     "price_note": "론이 강화되고 있다라고 얘기하는 거고 여기에 이제 하나 더 플러스 해 가지고 팬코 오브 아메리카가 이번 실적을 역사적이라고 평가하면서 목표가를 500달러까지 상향 조정했습니다. 현재는 420달러입니다. 자, 그래서 우려의 시각도 있는데 여기에서 이제 더 올라간다고 보지만 비정상적으로 지금 프리미",
@@ -6868,7 +7043,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -7882,7 +8057,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/d5bXnCLWrvo",
     "published_at": "2026-05-31T13:59:30+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7895,7 +8070,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -7917,7 +8092,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/jI89d1bYzFY",
     "published_at": "2026-05-31T13:28:14+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7930,7 +8105,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -7963,7 +8138,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/DMxWlG37qEY",
     "published_at": "2026-05-31T11:42:02+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7976,7 +8151,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/DMxWlG37qEY/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8009,7 +8184,7 @@
     "confidence": "ocr_only",
     "url": "https://youtu.be/sJ0A2JG8fJ4",
     "published_at": "2026-05-31T09:45:10+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8022,7 +8197,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/sJ0A2JG8fJ4/ocr_text.txt",
     "extraction_quality": "ocr_only",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8044,7 +8219,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/rxwa9wn9v0U",
     "published_at": "2026-05-31T07:40:15+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8057,7 +8232,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8090,7 +8265,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/UI9jju3rFjU",
     "published_at": "2026-05-31T05:15:10+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8103,7 +8278,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8136,7 +8311,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/audbaebTWh0",
     "published_at": "2026-05-30T11:45:23+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8149,7 +8324,7 @@
     "ocr_text_path": "/Users/mac1/GitHub/stock-info-agent/data/youtube_ocr/ocr/audbaebTWh0/ocr_text.txt",
     "extraction_quality": "transcript+ocr",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8171,7 +8346,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/SlqAdSCK68o",
     "published_at": "2026-05-30T04:45:13+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8184,7 +8359,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8206,7 +8381,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/V2YUu1TNb8k",
     "published_at": "2026-05-29T21:34:55+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8219,7 +8394,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8241,7 +8416,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/3cWWX6JQX2s",
     "published_at": "2026-05-29T11:45:21+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8254,7 +8429,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8276,7 +8451,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/X1zPw_QdVVw",
     "published_at": "2026-05-29T11:02:08+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8289,7 +8464,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8315,7 +8490,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/yg09E60M_xo",
     "published_at": "2026-05-29T09:30:20+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8328,7 +8503,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8360,7 +8535,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/bkuop8jLgOc",
     "published_at": "2026-05-29T06:37:35+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8373,7 +8548,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8414,7 +8589,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/h7ejUIGpCOo",
     "published_at": "2026-05-29T03:42:01+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "31,800원",
     "price_note": "GIS GIS 5% 암호택 아모텍을 한번 노려보죠. 아모택 아모텍을 자 여기서 한번 노려 보겠습니다. 분할 매집을 한번 해 보겠습니다. 아모택 31,800원 900원. 여기 근처입니다. 아무택 모태기 모태기 아모태기 자 그리고 와 변동성 너무 크네. 여기로 잡아야겠다 이거. 자, 분할은 하단 이렇게",
@@ -8427,7 +8602,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8459,7 +8634,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/FZj3FJrQtpY",
     "published_at": "2026-05-28T11:00:30+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8472,7 +8647,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8494,7 +8669,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/or5gMJ3XPvk",
     "published_at": "2026-05-28T10:45:07+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8507,7 +8682,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8529,7 +8704,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/t0xdXQH_tVk",
     "published_at": "2026-05-28T10:43:03+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8542,7 +8717,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8564,7 +8739,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/otySTRJtd-A",
     "published_at": "2026-05-28T10:00:08+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8577,7 +8752,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8606,7 +8781,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Gd3nrzPV5uY",
     "published_at": "2026-05-28T09:55:39+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8619,7 +8794,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8656,7 +8831,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/pF7Pg-eWUGs",
     "published_at": "2026-05-28T03:26:06+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "90달러",
     "price_note": "란의 이런 모유 양해 각서가 나오고 있는데이 양해 각서는 조율 중이라는 얘기가 나오고 있죠. 그래서 WTI가 순식간에 5% 넘게 하락했었고요. 90달러선 아래로 하락했었습니다. 자, 만약에 유가가 내려가게 되면 가장 수혜를 받는 그런 업종들이 그런 섹터들이 바로 항공사와 크루즈를 운영하는 기름",
@@ -8669,7 +8844,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8708,7 +8883,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/ZSTrI_ryiZ8",
     "published_at": "2026-05-27T15:33:12+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8721,7 +8896,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8751,7 +8926,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/FR-0wupxVt8",
     "published_at": "2026-05-27T11:45:14+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8764,7 +8939,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8786,7 +8961,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/QKc7qe1GKEg",
     "published_at": "2026-05-27T10:45:30+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8799,7 +8974,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8830,7 +9005,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/56Ec9B1U4p8",
     "published_at": "2026-05-27T09:30:16+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8843,7 +9018,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -8928,7 +9103,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/5EKMn0kg64c",
     "published_at": "2026-05-26T10:45:40+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8941,7 +9116,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9010,7 +9185,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/iFTuiuHmA6Y",
     "published_at": "2026-05-25T13:20:25+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9023,7 +9198,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9049,7 +9224,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/kVFCqILBA40",
     "published_at": "2026-05-24T05:15:36+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9062,7 +9237,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9095,7 +9270,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/og-O3Ujymn0",
     "published_at": "2026-05-21T22:24:08+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9108,7 +9283,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9142,7 +9317,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/2X-ugUjZMuo",
     "published_at": "2026-05-21T16:00:11+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9155,7 +9330,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9183,7 +9358,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/CwOeak_dDCw",
     "published_at": "2026-05-21T00:58:32+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9196,7 +9371,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9218,7 +9393,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/SgPL3kBb4TM",
     "published_at": "2026-05-20T09:48:19+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9231,7 +9406,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9257,7 +9432,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/1KJBq6v3YGA",
     "published_at": "2026-05-18T20:15:06+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9270,7 +9445,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9292,7 +9467,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/zV_iG7Fpv40",
     "published_at": "2026-05-18T11:25:37+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9305,7 +9480,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9331,7 +9506,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/sqKAFVyuiiY",
     "published_at": "2026-05-17T15:10:23+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9344,7 +9519,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9424,7 +9599,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/glYX_p-sBOc",
     "published_at": "2026-05-17T05:15:23+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9437,7 +9612,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9470,7 +9645,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/_pTWwwdUdpo",
     "published_at": "2026-05-16T07:43:12+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9483,7 +9658,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9505,7 +9680,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/mYA0tppJkcg",
     "published_at": "2026-05-16T02:34:01+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9518,7 +9693,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9540,7 +9715,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/LnmXc3m-WIo",
     "published_at": "2026-05-13T10:33:53+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9553,7 +9728,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9575,7 +9750,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/HfsjO10ysDA",
     "published_at": "2026-05-11T12:08:42+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9588,7 +9763,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9620,7 +9795,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/AnDxrYqudj0",
     "published_at": "2026-05-10T08:41:18+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9633,7 +9808,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9663,7 +9838,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/6GCfo4MIYp8",
     "published_at": "2026-05-10T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9676,7 +9851,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9698,7 +9873,7 @@
     "confidence": "caption_failed",
     "url": "https://youtu.be/ZUmGdPMtuXo",
     "published_at": "2026-05-09T08:20:13+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9711,7 +9886,7 @@
     "ocr_text_path": "",
     "extraction_quality": "caption_failed",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9737,7 +9912,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/KyA-NywDwSY",
     "published_at": "2026-05-07T01:28:24+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "30달러",
     "price_note": "야 저도 편하게 투자를 할 수 있었기 때문인데요. 하지만 이후 IONQ의 실행력 또 CEO가 영량과 있는 기업들을 잘 인수해 나가는 거 같아서 30달러쯤에 추가 매수를 해 줬었는데요. 오늘 실적을 보면 그래도 계속 믿고 투자할 만하다라는 생각이 들었습니다. 자, 아이온큐처럼 적자 기업을 볼 때",
@@ -9750,7 +9925,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9811,7 +9986,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Bt4CRidq3eU",
     "published_at": "2026-05-05T00:22:31+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9824,7 +9999,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9854,7 +10029,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/jhDSNrb2xPw",
     "published_at": "2026-05-03T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "100원",
     "price_note": "월 배당금은 다시 200원 이상 올라가면서 6개월 뒤에도 배당률 24% 이상을 기록할 겁니다. 반대로 주가가 30% 이상 폭락한다면 배당금도 100원 수준으로 떨어지고요. 1년 기준 배당률도 15% 아래가 될 거예요. 가장 중요한 건이 배당률이라고 하는 거 앞으로 1년 동안 이만큼 받을 수",
@@ -9867,7 +10042,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9895,7 +10070,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/5xC937PqmyY",
     "published_at": "2026-04-28T10:44:42+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -9908,7 +10083,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -9969,7 +10144,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/izV2jZwEw6w",
     "published_at": "2026-04-26T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "8,000원",
     "price_note": "라고 할게요. 종소세 구간이 올라가면서 같은 금액을 투자해도 많은 혜택을 받게 됩니다. 연 500만 원을 투자한다고 가정하면 연 황급액만 52만8,000원이 됩니다. 3년 누적이면 31.7%가 7%가 되니까이 정도까지는 해도 괜찮지 않을까라는 생각이 들어요. 연가 넘는 수익이나 마찬가지니까요. 다",
@@ -9982,7 +10157,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -10012,7 +10187,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/Yrl_I2hlheo",
     "published_at": "2026-04-19T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -10025,7 +10200,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -10051,7 +10226,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/CWLHZD6xzzY",
     "published_at": "2026-04-12T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -10064,7 +10239,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -10086,7 +10261,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/_zNtWJUOf1k",
     "published_at": "2026-04-05T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -10099,7 +10274,7 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   },
   {
@@ -10121,7 +10296,7 @@
     "confidence": "transcript",
     "url": "https://youtu.be/8A8HsgMsHXA",
     "published_at": "2026-03-29T05:15:00+00:00",
-    "collected_at": "2026-06-03T00:02",
+    "collected_at": "2026-06-03T04:01",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -10134,7 +10309,42 @@
     "ocr_text_path": "",
     "extraction_quality": "transcript",
     "first_seen_at": "2026-06-02T08:01",
-    "last_seen_at": "2026-06-03T00:02",
+    "last_seen_at": "2026-06-03T04:01",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_type": "rss",
+    "title": "10 best credit unions of 2026",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-credit-unions-162704401.html",
+    "published_at": "2025-01-29T16:27:04Z",
+    "collected_at": "2026-06-03T04:01",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-03T04:00",
+    "last_seen_at": "2026-06-03T04:01",
     "accumulated": true
   }
 ]
