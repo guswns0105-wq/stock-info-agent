@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-03T16:01",
+  "generated_at": "2026-06-03T20:01",
   "max_per_channel": 3,
   "frames_per_video": 3,
   "selected_this_run": 24,
   "processed_this_run": 24,
-  "index_total": 25,
-  "ok_total": 25,
-  "total_ocr_chars": 11483,
+  "index_total": 27,
+  "ok_total": 27,
+  "total_ocr_chars": 12275,
   "by_source": {
     "경제사냥꾼": {
       "items": 3,
@@ -44,9 +44,9 @@
       "chars": 6158
     },
     "강지한 차트연구소": {
-      "items": 4,
-      "ok": 4,
-      "chars": 2053
+      "items": 6,
+      "ok": 6,
+      "chars": 2845
     }
   }
 }

@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 55,
-    "short_count": 55,
+    "video_count": 57,
+    "short_count": 57,
     "regular_video_count": 0,
     "mention_count": 78,
     "transcript_count": 47,
-    "metadata_count": 8,
+    "metadata_count": 10,
     "ocr_count": 2,
     "transcript_chars": 104868,
     "ocr_chars": 340,
@@ -1682,19 +1682,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "'SK하이닉스' 더 늦기전에 지금 꼭 봐야하는 뉴스",
-        "url": "https://youtu.be/JqCjQCrw60g",
-        "published_at": "",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2282,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -1703,6 +1690,19 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1605,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "'SK하이닉스' 더 늦기전에 지금 꼭 봐야하는 뉴스",
+        "url": "https://youtu.be/JqCjQCrw60g",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 2282,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -1767,25 +1767,25 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 11,
+    "video_count": 13,
     "short_count": 0,
-    "regular_video_count": 11,
-    "mention_count": 20,
+    "regular_video_count": 13,
+    "mention_count": 22,
     "transcript_count": 4,
-    "metadata_count": 7,
-    "ocr_count": 4,
+    "metadata_count": 9,
+    "ocr_count": 6,
     "transcript_chars": 2809,
-    "ocr_chars": 2053,
+    "ocr_chars": 2845,
     "stocks": [
       {
         "ticker": "003550",
         "name": "LG",
-        "count": 6
+        "count": 7
       },
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 4
+        "count": 5
       },
       {
         "ticker": "066570",
@@ -1814,6 +1814,32 @@
       }
     ],
     "videos": [
+      {
+        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
+        "url": "https://youtu.be/jugR80aja84",
+        "published_at": "2026-06-03T10:45:02+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 281,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주",
+        "url": "https://youtu.be/kggxPJ0hwHc",
+        "published_at": "2026-06-03T09:45:12+00:00",
+        "tickers": [
+          "003550"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 511,
+        "youtube_kind": "video"
+      },
       {
         "title": "LG전자•두산로보틱스 놓쳤다면 잡아야할 피지컬 AI 한국주식 대장주",
         "url": "https://youtu.be/bpY9atKnvU8",
@@ -2914,25 +2940,25 @@
     "region": "global",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 4,
+    "video_count": 6,
     "short_count": 0,
-    "regular_video_count": 4,
-    "mention_count": 4,
+    "regular_video_count": 6,
+    "mention_count": 6,
     "transcript_count": 3,
-    "metadata_count": 1,
-    "ocr_count": 3,
+    "metadata_count": 3,
+    "ocr_count": 5,
     "transcript_chars": 2223,
-    "ocr_chars": 1269,
+    "ocr_chars": 2061,
     "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 3
+      },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "count": 2
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA",
-        "count": 1
       },
       {
         "ticker": "PLTR",
@@ -2941,6 +2967,32 @@
       }
     ],
     "videos": [
+      {
+        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
+        "url": "https://youtu.be/jugR80aja84",
+        "published_at": "2026-06-03T10:45:02+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 281,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주",
+        "url": "https://youtu.be/kggxPJ0hwHc",
+        "published_at": "2026-06-03T09:45:12+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 511,
+        "youtube_kind": "video"
+      },
       {
         "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
         "url": "https://youtu.be/DMxWlG37qEY",
