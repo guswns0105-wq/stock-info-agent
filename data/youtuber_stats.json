@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 58,
-    "short_count": 58,
+    "video_count": 59,
+    "short_count": 59,
     "regular_video_count": 0,
     "mention_count": 87,
     "transcript_count": 57,
-    "metadata_count": 1,
+    "metadata_count": 2,
     "ocr_count": 2,
     "transcript_chars": 123083,
     "ocr_chars": 340,
@@ -1326,20 +1326,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "5월 27일 투자자들이 꼭 알아야 하는 투자 체크 포인트",
-        "url": "https://youtu.be/fQsasmeYPGs",
-        "published_at": "",
-        "tickers": [
-          "NVDA",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2248,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -1400,6 +1386,20 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1690,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "5월 27일 투자자들이 꼭 알아야 하는 투자 체크 포인트",
+        "url": "https://youtu.be/fQsasmeYPGs",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 2248,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -2064,12 +2064,12 @@
     "region": "global",
     "youtuber": "올랜도 킴 미국주식",
     "channel_id": "",
-    "video_count": 31,
+    "video_count": 32,
     "short_count": 0,
-    "regular_video_count": 31,
+    "regular_video_count": 32,
     "mention_count": 14,
     "transcript_count": 0,
-    "metadata_count": 31,
+    "metadata_count": 32,
     "ocr_count": 3,
     "transcript_chars": 0,
     "ocr_chars": 6158,
@@ -2471,8 +2471,8 @@
         "youtube_kind": "video"
       },
       {
-        "title": "(시황분석) 항상 우량주 중심의 장기투자가 주식의 정석이다!!!",
-        "url": "https://youtu.be/A0c3BiNr83I",
+        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
+        "url": "https://youtu.be/oqSSFBnSysQ",
         "published_at": "",
         "tickers": [],
         "confidence": "caption_failed",
@@ -2482,8 +2482,8 @@
         "youtube_kind": "video"
       },
       {
-        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
-        "url": "https://youtu.be/oqSSFBnSysQ",
+        "title": "(시황분석) 건전한 조정 VS 하락시작",
+        "url": "https://youtu.be/G20MMisYFns",
         "published_at": "",
         "tickers": [],
         "confidence": "caption_failed",
