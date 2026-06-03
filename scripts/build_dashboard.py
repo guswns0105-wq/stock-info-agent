@@ -21,6 +21,21 @@ def load(path, default):
 def esc(value):
     return html.escape(str(value or ''))
 
+def public_text(value):
+    text = str(value or '')
+    replacements = {
+        '로컬팩': '분석 근거',
+        'local pack': 'analysis evidence',
+        'Local Pack': 'Analysis Evidence',
+        '로컬 ASR 팩': 'ASR 자료',
+        '확장팩': '확장 자료',
+        '광범위 팩': '광범위 자료',
+        ' 팩': ' 자료',
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return text
+
 
 DOMESTIC_FORBIDDEN_TERMS = ['NVDA', 'NVIDIA', '엔비디아', '엔디비아']
 
@@ -157,28 +172,33 @@ def methodology_section(methodology, yt_items, transcript_items):
         return ''
     method_cards = []
     for card in methodology.get('method_cards', []):
-        checks = ''.join(f'<li>{esc(x)}</li>' for x in card.get('checks', []))
+        checks = ''.join(f'<li>{esc(public_text(x))}</li>' for x in card.get('checks', []))
         method_cards.append(f'''
         <article class="method-card">
-          <h3>{esc(card.get('title'))}</h3>
-          <p>{esc(card.get('body'))}</p>
+          <h3>{esc(public_text(card.get('title')))}</h3>
+          <p>{esc(public_text(card.get('body')))}</p>
           <ul>{checks}</ul>
         </article>''')
     themes = methodology.get('theme_radar', [])[:8]
-    theme_html = ''.join(f'<div class="theme-row"><b>{esc(t.get("theme"))}</b><span>{int(t.get("count",0))}회</span><small>{esc(t.get("note"))}</small></div>' for t in themes)
+    theme_html = ''.join(f'<div class="theme-row"><b>{esc(public_text(t.get("theme")))}</b><span>{int(t.get("count",0))}회</span><small>{esc(public_text(t.get("note")))}</small></div>' for t in themes)
     evidence = methodology.get('source_evidence', [])
-    evidence_html = ''.join(f'<li><b>{esc(e.get("name"))}</b><span>{esc(e.get("evidence"))}</span></li>' for e in evidence)
+    evidence_html = ''.join(f'<li><b>{esc(public_text(e.get("name")))}</b><span>{esc(public_text(e.get("evidence")))}</span><small>{esc(public_text(e.get("dashboard_use")))}</small></li>' for e in evidence)
+    improvements = methodology.get('dashboard_improvements', [])
+    improvement_html = ''.join(f'<li class="improvement-row"><b>{esc(public_text(x.get("title")))}</b><span class="status-{esc(x.get("status"))}">{esc(x.get("status"))}</span><small>{esc(public_text(x.get("why")))}</small></li>' for x in improvements)
+    local_pack_html = ''.join(f'<article class="analysis-evidence-card"><b>{esc(public_text(e.get("name")))}</b><span>{esc(public_text(e.get("evidence")))}</span><small>{esc(public_text(e.get("dashboard_use")))}</small></article>' for e in evidence[:4])
     ocr_items = [item for item in yt_items if item.get('ocr_status') == 'ok']
     ocr_chars = sum(int(item.get('ocr_chars') or 0) for item in ocr_items)
     return f'''
     <section class="method-section">
       <div class="method-head">
-        <div><h2>분석 품질·방법론 업데이트</h2><p class="section-note">최근 수집한 교육/연구 자료를 바탕으로, 추천 순위와 출처 로그를 더 신중하게 해석하도록 품질·리스크 레이어를 추가했습니다.</p></div>
+        <div><h2>분석 품질·방법론 업데이트</h2><p class="section-note">최근 추가 분석 근거를 바탕으로, 추천 순위와 출처 로그를 더 신중하게 해석하도록 품질·리스크 레이어를 추가했습니다.</p></div>
         <div class="quality-score"><b>{len(transcript_items)}/{len(yt_items)}</b><span>유튜브 자막</span><b>{len(ocr_items)}</b><span>OCR 성공 · {ocr_chars:,}자</span></div>
       </div>
+      <div class="analysis-evidence-panel"><h3>추가 분석 근거</h3><p>이번 대시보드는 아래 자료를 출처 품질·테마·리스크 레이어로만 사용합니다.</p><div class="analysis-evidence-grid">{local_pack_html}</div></div>
       <div class="method-grid">{''.join(method_cards)}</div>
       <div class="theme-panel"><h3>반복 테마 레이더</h3><p>특정 매수 신호가 아니라 반복 언급된 시장 관심 축입니다.</p><div class="theme-grid">{theme_html}</div></div>
-      <details class="method-evidence"><summary>근거 수집 범위 보기</summary><ul>{evidence_html}</ul><p>{esc(methodology.get('safety_note'))}</p></details>
+      <div class="improvement-panel"><h3>대시보드 개선 체크</h3><ul>{improvement_html}</ul></div>
+      <details class="method-evidence"><summary>근거 수집 범위 보기</summary><ul>{evidence_html}</ul><p>{esc(public_text(methodology.get('safety_note')))}</p></details>
     </section>'''
 
 
@@ -294,7 +314,7 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 .card{{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)}} .small h4{{font-size:18px;margin:8px 0}} .card p{{color:#d9e4ff;line-height:1.56}}
 .stock-rank-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px}} .stock-rank-card{{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)}} .rank{{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px}} .stock-name{{grid-area:name;font-size:20px;font-weight:800;color:#fff}} .stock-code{{grid-area:code;color:var(--green);font-size:14px}} .mention-count{{grid-area:count;color:var(--yellow);white-space:nowrap}} .mention-count b{{font-size:28px}} .section-note{{color:var(--muted);line-height:1.55}}
 .ai-top-section{{margin:22px 0 34px}} .ai-market-title{{margin:22px 0 12px;color:var(--yellow)}} .ai-rec-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px}} .ai-rec-card{{position:relative;background:linear-gradient(145deg,rgba(255,224,138,.16),rgba(18,26,51,.96));border:1px solid rgba(255,224,138,.42);border-radius:22px;padding:18px;box-shadow:0 16px 34px rgba(0,0,0,.28)}} .ai-rank{{display:inline-flex;color:#111;background:var(--yellow);border-radius:999px;padding:5px 10px;font-weight:900;font-size:12px}} .ai-rec-head{{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-top:10px}} .ai-rec-head h3{{font-size:24px;margin:0 0 3px}} .ai-rec-head span{{color:var(--muted)}} .ai-rec-head strong{{color:var(--green);font-size:24px;white-space:nowrap}} .ai-price-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}} .ai-price-grid span{{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:13px;padding:9px}} .ai-price-grid b{{display:block;color:#fff;margin-top:3px}} .ai-comment{{line-height:1.55}} .ai-why{{margin:10px 0;padding-left:20px;color:#eaf3ff}} .ai-risk{{font-size:13px;color:#ffe6e6;background:rgba(255,208,208,.08);border:1px solid rgba(255,208,208,.2);border-radius:12px;padding:9px;margin-top:10px}}
-.method-section{{margin:18px 0 34px;background:linear-gradient(145deg,rgba(101,214,255,.10),rgba(24,36,66,.72));border:1px solid rgba(101,214,255,.24);border-radius:22px;padding:20px;box-shadow:0 14px 34px rgba(0,0,0,.24)}} .method-head{{display:flex;justify-content:space-between;gap:18px;align-items:start}} .method-head h2{{margin-top:0}} .quality-score{{min-width:190px;background:rgba(7,11,22,.45);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:14px;display:grid;grid-template-columns:auto 1fr;gap:5px 10px;align-items:baseline}} .quality-score b{{font-size:24px;color:var(--green)}} .quality-score span{{color:var(--muted);font-size:13px}} .method-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0}} .method-card{{background:rgba(18,26,51,.82);border:1px solid rgba(101,214,255,.20);border-radius:18px;padding:15px}} .method-card h3,.theme-panel h3{{margin:0 0 8px;color:#fff}} .method-card p,.theme-panel p{{color:#d9e4ff;line-height:1.5}} .method-card ul{{padding-left:18px;color:#eaf3ff}} .theme-panel{{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:18px;padding:15px;margin-top:12px}} .theme-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:9px}} .theme-row{{display:grid;gap:3px;background:rgba(7,11,22,.35);border-radius:14px;padding:10px;border:1px solid rgba(255,224,138,.14)}} .theme-row b{{color:var(--yellow)}} .theme-row span{{color:var(--green);font-weight:800}} .theme-row small{{color:var(--muted);line-height:1.35}} .method-evidence{{margin-top:12px;color:#d9e4ff}} .method-evidence summary{{cursor:pointer;color:var(--accent)}} .method-evidence li{{margin:8px 0}} .method-evidence span{{display:block;color:var(--muted)}}
+.method-section{{margin:18px 0 34px;background:linear-gradient(145deg,rgba(101,214,255,.10),rgba(24,36,66,.72));border:1px solid rgba(101,214,255,.24);border-radius:22px;padding:20px;box-shadow:0 14px 34px rgba(0,0,0,.24)}} .analysis-evidence-panel,.improvement-panel{{background:rgba(7,11,22,.32);border:1px solid rgba(101,214,255,.18);border-radius:18px;padding:15px;margin:14px 0}} .analysis-evidence-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}} .analysis-evidence-card{{display:grid;gap:5px;background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.18);border-radius:14px;padding:12px}} .analysis-evidence-card b{{color:var(--green)}} .analysis-evidence-card span,.analysis-evidence-card small,.improvement-panel small{{color:var(--muted);line-height:1.35}} .improvement-panel ul{{list-style:none;margin:0;padding:0;display:grid;gap:8px}} .improvement-row{{display:grid;grid-template-columns:1fr auto;gap:4px 10px;background:rgba(255,224,138,.07);border:1px solid rgba(255,224,138,.14);border-radius:13px;padding:10px}} .improvement-row small{{grid-column:1/-1}} .status-implemented{{color:var(--green)}} .status-next{{color:var(--yellow)}} .method-head{{display:flex;justify-content:space-between;gap:18px;align-items:start}} .method-head h2{{margin-top:0}} .quality-score{{min-width:190px;background:rgba(7,11,22,.45);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:14px;display:grid;grid-template-columns:auto 1fr;gap:5px 10px;align-items:baseline}} .quality-score b{{font-size:24px;color:var(--green)}} .quality-score span{{color:var(--muted);font-size:13px}} .method-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0}} .method-card{{background:rgba(18,26,51,.82);border:1px solid rgba(101,214,255,.20);border-radius:18px;padding:15px}} .method-card h3,.theme-panel h3{{margin:0 0 8px;color:#fff}} .method-card p,.theme-panel p{{color:#d9e4ff;line-height:1.5}} .method-card ul{{padding-left:18px;color:#eaf3ff}} .theme-panel{{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:18px;padding:15px;margin-top:12px}} .theme-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:9px}} .theme-row{{display:grid;gap:3px;background:rgba(7,11,22,.35);border-radius:14px;padding:10px;border:1px solid rgba(255,224,138,.14)}} .theme-row b{{color:var(--yellow)}} .theme-row span{{color:var(--green);font-weight:800}} .theme-row small{{color:var(--muted);line-height:1.35}} .method-evidence{{margin-top:12px;color:#d9e4ff}} .method-evidence summary{{cursor:pointer;color:var(--accent)}} .method-evidence li{{margin:8px 0}} .method-evidence span{{display:block;color:var(--muted)}}
 .valuation-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin:12px 0 30px}} .valuation-card{{background:rgba(18,26,51,.94);border:1px solid rgba(101,214,255,.22);border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.23)}} .valuation-card.value-good{{border-color:rgba(137,247,165,.5)}} .valuation-card.value-watch{{border-color:rgba(255,224,138,.42)}} .valuation-card.value-risk{{border-color:rgba(255,208,208,.38)}} .valuation-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .valuation-head b{{display:block;font-size:19px}} .valuation-head span{{color:var(--muted)}} .valuation-price{{display:grid;grid-template-columns:1fr;gap:7px;margin:12px 0}} .valuation-price span{{background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.16);border-radius:12px;padding:8px 10px}} .valuation-metrics,.valuation-pills{{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}} .valuation-metrics span,.good,.risk-pill{{font-size:12px;border-radius:999px;padding:5px 9px;background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.2)}} .good{{color:var(--green);border-color:rgba(137,247,165,.28)}} .risk-pill{{color:var(--red);border-color:rgba(255,208,208,.28)}} .valuation-basis{{color:var(--muted);font-size:13px;margin-top:10px;line-height:1.45}} .valuation-links{{display:flex;gap:10px;margin-top:10px;font-size:13px}}
 .youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-quality{{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0}} .yt-quality span{{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}} .yt-video-list{{margin:14px 0 0;padding-left:20px;border-top:1px solid rgba(137,247,165,.18)}} .yt-video-list li{{padding:10px 0;color:#eaf3ff;line-height:1.38}} .yt-video-list b{{display:block;margin:4px 0;font-size:14px}} .yt-video-list small{{color:var(--muted)}} .yt-video-kind{{font-size:12px;color:var(--yellow);border:1px solid rgba(255,224,138,.28);border-radius:999px;padding:2px 7px}}
 .rec-head{{display:flex;justify-content:space-between;gap:16px}} .rec-head h3{{font-size:24px;margin:0 0 6px}} .ticker-text{{color:var(--green);font-size:18px}} .score{{text-align:right;color:var(--yellow);white-space:nowrap}} .score strong{{font-size:26px}} .stance{{margin:0;color:#eaf1ff}} .risk{{color:var(--red)!important}}
@@ -307,7 +327,7 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 <body>
 <header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div><div class="kpi">화면 OCR {len(ocr_items)}개</div></div></header>
 <nav class="tabs"><a href="#method">방법론</a><a href="#domestic">국내</a><a href="#global">해외</a></nav>
-<main><div class="notice">이 페이지는 출처 발언과 공개 재무지표를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><div id="method">{methodology_section(methodology, yt_items, transcript_items)}</div>{section('domestic', common, items, ystats, valuations, ai_recommendations)}{section('global', common, items, ystats, valuations, ai_recommendations)}</main>
+<main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><div id="method">{methodology_section(methodology, yt_items, transcript_items)}</div>{section('domestic', common, items, ystats, valuations, ai_recommendations)}{section('global', common, items, ystats, valuations, ai_recommendations)}</main>
 <footer>Generated by Hermes Stock Info Agent</footer>
 </body></html>'''
     OUT.parent.mkdir(parents=True, exist_ok=True)
