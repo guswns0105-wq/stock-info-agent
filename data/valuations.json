@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T16:02",
+  "generated_at": "2026-06-04T17:01",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -2323,29 +2323,29 @@
       "price": 230.33,
       "currency": "USD",
       "pe": 41.33,
-      "forward_pe": 30.517,
+      "forward_pe": 30.51,
       "pb": 19.743,
       "roe": 57.572,
       "profit_margin": 25.298,
       "eps": null,
-      "fair_value": 159.1895624146964,
-      "watch_buy_price": 130.53544118005104,
+      "fair_value": 159.22073242941713,
+      "watch_buy_price": 130.56100059212204,
       "ai_buy_price": 141.99580062866212,
       "ai_sell_price": 230.33,
-      "margin_to_fair_pct": -30.8863098968018,
+      "margin_to_fair_pct": -30.872777133062513,
       "verdict": "고평가 주의",
-      "action": "130.5 USD 이하가 아니면 보수적 접근",
+      "action": "130.6 USD 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": 1,
       "technical_score": 3,
       "ai_score": 2.25,
-      "ai_comment": "출처 언급 1회, 적정가 대비 -30.89% 여력, 상승 추세, ROE 57.57% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 1회, 적정가 대비 -30.87% 여력, 상승 추세, ROE 57.57% 기준으로 산정했습니다.",
       "positives": [
         "ROE 57.57%"
       ],
       "risks": [],
       "valuation_basis": [
-        "PER 30.52배 → 기준 PER 36.00배",
+        "PER 30.51배 → 기준 PER 36.00배",
         "PBR 19.74배 → 기준 PBR 4.00배"
       ],
       "chart": {

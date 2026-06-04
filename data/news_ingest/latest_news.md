@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-04T16:01)
+# 주식 뉴스 인제스트 (2026-06-04T17:01)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -378,7 +378,7 @@
 ### 17. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
-- 시각: Thu, 04 Jun 2026 04:11:04 GMT
+- 시각: Thu, 04 Jun 2026 04:45:00 GMT
 - 관련 티커: NVDA
 - 요약: Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? 가지각색의 바보
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWdycWxJNmh2ZThrMGNLMmVNdXhNRXNvcDJoMTM1VDRVRS1kd1F3RjZ3QzJsWTE0cVJnUFpiQ2dHMmw0Q0swT1owdkdSX25Kanp0eGxkeFlYZy1YeWZ0YzFZbVJ2NTdsdlpFcGRTMXNxVXIzU3RVNDlOLXFTc0txek5tQnhCYnZBbWZud0Q5MnRmRUYyTjdxVQ?oc=5
