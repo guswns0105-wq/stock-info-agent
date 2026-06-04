@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-04T13:00)
+# 주식 뉴스 인제스트 (2026-06-04T14:01)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -295,7 +295,15 @@
 - 요약: 나는 '소파 문제'로 인해 테슬라의 옵티머스가 실패할 것이라고 예측했다. 공장 노동에 초점을 맞추면 내 TSLA 주식 논제가 뒤집어집니다. Barchart.com
 - 링크: https://news.google.com/rss/articles/CBMiigJBVV95cUxPWjhrczF4UFVwZEdHQ3RTQ0xEaDlKc2NkMTZLcElFVmJTajRMc0FsTjJROHBXM1B0d2FxcFdON3ZjTkJQR0hVdW96c3VEV2MtSWJRSmpOamR4bWdwUjBtYm84WmJTZDVyTUQ2THVGeS1XSkw3X0FiM1lSVGJ3UXUtellZLUtrV2NHcDBGZjF3WkV0VXlLNzBRM2gxV0k1RnRYa1NXc3NSbTNTM0hsb01Cd2toYl9FNHVTeVdEZDBVWElKUDdUX0FJcjJ4T2xyZm1KcmtudDZtUVFxcy1ZLUVxZWpWbldnUktCMjdEckhUclJRUFdLSTJZN2ltR1k0NGltZ3N6M3gtLV9TZw?oc=5
 
-### 7. Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 - MarketWise
+### 7. 모건스탠리는 메타가 AI를 이길 수 있다고 말한다. 주식에는 아직 증명할 것이 있습니다. - 배런의
+- 시장: 미국시장
+- 출처: Google News Magnificent 7
+- 시각: Wed, 03 Jun 2026 16:55:00 GMT
+- 관련 티커: META
+- 요약: 모건스탠리는 메타가 AI를 이길 수 있다고 말한다. 주식에는 아직 증명할 것이 있습니다. 배런스
+- 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxOeURvNTBBMnF2ZXRTODBQTnBVMnh6TkhOakdlT3dDcGs0LWVMM0RoS3J6SWE1anUwbTU3SnFtalhNY1FWVjF3dHZhaGlpQV9NOXU5Z2M0bFljOThma3dZN05HdnNaU2tfRkM1MVU2ejNvc3RPSkduRG5xdUdtc0ZRS0kySQ?oc=5
+
+### 8. Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 - MarketWise
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 16:44:12 GMT
@@ -303,7 +311,7 @@
 - 요약: Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 MarketWise
 - 링크: https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5
 
-### 8. META 주식이 더 높아질 수 있습니까? - 트레피스
+### 9. META 주식이 더 높아질 수 있습니까? - 트레피스
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 15:02:02 GMT
@@ -311,7 +319,7 @@
 - 요약: META 주식이 더 높아질 수 있습니까? 트레피스
 - 링크: https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5
 
-### 9. 메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. 'AI 승자' 관점을 반환할 수 있는 것은 다음과 같습니다. - 투자자경제신문
+### 10. 메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. 'AI 승자' 관점을 반환할 수 있는 것은 다음과 같습니다. - 투자자경제신문
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 13:38:00 GMT
@@ -319,7 +327,7 @@
 - 요약: 메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. 'AI 승자' 관점을 반환할 수 있는 것은 다음과 같습니다. 투자자 비즈니스 데일리
 - 링크: https://news.google.com/rss/articles/CBMijgFBVV95cUxPT21SY094eTVQRG5HZnFwR2xXbzBHelBmWDZ1WjNpWWJHTV84VWthNXhBelpmRVpta29ITkRxQXktZ0luOTBKN3VycnpwSTVjdGVKWjNNeW5Ld3BYSV9LMHhtaXdmSXZJYXZhSE8wTlVkSThMR3pWbGVWOHdNWDVQeVJuRk1tSUdIRlQ3WHVR?oc=5
 
-### 10. Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말했습니다. – META 주가는 시판 전 반등 - MSN
+### 11. Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말했습니다. – META 주가는 시판 전 반등 - MSN
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 10:19:27 GMT
@@ -327,7 +335,7 @@
 - 요약: Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말합니다 – META 주식은 시판 전 반등 MSN
 - 링크: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5
 
-### 11. 젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)
+### 12. 젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)
 - 시장: 미국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 18:22:04 +0900
@@ -335,7 +343,7 @@
 - 요약: (서울=연합뉴스) 권하영 김주환 강태우 오지은 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 방한 기간 김성훈 업스테이지 대표를 비롯한 국내 ...
 - 링크: https://www.yna.co.kr/view/AKR20260602134652017
 
-### 12. [특징주] SKT, '엔비디아 파트너' 부각에 11% 급등 마감(종합)
+### 13. [특징주] SKT, '엔비디아 파트너' 부각에 11% 급등 마감(종합)
 - 시장: 미국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 15:46:23 +0900
@@ -343,7 +351,15 @@
 - 요약: (서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...
 - 링크: https://www.yna.co.kr/view/AKR20260602041951008
 
-### 13. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
+### 14. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보
+- 시장: 미국시장
+- 출처: Google News Magnificent 7
+- 시각: Thu, 04 Jun 2026 04:11:04 GMT
+- 관련 티커: NVDA
+- 요약: Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? 가지각색의 바보
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWdycWxJNmh2ZThrMGNLMmVNdXhNRXNvcDJoMTM1VDRVRS1kd1F3RjZ3QzJsWTE0cVJnUFpiQ2dHMmw0Q0swT1owdkdSX25Kanp0eGxkeFlYZy1YeWZ0YzFZbVJ2NTdsdlpFcGRTMXNxVXIzU3RVNDlOLXFTc0txek5tQnhCYnZBbWZud0Q5MnRmRUYyTjdxVQ?oc=5
+
+### 15. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 01:41:13 GMT
@@ -351,7 +367,7 @@
 - 요약: AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO)
 - 링크: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5
 
-### 14. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
+### 16. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Mon, 01 Jun 2026 09:03:16 GMT
@@ -359,7 +375,7 @@
 - 요약: 새로운 보고서에 따르면 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다는 사실이 밝혀졌습니다. 반도체 산업 협회 | SIA
 - 링크: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5
 
-### 15. 헤지펀드가 반도체 주식을 거래하는 방법 - Goldman Sachs
+### 17. 헤지펀드가 반도체 주식을 거래하는 방법 - Goldman Sachs
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Fri, 22 May 2026 07:00:00 GMT
@@ -367,7 +383,7 @@
 - 요약: 헤지펀드가 반도체 주식을 거래하는 방법 Goldman Sachs
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5
 
-### 16. Cisco CEO는 주가가 사상 최고치를 기록한 이유를 설명합니다. '인프라는 확실히 멋지네요'
+### 18. Cisco CEO는 주가가 사상 최고치를 기록한 이유를 설명합니다. '인프라는 확실히 멋지네요'
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:49:04Z
@@ -375,7 +391,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/article/cisco-ceo-explains-why-the-stock-is-at-record-highs-infrastructure-is-definitely-cool-144904306.html
 
-### 17. 고르지 못한 Palantir 주식은 이 옵션 이동에 좋은 후보입니다.
+### 19. 고르지 못한 Palantir 주식은 이 옵션 이동에 좋은 후보입니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:40:30Z
@@ -383,7 +399,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/research/options/palantir-pltr-stock-calendar-spread-options/?src=A00220&yptr=yahoo
 
-### 18. Elon Musk가 Tesla와 SpaceX를 합병할 최신 확률은 다음과 같습니다.
+### 20. Elon Musk가 Tesla와 SpaceX를 합병할 최신 확률은 다음과 같습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:37:22Z
@@ -391,7 +407,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/news/tesla-spacex-merger-elon-musk-odds/?src=A00220&yptr=yahoo
 
-### 19. Old Dominion의 5월 업데이트는 LTL 시장의 개선을 보여줍니다.
+### 21. Old Dominion의 5월 업데이트는 LTL 시장의 개선을 보여줍니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:48Z
@@ -399,7 +415,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/news/old-dominion-may-shows-improving-143448600.html
 
-### 20. Wasatch Long/Short Alpha Fund, CWST(Casella Waste Systems)에 대한 신뢰 유지
+### 22. Wasatch Long/Short Alpha Fund, CWST(Casella Waste Systems)에 대한 신뢰 유지
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:33Z
@@ -407,7 +423,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/wasatch-long-short-alpha-fund-143433781.html
 
-### 21. 그는 여동생의 빚 24,000달러를 갚았습니다. 이제 그의 아버지는 그에게 10만 달러의 유산도 물려주길 원합니다.
+### 23. 그는 여동생의 빚 24,000달러를 갚았습니다. 이제 그의 아버지는 그에게 10만 달러의 유산도 물려주길 원합니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:45:00Z
@@ -415,7 +431,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/paid-off-sisters-24k-debt-104500772.html
 
-### 22. 다우존스 선물: 유가 상승, 팔로알토 수익 하락; 새로운 트럼프 관세가 다가오고 있다
+### 24. 다우존스 선물: 유가 상승, 팔로알토 수익 하락; 새로운 트럼프 관세가 다가오고 있다
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:43:13Z
@@ -423,7 +439,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/?src=A00220&yptr=yahoo
 
-### 23. 아침입찰 : 퀀텀리프
+### 25. 아침입찰 : 퀀텀리프
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:39:21Z
@@ -431,7 +447,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/morning-bid-quantum-leap-103921504.html
 
-### 24. 러시아 Sberbank, 디지털 격차 해소를 원하는 남반구 국가에 AI 모델 제공
+### 26. 러시아 Sberbank, 디지털 격차 해소를 원하는 남반구 국가에 AI 모델 제공
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:33:01Z
@@ -439,7 +455,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/sectors/technology/articles/russias-sberbank-offers-ai-model-103301266.html
 
-### 25. 저지시티의 한 남성은 사무상의 실수로 연금을 받을 수 없어 90대까지 시간당 18달러를 받고 일했다.
+### 27. 저지시티의 한 남성은 사무상의 실수로 연금을 받을 수 없어 90대까지 시간당 18달러를 받고 일했다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:30:00Z
@@ -447,7 +463,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/policy/articles/jersey-city-man-worked-90s-103000144.html
 
-### 26. 오늘의 주식 시장: AI 열풍이 미국-이란 불확실성을 만나 다우, S&P 500, 나스닥 선물이 혼조세를 보이고 있습니다.
+### 28. 오늘의 주식 시장: AI 열풍이 미국-이란 불확실성을 만나 다우, S&P 500, 나스닥 선물이 혼조세를 보이고 있습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-02T22:48:03Z
@@ -455,7 +471,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-as-ai-fervor-meets-us-iran-uncertainty-224803638.html
 
-### 27. 글로벌 패션 리테일러, 33년 만에 전 매장 폐쇄
+### 29. 글로벌 패션 리테일러, 33년 만에 전 매장 폐쇄
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-02T21:33:00Z
@@ -463,26 +479,10 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/articles/global-fashion-retailer-closing-stores-213300239.html
 
-### 28. 고프로의 흥망성쇠, 회사가 1년 더 살아남을 수 있을지 '상당히 의심스럽다'
+### 30. 화요일 옥수수 하락폭 확대
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T16:19:51Z
+- 시각: 2026-06-02T17:20:00Z
 - 관련 티커: 종목 미검출
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/rise-fall-gopro-says-substantial-161951182.html
-
-### 29. 역사에 따르면 CAVA는 반등할 준비가 되어 있을 수 있습니다.
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T16:18:45Z
-- 관련 티커: 종목 미검출
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/history-suggests-cava-could-ready-161845801.html
-
-### 30. Exclusive-SpaceX는 다음 주 전체 IPO에서 1조 7500억 달러의 가치 평가를 목표로 하고 있다고 소식통은 말합니다.
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T16:14:39Z
-- 관련 티커: 종목 미검출
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/exclusive-spacex-targets-1-75-161439113.html
+- 링크: https://finance.yahoo.com/markets/commodities/articles/corn-extending-losses-tuesday-172000344.html
