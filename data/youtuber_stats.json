@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 62,
-    "short_count": 62,
+    "video_count": 63,
+    "short_count": 63,
     "regular_video_count": 0,
     "mention_count": 87,
     "transcript_count": 57,
-    "metadata_count": 5,
+    "metadata_count": 6,
     "ocr_count": 2,
     "transcript_chars": 123083,
     "ocr_chars": 340,
@@ -446,17 +446,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "3000% 폭등했던 ‘금양’이 상장폐지 하게 된 진짜 이유(+비슷한 종목)",
-        "url": "https://youtu.be/gvg3mbndmcM",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 2344,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
         "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
@@ -477,6 +466,19 @@
         "tickers": [],
         "confidence": "transcript",
         "transcript_chars": 1884,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "LG가 더이상 '분할 상장'을 못하는 진짜 이유",
+        "url": "https://youtu.be/Ie3XyY9BbSg",
+        "published_at": "",
+        "tickers": [
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1816,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -1842,12 +1844,12 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 13,
+    "video_count": 14,
     "short_count": 0,
-    "regular_video_count": 13,
+    "regular_video_count": 14,
     "mention_count": 24,
     "transcript_count": 5,
-    "metadata_count": 8,
+    "metadata_count": 9,
     "ocr_count": 6,
     "transcript_chars": 3469,
     "ocr_chars": 2845,
@@ -1889,6 +1891,17 @@
       }
     ],
     "videos": [
+      {
+        "title": "삼성전자가 직접 지분투자한 반도체 소부장 TOP10",
+        "url": "https://youtu.be/ASd6l2bt_Og",
+        "published_at": "2026-06-04T08:45:31+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
       {
         "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
         "url": "https://youtu.be/jugR80aja84",

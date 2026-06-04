@@ -206,8 +206,12 @@ def translate_en_to_ko(text, cache):
 def enrich_news_translations(item, cache):
     if item.get('source_type') != 'rss' or item.get('region') != 'global':
         return item
-    title=item.get('title') or ''
-    summary=item.get('summary') or ''
+    # Preserve the true upstream English/original headline across repeated hourly
+    # runs.  Older runs may already have written Korean text into `title`, so
+    # when original fields exist use them as the translation source instead of
+    # overwriting provenance with the display title again.
+    title=item.get('title_original') or item.get('title') or ''
+    summary=item.get('summary_original') or item.get('summary') or ''
     ko_title=translate_en_to_ko(title, cache)
     ko_summary=translate_en_to_ko(summary, cache) if summary and is_probably_english(summary) else summary
     item['title_original']=title
