@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-05T04:00)
+# 주식 뉴스 인제스트 (2026-06-05T05:00)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -372,7 +372,16 @@
 - 요약: (김포·서울=연합뉴스) 권하영 한상용 임성호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 5일 오후 한국에 입국해 나흘간 한국 AI 생태계를...
 - 링크: https://www.yna.co.kr/view/AKR20260603053851017
 
-### 16. AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT)의 의견 - Quiver Quantitative
+### 16. 유가가 완화되면서 다우지수는 900포인트 상승했지만, AI 주가 하락으로 월스트리트를 견제 - BNN Bloomberg
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Thu, 04 Jun 2026 19:18:29 GMT
+- 관련 티커: 종목 미검출
+- 원문 제목: The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check - BNN Bloomberg
+- 요약: 유가가 완화되면서 다우지수는 900포인트 급등했지만 AI 주가 하락으로 월스트리트가 견제를 받고 있습니다. BNN Bloomberg
+- 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5
+
+### 17. AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT)의 의견 - Quiver Quantitative
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 17:32:00 GMT
@@ -380,15 +389,6 @@
 - 원문 제목: Microsoft Stock (MSFT) Opinions on AI Growth and Stock Performance - Quiver Quantitative
 - 요약: AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT) 의견 Quiver Quantitative
 - 링크: https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXllVG9kWWZodndoWDY3NV82OFp2TGdXV25VdE56RUQ4b21mZHRwRk5VSEpBNUxOdjBaOTVGc1VVdHZlS1NKZDQ5UnJsQXQ5VmRHZVJ6UzNkeWNrTXdaNjJnSVVqUG4wWHUyQ05FS1JJQ3FIV1RRSVdnbWxuS3RvZU02d1Z3NndVWTB6X1VCZ2IxeTVhZnBfc2JEcTdtWnBPLVJROUhR?oc=5
-
-### 17. 유가가 완화되면서 다우지수는 900포인트 상승했지만, AI 주가 하락으로 월스트리트를 견제 - BNN Bloomberg
-- 시장: 미국시장
-- 출처: Google News US Markets AI Semis
-- 시각: Thu, 04 Jun 2026 16:53:23 GMT
-- 관련 티커: 종목 미검출
-- 원문 제목: The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check - BNN Bloomberg
-- 요약: 유가가 완화되면서 다우지수는 900포인트 급등했지만 AI 주가 하락으로 월스트리트가 견제를 받고 있습니다. BNN Bloomberg
-- 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5
 
 ### 18. 650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.
 - 시장: 미국시장
