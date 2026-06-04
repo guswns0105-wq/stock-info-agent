@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 59,
-    "short_count": 59,
+    "video_count": 61,
+    "short_count": 61,
     "regular_video_count": 0,
     "mention_count": 87,
     "transcript_count": 57,
-    "metadata_count": 2,
+    "metadata_count": 4,
     "ocr_count": 2,
     "transcript_chars": 123083,
     "ocr_chars": 340,
@@ -473,15 +473,15 @@
         "youtube_kind": "short"
       },
       {
-        "title": "지금 월가가 보고있는 ‘반도체 슈퍼사이클’ 전망(+끝나는 시기)",
-        "url": "https://youtu.be/rF1oIsFbHMU",
+        "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
+        "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
         "tickers": [
           "005930",
-          "000660"
+          "003550"
         ],
         "confidence": "transcript",
-        "transcript_chars": 2256,
+        "transcript_chars": 1815,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -493,8 +493,8 @@
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
     "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
     "video_count": 19,
-    "short_count": 8,
-    "regular_video_count": 11,
+    "short_count": 10,
+    "regular_video_count": 9,
     "mention_count": 41,
     "transcript_count": 18,
     "metadata_count": 1,
@@ -668,32 +668,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "정배열후 첫번째 이평선 지지 받을때 매수",
-        "url": "https://youtu.be/1KJBq6v3YGA",
-        "published_at": "2026-05-18T20:15:06+00:00",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 449,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "돌파, 돌파지지 매수",
-        "url": "https://youtu.be/sqKAFVyuiiY",
-        "published_at": "2026-05-17T15:10:23+00:00",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 558,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
         "url": "https://youtu.be/cwMSV6imFo0",
         "published_at": "2026-05-17T12:41:48+00:00",
@@ -721,6 +695,32 @@
         "transcript_chars": 352,
         "ocr_status": "ok",
         "ocr_chars": 240,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "정배열후 첫번째 이평선 지지 받을때 매수",
+        "url": "https://youtu.be/1KJBq6v3YGA",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 449,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돌파, 돌파지지 매수",
+        "url": "https://youtu.be/sqKAFVyuiiY",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 558,
+        "ocr_status": "",
+        "ocr_chars": 0,
         "youtube_kind": "short"
       },
       {
@@ -813,8 +813,8 @@
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
     "video_count": 16,
-    "short_count": 5,
-    "regular_video_count": 11,
+    "short_count": 8,
+    "regular_video_count": 8,
     "mention_count": 38,
     "transcript_count": 16,
     "metadata_count": 0,
@@ -880,21 +880,6 @@
     ],
     "videos": [
       {
-        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
-        "url": "https://youtu.be/W2TMT2O0qg8",
-        "published_at": "2026-06-02T09:30:23+00:00",
-        "tickers": [
-          "005930",
-          "005380",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 253,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/rapTrDT6EcM",
         "published_at": "2026-06-02T03:35:18+00:00",
@@ -909,30 +894,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 63172,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "삼성전자, 더 오를 가능성 있는 3가지 이유",
-        "url": "https://youtu.be/wQxVjw-DlRk",
-        "published_at": "2026-06-01T09:30:23+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 323,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "국민연금 국내주식 목표비중 상향",
-        "url": "https://youtu.be/_y5f0yhVF7Q",
-        "published_at": "2026-06-01T09:03:12+00:00",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 252,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "video"
@@ -1042,6 +1003,45 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "video"
+      },
+      {
+        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
+        "url": "https://youtu.be/W2TMT2O0qg8",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "005380",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 253,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자, 더 오를 가능성 있는 3가지 이유",
+        "url": "https://youtu.be/wQxVjw-DlRk",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 323,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "국민연금 국내주식 목표비중 상향",
+        "url": "https://youtu.be/_y5f0yhVF7Q",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 252,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
       },
       {
         "title": "AI이후 미국 정부가 선택한 테마는?",
@@ -1313,19 +1313,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "지금 월가가 보고있는 ‘반도체 슈퍼사이클’ 전망(+끝나는 시기)",
-        "url": "https://youtu.be/rF1oIsFbHMU",
-        "published_at": "",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2256,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -1386,6 +1373,19 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1690,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "지금 월가가 보고있는 ‘반도체 슈퍼사이클’ 전망(+끝나는 시기)",
+        "url": "https://youtu.be/rF1oIsFbHMU",
+        "published_at": "",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 2256,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -1837,8 +1837,8 @@
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
     "video_count": 13,
-    "short_count": 0,
-    "regular_video_count": 13,
+    "short_count": 3,
+    "regular_video_count": 10,
     "mention_count": 24,
     "transcript_count": 5,
     "metadata_count": 8,
@@ -1884,21 +1884,6 @@
     ],
     "videos": [
       {
-        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
-        "url": "https://youtu.be/jugR80aja84",
-        "published_at": "2026-06-03T10:45:02+00:00",
-        "tickers": [
-          "005930",
-          "003550",
-          "009150"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 660,
-        "ocr_status": "ok",
-        "ocr_chars": 281,
-        "youtube_kind": "video"
-      },
-      {
         "title": "1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주",
         "url": "https://youtu.be/kggxPJ0hwHc",
         "published_at": "2026-06-03T09:45:12+00:00",
@@ -1909,36 +1894,6 @@
         "transcript_chars": 0,
         "ocr_status": "ok",
         "ocr_chars": 511,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "LG전자•두산로보틱스 놓쳤다면 잡아야할 피지컬 AI 한국주식 대장주",
-        "url": "https://youtu.be/bpY9atKnvU8",
-        "published_at": "2026-06-02T10:45:14+00:00",
-        "tickers": [
-          "005930",
-          "066570",
-          "003550"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 784,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
-        "url": "https://youtu.be/DMxWlG37qEY",
-        "published_at": "2026-05-31T11:42:02+00:00",
-        "tickers": [
-          "066570",
-          "003550",
-          "009150"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 742,
-        "ocr_status": "ok",
-        "ocr_chars": 430,
         "youtube_kind": "video"
       },
       {
@@ -2057,6 +2012,51 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "video"
+      },
+      {
+        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
+        "url": "https://youtu.be/jugR80aja84",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "003550",
+          "009150"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 660,
+        "ocr_status": "ok",
+        "ocr_chars": 281,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "LG전자•두산로보틱스 놓쳤다면 잡아야할 피지컬 AI 한국주식 대장주",
+        "url": "https://youtu.be/bpY9atKnvU8",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "066570",
+          "003550"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 784,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
+        "url": "https://youtu.be/DMxWlG37qEY",
+        "published_at": "",
+        "tickers": [
+          "066570",
+          "003550",
+          "009150"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 742,
+        "ocr_status": "ok",
+        "ocr_chars": 430,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -3012,8 +3012,8 @@
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
     "video_count": 6,
-    "short_count": 0,
-    "regular_video_count": 6,
+    "short_count": 2,
+    "regular_video_count": 4,
     "mention_count": 6,
     "transcript_count": 4,
     "metadata_count": 2,
@@ -3039,19 +3039,6 @@
     ],
     "videos": [
       {
-        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
-        "url": "https://youtu.be/jugR80aja84",
-        "published_at": "2026-06-03T10:45:02+00:00",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 660,
-        "ocr_status": "ok",
-        "ocr_chars": 281,
-        "youtube_kind": "video"
-      },
-      {
         "title": "1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주",
         "url": "https://youtu.be/kggxPJ0hwHc",
         "published_at": "2026-06-03T09:45:12+00:00",
@@ -3062,19 +3049,6 @@
         "transcript_chars": 0,
         "ocr_status": "ok",
         "ocr_chars": 511,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
-        "url": "https://youtu.be/DMxWlG37qEY",
-        "published_at": "2026-05-31T11:42:02+00:00",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 742,
-        "ocr_status": "ok",
-        "ocr_chars": 430,
         "youtube_kind": "video"
       },
       {
@@ -3115,6 +3089,32 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "video"
+      },
+      {
+        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
+        "url": "https://youtu.be/jugR80aja84",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 660,
+        "ocr_status": "ok",
+        "ocr_chars": 281,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
+        "url": "https://youtu.be/DMxWlG37qEY",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 742,
+        "ocr_status": "ok",
+        "ocr_chars": 430,
+        "youtube_kind": "short"
       }
     ]
   },

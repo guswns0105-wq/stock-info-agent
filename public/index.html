@@ -2,17 +2,17 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>종목추천 소스 대시보드</title>
+<title>한국·미국 주식 AI 추천·뉴스 대시보드</title>
 <style>
 :root{--panel:#121a33;--panel2:#182442;--text:#eef3ff;--muted:#9fb0d0;--accent:#65d6ff;--green:#89f7a5;--yellow:#ffe08a;--red:#ffd0d0}
 *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top left,#18305f,#081020 45%,#070b16);color:var(--text)}
 header,main{max-width:1180px;margin:auto} header{padding:36px 22px 18px} h1{margin:0 0 8px;font-size:clamp(28px,5vw,46px)} .subtitle,.meta,.empty{color:var(--muted)}
 .kpis{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px} .kpi{background:rgba(101,214,255,.10);border:1px solid rgba(101,214,255,.25);padding:10px 14px;border-radius:14px}
-.tabs{display:flex;gap:10px;max-width:1180px;margin:0 auto 16px;padding:0 22px} .tabs a{text-decoration:none;color:var(--text);background:var(--panel);border:1px solid #26385f;padding:10px 18px;border-radius:999px}
+.tabs{display:flex;gap:10px;max-width:1180px;margin:0 auto 16px;padding:0 22px;flex-wrap:wrap} .tabs a{text-decoration:none;color:var(--text);background:var(--panel);border:1px solid #26385f;padding:10px 18px;border-radius:999px}
 main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55} h2{color:var(--accent);margin-top:30px}
 .card{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)} .small h4{font-size:18px;margin:8px 0} .card p{color:#d9e4ff;line-height:1.56}
 .stock-rank-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px} .stock-rank-card{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)} .rank{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px} .stock-name{grid-area:name;font-size:20px;font-weight:800;color:#fff} .stock-code{grid-area:code;color:var(--green);font-size:14px} .mention-count{grid-area:count;color:var(--yellow);white-space:nowrap} .mention-count b{font-size:28px} .section-note{color:var(--muted);line-height:1.55}
-.ai-top-section{margin:22px 0 34px} .ai-market-title{margin:22px 0 12px;color:var(--yellow)} .ai-rec-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px} .ai-rec-card{position:relative;background:linear-gradient(145deg,rgba(255,224,138,.16),rgba(18,26,51,.96));border:1px solid rgba(255,224,138,.42);border-radius:22px;padding:18px;box-shadow:0 16px 34px rgba(0,0,0,.28)} .ai-rank{display:inline-flex;color:#111;background:var(--yellow);border-radius:999px;padding:5px 10px;font-weight:900;font-size:12px} .ai-rec-head{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-top:10px} .ai-rec-head h3{font-size:24px;margin:0 0 3px} .ai-rec-head span{color:var(--muted)} .ai-rec-head strong{color:var(--green);font-size:24px;white-space:nowrap} .ai-price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0} .ai-price-grid span{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:13px;padding:9px} .ai-price-grid b{display:block;color:#fff;margin-top:3px} .ai-comment{line-height:1.55} .ai-why{margin:10px 0;padding-left:20px;color:#eaf3ff} .ai-risk{font-size:13px;color:#ffe6e6;background:rgba(255,208,208,.08);border:1px solid rgba(255,208,208,.2);border-radius:12px;padding:9px;margin-top:10px}
+.news-section{margin:18px 0 34px;background:linear-gradient(145deg,rgba(137,247,165,.08),rgba(24,36,66,.76));border:1px solid rgba(137,247,165,.20);border-radius:22px;padding:20px} .news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px} .news-column h3{margin:4px 0 12px;color:#fff} .news-card{background:rgba(7,11,22,.34);border:1px solid rgba(101,214,255,.16);border-radius:16px;padding:13px;margin:10px 0} .news-top{display:flex;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:13px} .news-card h3{font-size:16px;margin:8px 0 6px;color:#fff;line-height:1.35} .news-card p{color:#d9e4ff;line-height:1.45;margin:0;font-size:14px} .ai-top-section{margin:22px 0 34px} .ai-market-title{margin:22px 0 12px;color:var(--yellow)} .ai-rec-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px} .ai-rec-card{position:relative;background:linear-gradient(145deg,rgba(255,224,138,.16),rgba(18,26,51,.96));border:1px solid rgba(255,224,138,.42);border-radius:22px;padding:18px;box-shadow:0 16px 34px rgba(0,0,0,.28)} .ai-rank{display:inline-flex;color:#111;background:var(--yellow);border-radius:999px;padding:5px 10px;font-weight:900;font-size:12px} .ai-rec-head{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-top:10px} .ai-rec-head h3{font-size:24px;margin:0 0 3px} .ai-rec-head span{color:var(--muted)} .ai-rec-head strong{color:var(--green);font-size:24px;white-space:nowrap} .ai-price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0} .ai-price-grid span{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:13px;padding:9px} .ai-price-grid b{display:block;color:#fff;margin-top:3px} .ai-comment{line-height:1.55} .ai-why{margin:10px 0;padding-left:20px;color:#eaf3ff} .ai-risk{font-size:13px;color:#ffe6e6;background:rgba(255,208,208,.08);border:1px solid rgba(255,208,208,.2);border-radius:12px;padding:9px;margin-top:10px}
 .method-section{margin:18px 0 34px;background:linear-gradient(145deg,rgba(101,214,255,.10),rgba(24,36,66,.72));border:1px solid rgba(101,214,255,.24);border-radius:22px;padding:20px;box-shadow:0 14px 34px rgba(0,0,0,.24)} .analysis-evidence-panel,.improvement-panel{background:rgba(7,11,22,.32);border:1px solid rgba(101,214,255,.18);border-radius:18px;padding:15px;margin:14px 0} .analysis-evidence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px} .analysis-evidence-card{display:grid;gap:5px;background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.18);border-radius:14px;padding:12px} .analysis-evidence-card b{color:var(--green)} .analysis-evidence-card span,.analysis-evidence-card small,.improvement-panel small{color:var(--muted);line-height:1.35} .improvement-panel ul{list-style:none;margin:0;padding:0;display:grid;gap:8px} .improvement-row{display:grid;grid-template-columns:1fr auto;gap:4px 10px;background:rgba(255,224,138,.07);border:1px solid rgba(255,224,138,.14);border-radius:13px;padding:10px} .improvement-row small{grid-column:1/-1} .status-implemented{color:var(--green)} .status-next{color:var(--yellow)} .method-head{display:flex;justify-content:space-between;gap:18px;align-items:start} .method-head h2{margin-top:0} .quality-score{min-width:190px;background:rgba(7,11,22,.45);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:14px;display:grid;grid-template-columns:auto 1fr;gap:5px 10px;align-items:baseline} .quality-score b{font-size:24px;color:var(--green)} .quality-score span{color:var(--muted);font-size:13px} .method-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0} .method-card{background:rgba(18,26,51,.82);border:1px solid rgba(101,214,255,.20);border-radius:18px;padding:15px} .method-card h3,.theme-panel h3{margin:0 0 8px;color:#fff} .method-card p,.theme-panel p{color:#d9e4ff;line-height:1.5} .method-card ul{padding-left:18px;color:#eaf3ff} .theme-panel{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:18px;padding:15px;margin-top:12px} .theme-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:9px} .theme-row{display:grid;gap:3px;background:rgba(7,11,22,.35);border-radius:14px;padding:10px;border:1px solid rgba(255,224,138,.14)} .theme-row b{color:var(--yellow)} .theme-row span{color:var(--green);font-weight:800} .theme-row small{color:var(--muted);line-height:1.35} .method-evidence{margin-top:12px;color:#d9e4ff} .method-evidence summary{cursor:pointer;color:var(--accent)} .method-evidence li{margin:8px 0} .method-evidence span{display:block;color:var(--muted)}
 .valuation-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin:12px 0 30px} .valuation-card{background:rgba(18,26,51,.94);border:1px solid rgba(101,214,255,.22);border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.23)} .valuation-card.value-good{border-color:rgba(137,247,165,.5)} .valuation-card.value-watch{border-color:rgba(255,224,138,.42)} .valuation-card.value-risk{border-color:rgba(255,208,208,.38)} .valuation-head{display:flex;justify-content:space-between;gap:12px;align-items:start} .valuation-head b{display:block;font-size:19px} .valuation-head span{color:var(--muted)} .valuation-price{display:grid;grid-template-columns:1fr;gap:7px;margin:12px 0} .valuation-price span{background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.16);border-radius:12px;padding:8px 10px} .valuation-metrics,.valuation-pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px} .valuation-metrics span,.good,.risk-pill{font-size:12px;border-radius:999px;padding:5px 9px;background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.2)} .good{color:var(--green);border-color:rgba(137,247,165,.28)} .risk-pill{color:var(--red);border-color:rgba(255,208,208,.28)} .valuation-basis{color:var(--muted);font-size:13px;margin-top:10px;line-height:1.45} .valuation-links{display:flex;gap:10px;margin-top:10px;font-size:13px}
 .youtuber-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px} .youtuber-card{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)} .yt-head{display:flex;justify-content:space-between;gap:12px;align-items:start} .yt-head h3{margin:0;font-size:18px} .yt-head span{color:var(--muted);white-space:nowrap} .yt-quality{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0} .yt-quality span{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)} .yt-count{margin:12px 0;color:var(--yellow)} .yt-count b{font-size:30px} .yt-stocks{display:flex;flex-wrap:wrap;gap:8px} .yt-stock{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff} .yt-stock b{color:var(--green)} .yt-video-list{margin:14px 0 0;padding-left:20px;border-top:1px solid rgba(137,247,165,.18)} .yt-video-list li{padding:10px 0;color:#eaf3ff;line-height:1.38} .yt-video-list b{display:block;margin:4px 0;font-size:14px} .yt-video-list small{color:var(--muted)} .yt-video-kind{font-size:12px;color:var(--yellow);border:1px solid rgba(255,224,138,.28);border-radius:999px;padding:2px 7px}
@@ -21,16 +21,112 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 .evidence-list{list-style:none;padding:0;margin:14px 0 0} .evidence-row{border-top:1px solid #26385f;padding:12px 0} .ev-top{display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#dbe7ff} .ev-title{margin-top:6px;color:#fff} .ev-reason{margin-top:8px;color:#d9e4ff;line-height:1.5}
 .meta{display:flex;flex-wrap:wrap;gap:10px;font-size:14px} a{color:var(--accent)} .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px} .badge{display:inline-flex;padding:5px 10px;border-radius:999px;background:var(--panel2);color:#dbe7ff;font-size:13px}
 .ticker{color:var(--green);border:1px solid rgba(137,247,165,.35)} .rec{color:var(--yellow);border:1px solid rgba(255,224,138,.35)} .conf{color:var(--accent)} .meta-badge{color:#cbd9ff} .region{color:#fff} .type{color:#c8b6ff} footer{color:var(--muted);text-align:center;padding:22px}
-@media (max-width:760px){.summary-grid,.price-grid,.mini-price{grid-template-columns:1fr} .rec-head,.method-head{display:block} .quality-score{margin-top:12px} .score{text-align:left;margin-top:8px}}
+@media (max-width:760px){.summary-grid,.price-grid,.mini-price,.news-grid{grid-template-columns:1fr} .rec-head,.method-head{display:block} .quality-score{margin-top:12px} .score{text-align:left;margin-top:8px}}
 </style></head>
 <body>
-<header><h1>종목추천 소스 대시보드</h1><div class="subtitle">상단에는 종목별 거론 횟수만 크게 보여주고, 아래에는 원문 발언 로그를 정리합니다. / 생성: 2026-06-04 08:02</div><div class="kpis"><div class="kpi">수집 소스 12개</div><div class="kpi">소스 로그 355개</div><div class="kpi">추천/관심 종목 40개</div><div class="kpi">유튜브 자막 142/208개</div><div class="kpi">화면 OCR 27개</div></div></header>
-<nav class="tabs"><a href="#method">방법론</a><a href="#domestic">국내</a><a href="#global">해외</a></nav>
-<main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><div id="method">
+<header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: 2026-06-04 11:42</div><div class="kpis"><div class="kpi">수집 소스 16개</div><div class="kpi">소스 로그 383개</div><div class="kpi">추천/관심 종목 40개</div><div class="kpi">유튜브 자막 142/210개</div><div class="kpi">화면 OCR 27개</div><div class="kpi">뉴스 171건</div></div></header>
+<nav class="tabs"><a href="#news">뉴스</a><a href="#method">방법론</a><a href="#domestic">국내 AI추천</a><a href="#global">미국 AI추천</a></nav>
+<main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거, 최신 뉴스를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="news" class="news-section"><h2>시간별 뉴스 브리핑</h2><p class="section-note">RSS/Google News/금융 뉴스에서 가져온 최신 헤드라인입니다. 종목 추천 점수에는 출처 언급·재무·차트가 우선 반영되고, 뉴스는 리스크/촉매 확인용으로 봅니다.</p><div class="news-grid"><div class="news-column"><h3>한국시장 뉴스</h3><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603044452009" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>미, &#x27;강제노동&#x27; 60개국에 10∼12.5% 관세예고…한국 12.5%(종합2보)</h3>
+              <p>(서울=연합뉴스) 신창용 김아람 기자 = 미국 무역대표부(USTR)는 강제 노동으로 생산된 제품의 거래를 막지 못한 60개 경제권에서 들어온 수...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603082800003" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>정부, 미국 12.5% 관세 예고에 &quot;조만간 USTR 측과 논의&quot;</h3>
+              <p>(서울=연합뉴스) 신창용 기자 = 정부가 미국 무역대표부(USTR)가 한국을 상대로 12.5%의 추가 관세 부과를 예고한 것과 관련해 조만간 U...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603070100073" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>일본은행 총재, 금리 인상 가능성 시사…日기준금리 1% 될까</h3>
+              <p>(도쿄=연합뉴스) 조성미 특파원 = 우에다 가즈오 일본은행 총재가 이달 중순으로 예정된 차기 금융정책결정회의에서 기준금리인 단기 정책금리를 인상...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603055700008" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>골드만삭스 &quot;코스피 목표치 9,000→12,000…강한 실적 모멘텀&quot;</h3>
+              <p>(서울=연합뉴스) 김유아 기자 = 글로벌 투자은행(IB) 골드만삭스는 높은 실적 성장과 메모리 업황의 여전한 저평가 등을 근거로 코스피 목표치를...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603043100002" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>OECD, 올해 韓성장률 1.7→2.6%…&quot;반도체 수요에 더 오를 수도&quot;</h3>
+              <p>(세종=연합뉴스) 이세원 기자 = 경제협력개발기구(OECD)는 올해 한국 경제 성장률 전망치를 1.7%에서 2.6%로 0.9%포인트(p) 상향 ...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603051300001" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>李대통령 &quot;韓 집값 너무 비싸…투기 공화국 탈출해야&quot;</h3>
+              <p>(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 3일 &amp;quot;대한민국은 이미 집값, 부동산값이 비싸도 너무 비싸다&amp;quot;며 &amp;quot;반드시 부동산 투기 공화국에...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603045300011" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>[연합뉴스 이 시각 헤드라인] - 15:00</h3>
+              <p>■ 지방선거 투표율 오후 2시 현재 48.9%…4년 전보다 8.2%p↑</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603038000084" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>인도, 은 수입 제한 강화…&#x27;루피화 방어&#x27; 위해 수요 차단</h3>
+              <p>(하노이=연합뉴스) 박진형 특파원 = 세계 최대 은 소비국인 인도가 역대 최저 수준으로 떨어진 루피화 가치의 추가 하락을 막기 위해 은 수입 제...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602072300002" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>계약서면 발급 안 하고 현금비율 낮춰…시티건설에 과징금 부과</h3>
+              <p>(세종=연합뉴스) 송정은 기자 = 시티건설이 계약 서면을 최대 310일 지나 발급하고 현금결제 비율을 0%까지 낮춰 하도급 대금을 지급해 공정거...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602080000002" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>세화학원, 공사대금 직접지급키로 합의 후 잔금 안 줘…시정명령</h3>
+              <p>(세종=연합뉴스) 송정은 기자 = 공정거래위원회는 학교법인 세화학원이 세화고등학교 언덕 위험 구간 보강공사를 발주하면서 수급사업자에게 지급했어야...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602124600030" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>검역본부, 반려동물 질병협의체 발족…감염병 감시·진단 고도화</h3>
+              <p>(서울=연합뉴스) 김세린 기자 = 농림축산검역본부는 지난달 26일 경북 김천 본부에서 &amp;apos;반려동물 분야별 협의체&amp;apos;를 발족하고 제1차 회의를 열었다...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602124700003" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>폭염·폭우에도 안전하게…도서관 등 318곳 그린리모델링 지원</h3>
+              <p>(세종=연합뉴스) 오진송 기자 = 국토교통부는 노후 공공건축물의 에너지 성능을 개선하고 폭염·폭우 등 기후재난 대응력을 높이기 위해 그린리모델링...</p>
+            </article></div><div class="news-column"><h3>미국시장 뉴스</h3><article class="news-card">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHU0bEU5QXNCb1hQNUFSY204ZFNvamJWQi10c3VSSE40TmdlcEFYLXBwdVhrMUw3dXJuNjBUY21JTkVZWmRqLS1mUnNBcEdwSzBDcFZHblNNZEJGbFNfaVFSNFdwVVNENEhaZ21MTHgwYkR3aUF2OXQtRjJCd3gyYU1kVWZNNksxVW9sU1dTRmJhOHB1Q0RVb1BFemQxWmhiSG41a0tWLVpRZFpXVjln?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>NVIDIA lifts another stock: Navitas Semiconductor surges 19%, betting on the 800V AI power revolution - 富途牛牛</h3>
+              <p>NVIDIA lifts another stock: Navitas Semiconductor surges 19%, betting on the 800V AI power revolution &amp;nbsp;&amp;nbsp; 富途牛牛</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>Meta (META) Stock Trades Up, Here Is Why - Yahoo Finance</h3>
+              <p>Meta (META) Stock Trades Up, Here Is Why &amp;nbsp;&amp;nbsp; Yahoo Finance</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>Broadcom&#x27;s Non-AI Semiconductor Revenue Rose 6% in 2Q, CEO Says - Moomoo</h3>
+              <p>Broadcom&#x27;s Non-AI Semiconductor Revenue Rose 6% in 2Q, CEO Says &amp;nbsp;&amp;nbsp; Moomoo</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMiigJBVV95cUxPWjhrczF4UFVwZEdHQ3RTQ0xEaDlKc2NkMTZLcElFVmJTajRMc0FsTjJROHBXM1B0d2FxcFdON3ZjTkJQR0hVdW96c3VEV2MtSWJRSmpOamR4bWdwUjBtYm84WmJTZDVyTUQ2THVGeS1XSkw3X0FiM1lSVGJ3UXUtellZLUtrV2NHcDBGZjF3WkV0VXlLNzBRM2gxV0k1RnRYa1NXc3NSbTNTM0hsb01Cd2toYl9FNHVTeVdEZDBVWElKUDdUX0FJcjJ4T2xyZm1KcmtudDZtUVFxcy1ZLUVxZWpWbldnUktCMjdEckhUclJRUFdLSTJZN2ltR1k0NGltZ3N6M3gtLV9TZw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>I Predicted the ‘Couch Problem’ Meant Tesla’s Optimus Was Doomed to Fail. Focusing on Factory Labor Flips My TSLA Stock Thesis on Its Head. - Barchart.com</h3>
+              <p>I Predicted the ‘Couch Problem’ Meant Tesla’s Optimus Was Doomed to Fail. Focusing on Factory Labor Flips My TSLA Stock Thesis on Its Head. &amp;nbsp;&amp;nbsp; Barchart.com</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>Expose Shows Why Tesla Is a Stock to Avoid - MarketWise</h3>
+              <p>Expose Shows Why Tesla Is a Stock to Avoid &amp;nbsp;&amp;nbsp; MarketWise</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>Can META Stock Compound Its Way Higher? - Trefis</h3>
+              <p>Can META Stock Compound Its Way Higher? &amp;nbsp;&amp;nbsp; Trefis</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>Jensen Huang praises Meta, says &#x27;nobody uses AI better&#x27; – META stock rebounds in premarket - MSN</h3>
+              <p>Jensen Huang praises Meta, says &#x27;nobody uses AI better&#x27; – META stock rebounds in premarket &amp;nbsp;&amp;nbsp; MSN</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Tue, 2 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602134652017" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)</h3>
+              <p>(서울=연합뉴스) 권하영 김주환 강태우 오지은 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 방한 기간 김성훈 업스테이지 대표를 비롯한 국내 ...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Tue, 2 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602041951008" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>[특징주] SKT, &#x27;엔비디아 파트너&#x27; 부각에 11% 급등 마감(종합)</h3>
+              <p>(서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Thu, 04 Ju</span><a href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>AVGO, CRWD, XOS, NVTS, FIVE: 5 Trending Stocks Today - Broadcom (NASDAQ:AVGO) - Benzinga</h3>
+              <p>AVGO, CRWD, XOS, NVTS, FIVE: 5 Trending Stocks Today - Broadcom (NASDAQ:AVGO) &amp;nbsp;&amp;nbsp; Benzinga</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Mon, 01 Ju</span><a href="https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA</h3>
+              <p>New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &amp;nbsp;&amp;nbsp; Semiconductor Industry Association | SIA</p>
+            </article><article class="news-card">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Fri, 22 Ma</span><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <h3>How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs</h3>
+              <p>How Hedge Funds Are Trading Semiconductor Stocks &amp;nbsp;&amp;nbsp; Goldman Sachs</p>
+            </article></div></div></section><div id="method">
     <section class="method-section">
       <div class="method-head">
         <div><h2>분석 품질·방법론 업데이트</h2><p class="section-note">최근 추가 분석 근거를 바탕으로, 추천 순위와 출처 로그를 더 신중하게 해석하도록 품질·리스크 레이어를 추가했습니다.</p></div>
-        <div class="quality-score"><b>142/208</b><span>유튜브 자막</span><b>27</b><span>OCR 성공 · 12,275자</span></div>
+        <div class="quality-score"><b>142/210</b><span>유튜브 자막</span><b>27</b><span>OCR 성공 · 12,275자</span></div>
       </div>
       <div class="analysis-evidence-panel"><h3>추가 분석 근거</h3><p>이번 대시보드는 아래 자료를 출처 품질·테마·리스크 레이어로만 사용합니다.</p><div class="analysis-evidence-grid"><article class="analysis-evidence-card"><b>경제사냥꾼 Shorts ASR 자료</b><span>50개 Shorts, ASR OK 50/50, 대본 112,532자, 반복 테마 36회 AI·34회 반도체</span><small>유튜버별 반복 테마/종목 언급을 추천과 분리한 관심축으로 표시하고, ASR 오인식 가능성을 명시</small></article><article class="analysis-evidence-card"><b>국내주식 단타·캔들·차트 YouTube ASR/OCR 확장 자료</b><span>30개 영상, transcript 28/30, 대본 299,956자, OCR 29/30, 프레임 1,029개, evidence 391개</span><small>차트/캔들/거래량/호가/눌림/돌파 표현은 화면·대본 근거가 있어도 교육용 신호로만 표시</small></article><article class="analysis-evidence-card"><b>국내주식 자동매매·퀀트·종목선정·재무제표 광범위 자료</b><span>YouTube 후보 218개, 선정 75개, 웹 snapshot 10개, documents 85개, graph 91 nodes/160 edges</span><small>PER/PBR/ROE, 재무제표, 백테스트·리스크, 종목선정 체크리스트를 AI Top5/재무판단과 분리</small></article><article class="analysis-evidence-card"><b>기존 국내주식 차트매매 정밀 자료</b><span>20개 영상, 대본 206,853자, OCR 성공 20개, OCR 프레임 667개</span><small>차트·캔들·거래량·호가 화면 근거의 품질 배지 표시</small></article></div></div>
       <div class="method-grid">
@@ -55,46 +151,46 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </section></div><section id="domestic" class="tabpanel"><section class="ai-top-section"><h2>국내주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 1</div>
-      <div class="ai-rec-head"><div><h3>기아</h3><span>000270 · 국내</span></div><strong>12.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>168,800원</b></span><span>적정매수가 <b>165,424원</b></span><span>적정매도가 <b>522,111원</b></span><span>판단 적정가 <b>497,249원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 194.6% 여력, 상승 추세, ROE 20.44% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 4.59</span><span>PBR 0.85</span><span>ROE 20.44%</span><span>차트 상승 추세</span><span>20일 11.20%</span></div>
-      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 20.44%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-rec-head"><div><h3>현대차</h3><span>005380 · 국내</span></div><strong>12.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>700,000원</b></span><span>적정매수가 <b>686,000원</b></span><span>적정매도가 <b>1,670,389원</b></span><span>판단 적정가 <b>1,590,847원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 19회, 적정가 대비 127.3% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 4.67</span><span>PBR 0.58</span><span>ROE 13.68%</span><span>차트 상승 추세</span><span>20일 29.87%</span></div>
+      <ul class="ai-why"><li>출처 언급 19회</li><li>ROE 13.68%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 2</div>
-      <div class="ai-rec-head"><div><h3>현대차</h3><span>005380 · 국내</span></div><strong>9.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>729,000원</b></span><span>적정매수가 <b>714,420원</b></span><span>적정매도가 <b>1,730,742원</b></span><span>판단 적정가 <b>1,648,326원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 19회, 적정가 대비 126.1% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 4.67</span><span>PBR 0.58</span><span>ROE 13.68%</span><span>차트 상승 추세</span><span>20일 37.29%</span></div>
-      <ul class="ai-why"><li>출처 언급 19회</li><li>ROE 13.68%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-rec-head"><div><h3>기아</h3><span>000270 · 국내</span></div><strong>11.75점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>165,100원</b></span><span>적정매수가 <b>161,798원</b></span><span>적정매도가 <b>513,506원</b></span><span>판단 적정가 <b>489,053원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 196.2% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 4.59</span><span>PBR 0.85</span><span>ROE 20.44%</span><span>차트 중립 추세</span><span>20일 7.21%</span></div>
+      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 20.44%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 3</div>
       <div class="ai-rec-head"><div><h3>SK하이닉스</h3><span>000660 · 국내</span></div><strong>9.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>2,360,000원</b></span><span>적정매수가 <b>2,312,800원</b></span><span>적정매도가 <b>3,490,411원</b></span><span>판단 적정가 <b>3,324,201원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 27회, 적정가 대비 40.86% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 6.40</span><span>PBR 1.82</span><span>ROE 31.06%</span><span>차트 상승 추세</span><span>20일 83.51%</span></div>
-      <ul class="ai-why"><li>출처 언급 27회</li><li>ROE 31.06%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-price-grid"><span>현재가 <b>2,288,000원</b></span><span>적정매수가 <b>2,242,240원</b></span><span>적정매도가 <b>3,388,858원</b></span><span>판단 적정가 <b>3,227,484원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 29회, 적정가 대비 41.06% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 6.40</span><span>PBR 1.82</span><span>ROE 31.06%</span><span>차트 상승 추세</span><span>20일 58.12%</span></div>
+      <ul class="ai-why"><li>출처 언급 29회</li><li>ROE 31.06%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 4</div>
-      <div class="ai-rec-head"><div><h3>LG</h3><span>003550 · 국내</span></div><strong>7.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>140,000원</b></span><span>적정매수가 <b>127,881원</b></span><span>적정매도가 <b>163,750원</b></span><span>판단 적정가 <b>155,953원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 30회, 적정가 대비 11.39% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 10.92</span><span>PBR 0.51</span><span>ROE 4.89%</span><span>차트 상승 추세</span><span>20일 41.27%</span></div>
-      <ul class="ai-why"><li>출처 언급 30회</li><li>PBR 0.51배</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-rec-head"><div><h3>LG</h3><span>003550 · 국내</span></div><strong>9.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>128,900원</b></span><span>적정매수가 <b>119,788원</b></span><span>적정매도가 <b>153,387원</b></span><span>판단 적정가 <b>146,083원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 31회, 적정가 대비 13.33% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 10.92</span><span>PBR 0.51</span><span>ROE 4.89%</span><span>차트 상승 추세</span><span>20일 26.00%</span></div>
+      <ul class="ai-why"><li>출처 언급 31회</li><li>PBR 0.51배</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 5</div>
       <div class="ai-rec-head"><div><h3>현대모비스</h3><span>012330 · 국내</span></div><strong>6.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>759,000원</b></span><span>적정매수가 <b>743,820원</b></span><span>적정매도가 <b>1,295,443원</b></span><span>판단 적정가 <b>1,233,756원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 62.55% 여력, 상승 추세, ROE 8.73% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 6.52</span><span>PBR 0.53</span><span>ROE 8.73%</span><span>차트 상승 추세</span><span>20일 78.59%</span></div>
+      <div class="ai-price-grid"><span>현재가 <b>730,000원</b></span><span>적정매수가 <b>715,400원</b></span><span>적정매도가 <b>1,252,750원</b></span><span>판단 적정가 <b>1,193,096원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 63.44% 여력, 상승 추세, ROE 8.73% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 6.52</span><span>PBR 0.53</span><span>ROE 8.73%</span><span>차트 상승 추세</span><span>20일 69.18%</span></div>
       <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 8.73%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article></div></section><h2>국내 종목 언급 순위</h2><div class="stock-rank-grid">
@@ -102,21 +198,21 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <span class="rank">#1</span>
       <span class="stock-name">삼성전자</span>
       <span class="stock-code">005930</span>
-      <span class="mention-count"><b>58</b>번 거론</span>
+      <span class="mention-count"><b>62</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
       <span class="rank">#2</span>
       <span class="stock-name">LG</span>
       <span class="stock-code">003550</span>
-      <span class="mention-count"><b>30</b>번 거론</span>
+      <span class="mention-count"><b>31</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
       <span class="rank">#3</span>
       <span class="stock-name">SK하이닉스</span>
       <span class="stock-code">000660</span>
-      <span class="mention-count"><b>27</b>번 거론</span>
+      <span class="mention-count"><b>29</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
@@ -144,7 +240,7 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <span class="rank">#7</span>
       <span class="stock-name">LG전자</span>
       <span class="stock-code">066570</span>
-      <span class="mention-count"><b>5</b>번 거론</span>
+      <span class="mention-count"><b>6</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
@@ -225,9 +321,9 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </div></div><h2>국내 Hermes 재무·저평가 판단</h2><p class="section-note">공개 재무지표 기반 스크리닝입니다. 매수 지시가 아니라 “관찰 가격대” 산정이며, 실적·공시·수급을 별도로 확인해야 합니다.</p><div class="valuation-grid">
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>기아</b><span>000270</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 168,800원</span><span>판단 적정가 497,249원</span><span>관찰매수가 407,744원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 407,744 KRW 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 4.59</span><span>Fwd PER 확인 불가</span><span>PBR 0.85</span><span>ROE 20.44%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 11.20%</span></div>
+      <div class="valuation-price"><span>현재가 165,100원</span><span>판단 적정가 489,053원</span><span>관찰매수가 401,024원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 401,024 KRW 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 4.59</span><span>Fwd PER 확인 불가</span><span>PBR 0.85</span><span>ROE 20.44%</span><span>순마진 확인 불가</span><span>차트 중립 추세</span><span>20일 7.21%</span></div>
       <div class="valuation-basis">산식: PER 4.59배 → 기준 PER 17.00배 / EPS 21,770 → 기준 PER 17.00배 / PBR 0.85배 → 기준 PBR 2.50배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 3회</span><span class="good">ROE 20.44%</span><span class="good">PER가 기준보다 낮음</span><span class="good">PBR 0.85배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
@@ -235,9 +331,9 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>현대차</b><span>005380</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 729,000원</span><span>판단 적정가 1,648,326원</span><span>관찰매수가 1,351,627원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 1,351,627 KRW 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 4.67</span><span>Fwd PER 확인 불가</span><span>PBR 0.58</span><span>ROE 13.68%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 37.29%</span></div>
+      <div class="valuation-price"><span>현재가 700,000원</span><span>판단 적정가 1,590,847원</span><span>관찰매수가 1,304,494원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 1,304,494 KRW 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 4.67</span><span>Fwd PER 확인 불가</span><span>PBR 0.58</span><span>ROE 13.68%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 29.87%</span></div>
       <div class="valuation-basis">산식: PER 4.67배 → 기준 PER 14.00배 / EPS 43,589 → 기준 PER 14.00배 / PBR 0.58배 → 기준 PBR 1.71배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 19회</span><span class="good">ROE 13.68%</span><span class="good">PER가 기준보다 낮음</span><span class="good">PBR 0.58배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
@@ -245,9 +341,9 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>현대모비스</b><span>012330</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 759,000원</span><span>판단 적정가 1,233,756원</span><span>관찰매수가 1,011,680원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 1,011,680 KRW 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 6.52</span><span>Fwd PER 확인 불가</span><span>PBR 0.53</span><span>ROE 8.73%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 78.59%</span></div>
+      <div class="valuation-price"><span>현재가 730,000원</span><span>판단 적정가 1,193,096원</span><span>관찰매수가 978,338원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 978,338 KRW 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 6.52</span><span>Fwd PER 확인 불가</span><span>PBR 0.53</span><span>ROE 8.73%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 69.18%</span></div>
       <div class="valuation-basis">산식: PER 6.52배 → 기준 PER 14.00배 / EPS 36,340 → 기준 PER 14.00배 / PBR 0.53배 → 기준 PBR 1.09배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 3회</span><span class="good">ROE 8.73%</span><span class="good">PER가 기준보다 낮음</span><span class="good">PBR 0.53배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
@@ -255,19 +351,19 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>SK하이닉스</b><span>000660</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 2,360,000원</span><span>판단 적정가 3,324,201원</span><span>관찰매수가 2,725,845원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 2,725,845 KRW 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 6.40</span><span>Fwd PER 확인 불가</span><span>PBR 1.82</span><span>ROE 31.06%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 83.51%</span></div>
+      <div class="valuation-price"><span>현재가 2,288,000원</span><span>판단 적정가 3,227,484원</span><span>관찰매수가 2,646,537원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 2,646,537 KRW 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 6.40</span><span>Fwd PER 확인 불가</span><span>PBR 1.82</span><span>ROE 31.06%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 58.12%</span></div>
       <div class="valuation-basis">산식: PER 6.40배 → 기준 PER 17.00배 / EPS 27,182 → 기준 PER 17.00배 / PBR 1.82배 → 기준 PBR 2.50배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 27회</span><span class="good">ROE 31.06%</span><span class="good">PER가 기준보다 낮음</span></div>
+      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 29회</span><span class="good">ROE 31.06%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://finance.naver.com/item/main.naver?code=000660" target="_blank" rel="noreferrer">재무출처</a><a href="https://query1.finance.yahoo.com/v8/finance/chart/000660.KS" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>삼성화재</b><span>000810</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 641,000원</span><span>판단 적정가 1,069,779원</span><span>관찰매수가 877,218원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 877,218 KRW 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 7.31</span><span>Fwd PER 확인 불가</span><span>PBR 0.69</span><span>ROE 12.73%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 39.05%</span></div>
+      <div class="valuation-price"><span>현재가 727,000원</span><span>판단 적정가 1,190,790원</span><span>관찰매수가 976,448원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 976,448 KRW 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 7.31</span><span>Fwd PER 확인 불가</span><span>PBR 0.69</span><span>ROE 12.73%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 53.54%</span></div>
       <div class="valuation-basis">산식: PER 7.31배 → 기준 PER 14.00배 / EPS 35,961 → 기준 PER 14.00배 / PBR 0.69배 → 기준 PBR 1.59배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">ROE 12.73%</span><span class="good">PER가 기준보다 낮음</span><span class="good">PBR 0.69배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
@@ -275,9 +371,9 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>삼성생명</b><span>032830</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 480,000원</span><span>판단 적정가 742,662원</span><span>관찰매수가 608,983원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 608,983 KRW 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 7.29</span><span>Fwd PER 확인 불가</span><span>PBR 0.29</span><span>ROE 4.95%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 92.38%</span></div>
+      <div class="valuation-price"><span>현재가 427,500원</span><span>판단 적정가 665,579원</span><span>관찰매수가 545,775원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 545,775 KRW 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 7.29</span><span>Fwd PER 확인 불가</span><span>PBR 0.29</span><span>ROE 4.95%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 61.32%</span></div>
       <div class="valuation-basis">산식: PER 7.29배 → 기준 PER 12.00배 / EPS 9,477 → 기준 PER 12.00배 / PBR 0.29배 → 기준 PBR 0.80배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">PER가 기준보다 낮음</span><span class="good">PBR 0.29배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="risk-pill">ROE 낮음 4.95%</span></div>
@@ -285,19 +381,19 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-watch">
       <div class="valuation-head"><div><b>LG</b><span>003550</span></div><span class="badge rec">관심권</span></div>
-      <div class="valuation-price"><span>현재가 140,000원</span><span>판단 적정가 155,953원</span><span>관찰매수가 127,881원</span></div>
-      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 127,881 KRW 부근까지 조정 시 매력 증가</p>
-      <div class="valuation-metrics"><span>PER 10.92</span><span>Fwd PER 확인 불가</span><span>PBR 0.51</span><span>ROE 4.89%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 41.27%</span></div>
+      <div class="valuation-price"><span>현재가 128,900원</span><span>판단 적정가 146,083원</span><span>관찰매수가 119,788원</span></div>
+      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 119,788 KRW 부근까지 조정 시 매력 증가</p>
+      <div class="valuation-metrics"><span>PER 10.92</span><span>Fwd PER 확인 불가</span><span>PBR 0.51</span><span>ROE 4.89%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 26.00%</span></div>
       <div class="valuation-basis">산식: PER 10.92배 → 기준 PER 12.00배 / EPS 7,867 → 기준 PER 12.00배 / PBR 0.51배 → 기준 PBR 0.80배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 30회</span><span class="good">PBR 0.51배</span></div>
+      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 31회</span><span class="good">PBR 0.51배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="risk-pill">ROE 낮음 4.89%</span></div>
       <div class="valuation-links"><a href="https://finance.naver.com/item/main.naver?code=003550" target="_blank" rel="noreferrer">재무출처</a><a href="https://query1.finance.yahoo.com/v8/finance/chart/003550.KS" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-watch">
       <div class="valuation-head"><div><b>HMM</b><span>011200</span></div><span class="badge rec">관심권</span></div>
-      <div class="valuation-price"><span>현재가 19,510원</span><span>판단 적정가 22,861원</span><span>관찰매수가 18,746원</span></div>
-      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 18,746 KRW 부근까지 조정 시 매력 증가</p>
-      <div class="valuation-metrics"><span>PER 10.71</span><span>Fwd PER 확인 불가</span><span>PBR 0.63</span><span>ROE 4.59%</span><span>순마진 확인 불가</span><span>차트 하락/약세 추세</span><span>20일 -4.83%</span></div>
+      <div class="valuation-price"><span>현재가 19,570원</span><span>판단 적정가 22,909원</span><span>관찰매수가 18,785원</span></div>
+      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 18,785 KRW 부근까지 조정 시 매력 증가</p>
+      <div class="valuation-metrics"><span>PER 10.71</span><span>Fwd PER 확인 불가</span><span>PBR 0.63</span><span>ROE 4.59%</span><span>순마진 확인 불가</span><span>차트 하락/약세 추세</span><span>20일 -7.47%</span></div>
       <div class="valuation-basis">산식: PER 10.71배 → 기준 PER 12.00배 / EPS 1,829 → 기준 PER 12.00배 / PBR 0.63배 → 기준 PBR 0.80배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">PBR 0.63배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="risk-pill">ROE 낮음 4.59%</span></div>
@@ -305,9 +401,9 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-watch">
       <div class="valuation-head"><div><b>삼성물산</b><span>028260</span></div><span class="badge rec">중립/대기</span></div>
-      <div class="valuation-price"><span>현재가 485,500원</span><span>판단 적정가 462,177원</span><span>관찰매수가 378,985원</span></div>
-      <p><b>Hermes 판단:</b> 적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.<br><b>실행 기준:</b> 378,985 KRW 근처 대기</p>
-      <div class="valuation-metrics"><span>PER 10.95</span><span>Fwd PER 확인 불가</span><span>PBR 0.62</span><span>ROE 7.28%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 62.65%</span></div>
+      <div class="valuation-price"><span>현재가 552,000원</span><span>판단 적정가 519,004원</span><span>관찰매수가 425,584원</span></div>
+      <p><b>Hermes 판단:</b> 적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.<br><b>실행 기준:</b> 425,584 KRW 근처 대기</p>
+      <div class="valuation-metrics"><span>PER 10.95</span><span>Fwd PER 확인 불가</span><span>PBR 0.62</span><span>ROE 7.28%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 72.50%</span></div>
       <div class="valuation-basis">산식: PER 10.95배 → 기준 PER 12.00배 / EPS 11,824 → 기준 PER 12.00배 / PBR 0.62배 → 기준 PBR 0.91배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">PBR 0.62배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
@@ -315,34 +411,34 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="valuation-card value-risk">
       <div class="valuation-head"><div><b>LG전자</b><span>066570</span></div><span class="badge rec">고평가 주의</span></div>
-      <div class="valuation-price"><span>현재가 392,500원</span><span>판단 적정가 189,118원</span><span>관찰매수가 155,077원</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수 산정 적정가를 의미 있게 웃돕니다.<br><b>실행 기준:</b> 155,077 KRW 이하가 아니면 보수적 접근</p>
-      <div class="valuation-metrics"><span>PER 25.82</span><span>Fwd PER 확인 불가</span><span>PBR 0.93</span><span>ROE 3.69%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 178.57%</span></div>
+      <div class="valuation-price"><span>현재가 336,500원</span><span>판단 적정가 164,386원</span><span>관찰매수가 134,796원</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수 산정 적정가를 의미 있게 웃돕니다.<br><b>실행 기준:</b> 134,796 KRW 이하가 아니면 보수적 접근</p>
+      <div class="valuation-metrics"><span>PER 25.82</span><span>Fwd PER 확인 불가</span><span>PBR 0.93</span><span>ROE 3.69%</span><span>순마진 확인 불가</span><span>차트 상승 추세</span><span>20일 134.99%</span></div>
       <div class="valuation-basis">산식: PER 25.82배 → 기준 PER 12.00배 / EPS 3,942 → 기준 PER 12.00배 / PBR 0.93배 → 기준 PBR 0.80배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 5회</span><span class="good">PBR 0.93배</span></div>
+      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 6회</span><span class="good">PBR 0.93배</span></div>
       <div class="valuation-pills"><b>주의</b><span class="risk-pill">ROE 낮음 3.69%</span><span class="risk-pill">PER 부담 25.82배</span></div>
       <div class="valuation-links"><a href="https://finance.naver.com/item/main.naver?code=066570" target="_blank" rel="noreferrer">재무출처</a><a href="https://query1.finance.yahoo.com/v8/finance/chart/066570.KS" target="_blank" rel="noreferrer">재무출처</a></div>
     </article></div><h2>국내 유튜버별 최신 영상·쇼츠 통계</h2><div class="youtuber-grid">
     <article class="youtuber-card">
-      <div class="yt-head"><h3>경제사냥꾼</h3><span>59개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 0 / 쇼츠 59</span><span>57/59 자막</span><span>2/59 OCR</span><span>123,083자 + OCR 340자</span></div>
+      <div class="yt-head"><h3>경제사냥꾼</h3><span>61개 콘텐츠</span></div>
+      <div class="yt-quality"><span>영상 0 / 쇼츠 61</span><span>57/61 자막</span><span>2/61 OCR</span><span>123,083자 + OCR 340자</span></div>
       <div class="yt-count"><b>87</b>번 거론</div>
       <div class="yt-stocks"><span class="yt-stock">삼성전자 <b>33</b>회</span><span class="yt-stock">SK하이닉스 <b>19</b>회</span><span class="yt-stock">LG <b>11</b>회</span><span class="yt-stock">현대차 <b>6</b>회</span><span class="yt-stock">삼성전기 <b>5</b>회</span><span class="yt-stock">카카오 <b>5</b>회</span><span class="yt-stock">현대모비스 <b>2</b>회</span><span class="yt-stock">LG전자 <b>1</b>회</span></div>
       <ol class="yt-video-list"><li><span class="yt-video-kind">쇼츠</span><b>삼성전자, 오늘 꼭 봐야 할 &#x27;반도체 호재&#x27; 뉴스</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div><small>자막본문 기반 · OCR · 날짜 미확인 <a href="https://youtu.be/mbS51XsC7Ck" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>지금 투자자들이 &#x27;삼성전자+하이닉스&#x27;에서 봐야 하는 진짜 포인트</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div><small>자막본문 기반 · OCR · 날짜 미확인 <a href="https://youtu.be/FC9m5yIzNtQ" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>월가에서 437% 오른 ‘LG전자’ 다음으로, 상승장 올 수 있다는 ‘2차 수혜주’ 정체</b><div><span class="badge ticker">066570</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/RDTVr6j1SxQ" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>트럼프가 14조 쏟아붓자, 역대급 상승장 올 수도 있다는 &#x27;한국 종목&#x27; 정체</b><div><span class="badge ticker">009150</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/CGGitwvIEwk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/LL7jqfzZI0k" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>월가에서 372% 오른 &#x27;로켓랩&#x27; 다음으로 상승장 올 수 있다는 &#x27;종목&#x27; 정체</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/YetajTuzG04" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>&#x27;오픈AI&#x27; 상장 후, 역대급 상승장 올 수도 있다는 ‘한국 수혜주’ 정체</b><div><span class="badge ticker">003550</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/yE1BXDeSnnw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)</b><div><span class="badge ticker">000660</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/r5a6RLvYSNk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>&#x27;제2의 하이닉스&#x27; 월가가 지금 주목하고 있다는 &#x27;신규 대장주&#x27; 정체</b><div><span class="badge ticker">005930</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/HDI_HnYzxrE" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>투자자들이 미리 체크하는, 다음주 &#x27;투자&#x27; 포인트(06.01~06.05)</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/EfNfXvCxOac" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>주식용사부</h3><span>16개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 11 / 쇼츠 5</span><span>16/16 자막</span><span>3/16 OCR</span><span>353,303자 + OCR 923자</span></div>
+      <div class="yt-quality"><span>영상 8 / 쇼츠 8</span><span>16/16 자막</span><span>3/16 OCR</span><span>353,303자 + OCR 923자</span></div>
       <div class="yt-count"><b>38</b>번 거론</div>
       <div class="yt-stocks"><span class="yt-stock">삼성전자 <b>9</b>회</span><span class="yt-stock">LG <b>8</b>회</span><span class="yt-stock">현대차 <b>6</b>회</span><span class="yt-stock">SK하이닉스 <b>4</b>회</span><span class="yt-stock">삼성전기 <b>3</b>회</span><span class="yt-stock">에코프로 <b>2</b>회</span><span class="yt-stock">카카오 <b>2</b>회</span><span class="yt-stock">삼성생명 <b>1</b>회</span></div>
-      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>젠슨황의 방한으로 기대감이 올라온 로봇주</b><div><span class="badge ticker">005930</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-06-02 <a href="https://youtu.be/W2TMT2O0qg8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span><span class="badge ticker">032830</span><span class="badge ticker">000810</span></div><small>자막본문 기반 · 2026-06-02 <a href="https://youtu.be/rapTrDT6EcM" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>삼성전자, 더 오를 가능성 있는 3가지 이유</b><div><span class="badge ticker">005930</span></div><small>자막본문 기반 · 2026-06-01 <a href="https://youtu.be/wQxVjw-DlRk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>국민연금 국내주식 목표비중 상향</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · 2026-06-01 <a href="https://youtu.be/_y5f0yhVF7Q" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">035720</span><span class="badge ticker">005380</span><span class="badge ticker">086520</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-06-01 <a href="https://youtu.be/GTShwWRIaCI" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG그룹주 급등 이유, 끝나지 않은 호재</b><div><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-05-29 <a href="https://youtu.be/yg09E60M_xo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · 2026-05-29 <a href="https://youtu.be/h7ejUIGpCOo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>현재 선거 테마주들보다 주식시장에서 중요한 것들</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · 2026-05-28 <a href="https://youtu.be/otySTRJtd-A" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span><span class="badge ticker">011200</span></div><small>자막본문 기반 · 2026-05-28 <a href="https://youtu.be/pF7Pg-eWUGs" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>sk하이닉스 삼성전자 급등한 이유</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/56Ec9B1U4p8" target="_blank" rel="noreferrer">보기</a></small></li></ol>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span><span class="badge ticker">032830</span><span class="badge ticker">000810</span></div><small>자막본문 기반 · 2026-06-02 <a href="https://youtu.be/rapTrDT6EcM" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">035720</span><span class="badge ticker">005380</span><span class="badge ticker">086520</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-06-01 <a href="https://youtu.be/GTShwWRIaCI" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG그룹주 급등 이유, 끝나지 않은 호재</b><div><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-05-29 <a href="https://youtu.be/yg09E60M_xo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">035720</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · 2026-05-29 <a href="https://youtu.be/h7ejUIGpCOo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>현재 선거 테마주들보다 주식시장에서 중요한 것들</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · 2026-05-28 <a href="https://youtu.be/otySTRJtd-A" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span><span class="badge ticker">011200</span></div><small>자막본문 기반 · 2026-05-28 <a href="https://youtu.be/pF7Pg-eWUGs" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>sk하이닉스 삼성전자 급등한 이유</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/56Ec9B1U4p8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥</b><div><span class="badge ticker">005930</span><span class="badge ticker">005380</span><span class="badge ticker">068270</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/gCkOwzqTiC0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>젠슨황의 방한으로 기대감이 올라온 로봇주</b><div><span class="badge ticker">005930</span><span class="badge ticker">005380</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/W2TMT2O0qg8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>삼성전자, 더 오를 가능성 있는 3가지 이유</b><div><span class="badge ticker">005930</span></div><small>자막본문 기반 · 날짜 미확인 <a href="https://youtu.be/wQxVjw-DlRk" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>강지한 차트연구소</h3><span>13개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 13 / 쇼츠 0</span><span>5/13 자막</span><span>6/13 OCR</span><span>3,469자 + OCR 2,845자</span></div>
+      <div class="yt-quality"><span>영상 10 / 쇼츠 3</span><span>5/13 자막</span><span>6/13 OCR</span><span>3,469자 + OCR 2,845자</span></div>
       <div class="yt-count"><b>24</b>번 거론</div>
       <div class="yt-stocks"><span class="yt-stock">LG <b>8</b>회</span><span class="yt-stock">삼성전자 <b>5</b>회</span><span class="yt-stock">삼성전기 <b>4</b>회</span><span class="yt-stock">LG전자 <b>3</b>회</span><span class="yt-stock">현대차 <b>2</b>회</span><span class="yt-stock">SK하이닉스 <b>1</b>회</span><span class="yt-stock">에코프로 <b>1</b>회</span></div>
-      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)</b><div><span class="badge ticker">005930</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · OCR · 2026-06-03 <a href="https://youtu.be/jugR80aja84" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주</b><div><span class="badge ticker">003550</span></div><small>OCR화면 기반 · OCR · 2026-06-03 <a href="https://youtu.be/kggxPJ0hwHc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG전자•두산로보틱스 놓쳤다면 잡아야할 피지컬 AI 한국주식 대장주</b><div><span class="badge ticker">005930</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span></div><small>OCR화면 기반 · OCR · 2026-06-02 <a href="https://youtu.be/bpY9atKnvU8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</b><div><span class="badge ticker">066570</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · OCR · 2026-05-31 <a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>6월 초, 해외 반도체 기업 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</b><div><span class="badge ticker">005380</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span></div><small>OCR화면 기반 · OCR · 2026-05-31 <a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</b><div><span class="badge ticker">005930</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · OCR · 2026-05-30 <a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-30 <a href="https://youtu.be/SlqAdSCK68o" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-29 <a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-28 <a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/FR-0wupxVt8" target="_blank" rel="noreferrer">보기</a></small></li></ol>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주</b><div><span class="badge ticker">003550</span></div><small>OCR화면 기반 · OCR · 2026-06-03 <a href="https://youtu.be/kggxPJ0hwHc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>6월 초, 해외 반도체 기업 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</b><div><span class="badge ticker">005380</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span></div><small>OCR화면 기반 · OCR · 2026-05-31 <a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</b><div><span class="badge ticker">005930</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · OCR · 2026-05-30 <a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-30 <a href="https://youtu.be/SlqAdSCK68o" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-29 <a href="https://youtu.be/3cWWX6JQX2s" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-28 <a href="https://youtu.be/or5gMJ3XPvk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀</b><div><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">003550</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/FR-0wupxVt8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-27 <a href="https://youtu.be/QKc7qe1GKEg" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식</b><div><span class="badge ticker">005930</span><span class="badge ticker">005380</span><span class="badge ticker">086520</span><span class="badge ticker">003550</span><span class="badge ticker">009150</span></div><small>자막본문 기반 · 2026-05-26 <a href="https://youtu.be/5EKMn0kg64c" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>코스피 8천 재돌파 ! 외국인•기관•연기금이 쓸어담은 한국주식 TOP11</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-26 <a href="https://youtu.be/_SaezOGJpGU" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>주식쇼퍼 - 투자도 쇼핑처럼</h3><span>6개 콘텐츠</span></div>
@@ -374,6 +470,14 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
 
     <article class="card small">
+      <div class="meta"><strong>Google News 한국 주식 종목</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yd0wySlNhX2FmLUNNQ3F5MXJIU3JxaUdlSTIwci1kdjZhX1JuR3IzTENwOFFhLTlNNXNWd1VOZkVsQS00elZjS3NGOGFrNWdrMHEzVnMyTGR6QdIBXkFVX3lxTE5qdUNxRDhJRWRlTHJ3cGVRN0NrZnlyeDhuRFJWNzJPTEZ3WnJrV1Y2bllMcjR2aFh1TVRzU3d3RXhqWXlNM0RzeDFIU0FwNnRZOHExdkpXZWR4Q3JDOUE?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>삼성전자 주가 오르며 몸값 뛴 이 주식...&quot;주가 11만원 더 오른다&quot; - 파이낸셜뉴스</h4>
+      <p>삼성전자 주가 오르며 몸값 뛴 이 주식...&quot;주가 11만원 더 오른다&quot; &amp;nbsp;&amp;nbsp; 파이낸셜뉴스</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">005930</span></div>
+    </article>
+
+    <article class="card small">
       <div class="meta"><strong>연합뉴스 경제</strong><span>Tue, 2 Jun</span><a class="source-link" href="https://www.yna.co.kr/view/AKR20260602043951008" target="_blank" rel="noreferrer">원문</a></div>
       <h4>[특징주] 삼전, 3%대 상승으로 코스피 지켰다…하이닉스 약보합(종합)</h4>
       <p>(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 2일 변동성 장세 속에서도 3% 넘게 급등하며 장을 종료했다.</p>
@@ -387,6 +491,46 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p>(서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 2일 페이스북과 인스타그램의 모회사 메타를 제치고 글로벌 상장사 시가총액 순위에서 1...</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
       <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">005930</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News 한국 주식 종목</strong><span>Tue, 02 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMikwFBVV95cUxORHdEd3B0MFF4bS1FT3BzVHFPSF94LU1RdVhSTEEtTWpUYjl0OWdKUVhxOE54TlYyWnFGSW4wZTlkZHFsdDhEUEQwNGJpZHo2LXFRSW45TlpKbEpDTFU3YW9pbTNXZTZHT0RHVFg1WXVhSjVBcXFWcHl5VXFjejRNUkhGYzJGSm4xU3RraTF3SFQ2VUXSAacBQVVfeXFMUGZoblI2SXozLUJxTmtkWmI0ZGZSSk1RY2ZPMVFsQl81RHJPXzRXNl9CLV9DUVZOYlRNWmlRcGtPcUoydXRkMjgxRDMzNDBweGJvTm1lTmdHWnR1ZnFFTWpKTXE3aVI3UHV1bkhpeUJkU3F1VS1kYXVtMlhoRlhKTV84Y19SRmd1RU9mcEFZRzNiNXkxM0kwMzJ5ek41WG85TVJTUUxhRlE?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>삼성전자·SK하이닉스 주식 10년 묻어둔 가수 소유… “수익금 보태 집 샀다” - 조선비즈 - Chosunbiz</h4>
+      <p>삼성전자·SK하이닉스 주식 10년 묻어둔 가수 소유… “수익금 보태 집 샀다” - 조선비즈 &amp;nbsp;&amp;nbsp; Chosunbiz</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News 한국 주식 종목</strong><span>Thu, 04 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HdHFNZXNsM2Nodml0aG5oTkVsUlNDeGlCbnN3ZE9zeWxYSUp6NDZESmgyYnZiSXlwWkgzX2hEWkQ0TEwwUGc2cURMNGdHMlpwU1Y0?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>박정수 &quot;삼성전자 주식 몇천주 보유했었는데…후회&quot; 고백 - 네이트</h4>
+      <p>박정수 &quot;삼성전자 주식 몇천주 보유했었는데…후회&quot; 고백 &amp;nbsp;&amp;nbsp; 네이트</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">005930</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News 국내 증시·반도체</strong><span>Thu, 04 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxOdGZXNl94eVNIRi1fV192dVVqUEZYbjIxM28xR3lsZjhQMEI5bGlfT2VRSlVpajlqODA2U25DYjJ5cS1LSXhoR2JQWFFHQzJxczdNM1ZKb3ZKbTljbE9pdjhkczdZMTJNcGU3TXZoUVo2NDZjQW8xcnhNWW85QmZ4Yw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>코스피 8600선에서 등락...LG전자 15% 폭락 등 로봇주 약세 - 조선일보</h4>
+      <p>코스피 8600선에서 등락...LG전자 15% 폭락 등 로봇주 약세 &amp;nbsp;&amp;nbsp; 조선일보</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">066570</span><span class="badge ticker">003550</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News 한국 주식 종목</strong><span>Mon, 01 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTFB4N2NKTE96bkc1T3Noc0ZYeGx6S1kxcDNwUzN0cGFfZFlYYmczblVxSTAyVWxOY0hGUUdpdklfX0tjSnhvaGc?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>이재용 삼성전자 회장 주식재산 60조원 넘어…시총 15위 규모 - v.daum.net</h4>
+      <p>이재용 삼성전자 회장 주식재산 60조원 넘어…시총 15위 규모 &amp;nbsp;&amp;nbsp; v.daum.net</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">005930</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News 한국 주식 종목</strong><span>Mon, 01 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE1fOTlRd2ZpTU8yZmhLd0gwZEQ5NzVuVVo4dzZ1ZEh2ZklUWEhzajVRN2twV3U3eHpIRW5LRTc2ZklsWnp1S2t3Y1dkNVVpd1dUN3FqSUVhb0xNWkZFMkdxUXVucw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>美 대형기술펀드 &quot;SK하이닉스 주식 매수 계획&quot; 메모리칩 공급 부족 베팅 - 더구루</h4>
+      <p>美 대형기술펀드 &quot;SK하이닉스 주식 매수 계획&quot; 메모리칩 공급 부족 베팅 &amp;nbsp;&amp;nbsp; 더구루</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">000660</span></div>
     </article>
 
     <article class="card small">
@@ -427,88 +571,40 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p>[0.0s] 님들 6월 1일 투자자들 꼭 알아야 하는 오늘의 투자 포인트 3가지 뭔지 알고 있었어? [3.9s] 오늘 하루에만 역대급 일정이 줄줄이 잡혀 있으면서 [6.3s] 장시작부터 조단이 자금이 움직일 예정이라는데 [8.6s] 이거 모르고 지나치면 오늘 시장 어떻게 움직일지도 모르고 상승장 놓치게 될 테니까 [12.2s] 지금 딱 1분만 집중해봐 [13.6s] 첫 번째로 알아야 할 건 지난 금요일 미국장이야 [16.1s] 다후 SNP500 나스닥 3대 지수가 또 나란히 사상 최고를 갈아치웠고 [19.8s] 특히 SNP500은 9주 연속 오르면서 2023년 12월 2호 가장 긴 연승을 기록했어 [24.2s] 이걸 끌어올린 주인공은 미국의 컴퓨터 회사대리야 [26.6s] AI 서버 수요가 터지면서 깜짝 실적의 전망까지 확 올려 잡으면서 [29.9s] 하루 만에 32.8%나 폭등했거든 [32.1s] 이번 실적은 결국 AI 투자가 메모리 수요로 이어진다는 기대가 살아 있다는 뜻이고 [35.9s] 이건 결국 한국의 삼성전자랑 SK하이닉스한테 우호적인 신호로 볼 수 있어 [39.4s] 왜냐면 대래 AI 서버 판매 확대는 고성능 메모리 수요를 키우는 신호라 [42.7s] 삼정과 하이닉스 같은 메모리 업체에도 우호적인 재료로 해석되거든 [45.7s] 근데 여기서 진짜 중요한 건 지금부터야 [47.7s] 두 번째는 오늘이 MSCI 변경효력이 적</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
       <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>경제사냥꾼</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/yE1BXDeSnnw" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>&#x27;오픈AI&#x27; 상장 후, 역대급 상승장 올 수도 있다는 ‘한국 수혜주’ 정체</h4>
-      <p>[0.0s] 님들 오픈AI 상장 후 역대급 상승장 올 수도 있다는 한국 수회주 정체 뭔지 알고 있었어? [4.8s] 지금 오픈AI가 스페이스X만큼 역대급 상장을 앞두고 있는데 [7.8s] 여기서 진짜 대놓고 수회 받아 먹을 한국 종목들이 따로 있었어 [10.8s] 이거 상장하기 전에 하루 빨리 알고 있어야 후회 안 하니까 [13.3s] 지금 딱 1분만 집중해봐 [14.7s] 오픈AI [15.5s] 다들 알다시피 체치피티를 만든 세계 1위 AI 기업이자 [18.2s] 세몰트머니 CEO로 이끌고 있는 곳이야 [19.9s] 지금 오픈AI는 골드만삭스 [21.6s] 모건스텐이랑 IPO 서류를 비공개로 제출 준비 중이야 [24.3s] 기업가치 8,520억 달러 [26.0s] 하나 천백 조가 넘는데 9월 상장 예정이지 [28.1s] 이게 현실화되면 스페이스X 상장만큼이나 역대 최대 AI 기업 IPO가 되는 거야 [32.2s] 근데 여기서 핵심은 오픈AI가 지금 돈번은 구조를 완전히 바꾸고 있는데 [35.7s] 기존에는 체치피티 유력구독으로 버텼다면 [37.8s] 지금은 기업한테 체치피티 엔터프라이즈를 깔아주는 B2B 모델로 전환 중이야 [41.2s] 그래서 지금 오픈AI는 한국 파트너가 필요할 수밖에 없는 상황이라는데 [44.7s] 여기서 주목받고 있는 종목은 과연 뭐가 있을까? [46.9s] 먼저 첫 번째는 삼성 SDS야 [48.7s] 여기는</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">003550</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>경제사냥꾼</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/r5a6RLvYSNk" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)</h4>
-      <p>[0.0s] 님들, 이재명 정부가 8천억 쏟아 붙는다는 AI 기업 정체 뭔지 알고 있었어. [3.9s] 게다가 지금 이 회사랑 관련된 기업들까지 상황과 찍고 진짜 난리 났다는데 [7.3s] 지금 그냥 넘기면 다들 미리 알고 먹고 있을 때 진짜 후회할 수 있으니까 [10.4s] 딱 1분만 집중해봐. [11.6s] 최근 많은 투자자들의 관심을 받았던 [13.5s] 국민 성장 펀드의 대형 직접 투자 소식이 전해졌어. [15.9s] 이건 경제 사냥권이 알려졌듯이 [17.4s] 이재명 정부가 AI, 반도체, 바이오 같은 첨단 산업에 [20.2s] 5년간 150조 원 규모 자금을 공급하겠다는 정책 펀드로 [23.2s] 최근에 5건 사조 1400억짜리 투자안을 한 번에 승인했어. [26.3s] 페리오사의 AI, 스마일게이트, SK바이오사의 연스, LNF 플러스, 근후 [30.5s] 이렇게 총 5곳이지. [31.7s] 근데 지금 한 가지 이상한 게 분명히 5개의 기업이 같이 지원 받은 건데 [35.1s] 지금 시장은 페리오사에만 환호하고 있다는 거야. [37.2s] 그 이유가 뭘까? [38.1s] 바로 직접 투자하냐 대출이냐? [39.4s] 2차이인데. [40.1s] 이번에 페리오사는 정부가 첨단 전략 산업 기금에서 [42.6s] 3,700억 원을 직접 회사 지분으로 사주는 직접 투자야. [45.3s] 여기에 해외랑 민간 투자자 돈까지 합쳐서 [4</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">000660</span><span class="badge ticker">003550</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>주식용사부</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/zqdHI95eiuc" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>국민성장펀드도 힘을 보태는 2차전지주</h4>
-      <p>2차전지 그동안 조금 힘들다고 하셨던 분들 꽤 계신데 에코프로나 2차전지 관련주들은 아침에 국민 성장 펀드에서도 말씀드렸지만은 국가에서도 투자하려고 하는 섹터입니다. 단기적으로 보셔도 되겠지만 국가에서도 매집을 들어가는 건데 굳이 우리가 단기적을 대응하겠다라고 한다면은 기술적으로 기준을 잘 잡고 하셔야겠죠. 2차전지는 저는 계속 나쁘지 않다고 말씀드렸어요. 에코프로나 에코프로 BM이나 뭐 보스코 퓨처이나 다른 여타 LG 에너지 솔루션이나 걔네들은 슈팅이 다 안 나왔던 거라서 정말 길게 봐야 하는 섹터 테마인 것 같고요.</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">086520</span><span class="badge ticker">003550</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>주식용사부</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/HbyhhcZKy4w" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>삼성전자 어디까지 오를까</h4>
-      <p>반도체 사이클이 지금 끝났냐 했을 때 저는 끝났다고 절대 생각하지 않습니다. 올라갈게 남아 있어요. 그런데 그 주기가 길까 봐 걱정하는 거지. 반도체 사이클이 슈퍼 사이클에 들어갔던 건 맞아요. 슈퍼 사이클에 들어가 있다라는 건 삼성전자 하이닉스 그리고 테라페 일론머스크 걔네들이 투자하는 건요. 젠슨왕이 얘기했죠. 7년에서 8년 간의 장기 호황을 내다보고 투자한다고요. 그 말인 즉은 7, 8년에서 힌트를 얻을 수 있습니다. 다시 온다라는 얘기거든요. 그러니까 삼성전자 하이닉스로 봤을 때 이렇게 올라가서 이렇게 꺾일은 없다라고 생각을 하는 거죠. 저는 여기서 횡보치는 기간이 있을 거예요. 그게 5년 전으로 이제 볼 수 있는 거죠. 짧게는 2, 3년, 정말 짧게는 1년이겠지만 그거는 초단기겠죠. 그렇게 보면 다음 사이클이 있겠죠. 그러면 또 50만 원이 가능한 영역이 열리지 않을까 생각해 볼 수 있겠습니다.</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">005930</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>블로그 magic_rabb1t</strong><span>2026-06-04</span><a class="source-link" href="https://blog.naver.com/magic_rabb1t/224302304075" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검</h4>
-      <p>HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.nav</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">블로거</span><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>블로그 ranto28</strong><span>2026-06-04</span><a class="source-link" href="https://blog.naver.com/ranto28/224302397201" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감</h4>
-      <p>젠슨 황이 삼성과 LG가 아니라 이기업을 선택한 이유는? : 네이버 블로그 NAVER 블로그 메르의 블로그 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 댓글 187 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.naver.com/ 바</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">블로거</span><span class="badge ticker">005930</span><span class="badge ticker">000660</span><span class="badge ticker">005380</span><span class="badge ticker">000270</span><span class="badge ticker">012330</span><span class="badge ticker">003550</span><span class="badge ticker">034020</span></div>
     </article></section><section id="global" class="tabpanel"><section class="ai-top-section"><h2>미국주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 1</div>
-      <div class="ai-rec-head"><div><h3>Meta</h3><span>META · 해외</span></div><strong>10.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>622.98 USD</b></span><span>적정매수가 <b>610.52 USD</b></span><span>적정매도가 <b>892.78 USD</b></span><span>판단 적정가 <b>850.26 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 36.48% 여력, 중립 추세, ROE 32.93% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 18.21</span><span>PBR 6.22</span><span>ROE 32.93%</span><span>차트 중립 추세</span><span>20일 2.98%</span></div>
-      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 32.93%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
+      <div class="ai-rec-head"><div><h3>Meta</h3><span>META · 해외</span></div><strong>11.50점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>622.98 USD</b></span><span>적정매수가 <b>610.52 USD</b></span><span>적정매도가 <b>856.43 USD</b></span><span>판단 적정가 <b>815.65 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 6회, 적정가 대비 30.93% 여력, 중립 추세, ROE 32.93% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 18.98</span><span>PBR 6.49</span><span>ROE 32.93%</span><span>차트 중립 추세</span><span>20일 2.98%</span></div>
+      <ul class="ai-why"><li>출처 언급 6회</li><li>ROE 32.93%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 2</div>
       <div class="ai-rec-head"><div><h3>NVIDIA</h3><span>NVDA · 해외</span></div><strong>10.00점</strong></div>
       <div class="ai-price-grid"><span>현재가 <b>214.75 USD</b></span><span>적정매수가 <b>170.13 USD</b></span><span>적정매도가 <b>214.75 USD</b></span><span>판단 적정가 <b>195.03 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 50회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.</p>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 51회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.</p>
       <div class="valuation-metrics"><span>PER 21.61</span><span>PBR 26.61</span><span>ROE 114.29%</span><span>차트 중립 추세</span><span>20일 9.29%</span></div>
-      <ul class="ai-why"><li>출처 언급 50회</li><li>ROE 114.3%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
+      <ul class="ai-why"><li>출처 언급 51회</li><li>ROE 114.3%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 3</div>
       <div class="ai-rec-head"><div><h3>Microsoft</h3><span>MSFT · 해외</span></div><strong>9.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>427.34 USD</b></span><span>적정매수가 <b>367.47 USD</b></span><span>적정매도가 <b>451.82 USD</b></span><span>판단 적정가 <b>430.30 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 0.69% 여력, 상승 추세, ROE 34.01% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 23.87</span><span>PBR 7.91</span><span>ROE 34.01%</span><span>차트 상승 추세</span><span>20일 3.88%</span></div>
+      <div class="ai-price-grid"><span>현재가 <b>427.34 USD</b></span><span>적정매수가 <b>367.47 USD</b></span><span>적정매도가 <b>466.43 USD</b></span><span>판단 적정가 <b>444.22 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 3.95% 여력, 상승 추세, ROE 34.01% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 23.12</span><span>PBR 7.66</span><span>ROE 34.01%</span><span>차트 상승 추세</span><span>20일 3.88%</span></div>
       <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 34.01%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP 4</div>
       <div class="ai-rec-head"><div><h3>Micron</h3><span>MU · 해외</span></div><strong>9.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>1,079.57 USD</b></span><span>적정매수가 <b>1,057.98 USD</b></span><span>적정매도가 <b>2,050.96 USD</b></span><span>판단 적정가 <b>1,953.29 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 16회, 적정가 대비 80.93% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 11.25</span><span>PBR 16.57</span><span>ROE 39.82%</span><span>차트 상승 추세</span><span>20일 68.63%</span></div>
+      <div class="ai-price-grid"><span>현재가 <b>1,079.57 USD</b></span><span>적정매수가 <b>1,057.98 USD</b></span><span>적정매도가 <b>2,021.66 USD</b></span><span>판단 적정가 <b>1,925.39 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 16회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 11.41</span><span>PBR 16.81</span><span>ROE 39.82%</span><span>차트 상승 추세</span><span>20일 68.63%</span></div>
       <ul class="ai-why"><li>출처 언급 16회</li><li>ROE 39.82%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
     </article>
@@ -525,14 +621,14 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <span class="rank">#1</span>
       <span class="stock-name">NVIDIA</span>
       <span class="stock-code">NVDA</span>
-      <span class="mention-count"><b>50</b>번 거론</span>
+      <span class="mention-count"><b>51</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
       <span class="rank">#2</span>
       <span class="stock-name">Tesla</span>
       <span class="stock-code">TSLA</span>
-      <span class="mention-count"><b>27</b>번 거론</span>
+      <span class="mention-count"><b>29</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
@@ -565,85 +661,85 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 
     <div class="stock-rank-card">
       <span class="rank">#7</span>
+      <span class="stock-name">Meta</span>
+      <span class="stock-code">META</span>
+      <span class="mention-count"><b>6</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#8</span>
       <span class="stock-name">TSMC</span>
       <span class="stock-code">TSM</span>
       <span class="mention-count"><b>6</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#8</span>
+      <span class="rank">#9</span>
       <span class="stock-name">Nasdaq 100 ETF</span>
       <span class="stock-code">QQQ</span>
       <span class="mention-count"><b>5</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#9</span>
+      <span class="rank">#10</span>
       <span class="stock-name">Arm</span>
       <span class="stock-code">ARM</span>
       <span class="mention-count"><b>4</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#10</span>
+      <span class="rank">#11</span>
+      <span class="stock-name">Broadcom</span>
+      <span class="stock-code">AVGO</span>
+      <span class="mention-count"><b>3</b>번 거론</span>
+    </div>
+
+    <div class="stock-rank-card">
+      <span class="rank">#12</span>
       <span class="stock-name">Microsoft</span>
       <span class="stock-code">MSFT</span>
       <span class="mention-count"><b>3</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#11</span>
-      <span class="stock-name">Meta</span>
-      <span class="stock-code">META</span>
-      <span class="mention-count"><b>3</b>번 거론</span>
-    </div>
-
-    <div class="stock-rank-card">
-      <span class="rank">#12</span>
+      <span class="rank">#13</span>
       <span class="stock-name">Apple</span>
       <span class="stock-code">AAPL</span>
       <span class="mention-count"><b>2</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#13</span>
+      <span class="rank">#14</span>
       <span class="stock-name">Intel</span>
       <span class="stock-code">INTC</span>
       <span class="mention-count"><b>2</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#14</span>
+      <span class="rank">#15</span>
       <span class="stock-name">Salesforce</span>
       <span class="stock-code">CRM</span>
       <span class="mention-count"><b>2</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#15</span>
+      <span class="rank">#16</span>
       <span class="stock-name">S&amp;P 500 ETF</span>
       <span class="stock-code">SPY</span>
       <span class="mention-count"><b>2</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#16</span>
+      <span class="rank">#17</span>
       <span class="stock-name">Alphabet</span>
       <span class="stock-code">GOOGL</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div>
 
     <div class="stock-rank-card">
-      <span class="rank">#17</span>
+      <span class="rank">#18</span>
       <span class="stock-name">Amazon</span>
       <span class="stock-code">AMZN</span>
-      <span class="mention-count"><b>1</b>번 거론</span>
-    </div>
-
-    <div class="stock-rank-card">
-      <span class="rank">#18</span>
-      <span class="stock-name">Broadcom</span>
-      <span class="stock-code">AVGO</span>
       <span class="mention-count"><b>1</b>번 거론</span>
     </div>
 
@@ -676,40 +772,40 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </div></div><h2>해외 Hermes 재무·저평가 판단</h2><p class="section-note">공개 재무지표 기반 스크리닝입니다. 매수 지시가 아니라 “관찰 가격대” 산정이며, 실적·공시·수급을 별도로 확인해야 합니다.</p><div class="valuation-grid">
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>Micron</b><span>MU</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 1,079.57 USD</span><span>판단 적정가 1,953.29 USD</span><span>관찰매수가 1,601.70 USD</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 1,602 USD 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 50.06</span><span>Fwd PER 11.25</span><span>PBR 16.57</span><span>ROE 39.82%</span><span>순마진 41.49%</span><span>차트 상승 추세</span><span>20일 68.63%</span></div>
-      <div class="valuation-basis">산식: PER 11.25배 → 기준 PER 38.00배 / PBR 16.57배 → 기준 PBR 4.00배</div>
+      <div class="valuation-price"><span>현재가 1,079.57 USD</span><span>판단 적정가 1,925.39 USD</span><span>관찰매수가 1,578.82 USD</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 1,579 USD 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 50.79</span><span>Fwd PER 11.41</span><span>PBR 16.81</span><span>ROE 39.82%</span><span>순마진 41.49%</span><span>차트 상승 추세</span><span>20일 68.63%</span></div>
+      <div class="valuation-basis">산식: PER 11.41배 → 기준 PER 38.00배 / PBR 16.81배 → 기준 PBR 4.00배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 16회</span><span class="good">ROE 39.82%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/MU" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/mu/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-good">
       <div class="valuation-head"><div><b>Meta</b><span>META</span></div><span class="badge rec">저평가 후보</span></div>
-      <div class="valuation-price"><span>현재가 622.98 USD</span><span>판단 적정가 850.26 USD</span><span>관찰매수가 697.22 USD</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 697.2 USD 이하부터 분할 관심</p>
-      <div class="valuation-metrics"><span>PER 21.74</span><span>Fwd PER 18.21</span><span>PBR 6.22</span><span>ROE 32.93%</span><span>순마진 32.84%</span><span>차트 중립 추세</span><span>20일 2.98%</span></div>
-      <div class="valuation-basis">산식: PER 18.21배 → 기준 PER 38.00배 / PBR 6.22배 → 기준 PBR 4.00배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 3회</span><span class="good">ROE 32.93%</span><span class="good">PER가 기준보다 낮음</span></div>
+      <div class="valuation-price"><span>현재가 622.98 USD</span><span>판단 적정가 815.65 USD</span><span>관찰매수가 668.83 USD</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수적 관찰매수가 이하입니다.<br><b>실행 기준:</b> 668.8 USD 이하부터 분할 관심</p>
+      <div class="valuation-metrics"><span>PER 22.66</span><span>Fwd PER 18.98</span><span>PBR 6.49</span><span>ROE 32.93%</span><span>순마진 32.84%</span><span>차트 중립 추세</span><span>20일 2.98%</span></div>
+      <div class="valuation-basis">산식: PER 18.98배 → 기준 PER 38.00배 / PBR 6.49배 → 기준 PBR 4.00배</div>
+      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 6회</span><span class="good">ROE 32.93%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/META" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/meta/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-watch">
       <div class="valuation-head"><div><b>Salesforce</b><span>CRM</span></div><span class="badge rec">관심권</span></div>
-      <div class="valuation-price"><span>현재가 190.61 USD</span><span>판단 적정가 208.11 USD</span><span>관찰매수가 170.65 USD</span></div>
-      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 170.6 USD 부근까지 조정 시 매력 증가</p>
-      <div class="valuation-metrics"><span>PER 23.31</span><span>Fwd PER 14.43</span><span>PBR 4.80</span><span>ROE 16.91%</span><span>순마진 18.73%</span><span>차트 중립 추세</span><span>20일 1.94%</span></div>
-      <div class="valuation-basis">산식: PER 14.43배 → 기준 PER 24.00배 / PBR 4.80배 → 기준 PBR 2.50배</div>
+      <div class="valuation-price"><span>현재가 190.61 USD</span><span>판단 적정가 219.28 USD</span><span>관찰매수가 179.81 USD</span></div>
+      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 179.8 USD 부근까지 조정 시 매력 증가</p>
+      <div class="valuation-metrics"><span>PER 22.13</span><span>Fwd PER 13.69</span><span>PBR 4.56</span><span>ROE 16.91%</span><span>순마진 18.73%</span><span>차트 중립 추세</span><span>20일 1.94%</span></div>
+      <div class="valuation-basis">산식: PER 13.69배 → 기준 PER 24.00배 / PBR 4.56배 → 기준 PBR 2.50배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">ROE 16.91%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/CRM" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/crm/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-watch">
       <div class="valuation-head"><div><b>Microsoft</b><span>MSFT</span></div><span class="badge rec">관심권</span></div>
-      <div class="valuation-price"><span>현재가 427.34 USD</span><span>판단 적정가 430.30 USD</span><span>관찰매수가 352.85 USD</span></div>
-      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 352.8 USD 부근까지 조정 시 매력 증가</p>
-      <div class="valuation-metrics"><span>PER 26.28</span><span>Fwd PER 23.87</span><span>PBR 7.91</span><span>ROE 34.01%</span><span>순마진 39.34%</span><span>차트 상승 추세</span><span>20일 3.88%</span></div>
-      <div class="valuation-basis">산식: PER 23.87배 → 기준 PER 36.00배 / PBR 7.91배 → 기준 PBR 4.00배</div>
+      <div class="valuation-price"><span>현재가 427.34 USD</span><span>판단 적정가 444.22 USD</span><span>관찰매수가 364.26 USD</span></div>
+      <p><b>Hermes 판단:</b> 적정가 아래이지만 안전마진은 크지 않습니다.<br><b>실행 기준:</b> 364.3 USD 부근까지 조정 시 매력 증가</p>
+      <div class="valuation-metrics"><span>PER 25.46</span><span>Fwd PER 23.12</span><span>PBR 7.66</span><span>ROE 34.01%</span><span>순마진 39.34%</span><span>차트 상승 추세</span><span>20일 3.88%</span></div>
+      <div class="valuation-basis">산식: PER 23.12배 → 기준 PER 36.00배 / PBR 7.66배 → 기준 PBR 4.00배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 3회</span><span class="good">ROE 34.01%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/MSFT" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/msft/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
@@ -730,29 +826,39 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p><b>Hermes 판단:</b> 적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.<br><b>실행 기준:</b> 159.9 USD 근처 대기</p>
       <div class="valuation-metrics"><span>PER 32.89</span><span>Fwd PER 21.61</span><span>PBR 26.61</span><span>ROE 114.29%</span><span>순마진 62.97%</span><span>차트 중립 추세</span><span>20일 9.29%</span></div>
       <div class="valuation-basis">산식: PER 21.61배 → 기준 PER 36.00배 / PBR 26.61배 → 기준 PBR 4.00배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 50회</span><span class="good">ROE 114.3%</span><span class="good">PER가 기준보다 낮음</span></div>
+      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 51회</span><span class="good">ROE 114.3%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/NVDA" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/nvda/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-watch">
       <div class="valuation-head"><div><b>Netflix</b><span>NFLX</span></div><span class="badge rec">중립/대기</span></div>
-      <div class="valuation-price"><span>현재가 81.52 USD</span><span>판단 적정가 73.00 USD</span><span>관찰매수가 59.86 USD</span></div>
-      <p><b>Hermes 판단:</b> 적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.<br><b>실행 기준:</b> 59.86 USD 근처 대기</p>
-      <div class="valuation-metrics"><span>PER 26.92</span><span>Fwd PER 25.06</span><span>PBR 11.28</span><span>ROE 48.49%</span><span>순마진 28.52%</span><span>차트 하락/약세 추세</span><span>20일 -7.25%</span></div>
-      <div class="valuation-basis">산식: PER 25.06배 → 기준 PER 36.00배 / PBR 11.28배 → 기준 PBR 4.00배</div>
+      <div class="valuation-price"><span>현재가 81.52 USD</span><span>판단 적정가 74.62 USD</span><span>관찰매수가 61.19 USD</span></div>
+      <p><b>Hermes 판단:</b> 적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.<br><b>실행 기준:</b> 61.19 USD 근처 대기</p>
+      <div class="valuation-metrics"><span>PER 26.33</span><span>Fwd PER 24.52</span><span>PBR 11.03</span><span>ROE 48.49%</span><span>순마진 28.52%</span><span>차트 하락/약세 추세</span><span>20일 -7.25%</span></div>
+      <div class="valuation-basis">산식: PER 24.52배 → 기준 PER 36.00배 / PBR 11.03배 → 기준 PBR 4.00배</div>
       <div class="valuation-pills"><b>강점</b><span class="good">ROE 48.49%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/NFLX" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/nflx/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-risk">
       <div class="valuation-head"><div><b>Alphabet</b><span>GOOGL</span></div><span class="badge rec">고평가 주의</span></div>
-      <div class="valuation-price"><span>현재가 358.99 USD</span><span>판단 적정가 301.65 USD</span><span>관찰매수가 247.35 USD</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수 산정 적정가를 의미 있게 웃돕니다.<br><b>실행 기준:</b> 247.4 USD 이하가 아니면 보수적 접근</p>
-      <div class="valuation-metrics"><span>PER 27.61</span><span>Fwd PER 28.94</span><span>PBR 9.16</span><span>ROE 38.88%</span><span>순마진 37.92%</span><span>차트 중립 추세</span><span>20일 -7.58%</span></div>
-      <div class="valuation-basis">산식: PER 28.94배 → 기준 PER 36.00배 / PBR 9.16배 → 기준 PBR 4.00배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">ROE 38.88%</span></div>
+      <div class="valuation-price"><span>현재가 358.99 USD</span><span>판단 적정가 304.02 USD</span><span>관찰매수가 249.29 USD</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수 산정 적정가를 의미 있게 웃돕니다.<br><b>실행 기준:</b> 249.3 USD 이하가 아니면 보수적 접근</p>
+      <div class="valuation-metrics"><span>PER 27.39</span><span>Fwd PER 28.72</span><span>PBR 9.09</span><span>ROE 38.88%</span><span>순마진 37.92%</span><span>차트 중립 추세</span><span>20일 -7.58%</span></div>
+      <div class="valuation-basis">산식: PER 28.72배 → 기준 PER 36.00배 / PBR 9.09배 → 기준 PBR 4.00배</div>
+      <div class="valuation-pills"><b>강점</b><span class="good">ROE 38.88%</span><span class="good">PER가 기준보다 낮음</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/GOOGL" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/googl/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
+    </article>
+    <article class="valuation-card value-risk">
+      <div class="valuation-head"><div><b>Broadcom</b><span>AVGO</span></div><span class="badge rec">고평가 주의</span></div>
+      <div class="valuation-price"><span>현재가 479.23 USD</span><span>판단 적정가 313.82 USD</span><span>관찰매수가 257.33 USD</span></div>
+      <p><b>Hermes 판단:</b> 현재가가 보수 산정 적정가를 의미 있게 웃돕니다.<br><b>실행 기준:</b> 257.3 USD 이하가 아니면 보수적 접근</p>
+      <div class="valuation-metrics"><span>PER 79.76</span><span>Fwd PER 31.16</span><span>PBR 25.94</span><span>ROE 37.28%</span><span>순마진 38.85%</span><span>차트 상승 추세</span><span>20일 12.14%</span></div>
+      <div class="valuation-basis">산식: PER 31.16배 → 기준 PER 36.00배 / PBR 25.94배 → 기준 PBR 4.00배</div>
+      <div class="valuation-pills"><b>강점</b><span class="good">출처 언급 3회</span><span class="good">ROE 37.28%</span></div>
+      <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
+      <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/AVGO" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/avgo/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article>
     <article class="valuation-card value-risk">
       <div class="valuation-head"><div><b>Oracle</b><span>ORCL</span></div><span class="badge rec">고평가 주의</span></div>
@@ -763,23 +869,13 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <div class="valuation-pills"><b>강점</b><span class="good">ROE 57.57%</span></div>
       <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
       <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/ORCL" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/orcl/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
-    </article>
-    <article class="valuation-card value-risk">
-      <div class="valuation-head"><div><b>Broadcom</b><span>AVGO</span></div><span class="badge rec">고평가 주의</span></div>
-      <div class="valuation-price"><span>현재가 479.23 USD</span><span>판단 적정가 310.60 USD</span><span>관찰매수가 254.69 USD</span></div>
-      <p><b>Hermes 판단:</b> 현재가가 보수 산정 적정가를 의미 있게 웃돕니다.<br><b>실행 기준:</b> 254.7 USD 이하가 아니면 보수적 접근</p>
-      <div class="valuation-metrics"><span>PER 93.40</span><span>Fwd PER 31.16</span><span>PBR 28.42</span><span>ROE 37.28%</span><span>순마진 38.85%</span><span>차트 상승 추세</span><span>20일 12.14%</span></div>
-      <div class="valuation-basis">산식: PER 31.16배 → 기준 PER 36.00배 / PBR 28.42배 → 기준 PBR 4.00배</div>
-      <div class="valuation-pills"><b>강점</b><span class="good">ROE 37.28%</span></div>
-      <div class="valuation-pills"><b>주의</b><span class="empty">주요 리스크 미표시</span></div>
-      <div class="valuation-links"><a href="https://query1.finance.yahoo.com/v8/finance/chart/AVGO" target="_blank" rel="noreferrer">재무출처</a><a href="https://stockanalysis.com/stocks/avgo/statistics/" target="_blank" rel="noreferrer">재무출처</a></div>
     </article></div><h2>해외 유튜버별 최신 영상·쇼츠 통계</h2><div class="youtuber-grid">
     <article class="youtuber-card">
       <div class="yt-head"><h3>마피디 미국주식 (테슬라,TQQQ,SOXL)</h3><span>19개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 11 / 쇼츠 8</span><span>18/19 자막</span><span>3/19 OCR</span><span>275,437자 + OCR 430자</span></div>
+      <div class="yt-quality"><span>영상 9 / 쇼츠 10</span><span>18/19 자막</span><span>3/19 OCR</span><span>275,437자 + OCR 430자</span></div>
       <div class="yt-count"><b>41</b>번 거론</div>
       <div class="yt-stocks"><span class="yt-stock">Tesla <b>11</b>회</span><span class="yt-stock">NVIDIA <b>8</b>회</span><span class="yt-stock">Micron <b>6</b>회</span><span class="yt-stock">TSMC <b>4</b>회</span><span class="yt-stock">Nasdaq 100 ETF <b>4</b>회</span><span class="yt-stock">AMD <b>3</b>회</span><span class="yt-stock">Palantir <b>3</b>회</span><span class="yt-stock">IonQ <b>2</b>회</span></div>
-      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>이종목 단기매수 예정입니다. (테슬라,엔비디아,메타,마소,알파벳,애플,아마존)</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AMD</span><span class="badge ticker">PLTR</span><span class="badge ticker">TSM</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-06-02 <a href="https://youtu.be/wAzOMO2QTQg" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · 2026-05-31 <a href="https://youtu.be/d5bXnCLWrvo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-31 <a href="https://youtu.be/jI89d1bYzFY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>포모를 못참고 반도체 몰빵했습니다. ㅠㅠ</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · 2026-05-29 <a href="https://youtu.be/V2YUu1TNb8k" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-05-28 <a href="https://youtu.be/FZj3FJrQtpY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/27 (수) 미국주식 마지막 불꽃 상승 인가?</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AMD</span><span class="badge ticker">TSM</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/ZSTrI_ryiZ8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/25 (월) 테슬라 $500 보러 가나?</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">TSM</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-05-25 <a href="https://youtu.be/iFTuiuHmA6Y" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">PLTR</span><span class="badge ticker">MU</span><span class="badge ticker">IONQ</span></div><small>자막본문 기반 · 2026-05-21 <a href="https://youtu.be/2X-ugUjZMuo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>정배열후 첫번째 이평선 지지 받을때 매수</b><div><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · 2026-05-18 <a href="https://youtu.be/1KJBq6v3YGA" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>돌파, 돌파지지 매수</b><div><span class="badge ticker">NVDA</span></div><small>자막본문 기반 · 2026-05-17 <a href="https://youtu.be/sqKAFVyuiiY" target="_blank" rel="noreferrer">보기</a></small></li></ol>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>이종목 단기매수 예정입니다. (테슬라,엔비디아,메타,마소,알파벳,애플,아마존)</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AMD</span><span class="badge ticker">PLTR</span><span class="badge ticker">TSM</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-06-02 <a href="https://youtu.be/wAzOMO2QTQg" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · 2026-05-31 <a href="https://youtu.be/d5bXnCLWrvo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-31 <a href="https://youtu.be/jI89d1bYzFY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>포모를 못참고 반도체 몰빵했습니다. ㅠㅠ</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · 2026-05-29 <a href="https://youtu.be/V2YUu1TNb8k" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-05-28 <a href="https://youtu.be/FZj3FJrQtpY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/27 (수) 미국주식 마지막 불꽃 상승 인가?</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AMD</span><span class="badge ticker">TSM</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-05-27 <a href="https://youtu.be/ZSTrI_ryiZ8" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/25 (월) 테슬라 $500 보러 가나?</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">TSM</span><span class="badge ticker">QQQ</span><span class="badge ticker">MU</span></div><small>자막본문 기반 · 2026-05-25 <a href="https://youtu.be/iFTuiuHmA6Y" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">PLTR</span><span class="badge ticker">MU</span><span class="badge ticker">IONQ</span></div><small>자막본문 기반 · 2026-05-21 <a href="https://youtu.be/2X-ugUjZMuo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)</b><div><span class="badge ticker">NVDA</span><span class="badge ticker">TSLA</span><span class="badge ticker">AMD</span><span class="badge ticker">PLTR</span><span class="badge ticker">TSM</span><span class="badge ticker">MU</span><span class="badge ticker">IONQ</span></div><small>자막본문 기반 · 2026-05-17 <a href="https://youtu.be/cwMSV6imFo0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>돈 지키는 자리</b><div><span class="empty">종목 미검출</span></div><small>자막본문 기반 · OCR · 날짜 미확인 <a href="https://youtu.be/j_MO4BG8oIo" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>경제사냥꾼</h3><span>25개 콘텐츠</span></div>
@@ -818,10 +914,10 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>강지한 차트연구소</h3><span>6개 콘텐츠</span></div>
-      <div class="yt-quality"><span>영상 6 / 쇼츠 0</span><span>4/6 자막</span><span>5/6 OCR</span><span>2,883자 + OCR 2,061자</span></div>
+      <div class="yt-quality"><span>영상 4 / 쇼츠 2</span><span>4/6 자막</span><span>5/6 OCR</span><span>2,883자 + OCR 2,061자</span></div>
       <div class="yt-count"><b>6</b>번 거론</div>
       <div class="yt-stocks"><span class="yt-stock">NVIDIA <b>3</b>회</span><span class="yt-stock">Tesla <b>2</b>회</span><span class="yt-stock">Palantir <b>1</b>회</span></div>
-      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)</b><div><span class="badge ticker">NVDA</span></div><small>자막본문 기반 · OCR · 2026-06-03 <a href="https://youtu.be/jugR80aja84" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주</b><div><span class="badge ticker">NVDA</span></div><small>OCR화면 기반 · OCR · 2026-06-03 <a href="https://youtu.be/kggxPJ0hwHc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</b><div><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · OCR · 2026-05-31 <a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</b><div><span class="badge ticker">NVDA</span></div><small>OCR화면 기반 · OCR · 2026-05-31 <a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</b><div><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · OCR · 2026-05-30 <a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식</b><div><span class="badge ticker">PLTR</span></div><small>자막본문 기반 · 2026-05-26 <a href="https://youtu.be/5EKMn0kg64c" target="_blank" rel="noreferrer">보기</a></small></li></ol>
+      <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>1만 코스피 달성하나? 6월 초 주가를 흔들 증시 주요일정•핵심 한국주식 관련주</b><div><span class="badge ticker">NVDA</span></div><small>OCR화면 기반 · OCR · 2026-06-03 <a href="https://youtu.be/kggxPJ0hwHc" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10</b><div><span class="badge ticker">NVDA</span></div><small>OCR화면 기반 · OCR · 2026-05-31 <a href="https://youtu.be/sJ0A2JG8fJ4" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개</b><div><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · OCR · 2026-05-30 <a href="https://youtu.be/audbaebTWh0" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식</b><div><span class="badge ticker">PLTR</span></div><small>자막본문 기반 · 2026-05-26 <a href="https://youtu.be/5EKMn0kg64c" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)</b><div><span class="badge ticker">NVDA</span></div><small>자막본문 기반 · OCR · 날짜 미확인 <a href="https://youtu.be/jugR80aja84" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">쇼츠</span><b>연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개</b><div><span class="badge ticker">TSLA</span></div><small>자막본문 기반 · OCR · 날짜 미확인 <a href="https://youtu.be/DMxWlG37qEY" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article>
     <article class="youtuber-card">
       <div class="yt-head"><h3>월가아재의 과학적 투자</h3><span>21개 콘텐츠</span></div>
@@ -830,6 +926,62 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <div class="yt-stocks"><span class="empty">거론 종목 없음</span></div>
       <ol class="yt-video-list"><li><span class="yt-video-kind">영상</span><b>[월가아재] 10년 수익률 1887%의 투자 천재, 지금 여기에 투자하고 있습니다.</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-06-02 <a href="https://youtu.be/PV_Ij36qSrQ" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 보스턴의 버핏, 이 주식을 사고 있습니다</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-31 <a href="https://youtu.be/rxwa9wn9v0U" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] &quot;지금 미국 주식은 비쌉니다&quot; 월가의 거장이 AI를 경계하는 이유</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-29 <a href="https://youtu.be/X1zPw_QdVVw" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 중국주식에 올인했던 월가의 거장, 이제는 중국 버리고 한국 주식에 몰빵? (1분기 13F)</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-28 <a href="https://youtu.be/t0xdXQH_tVk" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] &quot;버블 8회 말이다&quot; 30년 무패 거장이 AI 대장주 전량 청산하고 몰빵한 이 종목 (Q1 13f 분석)</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-20 <a href="https://youtu.be/SgPL3kBb4TM" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 수익보다 &quot;근거&quot;가 먼저입니다. 근거 있는 투자를 위한 공부법 | Valley Expert 커리큘럼 설명 및 Q&amp;A</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-18 <a href="https://youtu.be/zV_iG7Fpv40" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 앞으로 10년 매크로 투자의 핵심? 달러는 이제 보험이 아니다 | 배리 아이켄그린 2부</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-16 <a href="https://youtu.be/mYA0tppJkcg" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 달러 패권이 흔들렸다? 달러는 더 이상 공짜가 아닐 수 있습니다 | 배리 아이켄그린 1부</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-13 <a href="https://youtu.be/LnmXc3m-WIo" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 4년간 준비해 온 월가아재팀의 실전투자 훈련프로그램 (얼리버드 혜택 + 7일 환불)</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-11 <a href="https://youtu.be/HfsjO10ysDA" target="_blank" rel="noreferrer">보기</a></small></li><li><span class="yt-video-kind">영상</span><b>[월가아재] 지금 내 계좌에 찰떡인 자산을 알려드립니다.</b><div><span class="empty">종목 미검출</span></div><small>자막실패·분석제외 기반 · 2026-05-09 <a href="https://youtu.be/ZUmGdPMtuXo" target="_blank" rel="noreferrer">보기</a></small></li></ol>
     </article></div><h2>해외 소스별 최신 발언</h2>
+    <article class="card small">
+      <div class="meta"><strong>Google News US Markets AI Semis</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHU0bEU5QXNCb1hQNUFSY204ZFNvamJWQi10c3VSSE40TmdlcEFYLXBwdVhrMUw3dXJuNjBUY21JTkVZWmRqLS1mUnNBcEdwSzBDcFZHblNNZEJGbFNfaVFSNFdwVVNENEhaZ21MTHgwYkR3aUF2OXQtRjJCd3gyYU1kVWZNNksxVW9sU1dTRmJhOHB1Q0RVb1BFemQxWmhiSG41a0tWLVpRZFpXVjln?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>NVIDIA lifts another stock: Navitas Semiconductor surges 19%, betting on the 800V AI power revolution - 富途牛牛</h4>
+      <p>NVIDIA lifts another stock: Navitas Semiconductor surges 19%, betting on the 800V AI power revolution &amp;nbsp;&amp;nbsp; 富途牛牛</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">NVDA</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News Magnificent 7</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>Meta (META) Stock Trades Up, Here Is Why - Yahoo Finance</h4>
+      <p>Meta (META) Stock Trades Up, Here Is Why &amp;nbsp;&amp;nbsp; Yahoo Finance</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">META</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News US Markets AI Semis</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>Broadcom&#x27;s Non-AI Semiconductor Revenue Rose 6% in 2Q, CEO Says - Moomoo</h4>
+      <p>Broadcom&#x27;s Non-AI Semiconductor Revenue Rose 6% in 2Q, CEO Says &amp;nbsp;&amp;nbsp; Moomoo</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">AVGO</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News Magnificent 7</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMiigJBVV95cUxPWjhrczF4UFVwZEdHQ3RTQ0xEaDlKc2NkMTZLcElFVmJTajRMc0FsTjJROHBXM1B0d2FxcFdON3ZjTkJQR0hVdW96c3VEV2MtSWJRSmpOamR4bWdwUjBtYm84WmJTZDVyTUQ2THVGeS1XSkw3X0FiM1lSVGJ3UXUtellZLUtrV2NHcDBGZjF3WkV0VXlLNzBRM2gxV0k1RnRYa1NXc3NSbTNTM0hsb01Cd2toYl9FNHVTeVdEZDBVWElKUDdUX0FJcjJ4T2xyZm1KcmtudDZtUVFxcy1ZLUVxZWpWbldnUktCMjdEckhUclJRUFdLSTJZN2ltR1k0NGltZ3N6M3gtLV9TZw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>I Predicted the ‘Couch Problem’ Meant Tesla’s Optimus Was Doomed to Fail. Focusing on Factory Labor Flips My TSLA Stock Thesis on Its Head. - Barchart.com</h4>
+      <p>I Predicted the ‘Couch Problem’ Meant Tesla’s Optimus Was Doomed to Fail. Focusing on Factory Labor Flips My TSLA Stock Thesis on Its Head. &amp;nbsp;&amp;nbsp; Barchart.com</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">TSLA</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News Magnificent 7</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>Expose Shows Why Tesla Is a Stock to Avoid - MarketWise</h4>
+      <p>Expose Shows Why Tesla Is a Stock to Avoid &amp;nbsp;&amp;nbsp; MarketWise</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">TSLA</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News Magnificent 7</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>Can META Stock Compound Its Way Higher? - Trefis</h4>
+      <p>Can META Stock Compound Its Way Higher? &amp;nbsp;&amp;nbsp; Trefis</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">META</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News Magnificent 7</strong><span>Wed, 03 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>Jensen Huang praises Meta, says &#x27;nobody uses AI better&#x27; – META stock rebounds in premarket - MSN</h4>
+      <p>Jensen Huang praises Meta, says &#x27;nobody uses AI better&#x27; – META stock rebounds in premarket &amp;nbsp;&amp;nbsp; MSN</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">META</span></div>
+    </article>
+
     <article class="card small">
       <div class="meta"><strong>연합뉴스 경제</strong><span>Tue, 2 Jun</span><a class="source-link" href="https://www.yna.co.kr/view/AKR20260602134652017" target="_blank" rel="noreferrer">원문</a></div>
       <h4>젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)</h4>
@@ -844,6 +996,14 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p>(서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
       <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">NVDA</span></div>
+    </article>
+
+    <article class="card small">
+      <div class="meta"><strong>Google News US Markets AI Semis</strong><span>Thu, 04 Ju</span><a class="source-link" href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+      <h4>AVGO, CRWD, XOS, NVTS, FIVE: 5 Trending Stocks Today - Broadcom (NASDAQ:AVGO) - Benzinga</h4>
+      <p>AVGO, CRWD, XOS, NVTS, FIVE: 5 Trending Stocks Today - Broadcom (NASDAQ:AVGO) &amp;nbsp;&amp;nbsp; Benzinga</p>
+      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
+      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge meta-badge">제목/설명 기반</span><span class="badge type">뉴스</span><span class="badge ticker">AVGO</span></div>
     </article>
 
     <article class="card small">
@@ -876,70 +1036,6 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p>[0.0s] 님들, 지금 현재 미국 두식 중에서 가장 저평가됐다는 종목 세계 뭔지 알고 있었어? [4.1s] 다들 맨날 엔비디아, 마이크롬만 보고 있을 때 [6.4s] 얼가는 뒤에서 조용히 목표가 올리면서 이 종목들 쓸어 담고 있었어. [9.5s] 이거 모르면 나중에 두 배, 세배 뛰었을 때 진짜 후회할 수도 있다니까 [12.8s] 더 늦기 전에 딱 1분만 집중해봐. [14.5s] 최근 나스딱이 2만 6,343포인트까지 올라왔어. [17.2s] 다우지수도 5만 706으로 사상 최고치를 갈아치웠고 [19.8s] SNP 500은 8주 연속 상승했지. [21.8s] 지금 지금 나스딱 상승에 본질은 반도체 하나가 아니라 [24.1s] GPU, 클라우드, 네트워크, 전력 반도체까지 AI 인프라 전체가 재평가받는 장세야. [29.2s] 근데 여기서 우리가 봐야 또 다른 저평가 종목들이 있다는데 [32.0s] 과연 뭐가 있을까? [33.0s] 첫 번째는 오라클이야. [34.1s] 여기는 원래 기업용 데이터베이스 소프트웨어로 유명한 회사인데 [36.9s] 지금 주목받고 있는 진짜 이유는 이 회사의 클라우드 사업인 [39.5s] OCI가 미쳤기 때문이야. [40.8s] 이건 쉽게 말해 AI 약습이랑 출원을 돌릴 수 있는 클라우드 서버 인대 사업인데 [44.4s] 최근 분기 OCI 매출이 84% 폭증했고 [46.9s] RPO, 쉽게 말해 앞으로 들어올</p>
       <div class="mini-price"><span>적정가: 400달러</span><span>매수/진입: 400달러</span></div>
       <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">NVDA</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>경제사냥꾼</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/r5a6RLvYSNk" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>이재명 정부가 8000억 쏟아붓는다는 ‘AI 기업’ 정체(+수혜주)</h4>
-      <p>[0.0s] 님들, 이재명 정부가 8천억 쏟아 붙는다는 AI 기업 정체 뭔지 알고 있었어. [3.9s] 게다가 지금 이 회사랑 관련된 기업들까지 상황과 찍고 진짜 난리 났다는데 [7.3s] 지금 그냥 넘기면 다들 미리 알고 먹고 있을 때 진짜 후회할 수 있으니까 [10.4s] 딱 1분만 집중해봐. [11.6s] 최근 많은 투자자들의 관심을 받았던 [13.5s] 국민 성장 펀드의 대형 직접 투자 소식이 전해졌어. [15.9s] 이건 경제 사냥권이 알려졌듯이 [17.4s] 이재명 정부가 AI, 반도체, 바이오 같은 첨단 산업에 [20.2s] 5년간 150조 원 규모 자금을 공급하겠다는 정책 펀드로 [23.2s] 최근에 5건 사조 1400억짜리 투자안을 한 번에 승인했어. [26.3s] 페리오사의 AI, 스마일게이트, SK바이오사의 연스, LNF 플러스, 근후 [30.5s] 이렇게 총 5곳이지. [31.7s] 근데 지금 한 가지 이상한 게 분명히 5개의 기업이 같이 지원 받은 건데 [35.1s] 지금 시장은 페리오사에만 환호하고 있다는 거야. [37.2s] 그 이유가 뭘까? [38.1s] 바로 직접 투자하냐 대출이냐? [39.4s] 2차이인데. [40.1s] 이번에 페리오사는 정부가 첨단 전략 산업 기금에서 [42.6s] 3,700억 원을 직접 회사 지분으로 사주는 직접 투자야. [45.3s] 여기에 해외랑 민간 투자자 돈까지 합쳐서 [4</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">NVDA</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>주식용사부</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/HbyhhcZKy4w" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>삼성전자 어디까지 오를까</h4>
-      <p>반도체 사이클이 지금 끝났냐 했을 때 저는 끝났다고 절대 생각하지 않습니다. 올라갈게 남아 있어요. 그런데 그 주기가 길까 봐 걱정하는 거지. 반도체 사이클이 슈퍼 사이클에 들어갔던 건 맞아요. 슈퍼 사이클에 들어가 있다라는 건 삼성전자 하이닉스 그리고 테라페 일론머스크 걔네들이 투자하는 건요. 젠슨왕이 얘기했죠. 7년에서 8년 간의 장기 호황을 내다보고 투자한다고요. 그 말인 즉은 7, 8년에서 힌트를 얻을 수 있습니다. 다시 온다라는 얘기거든요. 그러니까 삼성전자 하이닉스로 봤을 때 이렇게 올라가서 이렇게 꺾일은 없다라고 생각을 하는 거죠. 저는 여기서 횡보치는 기간이 있을 거예요. 그게 5년 전으로 이제 볼 수 있는 거죠. 짧게는 2, 3년, 정말 짧게는 1년이겠지만 그거는 초단기겠죠. 그렇게 보면 다음 사이클이 있겠죠. 그러면 또 50만 원이 가능한 영역이 열리지 않을까 생각해 볼 수 있겠습니다.</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">NVDA</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>T3chfeed - 테크피드 미국 주식 인사이트</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/8QprJRquCMc" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>테슬라가 열고 있는 사이보그 시대  #미국주식 #목표주가 #테슬라</h4>
-      <p>이제 무서운 점은 in rearling Q 디바이스를 이용해 궁극적으로는 테슬라 옵티머스 로봇의 사지와 연결시켜 본격적인 사이보그 시대를 열어줄 수 있다는 것입니다 일론 머스크는 트위터로 스타워즈의 한 장면 루크 스카이워커가 아버지 다스베이더에게 손을 잃고 기계파를 이식받는 장면은 공유하는데요 바로 이것이 테슬라 옵티머스의 사지를 이용해 전신마비 및 루게릭 환자들이 자유롭게 움직일 수 있는 시대가 올 수도 있는 이런 잠재력을 지닌 것이 이번 your 링크 임상 실험이라고 봐도 되겠습니다 지금까지의 내용을 정리해보면 뉴올링크의 n1칩은 인간의 생각을 전극으로 받아 해석해 로봇 즉 컴퓨터가 알아들을 수 있게 해줌으로써 인간이 지금까지 컴퓨터와 소통하기 위해 사용했던 10개의 손가락을 대체시켜 생각만으로 직접적인 소통을 할 수 있게 해주는 하나의 소통의 공백을 없애줄 수 있는 잠재력을 가지고 있는 것입니다 [음악]</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">TSLA</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>T3chfeed - 테크피드 미국 주식 인사이트</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/LNlGNQs19nU" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>뇌에 칩을 이식 하는 과정  #미국주식 #테슬라</h4>
-      <p>전체적인 수술의 프로세스는 가장 먼저 로봇이 아닌 인간 의사가 직접 실험 참가자의 두피를 절개하고 디블링크의 n1 칩이 들어갈 공간만 확보가 되도록 두개골의 구멍을 낼 것이라고 합니다 그 이후에야 뉴럴링크의 R1 로봇이 투입이 되어서 M1 칩을 뇌에 이식해 주는 것이죠 정밀 타겟팅 컴퓨터를 사용해서 뇌의 혈관을 건드리지 않는 부분들을 다 포착해 이곳의 총 64개의 사람 머리카락 두께보다 얇은 전극 스레드를 1차 운동 피질의 부위에 심어준다고 합니다이 1차 운동 피질의 뇌의 부위가 사람이 움직임을 계획하고 실행하는 부분이라고 합니다 r1이 스레드를 이식하는데 소요되는 시간은 15분 안팎으로 걸릴 것이라고 발표되었습니다이 모든 절차가 끝나면 개방되었던 두개골을 다시 닫고 두피를 꿰냄으로써 이식 자국이 끝나게 되는 것입니다 [음악]</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">TSLA</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>T3chfeed - 테크피드 미국 주식 인사이트</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/A45bkodmBEQ" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자</h4>
-      <p>현재 미국뿐만 아니라 전 세계의 국방은 단연 AI 판이 새로 짜여지고 있고 2차 대전 때 맨헤튼 프로젝트와 같이 AI 국방연구 개발은 국가의 존폐 이기가 달려 있는만큼 가장 최우선 과제가 되므로 가장 많은 예산이 정되 될 분야라고 저는 확신합니다 2023년 기준의 미국방부 예산은 8130 달러로 책정되어 있고 이중 연구 개발에 대한 예산은 1300억 달러 정도로 책정되어 있는데 쉽지만 정확히 AI 얼마가 할당되어 있는지는 공개되어 있지 않습니다 하지만이는 상당한 것으로 예측되며 세계 무대가 AI 중심으로 흘러가게 되는만큼 이에 대한 예산 비중은 앞으로도 계속해서 커질 가능성이 높습니다 즉 파란 티어가 먹을 수 있는 파이가 계속 늘어나고 있는이 트렌드에 우리 투자자들은 편승했다 봐도 무방한 것이라고 생각합니다</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">PLTR</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>T3chfeed - 테크피드 미국 주식 인사이트</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/rF5hgYKZbiA" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>아이온큐 양자컴퓨터의 분자구조 모델  #미국주식 #목표주가 #아이온큐 #양자컴퓨터</h4>
-      <p>특히 주목할 점은 이런 분자 구조 모델링과 같은 과제가 고전 컴퓨터로는 몇 년을 해도 절대 풀 수가 없는 전형적인 문제인 것이죠 표에서도 보시는 바와 같이 문제의 크기가 커지면 커질수록 파란색 선의 고정 컴퓨터는 정비례 하면서 수만 년이 걸려 불게 되는 문제를 양성 컴퓨터는 며칠에 걸려 불게 되는 말 그대로 양자 우위의 시점이 달성되는 영역 중 하나가 바로 분자 구조 모델링 시뮬레이션입니다 [음악] 이 분자구조의 특성을 그대로 시뮬레이션함으로써 실험실에서 계속 반복적인 실험을 하며 화학 반응을 살펴봐야 하는 인원들을 대체해 컴퓨터로 말 그대로 시뮬레이션을 무한정 돌려줌으로써 신약개발 그리고 재료 과학 등의 엄청난 퀀텀 점프를 시켜줄 수 있는 잠재력을 지닌 부분이 바로이 분자 구조 모델링 시뮬레이션이며 ioq도이 부분에 매우 힘을 쓰고 있는데 됐습니다</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">IONQ</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>T3chfeed - 테크피드 미국 주식 인사이트</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/9CqTLCuTuns" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>테슬라 vs 일반 자동차 회사들의 시급비교 #미국주식 #테슬라 #장기투자</h4>
-      <p>애널리스트 진 몬스터의 인터뷰에 따르면 현재 미국 빅3에서 일하고 있는 직원들의 시급과 수당 등을 합치면 시간당 약 66달러 정도로 환산이 되는 와중 테슬라의 직원들은 시간당 약 48달러를 받고 있는 상황이라고 합니다 현재 uaw가 요구하고 있는 임금 인상이 받아들여지게 된다면 테슬라 그리고 디트로이트 3사의 임금 차이는 대략 65%의 갭으로 벌어지게 되는 것인데요 이는 현재 미국의 레거시 자동차 회사들에게는 정말 치명타일 수밖에 없습니다</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">TSLA</span></div>
-    </article>
-
-    <article class="card small">
-      <div class="meta"><strong>T3chfeed - 테크피드 미국 주식 인사이트</strong><span>2026-06-04</span><a class="source-link" href="https://youtu.be/SK5XW-9pPOI" target="_blank" rel="noreferrer">원문</a></div>
-      <h4>아이온큐의 신제품, 포르테 엔터프라이즈 #미국주식 #목표주가 #양자컴퓨터 #아이온큐</h4>
-      <p>기존 포테 모델보다 64배 성능 향상이 되어서 총 343억 개의 가능성을 한 번에 고려할 수 있는 수준이 되었습니다 성능은 향상이 됐음에도 불구하고 크기는 기존 포트 모델보다 40% 줄일 수 있었다고 하는 아큐의 기술력은 정말 신뢰가 가지 않을 수 없었습니다 앞으로 12개월 내로이 아큐 4 엔터프라이 시스템이 고객들에게 인도화 될 예정인데 지난 파트너십을 맺었던 텀 바젤이 이포트 엔터프라이즈를 받게 되는 첫 고객 중 하나가 되겠습니다 기존에 2024년도 아지 35 AQ 달성하겠다는 아이큐는 또다시 약속했던 거보다 15개월이나 일찍 목표를 달성하게 된 것이죠 기존에 내놨던 계획보다 지속해서 조기 달성하는 기업 이보다 더 좋을 수가 있을까요</p>
-      <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
-      <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">IONQ</span></div>
     </article></section></main>
 <footer>Generated by Hermes Stock Info Agent</footer>
 </body></html>
