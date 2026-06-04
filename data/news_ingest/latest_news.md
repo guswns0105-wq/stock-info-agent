@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-04T22:01)
+# 주식 뉴스 인제스트 (2026-06-04T23:01)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -470,38 +470,38 @@
 - 요약: 헤지펀드가 반도체 주식을 거래하는 방법 Goldman Sachs
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5
 
-### 27. Broadcom의 급락 이후 주식은 어려움을 겪고 있습니다. 기름이 최고점에서 떨어져
+### 27. NBA 결승전: Red-hot Knicks가 Spurs를 상대로 1차전 승리를 거두었으며 MSG 투자자들도 마찬가지입니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T12:50:28Z
-- 관련 티커: AVGO
-- 원문 제목: Stocks struggle after Broadcom dive; oil drops off highs
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/stocks-slide-flare-hostilities-004311703.html
-
-### 28. Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T12:45:00Z
-- 관련 티커: COIN
-- 원문 제목: Better and Coinbase issue the first crypto-backed conventional mortgage
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/news/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html
-
-### 29. 오늘의 주식 시장: 다우 상승, 나스닥 하락, Broadcom 하락, CrowdStrike 수익 급락 뉴스(실시간 보도)
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T12:44:16Z
-- 관련 티커: AVGO
-- 원문 제목: Stock Market Today: Dow Rises, Nasdaq Falls As Broadcom, CrowdStrike Plunge On Earnings News (Live Coverage)
-- 요약: 요약 없음
-- 링크: https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-broadcom-avgo-crowdstrike-crwd/?src=A00220&yptr=yahoo
-
-### 30. CrowdStrike는 2026년 큰 이익 속에서 지침이 압도되면서 수입이 하락했습니다.
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T12:39:07Z
+- 시각: 2026-06-04T13:51:17Z
 - 관련 티커: 종목 미검출
-- 원문 제목: CrowdStrike Falls On Earnings As Guidance Underwhelms Amid Big 2026 Gain
+- 원문 제목: NBA Finals: Red-hot Knicks score a Game 1 win vs. the Spurs, and so do MSG investors
 - 요약: 요약 없음
-- 링크: https://www.investors.com/news/technology/crowdstrike-stock-crwd-crowdstrike-earnings-news-q12026/?src=A00220&yptr=yahoo
+- 링크: https://finance.yahoo.com/markets/stocks/article/nba-finals-red-hot-knicks-score-a-game-1-win-vs-the-spurs-and-so-do-msg-investors-135117075.html
+
+### 28. Agnico Eagle Mines Limited(AEM)는 EV 전환을 위해 구매할 수 있는 최고의 은 및 구리 주식 중 하나입니까?
+- 시장: 미국시장
+- 출처: Yahoo Finance Top Stories
+- 시각: 2026-06-04T13:45:19Z
+- 관련 티커: 종목 미검출
+- 원문 제목: Is Agnico Eagle Mines Limited (AEM) among the Best Silver and Copper Stocks to Buy for the EV Transition?
+- 요약: 요약 없음
+- 링크: https://finance.yahoo.com/markets/commodities/articles/agnico-eagle-mines-limited-aem-134519579.html
+
+### 29. Rio Tinto Group(RIO)이 EV 전환을 위해 매수할 수 있는 최고의 은 및 구리 주식 중 하나인 이유는 다음과 같습니다.
+- 시장: 미국시장
+- 출처: Yahoo Finance Top Stories
+- 시각: 2026-06-04T13:45:10Z
+- 관련 티커: 종목 미검출
+- 원문 제목: Here is why Rio Tinto Group (RIO) is among the Best Silver and Copper Stocks to Buy for the EV Transition
+- 요약: 요약 없음
+- 링크: https://finance.yahoo.com/markets/commodities/articles/why-rio-tinto-group-rio-134510566.html
+
+### 30. BHP Group Limited(BHP): EV 전환을 위해 구매해야 할 최고의 은 및 구리 주식 9개
+- 시장: 미국시장
+- 출처: Yahoo Finance Top Stories
+- 시각: 2026-06-04T13:45:00Z
+- 관련 티커: 종목 미검출
+- 원문 제목: BHP Group Limited (BHP): 9 Best Silver and Copper Stocks to Buy for the EV Transition
+- 요약: 요약 없음
+- 링크: https://finance.yahoo.com/markets/stocks/articles/bhp-group-limited-bhp-9-134500912.html
