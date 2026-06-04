@@ -38,6 +38,27 @@ def public_text(value):
     return text
 
 
+def human_copy(value):
+    """Clean stiff generated phrases before they reach the public page."""
+    text = public_text(value)
+    replacements = {
+        '기준으로 산정했습니다': '기준으로 계산했습니다',
+        '추천 근거 산정 대기': '근거를 더 모으는 중입니다',
+        '추천 후보를 산정할 데이터': '추천 후보를 고를 데이터',
+        '산정할 데이터': '고를 데이터',
+        '산정했습니다': '계산했습니다',
+        '보수 산정 적정가': '보수적으로 계산한 적정가격',
+        '산정': '계산',
+        '검토용': '참고용',
+        '활용': '사용',
+        '유의미': '의미 있는',
+        '핵심': '주요',
+    }
+    for old, new in replacements.items():
+        text = text.replace(old, new)
+    return text
+
+
 DOMESTIC_FORBIDDEN_TERMS = ['NVDA', 'NVIDIA', '엔비디아', '엔디비아']
 
 
@@ -120,19 +141,19 @@ def price_hint(price, fair_value, currency=''):
         p = float(price)
         f = float(fair_value)
     except Exception:
-        return '가격 판단: 데이터가 부족해 현재가와 적정가 비교가 어렵습니다.'
+        return '가격 비교에 필요한 데이터가 부족합니다.'
     if p <= 0:
-        return '가격 판단: 현재가 데이터가 불안정해 비교가 어렵습니다.'
+        return '현재가 데이터가 불안정해서 비교하지 않았습니다.'
     gap = (f - p) / p * 100
     if gap >= 15:
-        tone = '현재가가 AI가 보는 적정가격보다 낮아, 가격 부담은 비교적 낮게 보입니다.'
+        tone = '지금 가격은 계산된 적정가격보다 낮습니다. 다만 왜 싼지는 따로 확인해야 합니다.'
     elif gap >= 3:
-        tone = '현재가가 AI가 보는 적정가격 근처라, 급하게 따라가기보다 확인 구간입니다.'
+        tone = '지금 가격은 계산된 적정가격 근처입니다. 서두르기보다 실적과 뉴스를 같이 봐야 합니다.'
     elif gap >= -10:
-        tone = '현재가가 적정가격과 비슷하거나 조금 높아, 실적·뉴스 확인이 더 필요합니다.'
+        tone = '지금 가격은 계산된 적정가격과 비슷하거나 조금 높습니다. 추가 확인이 필요한 구간입니다.'
     else:
-        tone = '현재가가 AI가 보는 적정가격보다 높아, 과열·비싼 구간일 수 있습니다.'
-    return f'{tone} 현재가 대비 차이 {gap:+.1f}%.'
+        tone = '지금 가격은 계산된 적정가격보다 높습니다. 추격하면 부담이 커질 수 있습니다.'
+    return f'{tone} 현재가와 계산가격 차이는 {gap:+.1f}%입니다.'
 
 
 def metric(value, suffix=''):
@@ -154,9 +175,9 @@ def valuation_card(v):
     return f'''
     <article class="valuation-card {verdict_cls}">
       <div class="valuation-head"><div><b>{esc(v.get('name'))}</b><span>{esc(v.get('ticker'))}</span></div>{badge(v.get('verdict'), 'rec')}</div>
-      <div class="valuation-price"><span><small>지금 가격</small><b>{money(v.get('price'), v.get('currency'))}</b></span><span><small>AI가 보는 적정가격</small><b>{money(v.get('fair_value'), v.get('currency'))}</b></span><span><small>관찰하기 좋은 가격대</small><b>{money(v.get('watch_buy_price'), v.get('currency'))}</b></span></div>
+      <div class="valuation-price"><span><small>지금 가격</small><b>{money(v.get('price'), v.get('currency'))}</b></span><span><small>계산상 적정가격</small><b>{money(v.get('fair_value'), v.get('currency'))}</b></span><span><small>알림 걸어둘 가격</small><b>{money(v.get('watch_buy_price'), v.get('currency'))}</b></span></div>
       <p class="plain-price-hint"><b>쉽게 말하면:</b> {esc(hint)}</p>
-      <p><b>한줄 판단:</b> {esc(v.get('rationale'))}<br><b>확인할 행동:</b> {esc(v.get('action'))}</p>
+      <p><b>읽는 법:</b> {esc(human_copy(v.get('rationale')))}<br><b>다음에 볼 것:</b> {esc(human_copy(v.get('action')))}</p>
       <div class="valuation-metrics"><span>PER {metric(v.get('pe'))}</span><span>Fwd PER {metric(v.get('forward_pe'))}</span><span>PBR {metric(v.get('pb'))}</span><span>ROE {metric(v.get('roe'), '%')}</span><span>순마진 {metric(v.get('profit_margin'), '%')}</span><span>차트 {(esc((v.get('chart') or {}).get('trend')) or '확인 불가')}</span><span>20일 {metric((v.get('chart') or {}).get('ret20_pct'), '%')}</span></div>
       <div class="valuation-basis">산식: {esc(basis)}</div>
       <div class="valuation-pills"><b>강점</b>{positives}</div>
@@ -166,19 +187,19 @@ def valuation_card(v):
 
 
 def ai_recommendation_card(rec):
-    why = ''.join(f'<li>{esc(x)}</li>' for x in rec.get('why', [])) or '<li>추천 근거 산정 대기</li>'
+    why = ''.join(f'<li>{esc(human_copy(x))}</li>' for x in rec.get('why', [])) or '<li>근거를 더 모으는 중입니다</li>'
     region_label = LABEL.get(rec.get('region'), rec.get('region'))
     hint = price_hint(rec.get('price'), rec.get('fair_value'), rec.get('currency'))
     return f'''
     <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP {esc(rec.get('rank'))}</div>
+      <div class="ai-rank">추천 {esc(rec.get('rank'))}</div>
       <div class="ai-rec-head"><div><h3>{esc(rec.get('name'))}</h3><span>{esc(rec.get('ticker'))} · {esc(region_label)}</span></div><strong>{metric(rec.get('ai_score'))}점</strong></div>
-      <div class="ai-price-grid"><span><small>지금 가격</small><b>{money(rec.get('price'), rec.get('currency'))}</b></span><span><small>관찰하기 좋은 가격대</small><b>{money(rec.get('ai_buy_price'), rec.get('currency'))}</b></span><span><small>욕심 줄일 가격대</small><b>{money(rec.get('ai_sell_price'), rec.get('currency'))}</b></span><span><small>AI가 보는 적정가격</small><b>{money(rec.get('fair_value'), rec.get('currency'))}</b></span></div>
+      <div class="ai-price-grid"><span><small>지금 가격</small><b>{money(rec.get('price'), rec.get('currency'))}</b></span><span><small>알림 걸어둘 가격</small><b>{money(rec.get('ai_buy_price'), rec.get('currency'))}</b></span><span><small>비싸 보이기 시작하는 가격</small><b>{money(rec.get('ai_sell_price'), rec.get('currency'))}</b></span><span><small>계산상 적정가격</small><b>{money(rec.get('fair_value'), rec.get('currency'))}</b></span></div>
       <p class="plain-price-hint"><b>쉽게 말하면:</b> {esc(hint)}</p>
-      <p class="ai-comment"><b>왜 후보인가:</b> {esc(rec.get('comment'))}</p>
+      <p class="ai-comment"><b>왜 후보인가:</b> {esc(human_copy(rec.get('comment')))}</p>
       <div class="valuation-metrics"><span>PER {metric(rec.get('pe'))}</span><span>PBR {metric(rec.get('pb'))}</span><span>ROE {metric(rec.get('roe'), '%')}</span><span>차트 {esc(rec.get('trend') or '확인 불가')}</span><span>20일 {metric(rec.get('ret20_pct'), '%')}</span></div>
       <ul class="ai-why">{why}</ul>
-      <div class="ai-risk">{esc(rec.get('risk_comment'))}</div>
+      <div class="ai-risk">{esc(human_copy(rec.get('risk_comment')))}</div>
     </article>'''
 
 
@@ -188,9 +209,9 @@ def ai_recommendation_section(region, recommendations):
     else:
         recs = (recommendations or {}).get(region, [])[:5]
     title = '국내주식 AI 추천 Top5' if region == 'domestic' else '미국주식 AI 추천 Top5'
-    empty = '국내 AI 추천 후보를 산정할 데이터가 아직 없습니다.' if region == 'domestic' else '미국/해외 AI 추천 후보를 산정할 데이터가 아직 없습니다.'
+    empty = '국내 AI 추천 후보를 고를 데이터가 아직 없습니다.' if region == 'domestic' else '미국/해외 AI 추천 후보를 고를 데이터가 아직 없습니다.'
     html = ''.join(ai_recommendation_card(r) for r in recs) or f'<p class="empty">{empty}</p>'
-    return f'''<section class="ai-top-section"><h2>{title}</h2><p class="section-note">복잡한 지표를 한 문장으로 풀어 쓴 검토용 순위입니다. “관찰하기 좋은 가격대”는 알림을 걸어둘 만한 가격, “욕심 줄일 가격대”는 과열 여부를 확인할 가격입니다. 매수·매도 지시가 아닙니다.</p><div class="ai-rec-grid">{html}</div></section>'''
+    return f'''<section class="ai-top-section"><h2>{title}</h2><p class="section-note">먼저 볼 종목을 추린 목록입니다. “알림 걸어둘 가격”은 다시 볼 만한 가격, “비싸 보이기 시작하는 가격”은 과열을 의심할 가격입니다. 매수·매도 지시는 아닙니다.</p><div class="ai-rec-grid">{html}</div></section>'''
 
 
 def methodology_section(methodology, yt_items, transcript_items):
@@ -206,25 +227,27 @@ def methodology_section(methodology, yt_items, transcript_items):
           <ul>{checks}</ul>
         </article>''')
     themes = methodology.get('theme_radar', [])[:8]
-    theme_html = ''.join(f'<div class="theme-row"><b>{esc(public_text(t.get("theme")))}</b><span>{int(t.get("count",0))}번 언급</span><small>쉽게 말하면: {esc(public_text(t.get("note")))}</small></div>' for t in themes)
+    theme_html = ''.join(f'<div class="theme-row"><b>{esc(public_text(t.get("theme")))}</b><span>{int(t.get("count",0))}번 언급</span><small>{esc(public_text(t.get("note")))}</small></div>' for t in themes)
     evidence = methodology.get('source_evidence', [])
     evidence_html = ''.join(f'<li><b>{esc(public_text(e.get("name")))}</b><span>{esc(public_text(e.get("evidence")))}</span><small>{esc(public_text(e.get("dashboard_use")))}</small></li>' for e in evidence)
     improvements = methodology.get('dashboard_improvements', [])
-    improvement_html = ''.join(f'<li class="improvement-row"><b>{esc(public_text(x.get("title")))}</b><span class="status-{esc(x.get("status"))}">{esc(x.get("status"))}</span><small>{esc(public_text(x.get("why")))}</small></li>' for x in improvements)
+    status_names = {'implemented': '반영됨', 'next': '다음에 볼 것'}
+    status_classes = {'implemented': 'done', 'next': 'next'}
+    improvement_html = ''.join(f'<li class="improvement-row"><b>{esc(human_copy(x.get("title")))}</b><span class="status-{esc(status_classes.get(x.get("status"), "next"))}">{esc(status_names.get(x.get("status"), x.get("status")))}</span><small>{esc(human_copy(x.get("why")))}</small></li>' for x in improvements)
     local_pack_html = ''.join(f'<article class="analysis-evidence-card"><b>{esc(public_text(e.get("name")))}</b><span>{esc(public_text(e.get("evidence")))}</span><small>{esc(public_text(e.get("dashboard_use")))}</small></article>' for e in evidence[:4])
     ocr_items = [item for item in yt_items if item.get('ocr_status') == 'ok']
     ocr_chars = sum(int(item.get('ocr_chars') or 0) for item in ocr_items)
     return f'''
     <section class="method-section">
       <div class="method-head">
-        <div><h2>분석 품질·방법론 업데이트</h2><p class="section-note">최근 추가 분석 근거를 바탕으로, 추천 순위와 출처 로그를 더 신중하게 해석하도록 품질·리스크 레이어를 추가했습니다.</p></div>
+        <div><h2>자료가 얼마나 믿을 만한지 보기</h2><p class="section-note">자막, 화면 OCR, 출처 날짜를 따로 보여줍니다. 제목만 보고 만든 항목은 점수를 낮췄습니다.</p></div>
         <div class="quality-score"><b>{len(transcript_items)}/{len(yt_items)}</b><span>유튜브 자막</span><b>{len(ocr_items)}</b><span>OCR 성공 · {ocr_chars:,}자</span></div>
       </div>
-      <div class="analysis-evidence-panel"><h3>추가 분석 근거</h3><p>이번 대시보드는 아래 자료를 출처 품질·테마·리스크 레이어로만 사용합니다.</p><div class="analysis-evidence-grid">{local_pack_html}</div></div>
+      <div class="analysis-evidence-panel"><h3>읽은 자료</h3><p>아래 자료는 출처의 신뢰도와 반복해서 나온 이야기를 확인하는 데만 씁니다.</p><div class="analysis-evidence-grid">{local_pack_html}</div></div>
       <div class="method-grid">{''.join(method_cards)}</div>
-      <div class="theme-panel"><h3>섹터·테마 쉽게 보기</h3><p>어려운 업종명을 “요즘 돈과 관심이 몰리는 이야기”로 풀어 쓴 영역입니다. 횟수가 높을수록 여러 출처에서 자주 말한 주제라는 뜻이지, 매수 신호는 아닙니다.</p><div class="theme-grid">{theme_html}</div></div>
-      <div class="improvement-panel"><h3>대시보드 개선 체크</h3><ul>{improvement_html}</ul></div>
-      <details class="method-evidence"><summary>근거 수집 범위 보기</summary><ul>{evidence_html}</ul><p>{esc(public_text(methodology.get('safety_note')))}</p></details>
+      <div class="theme-panel"><h3>섹터·테마 쉽게 보기</h3><p>여러 출처에서 반복해서 나온 이야기입니다. 많이 나왔다고 좋은 종목이라는 뜻은 아닙니다.</p><div class="theme-grid">{theme_html}</div></div>
+      <div class="improvement-panel"><h3>이번에 손본 부분</h3><ul>{improvement_html}</ul></div>
+      <details class="method-evidence"><summary>어떤 자료를 읽었는지 보기</summary><ul>{evidence_html}</ul><p>{esc(public_text(methodology.get('safety_note')))}</p></details>
     </section>'''
 
 
@@ -232,7 +255,7 @@ def valuation_section(region, valuations):
     vals = [v for v in valuations if v.get('region') == region]
     vals = sorted(vals, key=lambda v: (v.get('score', -99), v.get('margin_to_fair_pct') or -999), reverse=True)
     html = ''.join(valuation_card(v) for v in vals[:10]) or '<p class="empty">재무 판단 데이터가 아직 없습니다.</p>'
-    return f'<h2>{LABEL[region]} 가격이 싼지 비싼지 쉽게 보기</h2><p class="section-note">PER/PBR/ROE 같은 어려운 재무지표를 “지금 가격”, “AI가 보는 적정가격”, “관찰하기 좋은 가격대”로 풀었습니다. 싸다/비싸다를 단정하지 않고, 실적·공시·수급을 더 확인할 기준선으로만 봐주세요.</p><div class="valuation-grid">{html}</div>'
+    return f'<h2>{LABEL[region]} 가격이 싼지 비싼지 쉽게 보기</h2><p class="section-note">PER/PBR/ROE는 아래 작은 배지로 남겨두고, 먼저 가격만 읽기 쉽게 바꿨습니다. 이 숫자는 결론이 아니라 다시 확인할 기준선입니다.</p><div class="valuation-grid">{html}</div>'
 
 
 def youtuber_card(stat, region=None):
@@ -311,9 +334,10 @@ def news_ingest_card():
     try:
         lines = NEWS_MD.read_text(encoding='utf-8').splitlines()
         preview = '\n'.join(lines[:18])
+        preview = human_copy(preview).replace('뉴스 인제스트', '뉴스 메모').replace('크론', '자동 갱신').replace('정규화한 자료', '정리한 자료')
     except Exception:
         return ''
-    return f'''<details class="news-md-card"><summary>Markdown 뉴스 인제스트 보기</summary><pre>{esc(preview)}</pre><p class="section-note">전체 파일: data/news_ingest/latest_news.md - 크론이 매시간 갱신하고 다음 실행 때 읽기 쉬운 뉴스 메모리로 사용합니다.</p></details>'''
+    return f'''<details class="news-md-card"><summary>뉴스 원본 메모 보기</summary><pre>{esc(preview)}</pre><p class="section-note">전체 파일: data/news_ingest/latest_news.md - 매시간 새로 정리되는 뉴스 메모입니다.</p></details>'''
 
 def news_section(items):
     news = [item for item in items if item.get('source_role') == '뉴스' or item.get('source_type') == 'rss']
@@ -346,10 +370,10 @@ def news_section(items):
             </article>''')
         body = ''.join(rows) if rows else '<p class="empty">뉴스 없음</p>'
         groups.append(f'<div class="news-column"><h3>{region_name(region)} 뉴스 <small>{len(region_news)}건</small></h3>{body}</div>')
-    return f'''<section id="news" class="news-section"><div class="section-kicker">뉴스 인제스트</div><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">해외뉴스는 한국어 제목을 먼저 보여주고 원문 제목·출처 링크는 함께 보존했습니다. 뉴스는 추천 점수의 보조 촉매/리스크 확인용이며, 매수·매도 지시가 아닙니다.</p><div class="news-grid">{''.join(groups)}</div>{news_ingest_card()}</section>'''
+    return f'''<section id="news" class="news-section"><div class="section-kicker">뉴스</div><h2>오늘 시장 뉴스</h2><p class="section-note">미국 뉴스는 한국어 제목을 먼저 보여주고, 원문 제목과 링크를 같이 남깁니다. 뉴스는 배경 확인용입니다.</p><div class="news-grid">{''.join(groups)}</div>{news_ingest_card()}</section>'''
 
 def top_recommendations_section(ai_recommendations):
-    return f'''<section id="top-recommendations" class="top-rec-section"><div class="top-rec-head"><span>먼저 볼 것</span><h2>AI 추천종목 Top5</h2><p>국내/미국 시장을 분리해서 가장 위에 배치했습니다. 매수 지시가 아니라 출처 언급량·재무·차트 기반 가격 알림/분할 검토 후보입니다.</p></div>{ai_recommendation_section('domestic', ai_recommendations)}{ai_recommendation_section('global', ai_recommendations)}</section>'''
+    return f'''<section id="top-recommendations" class="top-rec-section"><div class="top-rec-head"><span>먼저 볼 것</span><h2>AI 추천종목 Top5</h2><p>국내와 미국을 나눠서 보여줍니다. 많이 언급된 종목, 재무 숫자, 차트 위치를 함께 본 관심 목록입니다. 매수 지시는 아닙니다.</p></div>{ai_recommendation_section('domestic', ai_recommendations)}{ai_recommendation_section('global', ai_recommendations)}</section>'''
 
 
 def section(region, common, items, ystats, valuations, ai_recommendations):
@@ -378,7 +402,7 @@ def main():
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>한국·미국 주식 AI 추천·뉴스 대시보드</title>
+<title>한국·미국 주식 한눈에 보기</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{{--panel:#121a33;--panel2:#182442;--text:#eef3ff;--muted:#9fb0d0;--accent:#65d6ff;--green:#89f7a5;--yellow:#ffe08a;--red:#ffd0d0}}
@@ -390,7 +414,7 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 .card{{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)}} .small h4{{font-size:18px;margin:8px 0}} .card p{{color:#d9e4ff;line-height:1.56}}
 .stock-rank-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px}} .stock-rank-card{{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)}} .rank{{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px}} .stock-name{{grid-area:name;font-size:20px;font-weight:800;color:#fff}} .stock-code{{grid-area:code;color:var(--green);font-size:14px}} .mention-count{{grid-area:count;color:var(--yellow);white-space:nowrap}} .mention-count b{{font-size:28px}} .section-note{{color:var(--muted);line-height:1.55}}
 .news-section{{margin:18px 0 34px;background:linear-gradient(145deg,rgba(137,247,165,.08),rgba(24,36,66,.76));border:1px solid rgba(137,247,165,.20);border-radius:22px;padding:20px}} .news-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}} .news-column h3{{margin:4px 0 12px;color:#fff}} .news-card{{background:rgba(7,11,22,.34);border:1px solid rgba(101,214,255,.16);border-radius:16px;padding:13px;margin:10px 0}} .news-top{{display:flex;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:13px}} .news-card h3{{font-size:16px;margin:8px 0 6px;color:#fff;line-height:1.35}} .news-card p{{color:#d9e4ff;line-height:1.45;margin:0;font-size:14px}} .news-md-card{{margin-top:14px;background:rgba(7,11,22,.34);border:1px solid rgba(255,224,138,.18);border-radius:16px;padding:12px}} .news-md-card summary{{cursor:pointer;color:var(--yellow);font-weight:700}} .news-md-card pre{{white-space:pre-wrap;max-height:280px;overflow:auto;color:#dbe7ff;font-size:12px;line-height:1.45}} .ai-top-section{{margin:22px 0 34px}} .ai-market-title{{margin:22px 0 12px;color:var(--yellow)}} .ai-rec-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px}} .ai-rec-card{{position:relative;background:linear-gradient(145deg,rgba(255,224,138,.16),rgba(18,26,51,.96));border:1px solid rgba(255,224,138,.42);border-radius:22px;padding:18px;box-shadow:0 16px 34px rgba(0,0,0,.28)}} .ai-rank{{display:inline-flex;color:#111;background:var(--yellow);border-radius:999px;padding:5px 10px;font-weight:900;font-size:12px}} .ai-rec-head{{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-top:10px}} .ai-rec-head h3{{font-size:24px;margin:0 0 3px}} .ai-rec-head span{{color:var(--muted)}} .ai-rec-head strong{{color:var(--green);font-size:24px;white-space:nowrap}} .ai-price-grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0}} .ai-price-grid span{{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:13px;padding:9px}} .ai-price-grid b{{display:block;color:#fff;margin-top:3px}} .ai-comment{{line-height:1.55}} .ai-why{{margin:10px 0;padding-left:20px;color:#eaf3ff}} .ai-risk{{font-size:13px;color:#ffe6e6;background:rgba(255,208,208,.08);border:1px solid rgba(255,208,208,.2);border-radius:12px;padding:9px;margin-top:10px}}
-.method-section{{margin:18px 0 34px;background:linear-gradient(145deg,rgba(101,214,255,.10),rgba(24,36,66,.72));border:1px solid rgba(101,214,255,.24);border-radius:22px;padding:20px;box-shadow:0 14px 34px rgba(0,0,0,.24)}} .analysis-evidence-panel,.improvement-panel{{background:rgba(7,11,22,.32);border:1px solid rgba(101,214,255,.18);border-radius:18px;padding:15px;margin:14px 0}} .analysis-evidence-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}} .analysis-evidence-card{{display:grid;gap:5px;background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.18);border-radius:14px;padding:12px}} .analysis-evidence-card b{{color:var(--green)}} .analysis-evidence-card span,.analysis-evidence-card small,.improvement-panel small{{color:var(--muted);line-height:1.35}} .improvement-panel ul{{list-style:none;margin:0;padding:0;display:grid;gap:8px}} .improvement-row{{display:grid;grid-template-columns:1fr auto;gap:4px 10px;background:rgba(255,224,138,.07);border:1px solid rgba(255,224,138,.14);border-radius:13px;padding:10px}} .improvement-row small{{grid-column:1/-1}} .status-implemented{{color:var(--green)}} .status-next{{color:var(--yellow)}} .method-head{{display:flex;justify-content:space-between;gap:18px;align-items:start}} .method-head h2{{margin-top:0}} .quality-score{{min-width:190px;background:rgba(7,11,22,.45);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:14px;display:grid;grid-template-columns:auto 1fr;gap:5px 10px;align-items:baseline}} .quality-score b{{font-size:24px;color:var(--green)}} .quality-score span{{color:var(--muted);font-size:13px}} .method-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0}} .method-card{{background:rgba(18,26,51,.82);border:1px solid rgba(101,214,255,.20);border-radius:18px;padding:15px}} .method-card h3,.theme-panel h3{{margin:0 0 8px;color:#fff}} .method-card p,.theme-panel p{{color:#d9e4ff;line-height:1.5}} .method-card ul{{padding-left:18px;color:#eaf3ff}} .theme-panel{{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:18px;padding:15px;margin-top:12px}} .theme-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:9px}} .theme-row{{display:grid;gap:3px;background:rgba(7,11,22,.35);border-radius:14px;padding:10px;border:1px solid rgba(255,224,138,.14)}} .theme-row b{{color:var(--yellow)}} .theme-row span{{color:var(--green);font-weight:800}} .theme-row small{{color:var(--muted);line-height:1.35}} .method-evidence{{margin-top:12px;color:#d9e4ff}} .method-evidence summary{{cursor:pointer;color:var(--accent)}} .method-evidence li{{margin:8px 0}} .method-evidence span{{display:block;color:var(--muted)}}
+.method-section{{margin:18px 0 34px;background:linear-gradient(145deg,rgba(101,214,255,.10),rgba(24,36,66,.72));border:1px solid rgba(101,214,255,.24);border-radius:22px;padding:20px;box-shadow:0 14px 34px rgba(0,0,0,.24)}} .analysis-evidence-panel,.improvement-panel{{background:rgba(7,11,22,.32);border:1px solid rgba(101,214,255,.18);border-radius:18px;padding:15px;margin:14px 0}} .analysis-evidence-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}} .analysis-evidence-card{{display:grid;gap:5px;background:rgba(101,214,255,.07);border:1px solid rgba(101,214,255,.18);border-radius:14px;padding:12px}} .analysis-evidence-card b{{color:var(--green)}} .analysis-evidence-card span,.analysis-evidence-card small,.improvement-panel small{{color:var(--muted);line-height:1.35}} .improvement-panel ul{{list-style:none;margin:0;padding:0;display:grid;gap:8px}} .improvement-row{{display:grid;grid-template-columns:1fr auto;gap:4px 10px;background:rgba(255,224,138,.07);border:1px solid rgba(255,224,138,.14);border-radius:13px;padding:10px}} .improvement-row small{{grid-column:1/-1}} .status-done{{color:var(--green)}} .status-next{{color:var(--yellow)}} .method-head{{display:flex;justify-content:space-between;gap:18px;align-items:start}} .method-head h2{{margin-top:0}} .quality-score{{min-width:190px;background:rgba(7,11,22,.45);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:14px;display:grid;grid-template-columns:auto 1fr;gap:5px 10px;align-items:baseline}} .quality-score b{{font-size:24px;color:var(--green)}} .quality-score span{{color:var(--muted);font-size:13px}} .method-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:14px 0}} .method-card{{background:rgba(18,26,51,.82);border:1px solid rgba(101,214,255,.20);border-radius:18px;padding:15px}} .method-card h3,.theme-panel h3{{margin:0 0 8px;color:#fff}} .method-card p,.theme-panel p{{color:#d9e4ff;line-height:1.5}} .method-card ul{{padding-left:18px;color:#eaf3ff}} .theme-panel{{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:18px;padding:15px;margin-top:12px}} .theme-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:9px}} .theme-row{{display:grid;gap:3px;background:rgba(7,11,22,.35);border-radius:14px;padding:10px;border:1px solid rgba(255,224,138,.14)}} .theme-row b{{color:var(--yellow)}} .theme-row span{{color:var(--green);font-weight:800}} .theme-row small{{color:var(--muted);line-height:1.35}} .method-evidence{{margin-top:12px;color:#d9e4ff}} .method-evidence summary{{cursor:pointer;color:var(--accent)}} .method-evidence li{{margin:8px 0}} .method-evidence span{{display:block;color:var(--muted)}}
 .valuation-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;margin:12px 0 30px}} .valuation-card{{background:rgba(18,26,51,.94);border:1px solid rgba(101,214,255,.22);border-radius:18px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.23)}} .valuation-card.value-good{{border-color:rgba(137,247,165,.5)}} .valuation-card.value-watch{{border-color:rgba(255,224,138,.42)}} .valuation-card.value-risk{{border-color:rgba(255,208,208,.38)}} .valuation-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .valuation-head b{{display:block;font-size:19px}} .valuation-head span{{color:var(--muted)}} .valuation-price{{display:grid;grid-template-columns:1fr;gap:7px;margin:12px 0}} .valuation-price span{{background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.16);border-radius:12px;padding:8px 10px}} .valuation-metrics,.valuation-pills{{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}} .valuation-metrics span,.good,.risk-pill{{font-size:12px;border-radius:999px;padding:5px 9px;background:rgba(101,214,255,.08);border:1px solid rgba(101,214,255,.2)}} .good{{color:var(--green);border-color:rgba(137,247,165,.28)}} .risk-pill{{color:var(--red);border-color:rgba(255,208,208,.28)}} .valuation-basis{{color:var(--muted);font-size:13px;margin-top:10px;line-height:1.45}} .valuation-links{{display:flex;gap:10px;margin-top:10px;font-size:13px}}
 .youtuber-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin:12px 0 30px}} .youtuber-card{{background:rgba(24,36,66,.92);border:1px solid rgba(137,247,165,.22);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.2)}} .yt-head{{display:flex;justify-content:space-between;gap:12px;align-items:start}} .yt-head h3{{margin:0;font-size:18px}} .yt-head span{{color:var(--muted);white-space:nowrap}} .yt-quality{{display:flex;gap:8px;flex-wrap:wrap;margin:9px 0 0}} .yt-quality span{{font-size:12px;color:var(--accent);border:1px solid rgba(101,214,255,.25);border-radius:999px;padding:4px 8px;background:rgba(101,214,255,.08)}} .yt-count{{margin:12px 0;color:var(--yellow)}} .yt-count b{{font-size:30px}} .yt-stocks{{display:flex;flex-wrap:wrap;gap:8px}} .yt-stock{{display:inline-flex;gap:5px;background:rgba(101,214,255,.09);border:1px solid rgba(101,214,255,.2);border-radius:999px;padding:6px 10px;color:#eaf3ff}} .yt-stock b{{color:var(--green)}} .yt-video-list{{margin:14px 0 0;padding-left:20px;border-top:1px solid rgba(137,247,165,.18)}} .yt-video-list li{{padding:10px 0;color:#eaf3ff;line-height:1.38}} .yt-video-list b{{display:block;margin:4px 0;font-size:14px}} .yt-video-list small{{color:var(--muted)}} .yt-video-kind{{font-size:12px;color:var(--yellow);border:1px solid rgba(255,224,138,.28);border-radius:999px;padding:2px 7px}}
 .rec-head{{display:flex;justify-content:space-between;gap:16px}} .rec-head h3{{font-size:24px;margin:0 0 6px}} .ticker-text{{color:var(--green);font-size:18px}} .score{{text-align:right;color:var(--yellow);white-space:nowrap}} .score strong{{font-size:26px}} .stance{{margin:0;color:#eaf1ff}} .risk{{color:var(--red)!important}}
@@ -408,10 +432,10 @@ html{{scroll-behavior:smooth}} body{{font-family:'Inter',system-ui,-apple-system
 @media (max-width:760px){{header{{padding-top:30px}} .top-rec-section,.news-section,.method-section{{padding:16px!important;border-radius:18px!important}} .ai-rec-grid,.valuation-grid,.youtuber-grid,.stock-rank-grid{{grid-template-columns:1fr!important}} .news-column h3{{position:static}} .ai-price-grid{{grid-template-columns:1fr}}}}
 </style></head>
 <body>
-<header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div><div class="kpi">화면 OCR {len(ocr_items)}개</div><div class="kpi">뉴스 {len([i for i in items if i.get('source_type') == 'rss'])}건</div></div></header>
-<nav class="tabs"><a href="#top-recommendations">추천종목</a><a href="#news">뉴스</a><a href="#method">방법론</a><a href="#domestic">국내</a><a href="#global">미국</a></nav>
-<main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거, 최신 뉴스를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div>{top_recommendations_section(ai_recommendations)}{news_section(items)}<div id="method">{methodology_section(methodology, yt_items, transcript_items)}</div>{section('domestic', common, items, ystats, valuations, ai_recommendations)}{section('global', common, items, ystats, valuations, ai_recommendations)}</main>
-<footer>Generated by Hermes Stock Info Agent</footer>
+<header><h1>한국·미국 주식 한눈에 보기</h1><div class="subtitle">매시간 국내주식과 미국주식의 관심 종목, 출처 발언, 재무·차트 숫자, 최신 뉴스를 새로 정리합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div><div class="kpi">화면 OCR {len(ocr_items)}개</div><div class="kpi">뉴스 {len([i for i in items if i.get('source_type') == 'rss'])}건</div></div></header>
+<nav class="tabs"><a href="#top-recommendations">추천종목</a><a href="#news">뉴스</a><a href="#method">자료 확인</a><a href="#domestic">국내</a><a href="#global">미국</a></nav>
+<main><div class="notice">이 페이지는 여러 출처에서 나온 말과 공개 재무 데이터를 모아 보여주는 참고용 화면입니다. 점수와 가격대는 자동 계산한 기준선일 뿐, 투자 조언이나 수익 보장이 아닙니다. 실제 매매 전에는 현재가, 공시, 실적, 수급을 다시 확인해 주세요.</div>{top_recommendations_section(ai_recommendations)}{news_section(items)}<div id="method">{methodology_section(methodology, yt_items, transcript_items)}</div>{section('domestic', common, items, ystats, valuations, ai_recommendations)}{section('global', common, items, ystats, valuations, ai_recommendations)}</main>
+<footer>Hermes가 매시간 새로 정리합니다. 투자 판단은 직접 확인해 주세요.</footer>
 </body></html>'''
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(doc, encoding='utf-8')
