@@ -655,13 +655,19 @@ def main():
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
         item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('ocr_only' if ocr_text else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta')), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'ocr_method':(ocr_rec or {}).get('ocr_method',''), 'ocr_status':(ocr_rec or {}).get('ocr_status',''), 'ocr_chars':(ocr_rec or {}).get('ocr_chars',0), 'ocr_text_path':(ocr_rec or {}).get('ocr_text_path',''), 'extraction_quality':('transcript+ocr' if (r.get('transcript_status')=='ok' and ocr_text) else ('ocr_only' if ocr_text else r.get('extraction_quality','metadata')))}
+        item=enrich_news_translations(item, translation_cache)
         current_items.append(item)
+    save_translation_cache(translation_cache)
     items, previous_count, newly_added = merge_accumulated_items(current_items, now)
+    # 기존 누적 뉴스도 매 실행마다 한국어 표시 필드로 보정한다.
+    items=[enrich_news_translations(item, translation_cache) for item in items]
+    save_translation_cache(translation_cache)
     common, ystats = recompute_common_and_ystats(items, lex)
     DATA.write_text(json.dumps(items,ensure_ascii=False,indent=2),encoding='utf-8')
     RAW.write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
     COMMON.write_text(json.dumps(common,ensure_ascii=False,indent=2),encoding='utf-8')
     YSTATS.write_text(json.dumps(ystats,ensure_ascii=False,indent=2),encoding='utf-8')
+    write_news_markdown(items, now)
     print(f'collected records={len(records)} current_items={len(current_items)} accumulated_items={len(items)} previous={previous_count} new={newly_added} common={len(common)} youtubers={len(ystats)}')
     for c in common[:10]: print(c['region'], c['ticker'], c['name'], c['source_count'], 'evidence=', len(c.get('evidence', [])))
 if __name__=='__main__': main()

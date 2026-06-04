@@ -687,17 +687,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "돈 지키는 자리",
-        "url": "https://youtu.be/j_MO4BG8oIo",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 352,
-        "ocr_status": "ok",
-        "ocr_chars": 240,
-        "youtube_kind": "short"
-      },
-      {
         "title": "정배열후 첫번째 이평선 지지 받을때 매수",
         "url": "https://youtu.be/1KJBq6v3YGA",
         "published_at": "",
@@ -721,6 +710,17 @@
         "transcript_chars": 558,
         "ocr_status": "",
         "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돈 지키는 자리",
+        "url": "https://youtu.be/j_MO4BG8oIo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 352,
+        "ocr_status": "ok",
+        "ocr_chars": 240,
         "youtube_kind": "short"
       },
       {
@@ -812,12 +812,12 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 16,
-    "short_count": 8,
-    "regular_video_count": 8,
+    "video_count": 17,
+    "short_count": 7,
+    "regular_video_count": 10,
     "mention_count": 38,
     "transcript_count": 16,
-    "metadata_count": 0,
+    "metadata_count": 1,
     "ocr_count": 3,
     "transcript_chars": 353303,
     "ocr_chars": 923,
@@ -879,6 +879,32 @@
       }
     ],
     "videos": [
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, SK·현대차·LG 전망🔴 뉴욕지수 중동 긴장 재고조에 하락 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/4O1UdHeWoEg",
+        "published_at": "2026-06-03T23:40:27+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
+        "url": "https://youtu.be/W2TMT2O0qg8",
+        "published_at": "2026-06-02T09:30:23+00:00",
+        "tickers": [
+          "005930",
+          "005380",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 253,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/rapTrDT6EcM",
@@ -1003,21 +1029,6 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "video"
-      },
-      {
-        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
-        "url": "https://youtu.be/W2TMT2O0qg8",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "005380",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 253,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
       },
       {
         "title": "삼성전자, 더 오를 가능성 있는 3가지 이유",
