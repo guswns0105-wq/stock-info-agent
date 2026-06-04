@@ -365,16 +365,19 @@ def build_recommendation(rank, v):
 def make_ai_recommendations(valuations):
     base = [v for v in valuations if v.get('price') and v.get('fair_value') and v.get('ai_buy_price') and v.get('ai_sell_price')]
     def sort_key(v):
-        high_penalty = -5 if v.get('verdict') == '고평가 주의' else 0
-        return (high_penalty + v.get('ai_score', -99), v.get('margin_to_fair_pct') or -999, v.get('mention_count') or 0)
+        return (v.get('ai_score', -99), v.get('margin_to_fair_pct') or -999, v.get('mention_count') or 0)
     grouped = {'domestic': [], 'global': []}
     for region in grouped:
-        preferred = [v for v in base if v.get('region') == region and v.get('verdict') != '고평가 주의']
-        fallback = [v for v in base if v.get('region') == region and v.get('verdict') == '고평가 주의']
+        # Public 추천 영역은 "현재가 <= 계산상 적정가격"인 종목만 노출한다.
+        # 언급량/차트가 좋아도 적정가가 현재가보다 낮으면 추천이 아니라 대기/주의 카드로 남겨야 한다.
+        preferred = [
+            v for v in base
+            if v.get('region') == region
+            and v.get('verdict') in ('저평가 후보', '관심권')
+            and (v.get('margin_to_fair_pct') or -999) >= 0
+        ]
         preferred.sort(key=sort_key, reverse=True)
-        fallback.sort(key=sort_key, reverse=True)
-        # Always try to show 5 per market as requested; if the fifth is overvalued, the card keeps the risk verdict.
-        region_items = (preferred + fallback)[:5]
+        region_items = preferred[:5]
         grouped[region] = [build_recommendation(rank, v) for rank, v in enumerate(region_items, 1)]
     flat = grouped['domestic'] + grouped['global']
     return {'domestic': grouped['domestic'], 'global': grouped['global'], 'flat': flat}

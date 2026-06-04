@@ -51,19 +51,22 @@ def top_recs(data, region):
     else:
         arr = [r for r in recs if r.get("region") == region]
     arr = sorted(arr, key=lambda r: (r.get("rank") or 99, -(r.get("ai_score") or 0)))[:5]
-    # Fallback from valuations if grouped recommendation data is missing.
-    if len(arr) < 5:
+    # Fallback from valuations only when grouped recommendation data is missing entirely.
+    # Do not pad the list with stocks whose current price is above fair value.
+    if not arr:
         vals = data.get("valuations", []) if isinstance(data, dict) else []
-        seen = {r.get("ticker") for r in arr}
         extra = []
         for v in vals:
-            if v.get("region") != region or v.get("ticker") in seen:
+            if v.get("region") != region:
+                continue
+            margin = v.get("margin_to_fair_pct")
+            if margin is None and v.get("price") and v.get("fair_value"):
+                margin = (float(v.get("fair_value")) / float(v.get("price")) - 1) * 100
+            if margin is None or margin < 0 or v.get("verdict") not in ("저평가 후보", "관심권"):
                 continue
             extra.append(v)
-        extra = sorted(extra, key=lambda v: (v.get("score") or 0), reverse=True)
-        for v in extra:
-            if len(arr) >= 5:
-                break
+        extra = sorted(extra, key=lambda v: (v.get("ai_score") or v.get("score") or 0, v.get("margin_to_fair_pct") or 0), reverse=True)
+        for v in extra[:5]:
             arr.append({
                 "rank": len(arr) + 1,
                 "ticker": v.get("ticker"),
