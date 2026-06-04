@@ -95,6 +95,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "목요일 NVIDIA 주식에 무슨 일이 일어나고 있나요? - 벤징가",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkJXRFc5MkhobVJoSjdGTjlPV2ZaRnRfem5rcHRQM2x1c3I0czl0ZEZxLVkyMHp3VnZ1SW5RUWtCenR6WkVvNWJDVl9rWUtQM19DUjVhN1FZLTR1UjJHS09Jb3A3blNqRVh1U2gyQlNpVVk3VU9YSWNRMG04NkdPNG9pM0E4MEJmOS1jVjhjYVFjcXlTZmdIVmtVeUk?oc=5",
+        "published_at": "Thu, 04 Jun 2026 11:30:04 GMT",
+        "reason": "목요일 NVIDIA 주식에 무슨 일이 일어나고 있나요?    벤징가",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWdycWxJNmh2ZThrMGNLMmVNdXhNRXNvcDJoMTM1VDRVRS1kd1F3RjZ3QzJsWTE0cVJnUFpiQ2dHMmw0Q0swT1owdkdSX25Kanp0eGxkeFlYZy1YeWZ0YzFZbVJ2NTdsdlpFcGRTMXNxVXIzU3RVNDlOLXFTc0txek5tQnhCYnZBbWZud0Q5MnRmRUYyTjdxVQ?oc=5",
         "published_at": "Thu, 04 Jun 2026 04:45:00 GMT",
@@ -3481,6 +3493,132 @@
   },
   {
     "region": "global",
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "sources": [
+      "Google News US Markets AI Semis",
+      "올랜도 킴 미국주식",
+      "주식용사부",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 4,
+    "evidence": [
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "브로드컴, 2분기 비AI 반도체 매출 6% 증가했다고 CEO - Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5",
+        "published_at": "Wed, 03 Jun 2026 21:28:30 GMT",
+        "reason": "브로드컴의 비AI 반도체 매출 2분기 6% 증가, CEO “무무”",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNlNURm5zWDI4Qnd4RUdMVkwtM3FqRkVVR2FzaENLVHlpT1VLcTNnZDZVdGd1UnZIS2c4dzJTUU5GLXVtZkg0TTIyWlR2ZzllQU12LWp2QVpyM0hUbXExU3JtQ0drSmtCb3pTcjVZTDlmN05yUEdWc2M5SnpVaE9JakJMVmZxVGtfOWhlYVc1djhYR3hBVzVMcFA0UjdHdkF3aFc1V2ZuQjhSS1VKUHJsV2FKdlBDYWVRYWNvMlh2bEJDeFRIMk9xTUh2bjgxSlFkZUE?oc=5",
+        "published_at": "Thu, 04 Jun 2026 12:08:43 GMT",
+        "reason": "미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락    TradingKey",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "AVGO 1분기 심층 분석: AI 반도체 수요로 수익 급증 주도, 시장은 수익성 변화에 반응 - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkRSbUtza203a3hQUXRWbm1BTHZFYndkTHEyZUhMcjJ1cnBuV0syTW85Tm4xT0Q0QzdzUFdWajFWX2dOT0dfUk9HMkdURVRBM3ZLYTZzODhiZGJpZmR2VHBwZnA4bm5pV2syS09vY2VBZ1oxb2RZcFYtUTc3WlVaaGRJZlMwWVZFN0RRalBocmdJRG1KYjg2OGpnQ2RwVUpzRkZIWHBvMXR2bzRkOHB1SE5jYnBfQWpTTHFmUW4zWFV2SFBWdTJoQmVCRG9FYnRzcGRINFI2LWZJMUdOal9oT24zaUJFNGFGam1xRHFQWVppUzZtQkRV?oc=5",
+        "published_at": "Thu, 04 Jun 2026 08:39:14 GMT",
+        "reason": "AVGO 1분기 심층 분석: AI 반도체 수요가 수익 급증을 주도하고 시장은 수익성 변화에 반응합니다    StockStory",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5",
+        "published_at": "Thu, 04 Jun 2026 01:41:13 GMT",
+        "reason": "AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO)    Benzinga",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "sk하이닉스, IHBM 공개",
+        "url": "https://youtu.be/avtz-xgjyUk",
+        "published_at": "",
+        "reason": "SK 하이닉스가 IHBM 기술을 공개했습니다. 그동안 HBM 칩 내부에 발를 쉽게 해결하지 못했었는데이 기술은 칩 내부의 발을 해결할 신기술입니다. 원리는 간단합니다. 침 내부에서 가장 열이 꽉 막히고 발열이 집중되는 핵심 통로에 전기는 통하지 않고 열만 빼내는 실리콘 냉각제 일명 IC를 아예 내장해 버린 겁니다. 결과는 기존 방식보다 열 저항이 무려 30% 이상 낮춰졌습니다. 이미 시장에서 검증된 공정을 사용하여 대량 생산도 문제가 없습니다. 크기게 핀의 위치가 기존 HBM과 100% 동일하기 때문에 고객사들이 설계에 변경 없이 바로이 HBM을 사용할 수 있게 되어 중목받고 있습니다.이 이 기술은 4세대 HBN 5부터 정격 도입 예정이라고 하고",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Broadcom의 급락 이후 주식은 어려움을 겪고 있습니다. 기름이 최고점에서 떨어져",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-slide-flare-hostilities-004311703.html",
+        "published_at": "2026-06-04T12:50:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오늘의 주식 시장: 다우 상승, 나스닥 하락, Broadcom 하락, CrowdStrike 수익 급락 뉴스(실시간 보도)",
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-broadcom-avgo-crowdstrike-crwd/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-04T12:44:16Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "AMD",
     "name": "AMD",
     "sources": [
@@ -4263,95 +4401,6 @@
   },
   {
     "region": "global",
-    "ticker": "AVGO",
-    "name": "Broadcom",
-    "sources": [
-      "Google News US Markets AI Semis",
-      "올랜도 킴 미국주식",
-      "주식용사부"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "브로드컴, 2분기 비AI 반도체 매출 6% 증가했다고 CEO - Moomoo",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5",
-        "published_at": "Wed, 03 Jun 2026 21:28:30 GMT",
-        "reason": "브로드컴의 비AI 반도체 매출 2분기 6% 증가, CEO “무무”",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "AVGO 1분기 심층 분석: AI 반도체 수요로 수익 급증 주도, 시장은 수익성 변화에 반응 - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkRSbUtza203a3hQUXRWbm1BTHZFYndkTHEyZUhMcjJ1cnBuV0syTW85Tm4xT0Q0QzdzUFdWajFWX2dOT0dfUk9HMkdURVRBM3ZLYTZzODhiZGJpZmR2VHBwZnA4bm5pV2syS09vY2VBZ1oxb2RZcFYtUTc3WlVaaGRJZlMwWVZFN0RRalBocmdJRG1KYjg2OGpnQ2RwVUpzRkZIWHBvMXR2bzRkOHB1SE5jYnBfQWpTTHFmUW4zWFV2SFBWdTJoQmVCRG9FYnRzcGRINFI2LWZJMUdOal9oT24zaUJFNGFGam1xRHFQWVppUzZtQkRV?oc=5",
-        "published_at": "Thu, 04 Jun 2026 08:39:14 GMT",
-        "reason": "AVGO 1분기 심층 분석: AI 반도체 수요가 수익 급증을 주도하고 시장은 수익성 변화에 반응합니다    StockStory",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5",
-        "published_at": "Thu, 04 Jun 2026 01:41:13 GMT",
-        "reason": "AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO)    Benzinga",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "sk하이닉스, IHBM 공개",
-        "url": "https://youtu.be/avtz-xgjyUk",
-        "published_at": "",
-        "reason": "SK 하이닉스가 IHBM 기술을 공개했습니다. 그동안 HBM 칩 내부에 발를 쉽게 해결하지 못했었는데이 기술은 칩 내부의 발을 해결할 신기술입니다. 원리는 간단합니다. 침 내부에서 가장 열이 꽉 막히고 발열이 집중되는 핵심 통로에 전기는 통하지 않고 열만 빼내는 실리콘 냉각제 일명 IC를 아예 내장해 버린 겁니다. 결과는 기존 방식보다 열 저항이 무려 30% 이상 낮춰졌습니다. 이미 시장에서 검증된 공정을 사용하여 대량 생산도 문제가 없습니다. 크기게 핀의 위치가 기존 HBM과 100% 동일하기 때문에 고객사들이 설계에 변경 없이 바로이 HBM을 사용할 수 있게 되어 중목받고 있습니다.이 이 기술은 4세대 HBN 5부터 정격 도입 예정이라고 하고",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "TSM",
     "name": "TSMC",
     "sources": [
@@ -4493,6 +4542,71 @@
         "url": "https://youtu.be/bkuop8jLgOc",
         "published_at": "2026-05-29T06:37:35+00:00",
         "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "AAPL",
+    "name": "Apple",
+    "sources": [
+      "올랜도 킴 미국주식",
+      "Yahoo Finance Top Stories",
+      "T3chfeed - 테크피드 미국 주식 인사이트"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "애플 앱스토어 지난해 매출 1조4000억 달러",
+        "url": "https://finance.yahoo.com/news/apples-app-store-generated-14-trillion-in-sales-last-year-123000379.html",
+        "published_at": "2026-06-04T12:30:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
+        "url": "https://youtu.be/AnDxrYqudj0",
+        "published_at": "2026-05-10T08:41:18+00:00",
+        "reason": "작년 9월 계속해서 시장이 오르면서 버블이 아니냐라는 우려가 있었을 때 저는 일관되게 뉴 노멀의 영역에 진입하는 것일 수도 있다 말씀드렸습니다. 지금은이 영상을 올린지 약 8개월이 지난 상황이라서 조금 더 시야가 확보되었는데 요즘 시장이 확실히 과열되고 있는게 느껴지죠. 전쟁 또 이로 인한 유가 상승이라는 명확한 리스크가 있는 상황임에도 엔비디아가 다시 최고가를 경신했고 실적이 안 좋았던 테슬라마저 다시 400달러 위를 회복했습니다. 또 한국의 대표 기업들이 AI 혁명에서 가장 중요한 위치를 확보하게 되는 것이 세상에 알려지면서 코스피 지수가 1년 만에 세대 가까이 올랐습니다. 제가 연초에 26년도 결국 미국 주식이라고 말씀드렸는데 뭐 지금 미국 주식도 최고가 경신하고 좋은 상황이긴 하지만 코스피에 비할 바는 안 되죠. 지금 5월이 지나가는 시점 기준으로는 재가 그렇게 맞지 않았던 거 같습니다. 자, 그런데 제3회 4회 국가도 아니고 OECD 주요국 대표 지수가 1년 만에 세배 가까이 오르는 건 현대 자본 시장에서 전례를 찾기 어려운 사건입니다. 무서운 건 앞으로도 더 오를 것으로 보인다는 것이죠. S&P 500 레이시오도 2000년 당시 역사적 고점으로 향해 가고 있습니다. 숫자만 놓고 보면 명백한 버블인 거 같죠? 자, 버블은 단순히 밸루에이션이 높아서 생기는 걸까요? 그렇진 않습니다. 버블은 비전과 현실의 간극이 생각보다 크다는",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4676,58 +4790,6 @@
         "url": "https://youtu.be/_pTWwwdUdpo",
         "published_at": "2026-05-16T07:43:12+00:00",
         "reason": "트럼프 시진핑 회담함이 완료됐습니다. 9년 만에 방중이었고요. 그리고 같이 동해한 사람들의 무게가 어마어마했습니다. 일론머스크 젠슨 호황부터 시작해서 심지어 금융권까지 전부 다 참석했죠.이 이 핵심 인사들 순자산만 합쳐도 거의 1조 달러에 가깝습니다. 이번 방문은 현재 세계 질서가 어떻게 바뀌고 있는지를 잘 보여준다 생각합니다. 그리고 그 속에서디아와 테슬라는 어떤 포지셔닝을 하고 있는지 정리해 보겠습니다. [음악] [음악] 트럼프 1기 2017년 때 중국 방문을 보겠습니다. 이때 같이 동행한 CEO가 전부 에너지, 화학, 산업 같은 이런 전통 산업 중심이었습니다. 특히 에너지 자원 쪽이 31%로 압도적인 비중을 차지했는데요. 26년 명단은 결이 좀 다릅니다. 이번에는 압도적인 비중으로 AI, 테크, 반도체 기업이 들어가 있고 대표적인게 엔비디아, 테슬라 등이 있죠. 또 눈에 띄는게 블랙락, 골드만 싹스 같은 금융 결제 인프라가 테크 다음으로 비중이 큽니다. 물론 이번에도 카길이나 보인 같은 기업도 있었습니다. 이런 부분은 미국 유권자들에게 가장 직관적으로 공감받을 수 있는 부분이기 때문이죠. 보잉 항공대 200대 팔았다. 미국산 대두 팔았다 등등 바로 이해되는 이야기를 해 줄 수 있습니다. 자, 하지만 이번 명단의 진자 중심은 보인과 카일이 아니죠. 비중에서도 볼 수 있다시피 테크와 금융권입니다. 10년이 지났고 명단의 성격이 바뀌",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "AAPL",
-    "name": "Apple",
-    "sources": [
-      "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
-        "url": "https://youtu.be/AnDxrYqudj0",
-        "published_at": "2026-05-10T08:41:18+00:00",
-        "reason": "작년 9월 계속해서 시장이 오르면서 버블이 아니냐라는 우려가 있었을 때 저는 일관되게 뉴 노멀의 영역에 진입하는 것일 수도 있다 말씀드렸습니다. 지금은이 영상을 올린지 약 8개월이 지난 상황이라서 조금 더 시야가 확보되었는데 요즘 시장이 확실히 과열되고 있는게 느껴지죠. 전쟁 또 이로 인한 유가 상승이라는 명확한 리스크가 있는 상황임에도 엔비디아가 다시 최고가를 경신했고 실적이 안 좋았던 테슬라마저 다시 400달러 위를 회복했습니다. 또 한국의 대표 기업들이 AI 혁명에서 가장 중요한 위치를 확보하게 되는 것이 세상에 알려지면서 코스피 지수가 1년 만에 세대 가까이 올랐습니다. 제가 연초에 26년도 결국 미국 주식이라고 말씀드렸는데 뭐 지금 미국 주식도 최고가 경신하고 좋은 상황이긴 하지만 코스피에 비할 바는 안 되죠. 지금 5월이 지나가는 시점 기준으로는 재가 그렇게 맞지 않았던 거 같습니다. 자, 그런데 제3회 4회 국가도 아니고 OECD 주요국 대표 지수가 1년 만에 세배 가까이 오르는 건 현대 자본 시장에서 전례를 찾기 어려운 사건입니다. 무서운 건 앞으로도 더 오를 것으로 보인다는 것이죠. S&P 500 레이시오도 2000년 당시 역사적 고점으로 향해 가고 있습니다. 숫자만 놓고 보면 명백한 버블인 거 같죠? 자, 버블은 단순히 밸루에이션이 높아서 생기는 걸까요? 그렇진 않습니다. 버블은 비전과 현실의 간극이 생각보다 크다는",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5192,6 +5254,33 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "COIN",
+    "name": "Coinbase",
+    "sources": [
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
+        "url": "https://finance.yahoo.com/news/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
+        "published_at": "2026-06-04T12:45:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       }
     ],
     "stance": "단일 출처 추천/관심",
