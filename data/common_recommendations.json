@@ -13,8 +13,8 @@
       "블로그 ranto28",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식용사부",
-      "강지한 차트연구소",
       "Yahoo Finance Top Stories",
+      "강지한 차트연구소",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
@@ -355,6 +355,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "NVIDIA(NVDA): 지금 당장 매수할 수 있는 가장 유망한 주식",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-most-promising-stock-165118417.html",
+        "published_at": "2026-06-04T16:51:18Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       },
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
@@ -3603,6 +3615,18 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
+        "title": "Broadcom의 매각이 메가캡 역사에 막 진입했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/broadcoms-sell-off-just-entered-megacap-history-163942663.html",
+        "published_at": "2026-06-04T16:39:42Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
         "title": "오늘의 주식 시장: 다우지수는 700포인트 상승; Broadcom은 15% 급락, Ciena는 주요 수준(라이브 중계)을 낮췄습니다.",
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-broadcom-avgo-crowdstrike-crwd/?src=A00220&yptr=yahoo",
         "published_at": "2026-06-04T15:47:11Z",
@@ -3618,6 +3642,18 @@
         "title": "Broadcom의 급락 이후 주식은 어려움을 겪고 있습니다. 기름이 최고점에서 떨어져",
         "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-slide-flare-hostilities-004311703.html",
         "published_at": "2026-06-04T12:50:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오늘 주식 시장: 다우지수는 900포인트 상승, 나스닥은 브로드컴 전망이 하락한 후 하락",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-jumps-900-points-nasdaq-slips-after-broadcom-outlook-flop-230054231.html",
+        "published_at": "2026-06-03T23:00:54Z",
         "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -4163,6 +4199,18 @@
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5",
         "published_at": "Wed, 03 Jun 2026 10:19:27 GMT",
         "reason": "Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말합니다 – META 주식은 시판 전 반등    MSN",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzZEYUNhd1YzZm5PZXBrWnNDWE5zQVZEd1BiRFBpMFdpVy14eVpBUVZHaGpRcURVQ0pySmZnYmVDQmppZ3l3S1NCM2tud2owT2Q0UHM4VVpzN3hnWUVJNWVQbzU4MU50Wk9jbUhVbHowMC0xRkh1U0dJbm95dXcxdTBBTnk5RUZ0SVZLenNHTGk5V1dISm9tTE9sZw?oc=5",
+        "published_at": "Thu, 04 Jun 2026 16:11:34 GMT",
+        "reason": "$650 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유    24/7 Wall St.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4827,6 +4875,58 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "NFLX",
+    "name": "Netflix",
+    "sources": [
+      "올랜도 킴 미국주식",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "압력을 받고 있는 Netflix 주식은 약점으로부터 이익을 얻기 위해 이 거래를 설정합니다.",
+        "url": "https://www.investors.com/research/options/netflix-stock-nflx-streaming-trading-options-income-investing-markets/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-04T16:37:24Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "012330",
     "name": "현대모비스",
@@ -5102,8 +5202,8 @@
   },
   {
     "region": "global",
-    "ticker": "NFLX",
-    "name": "Netflix",
+    "ticker": "ORCL",
+    "name": "Oracle",
     "sources": [
       "올랜도 킴 미국주식"
     ],
@@ -5141,36 +5241,36 @@
   },
   {
     "region": "global",
-    "ticker": "ORCL",
-    "name": "Oracle",
+    "ticker": "COIN",
+    "name": "Coinbase",
     "sources": [
-      "올랜도 킴 미국주식"
+      "Yahoo Finance Top Stories"
     ],
     "source_count": 1,
     "evidence": [
       {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
+        "url": "https://finance.yahoo.com/news/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
+        "published_at": "2026-06-04T12:45:00Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
-        "confidence": "ocr_only"
+        "confidence": "source-title/meta"
       },
       {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
+        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
+        "published_at": "2026-06-04T12:45:00Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
-        "confidence": "ocr_only"
+        "confidence": "source-title/meta"
       }
     ],
     "stance": "단일 출처 추천/관심",
@@ -5279,33 +5379,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "COIN",
-    "name": "Coinbase",
-    "sources": [
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
-        "url": "https://finance.yahoo.com/news/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
-        "published_at": "2026-06-04T12:45:00Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
       }
     ],
     "stance": "단일 출처 추천/관심",
