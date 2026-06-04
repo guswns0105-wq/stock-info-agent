@@ -813,8 +813,8 @@
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
     "video_count": 17,
-    "short_count": 7,
-    "regular_video_count": 10,
+    "short_count": 11,
+    "regular_video_count": 6,
     "mention_count": 38,
     "transcript_count": 16,
     "metadata_count": 1,
@@ -891,21 +891,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
-        "url": "https://youtu.be/W2TMT2O0qg8",
-        "published_at": "2026-06-02T09:30:23+00:00",
-        "tickers": [
-          "005930",
-          "005380",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 253,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/rapTrDT6EcM",
         "published_at": "2026-06-02T03:35:18+00:00",
@@ -942,19 +927,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "LG그룹주 급등 이유, 끝나지 않은 호재",
-        "url": "https://youtu.be/yg09E60M_xo",
-        "published_at": "2026-05-29T09:30:20+00:00",
-        "tickers": [
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 316,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/h7ejUIGpCOo",
         "published_at": "2026-05-29T03:42:01+00:00",
@@ -973,17 +945,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
-        "url": "https://youtu.be/otySTRJtd-A",
-        "published_at": "2026-05-28T10:00:08+00:00",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 295,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/pF7Pg-eWUGs",
         "published_at": "2026-05-28T03:26:06+00:00",
@@ -996,20 +957,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 60294,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "sk하이닉스 삼성전자 급등한 이유",
-        "url": "https://youtu.be/56Ec9B1U4p8",
-        "published_at": "2026-05-27T09:30:16+00:00",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 200,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "video"
@@ -1101,6 +1048,59 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 365,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
+        "url": "https://youtu.be/W2TMT2O0qg8",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "005380",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 253,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "LG그룹주 급등 이유, 끝나지 않은 호재",
+        "url": "https://youtu.be/yg09E60M_xo",
+        "published_at": "",
+        "tickers": [
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 316,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
+        "url": "https://youtu.be/otySTRJtd-A",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 295,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "sk하이닉스 삼성전자 급등한 이유",
+        "url": "https://youtu.be/56Ec9B1U4p8",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "000660"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 200,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -1848,8 +1848,8 @@
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
     "video_count": 13,
-    "short_count": 3,
-    "regular_video_count": 10,
+    "short_count": 10,
+    "regular_video_count": 3,
     "mention_count": 24,
     "transcript_count": 5,
     "metadata_count": 8,
@@ -1905,95 +1905,6 @@
         "transcript_chars": 0,
         "ocr_status": "ok",
         "ocr_chars": 511,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
-        "url": "https://youtu.be/sJ0A2JG8fJ4",
-        "published_at": "2026-05-31T09:45:10+00:00",
-        "tickers": [
-          "005380",
-          "066570",
-          "003550"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 416,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
-        "url": "https://youtu.be/audbaebTWh0",
-        "published_at": "2026-05-30T11:45:23+00:00",
-        "tickers": [
-          "005930",
-          "003550",
-          "009150"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 762,
-        "ocr_status": "ok",
-        "ocr_chars": 423,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)",
-        "url": "https://youtu.be/SlqAdSCK68o",
-        "published_at": "2026-05-30T04:45:13+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10",
-        "url": "https://youtu.be/3cWWX6JQX2s",
-        "published_at": "2026-05-29T11:45:21+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10",
-        "url": "https://youtu.be/or5gMJ3XPvk",
-        "published_at": "2026-05-28T10:45:07+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀",
-        "url": "https://youtu.be/FR-0wupxVt8",
-        "published_at": "2026-05-27T11:45:14+00:00",
-        "tickers": [
-          "005930",
-          "000660",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 586,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)",
-        "url": "https://youtu.be/QKc7qe1GKEg",
-        "published_at": "2026-05-27T10:45:30+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
         "youtube_kind": "video"
       },
       {
@@ -2067,6 +1978,95 @@
         "transcript_chars": 742,
         "ocr_status": "ok",
         "ocr_chars": 430,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
+        "url": "https://youtu.be/sJ0A2JG8fJ4",
+        "published_at": "",
+        "tickers": [
+          "005380",
+          "066570",
+          "003550"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 416,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
+        "url": "https://youtu.be/audbaebTWh0",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "003550",
+          "009150"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 762,
+        "ocr_status": "ok",
+        "ocr_chars": 423,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "1천조 굴리는 국민연금이 최신 보유한 종목 TOP10 (한국주식•미국주식)",
+        "url": "https://youtu.be/SlqAdSCK68o",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "LG씨엔에스 놓쳤다면 잡아야할 AI 인프라 대장주 한국주식 TOP10",
+        "url": "https://youtu.be/3cWWX6JQX2s",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "LG에너지솔루션•삼성SDI 놓쳤다면 잡아야할 2차전지•ESS 대장주 한국주식 TOP10",
+        "url": "https://youtu.be/or5gMJ3XPvk",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF에 숨겨진 비밀",
+        "url": "https://youtu.be/FR-0wupxVt8",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "000660",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 586,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자•SK하이닉스 2배 레버리지 ETF출시 당일 (외국인 기관 연기금 순매도 TOP10)",
+        "url": "https://youtu.be/QKc7qe1GKEg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
         "youtube_kind": "short"
       }
     ]
@@ -2510,8 +2510,8 @@
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
     "video_count": 7,
-    "short_count": 1,
-    "regular_video_count": 6,
+    "short_count": 2,
+    "regular_video_count": 5,
     "mention_count": 13,
     "transcript_count": 7,
     "metadata_count": 0,
@@ -2525,6 +2525,11 @@
         "count": 4
       },
       {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 2
+      },
+      {
         "ticker": "AMD",
         "name": "AMD",
         "count": 2
@@ -2532,11 +2537,6 @@
       {
         "ticker": "ARM",
         "name": "Arm",
-        "count": 2
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron",
         "count": 2
       },
       {
@@ -2615,19 +2615,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "sk하이닉스 삼성전자 급등한 이유",
-        "url": "https://youtu.be/56Ec9B1U4p8",
-        "published_at": "2026-05-27T09:30:16+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 200,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자·하이닉스 신고가, 향후전망🔴메모리주 급등마이크론, 시총 1조달러 돌파  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/gCkOwzqTiC0",
         "published_at": "2026-05-27T03:33:12+00:00",
@@ -2651,6 +2638,19 @@
         "transcript_chars": 455,
         "ocr_status": "ok",
         "ocr_chars": 304,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "sk하이닉스 삼성전자 급등한 이유",
+        "url": "https://youtu.be/56Ec9B1U4p8",
+        "published_at": "",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 200,
+        "ocr_status": "",
+        "ocr_chars": 0,
         "youtube_kind": "short"
       }
     ]
@@ -3023,8 +3023,8 @@
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
     "video_count": 6,
-    "short_count": 2,
-    "regular_video_count": 4,
+    "short_count": 4,
+    "regular_video_count": 2,
     "mention_count": 6,
     "transcript_count": 4,
     "metadata_count": 2,
@@ -3060,32 +3060,6 @@
         "transcript_chars": 0,
         "ocr_status": "ok",
         "ocr_chars": 511,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
-        "url": "https://youtu.be/sJ0A2JG8fJ4",
-        "published_at": "2026-05-31T09:45:10+00:00",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 416,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
-        "url": "https://youtu.be/audbaebTWh0",
-        "published_at": "2026-05-30T11:45:23+00:00",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 762,
-        "ocr_status": "ok",
-        "ocr_chars": 423,
         "youtube_kind": "video"
       },
       {
@@ -3125,6 +3099,32 @@
         "transcript_chars": 742,
         "ocr_status": "ok",
         "ocr_chars": 430,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "6월 초, 엔비디아 젠슨 황 방한으로 주가 급등할 수혜주 한국주식 TOP10",
+        "url": "https://youtu.be/sJ0A2JG8fJ4",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 416,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
+        "url": "https://youtu.be/audbaebTWh0",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 762,
+        "ocr_status": "ok",
+        "ocr_chars": 423,
         "youtube_kind": "short"
       }
     ]

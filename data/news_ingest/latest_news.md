@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-04T12:15)
+# 주식 뉴스 인제스트 (2026-06-04T13:00)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -189,7 +189,23 @@
 - 요약: 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" &nbsp;&nbsp; 파이낸셜뉴스
 - 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yd0wySlNhX2FmLUNNQ3F5MXJIU3JxaUdlSTIwci1kdjZhX1JuR3IzTENwOFFhLTlNNXNWd1VOZkVsQS00elZjS3NGOGFrNWdrMHEzVnMyTGR6QdIBXkFVX3lxTE5qdUNxRDhJRWRlTHJ3cGVRN0NrZnlyeDhuRFJWNzJPTEZ3WnJrV1Y2bllMcjR2aFh1TVRzU3d3RXhqWXlNM0RzeDFIU0FwNnRZOHExdkpXZWR4Q3JDOUE?oc=5
 
-### 24. 캐나다산 원유 도입 3.3배로 확대…잠수함 수주 '막판 총력전'
+### 24. 반도체, AI를 넘어 ‘피지컬’의 시대로 [트랜D] - 중앙일보
+- 시장: 한국시장
+- 출처: Google News 국내 증시·반도체
+- 시각: Wed, 03 Jun 2026 22:00:00 GMT
+- 관련 티커: 종목 미검출
+- 요약: 반도체, AI를 넘어 ‘피지컬’의 시대로 [트랜D] &nbsp;&nbsp; 중앙일보
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE95LWpHbEFNdlk0UU1NcHVvOVJTdURWNFY5MmRYZS05MGp4algyYlFYZUNvTlFzLWZnb2ZQVkNLZXlwenZfX2JJWVVmTFFwNlFPaHplR25R?oc=5
+
+### 25. “삼전닉스 놓쳤다면 이 종목” … 1년새 180% 뛴 ‘반도체 설거지’ 기업 - 매일경제
+- 시장: 한국시장
+- 출처: Google News 국내 증시·반도체
+- 시각: Wed, 03 Jun 2026 20:00:00 GMT
+- 관련 티커: 종목 미검출
+- 요약: “삼전닉스 놓쳤다면 이 종목” … 1년새 180% 뛴 ‘반도체 설거지’ 기업 &nbsp;&nbsp; 매일경제
+- 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0Sk5TUWhNMVZGOVRFTVFERnQ1SS1sWGtUamFPRW5mdkV4VWNvM1paRmZYOXZvMXJOdmtHY1R1bnVVTk85MWFLZ1lzRUhDOVpZWnppVFVR?oc=5
+
+### 26. 캐나다산 원유 도입 3.3배로 확대…잠수함 수주 '막판 총력전'
 - 시장: 한국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 22:29:49 +0900
@@ -197,7 +213,7 @@
 - 요약: (서울=연합뉴스) 신창용 기자 = 이달 말 캐나다 차세대 잠수함 도입 사업(CPSP) 최종 선정을 앞두고 정부가 에너지·자원 공급망 협력을 연계...
 - 링크: https://www.yna.co.kr/view/AKR20260602167400003
 
-### 25. 한국첨단소재 "에스밸류투자조합 주식 68억원에 취득"
+### 27. 한국첨단소재 "에스밸류투자조합 주식 68억원에 취득"
 - 시장: 한국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 20:10:43 +0900
@@ -205,7 +221,7 @@
 - 요약: (서울=연합뉴스) 코스닥 상장사 한국첨단소재[062970]는 투자업 업체 에스밸류투자조합의 주식 680만주를 68억원에 취득한다고 2일 공시했다...
 - 링크: https://www.yna.co.kr/view/AKR20260602160500008
 
-### 26. 하이트진로, '참이슬 후레쉬' 알코올 도수 16→15.7도 조정
+### 28. 하이트진로, '참이슬 후레쉬' 알코올 도수 16→15.7도 조정
 - 시장: 한국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 18:38:18 +0900
@@ -213,7 +229,7 @@
 - 요약: (서울=연합뉴스) 홍국기 기자 = 하이트진로는 변화하는 소비자 선호에 맞춰 자사 소주 브랜드 &apos;참이슬 후레쉬&apos;의 알코올 도수를 기존 16도에서 ...
 - 링크: https://www.yna.co.kr/view/AKR20260602153900030
 
-### 27. 무협, 한-아프리카 경제협력위 비즈니스 라운드테이블 개최
+### 29. 무협, 한-아프리카 경제협력위 비즈니스 라운드테이블 개최
 - 시장: 한국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 18:27:32 +0900
@@ -221,29 +237,13 @@
 - 요약: (서울=연합뉴스) 장보인 기자 = 한국무역협회는 2일 서울 중구 롯데호텔에서 아프리카대륙자유무역지대(AfCFTA) 사무국과 &apos;한·아프리카 경제협...
 - 링크: https://www.yna.co.kr/view/AKR20260602151400003
 
-### 28. [연합뉴스 이 시각 헤드라인] - 18:00
+### 30. [연합뉴스 이 시각 헤드라인] - 18:00
 - 시장: 한국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 18:00:00 +0900
 - 관련 티커: 종목 미검출
 - 요약: ■ 격전지 유세 자제한 여야 대표…전현직 대통령 브랜드 적극 활용
 - 링크: https://www.yna.co.kr/view/AKR20260602145200011
-
-### 29. 한화에어로, 과거 폭발사고뒤 법위반 568건 지적받고도 또 참사
-- 시장: 한국시장
-- 출처: 연합뉴스 경제
-- 시각: Tue, 2 Jun 2026 17:59:04 +0900
-- 관련 티커: 종목 미검출
-- 요약: (서울=연합뉴스) 한혜원 기자 = 전날 대전사업장 폭발사고로 5명이 숨지고 2명이 다친 한화에어로스페이스가 2018·2019년 연쇄 폭발사고 이...
-- 링크: https://www.yna.co.kr/view/AKR20260602146200530
-
-### 30. 순창읍∼구림면 도로 확장·정읍 부전동∼칠보면 선형 개선
-- 시장: 한국시장
-- 출처: 연합뉴스 경제
-- 시각: Tue, 2 Jun 2026 15:55:43 +0900
-- 관련 티커: 종목 미검출
-- 요약: (전주=연합뉴스) 백도인 기자 = 전북특별자치도는 총 2천514억원을 들여 순창∼구림 국지도 확장공사와 부전∼칠보 국지도 시설개량공사를 각각 한...
-- 링크: https://www.yna.co.kr/view/AKR20260602127500055
 
 ## 미국시장 뉴스
 
@@ -252,7 +252,6 @@
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 23:06:41 GMT
 - 관련 티커: NVDA
-- 원문 제목: Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid - Benzinga
 - 요약: 상원 의원이 Nvidia 주식을 최대 50만 달러에 매각: 그가 얼마나 많은 금액을 지불했는지 믿을 수 없을 것입니다 Benzinga
 - 링크: https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFdFQmN0cEhYeXhwNGZQN0xIZWpXRjhhTGthUGl1NWdhQTAxbG5UYXg3V2dLT0JqN0NaX0c0TktDR0hwX1pWVU1qNU5LN0tqVC1ERnEwMm9GdDdhZHMyaTAzMU5MbThwSkJudnJTaUQtZFpLSUp4cVVCQmNPb2c1OG1mb1EyVzZUYmhrS0hzc1pKNzhiNjZIcVNoVndXeHpYTHhsZXAzMVh5NmR6UUExRzM1SWxJUDdocGNlcjVqYWY4WDc3SVlJ?oc=5
 
@@ -277,7 +276,6 @@
 - 출처: Google News US Markets AI Semis
 - 시각: Wed, 03 Jun 2026 21:28:30 GMT
 - 관련 티커: AVGO
-- 원문 제목: Broadcom's Non-AI Semiconductor Revenue Rose 6% in 2Q, CEO Says - Moomoo
 - 요약: 브로드컴의 비AI 반도체 매출 2분기 6% 증가, CEO “무무”
 - 링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5
 
@@ -326,7 +324,6 @@
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 10:19:27 GMT
 - 관련 티커: META
-- 원문 제목: Jensen Huang praises Meta, says 'nobody uses AI better' – META stock rebounds in premarket - MSN
 - 요약: Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말합니다 – META 주식은 시판 전 반등 MSN
 - 링크: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5
 
@@ -375,7 +372,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:49:04Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Cisco CEO explains why the stock is at record highs: 'Infrastructure is definitely cool'
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/article/cisco-ceo-explains-why-the-stock-is-at-record-highs-infrastructure-is-definitely-cool-144904306.html
 
@@ -384,7 +380,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:40:30Z
 - 관련 티커: PLTR
-- 원문 제목: Choppy Palantir Stock A Good Candidate For This Options Move
 - 요약: 요약 없음
 - 링크: https://www.investors.com/research/options/palantir-pltr-stock-calendar-spread-options/?src=A00220&yptr=yahoo
 
@@ -393,7 +388,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:37:22Z
 - 관련 티커: TSLA
-- 원문 제목: Here Are The Latest Odds That Elon Musk Will Merge Tesla And SpaceX
 - 요약: 요약 없음
 - 링크: https://www.investors.com/news/tesla-spacex-merger-elon-musk-odds/?src=A00220&yptr=yahoo
 
@@ -402,7 +396,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:48Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Old Dominion’s May update shows an improving LTL market
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/news/old-dominion-may-shows-improving-143448600.html
 
@@ -411,7 +404,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:33Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Wasatch Long/Short Alpha Fund Maintains Confidence in Casella Waste Systems (CWST)
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/wasatch-long-short-alpha-fund-143433781.html
 
@@ -420,7 +412,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:45:00Z
 - 관련 티커: 종목 미검출
-- 원문 제목: He paid off his sister's $24K debt. Now his dad wants him to hand over his $100K inheritance too
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/paid-off-sisters-24k-debt-104500772.html
 
@@ -429,7 +420,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:43:13Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Dow Jones Futures: Oil Prices Rise, Palo Alto Falls On Earnings; New Trump Tariffs Coming
 - 요약: 요약 없음
 - 링크: https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/?src=A00220&yptr=yahoo
 
@@ -438,7 +428,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:39:21Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Morning Bid: Quantum leap
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/morning-bid-quantum-leap-103921504.html
 
@@ -447,7 +436,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:33:01Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Russia's Sberbank offers AI model to Global South states keen to bridge digital divide
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/sectors/technology/articles/russias-sberbank-offers-ai-model-103301266.html
 
@@ -456,7 +444,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:30:00Z
 - 관련 티커: 종목 미검출
-- 원문 제목: A Jersey City man worked into his 90s for $18 an hour because a clerical error prevented him from claiming a pension
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/policy/articles/jersey-city-man-worked-90s-103000144.html
 
@@ -465,7 +452,6 @@
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-02T22:48:03Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Stock market today: Dow, S&P 500, Nasdaq futures mixed as AI fervor meets US-Iran uncertainty
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-as-ai-fervor-meets-us-iran-uncertainty-224803638.html
 
@@ -477,26 +463,26 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/articles/global-fashion-retailer-closing-stores-213300239.html
 
-### 28. 휴전의 불확실성은 석유 시장의 가장 큰 동인으로 남아 있습니다
+### 28. 고프로의 흥망성쇠, 회사가 1년 더 살아남을 수 있을지 '상당히 의심스럽다'
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T15:30:00Z
+- 시각: 2026-06-02T16:19:51Z
 - 관련 티커: 종목 미검출
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/sectors/energy/articles/ceasefire-uncertainty-remains-biggest-driver-153000845.html
+- 링크: https://finance.yahoo.com/markets/stocks/articles/rise-fall-gopro-says-substantial-161951182.html
 
-### 29. Nvidia가 새로운 AI PC를 발표함에 따라 Dell 주식이 큰 승자가 될 수 있습니다.
+### 29. 역사에 따르면 CAVA는 반등할 준비가 되어 있을 수 있습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T15:28:49Z
-- 관련 티커: NVDA
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/nvidia-announces-ai-pcs-dell-152849564.html
-
-### 30. 유럽이 의심스러운 이체에서 5억 유로를 조사함에 따라 Wise Shares가 하락했습니다.
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T15:26:41Z
+- 시각: 2026-06-02T16:18:45Z
 - 관련 티커: 종목 미검출
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/wise-shares-sink-europe-probes-152641787.html
+- 링크: https://finance.yahoo.com/markets/stocks/articles/history-suggests-cava-could-ready-161845801.html
+
+### 30. Exclusive-SpaceX는 다음 주 전체 IPO에서 1조 7500억 달러의 가치 평가를 목표로 하고 있다고 소식통은 말합니다.
+- 시장: 미국시장
+- 출처: Yahoo Finance Top Stories
+- 시각: 2026-06-02T16:14:39Z
+- 관련 티커: 종목 미검출
+- 요약: 요약 없음
+- 링크: https://finance.yahoo.com/markets/stocks/articles/exclusive-spacex-targets-1-75-161439113.html

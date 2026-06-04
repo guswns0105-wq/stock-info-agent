@@ -329,9 +329,14 @@ def news_section(items):
             link = f'<a class="read-link" href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문 보기</a>' if item.get('url') else ''
             summary = esc(item.get('summary_ko') or item.get('summary') or item.get('text') or '요약 없음')
             original = item.get('title_original') or ''
-            original_html = f'<div class="news-original">원문: {esc(original)}</div>' if original and original != item.get('title') else ''
+            # Show the preserved original-title row whenever the item carries an
+            # original field, even if a previous collection run already wrote the
+            # translated title into both title and title_original.  The public
+            # dashboard still needs an explicit provenance row plus the visible
+            # Korean-translation badge for US/global news cards.
+            original_html = f'<div class="news-original">원문: {esc(original)}</div>' if original else ''
             tickers = ''.join(badge(ticker, 'ticker') for ticker in (item.get('tickers') or [])[:5]) or '<span class="news-no-ticker">종목 미검출</span>'
-            trans = badge('한글 번역', 'conf') if region == 'global' and original_html else ''
+            trans = badge('한글 번역', 'conf') if region == 'global' and (item.get('title_ko') or item.get('translation_note') or original_html) else ''
             rows.append(f'''<article class="news-card readable-news">
               <div class="news-top"><b>{esc(item.get('source'))}</b><span>{short_date(item.get('published_at') or item.get('collected_at'))}</span>{trans}{link}</div>
               <h3>{esc(item.get('title_ko') or item.get('title'))}</h3>
