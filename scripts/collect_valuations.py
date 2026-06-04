@@ -20,6 +20,10 @@ COMMON = ROOT / 'data' / 'common_recommendations.json'
 LEX = ROOT / 'config' / 'stocks_lexicon.json'
 OUT = ROOT / 'data' / 'valuations.json'
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
+# 미국 추천 Top5가 소수 인기 성장주에만 묶이지 않도록, 언급량이 낮아도
+# 매시간 같이 점검할 보강 후보입니다. 추천 Top5에는 여전히 fair_value >= price
+# 조건을 통과한 종목만 들어갑니다.
+EXTRA_GLOBAL_CANDIDATES = ['NVO', 'SMCI', 'BABA', 'QCOM', 'ASML', 'LLY']
 
 
 def fetch_text(url, timeout=20, encoding='utf-8'):
@@ -401,7 +405,21 @@ def main():
             'mention_count': len(rec.get('evidence', [])) or rec.get('source_count', 0),
         })
     candidates.sort(key=lambda x: x['mention_count'], reverse=True)
-    limit = int(__import__('os').environ.get('STOCK_VALUATION_LIMIT', '40'))
+    # 언급량 상위 40개만 보면 미국 쪽에서 적정가 이하 후보가 4개로 줄어드는
+    # 경우가 생깁니다. Top5 요청을 만족시키기 위해 품질 좋은 해외 대형주/대표주를
+    # 보강 후보로 함께 계산하되, 최종 추천에는 기존 fair_value >= price 게이트를 유지합니다.
+    for ticker in EXTRA_GLOBAL_CANDIDATES:
+        key = ('global', ticker)
+        if key in seen:
+            continue
+        seen.add(key)
+        candidates.append({
+            'region': 'global',
+            'ticker': ticker,
+            'name': lex.get('global', {}).get(ticker, ticker),
+            'mention_count': 0,
+        })
+    limit = int(__import__('os').environ.get('STOCK_VALUATION_LIMIT', '48'))
     valuations = []
     for c in candidates[:limit]:
         try:

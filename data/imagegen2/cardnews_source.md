@@ -1,6 +1,6 @@
 # ImageGen2 stock cardnews source
 
-Generated: 2026-06-05T06:02
+Generated: 2026-06-05T06:50
 
 ## 한국주식
 1. 현대차 005380 — 현재가 700,000원, 적정 1,590,847원
@@ -14,3 +14,4 @@ Generated: 2026-06-05T06:02
 2. Microsoft MSFT — 현재가 $428.05, 적정 $445.11
 3. Micron MU — 현재가 $996.00, 적정 $1,776.35
 4. Salesforce CRM — 현재가 $188.75, 적정 $217.14
+5. Novo Nordisk NVO — 현재가 $43.75, 적정 $73.56
