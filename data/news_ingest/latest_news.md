@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-04T14:01)
+# 주식 뉴스 인제스트 (2026-06-04T15:00)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -351,7 +351,15 @@
 - 요약: (서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...
 - 링크: https://www.yna.co.kr/view/AKR20260602041951008
 
-### 14. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보
+### 14. 젠슨 황, 내일 전세기로 방한…나흘간 한국서 광폭 행보(종합)
+- 시장: 미국시장
+- 출처: 연합뉴스 경제
+- 시각: Thu, 4 Jun 2026 14:41:47 +0900
+- 관련 티커: NVDA
+- 요약: (김포·서울=연합뉴스) 권하영 한상용 임성호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 5일 오후 한국에 입국해 나흘간 한국 AI 생태계를...
+- 링크: https://www.yna.co.kr/view/AKR20260603053851017
+
+### 15. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 04:11:04 GMT
@@ -359,7 +367,7 @@
 - 요약: Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? 가지각색의 바보
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWdycWxJNmh2ZThrMGNLMmVNdXhNRXNvcDJoMTM1VDRVRS1kd1F3RjZ3QzJsWTE0cVJnUFpiQ2dHMmw0Q0swT1owdkdSX25Kanp0eGxkeFlYZy1YeWZ0YzFZbVJ2NTdsdlpFcGRTMXNxVXIzU3RVNDlOLXFTc0txek5tQnhCYnZBbWZud0Q5MnRmRUYyTjdxVQ?oc=5
 
-### 15. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
+### 16. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 01:41:13 GMT
@@ -367,7 +375,7 @@
 - 요약: AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO)
 - 링크: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5
 
-### 16. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
+### 17. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Mon, 01 Jun 2026 09:03:16 GMT
@@ -375,7 +383,15 @@
 - 요약: 새로운 보고서에 따르면 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다는 사실이 밝혀졌습니다. 반도체 산업 협회 | SIA
 - 링크: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5
 
-### 17. 헤지펀드가 반도체 주식을 거래하는 방법 - Goldman Sachs
+### 18. 예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Mon, 01 Jun 2026 08:22:00 GMT
+- 관련 티커: INTC
+- 요약: 예측: 인텔 다음으로 이 인공지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 The Motley Fool
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5
+
+### 19. 헤지펀드가 반도체 주식을 거래하는 방법 - Goldman Sachs
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Fri, 22 May 2026 07:00:00 GMT
@@ -383,7 +399,7 @@
 - 요약: 헤지펀드가 반도체 주식을 거래하는 방법 Goldman Sachs
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5
 
-### 18. Cisco CEO는 주가가 사상 최고치를 기록한 이유를 설명합니다. '인프라는 확실히 멋지네요'
+### 20. Cisco CEO는 주가가 사상 최고치를 기록한 이유를 설명합니다. '인프라는 확실히 멋지네요'
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:49:04Z
@@ -391,7 +407,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/article/cisco-ceo-explains-why-the-stock-is-at-record-highs-infrastructure-is-definitely-cool-144904306.html
 
-### 19. 고르지 못한 Palantir 주식은 이 옵션 이동에 좋은 후보입니다.
+### 21. 고르지 못한 Palantir 주식은 이 옵션 이동에 좋은 후보입니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:40:30Z
@@ -399,7 +415,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/research/options/palantir-pltr-stock-calendar-spread-options/?src=A00220&yptr=yahoo
 
-### 20. Elon Musk가 Tesla와 SpaceX를 합병할 최신 확률은 다음과 같습니다.
+### 22. Elon Musk가 Tesla와 SpaceX를 합병할 최신 확률은 다음과 같습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:37:22Z
@@ -407,7 +423,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/news/tesla-spacex-merger-elon-musk-odds/?src=A00220&yptr=yahoo
 
-### 21. Old Dominion의 5월 업데이트는 LTL 시장의 개선을 보여줍니다.
+### 23. Old Dominion의 5월 업데이트는 LTL 시장의 개선을 보여줍니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:48Z
@@ -415,7 +431,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/news/old-dominion-may-shows-improving-143448600.html
 
-### 22. Wasatch Long/Short Alpha Fund, CWST(Casella Waste Systems)에 대한 신뢰 유지
+### 24. Wasatch Long/Short Alpha Fund, CWST(Casella Waste Systems)에 대한 신뢰 유지
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:33Z
@@ -423,7 +439,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/wasatch-long-short-alpha-fund-143433781.html
 
-### 23. 그는 여동생의 빚 24,000달러를 갚았습니다. 이제 그의 아버지는 그에게 10만 달러의 유산도 물려주길 원합니다.
+### 25. 그는 여동생의 빚 24,000달러를 갚았습니다. 이제 그의 아버지는 그에게 10만 달러의 유산도 물려주길 원합니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:45:00Z
@@ -431,7 +447,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/paid-off-sisters-24k-debt-104500772.html
 
-### 24. 다우존스 선물: 유가 상승, 팔로알토 수익 하락; 새로운 트럼프 관세가 다가오고 있다
+### 26. 다우존스 선물: 유가 상승, 팔로알토 수익 하락; 새로운 트럼프 관세가 다가오고 있다
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:43:13Z
@@ -439,7 +455,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-ai-stocks-google-tests-key-support-palo-alto-jumps-earnings/?src=A00220&yptr=yahoo
 
-### 25. 아침입찰 : 퀀텀리프
+### 27. 아침입찰 : 퀀텀리프
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:39:21Z
@@ -447,7 +463,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/morning-bid-quantum-leap-103921504.html
 
-### 26. 러시아 Sberbank, 디지털 격차 해소를 원하는 남반구 국가에 AI 모델 제공
+### 28. 러시아 Sberbank, 디지털 격차 해소를 원하는 남반구 국가에 AI 모델 제공
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:33:01Z
@@ -455,7 +471,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/sectors/technology/articles/russias-sberbank-offers-ai-model-103301266.html
 
-### 27. 저지시티의 한 남성은 사무상의 실수로 연금을 받을 수 없어 90대까지 시간당 18달러를 받고 일했다.
+### 29. 저지시티의 한 남성은 사무상의 실수로 연금을 받을 수 없어 90대까지 시간당 18달러를 받고 일했다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T10:30:00Z
@@ -463,26 +479,10 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/policy/articles/jersey-city-man-worked-90s-103000144.html
 
-### 28. 오늘의 주식 시장: AI 열풍이 미국-이란 불확실성을 만나 다우, S&P 500, 나스닥 선물이 혼조세를 보이고 있습니다.
+### 30. 오늘의 주식 시장: AI 열풍이 미국-이란 불확실성을 만나 다우, S&P 500, 나스닥 선물이 혼조세를 보이고 있습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-02T22:48:03Z
 - 관련 티커: 종목 미검출
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/economy/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-as-ai-fervor-meets-us-iran-uncertainty-224803638.html
-
-### 29. 글로벌 패션 리테일러, 33년 만에 전 매장 폐쇄
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T21:33:00Z
-- 관련 티커: 종목 미검출
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/economy/articles/global-fashion-retailer-closing-stores-213300239.html
-
-### 30. 화요일 옥수수 하락폭 확대
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-02T17:20:00Z
-- 관련 티커: 종목 미검출
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/commodities/articles/corn-extending-losses-tuesday-172000344.html

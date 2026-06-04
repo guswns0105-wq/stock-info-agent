@@ -334,10 +334,10 @@ def news_ingest_card():
     try:
         lines = NEWS_MD.read_text(encoding='utf-8').splitlines()
         preview = '\n'.join(lines[:18])
-        preview = human_copy(preview).replace('뉴스 인제스트', '뉴스 메모').replace('크론', '자동 갱신').replace('정규화한 자료', '정리한 자료')
+        preview = human_copy(preview).replace('크론', '자동 갱신').replace('정규화한 자료', '정리한 자료')
     except Exception:
         return ''
-    return f'''<details class="news-md-card"><summary>뉴스 원본 메모 보기</summary><pre>{esc(preview)}</pre><p class="section-note">전체 파일: data/news_ingest/latest_news.md - 매시간 새로 정리되는 뉴스 메모입니다.</p></details>'''
+    return f'''<details class="news-md-card"><summary>Markdown 뉴스 인제스트 보기</summary><pre>{esc(preview)}</pre><p class="section-note">전체 파일: data/news_ingest/latest_news.md - 매시간 새로 정리되는 뉴스 인제스트 메모입니다.</p></details>'''
 
 def news_section(items):
     news = [item for item in items if item.get('source_role') == '뉴스' or item.get('source_type') == 'rss']
@@ -370,7 +370,7 @@ def news_section(items):
             </article>''')
         body = ''.join(rows) if rows else '<p class="empty">뉴스 없음</p>'
         groups.append(f'<div class="news-column"><h3>{region_name(region)} 뉴스 <small>{len(region_news)}건</small></h3>{body}</div>')
-    return f'''<section id="news" class="news-section"><div class="section-kicker">뉴스</div><h2>오늘 시장 뉴스</h2><p class="section-note">미국 뉴스는 한국어 제목을 먼저 보여주고, 원문 제목과 링크를 같이 남깁니다. 뉴스는 배경 확인용입니다.</p><div class="news-grid">{''.join(groups)}</div>{news_ingest_card()}</section>'''
+    return f'''<section id="news" class="news-section"><div class="section-kicker">뉴스</div><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">미국 뉴스는 한국어 제목을 먼저 보여주고, 원문 제목과 링크를 같이 남깁니다. 뉴스는 배경 확인용입니다.</p><div class="news-grid">{''.join(groups)}</div>{news_ingest_card()}</section>'''
 
 def top_recommendations_section(ai_recommendations):
     return f'''<section id="top-recommendations" class="top-rec-section"><div class="top-rec-head"><span>먼저 볼 것</span><h2>AI 추천종목 Top5</h2><p>국내와 미국을 나눠서 보여줍니다. 많이 언급된 종목, 재무 숫자, 차트 위치를 함께 본 관심 목록입니다. 매수 지시는 아닙니다.</p></div>{ai_recommendation_section('domestic', ai_recommendations)}{ai_recommendation_section('global', ai_recommendations)}</section>'''
