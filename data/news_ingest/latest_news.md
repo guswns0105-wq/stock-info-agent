@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-05T02:01)
+# 주식 뉴스 인제스트 (2026-06-05T03:01)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -372,7 +372,16 @@
 - 요약: (김포·서울=연합뉴스) 권하영 한상용 임성호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 5일 오후 한국에 입국해 나흘간 한국 AI 생태계를...
 - 링크: https://www.yna.co.kr/view/AKR20260603053851017
 
-### 16. 650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.
+### 16. 유가가 완화되면서 다우지수는 900포인트 상승했지만, AI 주가 하락으로 월스트리트를 견제 - BNN Bloomberg
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Thu, 04 Jun 2026 16:53:23 GMT
+- 관련 티커: 종목 미검출
+- 원문 제목: The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check - BNN Bloomberg
+- 요약: 유가가 완화되면서 다우지수는 900포인트 급등했지만 AI 주가 하락으로 월스트리트가 견제를 받고 있습니다. BNN Bloomberg
+- 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5
+
+### 17. 650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 16:11:34 GMT
@@ -380,15 +389,6 @@
 - 원문 제목: 1 Big Reason to Sell Meta Platforms Stock Above $650 - 24/7 Wall St.
 - 요약: $650 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 24/7 Wall St.
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzZEYUNhd1YzZm5PZXBrWnNDWE5zQVZEd1BiRFBpMFdpVy14eVpBUVZHaGpRcURVQ0pySmZnYmVDQmppZ3l3S1NCM2tud2owT2Q0UHM4VVpzN3hnWUVJNWVQbzU4MU50Wk9jbUhVbHowMC0xRkh1U0dJbm95dXcxdTBBTnk5RUZ0SVZLenNHTGk5V1dISm9tTE9sZw?oc=5
-
-### 17. 유가가 완화되면서 대부분의 미국 주식은 상승하지만 부진한 AI 스타는 월스트리트를 압박합니다-BNN Bloomberg
-- 시장: 미국시장
-- 출처: Google News US Markets AI Semis
-- 시각: Thu, 04 Jun 2026 15:06:53 GMT
-- 관련 티커: 종목 미검출
-- 원문 제목: Most U.S. stocks rise as oil prices ease, but slumping AI stars weigh on Wall Street - BNN Bloomberg
-- 요약: 유가가 완화되면서 대부분의 미국 주식은 상승하지만 부진한 AI 스타들이 월스트리트를 압박하고 있습니다 BNN Bloomberg
-- 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5
 
 ### 18. 미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 - TradingKey
 - 시장: 미국시장
@@ -497,11 +497,11 @@
 - 요약: 헤지펀드가 반도체 주식을 거래하는 방법 Goldman Sachs
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5
 
-### 30. Jefferies, Global-E Online(GLBE)에 대한 매수 투자의견 유지
+### 30. TSMC, 지속적인 AI 칩 수요 예측
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T16:51:37Z
-- 관련 티커: 종목 미검출
-- 원문 제목: Jefferies Reiterates Buy Rating on Global-E Online (GLBE)
+- 시각: 2026-06-04T17:39:41Z
+- 관련 티커: TSM
+- 원문 제목: TSMC Forecasts Sustained AI Chip Demand
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/jefferies-reiterates-buy-rating-global-165137520.html
+- 링크: https://www.investors.com/news/technology/tsm-stock-chipmaker-tsmc-forecasts-sustained-demand/?src=A00220&yptr=yahoo

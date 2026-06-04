@@ -11,8 +11,8 @@
     "url": "https://youtu.be/KHeqOH7_4P4",
     "published_at": "",
     "text": "",
-    "transcript_method": "rate_limited",
-    "transcript_status": "YouTube timedtext 자막 요청이 429로 제한되어 다음 실행에서 재시도합니다.",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: ERROR: Unable to download video subtitles for 'ko-orig': HTTP Error 429: Too Many Requests\n",
     "transcript_chars": 0,
     "extraction_quality": "caption_failed"
   },
@@ -3118,7 +3118,7 @@
     "summary": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.nav",
     "url": "https://blog.naver.com/magic_rabb1t/224302304075",
     "published_at": "",
-    "text": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.naver.com/ 바로 시작하기 추가정보 입력하기 기본정보를 입력해주세요. 나중에 언제든지 변경할 수 있어요. 프로필 이미지 설정 지우기 사진 업로드 취소 적용 별명 블로그명 블로그 주제 주제 없음 엔터테인먼트·예술 문학·책 영화 미술·디자인 공연·전시 음악 드라마 스타·연예인 만화·애니 방송 생활·노하우·쇼핑 일상·생각 육아·결혼 반려동물 좋은글·이미지 패션·미용 인테리어·DIY 요리·레시피 상품리뷰 원예·재배 취미·여가·여행 게임 스포츠 사진 자동차 취미 국내여행 세계여행 맛집 지식·동향 IT·컴퓨터 사회·정치 건강·의학 비즈니스·경제 어학·외국어 교육·학문 주제없음 주제 선택 보류 나중에 할게요 기본정보 입력 주제 선택 이웃 맺기 뒤로가기 버튼 주제를 선택해 주세요. 선택한 주제의 글과 이웃을 추천받을 수 있어요. 나중에 할게요 기본정보 입력 주제 선택 이웃 맺기 뒤로가기 버튼 인기블로거와 이웃을 맺으세요. 이웃을 맺으면 이웃새글에서 글을 받아볼 수 있어요. 블로그 시작하기 기본정보 입력 주제 선택 이웃 맺기 뒤로가기 버튼 확인 확인 이웃추가 이웃 메뉴 바로가기 본문 바로가기 내 블로그 이웃블로그 블로그 홈 로그인 블로그 메뉴 프롤로그 블로그 서재 안부 마술토끼의 투자이야기 블로그 글쓰기 가벼운 글쓰기툴 퀵에디터가 오픈했어요! 투자이야기 117개의 글 투자이야기 목록열기 투자이야기 HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) 마술토끼 ・ 2026. 6. 1. 7:42 URL 복사 이웃추가 본문 기타 기능 공유하기 신고하기 엔비디아 CEO인 젠슨 황이 이번 주 한국에 와요. ​ ​ ​ 대만 GTC 타이베이 일정을 마치고 넘어오는 동선이죠. ​ ​ 방한 직전, 젠슨황은 SK그룹 최태원 회장과 만나면서 올해만 3번째 공개 회동을 가졌는데요. ​ ​ ​ 2월엔 산타클라라 치킨집에서 만나서 'HBM 공급 논의'라는 말이 돌았고 ​ ​ ​ 3월엔 GTC 현장 SK 부스에서, 이번엔 대만에서 만난거에요. ​ ​ 아무래도 SK하이닉스가 메인 공급사 중 하나기 때문에 자주 만나는 것으로 보이는데요. ​ ​ ​ 엔비디아의 가장 큰 병목 중 하나가 HBM이거든요. ​ ​ ​ GPU 옆에 붙일 고대역폭 메모리가 모자란 상황인거죠. ​ ​ ​ SK하이닉스의 2026년 HBM 물량은 이미 다 팔렸고요. ​ ​ ​ 시가총액도 얼마전 1조 달러를 넘기며 글로벌 12위권까지 올라왔어요. ​ ​ ​ 반면, 삼성은 이전 세대인 HBM3E 때 발열과 수율 부분에서 발이 묶였었죠. ​ ​ ​ 하지만 HBM4부터는 성격이 좀 다를 수 있어요. ​ ​ HBM은 D램을 여러 층 쌓고, 맨 아래 '베이스 다이'라는 받침을 칩을 까는데요. ​ ​ ​ 이 베이스 다이가 GPU와 직접 연결돼서 메모리 전체를 지휘하는 역할을 하죠. ​ ​ ​ 예전 베이스 다이는 단순했지만, HBM4부터는 데이터가 오가는 통로가 2배로 넓어지면서 훨씬 많은 회로를 넣어야 해요. ​ ​ 그러려면 미세 공정이 필요하죠. ​ ​ ​ 잘 쌓기만 하면 됐던 부분이 미세 공정 파운드리를 누가 잘 쓰느냐로 바뀐거에요. ​ ​ ​ 여기서 삼성전자와 SK하이닉스의 전략이 갈리는데요. ​ ​ ​ SK하이닉스는 HBM3E까지는 베이스 다이를 자체 공정으로 만들었지만, HBM4부터는 TSMC 외주를 주는 전략이에요. ​ ​ ​ 순서로 보면 SK하이닉스가 TSMC에 베이스 다이를 주문해서 받아오고요. ​ ​ ​ SK 메모리 팹에서 그 위에 D램을 쌓고, HBM 스택을 완성해요. ​ ​ ​ 완성된 HBM 스택과 엔비디아 GPU를 다시 TSMC가 첨단패키징(CoWoS)으로 한 패키지에 붙이고요. ​ ​ 이 모듈이 엔비디아로 납품되게 되죠. ​ ​ ​ 하지만 삼성은 자사 파운드리를 통해 이부분을 직접 만들려고 하고 있어요. ​ ​ ​ 그래서 SK하이닉스의 HBM은 기술력은 앞서지만 중요한 베이스 다이를 외주를 줘야하는 문제가 발생하고요. ​ ​ ​ 삼성은 줄곧 뒤를 쫓던 입장이지만, 파운드리 수율이 올라오면 속도와 원가에서 앞설 수 있는 기회를 얻게 된거에요. ​ ​ ​ 문제는 HBM3E 때 문제가 됐던 발열과 전력, 수율을 어떻게 잡느냐는 거죠. ​ ​ ​ 이번주 흥미로운 소식이 들렸는데요. ​ ​ ​ 삼성이 5월 29일, 12단 HBM4E 샘플을 고객사에 보냈다는 소식이었어요. ​ ​ 원래 하반기 예정이었던 일정을 예상보다 앞당기면서, SK하이닉스보다 먼저 보낸거죠. ​ ​ ​ 물론 샘플과 실제 공급은 전혀 다른 이야기에요. ​ ​ ​ 이 샘플이 고객사의 검증을 통과하고 양산 물량으로 확정되야 하죠. ​ ​ ​ 하이닉스의 분업구조와 이미 점유한 고객 점유율을 삼성의 수직계열화 전략이 파고 들 수 있을지 관심있게 지켜볼 예정이에요. ​ ​ ​ 이 글은 투자 권유를 목적으로 작성된 것이 아니며, 정보 제공을 위해 작성되었습니다 저작자 명시 필수 영리적 사용 불가 내용 변경 불가 저작자 명시 필수 - 영리적 사용 불가 - 내용 변경 불가 태그 취소 확인 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 이 글에 공감한 블로거 열고 닫기 댓글 쓰기 이 글에 댓글 단 블로거 열고 닫기 인쇄 댓글쓰기 1 / 1 이전 다음 이 블로그 투자이야기 카테고리 글 전체글 보기 투자이야기글 목록 글 제목 작성일 화면 최상단으로 이동 [{\"title\":\"HBM4 전략 비교 (feat. SK하이닉스, 삼성전자)\",\"source\":\"https://blog.naver.com/magic_rabb1t/224302304075\",\"blogName\":\"마술토끼의..\",\"domainIdOrBlogId\":\"magic_rabb1t\",\"nicknameOrBlogId\":\"마술토끼\",\"logNo\":224302304075,\"smartEditorVersion\":4,\"meDisplay\":true,\"lineDisplay\":true,\"outsideDisplay\":true,\"cafeDisplay\":true,\"blogDisplay\":true}] 검색 글 검색 RSS 2.0 RSS 1.0 ATOM 0.3 이 블로그의 저작물은 별도 표시가 없는 한 아래 조건에 따라 사용 가능합니다 저작자 명시 필수 영리적 사용 불가 내용 변경 불가 안녕하세요. 이 포스트는 네이버 블로그에서 작성된 게시글입니다. 자세한 내용을 보려면 링크를 클릭해주세요. 감사합니다. 글 보내기 서비스 안내 2009년 6월 30일 네이버 여행 서비스가 종료되었습니다. 네이버 여행 서비스를 이용해 주신 여러분께 감사드리며, 더 좋은 서비스로 보답할 수 있도록 노력하겠습니다. 악성코드가 포함되어 있는 파일입니다. {FILENAME} 백신 프로그램으로 치료하신 후 다시 첨부하시거나, 치료가 어려우시면 파일을 삭제하시기 바랍니다. 네이버 백신으로 치료하기 고객님의 PC가 악성코드에 감염될 경우 시스템성능 저하, 개인정보 유출등의 피해를 입을 수 있으니 주의하시기 바랍니다. 작성자 이외의 방문자에게는 이용이 제한되었습니다. {ALERTMESSAGE} 이용제한 파일 : {FILENAME} 내PC 저장 N드라이브 저장 카메라 모델 해상도 노출시간 노출보정 프로그램모드 ISO감도 조리개값 초점길이 측광모드 촬영일시 글보내기 제한 공지 저작권 침해가 우려되는 컨텐츠가 포함되어 있어 글보내기 기능을 제한합니다. 네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해, 저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 글보내기 기능을 제한하고 있습니다. 상세한 안내를 받고 싶으신 경우 네이버 고객센터로 문의주시면 도움드리도록 하겠습니다. 건강한 인터넷 환경을 만들어 나갈 수 있도록 고객님의 많은 관심과 협조를 부탁드립니다. 주제 분류 제한 공지 저작권 침해가 우려되는 컨텐츠가 포함되어 있어 주제 분류 기능을 제한합니다. 네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해, 저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 주제 분류 기능을 제한하고 있습니다. 상세한 안내를 받고 싶으신 경우 네이버 고객센터로 문의주시면 도움드리도록 하겠습니다. 건강한 인터넷 환경을 만들어 나갈 수 있도록 고객님의 많은 관심과 협조를 부탁드립니다. 작성하신 게시글 에 사용이 제한된 문구가 포함 되어 일시적으로 등록이 제한됩니다. 이용자 분들이 홍보성 도배, 스팸 게시물로 불편을 겪지 않도록 다음과 같은 경우 해당 게시물 등록이 일시적으로 제한됩니다. 특정 게시물 대량으로 등록되거나 해당 게시물에서 자주 사용하는 문구가 포함된 경우 특정 게시물이 과도하게 반복 작성되거나 해당 게시물에서 자주 사용하는 문구가 포함된 경우 스팸 게시물이 확대 생성되는 것을 방지하기 위하여 문구 및 사용 제한기간을 상세하게 안내해 드리지 못하는 점 양해 부탁 드립니다. 모두가 행복한 인터넷 문화를 만들기 위한 네이버의 노력이오니 회원님의 양해와 협조 부탁드립니다. 더 궁금하신 사항은 고객센터 로 문의하시면 자세히 알려드리겠습니다. 수정하신 후 다시 등록해 주세요. 확인 회원님의 안전한 서비스 이용을 위해 비밀번호를 확인해 주세요. 다시 한번 비밀번호 확인 하시면 이용중인 화면으로 돌아가며, 작성 중이던 내용을 정상적으로 전송 또는 등록하실 수 있습니다. 1일 안부글 작성횟수를 초과하셨습니다. 네이버 블로그에서는 프로그램을 이용한 안부글 자동등록 방지를 위해 1일 안부글 작성횟수에 제한을 두고 있습니다. 1일 안부글 작성횟수를 초과하셨습니다. 고객님이 남기신 안부글에 대한 다수의 신고가 접수되어 1일 안부글 작성 횟수가 5회 로 제한 되었습니다. 네이버 블로그는 여러 사람이 함께 모여 즐거움을 나누는 공간으로 모든 분들이 기분좋게 블로그를 이용할 수 있도록 고객님의 이해와 협조 부탁 드립니다. 공감을 삭제하시겠습니까? 이 글의 공감수도 함께 차감됩니다. 이웃으로 추가하시겠어요? 마술토끼 마술토끼의 투자이야기 이웃추가 이웃추가 레이어 닫기 작성하신 에 이용자들의 신고가 많은 표현이 포함 되어 있습니다. 신고가 많은 표현 다른 표현을 사용해주시기 바랍니다. 건전한 인터넷 문화 조성을 위해 회원님의 적극적인 협조를 부탁드립니다. 더 궁금하신 사항은 고객센터 로 문의하시면 자세히 알려드리겠습니다. 확인 블로그 마켓 가입 완료 내 상품 관리에서 배송비 설정 후 상품 판매를 시작해보세요! 배송비 설정하기 블로그 마켓 가입 완료 레이어 닫기 블로그 마켓 탈퇴가 완료되었습니다. 문의사항은 블로그 마켓 고객센터로 연락주세요. 확인"
+    "text": "HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) : 네이버 블로그 NAVER 블로그 마술토끼의 투자이야기 블로그 검색 이 블로그에서 검색 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 첫 댓글을 남겨보세요 공유하기 블로그 주소 변경 불가 안내 블로그 마켓 판매자의 이력 관리를 위해 블로그 주소 변경이 불가합니다. 자세히 보기 레이어 닫기 블로그 아이디가 필요해요! 블로그에서 진짜 나를 기록하고 다양한 이웃과 소식을 만나보세요. 지금 시작해볼까요? 블로그 아이디 만들기 블로그 아이디 만들기 레이어 닫기 blog.naver.com/ 입력 내용 삭제 설정한 아이디는 나중에 변경할 수 없으니 신중하게 입력해주세요. 변경 전 공유된 블로그/글/클립 링크는 연결이 끊길 수 있습니다. 네이버 아이디 또는 개인정보가 포함된 문자 사용 은 피해주세요. 블로그 도움말에서 아이디 변경 유의사항을 확인해보세요. 나중에 할게요 1. 이전 주소로 공유된 글은 3개월간 새로운 주소로 연결을 지원하며 이후 언제든 연결이 끊길 수 있습니다. 2. 블로그 아이디는 한번 변경하면 다시 변경이 불가능 합니다. 변경하시겠습니까? 취소 확인 블로그 아이디는 한번 정하면 다시 변경이 불가능합니다. 이 아이디로 블로그를 만들까요? 취소 확인 환영합니다! 블로그 아이디가 만들어졌어요. blog.naver.com/ 바로 시작하기 추가정보 입력하기 기본정보를 입력해주세요. 나중에 언제든지 변경할 수 있어요. 프로필 이미지 설정 지우기 사진 업로드 취소 적용 별명 블로그명 블로그 주제 주제 없음 엔터테인먼트·예술 문학·책 영화 미술·디자인 공연·전시 음악 드라마 스타·연예인 만화·애니 방송 생활·노하우·쇼핑 일상·생각 육아·결혼 반려동물 좋은글·이미지 패션·미용 인테리어·DIY 요리·레시피 상품리뷰 원예·재배 취미·여가·여행 게임 스포츠 사진 자동차 취미 국내여행 세계여행 맛집 지식·동향 IT·컴퓨터 사회·정치 건강·의학 비즈니스·경제 어학·외국어 교육·학문 주제없음 주제 선택 보류 나중에 할게요 기본정보 입력 주제 선택 이웃 맺기 뒤로가기 버튼 주제를 선택해 주세요. 선택한 주제의 글과 이웃을 추천받을 수 있어요. 나중에 할게요 기본정보 입력 주제 선택 이웃 맺기 뒤로가기 버튼 인기블로거와 이웃을 맺으세요. 이웃을 맺으면 이웃새글에서 글을 받아볼 수 있어요. 블로그 시작하기 기본정보 입력 주제 선택 이웃 맺기 뒤로가기 버튼 확인 확인 이웃추가 이웃 메뉴 바로가기 본문 바로가기 내 블로그 이웃블로그 블로그 홈 로그인 블로그 메뉴 프롤로그 블로그 서재 안부 마술토끼의 투자이야기 블로그 글쓰기 가벼운 글쓰기툴 퀵에디터가 오픈했어요! 투자이야기 117개의 글 투자이야기 목록열기 투자이야기 HBM4 전략 비교 (feat. SK하이닉스, 삼성전자) 마술토끼 ・ 2026. 6. 1. 7:42 URL 복사 이웃추가 본문 기타 기능 공유하기 신고하기 엔비디아 CEO인 젠슨 황이 이번 주 한국에 와요. ​ ​ ​ 대만 GTC 타이베이 일정을 마치고 넘어오는 동선이죠. ​ ​ 방한 직전, 젠슨황은 SK그룹 최태원 회장과 만나면서 올해만 3번째 공개 회동을 가졌는데요. ​ ​ ​ 2월엔 산타클라라 치킨집에서 만나서 'HBM 공급 논의'라는 말이 돌았고 ​ ​ ​ 3월엔 GTC 현장 SK 부스에서, 이번엔 대만에서 만난거에요. ​ ​ 아무래도 SK하이닉스가 메인 공급사 중 하나기 때문에 자주 만나는 것으로 보이는데요. ​ ​ ​ 엔비디아의 가장 큰 병목 중 하나가 HBM이거든요. ​ ​ ​ GPU 옆에 붙일 고대역폭 메모리가 모자란 상황인거죠. ​ ​ ​ SK하이닉스의 2026년 HBM 물량은 이미 다 팔렸고요. ​ ​ ​ 시가총액도 얼마전 1조 달러를 넘기며 글로벌 12위권까지 올라왔어요. ​ ​ ​ 반면, 삼성은 이전 세대인 HBM3E 때 발열과 수율 부분에서 발이 묶였었죠. ​ ​ ​ 하지만 HBM4부터는 성격이 좀 다를 수 있어요. ​ ​ HBM은 D램을 여러 층 쌓고, 맨 아래 '베이스 다이'라는 받침을 칩을 까는데요. ​ ​ ​ 이 베이스 다이가 GPU와 직접 연결돼서 메모리 전체를 지휘하는 역할을 하죠. ​ ​ ​ 예전 베이스 다이는 단순했지만, HBM4부터는 데이터가 오가는 통로가 2배로 넓어지면서 훨씬 많은 회로를 넣어야 해요. ​ ​ 그러려면 미세 공정이 필요하죠. ​ ​ ​ 잘 쌓기만 하면 됐던 부분이 미세 공정 파운드리를 누가 잘 쓰느냐로 바뀐거에요. ​ ​ ​ 여기서 삼성전자와 SK하이닉스의 전략이 갈리는데요. ​ ​ ​ SK하이닉스는 HBM3E까지는 베이스 다이를 자체 공정으로 만들었지만, HBM4부터는 TSMC 외주를 주는 전략이에요. ​ ​ ​ 순서로 보면 SK하이닉스가 TSMC에 베이스 다이를 주문해서 받아오고요. ​ ​ ​ SK 메모리 팹에서 그 위에 D램을 쌓고, HBM 스택을 완성해요. ​ ​ ​ 완성된 HBM 스택과 엔비디아 GPU를 다시 TSMC가 첨단패키징(CoWoS)으로 한 패키지에 붙이고요. ​ ​ 이 모듈이 엔비디아로 납품되게 되죠. ​ ​ ​ 하지만 삼성은 자사 파운드리를 통해 이부분을 직접 만들려고 하고 있어요. ​ ​ ​ 그래서 SK하이닉스의 HBM은 기술력은 앞서지만 중요한 베이스 다이를 외주를 줘야하는 문제가 발생하고요. ​ ​ ​ 삼성은 줄곧 뒤를 쫓던 입장이지만, 파운드리 수율이 올라오면 속도와 원가에서 앞설 수 있는 기회를 얻게 된거에요. ​ ​ ​ 문제는 HBM3E 때 문제가 됐던 발열과 전력, 수율을 어떻게 잡느냐는 거죠. ​ ​ ​ 이번주 흥미로운 소식이 들렸는데요. ​ ​ ​ 삼성이 5월 29일, 12단 HBM4E 샘플을 고객사에 보냈다는 소식이었어요. ​ ​ 원래 하반기 예정이었던 일정을 예상보다 앞당기면서, SK하이닉스보다 먼저 보낸거죠. ​ ​ ​ 물론 샘플과 실제 공급은 전혀 다른 이야기에요. ​ ​ ​ 이 샘플이 고객사의 검증을 통과하고 양산 물량으로 확정되야 하죠. ​ ​ ​ 하이닉스의 분업구조와 이미 점유한 고객 점유율을 삼성의 수직계열화 전략이 파고 들 수 있을지 관심있게 지켜볼 예정이에요. ​ ​ ​ 이 글은 투자 권유를 목적으로 작성된 것이 아니며, 정보 제공을 위해 작성되었습니다 저작자 명시 필수 영리적 사용 불가 내용 변경 불가 저작자 명시 필수 - 영리적 사용 불가 - 내용 변경 불가 태그 취소 확인 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 공감 0 공감 0 칭찬 0 감사 0 웃김 0 놀람 0 슬픔 0 이 글에 공감한 블로거 열고 닫기 댓글 쓰기 이 글에 댓글 단 블로거 열고 닫기 인쇄 댓글쓰기 1 / 1 이전 다음 이 블로그 투자이야기 카테고리 글 전체글 보기 투자이야기글 목록 글 제목 작성일 화면 최상단으로 이동 [{\"title\":\"HBM4 전략 비교 (feat. SK하이닉스, 삼성전자)\",\"source\":\"https://blog.naver.com/magic_rabb1t/224302304075\",\"blogName\":\"마술토끼의..\",\"domainIdOrBlogId\":\"magic_rabb1t\",\"nicknameOrBlogId\":\"마술토끼\",\"logNo\":224302304075,\"smartEditorVersion\":4,\"blogDisplay\":true,\"lineDisplay\":true,\"cafeDisplay\":true,\"outsideDisplay\":true,\"meDisplay\":true}] 검색 글 검색 RSS 2.0 RSS 1.0 ATOM 0.3 이 블로그의 저작물은 별도 표시가 없는 한 아래 조건에 따라 사용 가능합니다 저작자 명시 필수 영리적 사용 불가 내용 변경 불가 안녕하세요. 이 포스트는 네이버 블로그에서 작성된 게시글입니다. 자세한 내용을 보려면 링크를 클릭해주세요. 감사합니다. 글 보내기 서비스 안내 2009년 6월 30일 네이버 여행 서비스가 종료되었습니다. 네이버 여행 서비스를 이용해 주신 여러분께 감사드리며, 더 좋은 서비스로 보답할 수 있도록 노력하겠습니다. 악성코드가 포함되어 있는 파일입니다. {FILENAME} 백신 프로그램으로 치료하신 후 다시 첨부하시거나, 치료가 어려우시면 파일을 삭제하시기 바랍니다. 네이버 백신으로 치료하기 고객님의 PC가 악성코드에 감염될 경우 시스템성능 저하, 개인정보 유출등의 피해를 입을 수 있으니 주의하시기 바랍니다. 작성자 이외의 방문자에게는 이용이 제한되었습니다. {ALERTMESSAGE} 이용제한 파일 : {FILENAME} 내PC 저장 N드라이브 저장 카메라 모델 해상도 노출시간 노출보정 프로그램모드 ISO감도 조리개값 초점길이 측광모드 촬영일시 글보내기 제한 공지 저작권 침해가 우려되는 컨텐츠가 포함되어 있어 글보내기 기능을 제한합니다. 네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해, 저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 글보내기 기능을 제한하고 있습니다. 상세한 안내를 받고 싶으신 경우 네이버 고객센터로 문의주시면 도움드리도록 하겠습니다. 건강한 인터넷 환경을 만들어 나갈 수 있도록 고객님의 많은 관심과 협조를 부탁드립니다. 주제 분류 제한 공지 저작권 침해가 우려되는 컨텐츠가 포함되어 있어 주제 분류 기능을 제한합니다. 네이버는 블로그를 통해 저작물이 무단으로 공유되는 것을 막기 위해, 저작권을 침해하는 컨텐츠가 포함되어 있는 게시물의 경우 주제 분류 기능을 제한하고 있습니다. 상세한 안내를 받고 싶으신 경우 네이버 고객센터로 문의주시면 도움드리도록 하겠습니다. 건강한 인터넷 환경을 만들어 나갈 수 있도록 고객님의 많은 관심과 협조를 부탁드립니다. 작성하신 게시글 에 사용이 제한된 문구가 포함 되어 일시적으로 등록이 제한됩니다. 이용자 분들이 홍보성 도배, 스팸 게시물로 불편을 겪지 않도록 다음과 같은 경우 해당 게시물 등록이 일시적으로 제한됩니다. 특정 게시물 대량으로 등록되거나 해당 게시물에서 자주 사용하는 문구가 포함된 경우 특정 게시물이 과도하게 반복 작성되거나 해당 게시물에서 자주 사용하는 문구가 포함된 경우 스팸 게시물이 확대 생성되는 것을 방지하기 위하여 문구 및 사용 제한기간을 상세하게 안내해 드리지 못하는 점 양해 부탁 드립니다. 모두가 행복한 인터넷 문화를 만들기 위한 네이버의 노력이오니 회원님의 양해와 협조 부탁드립니다. 더 궁금하신 사항은 고객센터 로 문의하시면 자세히 알려드리겠습니다. 수정하신 후 다시 등록해 주세요. 확인 회원님의 안전한 서비스 이용을 위해 비밀번호를 확인해 주세요. 다시 한번 비밀번호 확인 하시면 이용중인 화면으로 돌아가며, 작성 중이던 내용을 정상적으로 전송 또는 등록하실 수 있습니다. 1일 안부글 작성횟수를 초과하셨습니다. 네이버 블로그에서는 프로그램을 이용한 안부글 자동등록 방지를 위해 1일 안부글 작성횟수에 제한을 두고 있습니다. 1일 안부글 작성횟수를 초과하셨습니다. 고객님이 남기신 안부글에 대한 다수의 신고가 접수되어 1일 안부글 작성 횟수가 5회 로 제한 되었습니다. 네이버 블로그는 여러 사람이 함께 모여 즐거움을 나누는 공간으로 모든 분들이 기분좋게 블로그를 이용할 수 있도록 고객님의 이해와 협조 부탁 드립니다. 공감을 삭제하시겠습니까? 이 글의 공감수도 함께 차감됩니다. 이웃으로 추가하시겠어요? 마술토끼 마술토끼의 투자이야기 이웃추가 이웃추가 레이어 닫기 작성하신 에 이용자들의 신고가 많은 표현이 포함 되어 있습니다. 신고가 많은 표현 다른 표현을 사용해주시기 바랍니다. 건전한 인터넷 문화 조성을 위해 회원님의 적극적인 협조를 부탁드립니다. 더 궁금하신 사항은 고객센터 로 문의하시면 자세히 알려드리겠습니다. 확인 블로그 마켓 가입 완료 내 상품 관리에서 배송비 설정 후 상품 판매를 시작해보세요! 배송비 설정하기 블로그 마켓 가입 완료 레이어 닫기 블로그 마켓 탈퇴가 완료되었습니다. 문의사항은 블로그 마켓 고객센터로 연락주세요. 확인"
   },
   {
     "source": "블로그 ranto28",
@@ -3194,41 +3194,41 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Jefferies Reiterates Buy Rating on Global-E Online (GLBE)",
+    "title": "Tech stocks today: Chip stocks drag down tech sector as Broadcom earnings give investors pause",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-reiterates-buy-rating-global-165137520.html",
-    "published_at": "2026-06-04T16:51:37Z",
-    "text": "Jefferies Reiterates Buy Rating on Global-E Online (GLBE) "
+    "url": "https://finance.yahoo.com/sectors/technology/live/tech-stocks-today-chip-stocks-drag-down-tech-sector-as-broadcom-earnings-give-investors-pause-100000485.html",
+    "published_at": "2026-06-01T10:00:00Z",
+    "text": "Tech stocks today: Chip stocks drag down tech sector as Broadcom earnings give investors pause "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "NVIDIA (NVDA): The Most Promising Stock to Buy Right Now",
+    "title": "TSMC Forecasts Sustained AI Chip Demand",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-most-promising-stock-165118417.html",
-    "published_at": "2026-06-04T16:51:18Z",
-    "text": "NVIDIA (NVDA): The Most Promising Stock to Buy Right Now "
+    "url": "https://www.investors.com/news/technology/tsm-stock-chipmaker-tsmc-forecasts-sustained-demand/?src=A00220&yptr=yahoo",
+    "published_at": "2026-06-04T17:39:41Z",
+    "text": "TSMC Forecasts Sustained AI Chip Demand "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Deutsche Bank Raises its Price Target on Star Bulk Carriers (SBLK)",
+    "title": "The Glazer Family Fractures as Manchester United Hits a Financial High Note",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-raises-price-target-165103564.html",
-    "published_at": "2026-06-04T16:51:03Z",
-    "text": "Deutsche Bank Raises its Price Target on Star Bulk Carriers (SBLK) "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/glazer-family-fractures-manchester-united-173735024.html",
+    "published_at": "2026-06-04T17:37:35Z",
+    "text": "The Glazer Family Fractures as Manchester United Hits a Financial High Note "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Upstart (UPST) Partners with Community Choice Credit Union",
+    "title": "Bybit Becomes First Major Exchange to Integrate Western Union’s USDPT",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/upstart-upst-partners-community-choice-165055642.html",
-    "published_at": "2026-06-04T16:50:55Z",
-    "text": "Upstart (UPST) Partners with Community Choice Credit Union "
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bybit-becomes-first-major-exchange-173300949.html",
+    "published_at": "2026-06-04T17:33:00Z",
+    "text": "Bybit Becomes First Major Exchange to Integrate Western Union’s USDPT "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -3264,21 +3264,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "“코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 - 국민일보",
-    "summary": "“코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 &nbsp;&nbsp; 국민일보",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PVU5MRlcyQVJqekZVNFRHaWd6cGhHdU5lNl82S3BzSk1mQm9Ca1ZkT194VzVNbzVrYXFZaWNZNjJGZzJ5TXllNmRRMWJOblEyTk1iRmVqZEFhd3NvUlZvNkozTV9LeWfSAWxBVV95cUxPMHNueC1RQTd4NmVzTU5vNlZvOE5Xc1JxcUZqRU4tMUdFUUE4ZkViNHVxOVdVcGxVWGphZkV6TGlCR3BpbVh4bjU1SC1zUXNQWXVKYTduU2JtRjVkWUJ3RDZaRXNJaFBfVVdoank?oc=5",
-    "published_at": "Thu, 04 Jun 2026 15:07:00 GMT",
-    "text": "“코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 - 국민일보  “코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 &nbsp;&nbsp; 국민일보 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "\"진짜 1만피 가나요?\"…증시 파격 전망에 개미들 3가지 의문 - 한국경제",
     "summary": "\"진짜 1만피 가나요?\"…증시 파격 전망에 개미들 3가지 의문 &nbsp;&nbsp; 한국경제",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01V0M3MGI3Vks4bWNUbkM5NFRXWmZDTzJxZUNHU09QTWpiWUpJd21qbWdIUDdNZWlwRkpiN1hMS0tlck92MEdMTzhxQzBpX19fZjNXVWo3QUFWd9IBVEFVX3lxTE1IMWp5ZVlodWtEUG9xWS10WklFbkxjdGVDWUR0NjRHWXRfVy11WDlXcmVwRDA1UnhGRWRvRUtnWVN6MWFRTV9Xb005cS0zTUx1bHN6aQ?oc=5",
     "published_at": "Thu, 04 Jun 2026 07:44:56 GMT",
     "text": "\"진짜 1만피 가나요?\"…증시 파격 전망에 개미들 3가지 의문 - 한국경제  \"진짜 1만피 가나요?\"…증시 파격 전망에 개미들 3가지 의문 &nbsp;&nbsp; 한국경제 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "“코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 - 국민일보",
+    "summary": "“코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 &nbsp;&nbsp; 국민일보",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PVU5MRlcyQVJqekZVNFRHaWd6cGhHdU5lNl82S3BzSk1mQm9Ca1ZkT194VzVNbzVrYXFZaWNZNjJGZzJ5TXllNmRRMWJOblEyTk1iRmVqZEFhd3NvUlZvNkozTV9LeWfSAWxBVV95cUxPMHNueC1RQTd4NmVzTU5vNlZvOE5Xc1JxcUZqRU4tMUdFUUE4ZkViNHVxOVdVcGxVWGphZkV6TGlCR3BpbVh4bjU1SC1zUXNQWXVKYTduU2JtRjVkWUJ3RDZaRXNJaFBfVVdoank?oc=5",
+    "published_at": "Thu, 04 Jun 2026 15:07:00 GMT",
+    "text": "“코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 - 국민일보  “코스피 1만2000” 낙관론 여전… 주가누르기방지법 속도 낼 듯 &nbsp;&nbsp; 국민일보 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -3334,21 +3334,21 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts - StockStory",
-    "summary": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts &nbsp;&nbsp; StockStory",
-    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkRSbUtza203a3hQUXRWbm1BTHZFYndkTHEyZUhMcjJ1cnBuV0syTW85Tm4xT0Q0QzdzUFdWajFWX2dOT0dfUk9HMkdURVRBM3ZLYTZzODhiZGJpZmR2VHBwZnA4bm5pV2syS09vY2VBZ1oxb2RZcFYtUTc3WlVaaGRJZlMwWVZFN0RRalBocmdJRG1KYjg2OGpnQ2RwVUpzRkZIWHBvMXR2bzRkOHB1SE5jYnBfQWpTTHFmUW4zWFV2SFBWdTJoQmVCRG9FYnRzcGRINFI2LWZJMUdOal9oT24zaUJFNGFGam1xRHFQWVppUzZtQkRV?oc=5",
-    "published_at": "Thu, 04 Jun 2026 08:39:14 GMT",
-    "text": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts - StockStory  AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts &nbsp;&nbsp; StockStory "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
     "title": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA",
     "summary": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
     "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
     "text": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA  New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts - StockStory",
+    "summary": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts &nbsp;&nbsp; StockStory",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkRSbUtza203a3hQUXRWbm1BTHZFYndkTHEyZUhMcjJ1cnBuV0syTW85Tm4xT0Q0QzdzUFdWajFWX2dOT0dfUk9HMkdURVRBM3ZLYTZzODhiZGJpZmR2VHBwZnA4bm5pV2syS09vY2VBZ1oxb2RZcFYtUTc3WlVaaGRJZlMwWVZFN0RRalBocmdJRG1KYjg2OGpnQ2RwVUpzRkZIWHBvMXR2bzRkOHB1SE5jYnBfQWpTTHFmUW4zWFV2SFBWdTJoQmVCRG9FYnRzcGRINFI2LWZJMUdOal9oT24zaUJFNGFGam1xRHFQWVppUzZtQkRV?oc=5",
+    "published_at": "Thu, 04 Jun 2026 08:39:14 GMT",
+    "text": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts - StockStory  AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts &nbsp;&nbsp; StockStory "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -3374,11 +3374,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Most U.S. stocks rise as oil prices ease, but slumping AI stars weigh on Wall Street - BNN Bloomberg",
-    "summary": "Most U.S. stocks rise as oil prices ease, but slumping AI stars weigh on Wall Street &nbsp;&nbsp; BNN Bloomberg",
+    "title": "The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check - BNN Bloomberg",
+    "summary": "The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check &nbsp;&nbsp; BNN Bloomberg",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5",
-    "published_at": "Thu, 04 Jun 2026 15:06:53 GMT",
-    "text": "Most U.S. stocks rise as oil prices ease, but slumping AI stars weigh on Wall Street - BNN Bloomberg  Most U.S. stocks rise as oil prices ease, but slumping AI stars weigh on Wall Street &nbsp;&nbsp; BNN Bloomberg "
+    "published_at": "Thu, 04 Jun 2026 16:53:23 GMT",
+    "text": "The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check - BNN Bloomberg  The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check &nbsp;&nbsp; BNN Bloomberg "
   },
   {
     "source": "Google News Magnificent 7",
