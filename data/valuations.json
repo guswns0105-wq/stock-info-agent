@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T20:18",
+  "generated_at": "2026-06-04T20:56",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -106,9 +106,9 @@
         "ret20_pct": 26.97947214076246,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 31회, 적정가 대비 13.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 32회, 적정가 대비 13.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 31회",
+          "출처 언급 32회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
@@ -219,9 +219,9 @@
         "ret20_pct": 68.63011237351913,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 18회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 16회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 18회",
+          "출처 언급 16회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -360,9 +360,9 @@
         "ret20_pct": 26.97947214076246,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 31회, 적정가 대비 13.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 32회, 적정가 대비 13.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 31회",
+          "출처 언급 32회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
@@ -471,9 +471,9 @@
         "ret20_pct": 68.63011237351913,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 18회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 16회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 18회",
+          "출처 언급 16회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -574,7 +574,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "region": "global",
-      "mention_count": 59,
+      "mention_count": 60,
       "price": 214.75,
       "currency": "USD",
       "pe": 32.888,
@@ -594,9 +594,9 @@
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 59회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 60회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 59회",
+        "출처 언급 60회",
         "ROE 114.3%",
         "PER가 기준보다 낮음"
       ],
@@ -691,7 +691,7 @@
       "ticker": "003550",
       "name": "LG",
       "region": "domestic",
-      "mention_count": 31,
+      "mention_count": 32,
       "price": 129900.0,
       "currency": "KRW",
       "pe": 10.92,
@@ -711,9 +711,9 @@
       "score": 3,
       "technical_score": 3,
       "ai_score": 9,
-      "ai_comment": "출처 언급 31회, 적정가 대비 13.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 32회, 적정가 대비 13.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 31회",
+        "출처 언급 32회",
         "PBR 0.51배"
       ],
       "risks": [
@@ -751,7 +751,7 @@
       "ticker": "TSLA",
       "name": "Tesla",
       "region": "global",
-      "mention_count": 30,
+      "mention_count": 31,
       "price": 423.7,
       "currency": "USD",
       "pe": 412.04,
@@ -771,9 +771,9 @@
       "score": -4,
       "technical_score": 3,
       "ai_score": -1,
-      "ai_comment": "출처 언급 30회, 적정가 대비 -87.81% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 31회, 적정가 대비 -87.81% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 30회"
+        "출처 언급 31회"
       ],
       "risks": [
         "ROE 낮음 4.90%",
@@ -870,7 +870,7 @@
       "ticker": "MU",
       "name": "Micron",
       "region": "global",
-      "mention_count": 18,
+      "mention_count": 16,
       "price": 1079.57,
       "currency": "USD",
       "pe": 50.786,
@@ -890,9 +890,9 @@
       "score": 7,
       "technical_score": -1,
       "ai_score": 9,
-      "ai_comment": "출처 언급 18회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 16회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 18회",
+        "출처 언급 16회",
         "ROE 39.82%",
         "PER가 기준보다 낮음"
       ],
@@ -928,7 +928,7 @@
       "ticker": "PLTR",
       "name": "Palantir",
       "region": "global",
-      "mention_count": 14,
+      "mention_count": 13,
       "price": 142.2,
       "currency": "USD",
       "pe": 159.852,
@@ -948,9 +948,9 @@
       "score": -1,
       "technical_score": 3,
       "ai_score": 2,
-      "ai_comment": "출처 언급 14회, 적정가 대비 -75.10% 여력, 중립 추세, ROE 32.59% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 13회, 적정가 대비 -75.10% 여력, 중립 추세, ROE 32.59% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 14회",
+        "출처 언급 13회",
         "ROE 32.59%"
       ],
       "risks": [
@@ -1046,7 +1046,7 @@
       "ticker": "AMD",
       "name": "AMD",
       "region": "global",
-      "mention_count": 9,
+      "mention_count": 8,
       "price": 542.52,
       "currency": "USD",
       "pe": 180.913,
@@ -1065,10 +1065,10 @@
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -2,
       "technical_score": -1,
-      "ai_score": -3.75,
-      "ai_comment": "출처 언급 9회, 적정가 대비 -73.22% 여력, 상승 추세, ROE 8.06% 기준으로 산정했습니다.",
+      "ai_score": -4.0,
+      "ai_comment": "출처 언급 8회, 적정가 대비 -73.22% 여력, 상승 추세, ROE 8.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 9회",
+        "출처 언급 8회",
         "ROE 8.06%"
       ],
       "risks": [
@@ -1513,58 +1513,6 @@
       "fetch_note": ""
     },
     {
-      "ticker": "QQQ",
-      "name": "Nasdaq 100 ETF",
-      "region": "global",
-      "mention_count": 5,
-      "price": 744.21,
-      "currency": "USD",
-      "pe": null,
-      "forward_pe": null,
-      "pb": null,
-      "roe": null,
-      "profit_margin": null,
-      "eps": null,
-      "fair_value": null,
-      "watch_buy_price": null,
-      "ai_buy_price": null,
-      "ai_sell_price": 746.1599731445312,
-      "margin_to_fair_pct": null,
-      "verdict": "자료 부족",
-      "action": "재무 데이터 확인 후 판단",
-      "rationale": "공개 페이지에서 가격·PER/PBR/EPS 중 충분한 조합을 확보하지 못했습니다.",
-      "score": 1,
-      "technical_score": 2,
-      "ai_score": 4.25,
-      "ai_comment": "출처 언급 5회, 상승 추세 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 5회"
-      ],
-      "risks": [],
-      "valuation_basis": [],
-      "chart": {
-        "chart_symbol": "QQQ",
-        "chart_status": "ok",
-        "sma20": 719.2630004882812,
-        "sma60": 651.4116668701172,
-        "sma120": 633.2497487386067,
-        "ret20_pct": 9.184139903136778,
-        "ret60_pct": 22.45129459685826,
-        "high_52w": 746.1599731445312,
-        "low_52w": 524.7899780273438,
-        "recent_support": 558.280029296875,
-        "recent_resistance": 746.1599731445312,
-        "volatility_pct": 18.56890127258103,
-        "trend": "상승 추세",
-        "technical_score": 2,
-        "position_52w": 0.9911913394428231
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/QQQ"
-      ],
-      "fetch_note": "StockAnalysis 통계 수집 실패: HTTP Error 404: Not Found"
-    },
-    {
       "ticker": "INTC",
       "name": "Intel",
       "region": "global",
@@ -1919,6 +1867,58 @@
         "https://query1.finance.yahoo.com/v8/finance/chart/012330.KS"
       ],
       "fetch_note": ""
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Nasdaq 100 ETF",
+      "region": "global",
+      "mention_count": 3,
+      "price": 744.21,
+      "currency": "USD",
+      "pe": null,
+      "forward_pe": null,
+      "pb": null,
+      "roe": null,
+      "profit_margin": null,
+      "eps": null,
+      "fair_value": null,
+      "watch_buy_price": null,
+      "ai_buy_price": null,
+      "ai_sell_price": 746.1599731445312,
+      "margin_to_fair_pct": null,
+      "verdict": "자료 부족",
+      "action": "재무 데이터 확인 후 판단",
+      "rationale": "공개 페이지에서 가격·PER/PBR/EPS 중 충분한 조합을 확보하지 못했습니다.",
+      "score": 1,
+      "technical_score": 2,
+      "ai_score": 3.75,
+      "ai_comment": "출처 언급 3회, 상승 추세 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 3회"
+      ],
+      "risks": [],
+      "valuation_basis": [],
+      "chart": {
+        "chart_symbol": "QQQ",
+        "chart_status": "ok",
+        "sma20": 719.2630004882812,
+        "sma60": 651.4116668701172,
+        "sma120": 633.2497487386067,
+        "ret20_pct": 9.184139903136778,
+        "ret60_pct": 22.45129459685826,
+        "high_52w": 746.1599731445312,
+        "low_52w": 524.7899780273438,
+        "recent_support": 558.280029296875,
+        "recent_resistance": 746.1599731445312,
+        "volatility_pct": 18.56890127258103,
+        "trend": "상승 추세",
+        "technical_score": 2,
+        "position_52w": 0.9911913394428231
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/QQQ"
+      ],
+      "fetch_note": "StockAnalysis 통계 수집 실패: HTTP Error 404: Not Found"
     },
     {
       "ticker": "SPY",

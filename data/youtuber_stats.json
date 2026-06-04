@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 63,
-    "short_count": 63,
+    "video_count": 64,
+    "short_count": 64,
     "regular_video_count": 0,
     "mention_count": 87,
     "transcript_count": 57,
-    "metadata_count": 6,
+    "metadata_count": 7,
     "ocr_count": 4,
     "transcript_chars": 123083,
     "ocr_chars": 970,
@@ -432,20 +432,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "28일 목요일, 투자자들이 반드시 알아야 하는 투자 포인트",
-        "url": "https://youtu.be/Y4_854zyDbk",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2134,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
         "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
@@ -482,323 +468,16 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
-      }
-    ]
-  },
-  {
-    "region": "global",
-    "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-    "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
-    "video_count": 19,
-    "short_count": 8,
-    "regular_video_count": 11,
-    "mention_count": 41,
-    "transcript_count": 18,
-    "metadata_count": 1,
-    "ocr_count": 5,
-    "transcript_chars": 275437,
-    "ocr_chars": 773,
-    "stocks": [
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "count": 11
       },
       {
-        "ticker": "NVDA",
-        "name": "NVIDIA",
-        "count": 8
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 6
-      },
-      {
-        "ticker": "TSM",
-        "name": "TSMC",
-        "count": 4
-      },
-      {
-        "ticker": "QQQ",
-        "name": "Nasdaq 100 ETF",
-        "count": 4
-      },
-      {
-        "ticker": "AMD",
-        "name": "AMD",
-        "count": 3
-      },
-      {
-        "ticker": "PLTR",
-        "name": "Palantir",
-        "count": 3
-      },
-      {
-        "ticker": "IONQ",
-        "name": "IonQ",
-        "count": 2
-      }
-    ],
-    "videos": [
-      {
-        "title": "이종목 단기매수 예정입니다. (테슬라,엔비디아,메타,마소,알파벳,애플,아마존)",
-        "url": "https://youtu.be/wAzOMO2QTQg",
-        "published_at": "2026-06-02T11:00:34+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "PLTR",
-          "TSM",
-          "QQQ",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 7827,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
-        "url": "https://youtu.be/d5bXnCLWrvo",
-        "published_at": "2026-05-31T13:59:30+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 54095,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
-        "url": "https://youtu.be/jI89d1bYzFY",
-        "published_at": "2026-05-31T13:28:14+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
-        "url": "https://youtu.be/V2YUu1TNb8k",
-        "published_at": "2026-05-29T21:34:55+00:00",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 1796,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
-        "url": "https://youtu.be/FZj3FJrQtpY",
-        "published_at": "2026-05-28T11:00:30+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "QQQ",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 9892,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
-        "url": "https://youtu.be/ZSTrI_ryiZ8",
-        "published_at": "2026-05-27T15:33:12+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "TSM",
-          "QQQ",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 53674,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/25 (월) 테슬라 $500 보러 가나?",
-        "url": "https://youtu.be/iFTuiuHmA6Y",
-        "published_at": "2026-05-25T13:20:25+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "TSM",
-          "QQQ",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 43799,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
-        "url": "https://youtu.be/2X-ugUjZMuo",
-        "published_at": "2026-05-21T16:00:11+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "PLTR",
-          "MU",
-          "IONQ"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 68860,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "정배열후 첫번째 이평선 지지 받을때 매수",
-        "url": "https://youtu.be/1KJBq6v3YGA",
-        "published_at": "2026-05-18T20:15:06+00:00",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 449,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "돌파, 돌파지지 매수",
-        "url": "https://youtu.be/sqKAFVyuiiY",
-        "published_at": "2026-05-17T15:10:23+00:00",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 558,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
-        "url": "https://youtu.be/cwMSV6imFo0",
-        "published_at": "2026-05-17T12:41:48+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "PLTR",
-          "TSM",
-          "MU",
-          "IONQ"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 31081,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
-        "title": "돈 지키는 자리",
-        "url": "https://youtu.be/j_MO4BG8oIo",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 352,
-        "ocr_status": "ok",
-        "ocr_chars": 240,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "돈 버는 자리",
-        "url": "https://youtu.be/gbNwCWJiDkY",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 492,
-        "ocr_status": "ok",
-        "ocr_chars": 144,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "테슬라 $300 돌파 명장면~",
-        "url": "https://youtu.be/T8YHAx9MwQw",
+        "title": "0.1% 투자자들이 '코스피 하락장'에서 노린다는 '저점매수' 타이밍",
+        "url": "https://youtu.be/3ezl6ZmQWRw",
         "published_at": "",
         "tickers": [
-          "TSLA"
+          "005930"
         ],
         "confidence": "transcript",
-        "transcript_chars": 295,
-        "ocr_status": "ok",
-        "ocr_chars": 46,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "테슬라 스페이스X 빠꾸 성공!  #테슬라",
-        "url": "https://youtu.be/DdPU3mBkPZg",
-        "published_at": "",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 244,
-        "ocr_status": "ok",
-        "ocr_chars": 296,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "[쉬운 주식강의] 도지 캔들",
-        "url": "https://youtu.be/igYSD1PGTG8",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 378,
-        "ocr_status": "ok",
-        "ocr_chars": 47,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "[쉬운 주식강의] 장대양봉, 장대음봉 #shorts",
-        "url": "https://youtu.be/kuYyeKkO7Kw",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 416,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "[쉬운 주식강의] 망치형 #shorts",
-        "url": "https://youtu.be/Qu4-ymmzmb4",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 640,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
-        "title": "23년 11월29일 (수) 미국증시 1분 브리핑  #테슬라 #사이버트럭  #차트분석 #tmf",
-        "url": "https://youtu.be/YiGFF2JL6fE",
-        "published_at": "",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 589,
+        "transcript_chars": 1785,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -1128,6 +807,333 @@
   },
   {
     "region": "global",
+    "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+    "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
+    "video_count": 20,
+    "short_count": 9,
+    "regular_video_count": 11,
+    "mention_count": 36,
+    "transcript_count": 19,
+    "metadata_count": 1,
+    "ocr_count": 5,
+    "transcript_chars": 276953,
+    "ocr_chars": 773,
+    "stocks": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 12
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 8
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "count": 4
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 4
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "count": 2
+      },
+      {
+        "ticker": "QQQ",
+        "name": "Nasdaq 100 ETF",
+        "count": 2
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 2
+      },
+      {
+        "ticker": "IONQ",
+        "name": "IonQ",
+        "count": 2
+      }
+    ],
+    "videos": [
+      {
+        "title": "단기 조정 가능성 미국주식 투자전략 (테슬라,엔비디아,마소,메타,비트코인)",
+        "url": "https://youtu.be/t0qNljJYLmA",
+        "published_at": "2026-06-04T11:00:24+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 4329,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "이종목 단기매수 예정입니다. (테슬라,엔비디아,메타,마소,알파벳,애플,아마존)",
+        "url": "https://youtu.be/wAzOMO2QTQg",
+        "published_at": "2026-06-02T11:00:34+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "TSM"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 7628,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/d5bXnCLWrvo",
+        "published_at": "2026-05-31T13:59:30+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 54095,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5/31 (일) 마이크로소프트 심상치 않은 모습 입니다.",
+        "url": "https://youtu.be/jI89d1bYzFY",
+        "published_at": "2026-05-31T13:28:14+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "포모를 못참고 반도체 몰빵했습니다. ㅠㅠ",
+        "url": "https://youtu.be/V2YUu1TNb8k",
+        "published_at": "2026-05-29T21:34:55+00:00",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1653,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "오전에 이종목 매수했습니다. (테슬라,메타,마소,알파벳,애플,아마존,레드와이어)",
+        "url": "https://youtu.be/FZj3FJrQtpY",
+        "published_at": "2026-05-28T11:00:30+00:00",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 7421,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
+        "url": "https://youtu.be/ZSTrI_ryiZ8",
+        "published_at": "2026-05-27T15:33:12+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "TSM",
+          "QQQ",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 53674,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5/25 (월) 테슬라 $500 보러 가나?",
+        "url": "https://youtu.be/iFTuiuHmA6Y",
+        "published_at": "2026-05-25T13:20:25+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "TSM",
+          "QQQ",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 43799,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
+        "url": "https://youtu.be/2X-ugUjZMuo",
+        "published_at": "2026-05-21T16:00:11+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "PLTR",
+          "MU",
+          "IONQ"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 68860,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "정배열후 첫번째 이평선 지지 받을때 매수",
+        "url": "https://youtu.be/1KJBq6v3YGA",
+        "published_at": "2026-05-18T20:15:06+00:00",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 449,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "url": "https://youtu.be/cwMSV6imFo0",
+        "published_at": "2026-05-17T12:41:48+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "PLTR",
+          "TSM",
+          "MU",
+          "IONQ"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 31081,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
+      {
+        "title": "돈 지키는 자리",
+        "url": "https://youtu.be/j_MO4BG8oIo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 352,
+        "ocr_status": "ok",
+        "ocr_chars": 240,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돈 버는 자리",
+        "url": "https://youtu.be/gbNwCWJiDkY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 492,
+        "ocr_status": "ok",
+        "ocr_chars": 144,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 $300 돌파 명장면~",
+        "url": "https://youtu.be/T8YHAx9MwQw",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 295,
+        "ocr_status": "ok",
+        "ocr_chars": 46,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 스페이스X 빠꾸 성공!  #테슬라",
+        "url": "https://youtu.be/DdPU3mBkPZg",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 244,
+        "ocr_status": "ok",
+        "ocr_chars": 296,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[쉬운 주식강의] 도지 캔들",
+        "url": "https://youtu.be/igYSD1PGTG8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 378,
+        "ocr_status": "ok",
+        "ocr_chars": 47,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[쉬운 주식강의] 장대양봉, 장대음봉 #shorts",
+        "url": "https://youtu.be/kuYyeKkO7Kw",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 416,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[쉬운 주식강의] 망치형 #shorts",
+        "url": "https://youtu.be/Qu4-ymmzmb4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 640,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "23년 11월29일 (수) 미국증시 1분 브리핑  #테슬라 #사이버트럭  #차트분석 #tmf",
+        "url": "https://youtu.be/YiGFF2JL6fE",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 589,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "돌파, 돌파지지 매수",
+        "url": "https://youtu.be/sqKAFVyuiiY",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 558,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
     "video_count": 25,
@@ -1319,19 +1325,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "28일 목요일, 투자자들이 반드시 알아야 하는 투자 포인트",
-        "url": "https://youtu.be/Y4_854zyDbk",
-        "published_at": "",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2134,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -1392,6 +1385,19 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1690,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "28일 목요일, 투자자들이 반드시 알아야 하는 투자 포인트",
+        "url": "https://youtu.be/Y4_854zyDbk",
+        "published_at": "",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 2134,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -3369,17 +3375,28 @@
     "region": "global",
     "youtuber": "월가아재의 과학적 투자",
     "channel_id": "UCpqD9_OJNtF6suPpi6mOQCQ",
-    "video_count": 21,
+    "video_count": 22,
     "short_count": 10,
-    "regular_video_count": 11,
+    "regular_video_count": 12,
     "mention_count": 0,
     "transcript_count": 0,
-    "metadata_count": 21,
+    "metadata_count": 22,
     "ocr_count": 5,
     "transcript_chars": 0,
     "ocr_chars": 2208,
     "stocks": [],
     "videos": [
+      {
+        "title": "[월가아재] 트럼프의 다음 타겟이 정해졌습니다",
+        "url": "https://youtu.be/x8BoDnpJAjM",
+        "published_at": "2026-06-04T11:09:04+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
       {
         "title": "[월가아재] 10년 수익률 1887%의 투자 천재, 지금 여기에 투자하고 있습니다.",
         "url": "https://youtu.be/PV_Ij36qSrQ",

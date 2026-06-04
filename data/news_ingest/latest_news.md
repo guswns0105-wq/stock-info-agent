@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-04T20:03)
+# 주식 뉴스 인제스트 (2026-06-04T20:55)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -408,7 +408,16 @@
 - 요약: Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? 야후 파이낸스
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzFVWWdNUGlpaWZOV0h1MmFqWHZ4a3lEeFdOS1dEcmNia0NTZGYtM3lfQ3J0VnVwY1FXX3E1ejBTQkg2UWdVbFJuSXlIMkd6TUJkS24zYXFaRTdpNmVPaWZKTnJ6aTFEVENqaWdMM1hlMExxM3RmQkl4ZjRuTW5iRVdqTlR3RGpsTkdiSzd2LUFCQnNuWC1FNw?oc=5
 
-### 20. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
+### 20. 반도체 제조 주식 1분기 결과: IPG 포토닉스 벤치마킹 (NASDAQ:IPGP) - TradingView
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Thu, 04 Jun 2026 03:31:00 GMT
+- 관련 티커: 종목 미검출
+- 원문 제목: Semiconductor Manufacturing Stocks Q1 Results: Benchmarking IPG Photonics (NASDAQ:IPGP) - TradingView
+- 요약: 반도체 제조 주식 1분기 결과: IPG 포토닉스 벤치마킹 (NASDAQ:IPGP) TradingView
+- 링크: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVDdNcnVueFY5RmtPNVVpcWdobjREQXoyeXQ2LXZFR05faWdTY3ZKN3NLUGU1a1JPOUlmZHllNGZqV2ZNU1FKdE9RM2g0U21wUXYxcHEwa0M4enBHei1SbGJaN1A2VW9JRkdLVmpILW5aOGFZaGdZMnBpcm9jeWFIVzV2RnNXTTd3RUljckNVRC00dExzR0JiQVlNOVFhT0pyVUZRYXRMTjNxZjJkOHMxNlloUjU0QkxLTHYyM1dlYnVVWFoxcU02U3lkTlFjNHItV2dabzV4UENrZm0xdUE?oc=5
+
+### 21. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 01:41:13 GMT
@@ -417,7 +426,7 @@
 - 요약: AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) Benzinga
 - 링크: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5
 
-### 21. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
+### 22. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Mon, 01 Jun 2026 09:03:16 GMT
@@ -426,7 +435,7 @@
 - 요약: 새로운 보고서에 따르면 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다는 사실이 밝혀졌습니다. 반도체 산업 협회 | SIA
 - 링크: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5
 
-### 22. 예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool
+### 23. 예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Mon, 01 Jun 2026 08:22:00 GMT
@@ -434,7 +443,7 @@
 - 요약: 예측: 인텔 다음으로 이 인공지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 The Motley Fool
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5
 
-### 23. 헤지펀드가 반도체 주식을 거래하는 방법 - Goldman Sachs
+### 24. 헤지펀드가 반도체 주식을 거래하는 방법 - Goldman Sachs
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Fri, 22 May 2026 07:00:00 GMT
@@ -443,7 +452,7 @@
 - 요약: 헤지펀드가 반도체 주식을 거래하는 방법 Goldman Sachs
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5
 
-### 24. 69세 가구점 체인, 챕터 11 파산 신청
+### 25. 69세 가구점 체인, 챕터 11 파산 신청
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T17:07:00Z
@@ -452,7 +461,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/69-old-furniture-store-chain-170700563.html
 
-### 25. Cisco CEO는 주가가 사상 최고치를 기록한 이유를 설명합니다. '인프라는 확실히 멋지네요'
+### 26. Cisco CEO는 주가가 사상 최고치를 기록한 이유를 설명합니다. '인프라는 확실히 멋지네요'
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:49:04Z
@@ -460,7 +469,7 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/article/cisco-ceo-explains-why-the-stock-is-at-record-highs-infrastructure-is-definitely-cool-144904306.html
 
-### 26. 고르지 못한 Palantir 주식은 이 옵션 이동에 좋은 후보입니다.
+### 27. 고르지 못한 Palantir 주식은 이 옵션 이동에 좋은 후보입니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:40:30Z
@@ -468,7 +477,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/research/options/palantir-pltr-stock-calendar-spread-options/?src=A00220&yptr=yahoo
 
-### 27. Elon Musk가 Tesla와 SpaceX를 합병할 최신 확률은 다음과 같습니다.
+### 28. Elon Musk가 Tesla와 SpaceX를 합병할 최신 확률은 다음과 같습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:37:22Z
@@ -476,7 +485,7 @@
 - 요약: 요약 없음
 - 링크: https://www.investors.com/news/tesla-spacex-merger-elon-musk-odds/?src=A00220&yptr=yahoo
 
-### 28. Old Dominion의 5월 업데이트는 LTL 시장의 개선을 보여줍니다.
+### 29. Old Dominion의 5월 업데이트는 LTL 시장의 개선을 보여줍니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:48Z
@@ -484,18 +493,10 @@
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/news/old-dominion-may-shows-improving-143448600.html
 
-### 29. Wasatch Long/Short Alpha Fund, CWST(Casella Waste Systems)에 대한 신뢰 유지
+### 30. Wasatch Long/Short Alpha Fund, CWST(Casella Waste Systems)에 대한 신뢰 유지
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
 - 시각: 2026-06-03T14:34:33Z
 - 관련 티커: 종목 미검출
 - 요약: 요약 없음
 - 링크: https://finance.yahoo.com/markets/stocks/articles/wasatch-long-short-alpha-fund-143433781.html
-
-### 30. 그는 여동생의 빚 24,000달러를 갚았습니다. 이제 그의 아버지는 그에게 10만 달러의 유산도 물려주길 원합니다.
-- 시장: 미국시장
-- 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-03T10:45:00Z
-- 관련 티커: 종목 미검출
-- 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/paid-off-sisters-24k-debt-104500772.html

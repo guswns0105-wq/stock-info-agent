@@ -74,6 +74,18 @@
       "url": "https://www.youtube.com/@orlandocampus",
       "latest_limit": 30,
       "detail_extract": true
+    },
+    {
+      "name": "마피디 미국주식",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/@mapd.chart77",
+      "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
+      "latest_limit": 50,
+      "detail_extract": true,
+      "prefer_shorts": false,
+      "include_shorts": true,
+      "local_asr_pack": "/Users/mac1/opencrab-local-packs/pipeline-ingest/mapd-chart77-youtube-precision-20260604"
     }
   ],
   "news": [
