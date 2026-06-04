@@ -299,17 +299,24 @@ def news_section(items):
     groups = []
     for region in ['domestic', 'global']:
         rows = []
-        for item in [n for n in news if n.get('region') == region][:12]:
-            link = f'<a href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문</a>' if item.get('url') else ''
-            summary = esc(item.get('summary') or item.get('text') or '요약 없음')
-            rows.append(f'''<article class="news-card">
-              <div class="news-top"><b>{esc(item.get('source'))}</b><span>{short_date(item.get('published_at') or item.get('collected_at'))}</span>{link}</div>
-              <h3>{esc(item.get('title'))}</h3>
+        region_news = [n for n in news if n.get('region') == region][:10]
+        for item in region_news:
+            link = f'<a class="read-link" href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문 보기</a>' if item.get('url') else ''
+            summary = esc(item.get('summary_ko') or item.get('summary') or item.get('text') or '요약 없음')
+            original = item.get('title_original') or ''
+            original_html = f'<div class="news-original">원문: {esc(original)}</div>' if original and original != item.get('title') else ''
+            tickers = ''.join(badge(ticker, 'ticker') for ticker in (item.get('tickers') or [])[:5]) or '<span class="news-no-ticker">종목 미검출</span>'
+            trans = badge('한글 번역', 'conf') if region == 'global' and original_html else ''
+            rows.append(f'''<article class="news-card readable-news">
+              <div class="news-top"><b>{esc(item.get('source'))}</b><span>{short_date(item.get('published_at') or item.get('collected_at'))}</span>{trans}{link}</div>
+              <h3>{esc(item.get('title_ko') or item.get('title'))}</h3>
+              {original_html}
               <p>{summary}</p>
+              <div class="badges news-tickers">{tickers}</div>
             </article>''')
         body = ''.join(rows) if rows else '<p class="empty">뉴스 없음</p>'
-        groups.append(f'<div class="news-column"><h3>{region_name(region)} 뉴스</h3>{body}</div>')
-    return f'''<section id="news" class="news-section"><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">RSS/Google News/금융 뉴스에서 가져온 최신 헤드라인입니다. 미국시장 뉴스는 한국어 자동번역 제목을 우선 표시하고, 원문 제목은 Markdown 인제스트에 함께 보존합니다. 종목 추천 점수에는 출처 언급·재무·차트가 우선 반영되고, 뉴스는 리스크/촉매 확인용으로 봅니다.</p><div class="news-grid">{''.join(groups)}</div>{news_ingest_card()}</section>'''
+        groups.append(f'<div class="news-column"><h3>{region_name(region)} 뉴스 <small>{len(region_news)}건</small></h3>{body}</div>')
+    return f'''<section id="news" class="news-section"><div class="section-kicker">뉴스 인제스트</div><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">해외뉴스는 한국어 제목을 먼저 보여주고 원문 제목·출처 링크는 함께 보존했습니다. 뉴스는 추천 점수의 보조 촉매/리스크 확인용이며, 매수·매도 지시가 아닙니다.</p><div class="news-grid">{''.join(groups)}</div>{news_ingest_card()}</section>'''
 
 def top_recommendations_section(ai_recommendations):
     return f'''<section id="top-recommendations" class="top-rec-section"><div class="top-rec-head"><span>먼저 볼 것</span><h2>AI 추천종목 Top5</h2><p>국내/미국 시장을 분리해서 가장 위에 배치했습니다. 매수 지시가 아니라 출처 언급량·재무·차트 기반 가격 알림/분할 검토 후보입니다.</p></div>{ai_recommendation_section('domestic', ai_recommendations)}{ai_recommendation_section('global', ai_recommendations)}</section>'''
@@ -342,6 +349,7 @@ def main():
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>한국·미국 주식 AI 추천·뉴스 대시보드</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{{--panel:#121a33;--panel2:#182442;--text:#eef3ff;--muted:#9fb0d0;--accent:#65d6ff;--green:#89f7a5;--yellow:#ffe08a;--red:#ffd0d0}}
 *{{box-sizing:border-box}} body{{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top left,#18305f,#081020 45%,#070b16);color:var(--text)}}
@@ -361,6 +369,13 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 .meta{{display:flex;flex-wrap:wrap;gap:10px;font-size:14px}} a{{color:var(--accent)}} .badges{{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}} .badge{{display:inline-flex;padding:5px 10px;border-radius:999px;background:var(--panel2);color:#dbe7ff;font-size:13px}}
 .ticker{{color:var(--green);border:1px solid rgba(137,247,165,.35)}} .rec{{color:var(--yellow);border:1px solid rgba(255,224,138,.35)}} .conf{{color:var(--accent)}} .meta-badge{{color:#cbd9ff}} .region{{color:#fff}} .type{{color:#c8b6ff}} footer{{color:var(--muted);text-align:center;padding:22px}}
 @media (max-width:760px){{.summary-grid,.price-grid,.mini-price,.news-grid{{grid-template-columns:1fr}} .rec-head,.method-head{{display:block}} .quality-score{{margin-top:12px}} .score{{text-align:left;margin-top:8px}}}}
+/* Human-readable Linear/StockHub polish */
+:root{{--panel:#101114;--panel2:#181a20;--text:#f7f8f8;--muted:#9aa3b2;--accent:#828fff;--green:#10b981;--yellow:#f8d16c;--red:#ff9b9b}}
+html{{scroll-behavior:smooth}} body{{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-feature-settings:'cv01','ss03';background:radial-gradient(circle at 12% -10%,rgba(113,112,255,.22),transparent 34%),radial-gradient(circle at 88% 6%,rgba(16,185,129,.12),transparent 28%),#08090a;color:#f7f8f8}} header{{padding:42px 22px 22px}} h1{{letter-spacing:-1.05px;font-weight:600;max-width:860px}} .subtitle{{max-width:760px;line-height:1.65;color:#d0d6e0}} .kpi{{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);color:#d0d6e0;box-shadow:inset 0 1px rgba(255,255,255,.04)}} .tabs{{position:sticky;top:0;z-index:10;backdrop-filter:blur(16px);background:linear-gradient(180deg,rgba(8,9,10,.92),rgba(8,9,10,.70));padding-top:10px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.06)}} .tabs a{{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);color:#d0d6e0;font-weight:500}} .tabs a:first-child{{background:#5e6ad2;color:#fff;border-color:#7170ff}} .notice{{margin-bottom:18px;background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.08)!important;color:#d0d6e0!important}}
+.section-kicker{{display:inline-flex;margin-bottom:8px;color:#111;background:#f8d16c;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:800}} .top-rec-section,.news-section,.method-section{{backdrop-filter:blur(8px)}} .top-rec-section{{background:linear-gradient(145deg,rgba(94,106,210,.22),rgba(255,255,255,.035))!important;border-color:rgba(130,143,255,.34)!important}} .top-rec-head{{display:grid;gap:6px;margin-bottom:6px}} .top-rec-head h2{{letter-spacing:-.7px}} .ai-top-section{{background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);border-radius:22px;padding:18px;margin:18px 0}} .ai-top-section h2{{margin-top:0;color:#f7f8f8}} .ai-rec-grid{{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}} .ai-rec-card{{background:linear-gradient(160deg,rgba(255,255,255,.065),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.09)!important;border-radius:18px!important}} .ai-rank{{background:#5e6ad2!important;color:#fff!important}} .ai-rec-head h3{{letter-spacing:-.35px}} .ai-price-grid span,.valuation-price span{{background:rgba(255,255,255,.035)!important;border-color:rgba(255,255,255,.07)!important}}
+.news-section{{background:linear-gradient(145deg,rgba(16,185,129,.10),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.08)!important}} .news-grid{{align-items:start}} .news-column{{display:grid;gap:10px}} .news-column h3{{position:sticky;top:58px;z-index:2;background:rgba(15,16,17,.88);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:10px 12px;backdrop-filter:blur(12px)}} .news-column h3 small{{color:#8a8f98;font-size:12px;font-weight:500}} .readable-news{{margin:0!important;background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.075)!important;border-radius:16px!important;box-shadow:none!important}} .readable-news h3{{font-size:17px!important;line-height:1.45!important;letter-spacing:-.12px}} .news-original{{color:#8a8f98;font-size:12px;line-height:1.45;margin:-2px 0 8px;border-left:2px solid rgba(130,143,255,.45);padding-left:8px}} .news-tickers{{margin-top:10px!important}} .news-no-ticker{{color:#62666d;font-size:12px}} .read-link{{margin-left:auto;font-size:12px}}
+.card,.valuation-card,.youtuber-card,.method-card,.stock-rank-card{{background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.075)!important}} .stock-rank-card{{box-shadow:none!important}} .method-section{{background:linear-gradient(145deg,rgba(130,143,255,.10),rgba(255,255,255,.025))!important;border-color:rgba(255,255,255,.08)!important}} .badge{{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}} .ticker{{color:#10b981!important;border-color:rgba(16,185,129,.35)!important}} footer{{border-top:1px solid rgba(255,255,255,.06)}}
+@media (max-width:760px){{header{{padding-top:30px}} .top-rec-section,.news-section,.method-section{{padding:16px!important;border-radius:18px!important}} .ai-rec-grid,.valuation-grid,.youtuber-grid,.stock-rank-grid{{grid-template-columns:1fr!important}} .news-column h3{{position:static}} .ai-price-grid{{grid-template-columns:1fr}}}}
 </style></head>
 <body>
 <header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div><div class="kpi">화면 OCR {len(ocr_items)}개</div><div class="kpi">뉴스 {len([i for i in items if i.get('source_type') == 'rss'])}건</div></div></header>

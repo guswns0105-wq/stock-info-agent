@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>한국·미국 주식 AI 추천·뉴스 대시보드</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root{--panel:#121a33;--panel2:#182442;--text:#eef3ff;--muted:#9fb0d0;--accent:#65d6ff;--green:#89f7a5;--yellow:#ffe08a;--red:#ffd0d0}
 *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at top left,#18305f,#081020 45%,#070b16);color:var(--text)}
@@ -22,9 +23,16 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 .meta{display:flex;flex-wrap:wrap;gap:10px;font-size:14px} a{color:var(--accent)} .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px} .badge{display:inline-flex;padding:5px 10px;border-radius:999px;background:var(--panel2);color:#dbe7ff;font-size:13px}
 .ticker{color:var(--green);border:1px solid rgba(137,247,165,.35)} .rec{color:var(--yellow);border:1px solid rgba(255,224,138,.35)} .conf{color:var(--accent)} .meta-badge{color:#cbd9ff} .region{color:#fff} .type{color:#c8b6ff} footer{color:var(--muted);text-align:center;padding:22px}
 @media (max-width:760px){.summary-grid,.price-grid,.mini-price,.news-grid{grid-template-columns:1fr} .rec-head,.method-head{display:block} .quality-score{margin-top:12px} .score{text-align:left;margin-top:8px}}
+/* Human-readable Linear/StockHub polish */
+:root{--panel:#101114;--panel2:#181a20;--text:#f7f8f8;--muted:#9aa3b2;--accent:#828fff;--green:#10b981;--yellow:#f8d16c;--red:#ff9b9b}
+html{scroll-behavior:smooth} body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-feature-settings:'cv01','ss03';background:radial-gradient(circle at 12% -10%,rgba(113,112,255,.22),transparent 34%),radial-gradient(circle at 88% 6%,rgba(16,185,129,.12),transparent 28%),#08090a;color:#f7f8f8} header{padding:42px 22px 22px} h1{letter-spacing:-1.05px;font-weight:600;max-width:860px} .subtitle{max-width:760px;line-height:1.65;color:#d0d6e0} .kpi{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);color:#d0d6e0;box-shadow:inset 0 1px rgba(255,255,255,.04)} .tabs{position:sticky;top:0;z-index:10;backdrop-filter:blur(16px);background:linear-gradient(180deg,rgba(8,9,10,.92),rgba(8,9,10,.70));padding-top:10px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.06)} .tabs a{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);color:#d0d6e0;font-weight:500} .tabs a:first-child{background:#5e6ad2;color:#fff;border-color:#7170ff} .notice{margin-bottom:18px;background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.08)!important;color:#d0d6e0!important}
+.section-kicker{display:inline-flex;margin-bottom:8px;color:#111;background:#f8d16c;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:800} .top-rec-section,.news-section,.method-section{backdrop-filter:blur(8px)} .top-rec-section{background:linear-gradient(145deg,rgba(94,106,210,.22),rgba(255,255,255,.035))!important;border-color:rgba(130,143,255,.34)!important} .top-rec-head{display:grid;gap:6px;margin-bottom:6px} .top-rec-head h2{letter-spacing:-.7px} .ai-top-section{background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);border-radius:22px;padding:18px;margin:18px 0} .ai-top-section h2{margin-top:0;color:#f7f8f8} .ai-rec-grid{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))} .ai-rec-card{background:linear-gradient(160deg,rgba(255,255,255,.065),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.09)!important;border-radius:18px!important} .ai-rank{background:#5e6ad2!important;color:#fff!important} .ai-rec-head h3{letter-spacing:-.35px} .ai-price-grid span,.valuation-price span{background:rgba(255,255,255,.035)!important;border-color:rgba(255,255,255,.07)!important}
+.news-section{background:linear-gradient(145deg,rgba(16,185,129,.10),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.08)!important} .news-grid{align-items:start} .news-column{display:grid;gap:10px} .news-column h3{position:sticky;top:58px;z-index:2;background:rgba(15,16,17,.88);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:10px 12px;backdrop-filter:blur(12px)} .news-column h3 small{color:#8a8f98;font-size:12px;font-weight:500} .readable-news{margin:0!important;background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.075)!important;border-radius:16px!important;box-shadow:none!important} .readable-news h3{font-size:17px!important;line-height:1.45!important;letter-spacing:-.12px} .news-original{color:#8a8f98;font-size:12px;line-height:1.45;margin:-2px 0 8px;border-left:2px solid rgba(130,143,255,.45);padding-left:8px} .news-tickers{margin-top:10px!important} .news-no-ticker{color:#62666d;font-size:12px} .read-link{margin-left:auto;font-size:12px}
+.card,.valuation-card,.youtuber-card,.method-card,.stock-rank-card{background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.075)!important} .stock-rank-card{box-shadow:none!important} .method-section{background:linear-gradient(145deg,rgba(130,143,255,.10),rgba(255,255,255,.025))!important;border-color:rgba(255,255,255,.08)!important} .badge{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)} .ticker{color:#10b981!important;border-color:rgba(16,185,129,.35)!important} footer{border-top:1px solid rgba(255,255,255,.06)}
+@media (max-width:760px){header{padding-top:30px} .top-rec-section,.news-section,.method-section{padding:16px!important;border-radius:18px!important} .ai-rec-grid,.valuation-grid,.youtuber-grid,.stock-rank-grid{grid-template-columns:1fr!important} .news-column h3{position:static} .ai-price-grid{grid-template-columns:1fr}}
 </style></head>
 <body>
-<header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: 2026-06-04 12:18</div><div class="kpis"><div class="kpi">수집 소스 16개</div><div class="kpi">소스 로그 414개</div><div class="kpi">추천/관심 종목 40개</div><div class="kpi">유튜브 자막 142/211개</div><div class="kpi">화면 OCR 27개</div><div class="kpi">뉴스 201건</div></div></header>
+<header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: 2026-06-04 12:21</div><div class="kpis"><div class="kpi">수집 소스 16개</div><div class="kpi">소스 로그 414개</div><div class="kpi">추천/관심 종목 40개</div><div class="kpi">유튜브 자막 142/211개</div><div class="kpi">화면 OCR 27개</div><div class="kpi">뉴스 201건</div></div></header>
 <nav class="tabs"><a href="#top-recommendations">추천종목</a><a href="#news">뉴스</a><a href="#method">방법론</a><a href="#domestic">국내</a><a href="#global">미국</a></nav>
 <main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거, 최신 뉴스를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="top-recommendations" class="top-rec-section"><div class="top-rec-head"><span>먼저 볼 것</span><h2>AI 추천종목 Top5</h2><p>국내/미국 시장을 분리해서 가장 위에 배치했습니다. 매수 지시가 아니라 출처 언급량·재무·차트 기반 가격 알림/분할 검토 후보입니다.</p></div><section class="ai-top-section"><h2>국내주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
     <article class="ai-rec-card">
@@ -116,102 +124,126 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <div class="valuation-metrics"><span>PER 23.32</span><span>PBR 10.77</span><span>ROE 36.21%</span><span>차트 상승 추세</span><span>20일 10.72%</span></div>
       <ul class="ai-why"><li>출처 언급 6회</li><li>ROE 36.21%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
       <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article></div></section></section><section id="news" class="news-section"><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">RSS/Google News/금융 뉴스에서 가져온 최신 헤드라인입니다. 미국시장 뉴스는 한국어 자동번역 제목을 우선 표시하고, 원문 제목은 Markdown 인제스트에 함께 보존합니다. 종목 추천 점수에는 출처 언급·재무·차트가 우선 반영되고, 뉴스는 리스크/촉매 확인용으로 봅니다.</p><div class="news-grid"><div class="news-column"><h3>한국시장 뉴스</h3><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603044452009" target="_blank" rel="noreferrer">원문</a></div>
+    </article></div></section></section><section id="news" class="news-section"><div class="section-kicker">뉴스 인제스트</div><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">해외뉴스는 한국어 제목을 먼저 보여주고 원문 제목·출처 링크는 함께 보존했습니다. 뉴스는 추천 점수의 보조 촉매/리스크 확인용이며, 매수·매도 지시가 아닙니다.</p><div class="news-grid"><div class="news-column"><h3>한국시장 뉴스 <small>10건</small></h3><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603044452009" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>미, &#x27;강제노동&#x27; 60개국에 10∼12.5% 관세예고…한국 12.5%(종합2보)</h3>
+              
               <p>(서울=연합뉴스) 신창용 김아람 기자 = 미국 무역대표부(USTR)는 강제 노동으로 생산된 제품의 거래를 막지 못한 60개 경제권에서 들어온 수...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603082800003" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603082800003" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>정부, 미국 12.5% 관세 예고에 &quot;조만간 USTR 측과 논의&quot;</h3>
+              
               <p>(서울=연합뉴스) 신창용 기자 = 정부가 미국 무역대표부(USTR)가 한국을 상대로 12.5%의 추가 관세 부과를 예고한 것과 관련해 조만간 U...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603070100073" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603070100073" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>일본은행 총재, 금리 인상 가능성 시사…日기준금리 1% 될까</h3>
+              
               <p>(도쿄=연합뉴스) 조성미 특파원 = 우에다 가즈오 일본은행 총재가 이달 중순으로 예정된 차기 금융정책결정회의에서 기준금리인 단기 정책금리를 인상...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603055700008" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603055700008" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>골드만삭스 &quot;코스피 목표치 9,000→12,000…강한 실적 모멘텀&quot;</h3>
+              
               <p>(서울=연합뉴스) 김유아 기자 = 글로벌 투자은행(IB) 골드만삭스는 높은 실적 성장과 메모리 업황의 여전한 저평가 등을 근거로 코스피 목표치를...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603043100002" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603043100002" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>OECD, 올해 韓성장률 1.7→2.6%…&quot;반도체 수요에 더 오를 수도&quot;</h3>
+              
               <p>(세종=연합뉴스) 이세원 기자 = 경제협력개발기구(OECD)는 올해 한국 경제 성장률 전망치를 1.7%에서 2.6%로 0.9%포인트(p) 상향 ...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603051300001" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603051300001" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>李대통령 &quot;韓 집값 너무 비싸…투기 공화국 탈출해야&quot;</h3>
+              
               <p>(서울=연합뉴스) 임형섭 기자 = 이재명 대통령은 3일 &amp;quot;대한민국은 이미 집값, 부동산값이 비싸도 너무 비싸다&amp;quot;며 &amp;quot;반드시 부동산 투기 공화국에...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603045300011" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603045300011" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>[연합뉴스 이 시각 헤드라인] - 15:00</h3>
+              
               <p>■ 지방선거 투표율 오후 2시 현재 48.9%…4년 전보다 8.2%p↑</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603038000084" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260603038000084" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>인도, 은 수입 제한 강화…&#x27;루피화 방어&#x27; 위해 수요 차단</h3>
+              
               <p>(하노이=연합뉴스) 박진형 특파원 = 세계 최대 은 소비국인 인도가 역대 최저 수준으로 떨어진 루피화 가치의 추가 하락을 막기 위해 은 수입 제...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602072300002" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260602072300002" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>계약서면 발급 안 하고 현금비율 낮춰…시티건설에 과징금 부과</h3>
+              
               <p>(세종=연합뉴스) 송정은 기자 = 시티건설이 계약 서면을 최대 310일 지나 발급하고 현금결제 비율을 0%까지 낮춰 하도급 대금을 지급해 공정거...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602080000002" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a class="read-link" href="https://www.yna.co.kr/view/AKR20260602080000002" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>세화학원, 공사대금 직접지급키로 합의 후 잔금 안 줘…시정명령</h3>
+              
               <p>(세종=연합뉴스) 송정은 기자 = 공정거래위원회는 학교법인 세화학원이 세화고등학교 언덕 위험 구간 보강공사를 발주하면서 수급사업자에게 지급했어야...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602124600030" target="_blank" rel="noreferrer">원문</a></div>
-              <h3>검역본부, 반려동물 질병협의체 발족…감염병 감시·진단 고도화</h3>
-              <p>(서울=연합뉴스) 김세린 기자 = 농림축산검역본부는 지난달 26일 경북 김천 본부에서 &amp;apos;반려동물 분야별 협의체&amp;apos;를 발족하고 제1차 회의를 열었다...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602124700003" target="_blank" rel="noreferrer">원문</a></div>
-              <h3>폭염·폭우에도 안전하게…도서관 등 318곳 그린리모델링 지원</h3>
-              <p>(세종=연합뉴스) 오진송 기자 = 국토교통부는 노후 공공건축물의 에너지 성능을 개선하고 폭염·폭우 등 기후재난 대응력을 높이기 위해 그린리모델링...</p>
-            </article></div><div class="news-column"><h3>미국시장 뉴스</h3><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFdFQmN0cEhYeXhwNGZQN0xIZWpXRjhhTGthUGl1NWdhQTAxbG5UYXg3V2dLT0JqN0NaX0c0TktDR0hwX1pWVU1qNU5LN0tqVC1ERnEwMm9GdDdhZHMyaTAzMU5MbThwSkJudnJTaUQtZFpLSUp4cVVCQmNPb2c1OG1mb1EyVzZUYmhrS0hzc1pKNzhiNjZIcVNoVndXeHpYTHhsZXAzMVh5NmR6UUExRzM1SWxJUDdocGNlcjVqYWY4WDc3SVlJ?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article></div><div class="news-column"><h3>미국시장 뉴스 <small>10건</small></h3><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><span class="badge conf">한글 번역</span><a class="read-link" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFdFQmN0cEhYeXhwNGZQN0xIZWpXRjhhTGthUGl1NWdhQTAxbG5UYXg3V2dLT0JqN0NaX0c0TktDR0hwX1pWVU1qNU5LN0tqVC1ERnEwMm9GdDdhZHMyaTAzMU5MbThwSkJudnJTaUQtZFpLSUp4cVVCQmNPb2c1OG1mb1EyVzZUYmhrS0hzc1pKNzhiNjZIcVNoVndXeHpYTHhsZXAzMVh5NmR6UUExRzM1SWxJUDdocGNlcjVqYWY4WDc3SVlJ?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>상원 의원이 Nvidia 주식을 최대 50만 달러에 매각했습니다: 그가 얼마나 많은 돈을 지불했는지 믿을 수 없을 것입니다 - Benzinga</h3>
+              <div class="news-original">원문: Senator Sells Up To $500K In Nvidia Stock: You Won&#x27;t Believe How Much He Paid - Benzinga</div>
               <p>상원 의원이 Nvidia 주식을 최대 50만 달러에 매각: 그가 얼마나 많은 금액을 지불했는지 믿을 수 없을 것입니다    Benzinga</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHU0bEU5QXNCb1hQNUFSY204ZFNvamJWQi10c3VSSE40TmdlcEFYLXBwdVhrMUw3dXJuNjBUY21JTkVZWmRqLS1mUnNBcEdwSzBDcFZHblNNZEJGbFNfaVFSNFdwVVNENEhaZ21MTHgwYkR3aUF2OXQtRjJCd3gyYU1kVWZNNksxVW9sU1dTRmJhOHB1Q0RVb1BFemQxWmhiSG41a0tWLVpRZFpXVjln?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">NVDA</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHU0bEU5QXNCb1hQNUFSY204ZFNvamJWQi10c3VSSE40TmdlcEFYLXBwdVhrMUw3dXJuNjBUY21JTkVZWmRqLS1mUnNBcEdwSzBDcFZHblNNZEJGbFNfaVFSNFdwVVNENEhaZ21MTHgwYkR3aUF2OXQtRjJCd3gyYU1kVWZNNksxVW9sU1dTRmJhOHB1Q0RVb1BFemQxWmhiSG41a0tWLVpRZFpXVjln?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>NVIDIA, 또 다른 주가 상승: Navitas Semiconductor, 800V AI 전력 혁명에 베팅하며 19% 급등 - 富途牛牛</h3>
+              
               <p>NVIDIA, 또 다른 주가 상승: Navitas Semiconductor가 19% 급등하며 800V AI 전력 혁명에 베팅    富途牛牛</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">NVDA</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>메타(META) 주식이 상승하는 이유는 다음과 같습니다. - Yahoo Finance</h3>
+              
               <p>메타(META) 주식이 상승하는 이유는 다음과 같습니다.    Yahoo Finance</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">META</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><span class="badge conf">한글 번역</span><a class="read-link" href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>브로드컴, 2분기 비AI 반도체 매출 6% 증가했다고 CEO - Moomoo</h3>
+              <div class="news-original">원문: Broadcom&#x27;s Non-AI Semiconductor Revenue Rose 6% in 2Q, CEO Says - Moomoo</div>
               <p>브로드컴의 비AI 반도체 매출 2분기 6% 증가, CEO “무무”</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZjlzaURCQWYxUGxQZFA5cWNpUlNPOUhZcTVpWHdMSGpoM0xoY2QxQ1B4c1BHbjlQWFFjbE5aRjU3ZXNxR3JsZmlyYkxPX1lUbk1GdFhDY2dmb09fcnctM0tlMDd5bFJKZkhIVjFJOUo1WUFUSjVmZG1mbVpKRkVWT2UyWDRyNEpLanlTRGYyZlBZVkZROVU3RzRoR2djbHBMM19hQllEWWtKb3NaX2t3eVZOZ2labWFlWWdOSGt4YmZkdnRaX0lzZDFWUDl3RFhrc09hQnhnMV9vQmZWamdDNFJFUk9UeUVla0Nsa9IB8gFBVV95cUxOMVktNjdpVER2N3RfWU5kQzFVVzlqRV91cXl0T2tCVWVGWU8zWlFOWmdJa004VFhBdGk2TUQxTktrSlhybnJMbk9HdU5YSjFOa08yUVFJN2g3YWg2TjduUjdDVnZ6NERtU0FteDlhSUVKalFIRUpQQ0czTkd5Z1ZRTXNxdnNFdFRvNEc1LTlNWFpQU3NIMnZXZVByQ0h6WHR1V19rTnVXaEF5eGhxUGhjTXV4RmVsLTNJNVBCX0V6YWxyMnV5SGJ3OWtySlN6eVhFUWFxUXRKUnhZQzM4NUhmNHFiWUlRZGZTOHpFbzI3dlk1QQ?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">AVGO</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News US Markets AI Semis</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZjlzaURCQWYxUGxQZFA5cWNpUlNPOUhZcTVpWHdMSGpoM0xoY2QxQ1B4c1BHbjlQWFFjbE5aRjU3ZXNxR3JsZmlyYkxPX1lUbk1GdFhDY2dmb09fcnctM0tlMDd5bFJKZkhIVjFJOUo1WUFUSjVmZG1mbVpKRkVWT2UyWDRyNEpLanlTRGYyZlBZVkZROVU3RzRoR2djbHBMM19hQllEWWtKb3NaX2t3eVZOZ2labWFlWWdOSGt4YmZkdnRaX0lzZDFWUDl3RFhrc09hQnhnMV9vQmZWamdDNFJFUk9UeUVla0Nsa9IB8gFBVV95cUxOMVktNjdpVER2N3RfWU5kQzFVVzlqRV91cXl0T2tCVWVGWU8zWlFOWmdJa004VFhBdGk2TUQxTktrSlhybnJMbk9HdU5YSjFOa08yUVFJN2g3YWg2TjduUjdDVnZ6NERtU0FteDlhSUVKalFIRUpQQ0czTkd5Z1ZRTXNxdnNFdFRvNEc1LTlNWFpQU3NIMnZXZVByQ0h6WHR1V19rTnVXaEF5eGhxUGhjTXV4RmVsLTNJNVBCX0V6YWxyMnV5SGJ3OWtySlN6eVhFUWFxUXRKUnhZQzM4NUhmNHFiWUlRZGZTOHpFbzI3dlk1QQ?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>새로운 AI 데이터 센터 전력 솔루션 출시 후 알파 및 오메가 반도체(AOSL) 가치 평가 - simplewall.st</h3>
+              
               <p>새로운 AI 데이터 센터 전력 솔루션 출시 후 알파 및 오메가 반도체(AOSL) 가치 평가    simplewall.st</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMiigJBVV95cUxPWjhrczF4UFVwZEdHQ3RTQ0xEaDlKc2NkMTZLcElFVmJTajRMc0FsTjJROHBXM1B0d2FxcFdON3ZjTkJQR0hVdW96c3VEV2MtSWJRSmpOamR4bWdwUjBtYm84WmJTZDVyTUQ2THVGeS1XSkw3X0FiM1lSVGJ3UXUtellZLUtrV2NHcDBGZjF3WkV0VXlLNzBRM2gxV0k1RnRYa1NXc3NSbTNTM0hsb01Cd2toYl9FNHVTeVdEZDBVWElKUDdUX0FJcjJ4T2xyZm1KcmtudDZtUVFxcy1ZLUVxZWpWbldnUktCMjdEckhUclJRUFdLSTJZN2ltR1k0NGltZ3N6M3gtLV9TZw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="news-no-ticker">종목 미검출</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMiigJBVV95cUxPWjhrczF4UFVwZEdHQ3RTQ0xEaDlKc2NkMTZLcElFVmJTajRMc0FsTjJROHBXM1B0d2FxcFdON3ZjTkJQR0hVdW96c3VEV2MtSWJRSmpOamR4bWdwUjBtYm84WmJTZDVyTUQ2THVGeS1XSkw3X0FiM1lSVGJ3UXUtellZLUtrV2NHcDBGZjF3WkV0VXlLNzBRM2gxV0k1RnRYa1NXc3NSbTNTM0hsb01Cd2toYl9FNHVTeVdEZDBVWElKUDdUX0FJcjJ4T2xyZm1KcmtudDZtUVFxcy1ZLUVxZWpWbldnUktCMjdEckhUclJRUFdLSTJZN2ltR1k0NGltZ3N6M3gtLV9TZw?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>나는 &#x27;소파 문제&#x27;로 인해 테슬라의 옵티머스가 실패할 것이라고 예측했다. 공장 노동에 초점을 맞추면 내 TSLA 주식 논제가 뒤집어집니다. - Barchart.com</h3>
+              
               <p>나는 &#x27;소파 문제&#x27;로 인해 테슬라의 옵티머스가 실패할 것이라고 예측했다. 공장 노동에 초점을 맞추면 내 TSLA 주식 논제가 뒤집어집니다.    Barchart.com</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">TSLA</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 - MarketWise</h3>
+              
               <p>Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다    MarketWise</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">TSLA</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>META 주식이 더 높아질 수 있습니까? - 트레피스</h3>
+              
               <p>META 주식이 더 높아질 수 있습니까?    트레피스</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPT21SY094eTVQRG5HZnFwR2xXbzBHelBmWDZ1WjNpWWJHTV84VWthNXhBelpmRVpta29ITkRxQXktZ0luOTBKN3VycnpwSTVjdGVKWjNNeW5Ld3BYSV9LMHhtaXdmSXZJYXZhSE8wTlVkSThMR3pWbGVWOHdNWDVQeVJuRk1tSUdIRlQ3WHVR?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">META</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a class="read-link" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPT21SY094eTVQRG5HZnFwR2xXbzBHelBmWDZ1WjNpWWJHTV84VWthNXhBelpmRVpta29ITkRxQXktZ0luOTBKN3VycnpwSTVjdGVKWjNNeW5Ld3BYSV9LMHhtaXdmSXZJYXZhSE8wTlVkSThMR3pWbGVWOHdNWDVQeVJuRk1tSUdIRlQ3WHVR?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. &#x27;AI 승자&#x27; 관점을 반환할 수 있는 것은 다음과 같습니다. - 투자자경제신문</h3>
+              
               <p>메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. &#x27;AI 승자&#x27; 관점을 반환할 수 있는 것은 다음과 같습니다.    투자자 비즈니스 데일리</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5" target="_blank" rel="noreferrer">원문</a></div>
+              <div class="badges news-tickers"><span class="badge ticker">META</span></div>
+            </article><article class="news-card readable-news">
+              <div class="news-top"><b>Google News Magnificent 7</b><span>Wed, 03 Ju</span><span class="badge conf">한글 번역</span><a class="read-link" href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5" target="_blank" rel="noreferrer">원문 보기</a></div>
               <h3>Jensen Huang은 Meta를 칭찬하며 &#x27;AI를 더 잘 사용하는 사람은 없습니다&#x27;라고 말했습니다. – META 주가는 시판 전 반등 - MSN</h3>
+              <div class="news-original">원문: Jensen Huang praises Meta, says &#x27;nobody uses AI better&#x27; – META stock rebounds in premarket - MSN</div>
               <p>Jensen Huang은 Meta를 칭찬하며 &#x27;AI를 더 잘 사용하는 사람은 없습니다&#x27;라고 말합니다 – META 주식은 시판 전 반등    MSN</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Tue, 2 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602134652017" target="_blank" rel="noreferrer">원문</a></div>
-              <h3>젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)</h3>
-              <p>(서울=연합뉴스) 권하영 김주환 강태우 오지은 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 방한 기간 김성훈 업스테이지 대표를 비롯한 국내 ...</p>
-            </article><article class="news-card">
-              <div class="news-top"><b>연합뉴스 경제</b><span>Tue, 2 Jun</span><a href="https://www.yna.co.kr/view/AKR20260602041951008" target="_blank" rel="noreferrer">원문</a></div>
-              <h3>[특징주] SKT, &#x27;엔비디아 파트너&#x27; 부각에 11% 급등 마감(종합)</h3>
-              <p>(서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...</p>
+              <div class="badges news-tickers"><span class="badge ticker">META</span></div>
             </article></div></div><details class="news-md-card"><summary>Markdown 뉴스 인제스트 보기</summary><pre># 주식 뉴스 인제스트 (2026-06-04T12:15)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
