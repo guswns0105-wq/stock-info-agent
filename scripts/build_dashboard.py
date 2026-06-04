@@ -215,12 +215,20 @@ def ai_recommendation_section(region, recommendations):
 
 
 def imagegen2_cardnews_section():
-    return '''<section class="imagegen2-section" aria-label="이미지젠2 종목 설명 카드뉴스">
+    assets = [
+        ('assets/imagegen2/korea-top5-cardnews.png', '한국주식 Top5 이미지젠2 카드뉴스', '한국주식 5개 요약'),
+        ('assets/imagegen2/us-top5-cardnews.png', '미국주식 Top5 이미지젠2 카드뉴스', '미국주식 5개 요약'),
+    ]
+    figures = []
+    for rel, alt, caption in assets:
+        path = ROOT / 'public' / rel
+        if path.exists() and path.stat().st_size > 100_000:
+            figures.append(f'<figure><img src="{rel}" alt="{alt}"><figcaption>{caption}</figcaption></figure>')
+    if not figures:
+        return ''
+    return f'''<section class="imagegen2-section" aria-label="이미지젠2 종목 설명 카드뉴스">
       <div class="imagegen2-head"><span>ImageGen2 카드뉴스</span><h2>그림으로 먼저 보는 국내·미국 Top5</h2><p>종목 설명을 한 장씩 빠르게 훑어보는 카드뉴스입니다. 세부 수치와 원문 근거는 아래 추천 카드에서 다시 확인해 주세요.</p></div>
-      <div class="imagegen2-grid">
-        <figure><img src="assets/imagegen2/korea-top5-cardnews.png" alt="한국주식 Top5 이미지젠2 카드뉴스"><figcaption>한국주식 5개 요약</figcaption></figure>
-        <figure><img src="assets/imagegen2/us-top5-cardnews.png" alt="미국주식 Top5 이미지젠2 카드뉴스"><figcaption>미국주식 5개 요약</figcaption></figure>
-      </div>
+      <div class="imagegen2-grid">{''.join(figures)}</div>
     </section>'''
 
 
