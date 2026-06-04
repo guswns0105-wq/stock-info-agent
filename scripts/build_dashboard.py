@@ -114,6 +114,27 @@ def money(value, currency=''):
     return f'{v:,.2f}'
 
 
+def price_hint(price, fair_value, currency=''):
+    """Plain-language explanation for non-expert readers."""
+    try:
+        p = float(price)
+        f = float(fair_value)
+    except Exception:
+        return '가격 판단: 데이터가 부족해 현재가와 적정가 비교가 어렵습니다.'
+    if p <= 0:
+        return '가격 판단: 현재가 데이터가 불안정해 비교가 어렵습니다.'
+    gap = (f - p) / p * 100
+    if gap >= 15:
+        tone = '현재가가 AI가 보는 적정가격보다 낮아, 가격 부담은 비교적 낮게 보입니다.'
+    elif gap >= 3:
+        tone = '현재가가 AI가 보는 적정가격 근처라, 급하게 따라가기보다 확인 구간입니다.'
+    elif gap >= -10:
+        tone = '현재가가 적정가격과 비슷하거나 조금 높아, 실적·뉴스 확인이 더 필요합니다.'
+    else:
+        tone = '현재가가 AI가 보는 적정가격보다 높아, 과열·비싼 구간일 수 있습니다.'
+    return f'{tone} 현재가 대비 차이 {gap:+.1f}%.'
+
+
 def metric(value, suffix=''):
     if value is None or value == '':
         return '확인 불가'
@@ -129,11 +150,13 @@ def valuation_card(v):
     basis = ' / '.join(v.get('valuation_basis', [])) or '공개 재무지표 부족'
     verdict_cls = 'value-good' if v.get('verdict') == '저평가 후보' else ('value-watch' if v.get('verdict') in ('관심권','중립/대기') else 'value-risk')
     source_links = ''.join(f'<a href="{esc(url)}" target="_blank" rel="noreferrer">재무출처</a>' for url in v.get('data_sources', [])[:2])
+    hint = price_hint(v.get('price'), v.get('fair_value'), v.get('currency'))
     return f'''
     <article class="valuation-card {verdict_cls}">
       <div class="valuation-head"><div><b>{esc(v.get('name'))}</b><span>{esc(v.get('ticker'))}</span></div>{badge(v.get('verdict'), 'rec')}</div>
-      <div class="valuation-price"><span>현재가 {money(v.get('price'), v.get('currency'))}</span><span>판단 적정가 {money(v.get('fair_value'), v.get('currency'))}</span><span>관찰매수가 {money(v.get('watch_buy_price'), v.get('currency'))}</span></div>
-      <p><b>Hermes 판단:</b> {esc(v.get('rationale'))}<br><b>실행 기준:</b> {esc(v.get('action'))}</p>
+      <div class="valuation-price"><span><small>지금 가격</small><b>{money(v.get('price'), v.get('currency'))}</b></span><span><small>AI가 보는 적정가격</small><b>{money(v.get('fair_value'), v.get('currency'))}</b></span><span><small>관찰하기 좋은 가격대</small><b>{money(v.get('watch_buy_price'), v.get('currency'))}</b></span></div>
+      <p class="plain-price-hint"><b>쉽게 말하면:</b> {esc(hint)}</p>
+      <p><b>한줄 판단:</b> {esc(v.get('rationale'))}<br><b>확인할 행동:</b> {esc(v.get('action'))}</p>
       <div class="valuation-metrics"><span>PER {metric(v.get('pe'))}</span><span>Fwd PER {metric(v.get('forward_pe'))}</span><span>PBR {metric(v.get('pb'))}</span><span>ROE {metric(v.get('roe'), '%')}</span><span>순마진 {metric(v.get('profit_margin'), '%')}</span><span>차트 {(esc((v.get('chart') or {}).get('trend')) or '확인 불가')}</span><span>20일 {metric((v.get('chart') or {}).get('ret20_pct'), '%')}</span></div>
       <div class="valuation-basis">산식: {esc(basis)}</div>
       <div class="valuation-pills"><b>강점</b>{positives}</div>
@@ -145,12 +168,14 @@ def valuation_card(v):
 def ai_recommendation_card(rec):
     why = ''.join(f'<li>{esc(x)}</li>' for x in rec.get('why', [])) or '<li>추천 근거 산정 대기</li>'
     region_label = LABEL.get(rec.get('region'), rec.get('region'))
+    hint = price_hint(rec.get('price'), rec.get('fair_value'), rec.get('currency'))
     return f'''
     <article class="ai-rec-card">
       <div class="ai-rank">AI TOP {esc(rec.get('rank'))}</div>
       <div class="ai-rec-head"><div><h3>{esc(rec.get('name'))}</h3><span>{esc(rec.get('ticker'))} · {esc(region_label)}</span></div><strong>{metric(rec.get('ai_score'))}점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>{money(rec.get('price'), rec.get('currency'))}</b></span><span>적정매수가 <b>{money(rec.get('ai_buy_price'), rec.get('currency'))}</b></span><span>적정매도가 <b>{money(rec.get('ai_sell_price'), rec.get('currency'))}</b></span><span>판단 적정가 <b>{money(rec.get('fair_value'), rec.get('currency'))}</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> {esc(rec.get('comment'))}</p>
+      <div class="ai-price-grid"><span><small>지금 가격</small><b>{money(rec.get('price'), rec.get('currency'))}</b></span><span><small>관찰하기 좋은 가격대</small><b>{money(rec.get('ai_buy_price'), rec.get('currency'))}</b></span><span><small>욕심 줄일 가격대</small><b>{money(rec.get('ai_sell_price'), rec.get('currency'))}</b></span><span><small>AI가 보는 적정가격</small><b>{money(rec.get('fair_value'), rec.get('currency'))}</b></span></div>
+      <p class="plain-price-hint"><b>쉽게 말하면:</b> {esc(hint)}</p>
+      <p class="ai-comment"><b>왜 후보인가:</b> {esc(rec.get('comment'))}</p>
       <div class="valuation-metrics"><span>PER {metric(rec.get('pe'))}</span><span>PBR {metric(rec.get('pb'))}</span><span>ROE {metric(rec.get('roe'), '%')}</span><span>차트 {esc(rec.get('trend') or '확인 불가')}</span><span>20일 {metric(rec.get('ret20_pct'), '%')}</span></div>
       <ul class="ai-why">{why}</ul>
       <div class="ai-risk">{esc(rec.get('risk_comment'))}</div>
@@ -165,7 +190,7 @@ def ai_recommendation_section(region, recommendations):
     title = '국내주식 AI 추천 Top5' if region == 'domestic' else '미국주식 AI 추천 Top5'
     empty = '국내 AI 추천 후보를 산정할 데이터가 아직 없습니다.' if region == 'domestic' else '미국/해외 AI 추천 후보를 산정할 데이터가 아직 없습니다.'
     html = ''.join(ai_recommendation_card(r) for r in recs) or f'<p class="empty">{empty}</p>'
-    return f'''<section class="ai-top-section"><h2>{title}</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">{html}</div></section>'''
+    return f'''<section class="ai-top-section"><h2>{title}</h2><p class="section-note">복잡한 지표를 한 문장으로 풀어 쓴 검토용 순위입니다. “관찰하기 좋은 가격대”는 알림을 걸어둘 만한 가격, “욕심 줄일 가격대”는 과열 여부를 확인할 가격입니다. 매수·매도 지시가 아닙니다.</p><div class="ai-rec-grid">{html}</div></section>'''
 
 
 def methodology_section(methodology, yt_items, transcript_items):
@@ -181,7 +206,7 @@ def methodology_section(methodology, yt_items, transcript_items):
           <ul>{checks}</ul>
         </article>''')
     themes = methodology.get('theme_radar', [])[:8]
-    theme_html = ''.join(f'<div class="theme-row"><b>{esc(public_text(t.get("theme")))}</b><span>{int(t.get("count",0))}회</span><small>{esc(public_text(t.get("note")))}</small></div>' for t in themes)
+    theme_html = ''.join(f'<div class="theme-row"><b>{esc(public_text(t.get("theme")))}</b><span>{int(t.get("count",0))}번 언급</span><small>쉽게 말하면: {esc(public_text(t.get("note")))}</small></div>' for t in themes)
     evidence = methodology.get('source_evidence', [])
     evidence_html = ''.join(f'<li><b>{esc(public_text(e.get("name")))}</b><span>{esc(public_text(e.get("evidence")))}</span><small>{esc(public_text(e.get("dashboard_use")))}</small></li>' for e in evidence)
     improvements = methodology.get('dashboard_improvements', [])
@@ -197,7 +222,7 @@ def methodology_section(methodology, yt_items, transcript_items):
       </div>
       <div class="analysis-evidence-panel"><h3>추가 분석 근거</h3><p>이번 대시보드는 아래 자료를 출처 품질·테마·리스크 레이어로만 사용합니다.</p><div class="analysis-evidence-grid">{local_pack_html}</div></div>
       <div class="method-grid">{''.join(method_cards)}</div>
-      <div class="theme-panel"><h3>반복 테마 레이더</h3><p>특정 매수 신호가 아니라 반복 언급된 시장 관심 축입니다.</p><div class="theme-grid">{theme_html}</div></div>
+      <div class="theme-panel"><h3>섹터·테마 쉽게 보기</h3><p>어려운 업종명을 “요즘 돈과 관심이 몰리는 이야기”로 풀어 쓴 영역입니다. 횟수가 높을수록 여러 출처에서 자주 말한 주제라는 뜻이지, 매수 신호는 아닙니다.</p><div class="theme-grid">{theme_html}</div></div>
       <div class="improvement-panel"><h3>대시보드 개선 체크</h3><ul>{improvement_html}</ul></div>
       <details class="method-evidence"><summary>근거 수집 범위 보기</summary><ul>{evidence_html}</ul><p>{esc(public_text(methodology.get('safety_note')))}</p></details>
     </section>'''
@@ -207,7 +232,7 @@ def valuation_section(region, valuations):
     vals = [v for v in valuations if v.get('region') == region]
     vals = sorted(vals, key=lambda v: (v.get('score', -99), v.get('margin_to_fair_pct') or -999), reverse=True)
     html = ''.join(valuation_card(v) for v in vals[:10]) or '<p class="empty">재무 판단 데이터가 아직 없습니다.</p>'
-    return f'<h2>{LABEL[region]} Hermes 재무·저평가 판단</h2><p class="section-note">공개 재무지표 기반 스크리닝입니다. 매수 지시가 아니라 “관찰 가격대” 산정이며, 실적·공시·수급을 별도로 확인해야 합니다.</p><div class="valuation-grid">{html}</div>'
+    return f'<h2>{LABEL[region]} 가격이 싼지 비싼지 쉽게 보기</h2><p class="section-note">PER/PBR/ROE 같은 어려운 재무지표를 “지금 가격”, “AI가 보는 적정가격”, “관찰하기 좋은 가격대”로 풀었습니다. 싸다/비싸다를 단정하지 않고, 실적·공시·수급을 더 확인할 기준선으로만 봐주세요.</p><div class="valuation-grid">{html}</div>'
 
 
 def youtuber_card(stat, region=None):
@@ -372,7 +397,7 @@ main{{padding:0 22px 60px}} .notice{{background:rgba(255,224,138,.1);border:1px 
 /* Human-readable Linear/StockHub polish */
 :root{{--panel:#101114;--panel2:#181a20;--text:#f7f8f8;--muted:#9aa3b2;--accent:#828fff;--green:#10b981;--yellow:#f8d16c;--red:#ff9b9b}}
 html{{scroll-behavior:smooth}} body{{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-feature-settings:'cv01','ss03';background:radial-gradient(circle at 12% -10%,rgba(113,112,255,.22),transparent 34%),radial-gradient(circle at 88% 6%,rgba(16,185,129,.12),transparent 28%),#08090a;color:#f7f8f8}} header{{padding:42px 22px 22px}} h1{{letter-spacing:-1.05px;font-weight:600;max-width:860px}} .subtitle{{max-width:760px;line-height:1.65;color:#d0d6e0}} .kpi{{background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);color:#d0d6e0;box-shadow:inset 0 1px rgba(255,255,255,.04)}} .tabs{{position:sticky;top:0;z-index:10;backdrop-filter:blur(16px);background:linear-gradient(180deg,rgba(8,9,10,.92),rgba(8,9,10,.70));padding-top:10px;padding-bottom:10px;border-bottom:1px solid rgba(255,255,255,.06)}} .tabs a{{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);color:#d0d6e0;font-weight:500}} .tabs a:first-child{{background:#5e6ad2;color:#fff;border-color:#7170ff}} .notice{{margin-bottom:18px;background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.08)!important;color:#d0d6e0!important}}
-.section-kicker{{display:inline-flex;margin-bottom:8px;color:#111;background:#f8d16c;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:800}} .top-rec-section,.news-section,.method-section{{backdrop-filter:blur(8px)}} .top-rec-section{{background:linear-gradient(145deg,rgba(94,106,210,.22),rgba(255,255,255,.035))!important;border-color:rgba(130,143,255,.34)!important}} .top-rec-head{{display:grid;gap:6px;margin-bottom:6px}} .top-rec-head h2{{letter-spacing:-.7px}} .ai-top-section{{background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);border-radius:22px;padding:18px;margin:18px 0}} .ai-top-section h2{{margin-top:0;color:#f7f8f8}} .ai-rec-grid{{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}} .ai-rec-card{{background:linear-gradient(160deg,rgba(255,255,255,.065),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.09)!important;border-radius:18px!important}} .ai-rank{{background:#5e6ad2!important;color:#fff!important}} .ai-rec-head h3{{letter-spacing:-.35px}} .ai-price-grid span,.valuation-price span{{background:rgba(255,255,255,.035)!important;border-color:rgba(255,255,255,.07)!important}}
+.section-kicker{{display:inline-flex;margin-bottom:8px;color:#111;background:#f8d16c;border-radius:999px;padding:5px 10px;font-size:12px;font-weight:800}} .top-rec-section,.news-section,.method-section{{backdrop-filter:blur(8px)}} .top-rec-section{{background:linear-gradient(145deg,rgba(94,106,210,.22),rgba(255,255,255,.035))!important;border-color:rgba(130,143,255,.34)!important}} .top-rec-head{{display:grid;gap:6px;margin-bottom:6px}} .top-rec-head h2{{letter-spacing:-.7px}} .ai-top-section{{background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);border-radius:22px;padding:18px;margin:18px 0}} .ai-top-section h2{{margin-top:0;color:#f7f8f8}} .ai-rec-grid{{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}} .ai-rec-card{{background:linear-gradient(160deg,rgba(255,255,255,.065),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.09)!important;border-radius:18px!important}} .ai-rank{{background:#5e6ad2!important;color:#fff!important}} .ai-rec-head h3{{letter-spacing:-.35px}} .ai-price-grid span,.valuation-price span{{background:rgba(255,255,255,.035)!important;border-color:rgba(255,255,255,.07)!important;display:grid;gap:3px}} .ai-price-grid small,.valuation-price small{{color:#9aa3b2;font-size:11px}} .plain-price-hint{{background:rgba(16,185,129,.08);border:1px solid rgba(16,185,129,.18);border-radius:13px;padding:10px 12px;color:#dffbea!important;line-height:1.55}}
 .news-section{{background:linear-gradient(145deg,rgba(16,185,129,.10),rgba(255,255,255,.025))!important;border:1px solid rgba(255,255,255,.08)!important}} .news-grid{{align-items:start}} .news-column{{display:grid;gap:10px}} .news-column h3{{position:sticky;top:58px;z-index:2;background:rgba(15,16,17,.88);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:10px 12px;backdrop-filter:blur(12px)}} .news-column h3 small{{color:#8a8f98;font-size:12px;font-weight:500}} .readable-news{{margin:0!important;background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.075)!important;border-radius:16px!important;box-shadow:none!important}} .readable-news h3{{font-size:17px!important;line-height:1.45!important;letter-spacing:-.12px}} .news-original{{color:#8a8f98;font-size:12px;line-height:1.45;margin:-2px 0 8px;border-left:2px solid rgba(130,143,255,.45);padding-left:8px}} .news-tickers{{margin-top:10px!important}} .news-no-ticker{{color:#62666d;font-size:12px}} .read-link{{margin-left:auto;font-size:12px}}
 .card,.valuation-card,.youtuber-card,.method-card,.stock-rank-card{{background:rgba(255,255,255,.035)!important;border:1px solid rgba(255,255,255,.075)!important}} .stock-rank-card{{box-shadow:none!important}} .method-section{{background:linear-gradient(145deg,rgba(130,143,255,.10),rgba(255,255,255,.025))!important;border-color:rgba(255,255,255,.08)!important}} .badge{{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}} .ticker{{color:#10b981!important;border-color:rgba(16,185,129,.35)!important}} footer{{border-top:1px solid rgba(255,255,255,.06)}}
 @media (max-width:760px){{header{{padding-top:30px}} .top-rec-section,.news-section,.method-section{{padding:16px!important;border-radius:18px!important}} .ai-rec-grid,.valuation-grid,.youtuber-grid,.stock-rank-grid{{grid-template-columns:1fr!important}} .news-column h3{{position:static}} .ai-price-grid{{grid-template-columns:1fr}}}}
