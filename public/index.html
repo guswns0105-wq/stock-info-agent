@@ -9,7 +9,7 @@
 header,main{max-width:1180px;margin:auto} header{padding:36px 22px 18px} h1{margin:0 0 8px;font-size:clamp(28px,5vw,46px)} .subtitle,.meta,.empty{color:var(--muted)}
 .kpis{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px} .kpi{background:rgba(101,214,255,.10);border:1px solid rgba(101,214,255,.25);padding:10px 14px;border-radius:14px}
 .tabs{display:flex;gap:10px;max-width:1180px;margin:0 auto 16px;padding:0 22px;flex-wrap:wrap} .tabs a{text-decoration:none;color:var(--text);background:var(--panel);border:1px solid #26385f;padding:10px 18px;border-radius:999px}
-main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55} h2{color:var(--accent);margin-top:30px}
+main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px solid rgba(255,224,138,.25);border-radius:14px;padding:14px;color:#fff0be;line-height:1.55} .top-rec-section{margin:18px 0 36px;background:linear-gradient(145deg,rgba(255,224,138,.14),rgba(24,36,66,.84));border:1px solid rgba(255,224,138,.34);border-radius:26px;padding:22px;box-shadow:0 18px 44px rgba(0,0,0,.30)} .top-rec-head span{display:inline-flex;color:#111;background:var(--yellow);border-radius:999px;padding:5px 11px;font-weight:900;font-size:12px} .top-rec-head h2{margin:10px 0 6px;color:#fff;font-size:clamp(26px,4vw,38px)} .top-rec-head p{color:#ffeec0;line-height:1.55;margin:0 0 8px} h2{color:var(--accent);margin-top:30px}
 .card{background:rgba(18,26,51,.94);border:1px solid #26385f;border-radius:18px;padding:18px;margin:14px 0;box-shadow:0 12px 32px rgba(0,0,0,.25)} .small h4{font-size:18px;margin:8px 0} .card p{color:#d9e4ff;line-height:1.56}
 .stock-rank-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0 28px} .stock-rank-card{display:grid;grid-template-columns:auto 1fr auto;grid-template-areas:"rank name count" "rank code count";gap:2px 12px;align-items:center;background:linear-gradient(135deg,rgba(101,214,255,.14),rgba(18,26,51,.96));border:1px solid rgba(101,214,255,.28);border-radius:18px;padding:16px;box-shadow:0 10px 26px rgba(0,0,0,.22)} .rank{grid-area:rank;color:var(--yellow);font-weight:800;font-size:18px} .stock-name{grid-area:name;font-size:20px;font-weight:800;color:#fff} .stock-code{grid-area:code;color:var(--green);font-size:14px} .mention-count{grid-area:count;color:var(--yellow);white-space:nowrap} .mention-count b{font-size:28px} .section-note{color:var(--muted);line-height:1.55}
 .news-section{margin:18px 0 34px;background:linear-gradient(145deg,rgba(137,247,165,.08),rgba(24,36,66,.76));border:1px solid rgba(137,247,165,.20);border-radius:22px;padding:20px} .news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px} .news-column h3{margin:4px 0 12px;color:#fff} .news-card{background:rgba(7,11,22,.34);border:1px solid rgba(101,214,255,.16);border-radius:16px;padding:13px;margin:10px 0} .news-top{display:flex;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:13px} .news-card h3{font-size:16px;margin:8px 0 6px;color:#fff;line-height:1.35} .news-card p{color:#d9e4ff;line-height:1.45;margin:0;font-size:14px} .news-md-card{margin-top:14px;background:rgba(7,11,22,.34);border:1px solid rgba(255,224,138,.18);border-radius:16px;padding:12px} .news-md-card summary{cursor:pointer;color:var(--yellow);font-weight:700} .news-md-card pre{white-space:pre-wrap;max-height:280px;overflow:auto;color:#dbe7ff;font-size:12px;line-height:1.45} .ai-top-section{margin:22px 0 34px} .ai-market-title{margin:22px 0 12px;color:var(--yellow)} .ai-rec-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:22px} .ai-rec-card{position:relative;background:linear-gradient(145deg,rgba(255,224,138,.16),rgba(18,26,51,.96));border:1px solid rgba(255,224,138,.42);border-radius:22px;padding:18px;box-shadow:0 16px 34px rgba(0,0,0,.28)} .ai-rank{display:inline-flex;color:#111;background:var(--yellow);border-radius:999px;padding:5px 10px;font-weight:900;font-size:12px} .ai-rec-head{display:flex;justify-content:space-between;gap:12px;align-items:start;margin-top:10px} .ai-rec-head h3{font-size:24px;margin:0 0 3px} .ai-rec-head span{color:var(--muted)} .ai-rec-head strong{color:var(--green);font-size:24px;white-space:nowrap} .ai-price-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:14px 0} .ai-price-grid span{background:rgba(255,224,138,.08);border:1px solid rgba(255,224,138,.22);border-radius:13px;padding:9px} .ai-price-grid b{display:block;color:#fff;margin-top:3px} .ai-comment{line-height:1.55} .ai-why{margin:10px 0;padding-left:20px;color:#eaf3ff} .ai-risk{font-size:13px;color:#ffe6e6;background:rgba(255,208,208,.08);border:1px solid rgba(255,208,208,.2);border-radius:12px;padding:9px;margin-top:10px}
@@ -24,9 +24,99 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
 @media (max-width:760px){.summary-grid,.price-grid,.mini-price,.news-grid{grid-template-columns:1fr} .rec-head,.method-head{display:block} .quality-score{margin-top:12px} .score{text-align:left;margin-top:8px}}
 </style></head>
 <body>
-<header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: 2026-06-04 12:15</div><div class="kpis"><div class="kpi">수집 소스 16개</div><div class="kpi">소스 로그 414개</div><div class="kpi">추천/관심 종목 40개</div><div class="kpi">유튜브 자막 142/211개</div><div class="kpi">화면 OCR 27개</div><div class="kpi">뉴스 201건</div></div></header>
-<nav class="tabs"><a href="#news">뉴스</a><a href="#method">방법론</a><a href="#domestic">국내 AI추천</a><a href="#global">미국 AI추천</a></nav>
-<main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거, 최신 뉴스를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="news" class="news-section"><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">RSS/Google News/금융 뉴스에서 가져온 최신 헤드라인입니다. 미국시장 뉴스는 한국어 자동번역 제목을 우선 표시하고, 원문 제목은 Markdown 인제스트에 함께 보존합니다. 종목 추천 점수에는 출처 언급·재무·차트가 우선 반영되고, 뉴스는 리스크/촉매 확인용으로 봅니다.</p><div class="news-grid"><div class="news-column"><h3>한국시장 뉴스</h3><article class="news-card">
+<header><h1>한국·미국 주식 AI 추천·뉴스 대시보드</h1><div class="subtitle">1시간마다 한국주식/미국주식 추천 후보, 출처 발언, 재무·차트 점수, 최신 뉴스를 갱신합니다. / 생성: 2026-06-04 12:18</div><div class="kpis"><div class="kpi">수집 소스 16개</div><div class="kpi">소스 로그 414개</div><div class="kpi">추천/관심 종목 40개</div><div class="kpi">유튜브 자막 142/211개</div><div class="kpi">화면 OCR 27개</div><div class="kpi">뉴스 201건</div></div></header>
+<nav class="tabs"><a href="#top-recommendations">추천종목</a><a href="#news">뉴스</a><a href="#method">방법론</a><a href="#domestic">국내</a><a href="#global">미국</a></nav>
+<main><div class="notice">이 페이지는 출처 발언, 공개 재무지표, 추가 분석 근거, 최신 뉴스를 구조화한 정보 대시보드입니다. Hermes 판단은 PER/PBR/ROE/EPS/마진과 차트 기반의 기계적 스크리닝이며 투자 조언이나 수익 보장이 아닙니다. 각 탭의 AI Top5는 해당 시장 종목만 보여주며 적정매수가·적정매도가는 가격 알림/검토 기준입니다. 실제 매매 전에는 현재가·공시·실적·수급을 별도로 확인해 주세요.</div><section id="top-recommendations" class="top-rec-section"><div class="top-rec-head"><span>먼저 볼 것</span><h2>AI 추천종목 Top5</h2><p>국내/미국 시장을 분리해서 가장 위에 배치했습니다. 매수 지시가 아니라 출처 언급량·재무·차트 기반 가격 알림/분할 검토 후보입니다.</p></div><section class="ai-top-section"><h2>국내주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 1</div>
+      <div class="ai-rec-head"><div><h3>기아</h3><span>000270 · 국내</span></div><strong>12.75점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>166,300원</b></span><span>적정매수가 <b>162,974원</b></span><span>적정매도가 <b>516,297원</b></span><span>판단 적정가 <b>491,711원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 195.7% 여력, 상승 추세, ROE 20.44% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 4.59</span><span>PBR 0.85</span><span>ROE 20.44%</span><span>차트 상승 추세</span><span>20일 7.99%</span></div>
+      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 20.44%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 2</div>
+      <div class="ai-rec-head"><div><h3>현대차</h3><span>005380 · 국내</span></div><strong>12.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>703,000원</b></span><span>적정매수가 <b>688,940원</b></span><span>적정매도가 <b>1,676,633원</b></span><span>판단 적정가 <b>1,596,793원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 19회, 적정가 대비 127.1% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 4.67</span><span>PBR 0.58</span><span>ROE 13.68%</span><span>차트 상승 추세</span><span>20일 30.43%</span></div>
+      <ul class="ai-why"><li>출처 언급 19회</li><li>ROE 13.68%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 3</div>
+      <div class="ai-rec-head"><div><h3>SK하이닉스</h3><span>000660 · 국내</span></div><strong>9.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>2,291,000원</b></span><span>적정매수가 <b>2,245,180원</b></span><span>적정매도가 <b>3,393,089원</b></span><span>판단 적정가 <b>3,231,514원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 29회, 적정가 대비 41.05% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 6.40</span><span>PBR 1.82</span><span>ROE 31.06%</span><span>차트 상승 추세</span><span>20일 58.33%</span></div>
+      <ul class="ai-why"><li>출처 언급 29회</li><li>ROE 31.06%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 4</div>
+      <div class="ai-rec-head"><div><h3>LG</h3><span>003550 · 국내</span></div><strong>9.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>129,100원</b></span><span>적정매수가 <b>119,934원</b></span><span>적정매도가 <b>153,574원</b></span><span>판단 적정가 <b>146,261원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 31회, 적정가 대비 13.29% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 10.92</span><span>PBR 0.51</span><span>ROE 4.89%</span><span>차트 상승 추세</span><span>20일 26.20%</span></div>
+      <ul class="ai-why"><li>출처 언급 31회</li><li>PBR 0.51배</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 5</div>
+      <div class="ai-rec-head"><div><h3>현대모비스</h3><span>012330 · 국내</span></div><strong>6.75점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>740,000원</b></span><span>적정매수가 <b>725,200원</b></span><span>적정매도가 <b>1,267,472원</b></span><span>판단 적정가 <b>1,207,116원</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 63.12% 여력, 상승 추세, ROE 8.73% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 6.52</span><span>PBR 0.53</span><span>ROE 8.73%</span><span>차트 상승 추세</span><span>20일 71.49%</span></div>
+      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 8.73%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article></div></section><section class="ai-top-section"><h2>미국주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 1</div>
+      <div class="ai-rec-head"><div><h3>Meta</h3><span>META · 해외</span></div><strong>11.75점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>622.98 USD</b></span><span>적정매수가 <b>610.52 USD</b></span><span>적정매도가 <b>856.43 USD</b></span><span>판단 적정가 <b>815.65 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 7회, 적정가 대비 30.93% 여력, 중립 추세, ROE 32.93% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 18.98</span><span>PBR 6.49</span><span>ROE 32.93%</span><span>차트 중립 추세</span><span>20일 2.98%</span></div>
+      <ul class="ai-why"><li>출처 언급 7회</li><li>ROE 32.93%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 2</div>
+      <div class="ai-rec-head"><div><h3>NVIDIA</h3><span>NVDA · 해외</span></div><strong>10.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>214.75 USD</b></span><span>적정매수가 <b>170.13 USD</b></span><span>적정매도가 <b>214.75 USD</b></span><span>판단 적정가 <b>195.03 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 53회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 21.61</span><span>PBR 26.61</span><span>ROE 114.29%</span><span>차트 중립 추세</span><span>20일 9.29%</span></div>
+      <ul class="ai-why"><li>출처 언급 53회</li><li>ROE 114.3%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 3</div>
+      <div class="ai-rec-head"><div><h3>Microsoft</h3><span>MSFT · 해외</span></div><strong>9.75점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>427.34 USD</b></span><span>적정매수가 <b>367.47 USD</b></span><span>적정매도가 <b>466.43 USD</b></span><span>판단 적정가 <b>444.22 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 3.95% 여력, 상승 추세, ROE 34.01% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 23.12</span><span>PBR 7.66</span><span>ROE 34.01%</span><span>차트 상승 추세</span><span>20일 3.88%</span></div>
+      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 34.01%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 4</div>
+      <div class="ai-rec-head"><div><h3>Micron</h3><span>MU · 해외</span></div><strong>9.00점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>1,079.57 USD</b></span><span>적정매수가 <b>1,057.98 USD</b></span><span>적정매도가 <b>2,021.66 USD</b></span><span>판단 적정가 <b>1,925.39 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 16회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 11.41</span><span>PBR 16.81</span><span>ROE 39.82%</span><span>차트 상승 추세</span><span>20일 68.63%</span></div>
+      <ul class="ai-why"><li>출처 언급 16회</li><li>ROE 39.82%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article>
+    <article class="ai-rec-card">
+      <div class="ai-rank">AI TOP 5</div>
+      <div class="ai-rec-head"><div><h3>TSMC</h3><span>TSM · 해외</span></div><strong>8.50점</strong></div>
+      <div class="ai-price-grid"><span>현재가 <b>436.69 USD</b></span><span>적정매수가 <b>342.87 USD</b></span><span>적정매도가 <b>439.04 USD</b></span><span>판단 적정가 <b>418.13 USD</b></span></div>
+      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 6회, 적정가 대비 -4.25% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.</p>
+      <div class="valuation-metrics"><span>PER 23.32</span><span>PBR 10.77</span><span>ROE 36.21%</span><span>차트 상승 추세</span><span>20일 10.72%</span></div>
+      <ul class="ai-why"><li>출처 언급 6회</li><li>ROE 36.21%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
+      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
+    </article></div></section></section><section id="news" class="news-section"><h2>시간별 뉴스 브리핑 · 미국뉴스 자동번역</h2><p class="section-note">RSS/Google News/금융 뉴스에서 가져온 최신 헤드라인입니다. 미국시장 뉴스는 한국어 자동번역 제목을 우선 표시하고, 원문 제목은 Markdown 인제스트에 함께 보존합니다. 종목 추천 점수에는 출처 언급·재무·차트가 우선 반영되고, 뉴스는 리스크/촉매 확인용으로 봅니다.</p><div class="news-grid"><div class="news-column"><h3>한국시장 뉴스</h3><article class="news-card">
               <div class="news-top"><b>연합뉴스 경제</b><span>Wed, 3 Jun</span><a href="https://www.yna.co.kr/view/AKR20260603044452009" target="_blank" rel="noreferrer">원문</a></div>
               <h3>미, &#x27;강제노동&#x27; 60개국에 10∼12.5% 관세예고…한국 12.5%(종합2보)</h3>
               <p>(서울=연합뉴스) 신창용 김아람 기자 = 미국 무역대표부(USTR)는 강제 노동으로 생산된 제품의 거래를 막지 못한 60개 경제권에서 들어온 수...</p>
@@ -165,52 +255,7 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <div class="theme-panel"><h3>반복 테마 레이더</h3><p>특정 매수 신호가 아니라 반복 언급된 시장 관심 축입니다.</p><div class="theme-grid"><div class="theme-row"><b>AI</b><span>36회</span><small>경제사냥꾼 Shorts ASR 50개 중 반복</small></div><div class="theme-row"><b>반도체</b><span>34회</span><small>삼성전자·SK하이닉스·HBM 맥락 반복</small></div><div class="theme-row"><b>삼성전자</b><span>27회</span><small>반도체/AI 수혜와 코스피 대형주 맥락</small></div><div class="theme-row"><b>SK하이닉스</b><span>26회</span><small>HBM·AI 메모리 맥락</small></div><div class="theme-row"><b>전력/전력주</b><span>11회</span><small>AI 인프라 전력 수요 맥락</small></div><div class="theme-row"><b>현대차</b><span>6회</span><small>AI/로봇/대기업 회동 맥락</small></div></div></div>
       <div class="improvement-panel"><h3>대시보드 개선 체크</h3><ul><li class="improvement-row"><b>분석 근거 근거를 접힌 패널이 아니라 상단 provenance 카드로 노출</b><span class="status-implemented">implemented</span><small>현재 HTML에는 방법론은 있으나 “분석 근거”이라는 단어가 없어 사용자가 어떤 자료을 읽었는지 바로 확인하기 어려웠음</small></li><li class="improvement-row"><b>경제사냥꾼 ASR 50개 테마를 추천과 분리</b><span class="status-implemented">implemented</span><small>AI/반도체 반복 언급은 매수 추천이 아니라 관심축이므로 Theme Radar로만 표시</small></li><li class="improvement-row"><b>차트·OCR 자료은 교육/검증 신호로 강등</b><span class="status-implemented">implemented</span><small>OCR/ASR은 숫자·종목명 오인식 가능성이 있어 자동 추천 가중치보다 품질 표시와 리스크 문구가 우선</small></li><li class="improvement-row"><b>후속: 유튜버별 OCR 커버리지 3개 제한 확대 검토</b><span class="status-next">next</span><small>현재 대시보드 OCR은 25개, 경제사냥꾼 공개 카드에는 2~3개 수준만 보여 더 많은 프레임 근거 반영 여지가 있음</small></li><li class="improvement-row"><b>후속: local_pack_context.json을 화면에서 요약 활용</b><span class="status-next">next</span><small>기존 국내주식 연구팩·GitHub finance pack 맥락이 파일에는 있으나 화면에는 직접 노출되지 않음</small></li></ul></div>
       <details class="method-evidence"><summary>근거 수집 범위 보기</summary><ul><li><b>경제사냥꾼 Shorts ASR 자료</b><span>50개 Shorts, ASR OK 50/50, 대본 112,532자, 반복 테마 36회 AI·34회 반도체</span><small>유튜버별 반복 테마/종목 언급을 추천과 분리한 관심축으로 표시하고, ASR 오인식 가능성을 명시</small></li><li><b>국내주식 단타·캔들·차트 YouTube ASR/OCR 확장 자료</b><span>30개 영상, transcript 28/30, 대본 299,956자, OCR 29/30, 프레임 1,029개, evidence 391개</span><small>차트/캔들/거래량/호가/눌림/돌파 표현은 화면·대본 근거가 있어도 교육용 신호로만 표시</small></li><li><b>국내주식 자동매매·퀀트·종목선정·재무제표 광범위 자료</b><span>YouTube 후보 218개, 선정 75개, 웹 snapshot 10개, documents 85개, graph 91 nodes/160 edges</span><small>PER/PBR/ROE, 재무제표, 백테스트·리스크, 종목선정 체크리스트를 AI Top5/재무판단과 분리</small></li><li><b>기존 국내주식 차트매매 정밀 자료</b><span>20개 영상, 대본 206,853자, OCR 성공 20개, OCR 프레임 667개</span><small>차트·캔들·거래량·호가 화면 근거의 품질 배지 표시</small></li></ul><p>이 개선 레이어는 분석 근거 기반 연구·교육·출처 품질 표시용입니다. 매매 주문, 자동매매 실행, 수익 보장, 계좌/API 연결을 의미하지 않습니다.</p></details>
-    </section></div><section id="domestic" class="tabpanel"><section class="ai-top-section"><h2>국내주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 1</div>
-      <div class="ai-rec-head"><div><h3>기아</h3><span>000270 · 국내</span></div><strong>12.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>166,300원</b></span><span>적정매수가 <b>162,974원</b></span><span>적정매도가 <b>516,297원</b></span><span>판단 적정가 <b>491,711원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 195.7% 여력, 상승 추세, ROE 20.44% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 4.59</span><span>PBR 0.85</span><span>ROE 20.44%</span><span>차트 상승 추세</span><span>20일 7.99%</span></div>
-      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 20.44%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 2</div>
-      <div class="ai-rec-head"><div><h3>현대차</h3><span>005380 · 국내</span></div><strong>12.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>703,000원</b></span><span>적정매수가 <b>688,940원</b></span><span>적정매도가 <b>1,676,633원</b></span><span>판단 적정가 <b>1,596,793원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 19회, 적정가 대비 127.1% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 4.67</span><span>PBR 0.58</span><span>ROE 13.68%</span><span>차트 상승 추세</span><span>20일 30.43%</span></div>
-      <ul class="ai-why"><li>출처 언급 19회</li><li>ROE 13.68%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 3</div>
-      <div class="ai-rec-head"><div><h3>SK하이닉스</h3><span>000660 · 국내</span></div><strong>9.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>2,291,000원</b></span><span>적정매수가 <b>2,245,180원</b></span><span>적정매도가 <b>3,393,089원</b></span><span>판단 적정가 <b>3,231,514원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 29회, 적정가 대비 41.05% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 6.40</span><span>PBR 1.82</span><span>ROE 31.06%</span><span>차트 상승 추세</span><span>20일 58.33%</span></div>
-      <ul class="ai-why"><li>출처 언급 29회</li><li>ROE 31.06%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 4</div>
-      <div class="ai-rec-head"><div><h3>LG</h3><span>003550 · 국내</span></div><strong>9.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>129,100원</b></span><span>적정매수가 <b>119,934원</b></span><span>적정매도가 <b>153,574원</b></span><span>판단 적정가 <b>146,261원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 31회, 적정가 대비 13.29% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 10.92</span><span>PBR 0.51</span><span>ROE 4.89%</span><span>차트 상승 추세</span><span>20일 26.20%</span></div>
-      <ul class="ai-why"><li>출처 언급 31회</li><li>PBR 0.51배</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 5</div>
-      <div class="ai-rec-head"><div><h3>현대모비스</h3><span>012330 · 국내</span></div><strong>6.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>740,000원</b></span><span>적정매수가 <b>725,200원</b></span><span>적정매도가 <b>1,267,472원</b></span><span>판단 적정가 <b>1,207,116원</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 63.12% 여력, 상승 추세, ROE 8.73% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 6.52</span><span>PBR 0.53</span><span>ROE 8.73%</span><span>차트 상승 추세</span><span>20일 71.49%</span></div>
-      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 8.73%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article></div></section><h2>국내 종목 언급 순위</h2><div class="stock-rank-grid">
+    </section></div><section id="domestic" class="tabpanel"><h2>국내 종목 언급 순위</h2><div class="stock-rank-grid">
     <div class="stock-rank-card">
       <span class="rank">#1</span>
       <span class="stock-name">삼성전자</span>
@@ -588,52 +633,7 @@ main{padding:0 22px 60px} .notice{background:rgba(255,224,138,.1);border:1px sol
       <p>[0.0s] 님들, 지금 투자자들이 삼성전자 플러스 하이닉스에서 봐야 하는 진짜 포인트 뭔지 알고 있었어? [4.4s] 최근 코스피가 8700선을 돌파하면서 사상 최고치를 갈아치우고 있는데 [8.3s] 이 타이밍에서 코스피 시총 절반인 3전, 하이닉스 아무 생각 없이 들고 갔다간 [12.1s] 진짜 고점에서 물릴 수도 있어. [13.6s] 경제 사냥꾼이 내가 우리 구독자님들 빨리 알려주고 싶어서 [16.2s] 핵심만 뜯어 왔으니까 딱 1분만 집중해봐. [18.3s] 먼저 최근 코스피 상황 보면 사상 처음으로 8700선을 돌파하면서 [21.8s] 하루 만에 240포인트 넘게 껑충 뛰어버렸어. [24.1s] 이 급등의 가장 큰 축은 사실상? [25.6s] 삼성전자랑 SK하이닉스라고 할 수 있어. [27.7s] 지수는 사상 최고를 찍는데 자금은 반도체 대형주로 극단적으로 쏠리는 장이거든. [31.4s] 그래서 이둘이 코스피 8700선 돌파에 주인공이나 다름없지. [34.4s] 근데 여기서 우리가 지금 3전과 하이닉스를 주목해야 하는. [37.1s] 핵심 이유는 바로 오늘 6월 1일부터 MSCI 정기 변경 효력이 공식 적용되기 때문이야. [41.3s] 경제 사냥꾼이 바로 지난 영상에서 말해줬듯이 [43.5s] MSCI는 전 세계 패시브 자금이 따라가는 대표 글로벌 주가지수야. [46.9s] 쉽게 말하면 펀드메니저가 마음대로 사급하는 돈이 아</p>
       <div class="mini-price"><span>적정가: 출처에서 명시 안 됨</span><span>매수/진입: 출처에서 명시 안 됨</span></div>
       <div class="badges"><span class="badge rec">추천/관심 언급</span><span class="badge conf">자막 기반</span><span class="badge type">유튜버</span><span class="badge ticker">005930</span><span class="badge ticker">000660</span></div>
-    </article></section><section id="global" class="tabpanel"><section class="ai-top-section"><h2>미국주식 AI 추천 Top5</h2><p class="section-note">이 탭의 종목만 대상으로 출처 언급량, PER/PBR/ROE, 적정가 대비 여력, 1년 일봉 차트(SMA·52주 범위·20/60일 모멘텀)를 합산한 검토용 순위입니다. 매수·매도 지시가 아니라 가격 알림/분할 검토 기준입니다.</p><div class="ai-rec-grid">
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 1</div>
-      <div class="ai-rec-head"><div><h3>Meta</h3><span>META · 해외</span></div><strong>11.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>622.98 USD</b></span><span>적정매수가 <b>610.52 USD</b></span><span>적정매도가 <b>856.43 USD</b></span><span>판단 적정가 <b>815.65 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 7회, 적정가 대비 30.93% 여력, 중립 추세, ROE 32.93% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 18.98</span><span>PBR 6.49</span><span>ROE 32.93%</span><span>차트 중립 추세</span><span>20일 2.98%</span></div>
-      <ul class="ai-why"><li>출처 언급 7회</li><li>ROE 32.93%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 2</div>
-      <div class="ai-rec-head"><div><h3>NVIDIA</h3><span>NVDA · 해외</span></div><strong>10.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>214.75 USD</b></span><span>적정매수가 <b>170.13 USD</b></span><span>적정매도가 <b>214.75 USD</b></span><span>판단 적정가 <b>195.03 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 53회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 21.61</span><span>PBR 26.61</span><span>ROE 114.29%</span><span>차트 중립 추세</span><span>20일 9.29%</span></div>
-      <ul class="ai-why"><li>출처 언급 53회</li><li>ROE 114.3%</li><li>PER가 기준보다 낮음</li><li>차트: 중립 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 3</div>
-      <div class="ai-rec-head"><div><h3>Microsoft</h3><span>MSFT · 해외</span></div><strong>9.75점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>427.34 USD</b></span><span>적정매수가 <b>367.47 USD</b></span><span>적정매도가 <b>466.43 USD</b></span><span>판단 적정가 <b>444.22 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 3회, 적정가 대비 3.95% 여력, 상승 추세, ROE 34.01% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 23.12</span><span>PBR 7.66</span><span>ROE 34.01%</span><span>차트 상승 추세</span><span>20일 3.88%</span></div>
-      <ul class="ai-why"><li>출처 언급 3회</li><li>ROE 34.01%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 4</div>
-      <div class="ai-rec-head"><div><h3>Micron</h3><span>MU · 해외</span></div><strong>9.00점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>1,079.57 USD</b></span><span>적정매수가 <b>1,057.98 USD</b></span><span>적정매도가 <b>2,021.66 USD</b></span><span>판단 적정가 <b>1,925.39 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 16회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 11.41</span><span>PBR 16.81</span><span>ROE 39.82%</span><span>차트 상승 추세</span><span>20일 68.63%</span></div>
-      <ul class="ai-why"><li>출처 언급 16회</li><li>ROE 39.82%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article>
-    <article class="ai-rec-card">
-      <div class="ai-rank">AI TOP 5</div>
-      <div class="ai-rec-head"><div><h3>TSMC</h3><span>TSM · 해외</span></div><strong>8.50점</strong></div>
-      <div class="ai-price-grid"><span>현재가 <b>436.69 USD</b></span><span>적정매수가 <b>342.87 USD</b></span><span>적정매도가 <b>439.04 USD</b></span><span>판단 적정가 <b>418.13 USD</b></span></div>
-      <p class="ai-comment"><b>추천 코멘트:</b> 출처 언급 6회, 적정가 대비 -4.25% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.</p>
-      <div class="valuation-metrics"><span>PER 23.32</span><span>PBR 10.77</span><span>ROE 36.21%</span><span>차트 상승 추세</span><span>20일 10.72%</span></div>
-      <ul class="ai-why"><li>출처 언급 6회</li><li>ROE 36.21%</li><li>PER가 기준보다 낮음</li><li>차트: 상승 추세</li></ul>
-      <div class="ai-risk">과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요.</div>
-    </article></div></section><h2>해외 종목 언급 순위</h2><div class="stock-rank-grid">
+    </article></section><section id="global" class="tabpanel"><h2>해외 종목 언급 순위</h2><div class="stock-rank-grid">
     <div class="stock-rank-card">
       <span class="rank">#1</span>
       <span class="stock-name">NVIDIA</span>
