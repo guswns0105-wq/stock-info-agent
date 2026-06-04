@@ -3,7 +3,7 @@
     "region": "domestic",
     "label": "한국주식",
     "asset_path": "public/assets/imagegen2/korea-top5-cardnews.png",
-    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle green/red market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 한국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 현대차 005380\n현재가 700,000원 / 적정 1,590,847원\n출처 언급 20회, 적정가 대비 127.3%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 기아 000270\n현재가 164,300원 / 적정 487,281원\n출처 언급 3회, 적정가 대비 196.6% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n3 SK하이닉스 000660\n현재가 2,298,000원 / 적정 3,240,917원\n출처 언급 31회, 적정가 대비 41.03%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 LG 003550\n현재가 129,900원 / 적정 146,972원\n출처 언급 31회, 적정가 대비 13.14%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 KB금융 105560\n현재가 164,200원 / 적정 373,054원\n출처 언급 1회, 적정가 대비 127.2% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
+    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle green/red market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 한국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 현대차 005380\n현재가 700,000원 / 적정 1,590,847원\n출처 언급 20회, 적정가 대비 127.3%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 기아 000270\n현재가 164,300원 / 적정 487,281원\n출처 언급 3회, 적정가 대비 196.6% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n3 SK하이닉스 000660\n현재가 2,298,000원 / 적정 3,240,917원\n출처 언급 33회, 적정가 대비 41.03%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 LG 003550\n현재가 129,900원 / 적정 146,972원\n출처 언급 31회, 적정가 대비 13.14%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 KB금융 105560\n현재가 164,200원 / 적정 373,054원\n출처 언급 1회, 적정가 대비 127.2% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
     "recommendations": [
       {
         "rank": 1,
@@ -80,9 +80,9 @@
         "ret20_pct": 58.81133379405667,
         "support": 807000.0,
         "resistance": 2363000.0,
-        "comment": "출처 언급 31회, 적정가 대비 41.03% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
+        "comment": "출처 언급 33회, 적정가 대비 41.03% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 31회",
+          "출처 언급 33회",
           "ROE 31.06%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -150,7 +150,7 @@
     "region": "global",
     "label": "미국주식",
     "asset_path": "public/assets/imagegen2/us-top5-cardnews.png",
-    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Meta META\n현재가 $622.98 / 적정 $815.65\n출처 언급 8회, 적정가 대비 30.93% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n2 Microsoft MSFT\n현재가 $427.34 / 적정 $444.37\n출처 언급 4회, 적정가 대비 3.98% 여력…\n주의: 과열 추격 금지, 적정매수가…\n\n3 NVIDIA NVDA\n현재가 $214.75 / 적정 $195.03\n출처 언급 57회, 적정가 대비 -9.18%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Micron MU\n현재가 $1,079.57 / 적정 $1,925.39\n출처 언급 17회, 적정가 대비 78.35%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 TSMC TSM\n현재가 $436.69 / 적정 $418.13\n출처 언급 6회, 적정가 대비 -4.25% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
+    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Meta META\n현재가 $622.98 / 적정 $815.65\n출처 언급 8회, 적정가 대비 30.93% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n2 Microsoft MSFT\n현재가 $427.34 / 적정 $444.37\n출처 언급 6회, 적정가 대비 3.98% 여력…\n주의: 과열 추격 금지, 적정매수가…\n\n3 NVIDIA NVDA\n현재가 $214.75 / 적정 $195.03\n출처 언급 59회, 적정가 대비 -9.18%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Micron MU\n현재가 $1,079.57 / 적정 $1,925.39\n출처 언급 18회, 적정가 대비 78.35%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 TSMC TSM\n현재가 $436.69 / 적정 $418.13\n출처 언급 6회, 적정가 대비 -4.25% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
     "recommendations": [
       {
         "rank": 1,
@@ -187,7 +187,7 @@
         "region": "global",
         "price": 427.34,
         "currency": "USD",
-        "ai_score": 10.0,
+        "ai_score": 10.5,
         "verdict": "관심권",
         "ai_buy_price": 367.47308868408203,
         "ai_sell_price": 466.58557403084046,
@@ -199,9 +199,9 @@
         "ret20_pct": 3.879623444929936,
         "support": 356.7699890136719,
         "resistance": 460.5199890136719,
-        "comment": "출처 언급 4회, 적정가 대비 3.98% 여력, 상승 추세, ROE 34.01% 기준으로 산정했습니다.",
+        "comment": "출처 언급 6회, 적정가 대비 3.98% 여력, 상승 추세, ROE 34.01% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 4회",
+          "출처 언급 6회",
           "ROE 34.01%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -227,9 +227,9 @@
         "ret20_pct": 9.287531806615767,
         "support": 165.1699981689453,
         "resistance": 235.74000549316406,
-        "comment": "출처 언급 57회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+        "comment": "출처 언급 59회, 적정가 대비 -9.18% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 57회",
+          "출처 언급 59회",
           "ROE 114.3%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -255,9 +255,9 @@
         "ret20_pct": 68.63011237351913,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 17회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 18회, 적정가 대비 78.35% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 17회",
+          "출처 언급 18회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
