@@ -14,6 +14,7 @@ from datetime import datetime
 from html.parser import HTMLParser
 
 DATA=ROOT/'data'/'items.json'; RAW=ROOT/'data'/'raw_sources.json'; COMMON=ROOT/'data'/'common_recommendations.json'; YSTATS=ROOT/'data'/'youtuber_stats.json'
+NEWS_MD=ROOT/'data'/'news_ingest'/'latest_news.md'; NEWS_HISTORY=ROOT/'data'/'news_ingest'/'news_history.jsonl'; NEWS_TRANSLATION_CACHE=ROOT/'data'/'news_ingest'/'translation_cache.json'
 HISTORY=ROOT/'data'/'items_history.jsonl'
 TRANSCRIPTS=ROOT/'data'/'transcripts'
 SOURCES=ROOT/'config'/'sources.json'; LEX=ROOT/'config'/'stocks_lexicon.json'
@@ -168,6 +169,89 @@ def clean_text(text):
     text=re.sub(r'자막추출 실패/없음:.*', '', text or '', flags=re.S)
     text=re.sub(r'\s+', ' ', text).strip()
     return text
+
+
+def is_probably_english(text):
+    letters=re.findall(r'[A-Za-z]', text or '')
+    hangul=re.findall(r'[가-힣]', text or '')
+    return len(letters) >= 12 and len(letters) > max(3, len(hangul) * 2)
+
+def load_translation_cache():
+    try:
+        return json.loads(NEWS_TRANSLATION_CACHE.read_text(encoding='utf-8')) if NEWS_TRANSLATION_CACHE.exists() else {}
+    except Exception:
+        return {}
+
+def save_translation_cache(cache):
+    NEWS_TRANSLATION_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    NEWS_TRANSLATION_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2, sort_keys=True), encoding='utf-8')
+
+def translate_en_to_ko(text, cache):
+    text=clean_text(text or '')[:450]
+    if not text or not is_probably_english(text):
+        return text
+    if text in cache:
+        return cache[text]
+    url='https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q='+urllib.parse.quote(text)
+    try:
+        req=urllib.request.Request(url, headers={'User-Agent':UA})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            data=json.loads(r.read().decode('utf-8','ignore'))
+        translated=''.join(part[0] for part in (data[0] or []) if part and part[0]).strip()
+        cache[text]=translated or text
+    except Exception as e:
+        cache[text]=text
+    return cache[text]
+
+def enrich_news_translations(item, cache):
+    if item.get('source_type') != 'rss' or item.get('region') != 'global':
+        return item
+    title=item.get('title') or ''
+    summary=item.get('summary') or ''
+    ko_title=translate_en_to_ko(title, cache)
+    ko_summary=translate_en_to_ko(summary, cache) if summary and is_probably_english(summary) else summary
+    item['title_original']=title
+    item['summary_original']=summary
+    item['title_ko']=ko_title
+    item['summary_ko']=ko_summary
+    item['title']=ko_title
+    item['summary']=ko_summary
+    item['translation_note']='자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조'
+    return item
+
+def write_news_markdown(items, now):
+    NEWS_MD.parent.mkdir(parents=True, exist_ok=True)
+    news=[x for x in items if x.get('source_type') == 'rss']
+    lines=[f'# 주식 뉴스 인제스트 ({now})', '', '이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.', '투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.', '']
+    for region,label in [('domestic','한국시장 뉴스'),('global','미국시장 뉴스')]:
+        rows=[x for x in news if x.get('region') == region][:30]
+        lines += [f'## {label}', '']
+        if not rows:
+            lines += ['- 수집된 뉴스 없음', '']
+            continue
+        for idx,item in enumerate(rows,1):
+            title=item.get('title') or '제목 없음'
+            source=item.get('source') or '출처'
+            pub=item.get('published_at') or item.get('collected_at') or ''
+            url=item.get('url') or ''
+            summary=clean_text(item.get('summary') or '')[:260]
+            tickers=', '.join(item.get('tickers') or []) or '종목 미검출'
+            lines.append(f'### {idx}. {title}')
+            lines.append(f'- 시장: {label.replace(" 뉴스", "")}')
+            lines.append(f'- 출처: {source}')
+            if pub: lines.append(f'- 시각: {pub}')
+            lines.append(f'- 관련 티커: {tickers}')
+            if item.get('title_original') and item.get('title_original') != title:
+                lines.append(f'- 원문 제목: {item.get("title_original")}')
+            if summary:
+                lines.append(f'- 요약: {summary}')
+            if url:
+                lines.append(f'- 링크: {url}')
+            lines.append('')
+    NEWS_MD.write_text('\n'.join(lines), encoding='utf-8')
+    with NEWS_HISTORY.open('a', encoding='utf-8') as f:
+        f.write(json.dumps({'generated_at':now,'news_count':len(news),'domestic':sum(1 for x in news if x.get('region')=='domestic'),'global':sum(1 for x in news if x.get('region')=='global'),'path':str(NEWS_MD)}, ensure_ascii=False)+'\n')
+    print(f'wrote {NEWS_MD} news={len(news)}')
 
 def split_sentences(text):
     text=clean_text(text)
@@ -557,6 +641,7 @@ def main():
             elif typ=='naver_blog_post': records += collect_naver(src)
             elif typ=='rss': records += collect_rss(src)
     now=datetime.now().isoformat(timespec='minutes')
+    translation_cache=load_translation_cache()
     current_items=[]
     for r in records:
         source_region=r.get('region','domestic')

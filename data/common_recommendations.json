@@ -4,21 +4,34 @@
     "ticker": "NVDA",
     "name": "NVIDIA",
     "sources": [
+      "Google News Magnificent 7",
       "Google News US Markets AI Semis",
       "연합뉴스 경제",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
       "블로그 magic_rabb1t",
       "블로그 ranto28",
-      "강지한 차트연구소",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "강지한 차트연구소",
       "주식용사부",
-      "T3chfeed - 테크피드 미국 주식 인사이트",
       "Yahoo Finance Top Stories",
+      "T3chfeed - 테크피드 미국 주식 인사이트",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
-    "source_count": 12,
+    "source_count": 13,
     "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFdFQmN0cEhYeXhwNGZQN0xIZWpXRjhhTGthUGl1NWdhQTAxbG5UYXg3V2dLT0JqN0NaX0c0TktDR0hwX1pWVU1qNU5LN0tqVC1ERnEwMm9GdDdhZHMyaTAzMU5MbThwSkJudnJTaUQtZFpLSUp4cVVCQmNPb2c1OG1mb1EyVzZUYmhrS0hzc1pKNzhiNjZIcVNoVndXeHpYTHhsZXAzMVh5NmR6UUExRzM1SWxJUDdocGNlcjVqYWY4WDc3SVlJ?oc=5",
+        "published_at": "Wed, 03 Jun 2026 23:06:41 GMT",
+        "reason": "Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid &nbsp;&nbsp; Benzinga",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
@@ -248,24 +261,24 @@
         "confidence": "transcript"
       },
       {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
-        "url": "https://youtu.be/jugR80aja84",
-        "published_at": "",
-        "reason": "삼성전자 500%, 하이닉스 950% 많이 올랐죠. 부자들은 이미 제2의 삼성전자, 제2의 하이닉스 저점 매수 들어갔습니다. 제가 LG 전자 14만 원대, 두산 로보틱스 11만 원대 담으라고 했고 NC랑의 SKT 제가 저번 주에 분명히 얘기드렸죠. 이번에는 끝까지 보셔서 지금이라도 사야 되는 두 종목 절대 놓치지 마세요. 첫 번째 파두 최근 젠슨왕이 마베이 차세대 1조 달러 기업이 될 거라고 밝혔죠. 결국 AI 데이터 센터는 저장 장치 SSD가 핵심이라는 겁니다. SSD 글로벌 1위 샌디스크의 컨트롤러 공급하는게 바로 파두입니다. AI 데이터 센터 시대 주가 이제 시작입니다. 두 번째 이수페타시스 N디아, 마이크로소프트, 인텔, 구글에 들어가는 AI 서버용 초고다층 PCB 공급하죠. 쉽게 말하면 AI 서버의 고속도를 깔아주는 핵심 기업입니다. AI 서버가 늘어날수록 주가는 레벨이 달라질 겁니다. 그래서이 종목들 내일 바로 사냐 아닙니다. 기업이 아무리 좋아도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 한때 210만 원 돌파했던 삼성전기 41만 원대 상승님 드렸고 230만 원 돌파한 하이닉스 82만 원대 분명히 알림 드렸습니다. 국내 주식 핵심 주도주 99 종목 구독자분들께만 실시간 상승하라 무료로 드릴 겁니다. 알림 설정 방법은 댓글 확인하세요.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
         "title": "돌파, 돌파지지 매수",
         "url": "https://youtu.be/sqKAFVyuiiY",
         "published_at": "",
         "reason": "다음 중 매수하면 안 되는 자리는 주가가 이렇게 박스권을 왔다 갔다 하고 있었습니다. 그리고 어 출전 상단을 뚫고 지지받고 올라가는 모습이 있죠. 다음 중 매수하면 안 되는 자리는 3초 드릴게요. 3 2 1 정답 공개합니다. 정답은 1번이었네요. 1번. 자, 1번은 박스권을 이렇게 진행되다가 전고점에 맞고 떨어질 수 있기 때문에 여기서 비중을 덜거나 관망할 사리고요. 사실 또 막고 떨어졌는데 그다음에 여기 저점에 지지받을 수 있기 때문에 반등할 때는 분할 매수 적절하고요.요 언덕을 뚫었기 때문에 돌파 매수로 적절하고 3번 뚫고 지지받을 때 역시 돌파지지 매수 4번. 근레 언덕을 돌파했기 때문에 역시 언덕 돌파 매수로 5번도 단기 투자 돌파 매수로 적절한 자리입니다. 정답은 1번이 되겠습니다. 1번 엔비디아 근래 차트인데 엔비디아가 박스권으로 진행되다가 어 올라가다가 여기 좀 저항이니까 여기는 매수가 아니죠. 내려왔다가 지지받기 때문에 2번 분할 매수, 3번은 돌파 매수, 뚫고지지 매수, 4번 초코, 근래 언덕을 돌파하고 지지받을 때요 정도에서 5번 단기 돌파 매수 적절합니다. 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
+        "url": "https://youtu.be/jugR80aja84",
+        "published_at": "",
+        "reason": "삼성전자 500%, 하이닉스 950% 많이 올랐죠. 부자들은 이미 제2의 삼성전자, 제2의 하이닉스 저점 매수 들어갔습니다. 제가 LG 전자 14만 원대, 두산 로보틱스 11만 원대 담으라고 했고 NC랑의 SKT 제가 저번 주에 분명히 얘기드렸죠. 이번에는 끝까지 보셔서 지금이라도 사야 되는 두 종목 절대 놓치지 마세요. 첫 번째 파두 최근 젠슨왕이 마베이 차세대 1조 달러 기업이 될 거라고 밝혔죠. 결국 AI 데이터 센터는 저장 장치 SSD가 핵심이라는 겁니다. SSD 글로벌 1위 샌디스크의 컨트롤러 공급하는게 바로 파두입니다. AI 데이터 센터 시대 주가 이제 시작입니다. 두 번째 이수페타시스 N디아, 마이크로소프트, 인텔, 구글에 들어가는 AI 서버용 초고다층 PCB 공급하죠. 쉽게 말하면 AI 서버의 고속도를 깔아주는 핵심 기업입니다. AI 서버가 늘어날수록 주가는 레벨이 달라질 겁니다. 그래서이 종목들 내일 바로 사냐 아닙니다. 기업이 아무리 좋아도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 한때 210만 원 돌파했던 삼성전기 41만 원대 상승님 드렸고 230만 원 돌파한 하이닉스 82만 원대 분명히 알림 드렸습니다. 국내 주식 핵심 주도주 99 종목 구독자분들께만 실시간 상승하라 무료로 드릴 겁니다. 알림 설정 방법은 댓글 확인하세요.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -366,6 +379,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Nvidia Rises As Cathie Wood Favors AI Chip Stock; Is It A Buy Now?",
+        "url": "https://www.investors.com/research/nvidia-nvda-stock-buy-now-june-2026/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-02T15:02:58Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       },
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
@@ -647,8 +672,8 @@
       "경제사냥꾼",
       "블로그 magic_rabb1t",
       "블로그 ranto28",
-      "강지한 차트연구소",
       "주식용사부",
+      "강지한 차트연구소",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
@@ -697,6 +722,18 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHdEd3B0MFF4bS1FT3BzVHFPSF94LU1RdVhSTEEtTWpUYjl0OWdKUVhxOE54TlYyWnFGSW4wZTlkZHFsdDhEUEQwNGJpZHo2LXFRSW45TlpKbEpDTFU3YW9pbTNXZTZHT0RHVFg1WXVhSjVBcXFWcHl5VXFjejRNUkhGYzJGSm4xU3RraTF3SFQ2VUXSAacBQVVfeXFMUGZoblI2SXozLUJxTmtkWmI0ZGZSSk1RY2ZPMVFsQl81RHJPXzRXNl9CLV9DUVZOYlRNWmlRcGtPcUoydXRkMjgxRDMzNDBweGJvTm1lTmdHWnR1ZnFFTWpKTXE3aVI3UHV1bkhpeUJkU3F1VS1kYXVtMlhoRlhKTV84Y19SRmd1RU9mcEFZRzNiNXkxM0kwMzJ5ek41WG85TVJTUUxhRlE?oc=5",
         "published_at": "Tue, 02 Jun 2026 02:28:00 GMT",
         "reason": "삼성전자·SK하이닉스 주식 10년 묻어둔 가수 소유… “수익금 보태 집 샀다” - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "초고수들, 삼성전자·NAVER ‘젠슨 황 깐부주’ 담았다 [주식 초고수는 지금] - 서울경제",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15OUNtdGxPS0hHY1Y3aHkyakFMRF9fbmRfMDNWV0ZaYmhwNV9oVGN6Tnp2SHFCckx3b0VwUXJuQm9qVzlIeF9wZGxzOFBhM1RoNGfSAVNBVV95cUxPZUlRRXBWOWhXVUlFeTkySzFVcThHMGR5SjdLc3lYRG4wUDByVWctQkJsemwtTUJacVRENUxxNGR5bDF1dXU4REpjTnhxMHJtMVhJZw?oc=5",
+        "published_at": "Thu, 04 Jun 2026 02:39:00 GMT",
+        "reason": "초고수들, 삼성전자·NAVER ‘젠슨 황 깐부주’ 담았다 [주식 초고수는 지금] &nbsp;&nbsp; 서울경제",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1015,30 +1052,6 @@
         "confidence": "transcript"
       },
       {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
-        "url": "https://youtu.be/jugR80aja84",
-        "published_at": "",
-        "reason": "삼성전자 500%, 하이닉스 950% 많이 올랐죠. 부자들은 이미 제2의 삼성전자, 제2의 하이닉스 저점 매수 들어갔습니다. 제가 LG 전자 14만 원대, 두산 로보틱스 11만 원대 담으라고 했고 NC랑의 SKT 제가 저번 주에 분명히 얘기드렸죠. 이번에는 끝까지 보셔서 지금이라도 사야 되는 두 종목 절대 놓치지 마세요. 첫 번째 파두 최근 젠슨왕이 마베이 차세대 1조 달러 기업이 될 거라고 밝혔죠. 결국 AI 데이터 센터는 저장 장치 SSD가 핵심이라는 겁니다. SSD 글로벌 1위 샌디스크의 컨트롤러 공급하는게 바로 파두입니다. AI 데이터 센터 시대 주가 이제 시작입니다. 두 번째 이수페타시스 N디아, 마이크로소프트, 인텔, 구글에 들어가는 AI 서버용 초고다층 PCB 공급하죠. 쉽게 말하면 AI 서버의 고속도를 깔아주는 핵심 기업입니다. AI 서버가 늘어날수록 주가는 레벨이 달라질 겁니다. 그래서이 종목들 내일 바로 사냐 아닙니다. 기업이 아무리 좋아도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 한때 210만 원 돌파했던 삼성전기 41만 원대 상승님 드렸고 230만 원 돌파한 하이닉스 82만 원대 분명히 알림 드렸습니다. 국내 주식 핵심 주도주 99 종목 구독자분들께만 실시간 상승하라 무료로 드릴 겁니다. 알림 설정 방법은 댓글 확인하세요.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "LG전자•두산로보틱스 놓쳤다면 잡아야할 피지컬 AI 한국주식 대장주",
-        "url": "https://youtu.be/bpY9atKnvU8",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
         "source": "주식용사부",
         "source_role": "유튜버",
         "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
@@ -1061,6 +1074,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
+        "url": "https://youtu.be/jugR80aja84",
+        "published_at": "",
+        "reason": "삼성전자 500%, 하이닉스 950% 많이 올랐죠. 부자들은 이미 제2의 삼성전자, 제2의 하이닉스 저점 매수 들어갔습니다. 제가 LG 전자 14만 원대, 두산 로보틱스 11만 원대 담으라고 했고 NC랑의 SKT 제가 저번 주에 분명히 얘기드렸죠. 이번에는 끝까지 보셔서 지금이라도 사야 되는 두 종목 절대 놓치지 마세요. 첫 번째 파두 최근 젠슨왕이 마베이 차세대 1조 달러 기업이 될 거라고 밝혔죠. 결국 AI 데이터 센터는 저장 장치 SSD가 핵심이라는 겁니다. SSD 글로벌 1위 샌디스크의 컨트롤러 공급하는게 바로 파두입니다. AI 데이터 센터 시대 주가 이제 시작입니다. 두 번째 이수페타시스 N디아, 마이크로소프트, 인텔, 구글에 들어가는 AI 서버용 초고다층 PCB 공급하죠. 쉽게 말하면 AI 서버의 고속도를 깔아주는 핵심 기업입니다. AI 서버가 늘어날수록 주가는 레벨이 달라질 겁니다. 그래서이 종목들 내일 바로 사냐 아닙니다. 기업이 아무리 좋아도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 한때 210만 원 돌파했던 삼성전기 41만 원대 상승님 드렸고 230만 원 돌파한 하이닉스 82만 원대 분명히 알림 드렸습니다. 국내 주식 핵심 주도주 99 종목 구독자분들께만 실시간 상승하라 무료로 드릴 겁니다. 알림 설정 방법은 댓글 확인하세요.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "LG전자•두산로보틱스 놓쳤다면 잡아야할 피지컬 AI 한국주식 대장주",
+        "url": "https://youtu.be/bpY9atKnvU8",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
       },
       {
         "source": "주식용사부",
@@ -1412,8 +1449,8 @@
       "Google News Magnificent 7",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
-      "강지한 차트연구소",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "강지한 차트연구소",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "Yahoo Finance Top Stories",
       "주식용사부",
@@ -1482,24 +1519,24 @@
         "confidence": "transcript"
       },
       {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
-        "url": "https://youtu.be/DMxWlG37qEY",
-        "published_at": "",
-        "reason": "LG CNS 최근에 많이 올랐죠? 제가 LG CNS LG 전자 LG 이노택 각각 8만 원대 14만 원대 40만 원대 남으라고 분명히 얘기드렸죠. CNS 40% LG 전자 102% 이노택 210% 올랐습니다. 이번에는 영상 끝까지 보셔서 6월 급등할 AI 인프라 대장주 세 종목 절대 놓치지 마세요. 첫 번째 SKT 아마존 웹서비스와 울산의 7조원 규모 AI 데이터 센터 오픈 AI 전용 AI 데이터 센터 공동구축 M까지 체결했죠. SKT 자체 클러스터 해인으로 글로벌에서 기술력 검증 끝났습니다. 주가 이제 시작입니다. 두 번째 LG 에너지 솔루션 오라클 오픈 AI 데이터 센터에 들어가는 2조 4천억 ESS 공급 계약단했죠. 거기에 테슬라, 테라젠, 이지까지 북미 ESS 수주 터져 나갑니다. 주가 비교도 안 될 겁니다. 마지막 대한전선 싱가포르 전력과 1100억 규모 케이블 공급하죠. 1분기 신규 수주 7,억 돌파. 수주 장고만 3조가 넘습니다. AI 데이터 센터가 늘수록 초과 ACVDC 전력망 수요 커질 수밖에 없습니다. 주가 크게 올라갈 겁니다. 그래서이 종목들 바로 사냐? 아닙니다. 기업이 아무리 좋아도 주가는 수급이 붙어야 올라가죠. 우린 그때만 노릴 겁니다. 210만 원 돌파한 삼성전기 41만 원대 상승 알림 드렸고 230만 원 돌파한 하이닉스 82만 원대 분명히 알림 드렸습니다. 국내 주식 핵심 주도주 99 종목 구독자분들께만 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "유튜버",
         "title": "정배열후 첫번째 이평선 지지 받을때 매수",
         "url": "https://youtu.be/1KJBq6v3YGA",
         "published_at": "",
         "reason": "가장 기본적인 건데 이평선이 있잖아요. 정배열일 때 매수하는게 좋다. 역배열은 매수하는게 좋지 않다. 다음 시간에 좀 있다 역배열 배울 거예요. 그러면 어느 때 사느냐? 정배열 됐을 때 정배열이 되고 캔들이 이렇게 위에 있어야 돼요. 이게 이평선들이 밑에 있고 오일선도 밑에 있고 캔들이 위에 있어서 어 위에 있다가 가장 좋은게 정배열이 되고 첫 번째 이평선에 지지받을 때가 땡큐 자리예요. >> 아 >> 네거 땡큐입니다. >> 지금 테슬라가 그래요. >> 맞습니다. 정배열됐어요. >> 정배열이 되고 첫 번째 20일선이나 딱 지지받을 때 이렇게 사는 거 요게 좋은 거죠. 와, >> 좀 과하다 그러면 60일선이나 50일선 지지받고 올라가는 거. 정배열에서 첫 번째 정배열이 되었을 때 20일선 지지받을 때 매수하는게 제대로 된 타점이다. >> 됐습니다. 이평선 지지면 정배열에서 산다. >> 네. M.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "연말까지 5배 급등할 AI 인프라 대장주, LG씨엔에스에서 부자들이 몰래 갈아탄 숨은 한국주식 대장주 3종목 공개",
+        "url": "https://youtu.be/DMxWlG37qEY",
+        "published_at": "",
+        "reason": "LG CNS 최근에 많이 올랐죠? 제가 LG CNS LG 전자 LG 이노택 각각 8만 원대 14만 원대 40만 원대 남으라고 분명히 얘기드렸죠. CNS 40% LG 전자 102% 이노택 210% 올랐습니다. 이번에는 영상 끝까지 보셔서 6월 급등할 AI 인프라 대장주 세 종목 절대 놓치지 마세요. 첫 번째 SKT 아마존 웹서비스와 울산의 7조원 규모 AI 데이터 센터 오픈 AI 전용 AI 데이터 센터 공동구축 M까지 체결했죠. SKT 자체 클러스터 해인으로 글로벌에서 기술력 검증 끝났습니다. 주가 이제 시작입니다. 두 번째 LG 에너지 솔루션 오라클 오픈 AI 데이터 센터에 들어가는 2조 4천억 ESS 공급 계약단했죠. 거기에 테슬라, 테라젠, 이지까지 북미 ESS 수주 터져 나갑니다. 주가 비교도 안 될 겁니다. 마지막 대한전선 싱가포르 전력과 1100억 규모 케이블 공급하죠. 1분기 신규 수주 7,억 돌파. 수주 장고만 3조가 넘습니다. AI 데이터 센터가 늘수록 초과 ACVDC 전력망 수요 커질 수밖에 없습니다. 주가 크게 올라갈 겁니다. 그래서이 종목들 바로 사냐? 아닙니다. 기업이 아무리 좋아도 주가는 수급이 붙어야 올라가죠. 우린 그때만 노릴 겁니다. 210만 원 돌파한 삼성전기 41만 원대 상승 알림 드렸고 230만 원 돌파한 하이닉스 82만 원대 분명히 알림 드렸습니다. 국내 주식 핵심 주도주 99 종목 구독자분들께만 ",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1962,8 +1999,8 @@
       "Google News 국내 증시·반도체",
       "경제사냥꾼",
       "블로그 ranto28",
-      "강지한 차트연구소",
       "주식용사부",
+      "강지한 차트연구소",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
     "source_count": 7,
@@ -2113,6 +2150,18 @@
         "confidence": "transcript"
       },
       {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
+        "url": "https://youtu.be/W2TMT2O0qg8",
+        "published_at": "",
+        "reason": "자, 그리고 젠슨은 한국 로보틱스의 투자를 검토한다라고 얘기를 했죠. GTC 서울 개체도 가능하다. 이렇게 얘기하고 있는데 그래서 지금 로봇주들이 계속 먹걸리가 있는 그런 섹터다라고 볼 수 있겠습니다. 이게 하이닉스나 현대차나 삼성전자, 부산, LG 전자 이쪽과도 피지컬 AI 분야로 계속 협력을 할 거다라고 얘기하고 있고요. 황시오는 한국의 로보틱스가 매우 중요하다라고 얘기하고 있죠. 황유가 이렇게 얘기했으면 또 국장 로보틱스 관련주를 또 봐야겠죠.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
         "title": "큰 손들이 슬슬 저점매수 들어가는 지금 사야할 한국주식 대장주 딱 2개 (공개)",
@@ -2135,18 +2184,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "ocr_only"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
-        "url": "https://youtu.be/W2TMT2O0qg8",
-        "published_at": "",
-        "reason": "자, 그리고 젠슨은 한국 로보틱스의 투자를 검토한다라고 얘기를 했죠. GTC 서울 개체도 가능하다. 이렇게 얘기하고 있는데 그래서 지금 로봇주들이 계속 먹걸리가 있는 그런 섹터다라고 볼 수 있겠습니다. 이게 하이닉스나 현대차나 삼성전자, 부산, LG 전자 이쪽과도 피지컬 AI 분야로 계속 협력을 할 거다라고 얘기하고 있고요. 황시오는 한국의 로보틱스가 매우 중요하다라고 얘기하고 있죠. 황유가 이렇게 얘기했으면 또 국장 로보틱스 관련주를 또 봐야겠죠.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
       },
       {
         "source": "강지한 차트연구소",
@@ -3654,6 +3691,107 @@
   },
   {
     "region": "global",
+    "ticker": "META",
+    "name": "Meta",
+    "sources": [
+      "Google News Magnificent 7",
+      "올랜도 킴 미국주식",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Meta (META) Stock Trades Up, Here Is Why - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5",
+        "published_at": "Wed, 03 Jun 2026 22:23:33 GMT",
+        "reason": "Meta (META) Stock Trades Up, Here Is Why &nbsp;&nbsp; Yahoo Finance",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Can META Stock Compound Its Way Higher? - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
+        "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
+        "reason": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Meta Stock Is Lagging Big Tech Peers. Here's What Could Return Its 'AI Winner' View. - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT21SY094eTVQRG5HZnFwR2xXbzBHelBmWDZ1WjNpWWJHTV84VWthNXhBelpmRVpta29ITkRxQXktZ0luOTBKN3VycnpwSTVjdGVKWjNNeW5Ld3BYSV9LMHhtaXdmSXZJYXZhSE8wTlVkSThMR3pWbGVWOHdNWDVQeVJuRk1tSUdIRlQ3WHVR?oc=5",
+        "published_at": "Wed, 03 Jun 2026 13:38:00 GMT",
+        "reason": "Meta Stock Is Lagging Big Tech Peers. Here's What Could Return Its 'AI Winner' View. &nbsp;&nbsp; Investor's Business Daily",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Jensen Huang praises Meta, says 'nobody uses AI better' – META stock rebounds in premarket - MSN",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5",
+        "published_at": "Wed, 03 Jun 2026 10:19:27 GMT",
+        "reason": "Jensen Huang praises Meta, says 'nobody uses AI better' – META stock rebounds in premarket &nbsp;&nbsp; MSN",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Cornish Metals advances exploration at South Crofty mine",
+        "url": "https://finance.yahoo.com/markets/commodities/articles/cornish-metals-advances-exploration-south-144554743.html",
+        "published_at": "2026-06-01T14:45:54Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Can Meta Stock Reach $1,500 by 2030?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-reach-1-500-143837158.html",
+        "published_at": "2026-05-31T14:38:37Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "IONQ",
     "name": "IonQ",
     "sources": [
@@ -3751,95 +3889,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
     "buy_zone_summary": "31,800원, 2,000원, 30달러",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "META",
-    "name": "Meta",
-    "sources": [
-      "Google News Magnificent 7",
-      "올랜도 킴 미국주식",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Meta (META) Stock Trades Up, Here Is Why - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5",
-        "published_at": "Wed, 03 Jun 2026 22:23:33 GMT",
-        "reason": "Meta (META) Stock Trades Up, Here Is Why &nbsp;&nbsp; Yahoo Finance",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Can META Stock Compound Its Way Higher? - Trefis",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
-        "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
-        "reason": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Jensen Huang praises Meta, says 'nobody uses AI better' – META stock rebounds in premarket - MSN",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5",
-        "published_at": "Wed, 03 Jun 2026 10:19:27 GMT",
-        "reason": "Jensen Huang praises Meta, says 'nobody uses AI better' – META stock rebounds in premarket &nbsp;&nbsp; MSN",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Cornish Metals advances exploration at South Crofty mine",
-        "url": "https://finance.yahoo.com/markets/commodities/articles/cornish-metals-advances-exploration-south-144554743.html",
-        "published_at": "2026-06-01T14:45:54Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Can Meta Stock Reach $1,500 by 2030?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/meta-stock-reach-1-500-143837158.html",
-        "published_at": "2026-05-31T14:38:37Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
