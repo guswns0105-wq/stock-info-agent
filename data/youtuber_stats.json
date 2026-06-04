@@ -809,12 +809,12 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 17,
+    "video_count": 18,
     "short_count": 6,
-    "regular_video_count": 11,
+    "regular_video_count": 12,
     "mention_count": 38,
     "transcript_count": 16,
-    "metadata_count": 1,
+    "metadata_count": 2,
     "ocr_count": 3,
     "transcript_chars": 353303,
     "ocr_chars": 923,
@@ -876,6 +876,17 @@
       }
     ],
     "videos": [
+      {
+        "title": "좀비기업 퇴출 기준은?",
+        "url": "https://youtu.be/EtNwdI9S19g",
+        "published_at": "2026-06-04T09:30:06+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, SK·현대차·LG 전망🔴 뉴욕지수 중동 긴장 재고조에 하락 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/4O1UdHeWoEg",
@@ -1063,19 +1074,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "삼성전자 어디까지 오를까",
-        "url": "https://youtu.be/HbyhhcZKy4w",
-        "published_at": "",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 455,
-        "ocr_status": "ok",
-        "ocr_chars": 304,
-        "youtube_kind": "short"
-      },
-      {
         "title": "sk하이닉스, IHBM 공개",
         "url": "https://youtu.be/avtz-xgjyUk",
         "published_at": "",
@@ -1100,6 +1098,19 @@
         "transcript_chars": 200,
         "ocr_status": "",
         "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자 어디까지 오를까",
+        "url": "https://youtu.be/HbyhhcZKy4w",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 455,
+        "ocr_status": "ok",
+        "ocr_chars": 304,
         "youtube_kind": "short"
       },
       {
@@ -2636,19 +2647,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "삼성전자 어디까지 오를까",
-        "url": "https://youtu.be/HbyhhcZKy4w",
-        "published_at": "",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 455,
-        "ocr_status": "ok",
-        "ocr_chars": 304,
-        "youtube_kind": "short"
-      },
-      {
         "title": "sk하이닉스 삼성전자 급등한 이유",
         "url": "https://youtu.be/56Ec9B1U4p8",
         "published_at": "",
@@ -2659,6 +2657,19 @@
         "transcript_chars": 200,
         "ocr_status": "",
         "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자 어디까지 오를까",
+        "url": "https://youtu.be/HbyhhcZKy4w",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 455,
+        "ocr_status": "ok",
+        "ocr_chars": 304,
         "youtube_kind": "short"
       }
     ]
