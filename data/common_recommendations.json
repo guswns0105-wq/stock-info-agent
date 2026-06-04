@@ -3284,6 +3284,7 @@
     "ticker": "MU",
     "name": "Micron",
     "sources": [
+      "Google News US Markets AI Semis",
       "올랜도 킴 미국주식",
       "경제사냥꾼",
       "주식용사부",
@@ -3291,8 +3292,20 @@
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
-    "source_count": 6,
+    "source_count": 7,
     "evidence": [
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "이 칩 ETF는 마이크론 붐에 대비했습니다 - The Globe and Mail",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUw5ek55Q2o1NVg3eXNjUG5jZUFEdG5VYWxkZFNld0haeWZyZmhWMkFvN2dTRGtYR1kxWlNUaHJiOU82RnVSOFFhTU03dVFrUThKblBtcTllaVNENVRCdlVHbGtGTG9ocF84YUY5dUhqUEE3aVVmYTcxanNzTjhpRzhPV2xZeVA2NHBZUDBmRjZmY1Mwa1o5S255WVpZYW5IRmNMNnNxSjRqQmJoRU9jNE5uMmNtYmRLTVJ5SThkZ3MtOWF2?oc=5",
+        "published_at": "Thu, 04 Jun 2026 12:02:20 GMT",
+        "reason": "이 칩 ETF는 마이크론 붐에 대비했습니다    The Globe and Mail",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "올랜도 킴 미국주식",
         "source_role": "유튜버",
@@ -3520,7 +3533,7 @@
         "source_role": "뉴스",
         "title": "미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 - TradingKey",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNlNURm5zWDI4Qnd4RUdMVkwtM3FqRkVVR2FzaENLVHlpT1VLcTNnZDZVdGd1UnZIS2c4dzJTUU5GLXVtZkg0TTIyWlR2ZzllQU12LWp2QVpyM0hUbXExU3JtQ0drSmtCb3pTcjVZTDlmN05yUEdWc2M5SnpVaE9JakJMVmZxVGtfOWhlYVc1djhYR3hBVzVMcFA0UjdHdkF3aFc1V2ZuQjhSS1VKUHJsV2FKdlBDYWVRYWNvMlh2bEJDeFRIMk9xTUh2bjgxSlFkZUE?oc=5",
-        "published_at": "Thu, 04 Jun 2026 12:08:43 GMT",
+        "published_at": "Thu, 04 Jun 2026 12:23:18 GMT",
         "reason": "미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락    TradingKey",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
