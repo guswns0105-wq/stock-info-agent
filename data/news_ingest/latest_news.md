@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-05T00:01)
+# 주식 뉴스 인제스트 (2026-06-05T01:01)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -479,29 +479,29 @@
 - 요약: 헤지펀드가 반도체 주식을 거래하는 방법 Goldman Sachs
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5
 
-### 28. Goldman Sachs와 Stifel Cut Accenture(ACN)는 실적보다 앞서 목표를 설정했습니다.
+### 28. 미국 은행 규제 당국, 국회의원들에게 규제 완화 안건 홍보
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T14:53:58Z
+- 시각: 2026-06-04T15:49:08Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Goldman Sachs and Stifel Cut Accenture (ACN) Targets Ahead of Earnings
+- 원문 제목: US bank regulators to tout deregulatory agenda to lawmakers
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-stifel-cut-accenture-145358738.html
+- 링크: https://finance.yahoo.com/news/us-bank-regulators-tout-deregulatory-100446123.html
 
-### 29. 번스타인, 크래프트 하인즈(KHC) 신성장 전략의 지속가능성에 의문 제기
+### 29. 오늘의 주식 시장: 다우지수는 700포인트 상승; Broadcom은 15% 급락, Ciena는 주요 수준(라이브 중계)을 낮췄습니다.
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T14:51:15Z
-- 관련 티커: 종목 미검출
-- 원문 제목: Bernstein Questions Sustainability of Kraft Heinz’s (KHC) New Growth Strategy
+- 시각: 2026-06-04T15:47:11Z
+- 관련 티커: AVGO
+- 원문 제목: Stock Market Today: Dow Rises 700 Points; Broadcom Plunges 15%, Ciena Undercuts Key Level (Live Coverage)
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/markets/stocks/articles/bernstein-questions-sustainability-kraft-heinz-145115890.html
+- 링크: https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-broadcom-avgo-crowdstrike-crwd/?src=A00220&yptr=yahoo
 
-### 30. Citi는 IBM이 신흥 양자 컴퓨팅 시장에서 입지를 강화할 것으로 보고 있습니다.
+### 30. SpaceX IPO가 귀하의 401(k)에 다가오고 있습니다. 걱정해야 할까요?
 - 시장: 미국시장
 - 출처: Yahoo Finance Top Stories
-- 시각: 2026-06-04T14:48:06Z
+- 시각: 2026-06-04T15:46:03Z
 - 관련 티커: 종목 미검출
-- 원문 제목: Citi Sees IBM Strengthening its Position in the Emerging Quantum Computing Market
+- 원문 제목: SpaceX IPO is coming to your 401(k). Should you be concerned?
 - 요약: 요약 없음
-- 링크: https://finance.yahoo.com/sectors/technology/articles/citi-sees-ibm-strengthening-position-144806159.html
+- 링크: https://finance.yahoo.com/markets/stocks/article/spacex-ipo-is-coming-to-your-401k-should-you-be-concerned-154603442.html
