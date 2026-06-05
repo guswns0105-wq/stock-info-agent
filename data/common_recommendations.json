@@ -4629,6 +4629,18 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
+        "title": "중동 외교, Broadcom 수익 및 SpaceX IPO가 투자자의 관심을 끌면서 혼합된 미국 선물: Dow Jones, S&P, Nasdaq, Wall Street",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/u-futures-mixed-middle-east-090550043.html",
+        "published_at": "2026-06-04T09:05:50Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
         "title": "오늘 주식 시장: 다우지수는 900포인트 상승, 나스닥은 브로드컴 전망이 하락한 후 하락",
         "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-jumps-900-points-nasdaq-slips-after-broadcom-outlook-flop-230054231.html",
         "published_at": "2026-06-03T23:00:54Z",
@@ -5100,6 +5112,42 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZE84LUNXVVJ1amV4a0pwMnlENnU4dFhZcWU3d25teTczVzRuN3VMSjVvY2ZZX3QtcC0tSXhzX3FIQXFrczZXYkNIMmlDMllBRmZOWWJ4akNVMWxQUy1qTUIzdXUtSTN1bmhqdHlIeW85cUIxa3FHNjdzMHZIQ2ZlWTAxeHQxRnRObG13T2s1R3NUWTg?oc=5",
         "published_at": "Thu, 04 Jun 2026 12:56:45 GMT",
         "reason": "Mark Zuckerberg가 메타 주식 투자자들과 실제 만나다    thestreet.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Meta는 AI 인프라 자금 조달을 위해 대규모 자산 조달에 무게를 두고 있다고 FT 보고서 - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVRmSndfbWtJOU45bmh5R3lwd19JcFpVUDl5WUJzU1FQUTdNM1NFWmE5SFFEVlZ0LUFKalpwVVFkeFh6QlZscThGcE5ORXNsdkprdnoyZW8zdTJmaXY4VWQtZGRzeTlVQTRkV0Jtb0I1RjdGR2hqR1EyUUlZbkpZZVBwX0ZSNGUxOF85NmNyTXNVTGVBMzJkR0FOX1Z2YVZ3OUhqcTgxUjgtNzIzZE02aGwySWw?oc=5",
+        "published_at": "Fri, 05 Jun 2026 18:39:02 GMT",
+        "reason": "Meta는 AI 인프라 자금 조달을 위해 대규모 자산 조달에 무게를 두고 있다고 FT가 보고했습니다.    Reuters",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Meta는 수십억 달러의 주식 매각을 고려하고 있습니다. FT 보고서-Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
+        "published_at": "Fri, 05 Jun 2026 18:33:42 GMT",
+        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "잠재적 자본확충 소식에 메타주 하락 - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
+        "published_at": "Fri, 05 Jun 2026 18:28:48 GMT",
+        "reason": "잠재적 자본확충 소식에 메타주 폭락    Investing.com",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5608,6 +5656,107 @@
   },
   {
     "region": "global",
+    "ticker": "ARM",
+    "name": "Arm",
+    "sources": [
+      "Yahoo Finance Top Stories",
+      "주식용사부",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "SpaceX IPO: 투자자가 주식을 구매하기 전에 확인해야 할 2가지 놀라운 통계",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-2-alarming-statistics-090800018.html",
+        "published_at": "2026-06-04T09:08:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Mirum Pharmaceuticals(MIRM), EASL 학회에서 PSC에 대한 Volixibat의 긍정적인 2b상 데이터 보고",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/mirum-pharmaceuticals-mirm-reports-positive-090650476.html",
+        "published_at": "2026-06-04T09:06:50Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "ARM 주식, 칩 매출 150억 달러 달성에 박차를 가하고 있음",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/arm-stock-supercharging-path-15-161822172.html",
+        "published_at": "2026-06-03T16:18:22Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Arm Holdings CEO는 미국이 AI CPU 칩을 중국으로 수출하는 것을 금지하는 데 어려움을 겪을 것이라고 말했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/arm-holdings-ceo-says-us-094857037.html",
+        "published_at": "2026-06-02T09:48:57Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/rapTrDT6EcM",
+        "published_at": "2026-06-02T03:35:18+00:00",
+        "reason": "창수 님 안녕하세요. 봉래 님, 오렌지 님, 진짜님, 진노이 님 반갑습니다. 은주 님, 차트님, 꽃하나 님 안녕하세요. 자, 어서 오세요. 자비 님, 님 반갑습니다. 성우 님, 속도 님, 무라 님 반갑습니다. 다들 안녕하세요. 자, 2026년 6월 2일 금일은 화요일입니다. 내일 또 6월 3일 선거가 있어 가지고 오늘이 또 막날이죠. 내일은 또 휴장입니다. 자, 오늘의 특이점 또 한번 체크하고 넘어가 보도록 하겠습니다. 자, 오늘은 공포 탐욕 지수가 59포인트로 마무리가 되었고요. 전일 대비 1포인트 하락했고 빅스 지수는 4.7% 7% 정도 올라가지고 반등을 조금 줬습니다. 그리고 다운은 0.9% 정도 올랐고 나스닥 0.42% SP 500도 0.2% 2% 정도 올랐습니다. 오늘 특징주는 코부하고 HP 그리고 ARM이 있습니다. 원달러 환율 같은 경우는 1511원으로 마감이 되었고 원달러 환율이 이제 좀 특이점이 있는데요. 이게 이제 24시간 거래가 된다라고 얘기하고 있습니다. 여기 내용을 보게 되면 29일 총회를 열고 7월 6일부터 원달러 환율 외한 거래 시장은 24시간 무중단하는 방식으로 운영하는 계획을 지금 잡고 있고 이게 이제 월요일 오전 오전부터 해 가지고 6시 오전부터 해서 토요일 오전 6시까지 그러니까 그냥 주 뭐 공유 빼고는 그냥 계속 거래가 될 수 있게끔 만들려고 한다. 이런 얘기를 하고 있죠. 뭐 금요일 장까지 해서 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/GTShwWRIaCI",
+        "published_at": "2026-06-01T03:39:23+00:00",
+        "reason": "자, 어서 들어오세요. 반갑습니다. 안녕하세요. 2026년 6월 1일 6월의 첫날입니다. 다들 어서 오세요. 반갑습니다. 자, 아트 님 어서 오세요. 송이 님, 비비 님 반갑습니다. 매종 님 반갑고요. 다들 어서 오십시오. 자, 오늘의 특이점 한번 또 체크해 보고 넘어가 보도록 하겠습니다. 다들 어서 오시고요. 네, 반갑습니다. 케이지 님, 하나님, 호박 님, 렉스 님, 사각 님도 반갑습니다. 자, 오늘은 특이점 공포 탐수가 60포인트로 마무리가 되었고요. 살짝 꺾였다가 반등을 조금 보여 주는 모습인데 뭐 이렇할 크게 반등을 주는 건 아니죠. 지금 탐욕 지수가요. 빅스 지수는 2.67% 빠져 가지고이 박스권을 깨려고 확실히 시도하고 있는 그런 모습입니다. 어, 그리고 다운은 0.72% 0.72% 올랐고 나스닥은 0.2% SP 500은 이제 또 0.2% 다 이렇게 상승으로 마무리가 되었습니다. 자, 그리고 AI 서버 쪽으로 이제 특징 델 테크놀로지가 32% 정도 상승이 나왔고 엔비디아가 1.45% 하락이 나왔습니다. 오라클은 10.84% % 상승이 나왔고요. 원달러 환율은 1507원으로 마무리가 되었습니다. 원달러 환율의 상승 배경에는 이단과이 미국이 또 M 양해 각서가 원래 넘어갔었는데 트럼프 쪽으로 아마 뒷부분에 나오겠지만은 체결이 안 됐죠. 그래서 조금이 부분이 작용이 된 거 같고요. 그리고 최근에 이제 외국인이 실질적으로 어 금",
+        "target_price": "500달러",
+        "buy_zone": "5,600달러",
+        "price_note": "론이 강화되고 있다라고 얘기하는 거고 여기에 이제 하나 더 플러스 해 가지고 팬코 오브 아메리카가 이번 실적을 역사적이라고 평가하면서 목표가를 500달러까지 상향 조정했습니다. 현재는 420달러입니다. 자, 그래서 우려의 시각도 있는데 여기에서 이제 더 올라간다고 보지만 비정상적으로 지금 프리미",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "500달러",
+    "buy_zone_summary": "5,600달러",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "AAPL",
     "name": "Apple",
     "sources": [
@@ -5770,83 +5919,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
     "buy_zone_summary": "4.2 달러",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "ARM",
-    "name": "Arm",
-    "sources": [
-      "Yahoo Finance Top Stories",
-      "주식용사부",
-      "올랜도 킴 미국주식"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "ARM 주식, 칩 매출 150억 달러 달성에 박차를 가하고 있음",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/arm-stock-supercharging-path-15-161822172.html",
-        "published_at": "2026-06-03T16:18:22Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Arm Holdings CEO는 미국이 AI CPU 칩을 중국으로 수출하는 것을 금지하는 데 어려움을 겪을 것이라고 말했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/arm-holdings-ceo-says-us-094857037.html",
-        "published_at": "2026-06-02T09:48:57Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/rapTrDT6EcM",
-        "published_at": "2026-06-02T03:35:18+00:00",
-        "reason": "창수 님 안녕하세요. 봉래 님, 오렌지 님, 진짜님, 진노이 님 반갑습니다. 은주 님, 차트님, 꽃하나 님 안녕하세요. 자, 어서 오세요. 자비 님, 님 반갑습니다. 성우 님, 속도 님, 무라 님 반갑습니다. 다들 안녕하세요. 자, 2026년 6월 2일 금일은 화요일입니다. 내일 또 6월 3일 선거가 있어 가지고 오늘이 또 막날이죠. 내일은 또 휴장입니다. 자, 오늘의 특이점 또 한번 체크하고 넘어가 보도록 하겠습니다. 자, 오늘은 공포 탐욕 지수가 59포인트로 마무리가 되었고요. 전일 대비 1포인트 하락했고 빅스 지수는 4.7% 7% 정도 올라가지고 반등을 조금 줬습니다. 그리고 다운은 0.9% 정도 올랐고 나스닥 0.42% SP 500도 0.2% 2% 정도 올랐습니다. 오늘 특징주는 코부하고 HP 그리고 ARM이 있습니다. 원달러 환율 같은 경우는 1511원으로 마감이 되었고 원달러 환율이 이제 좀 특이점이 있는데요. 이게 이제 24시간 거래가 된다라고 얘기하고 있습니다. 여기 내용을 보게 되면 29일 총회를 열고 7월 6일부터 원달러 환율 외한 거래 시장은 24시간 무중단하는 방식으로 운영하는 계획을 지금 잡고 있고 이게 이제 월요일 오전 오전부터 해 가지고 6시 오전부터 해서 토요일 오전 6시까지 그러니까 그냥 주 뭐 공유 빼고는 그냥 계속 거래가 될 수 있게끔 만들려고 한다. 이런 얘기를 하고 있죠. 뭐 금요일 장까지 해서 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/GTShwWRIaCI",
-        "published_at": "2026-06-01T03:39:23+00:00",
-        "reason": "자, 어서 들어오세요. 반갑습니다. 안녕하세요. 2026년 6월 1일 6월의 첫날입니다. 다들 어서 오세요. 반갑습니다. 자, 아트 님 어서 오세요. 송이 님, 비비 님 반갑습니다. 매종 님 반갑고요. 다들 어서 오십시오. 자, 오늘의 특이점 한번 또 체크해 보고 넘어가 보도록 하겠습니다. 다들 어서 오시고요. 네, 반갑습니다. 케이지 님, 하나님, 호박 님, 렉스 님, 사각 님도 반갑습니다. 자, 오늘은 특이점 공포 탐수가 60포인트로 마무리가 되었고요. 살짝 꺾였다가 반등을 조금 보여 주는 모습인데 뭐 이렇할 크게 반등을 주는 건 아니죠. 지금 탐욕 지수가요. 빅스 지수는 2.67% 빠져 가지고이 박스권을 깨려고 확실히 시도하고 있는 그런 모습입니다. 어, 그리고 다운은 0.72% 0.72% 올랐고 나스닥은 0.2% SP 500은 이제 또 0.2% 다 이렇게 상승으로 마무리가 되었습니다. 자, 그리고 AI 서버 쪽으로 이제 특징 델 테크놀로지가 32% 정도 상승이 나왔고 엔비디아가 1.45% 하락이 나왔습니다. 오라클은 10.84% % 상승이 나왔고요. 원달러 환율은 1507원으로 마무리가 되었습니다. 원달러 환율의 상승 배경에는 이단과이 미국이 또 M 양해 각서가 원래 넘어갔었는데 트럼프 쪽으로 아마 뒷부분에 나오겠지만은 체결이 안 됐죠. 그래서 조금이 부분이 작용이 된 거 같고요. 그리고 최근에 이제 외국인이 실질적으로 어 금",
-        "target_price": "500달러",
-        "buy_zone": "5,600달러",
-        "price_note": "론이 강화되고 있다라고 얘기하는 거고 여기에 이제 하나 더 플러스 해 가지고 팬코 오브 아메리카가 이번 실적을 역사적이라고 평가하면서 목표가를 500달러까지 상향 조정했습니다. 현재는 420달러입니다. 자, 그래서 우려의 시각도 있는데 여기에서 이제 더 올라간다고 보지만 비정상적으로 지금 프리미",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "500달러",
-    "buy_zone_summary": "5,600달러",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {

@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "달러-원, 美 반도체주 급락에 공포 전이…1,560원선도 뚫렸다",
+    "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 또다시 급등하며 1,560원 선에 육박했다.",
+    "url": "https://www.yna.co.kr/view/AKR20260606004500002",
+    "published_at": "Sat, 6 Jun 2026 03:55:48 +0900",
+    "text": "달러-원, 美 반도체주 급락에 공포 전이…1,560원선도 뚫렸다 (뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 또다시 급등하며 1,560원 선에 육박했다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "환율, 강달러에 한때 1,560원도 넘었다…금융위기 이후 최고(종합)",
     "summary": "(서울·뉴욕=연합뉴스) 이도흔 기자 이지헌 특파원 = 원/달러 환율이 17년 만에 장중 달러당 1,560원선을 돌파했다.",
     "url": "https://www.yna.co.kr/view/AKR20260605158351002",
@@ -160,64 +170,54 @@
     "text": "美 '깜짝 고용호조'에 미국채금리 급등…30년물 5.0% 돌파 (뉴욕=연합뉴스) 이지헌 특파원 = 5월 미국의 비농업 일자리가 예상 밖으로 호조를 보이면서 5일(현지시간) 미국의 국채 수익률이 급등세다."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
-    "region": "domestic",
-    "title": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동'",
-    "summary": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
-    "url": "https://www.yna.co.kr/view/AKR20260605153500704",
-    "published_at": "Fri, 5 Jun 2026 21:25:50 +0900",
-    "text": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동' (서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회..."
+    "region": "global",
+    "title": "QXO Inc. (QXO) Launches Cash Tender Offers for TopBuild (BLD) Senior Notes Amid Pending Acquisition",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/qxo-inc-qxo-launches-cash-090602755.html",
+    "published_at": "2026-06-04T09:06:02Z",
+    "text": "QXO Inc. (QXO) Launches Cash Tender Offers for TopBuild (BLD) Senior Notes Amid Pending Acquisition "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Fidelity lowers the bar for small investors to get in on SpaceX IPO",
+    "title": "U.S. Futures Mixed as Middle East Diplomacy, Broadcom Earnings and SpaceX IPO Capture Investor Attention: Dow Jones, S&P, Nasdaq, Wall Street",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/article/fidelity-lowers-the-bar-for-small-investors-to-get-in-on-spacex-ipo-174724915.html",
-    "published_at": "2026-06-05T17:47:24Z",
-    "text": "Fidelity lowers the bar for small investors to get in on SpaceX IPO "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/u-futures-mixed-middle-east-090550043.html",
+    "published_at": "2026-06-04T09:05:50Z",
+    "text": "U.S. Futures Mixed as Middle East Diplomacy, Broadcom Earnings and SpaceX IPO Capture Investor Attention: Dow Jones, S&P, Nasdaq, Wall Street "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Britain's Gambling Crackdown Just Triggered a Corporate Bailout",
+    "title": "EPAM Systems (EPAM), Anthropic Forge Multi-Year Partnership to Accelerate Enterprise AI Transformation",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/britains-gambling-crackdown-just-triggered-174427430.html",
-    "published_at": "2026-06-05T17:44:27Z",
-    "text": "Britain's Gambling Crackdown Just Triggered a Corporate Bailout "
+    "url": "https://finance.yahoo.com/sectors/technology/articles/epam-systems-epam-anthropic-forge-090659695.html",
+    "published_at": "2026-06-04T09:06:59Z",
+    "text": "EPAM Systems (EPAM), Anthropic Forge Multi-Year Partnership to Accelerate Enterprise AI Transformation "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Why Did Oracle Stock Drop Today?",
+    "title": "Is Icahn Enterprises (IEP) One of the Best High Short Interest Stocks With Highest Upside Potential?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
-    "published_at": "2026-06-05T17:41:45Z",
-    "text": "Why Did Oracle Stock Drop Today? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/icahn-enterprises-iep-one-best-090633695.html",
+    "published_at": "2026-06-04T09:06:33Z",
+    "text": "Is Icahn Enterprises (IEP) One of the Best High Short Interest Stocks With Highest Upside Potential? "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Micron Stock's Outperformance Masks This Sector's Pain. How To Trade The K-Shaped Market.",
+    "title": "Summit (SMMT) Reports Positive Phase III Overall Survival Data for Ivonescimab in Advanced NSCLC",
     "summary": "",
-    "url": "https://www.investors.com/news/micron-stocks-outperformance-masks-retail-pain-how-to-trade-k-shaped-market/?src=A00220&yptr=yahoo",
-    "published_at": "2026-06-05T17:30:07Z",
-    "text": "Micron Stock's Outperformance Masks This Sector's Pain. How To Trade The K-Shaped Market. "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Scotiabank Raises its Price Target on Vale (VALE) to $18",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-vale-172859065.html",
-    "published_at": "2026-06-05T17:28:59Z",
-    "text": "Scotiabank Raises its Price Target on Vale (VALE) to $18 "
+    "url": "https://finance.yahoo.com/sectors/healthcare/articles/summit-smmt-reports-positive-phase-090553368.html",
+    "published_at": "2026-06-04T09:05:53Z",
+    "text": "Summit (SMMT) Reports Positive Phase III Overall Survival Data for Ivonescimab in Advanced NSCLC "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -233,21 +233,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스",
-    "summary": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05MGNWdGhNbFJFdzFmbE9Ubm5PNG55YWJ3WExOLVdPNFVhTmg5U1Q5U29kdE9FWmt3OFQ4Yi16eW9wa2lfWC1WakpmMzFRRmhsamVObmZxdlNIWU3SAWBBVV95cUxNN2wtNWdZRndVQU5lYUVjcURSQkQ2eGpvLUJzTEZqNEVCenFyWUJxRWtsS0Rhc0U2cFZsa3o1OU5EZllRLXRrSHZJZ0xNVnZBWWlaNDBwWDFLSUJHRmJWbWM?oc=5",
-    "published_at": "Fri, 05 Jun 2026 00:14:52 GMT",
-    "text": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스  미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 - Chosunbiz",
     "summary": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZERKR0JJVmpJN1ctU0NoWjlqQldHc19za1dUUWJPbHI3TWwyVEJrdk1qS1ZQODlVbWlDUEVRVHpKdU0zdTg5WGdRRTI5SDVrUWdkX3ltd1dqd3ZXUWpXWHVkSU1zdm5EbG8wQUdXYlg4Nk1YWEhSQjJGdUtUR0lnUUM4NG5vNWfSAZsBQVVfeXFMTk1tM0l4ZkszbFVkZGdYbXFnZjlpZ0RWSDRGMnkyaEhOOEZCNlh0ZUhrdlB3VTB4SDZMYktBVGRXZmZiQVhEMFFUcGVHek5jWHZsSmJ0RUJYSlc1bklFWkhpSlV3ZW9iUlU1aVBib0h4MU53cHpRLWVjZmktRk1uYnFrUjNLdkhKSVg0dDYzMlplc0RGYUdzXzNXM2M?oc=5",
     "published_at": "Fri, 05 Jun 2026 07:29:00 GMT",
     "text": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 - Chosunbiz  [마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 &nbsp;&nbsp; Chosunbiz "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스",
+    "summary": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05MGNWdGhNbFJFdzFmbE9Ubm5PNG55YWJ3WExOLVdPNFVhTmg5U1Q5U29kdE9FWmt3OFQ4Yi16eW9wa2lfWC1WakpmMzFRRmhsamVObmZxdlNIWU3SAWBBVV95cUxNN2wtNWdZRndVQU5lYUVjcURSQkQ2eGpvLUJzTEZqNEVCenFyWUJxRWtsS0Rhc0U2cFZsa3o1OU5EZllRLXRrSHZJZ0xNVnZBWWlaNDBwWDFLSUJHRmJWbWM?oc=5",
+    "published_at": "Fri, 05 Jun 2026 00:14:52 GMT",
+    "text": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스  미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -333,11 +333,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Meet the Super Semiconductor Stock Crushing Nvidia in 2026 With a Return of 120% - Yahoo Finance",
-    "summary": "Meet the Super Semiconductor Stock Crushing Nvidia in 2026 With a Return of 120% &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdzI1aXZTR2JlNmIzMUFMd29IbGVmcFd4SmpKVlk1djNGN0xuVUxqMDZMRWhNT2QxdDlWX204eUJ1b014dy1vRVljTjhzUEwxZTh5dzhkbEo0VDAzUWt0dy1DSWhwbndpSTFTUnNac25NeTNfWnp2cmVkcHlyRHNIbDdlMlF5VnRpdlQ2bV9QTjhfTDFaN0lFbEVUYlAteW8tMlFrSzhhaw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 14:05:00 GMT",
-    "text": "Meet the Super Semiconductor Stock Crushing Nvidia in 2026 With a Return of 120% - Yahoo Finance  Meet the Super Semiconductor Stock Crushing Nvidia in 2026 With a Return of 120% &nbsp;&nbsp; Yahoo Finance "
+    "title": "Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed - Yahoo Finance",
+    "summary": "Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed &nbsp;&nbsp; Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPanFWWEpvdDgwaWMxV2NqeS1WWnpZTG1KcHIxX1NPelQ1eWt0bXNVd0RLbEw2UmZMdko1SEZUTzI2Q0owZU12eVYwYzB4dUM0UmlUVHEtV3d6ekVNa1BqN0JhSkpGZmQ1Vk51MmN6cUszWFRsWU9zcXJTVzlOTklveW0za0haaHNkTkw5VEJtelRfdUh4TzBpajBqdkhqX1ZYaWJyZXBacw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 18:40:24 GMT",
+    "text": "Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed - Yahoo Finance  Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed &nbsp;&nbsp; Yahoo Finance "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -373,6 +373,26 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
+    "title": "Meta stock tumbles on report of potential equity raise - Investing.com",
+    "summary": "Meta stock tumbles on report of potential equity raise &nbsp;&nbsp; Investing.com",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
+    "published_at": "Fri, 05 Jun 2026 18:28:48 GMT",
+    "text": "Meta stock tumbles on report of potential equity raise - Investing.com  Meta stock tumbles on report of potential equity raise &nbsp;&nbsp; Investing.com "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg",
+    "summary": "Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
+    "published_at": "Fri, 05 Jun 2026 18:33:42 GMT",
+    "text": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg  Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
     "title": "3 Top-Tech Stocks to Buy With $1,000 Right Now - Yahoo Finance",
     "summary": "3 Top-Tech Stocks to Buy With $1,000 Right Now &nbsp;&nbsp; Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTFpldEVHR3RHSlFGTWg0aWQ0azRXNmZUTGloVERmQ3g1eDc1b2g3ZEdWenJMdS11Q05VU1Z6bmM1WVZSLTJvdlE5WGtjWjNhWHBhVjJTeENkajBXWUZ3ajZHM3hNM0RxSW9VU3BXWmtveEZlNlhEZlJPS3BwbXkwOWE4RXVxSV9RR254Z25rcw?oc=5",
@@ -383,31 +403,11 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Tesla Inc Stock (TSLA) Moved Down by 4.11% on Jun 5: What Investors Need To Know - TradingKey",
-    "summary": "Tesla Inc Stock (TSLA) Moved Down by 4.11% on Jun 5: What Investors Need To Know &nbsp;&nbsp; TradingKey",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV2FtcDBsN1NaV3lMZkRqdW9zSTdsU25lT0JZaFNna2tIQlZSYXpmbGRCU3ktcFBnMU1IWTVOS0lrNFFOdS11eTlLaExIMW9CRlNBdEdjb2NDWGxsbUdrR3EwNmdYWHo2RU9BRkR5RmJfaE9VeWlHTlNpeTQzM0E4Q2hRcnZRVlVjNWNJ?oc=5",
-    "published_at": "Fri, 05 Jun 2026 16:15:34 GMT",
-    "text": "Tesla Inc Stock (TSLA) Moved Down by 4.11% on Jun 5: What Investors Need To Know - TradingKey  Tesla Inc Stock (TSLA) Moved Down by 4.11% on Jun 5: What Investors Need To Know &nbsp;&nbsp; TradingKey "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits",
-    "summary": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
-    "text": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits  Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Can META Stock Compound Its Way Higher? - Trefis",
-    "summary": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
-    "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
-    "text": "Can META Stock Compound Its Way Higher? - Trefis  Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis "
+    "title": "Meta weighs big equity raising to finance AI infrastructure, FT reports - Reuters",
+    "summary": "Meta weighs big equity raising to finance AI infrastructure, FT reports &nbsp;&nbsp; Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVRmSndfbWtJOU45bmh5R3lwd19JcFpVUDl5WUJzU1FQUTdNM1NFWmE5SFFEVlZ0LUFKalpwVVFkeFh6QlZscThGcE5ORXNsdkprdnoyZW8zdTJmaXY4VWQtZGRzeTlVQTRkV0Jtb0I1RjdGR2hqR1EyUUlZbkpZZVBwX0ZSNGUxOF85NmNyTXNVTGVBMzJkR0FOX1Z2YVZ3OUhqcTgxUjgtNzIzZE02aGwySWw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 18:39:02 GMT",
+    "text": "Meta weighs big equity raising to finance AI infrastructure, FT reports - Reuters  Meta weighs big equity raising to finance AI infrastructure, FT reports &nbsp;&nbsp; Reuters "
   },
   {
     "source": "Google News Magnificent 7",
