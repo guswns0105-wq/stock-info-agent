@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 67,
-    "short_count": 67,
+    "video_count": 68,
+    "short_count": 68,
     "regular_video_count": 0,
     "mention_count": 92,
     "transcript_count": 65,
-    "metadata_count": 2,
+    "metadata_count": 3,
     "ocr_count": 4,
     "transcript_chars": 137771,
     "ocr_chars": 970,
@@ -382,20 +382,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
-        "url": "https://youtu.be/c9fN_7VCZr4",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2132,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
         "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
@@ -481,6 +467,17 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1734,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "워렌 버핏' 후계자가 85억 달러 쏟아부었다는 ‘의외의 종목’ 정체",
+        "url": "https://youtu.be/wvzLioBOSZQ",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1816,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
@@ -1332,19 +1329,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
-        "url": "https://youtu.be/c9fN_7VCZr4",
-        "published_at": "",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2132,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -1431,6 +1415,19 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1886,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
+        "url": "https://youtu.be/c9fN_7VCZr4",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 2132,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"

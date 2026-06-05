@@ -95,6 +95,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "Warren이 Huang에게 중국 칩 판매에 대한 증언을 요청한 것으로 알려지면서 NVDA 주식은 영업 시간 이후 하락했습니다 - Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkVfWGo3QkU2eElrdmlnLVNnczVWNDhzNVFDTG01ZmdEWW5PMWpaWFFDVUt4ZGZ5NDFxQkVFOXZjY2NlOWRzQm81ZVZkalJjZFNYS3ZKcTdtWlpKeTBtakR2QmRzQVI2V0ZUS1FvUHFscUItbi11ZU5MRGI0Y2xXbUdsa2NITm5DTXkteGl1eHF3R21Nby1zbnNfMDhrMlNVZ3ZsNWwwOXpZdzhFMDc2enRFMm02dGxHZ0dKNU5EUjRJZTFXWl9wUlRpblhXZGN6R1cydFZkN2ZaVXhWZ2dlUmtVVW15MDVPTEdwbw?oc=5",
+        "published_at": "Thu, 04 Jun 2026 23:06:15 GMT",
+        "reason": "Warren이 Huang에게 전화하여 중국 칩 판매에 대해 증언하자 NVDA 주가는 영업 시간 이후 하락했습니다    Stocktwits",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "목요일 NVIDIA 주식에 무슨 일이 일어나고 있나요? - 벤징가",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkJXRFc5MkhobVJoSjdGTjlPV2ZaRnRfem5rcHRQM2x1c3I0czl0ZEZxLVkyMHp3VnZ1SW5RUWtCenR6WkVvNWJDVl9rWUtQM19DUjVhN1FZLTR1UjJHS09Jb3A3blNqRVh1U2gyQlNpVVk3VU9YSWNRMG04NkdPNG9pM0E4MEJmOS1jVjhjYVFjcXlTZmdIVmtVeUk?oc=5",
         "published_at": "Thu, 04 Jun 2026 11:30:04 GMT",
@@ -299,18 +311,6 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
-        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
-        "url": "https://youtu.be/c9fN_7VCZr4",
-        "published_at": "",
-        "reason": "[0.0s] 님들, 삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유 뭔지 알고 있었어? [3.7s] 같은 반도체 대장주인데도 올해 하이닉스가 236% 오를 때 [6.9s] 삼전은 144% 밖에 못 올라갔어. [9.1s] 지금 미리 이후 알아놔야 나중에 고점에서 안 물릴 수 있으니까. [11.8s] 더 늦기 전에 딱 1분만 집중해봐. [13.5s] 지금 코스피 보면 삼성전자나 SK하이닉스나 둘 다 역대급 상승 중이야. [16.9s] 삼성전자는 최근 장중 32만 3천원까지 찍으면서 침곱과 경신했고 [20.6s] 하이닉스는 235만 8천원까지 뛰면서 시총 1조 달러 클럽에 진입했지. [24.3s] 근데 막상 수익률만 놓고 보면 [26.0s] 삼전은 1년 동안 486% 올랐는데 [28.3s] 탄익은 135%나 올랐어. [30.1s] 둘의 차이가 무려 2배가 넘는 거야. [31.7s] 왜 같은 코스피 대장주인데도 이런 어마어마한 배리가 발생하는 걸까? [34.7s] 이유는 간단해. [35.5s] 시장이 이 둘을 완전히 다른 종목처럼 평가하고 있기 때문인데 [38.2s] 지금 AI 서버에 들어가는 핵심 부품이 HBM인데 [40.7s] 이 HBM을 누가 더 많이, 더 빨리 나품하느냐가 주가 프리미엄을 결정하거든. [44.4s] 하이닉스는 HBM3, HBM3위에서 이미 엔비디아 공급방 핵심을 잡았어. [48.0s] 시장은 하이닉스를 그냥 메모리 회사",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -375,6 +375,18 @@
         "url": "https://youtu.be/sqKAFVyuiiY",
         "published_at": "",
         "reason": "다음 중 매수하면 안 되는 자리는 주가가 이렇게 박스권을 왔다 갔다 하고 있었습니다. 그리고 어 출전 상단을 뚫고 지지받고 올라가는 모습이 있죠. 다음 중 매수하면 안 되는 자리는 3초 드릴게요. 3 2 1 정답 공개합니다. 정답은 1번이었네요. 1번. 자, 1번은 박스권을 이렇게 진행되다가 전고점에 맞고 떨어질 수 있기 때문에 여기서 비중을 덜거나 관망할 사리고요. 사실 또 막고 떨어졌는데 그다음에 여기 저점에 지지받을 수 있기 때문에 반등할 때는 분할 매수 적절하고요.요 언덕을 뚫었기 때문에 돌파 매수로 적절하고 3번 뚫고 지지받을 때 역시 돌파지지 매수 4번. 근레 언덕을 돌파했기 때문에 역시 언덕 돌파 매수로 5번도 단기 투자 돌파 매수로 적절한 자리입니다. 정답은 1번이 되겠습니다. 1번 엔비디아 근래 차트인데 엔비디아가 박스권으로 진행되다가 어 올라가다가 여기 좀 저항이니까 여기는 매수가 아니죠. 내려왔다가 지지받기 때문에 2번 분할 매수, 3번은 돌파 매수, 뚫고지지 매수, 4번 초코, 근래 언덕을 돌파하고 지지받을 때요 정도에서 5번 단기 돌파 매수 적절합니다. 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
+        "url": "https://youtu.be/c9fN_7VCZr4",
+        "published_at": "",
+        "reason": "[0.0s] 님들, 삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유 뭔지 알고 있었어? [3.7s] 같은 반도체 대장주인데도 올해 하이닉스가 236% 오를 때 [6.9s] 삼전은 144% 밖에 못 올라갔어. [9.1s] 지금 미리 이후 알아놔야 나중에 고점에서 안 물릴 수 있으니까. [11.8s] 더 늦기 전에 딱 1분만 집중해봐. [13.5s] 지금 코스피 보면 삼성전자나 SK하이닉스나 둘 다 역대급 상승 중이야. [16.9s] 삼성전자는 최근 장중 32만 3천원까지 찍으면서 침곱과 경신했고 [20.6s] 하이닉스는 235만 8천원까지 뛰면서 시총 1조 달러 클럽에 진입했지. [24.3s] 근데 막상 수익률만 놓고 보면 [26.0s] 삼전은 1년 동안 486% 올랐는데 [28.3s] 탄익은 135%나 올랐어. [30.1s] 둘의 차이가 무려 2배가 넘는 거야. [31.7s] 왜 같은 코스피 대장주인데도 이런 어마어마한 배리가 발생하는 걸까? [34.7s] 이유는 간단해. [35.5s] 시장이 이 둘을 완전히 다른 종목처럼 평가하고 있기 때문인데 [38.2s] 지금 AI 서버에 들어가는 핵심 부품이 HBM인데 [40.7s] 이 HBM을 누가 더 많이, 더 빨리 나품하느냐가 주가 프리미엄을 결정하거든. [44.4s] 하이닉스는 HBM3, HBM3위에서 이미 엔비디아 공급방 핵심을 잡았어. [48.0s] 시장은 하이닉스를 그냥 메모리 회사",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -900,7 +912,7 @@
         "source_role": "뉴스",
         "title": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CUU5ZcFZOeGxrTDhtSUJHWjRqUUc4eVJWbGdjQlBWcWJ0TW1oaFVQa2kzOHllMHlKbEhYeWVoOE1ZbFRwZmxYbFlad01IdXZxMkxkcHd4eWpTbjZSYnhhNkgxSkxLeG43S0dXVVAxZ2HSAXRBVV95cUxONm03UnFwZlBmUkFVYjY2RlNhd0pSTGRIN2NHVzE1TWs4amtZd2RZMTJxRldWYjNzZW01X0hBNXlNU013Y282MDJVdzBBUHR0bHpGRDFCaDd6NTM2OWg1Q0xza01OQkdfejdrQW9SY1gzemJXLQ?oc=5",
-        "published_at": "Thu, 04 Jun 2026 23:41:19 GMT",
+        "published_at": "Thu, 04 Jun 2026 23:41:05 GMT",
         "reason": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -1174,18 +1186,6 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
-        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
-        "url": "https://youtu.be/c9fN_7VCZr4",
-        "published_at": "",
-        "reason": "[0.0s] 님들, 삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유 뭔지 알고 있었어? [3.7s] 같은 반도체 대장주인데도 올해 하이닉스가 236% 오를 때 [6.9s] 삼전은 144% 밖에 못 올라갔어. [9.1s] 지금 미리 이후 알아놔야 나중에 고점에서 안 물릴 수 있으니까. [11.8s] 더 늦기 전에 딱 1분만 집중해봐. [13.5s] 지금 코스피 보면 삼성전자나 SK하이닉스나 둘 다 역대급 상승 중이야. [16.9s] 삼성전자는 최근 장중 32만 3천원까지 찍으면서 침곱과 경신했고 [20.6s] 하이닉스는 235만 8천원까지 뛰면서 시총 1조 달러 클럽에 진입했지. [24.3s] 근데 막상 수익률만 놓고 보면 [26.0s] 삼전은 1년 동안 486% 올랐는데 [28.3s] 탄익은 135%나 올랐어. [30.1s] 둘의 차이가 무려 2배가 넘는 거야. [31.7s] 왜 같은 코스피 대장주인데도 이런 어마어마한 배리가 발생하는 걸까? [34.7s] 이유는 간단해. [35.5s] 시장이 이 둘을 완전히 다른 종목처럼 평가하고 있기 때문인데 [38.2s] 지금 AI 서버에 들어가는 핵심 부품이 HBM인데 [40.7s] 이 HBM을 누가 더 많이, 더 빨리 나품하느냐가 주가 프리미엄을 결정하거든. [44.4s] 하이닉스는 HBM3, HBM3위에서 이미 엔비디아 공급방 핵심을 잡았어. [48.0s] 시장은 하이닉스를 그냥 메모리 회사",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
         "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
         "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
@@ -1301,6 +1301,18 @@
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "1530원",
         "price_note": "은 고환율 시대에 우리는 어떻게 대처해야 할까? 먼저 첫 번째 지금 새로 달러를 사거나 미국 주식 들어가려는 사람은 조심해야 해. 왜냐면 환율 1530원 때는 역사적으로도 부담이 큰 [음악] 구간이야. 중동 전쟁이 더 커지고 유가가 더 뛰면 환율이 1,50원, 1600원까지도 갈 수 있지. 반대",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
+        "url": "https://youtu.be/c9fN_7VCZr4",
+        "published_at": "",
+        "reason": "[0.0s] 님들, 삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유 뭔지 알고 있었어? [3.7s] 같은 반도체 대장주인데도 올해 하이닉스가 236% 오를 때 [6.9s] 삼전은 144% 밖에 못 올라갔어. [9.1s] 지금 미리 이후 알아놔야 나중에 고점에서 안 물릴 수 있으니까. [11.8s] 더 늦기 전에 딱 1분만 집중해봐. [13.5s] 지금 코스피 보면 삼성전자나 SK하이닉스나 둘 다 역대급 상승 중이야. [16.9s] 삼성전자는 최근 장중 32만 3천원까지 찍으면서 침곱과 경신했고 [20.6s] 하이닉스는 235만 8천원까지 뛰면서 시총 1조 달러 클럽에 진입했지. [24.3s] 근데 막상 수익률만 놓고 보면 [26.0s] 삼전은 1년 동안 486% 올랐는데 [28.3s] 탄익은 135%나 올랐어. [30.1s] 둘의 차이가 무려 2배가 넘는 거야. [31.7s] 왜 같은 코스피 대장주인데도 이런 어마어마한 배리가 발생하는 걸까? [34.7s] 이유는 간단해. [35.5s] 시장이 이 둘을 완전히 다른 종목처럼 평가하고 있기 때문인데 [38.2s] 지금 AI 서버에 들어가는 핵심 부품이 HBM인데 [40.7s] 이 HBM을 누가 더 많이, 더 빨리 나품하느냐가 주가 프리미엄을 결정하거든. [44.4s] 하이닉스는 HBM3, HBM3위에서 이미 엔비디아 공급방 핵심을 잡았어. [48.0s] 시장은 하이닉스를 그냥 메모리 회사",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
         "confidence": "transcript"
       },
       {
@@ -2658,18 +2670,6 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
-        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
-        "url": "https://youtu.be/c9fN_7VCZr4",
-        "published_at": "",
-        "reason": "[0.0s] 님들, 삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유 뭔지 알고 있었어? [3.7s] 같은 반도체 대장주인데도 올해 하이닉스가 236% 오를 때 [6.9s] 삼전은 144% 밖에 못 올라갔어. [9.1s] 지금 미리 이후 알아놔야 나중에 고점에서 안 물릴 수 있으니까. [11.8s] 더 늦기 전에 딱 1분만 집중해봐. [13.5s] 지금 코스피 보면 삼성전자나 SK하이닉스나 둘 다 역대급 상승 중이야. [16.9s] 삼성전자는 최근 장중 32만 3천원까지 찍으면서 침곱과 경신했고 [20.6s] 하이닉스는 235만 8천원까지 뛰면서 시총 1조 달러 클럽에 진입했지. [24.3s] 근데 막상 수익률만 놓고 보면 [26.0s] 삼전은 1년 동안 486% 올랐는데 [28.3s] 탄익은 135%나 올랐어. [30.1s] 둘의 차이가 무려 2배가 넘는 거야. [31.7s] 왜 같은 코스피 대장주인데도 이런 어마어마한 배리가 발생하는 걸까? [34.7s] 이유는 간단해. [35.5s] 시장이 이 둘을 완전히 다른 종목처럼 평가하고 있기 때문인데 [38.2s] 지금 AI 서버에 들어가는 핵심 부품이 HBM인데 [40.7s] 이 HBM을 누가 더 많이, 더 빨리 나품하느냐가 주가 프리미엄을 결정하거든. [44.4s] 하이닉스는 HBM3, HBM3위에서 이미 엔비디아 공급방 핵심을 잡았어. [48.0s] 시장은 하이닉스를 그냥 메모리 회사",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
         "title": "SK하이닉스, 지금 절대 놓치면 안 되는 '반도체 호재' 뉴스",
         "url": "https://youtu.be/cZ1ljN9QBRg",
         "published_at": "",
@@ -2698,6 +2698,18 @@
         "url": "https://youtu.be/56Ec9B1U4p8",
         "published_at": "",
         "reason": "그리고 마이크로는 19% 올랐는데이 배경에는 AI으로 인해서 HBM, 비램, 랜드 이런 제품들이 극심한 공급 부족에 시달리고 있기 때문에 이거는 가격 결정권이 비테크가 아니라이 공급 업체인 마이크론 같은 업체한테 있다이 얘기고 그래서이 시스템 메모리 이런 쪽으로 1, 2위를 다투고 있는 삼성전자와 SK이닉스도 덩달아 좋겠다라고 보여지는 대목입니다. 입니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유",
+        "url": "https://youtu.be/c9fN_7VCZr4",
+        "published_at": "",
+        "reason": "[0.0s] 님들, 삼성전자가 SK하이닉스보다 못 뜨는 진짜 이유 뭔지 알고 있었어? [3.7s] 같은 반도체 대장주인데도 올해 하이닉스가 236% 오를 때 [6.9s] 삼전은 144% 밖에 못 올라갔어. [9.1s] 지금 미리 이후 알아놔야 나중에 고점에서 안 물릴 수 있으니까. [11.8s] 더 늦기 전에 딱 1분만 집중해봐. [13.5s] 지금 코스피 보면 삼성전자나 SK하이닉스나 둘 다 역대급 상승 중이야. [16.9s] 삼성전자는 최근 장중 32만 3천원까지 찍으면서 침곱과 경신했고 [20.6s] 하이닉스는 235만 8천원까지 뛰면서 시총 1조 달러 클럽에 진입했지. [24.3s] 근데 막상 수익률만 놓고 보면 [26.0s] 삼전은 1년 동안 486% 올랐는데 [28.3s] 탄익은 135%나 올랐어. [30.1s] 둘의 차이가 무려 2배가 넘는 거야. [31.7s] 왜 같은 코스피 대장주인데도 이런 어마어마한 배리가 발생하는 걸까? [34.7s] 이유는 간단해. [35.5s] 시장이 이 둘을 완전히 다른 종목처럼 평가하고 있기 때문인데 [38.2s] 지금 AI 서버에 들어가는 핵심 부품이 HBM인데 [40.7s] 이 HBM을 누가 더 많이, 더 빨리 나품하느냐가 주가 프리미엄을 결정하거든. [44.4s] 하이닉스는 HBM3, HBM3위에서 이미 엔비디아 공급방 핵심을 잡았어. [48.0s] 시장은 하이닉스를 그냥 메모리 회사",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4003,6 +4015,18 @@
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
+        "title": "Broadcom은 매출 전망이 실망스러워서 2,850억 달러의 손실을 입었습니다 - Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDlQSU5BSkJEVXhLWmJNNXpaVkR1S2FnN1BEaV9nUk9IQ05QQlNNVTRqbXdyNl9mbkt0anRyYUhoeGd5d0lWYnFQVl85ZUtGZzJjU3lNQ2Vnb0JjYkVpVE8wRWMwRW1sNkJLanMxSTVoX2dWa0dmb3BndEhoSnhYendDdzY?oc=5",
+        "published_at": "Thu, 04 Jun 2026 20:16:20 GMT",
+        "reason": "Broadcom은 수익 전망이 실망스러워서 2,850억 달러의 손실을 입었습니다    Financial Times",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
         "title": "미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 - TradingKey",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNlNURm5zWDI4Qnd4RUdMVkwtM3FqRkVVR2FzaENLVHlpT1VLcTNnZDZVdGd1UnZIS2c4dzJTUU5GLXVtZkg0TTIyWlR2ZzllQU12LWp2QVpyM0hUbXExU3JtQ0drSmtCb3pTcjVZTDlmN05yUEdWc2M5SnpVaE9JakJMVmZxVGtfOWhlYVc1djhYR3hBVzVMcFA0UjdHdkF3aFc1V2ZuQjhSS1VKUHJsV2FKdlBDYWVRYWNvMlh2bEJDeFRIMk9xTUh2bjgxSlFkZUE?oc=5",
         "published_at": "Thu, 04 Jun 2026 12:23:18 GMT",
@@ -4031,6 +4055,18 @@
         "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5",
         "published_at": "Thu, 04 Jun 2026 01:41:13 GMT",
         "reason": "AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO)    Benzinga",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "Broadcom이 AI 거래를 방해하고 월스트리트 이름을 끌어내린 후 아시아 기술 주식 하락 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSnBRX3BLYW9qOURXY2pUZGszSnd5dFQtNWMtaEJVOU5qbmFFc1hkVW5fel9RcVo3RTV1Mmh0NUUxNE5fZG9WQlpPeTdDYXJMQnZkMWV3dGhlYXAwZzlMZ1NFTWtCeWk5QjZXalFkZjFHRU1zYWR3b3VmU0N6aDg5TFRRVldDYXplcTgyMXV3aFcyMkhqY1BZ0gGcAUFVX3lxTE5rVEFtSjRacDlFNFVKclY1N0p5dTNyWXlEZC1qOUZlcVJPU1FSUi1OVlc1UXh4azBNel9ZbXVaUjNaQVQ5MlpkV3RkNi1GREVZRXYtMEZYQTlhYndZVkhQbGROdGRxb2drUU5yNFp3dDhPeTBteE9IUzBVM1ptNTFCRU05RFRfMkdNcUhZQVh5M1FkWFQ4TkRuZWE2bw?oc=5",
+        "published_at": "Fri, 05 Jun 2026 01:39:00 GMT",
+        "reason": "Broadcom이 AI 거래를 방해하고 월스트리트 이름을 끌어내린 후 아시아 기술 주식은 하락    CNBC",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5216,6 +5252,70 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "sources": [
+      "올랜도 킴 미국주식",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "애플은 워렌 버핏의 최고의 투자였습니다. GOOGL 주식은 Greg Abel의 명성이 될 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-warren-buffett-best-investment-163656811.html",
+        "published_at": "2026-06-03T16:36:56Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
+        "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
+        "published_at": "2026-06-03T14:01:53Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "032830",
     "name": "삼성생명",
@@ -5230,7 +5330,7 @@
         "source_role": "뉴스",
         "title": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CUU5ZcFZOeGxrTDhtSUJHWjRqUUc4eVJWbGdjQlBWcWJ0TW1oaFVQa2kzOHllMHlKbEhYeWVoOE1ZbFRwZmxYbFlad01IdXZxMkxkcHd4eWpTbjZSYnhhNkgxSkxLeG43S0dXVVAxZ2HSAXRBVV95cUxONm03UnFwZlBmUkFVYjY2RlNhd0pSTGRIN2NHVzE1TWs4amtZd2RZMTJxRldWYjNzZW01X0hBNXlNU013Y282MDJVdzBBUHR0bHpGRDFCaDd6NTM2OWg1Q0xza01OQkdfejdrQW9SY1gzemJXLQ?oc=5",
-        "published_at": "Thu, 04 Jun 2026 23:41:19 GMT",
+        "published_at": "Thu, 04 Jun 2026 23:41:05 GMT",
         "reason": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -5317,58 +5417,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "1100달러",
     "buy_zone_summary": "26,850원",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "sources": [
-      "올랜도 킴 미국주식",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "애플은 워렌 버핏의 최고의 투자였습니다. GOOGL 주식은 Greg Abel의 명성이 될 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-warren-buffett-best-investment-163656811.html",
-        "published_at": "2026-06-03T16:36:56Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -5890,6 +5938,33 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "GOOG",
+    "name": "Alphabet",
+    "sources": [
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
+        "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
+        "published_at": "2026-06-03T14:01:53Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       }
     ],
     "stance": "단일 출처 추천/관심",
