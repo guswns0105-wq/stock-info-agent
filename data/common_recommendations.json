@@ -261,6 +261,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "엔비디아가 Kumo AI를 4억 달러에 인수했습니다. NVDA 주식에 대한 의미. - Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOTdmdnlNcXNCbDNwRU1vMm5TRy1ocGhaWFVmWHpDSVA5eXJLb1p2cURMZmg2dy1iQnAyd2dIdDJldkRlRGxMZWJ2ajhRVTQ0YmY4RTNvZ3Y3TU9CV2RSdERCZGJaMDNjRnRiaV96TDdkT3JqSGR5a1lNeUVzR1p5bGNQOUVadUJqdU5HOEUydGlLY2hXbE5rSFNnSkE0U1dLQV9uZXFLSU5GMExjcFhvVlN4bWU?oc=5",
+        "published_at": "Fri, 05 Jun 2026 19:04:41 GMT",
+        "reason": "엔비디아가 Kumo AI를 4억 달러에 인수했습니다. NVDA 주식에 대한 의미.    Barchart.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
         "title": "2026년 120%의 수익률로 Nvidia를 압도하는 슈퍼 반도체 주식을 만나보세요 - Yahoo Finance",
@@ -5120,6 +5132,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "보고서 회사의 Meta 주식 하락으로 AI 추진 자금을 조달하기 위해 수백억 달러를 모을 수 있음 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
+        "published_at": "Fri, 05 Jun 2026 19:05:58 GMT",
+        "reason": "보고서 회사에 대한 Meta의 주가 하락으로 AI 푸시 자금을 조달하기 위해 수백억 달러를 모을 수 있음    CNBC",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "Meta는 AI 인프라 자금 조달을 위해 대규모 자산 조달에 무게를 두고 있다고 FT 보고서 - Reuters",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVRmSndfbWtJOU45bmh5R3lwd19JcFpVUDl5WUJzU1FQUTdNM1NFWmE5SFFEVlZ0LUFKalpwVVFkeFh6QlZscThGcE5ORXNsdkprdnoyZW8zdTJmaXY4VWQtZGRzeTlVQTRkV0Jtb0I1RjdGR2hqR1EyUUlZbkpZZVBwX0ZSNGUxOF85NmNyTXNVTGVBMzJkR0FOX1Z2YVZ3OUhqcTgxUjgtNzIzZE02aGwySWw?oc=5",
         "published_at": "Fri, 05 Jun 2026 18:39:02 GMT",
@@ -5132,10 +5156,10 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
-        "title": "Meta는 수십억 달러의 주식 매각을 고려하고 있습니다. FT 보고서-Bloomberg",
+        "title": "Meta, FT 보고서에서 수십억 달러 규모의 주식 매각을 고려 중 - Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
         "published_at": "Fri, 05 Jun 2026 18:33:42 GMT",
-        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg",
+        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg.com",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",

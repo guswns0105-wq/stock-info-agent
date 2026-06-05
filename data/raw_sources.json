@@ -123,6 +123,26 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "국제금값, 美연준 금리인상 기대에 3%↓…올해 인상분 반납",
+    "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 미국의 고용시장 호조가 연방준비제도(Fed·연준)의 금리 인상 결정으로 이어질 것이란 기대감이 커지면서 5일...",
+    "url": "https://www.yna.co.kr/view/AKR20260606005300072",
+    "published_at": "Sat, 6 Jun 2026 04:31:00 +0900",
+    "text": "국제금값, 美연준 금리인상 기대에 3%↓…올해 인상분 반납 (뉴욕=연합뉴스) 이지헌 특파원 = 미국의 고용시장 호조가 연방준비제도(Fed·연준)의 금리 인상 결정으로 이어질 것이란 기대감이 커지면서 5일..."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "국제유가, 중동 긴장완화 기대감에 하락…WTI 2.7%↓",
+    "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 미국과 이란 간 긴장 완화 기대감에 5일(현지시간) 국제유가가 하락했다.",
+    "url": "https://www.yna.co.kr/view/AKR20260606005100072",
+    "published_at": "Sat, 6 Jun 2026 04:16:20 +0900",
+    "text": "국제유가, 중동 긴장완화 기대감에 하락…WTI 2.7%↓ (뉴욕=연합뉴스) 이지헌 특파원 = 미국과 이란 간 긴장 완화 기대감에 5일(현지시간) 국제유가가 하락했다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "달러-원, 美 반도체주 급락에 공포 전이…1,560원선도 뚫렸다",
     "summary": "(뉴욕=연합뉴스) 진정호 연합인포맥스 특파원 = 달러-원 환율이 야간 거래에서 또다시 급등하며 1,560원 선에 육박했다.",
     "url": "https://www.yna.co.kr/view/AKR20260606004500002",
@@ -150,74 +170,54 @@
     "text": "환율, 달러 강세에 1,550원도 넘었다…금융위기 이후 최고 (서울=연합뉴스) 이도흔 기자 = 원/달러 환율이 5일 야간 거래에서 1,550원을 넘어섰다."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
-    "region": "domestic",
-    "title": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동'",
-    "summary": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
-    "url": "https://www.yna.co.kr/view/AKR20260605155700704",
-    "published_at": "Fri, 5 Jun 2026 21:56:12 +0900",
-    "text": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동' (서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회..."
-  },
-  {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "美 '깜짝 고용호조'에 미국채금리 급등…30년물 5.0% 돌파",
-    "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 5월 미국의 비농업 일자리가 예상 밖으로 호조를 보이면서 5일(현지시간) 미국의 국채 수익률이 급등세다.",
-    "url": "https://www.yna.co.kr/view/AKR20260605155351072",
-    "published_at": "Fri, 5 Jun 2026 21:44:51 +0900",
-    "text": "美 '깜짝 고용호조'에 미국채금리 급등…30년물 5.0% 돌파 (뉴욕=연합뉴스) 이지헌 특파원 = 5월 미국의 비농업 일자리가 예상 밖으로 호조를 보이면서 5일(현지시간) 미국의 국채 수익률이 급등세다."
+    "region": "global",
+    "title": "Klarna is an Amex-style brand, CEO says",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-amex-style-brand-ceo-101110126.html",
+    "published_at": "2026-06-04T10:11:10Z",
+    "text": "Klarna is an Amex-style brand, CEO says "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "QXO Inc. (QXO) Launches Cash Tender Offers for TopBuild (BLD) Senior Notes Amid Pending Acquisition",
+    "title": "Why Was the Commodities Complex Like a Sailboat Race Thursday Morning?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/qxo-inc-qxo-launches-cash-090602755.html",
-    "published_at": "2026-06-04T09:06:02Z",
-    "text": "QXO Inc. (QXO) Launches Cash Tender Offers for TopBuild (BLD) Senior Notes Amid Pending Acquisition "
+    "url": "https://finance.yahoo.com/markets/commodities/articles/why-commodities-complex-sailboat-race-100548006.html",
+    "published_at": "2026-06-04T10:05:48Z",
+    "text": "Why Was the Commodities Complex Like a Sailboat Race Thursday Morning? "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "U.S. Futures Mixed as Middle East Diplomacy, Broadcom Earnings and SpaceX IPO Capture Investor Attention: Dow Jones, S&P, Nasdaq, Wall Street",
+    "title": "Why the SpaceX IPO could be a trap: Chart of the Day",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/u-futures-mixed-middle-east-090550043.html",
-    "published_at": "2026-06-04T09:05:50Z",
-    "text": "U.S. Futures Mixed as Middle East Diplomacy, Broadcom Earnings and SpaceX IPO Capture Investor Attention: Dow Jones, S&P, Nasdaq, Wall Street "
+    "url": "https://finance.yahoo.com/markets/article/why-the-spacex-ipo-could-be-a-trap-chart-of-the-day-100000554.html",
+    "published_at": "2026-06-04T10:00:00Z",
+    "text": "Why the SpaceX IPO could be a trap: Chart of the Day "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "EPAM Systems (EPAM), Anthropic Forge Multi-Year Partnership to Accelerate Enterprise AI Transformation",
+    "title": "The AI stock rally is minting US millionaires at its fastest clip in 4 years",
     "summary": "",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/epam-systems-epam-anthropic-forge-090659695.html",
-    "published_at": "2026-06-04T09:06:59Z",
-    "text": "EPAM Systems (EPAM), Anthropic Forge Multi-Year Partnership to Accelerate Enterprise AI Transformation "
+    "url": "https://finance.yahoo.com/markets/article/the-ai-stock-rally-is-minting-us-millionaires-at-its-fastest-clip-in-4-years-100000906.html",
+    "published_at": "2026-06-04T10:00:00Z",
+    "text": "The AI stock rally is minting US millionaires at its fastest clip in 4 years "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is Icahn Enterprises (IEP) One of the Best High Short Interest Stocks With Highest Upside Potential?",
+    "title": "Is U.S. Bancorp Stock Underperforming the Nasdaq?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/icahn-enterprises-iep-one-best-090633695.html",
-    "published_at": "2026-06-04T09:06:33Z",
-    "text": "Is Icahn Enterprises (IEP) One of the Best High Short Interest Stocks With Highest Upside Potential? "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Summit (SMMT) Reports Positive Phase III Overall Survival Data for Ivonescimab in Advanced NSCLC",
-    "summary": "",
-    "url": "https://finance.yahoo.com/sectors/healthcare/articles/summit-smmt-reports-positive-phase-090553368.html",
-    "published_at": "2026-06-04T09:05:53Z",
-    "text": "Summit (SMMT) Reports Positive Phase III Overall Survival Data for Ivonescimab in Advanced NSCLC "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/u-bancorp-stock-underperforming-nasdaq-095712915.html",
+    "published_at": "2026-06-04T09:57:12Z",
+    "text": "Is U.S. Bancorp Stock Underperforming the Nasdaq? "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -283,16 +283,6 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
-    "title": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제",
-    "summary": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
-    "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
-    "text": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제  흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제 "
-  },
-  {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "바이비트, 삼성전자·SK하이닉스·현대차 주식 무기한 선물 상장 - 블루밍비트",
     "summary": "바이비트, 삼성전자·SK하이닉스·현대차 주식 무기한 선물 상장 &nbsp;&nbsp; 블루밍비트",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wRzkzM2tIX3ZxcVhFUXBUWHhvU0M0N01aUUlHYllNekhJN3pJR0RGRHJvaHgtVHR2SDIxOURGQ01uNE5FTUhFVFg2eV8waVhY?oc=5",
@@ -320,24 +310,14 @@
     "text": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스  [보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스 "
   },
   {
-    "source": "Google News US Markets AI Semis",
+    "source": "Google News 한국 주식 종목",
     "source_type": "rss",
-    "region": "global",
-    "title": "Wall St slides as chip stocks fall, jobs data fuels hawkish Fed fears - Reuters",
-    "summary": "Wall St slides as chip stocks fall, jobs data fuels hawkish Fed fears &nbsp;&nbsp; Reuters",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 16:00:48 GMT",
-    "text": "Wall St slides as chip stocks fall, jobs data fuels hawkish Fed fears - Reuters  Wall St slides as chip stocks fall, jobs data fuels hawkish Fed fears &nbsp;&nbsp; Reuters "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed - Yahoo Finance",
-    "summary": "Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPanFWWEpvdDgwaWMxV2NqeS1WWnpZTG1KcHIxX1NPelQ1eWt0bXNVd0RLbEw2UmZMdko1SEZUTzI2Q0owZU12eVYwYzB4dUM0UmlUVHEtV3d6ekVNa1BqN0JhSkpGZmQ1Vk51MmN6cUszWFRsWU9zcXJTVzlOTklveW0za0haaHNkTkw5VEJtelRfdUh4TzBpajBqdkhqX1ZYaWJyZXBacw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 18:40:24 GMT",
-    "text": "Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed - Yahoo Finance  Wall Street slumps as chips slide, robust jobs data stokes fears of hawkish Fed &nbsp;&nbsp; Yahoo Finance "
+    "region": "domestic",
+    "title": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제",
+    "summary": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
+    "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
+    "text": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제  흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제 "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -353,21 +333,51 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower - CNBC",
-    "summary": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower &nbsp;&nbsp; CNBC",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSnBRX3BLYW9qOURXY2pUZGszSnd5dFQtNWMtaEJVOU5qbmFFc1hkVW5fel9RcVo3RTV1Mmh0NUUxNE5fZG9WQlpPeTdDYXJMQnZkMWV3dGhlYXAwZzlMZ1NFTWtCeWk5QjZXalFkZjFHRU1zYWR3b3VmU0N6aDg5TFRRVldDYXplcTgyMXV3aFcyMkhqY1BZ0gGcAUFVX3lxTE5rVEFtSjRacDlFNFVKclY1N0p5dTNyWXlEZC1qOUZlcVJPU1FSUi1OVlc1UXh4azBNel9ZbXVaUjNaQVQ5MlpkV3RkNi1GREVZRXYtMEZYQTlhYndZVkhQbGROdGRxb2drUU5yNFp3dDhPeTBteE9IUzBVM1ptNTFCRU05RFRfMkdNcUhZQVh5M1FkWFQ4TkRuZWE2bw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 01:39:00 GMT",
-    "text": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower - CNBC  Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower &nbsp;&nbsp; CNBC "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
     "title": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA",
     "summary": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
     "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
     "text": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA  New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Stock market falls as chip stocks slide; Treasury yields jump - eciks.org",
+    "summary": "Stock market falls as chip stocks slide; Treasury yields jump &nbsp;&nbsp; eciks.org",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3MEM4Vy1DUmE4Uk9fb1c0YnNnWnhGSEFZeUV1THk3cnNWejliODQ0SEhBS2RxQmtGcDlZYWZQRlVtRFZQNU43UXcwNjZhMS1wVGh2TnBhZ1A1cmhwazhhVUZGaXBHbWR2V1lMRjNyckdaTmJEVGVDUA?oc=5",
+    "published_at": "Fri, 05 Jun 2026 15:05:51 GMT",
+    "text": "Stock market falls as chip stocks slide; Treasury yields jump - eciks.org  Stock market falls as chip stocks slide; Treasury yields jump &nbsp;&nbsp; eciks.org "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs",
+    "summary": "How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5",
+    "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+    "text": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs  How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts - StockStory",
+    "summary": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts &nbsp;&nbsp; StockStory",
+    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkRSbUtza203a3hQUXRWbm1BTHZFYndkTHEyZUhMcjJ1cnBuV0syTW85Tm4xT0Q0QzdzUFdWajFWX2dOT0dfUk9HMkdURVRBM3ZLYTZzODhiZGJpZmR2VHBwZnA4bm5pV2syS09vY2VBZ1oxb2RZcFYtUTc3WlVaaGRJZlMwWVZFN0RRalBocmdJRG1KYjg2OGpnQ2RwVUpzRkZIWHBvMXR2bzRkOHB1SE5jYnBfQWpTTHFmUW4zWFV2SFBWdTJoQmVCRG9FYnRzcGRINFI2LWZJMUdOal9oT24zaUJFNGFGam1xRHFQWVppUzZtQkRV?oc=5",
+    "published_at": "Thu, 04 Jun 2026 08:39:14 GMT",
+    "text": "AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts - StockStory  AVGO Q1 Deep Dive: AI Semiconductor Demand Drives Revenue Surge, Market Reacts to Profitability Shifts &nbsp;&nbsp; StockStory "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC",
+    "summary": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
+    "published_at": "Fri, 05 Jun 2026 19:05:58 GMT",
+    "text": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC  Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC "
   },
   {
     "source": "Google News Magnificent 7",
@@ -383,11 +393,11 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg",
-    "summary": "Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg",
+    "title": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg.com",
+    "summary": "Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg.com",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
     "published_at": "Fri, 05 Jun 2026 18:33:42 GMT",
-    "text": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg  Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg "
+    "text": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg.com  Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg.com "
   },
   {
     "source": "Google News Magnificent 7",
@@ -403,20 +413,10 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta weighs big equity raising to finance AI infrastructure, FT reports - Reuters",
-    "summary": "Meta weighs big equity raising to finance AI infrastructure, FT reports &nbsp;&nbsp; Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVRmSndfbWtJOU45bmh5R3lwd19JcFpVUDl5WUJzU1FQUTdNM1NFWmE5SFFEVlZ0LUFKalpwVVFkeFh6QlZscThGcE5ORXNsdkprdnoyZW8zdTJmaXY4VWQtZGRzeTlVQTRkV0Jtb0I1RjdGR2hqR1EyUUlZbkpZZVBwX0ZSNGUxOF85NmNyTXNVTGVBMzJkR0FOX1Z2YVZ3OUhqcTgxUjgtNzIzZE02aGwySWw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 18:39:02 GMT",
-    "text": "Meta weighs big equity raising to finance AI infrastructure, FT reports - Reuters  Meta weighs big equity raising to finance AI infrastructure, FT reports &nbsp;&nbsp; Reuters "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - 24/7 Wall St.",
-    "summary": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcW9iTi12Ui1qX2gwZmNwQjFfdEFZajdLOW9GVElVVVZPd2IyNGFlZFlaRXdKMzJWYXFsWjZsOXJRQTFURFFaWWIyUVZoVm9Sak9MM3VXbHVYRlJqMUt1M3E0XzJSeGgxcnM0SGNQYmhfeEZKcEVjVnYxNUNGM3QxYVdSbEZzU2FReGloQmlWS0NaUmNGalJkbmtqMW9xVEUweFhlQ094VGktZERGV1hkbGtLRWQ?oc=5",
-    "published_at": "Fri, 05 Jun 2026 15:52:01 GMT",
-    "text": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - 24/7 Wall St.  Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; 24/7 Wall St. "
+    "title": "Nvidia Acquires Kumo AI for $400 Million. What That Means for NVDA Stock. - Barchart.com",
+    "summary": "Nvidia Acquires Kumo AI for $400 Million. What That Means for NVDA Stock. &nbsp;&nbsp; Barchart.com",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOTdmdnlNcXNCbDNwRU1vMm5TRy1ocGhaWFVmWHpDSVA5eXJLb1p2cURMZmg2dy1iQnAyd2dIdDJldkRlRGxMZWJ2ajhRVTQ0YmY4RTNvZ3Y3TU9CV2RSdERCZGJaMDNjRnRiaV96TDdkT3JqSGR5a1lNeUVzR1p5bGNQOUVadUJqdU5HOEUydGlLY2hXbE5rSFNnSkE0U1dLQV9uZXFLSU5GMExjcFhvVlN4bWU?oc=5",
+    "published_at": "Fri, 05 Jun 2026 19:04:41 GMT",
+    "text": "Nvidia Acquires Kumo AI for $400 Million. What That Means for NVDA Stock. - Barchart.com  Nvidia Acquires Kumo AI for $400 Million. What That Means for NVDA Stock. &nbsp;&nbsp; Barchart.com "
   }
 ]
