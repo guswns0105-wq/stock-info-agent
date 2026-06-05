@@ -167,6 +167,30 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "엔비디아, 한국 AI기술센터 설립 착수…피지컬AI 채용 공고",
+        "url": "https://www.yna.co.kr/view/AKR20260605141000017",
+        "published_at": "Fri, 5 Jun 2026 18:15:25 +0900",
+        "reason": "(서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "[쇼츠] 젠슨황 7개월 만에 방한…PC방서 페이커에 GPU 선물",
+        "url": "https://www.yna.co.kr/view/AKR20260605139000704",
+        "published_at": "Fri, 5 Jun 2026 18:02:29 +0900",
+        "reason": "(서울=연합뉴스) 약 7개월 만에 한국을 다시 찾은 젠슨 황 엔비디아 최고경영자(CEO)가 방한 첫 행선지인 PC방에서 프로게이머 &apos;페이커&apos; 이...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "[영상] 젠슨 황, 7개월 만에 방한…PC방서 페이커 만나 최신 GPU 선물",
         "url": "https://www.yna.co.kr/view/AKR20260605135100704",
         "published_at": "Fri, 5 Jun 2026 17:28:44 +0900",
