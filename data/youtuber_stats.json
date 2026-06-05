@@ -9,9 +9,9 @@
     "mention_count": 94,
     "transcript_count": 67,
     "metadata_count": 7,
-    "ocr_count": 10,
+    "ocr_count": 11,
     "transcript_chars": 141670,
-    "ocr_chars": 4226,
+    "ocr_chars": 4478,
     "stocks": [
       {
         "ticker": "005930",
@@ -99,9 +99,9 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1931,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 252,
+        "ocr_excerpt": "정제시꾼구독자전용 중국분석:POSC0 명스 경제 사냥꾼 2026년 06월 05일 주가가 지금 30만원까지 뚫었다는데 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 경제시닝꾼구독자전용 중국분석:POSCO홈링스 1000 리튬이랑 배터리 소재 사업까지 하는 곳이야. 중국분석:",
         "youtube_kind": "short"
       },
       {
@@ -2786,6 +2786,246 @@
   },
   {
     "region": "global",
+    "youtuber": "올랜도 킴 미국주식",
+    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
+    "video_count": 10,
+    "short_count": 0,
+    "regular_video_count": 10,
+    "mention_count": 18,
+    "transcript_count": 1,
+    "metadata_count": 9,
+    "ocr_count": 10,
+    "transcript_chars": 14530,
+    "ocr_chars": 32402,
+    "stocks": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 2
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 2
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "count": 1
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 1
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "count": 1
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "count": 1
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "count": 1
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "count": 1
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "count": 1
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "count": 1
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix",
+        "count": 1
+      },
+      {
+        "ticker": "ARM",
+        "name": "Arm",
+        "count": 1
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "count": 1
+      },
+      {
+        "ticker": "ORCL",
+        "name": "Oracle",
+        "count": 1
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce",
+        "count": 1
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "(시황분석) 오늘의 투매는 알고리즘 투매가 많았다!!!",
+        "url": "https://youtu.be/37nfP8BwiYQ",
+        "published_at": "2026-06-05T21:54:55+00:00",
+        "tickers": [
+          "TSLA",
+          "AMD",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 14530,
+        "ocr_status": "ok",
+        "ocr_chars": 3884,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 a Search ticker, company or profile charlessCHWAB YOUR LOVED ONED CARE WITH NO ANNUAL FEE** LEARN MORE Home News Screener Charts Maps Groups Port",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(삼전,하이닉스) 기간조정과 가격조정은 어디까지?",
+        "url": "https://youtu.be/Zo3di8xd41I",
+        "published_at": "2026-06-05T05:57:37+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 3889,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 USDJPY lade Ideas-OAND X SUCF tblor Exit ton Samsur X irweeling.com/pro/KOSt:A005930/mocirl/ecl ebli-exit 5yr 양사 연구 더 미국 NAHB 주택시... Waldhlt: ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석)  전약후강으로  대기자금 많다.그러나 반도체 조정은 완전히 끝나지 않았다.",
+        "url": "https://youtu.be/D2TzqT51El8",
+        "published_at": "2026-06-04T20:42:32+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 3067,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 BuyAlerts p Free Options Signals Today SIGN UP P a Search ticker, company or profile Chares SCHWAR Home News Screener Charts Maps Groups Portfoli",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 매도는 어떤 기준으로 하나?",
+        "url": "https://youtu.be/bH7zkRhppsU",
+        "published_at": "2026-06-04T06:46:46+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 5418,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 C Ior, Inc. JIONC) Slock ValuauL ps Mu uples lor 1ONO Ine 0N X • usS08.23 lon0. Ine (1ONO)-11 x tridingvwcom/chatt108vw; ~ 양사 연구 * Pookmarks 1 성세",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 건전한 조정 VS 하락시작",
+        "url": "https://youtu.be/G20MMisYFns",
+        "published_at": "2026-06-03T21:54:30+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 4253,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 시황분석 마이크론, 샌디스크, 웨스턴디지털 반도체 조정오나? 브로드컴 전망치 하회 Home News Screener Charts Maps Groups Porttolio Insider Futures Forex Crypto Calendar Pricing Wed J",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
+        "url": "https://youtu.be/oqSSFBnSysQ",
+        "published_at": "2026-06-02T21:26:39+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 5190,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 Download 1o use cxtension (Frce) a search ticker, company or profile charles scHwAs D Cick Cownload) J Add Privacy Shield for Chrome Privacy shie",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AAPL",
+          "MSFT",
+          "GOOGL",
+          "AMZN",
+          "META",
+          "AVGO",
+          "NFLX",
+          "ARM",
+          "INTC",
+          "ORCL",
+          "CRM"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 4115,
+        "ocr_excerpt": "시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -G",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!",
+        "url": "https://youtu.be/vAaKxAp-3xA",
+        "published_at": "2026-05-31T12:38:33+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 1487,
+        "ocr_excerpt": "월간시황 대세는 상승중이다!!! 6월 장세는? 매수관점에서 출발하자 MARKET DATA Key Market Data Cryptocurrency U.S. EQUITIES Name S&P 500 DJIA NASDAQ 100 Mid Cap Small Cap Micro Cap US EQUIT",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
+        "url": "https://youtu.be/KM1gxblQq9s",
+        "published_at": "2026-05-30T22:18:25+00:00",
+        "tickers": [
+          "PLTR"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 556,
+        "ocr_excerpt": "팔란티어 결국은 주가는 이익의 함수다 팔란티어 급등이유? 어디까지 가나? 거래 내용 관련 분쟁 논의 중인 거래의 정확한 조건은 아직 불분명합니다. 이란 최고 지도자의 고문인 모흐센 레자이는 x에 올린 글 에서 트럼프 대통령이 \"외 교를 배신하고 있다”고 말했다. 레자이는 \"해상 봉쇄를 ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
+        "url": "https://youtu.be/jh-7Hm0CkLc",
+        "published_at": "2026-05-30T11:03:34+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 543,
+        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "global",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
     "video_count": 9,
@@ -2978,225 +3218,6 @@
         "ocr_chars": 304,
         "ocr_excerpt": "삼성전자 0 0만 원 진짜 갈 수 있나? 반도체 슈퍼사이클 AI 혁명과 함께 열리는 새로운 반도체 시대 수요 폭중 사•데이터센터 스타트폰 •전기사 가격 상승 GRAM• NIND 설비 투자 확대 글로벌 기업 대구오 CACK 공급 부족 0&> 공급 지속적 부족] 실적 폭풍 반도체 기업 사랑",
         "youtube_kind": "short"
-      }
-    ]
-  },
-  {
-    "region": "global",
-    "youtuber": "올랜도 킴 미국주식",
-    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 9,
-    "short_count": 0,
-    "regular_video_count": 9,
-    "mention_count": 15,
-    "transcript_count": 0,
-    "metadata_count": 9,
-    "ocr_count": 9,
-    "transcript_chars": 0,
-    "ocr_chars": 28518,
-    "stocks": [
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA",
-        "count": 1
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "count": 1
-      },
-      {
-        "ticker": "AAPL",
-        "name": "Apple",
-        "count": 1
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "count": 1
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "count": 1
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon",
-        "count": 1
-      },
-      {
-        "ticker": "META",
-        "name": "Meta",
-        "count": 1
-      },
-      {
-        "ticker": "AVGO",
-        "name": "Broadcom",
-        "count": 1
-      },
-      {
-        "ticker": "NFLX",
-        "name": "Netflix",
-        "count": 1
-      },
-      {
-        "ticker": "ARM",
-        "name": "Arm",
-        "count": 1
-      },
-      {
-        "ticker": "INTC",
-        "name": "Intel",
-        "count": 1
-      },
-      {
-        "ticker": "ORCL",
-        "name": "Oracle",
-        "count": 1
-      },
-      {
-        "ticker": "CRM",
-        "name": "Salesforce",
-        "count": 1
-      },
-      {
-        "ticker": "PLTR",
-        "name": "Palantir",
-        "count": 1
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "(삼전,하이닉스) 기간조정과 가격조정은 어디까지?",
-        "url": "https://youtu.be/Zo3di8xd41I",
-        "published_at": "2026-06-05T05:57:37+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 3889,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 USDJPY lade Ideas-OAND X SUCF tblor Exit ton Samsur X irweeling.com/pro/KOSt:A005930/mocirl/ecl ebli-exit 5yr 양사 연구 더 미국 NAHB 주택시... Waldhlt: ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석)  전약후강으로  대기자금 많다.그러나 반도체 조정은 완전히 끝나지 않았다.",
-        "url": "https://youtu.be/D2TzqT51El8",
-        "published_at": "2026-06-04T20:42:32+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 3067,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 BuyAlerts p Free Options Signals Today SIGN UP P a Search ticker, company or profile Chares SCHWAR Home News Screener Charts Maps Groups Portfoli",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 매도는 어떤 기준으로 하나?",
-        "url": "https://youtu.be/bH7zkRhppsU",
-        "published_at": "2026-06-04T06:46:46+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 5418,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 C Ior, Inc. JIONC) Slock ValuauL ps Mu uples lor 1ONO Ine 0N X • usS08.23 lon0. Ine (1ONO)-11 x tridingvwcom/chatt108vw; ~ 양사 연구 * Pookmarks 1 성세",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 건전한 조정 VS 하락시작",
-        "url": "https://youtu.be/G20MMisYFns",
-        "published_at": "2026-06-03T21:54:30+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 4253,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 시황분석 마이크론, 샌디스크, 웨스턴디지털 반도체 조정오나? 브로드컴 전망치 하회 Home News Screener Charts Maps Groups Porttolio Insider Futures Forex Crypto Calendar Pricing Wed J",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
-        "url": "https://youtu.be/oqSSFBnSysQ",
-        "published_at": "2026-06-02T21:26:39+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 5190,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 Download 1o use cxtension (Frce) a search ticker, company or profile charles scHwAs D Cick Cownload) J Add Privacy Shield for Chrome Privacy shie",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AAPL",
-          "MSFT",
-          "GOOGL",
-          "AMZN",
-          "META",
-          "AVGO",
-          "NFLX",
-          "ARM",
-          "INTC",
-          "ORCL",
-          "CRM"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 4115,
-        "ocr_excerpt": "시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -G",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!",
-        "url": "https://youtu.be/vAaKxAp-3xA",
-        "published_at": "2026-05-31T12:38:33+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 1487,
-        "ocr_excerpt": "월간시황 대세는 상승중이다!!! 6월 장세는? 매수관점에서 출발하자 MARKET DATA Key Market Data Cryptocurrency U.S. EQUITIES Name S&P 500 DJIA NASDAQ 100 Mid Cap Small Cap Micro Cap US EQUIT",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
-        "url": "https://youtu.be/KM1gxblQq9s",
-        "published_at": "2026-05-30T22:18:25+00:00",
-        "tickers": [
-          "PLTR"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 556,
-        "ocr_excerpt": "팔란티어 결국은 주가는 이익의 함수다 팔란티어 급등이유? 어디까지 가나? 거래 내용 관련 분쟁 논의 중인 거래의 정확한 조건은 아직 불분명합니다. 이란 최고 지도자의 고문인 모흐센 레자이는 x에 올린 글 에서 트럼프 대통령이 \"외 교를 배신하고 있다”고 말했다. 레자이는 \"해상 봉쇄를 ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
-        "url": "https://youtu.be/jh-7Hm0CkLc",
-        "published_at": "2026-05-30T11:03:34+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 543,
-        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
-        "youtube_kind": "video"
       }
     ]
   },
