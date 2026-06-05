@@ -2049,15 +2049,15 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 16,
+    "video_count": 17,
     "short_count": 0,
-    "regular_video_count": 16,
+    "regular_video_count": 17,
     "mention_count": 27,
     "transcript_count": 6,
-    "metadata_count": 10,
-    "ocr_count": 9,
+    "metadata_count": 11,
+    "ocr_count": 10,
     "transcript_chars": 4147,
-    "ocr_chars": 3835,
+    "ocr_chars": 4139,
     "stocks": [
       {
         "ticker": "003550",
@@ -2096,6 +2096,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "일론 머스크의 스페이스X 상장 임박, 한국 미국 핵심 ETF 상위 5개",
+        "url": "https://youtu.be/2HOIIVmhRgk",
+        "published_at": "2026-06-05T11:45:11+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 304,
+        "ocr_excerpt": "스페이스X 상장임박 한국&미국 핵심 ETF 5개 NASA ETF SeNCeX 지원 10% 전재 8모 UFO ETF 가을 오랜 감사 + TEMA TIGER 미국우주테크 ACE 미국우주테크엑티브 SesceX 추세 국대로 1Q 미국우주테크 하나 봐도 하국 우주 테크 집 동자 선도하 2026 ",
+        "youtube_kind": "video"
+      },
       {
         "title": "코스피 폭락장에 외국인들이 쓸어담은 한국주식 TOP10",
         "url": "https://youtu.be/5pal6XQoZbQ",

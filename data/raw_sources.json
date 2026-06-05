@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "[인사] 한국은행",
+    "summary": "◇ 부서장 보임",
+    "url": "https://www.yna.co.kr/view/AKR20260605150900002",
+    "published_at": "Fri, 5 Jun 2026 20:02:53 +0900",
+    "text": "[인사] 한국은행 ◇ 부서장 보임"
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "소프트센, 22억 유상증자…홍콩셩다국제무역유한공사에 3자배정",
     "summary": "(서울=연합뉴스) 코스닥 상장사 소프트센[032680]은 타법인증권취득자금 등 22억원을 조달하고자 제3자배정 유상증자를 결정했다고 5일 공시했...",
     "url": "https://www.yna.co.kr/view/AKR20260605139800008",
@@ -160,16 +170,6 @@
     "text": "[연합뉴스 이 시각 헤드라인] - 18:00 ■ 노태악 선관위원장 &apos;투표지 사태&apos;에 사의 표명…&quot;책임 통감&quot;\n"
   },
   {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "[영상] 젠슨 황, 7개월 만에 방한…PC방서 페이커 만나 최신 GPU 선물",
-    "summary": "(서울=연합뉴스) 약 7개월 만에 한국을 다시 찾은 젠슨 황 엔비디아 최고경영자(CEO)가 방한 첫 행선지인 PC방에서 프로게이머 &apos;페이커&apos; 이...",
-    "url": "https://www.yna.co.kr/view/AKR20260605135100704",
-    "published_at": "Fri, 5 Jun 2026 17:28:44 +0900",
-    "text": "[영상] 젠슨 황, 7개월 만에 방한…PC방서 페이커 만나 최신 GPU 선물 (서울=연합뉴스) 약 7개월 만에 한국을 다시 찾은 젠슨 황 엔비디아 최고경영자(CEO)가 방한 첫 행선지인 PC방에서 프로게이머 &apos;페이커&apos; 이..."
-  },
-  {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
@@ -178,26 +178,6 @@
     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-scales-most-powerful-ai-033300925.html",
     "published_at": "2026-06-04T03:33:00Z",
     "text": "Anthropic scales its most powerful AI a day after filing to IPO "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "How to use mobile check deposit: A step-by-step guide",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/mobile-check-deposit-224254684.html",
-    "published_at": "2024-06-24T22:42:54Z",
-    "text": "How to use mobile check deposit: A step-by-step guide "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "What is fractional reserve banking?",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/fractional-reserve-banking-221027798.html",
-    "published_at": "2024-06-25T22:10:27Z",
-    "text": "What is fractional reserve banking? "
   },
   {
     "source": "Yahoo Finance Top Stories",
@@ -213,11 +193,31 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Dear Dividend Investors, Mark Your Calendars for June 23",
+    "title": "What is fractional reserve banking?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/dear-dividend-investors-mark-calendars-233002057.html",
-    "published_at": "2026-06-03T23:30:02Z",
-    "text": "Dear Dividend Investors, Mark Your Calendars for June 23 "
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/fractional-reserve-banking-221027798.html",
+    "published_at": "2024-06-25T22:10:27Z",
+    "text": "What is fractional reserve banking? "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "VOO Becomes the First $1 Trillion ETF",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/voo-becomes-first-1-trillion-000450793.html",
+    "published_at": "2026-06-04T00:04:50Z",
+    "text": "VOO Becomes the First $1 Trillion ETF "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "C3.ai, Inc. Q4 2026 Earnings Call Summary",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-q4-2026-001605974.html",
+    "published_at": "2026-06-04T00:16:05Z",
+    "text": "C3.ai, Inc. Q4 2026 Earnings Call Summary "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -253,31 +253,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스",
-    "summary": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVU1VvRWtQejB1Qkl1Mm5Ib1JEZUNqVi1SX2NoYUUwNzExNDZvVHBhMTZveE9YVThoaklaZ3dQT09yM3NfUzJsNzhEYWZ0eE9vcEJLLXZhemFCV3BFMkJNRU5QQnBZdEo0SHNOOFZBc3FqWDI50gF0QVVfeXFMT3hKY0p3cThBdnZFVnJ3T21feDBQZUd3M20wU1J4YUJHaXhmeVlpZVNQUkhiWXY4elBZc2FhUlVfM3E3TXAxSUlPcjdMaUJHcVgySWViRmlvN1NFUHdTZFlDbzAxUFFPMkloRkdtbVNhSWFKdzE?oc=5",
-    "published_at": "Fri, 05 Jun 2026 00:16:14 GMT",
-    "text": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스  코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스 "
+    "title": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스",
+    "summary": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05MGNWdGhNbFJFdzFmbE9Ubm5PNG55YWJ3WExOLVdPNFVhTmg5U1Q5U29kdE9FWmt3OFQ4Yi16eW9wa2lfWC1WakpmMzFRRmhsamVObmZxdlNIWU3SAWBBVV95cUxNN2wtNWdZRndVQU5lYUVjcURSQkQ2eGpvLUJzTEZqNEVCenFyWUJxRWtsS0Rhc0U2cFZsa3o1OU5EZllRLXRrSHZJZ0xNVnZBWWlaNDBwWDFLSUJHRmJWbWM?oc=5",
+    "published_at": "Fri, 05 Jun 2026 00:14:52 GMT",
+    "text": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스  미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스 "
   },
   {
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "‘금리냐 이익이냐’…코스피 방향성, 6월이 분수령 - 이코노미스트",
-    "summary": "‘금리냐 이익이냐’…코스피 방향성, 6월이 분수령 &nbsp;&nbsp; 이코노미스트",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tbVlOTzUzdGJadTZ6WkNSQk0xSWdSQVdUX0Z3Wmp6VWJUdUdYeDNQQzdwb1pTZ0xmYlg0bUdQcEhFeTYyLWJ3dnBQQ0VUbThrMlJ1dllIWjZSTE1kLXJYWlh3?oc=5",
-    "published_at": "Fri, 05 Jun 2026 07:32:00 GMT",
-    "text": "‘금리냐 이익이냐’…코스피 방향성, 6월이 분수령 - 이코노미스트  ‘금리냐 이익이냐’…코스피 방향성, 6월이 분수령 &nbsp;&nbsp; 이코노미스트 "
-  },
-  {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제",
-    "summary": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
-    "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
-    "text": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제  흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제 "
+    "title": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스",
+    "summary": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVU1VvRWtQejB1Qkl1Mm5Ib1JEZUNqVi1SX2NoYUUwNzExNDZvVHBhMTZveE9YVThoaklaZ3dQT09yM3NfUzJsNzhEYWZ0eE9vcEJLLXZhemFCV3BFMkJNRU5QQnBZdEo0SHNOOFZBc3FqWDI50gF0QVVfeXFMT3hKY0p3cThBdnZFVnJ3T21feDBQZUd3M20wU1J4YUJHaXhmeVlpZVNQUkhiWXY4elBZc2FhUlVfM3E3TXAxSUlPcjdMaUJHcVgySWViRmlvN1NFUHdTZFlDbzAxUFFPMkloRkdtbVNhSWFKdzE?oc=5",
+    "published_at": "Fri, 05 Jun 2026 00:16:14 GMT",
+    "text": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스  코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -288,6 +278,16 @@
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhcnR1OFZicWlkTkFoOFBnUm42RGN3Zjh2VjdhRHVtTXktdDR6XzFHQmJSLTZsUHY2QW9iMGNsTW1RWDhsSmZzNXhRY1hsUkE?oc=5",
     "published_at": "Fri, 05 Jun 2026 05:49:03 GMT",
     "text": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net  \"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net "
+  },
+  {
+    "source": "Google News 한국 주식 종목",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제",
+    "summary": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
+    "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
+    "text": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제  흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -323,16 +323,6 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Nasdaq, S&P futures slip as semiconductors drag; payrolls in focus - Reuters",
-    "summary": "Nasdaq, S&P futures slip as semiconductors drag; payrolls in focus &nbsp;&nbsp; Reuters",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 10:27:58 GMT",
-    "text": "Nasdaq, S&P futures slip as semiconductors drag; payrolls in focus - Reuters  Nasdaq, S&P futures slip as semiconductors drag; payrolls in focus &nbsp;&nbsp; Reuters "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
     "title": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower - CNBC",
     "summary": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower &nbsp;&nbsp; CNBC",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSnBRX3BLYW9qOURXY2pUZGszSnd5dFQtNWMtaEJVOU5qbmFFc1hkVW5fel9RcVo3RTV1Mmh0NUUxNE5fZG9WQlpPeTdDYXJMQnZkMWV3dGhlYXAwZzlMZ1NFTWtCeWk5QjZXalFkZjFHRU1zYWR3b3VmU0N6aDg5TFRRVldDYXplcTgyMXV3aFcyMkhqY1BZ0gGcAUFVX3lxTE5rVEFtSjRacDlFNFVKclY1N0p5dTNyWXlEZC1qOUZlcVJPU1FSUi1OVlc1UXh4azBNel9ZbXVaUjNaQVQ5MlpkV3RkNi1GREVZRXYtMEZYQTlhYndZVkhQbGROdGRxb2drUU5yNFp3dDhPeTBteE9IUzBVM1ptNTFCRU05RFRfMkdNcUhZQVh5M1FkWFQ4TkRuZWE2bw?oc=5",
@@ -358,6 +348,16 @@
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORmdaR29vNmZhejZlaFplVC1oYjJwMGtJTThmbWtZaTFyVzVfMVBPMnd5TGZmTTNrV2pZdW5kY3VheVMzNHhoWTZpWnNyUDc5TmFjRWZFZGJrdU10ZHltaGx1NWRmZGtJeXdsZTBScjhWTXFOS3praTFxTmx2NnNjS2VraFh6ZTdoMnBfVEwtd1gxTDdyUVBFYWstWEFkeG8xbWJINE1pMzQ0dWhRYmJzcA?oc=5",
     "published_at": "Thu, 04 Jun 2026 23:39:08 GMT",
     "text": "Assess the underlying strength of semiconductor and AI-related stocks. - Moomoo  Assess the underlying strength of semiconductor and AI-related stocks. &nbsp;&nbsp; Moomoo "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 - TradingView",
+    "summary": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 &nbsp;&nbsp; TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaDdnem5fYlcwNVo5VkYwV0Etb3VHSGlTcnNObVluVGdIVE5PbHdWVFowbVc1SVItUzhLOGhjaEZkNTdqV0VLUDlLY2dzLVVhZFN6ekpWQ3lHU3VJSFdHRXJRS3Jwa1JSN1RtN0lDY3pYaGRyM0YtbUludExzTUhkRXlES1ZwMFdMdWNHZ1lVT2pIUU42dHlWMS1YeEdNT0NNM3lfQnYxWW92bWdqUmdwZ3ZDcUotbVRqOVhPVmNhMjhpdTducEtUU3N6ZDJ3S2pIOVZ5SGVjdUl3dw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 03:38:44 GMT",
+    "text": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 - TradingView  Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 &nbsp;&nbsp; TradingView "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -403,20 +403,20 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Why Is Nvidia (NVDA) Stock Soaring Today - StockStory",
-    "summary": "Why Is Nvidia (NVDA) Stock Soaring Today &nbsp;&nbsp; StockStory",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRl84Y0hDWlJ5TmlnTl9wM2ZmUzQ0MlJ3Z2VmQ3lTbmh1MGhZWER3Y092cDBlWEQzMnJBWV9Bakc2dkZHYy1WS1JwZ3hoQ2xDa295ZjJNeGhaZWZpZGRzUzZ6S3lVRXdIQVN3REI1NkZ4WXlvUS1wRlE5bHBQTl9EZk5xWTJjdUhTbXZJeElfaHE4Q0lLMV9zY0lqaTlWbDkzU3pTTQ?oc=5",
-    "published_at": "Mon, 01 Jun 2026 21:08:08 GMT",
-    "text": "Why Is Nvidia (NVDA) Stock Soaring Today - StockStory  Why Is Nvidia (NVDA) Stock Soaring Today &nbsp;&nbsp; StockStory "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
     "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits",
     "summary": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits",
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
     "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
     "text": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits  Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Why Is Nvidia (NVDA) Stock Soaring Today - StockStory",
+    "summary": "Why Is Nvidia (NVDA) Stock Soaring Today &nbsp;&nbsp; StockStory",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRl84Y0hDWlJ5TmlnTl9wM2ZmUzQ0MlJ3Z2VmQ3lTbmh1MGhZWER3Y092cDBlWEQzMnJBWV9Bakc2dkZHYy1WS1JwZ3hoQ2xDa295ZjJNeGhaZWZpZGRzUzZ6S3lVRXdIQVN3REI1NkZ4WXlvUS1wRlE5bHBQTl9EZk5xWTJjdUhTbXZJeElfaHE4Q0lLMV9zY0lqaTlWbDkzU3pTTQ?oc=5",
+    "published_at": "Mon, 01 Jun 2026 21:08:08 GMT",
+    "text": "Why Is Nvidia (NVDA) Stock Soaring Today - StockStory  Why Is Nvidia (NVDA) Stock Soaring Today &nbsp;&nbsp; StockStory "
   }
 ]
