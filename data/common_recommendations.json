@@ -5144,6 +5144,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "잠재적 자본확충 소식에 메타주 하락 - Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
+        "published_at": "Fri, 05 Jun 2026 21:33:45 GMT",
+        "reason": "잠재적 자본확충 소식에 메타주 폭락    Investing.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "메타주, 주식 매각 소식에 6% 하락 - 야후 파이낸스",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXBYTHRnWmk1YXRHbEJ2NS1QQzB4NHlYS0FabW55T19XT2c1RE1LU1o0a1p1N2R0M0RMTjVSYnE1VUVSaE1VNHFIb2FyNGJyU204OW5WemtNNEV0NzFEZ0Q3TzBlbTF1Y2cwXzdhSGpsNmoxX2RmY2NGVjBDT1lGc0xYQUxTUDk0YWozYmdoUHlydw?oc=5",
         "published_at": "Fri, 05 Jun 2026 19:38:57 GMT",
@@ -5184,18 +5196,6 @@
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVRmSndfbWtJOU45bmh5R3lwd19JcFpVUDl5WUJzU1FQUTdNM1NFWmE5SFFEVlZ0LUFKalpwVVFkeFh6QlZscThGcE5ORXNsdkprdnoyZW8zdTJmaXY4VWQtZGRzeTlVQTRkV0Jtb0I1RjdGR2hqR1EyUUlZbkpZZVBwX0ZSNGUxOF85NmNyTXNVTGVBMzJkR0FOX1Z2YVZ3OUhqcTgxUjgtNzIzZE02aGwySWw?oc=5",
         "published_at": "Fri, 05 Jun 2026 18:39:02 GMT",
         "reason": "Meta는 AI 인프라 자금 조달을 위해 대규모 자산 조달에 무게를 두고 있다고 FT가 보고했습니다.    Reuters",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "잠재적 자본확충 소식에 메타주 하락 - Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
-        "published_at": "Fri, 05 Jun 2026 18:28:48 GMT",
-        "reason": "잠재적 자본확충 소식에 메타주 폭락    Investing.com",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6142,6 +6142,59 @@
   },
   {
     "region": "global",
+    "ticker": "CRM",
+    "name": "Salesforce",
+    "sources": [
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식",
+      "T3chfeed - 테크피드 미국 주식 인사이트"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Salesforce 주식: 지금 비관론이 정점에 도달했을 때 과소평가된 AI 회사를 매수하세요",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/salesforce-stock-buy-underrated-ai-142501700.html",
+        "published_at": "2026-06-04T14:25:01Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "url": "https://youtu.be/bkuop8jLgOc",
+        "published_at": "2026-05-29T06:37:35+00:00",
+        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "GOOGL",
     "name": "Alphabet",
     "sources": [
@@ -6682,46 +6735,6 @@
   },
   {
     "region": "global",
-    "ticker": "CRM",
-    "name": "Salesforce",
-    "sources": [
-      "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
-        "url": "https://youtu.be/bkuop8jLgOc",
-        "published_at": "2026-05-29T06:37:35+00:00",
-        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "GOOG",
     "name": "Alphabet",
     "sources": [
@@ -6872,6 +6885,33 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "domestic",
+    "ticker": "005490",
+    "name": "POSCO홀딩스",
+    "sources": [
+      "경제사냥꾼"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "경제사냥꾼 구독자 전용 종목분석 : POSCO홀딩스",
+        "url": "https://youtu.be/fDeFHbKKwRM",
+        "published_at": "",
+        "reason": "님들 포스코 홀딩스 주가가 폭락하고 있는 진짜 이유 뭔지 알고 있었어? 분명히 한 달 전만 해도 54만 원이던 주가가 지금 30만 원까지 뚫었다는데 지금 그 이유 모르고 덜컥 들어가면 진짜 고점에서 물릴 수도 있어. 경제 사냥꾼이 우리 구독자들 너무 궁금해하시길래 진짜 핵심만 싹 다 정리해 왔으니까 딱 1분만 집중해 봐. 포스코 홀딩스 국내 대표 철강 그룹의 지주 회사로 리튬이랑 배터리 소재 사업까지 하는 곳이야. 근데 한 달 전까지만 해도 54만 원이던이 회사 주가가 지금 영상 제작 시간 기준으로 38만 원대야. 고점에서 30% 가까이 빠진 거지. 대체 어떤 이유 때문에 주가가 하락세로 돌아선 걸까? 포스코 홀딩스 주가는 5월 초에 이미 미래를 먼저 사버렸기 때문이야. 이게 무슨 말이냐면 지난 4월 말에 1분기 실적이 나왔는데 염수 리튬을 생산하는 자회사인 포스코 아르헨티나가 3월에 처음으로 한 달 흑자를 냈어. 그래서 시장이 오 이제 리튬으로 진짜 돈 번다 하고 흥분해서 한 달 만에 50만 원을 뚫고 54만 원까지 밀어올린 거지. 근데 지금 주가가 회사 1년 이익이 몇 배인지 보는 PER을 보면 38배야. 원래 철강 회사는 경기 많이 타는 업종이라. 보통 PER이 한 자리수 잘 쳐져도 열배 안쪽에서 거래되는데 엄청 비싼 거지. 게다가 지금 주가가 철강보다 리튬 기대를 훨씬 더 많이 반영하고 있어. 리튬 가격이 4월엔 톤당 16만 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
       }
     ],
     "stance": "단일 출처 추천/관심",

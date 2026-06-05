@@ -3,14 +3,14 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 73,
-    "short_count": 73,
+    "video_count": 74,
+    "short_count": 74,
     "regular_video_count": 0,
-    "mention_count": 93,
-    "transcript_count": 66,
+    "mention_count": 94,
+    "transcript_count": 67,
     "metadata_count": 7,
     "ocr_count": 10,
-    "transcript_chars": 139739,
+    "transcript_chars": 141670,
     "ocr_chars": 4226,
     "stocks": [
       {
@@ -49,6 +49,11 @@
         "count": 2
       },
       {
+        "ticker": "005490",
+        "name": "POSCO홀딩스",
+        "count": 1
+      },
+      {
         "ticker": "066570",
         "name": "LG전자",
         "count": 1
@@ -85,6 +90,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "경제사냥꾼 구독자 전용 종목분석 : POSCO홀딩스",
+        "url": "https://youtu.be/fDeFHbKKwRM",
+        "published_at": "",
+        "tickers": [
+          "005490"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1931,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "하이닉스가 오늘 삼성전자보다 더 떨어진 이유",
         "url": "https://youtu.be/g_71zxHLgkE",
@@ -489,18 +508,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1785,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "6월 2일 미국 '나스닥'을 뒤흔들 경제 뉴스 3가지",
-        "url": "https://youtu.be/b9FELHWVwO8",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 1956,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
