@@ -516,15 +516,15 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 19,
+    "video_count": 20,
     "short_count": 7,
-    "regular_video_count": 12,
+    "regular_video_count": 13,
     "mention_count": 46,
     "transcript_count": 18,
-    "metadata_count": 1,
-    "ocr_count": 8,
+    "metadata_count": 2,
+    "ocr_count": 9,
     "transcript_chars": 429197,
-    "ocr_chars": 4163,
+    "ocr_chars": 5144,
     "stocks": [
       {
         "ticker": "003550",
@@ -583,6 +583,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "젠슨황의 방한에도 국내증시가 하락한 이유",
+        "url": "https://youtu.be/UCYkfo7HtNs",
+        "published_at": "2026-06-05T09:00:25+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 981,
+        "ocr_excerpt": "반도체 관련주 하락 이유 BROADCOM® 포인트가 될 것 같구요 용사부 LIVE 방송 평일 08:40~12:30 뉴시스. [세종-뉴시스이수정 기자: 미국이 강제노동 생선제품 관련 우역법 301조 조사 결자를 근거로 전국이 12.5% 관세 부과를 제인 하면서 정부가 지난해 원이 권제활약",
+        "youtube_kind": "video"
+      },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한,SK,현대차,LG와 회동🔴뉴욕증시, 반도체 매도에 혼조 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/S77YRvB5fV8",
@@ -2037,15 +2049,15 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 15,
+    "video_count": 16,
     "short_count": 0,
-    "regular_video_count": 15,
+    "regular_video_count": 16,
     "mention_count": 27,
     "transcript_count": 6,
-    "metadata_count": 9,
-    "ocr_count": 8,
+    "metadata_count": 10,
+    "ocr_count": 9,
     "transcript_chars": 4147,
-    "ocr_chars": 3503,
+    "ocr_chars": 3835,
     "stocks": [
       {
         "ticker": "003550",
@@ -2084,6 +2096,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "코스피 폭락장에 외국인들이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/5pal6XQoZbQ",
+        "published_at": "2026-06-05T08:45:02+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 332,
+        "ocr_excerpt": "코스피 폭락장에 외국인이 쓸어담은 기업 Xb KB금융 SK스퀘어 DOOSAN 두산 한미반도체 주성엔지니어링 신한지주 008CO 포스코홀딩스 한화비전 SAMSUNG 삼성화재 LG씨엔에스 은행• 증권 • 보험 충합 금융그룹 반도체 • AI • ICT 투자 전문 지주회사 AJ 테이터센터 • ",
+        "youtube_kind": "video"
+      },
       {
         "title": "SK하이닉스가 몰래 키우는 반도체 소부장 저평가 우량주 한국주식 3개 공개",
         "url": "https://youtu.be/cimI5jHsySY",
@@ -4706,15 +4730,15 @@
     "region": "global",
     "youtuber": "미국 경제 정복하기",
     "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
-    "video_count": 5,
-    "short_count": 0,
+    "video_count": 6,
+    "short_count": 1,
     "regular_video_count": 5,
     "mention_count": 0,
     "transcript_count": 0,
-    "metadata_count": 5,
-    "ocr_count": 5,
+    "metadata_count": 6,
+    "ocr_count": 6,
     "transcript_chars": 0,
-    "ocr_chars": 1776,
+    "ocr_chars": 2172,
     "stocks": [],
     "videos": [
       {
@@ -4776,6 +4800,18 @@
         "ocr_chars": 285,
         "ocr_excerpt": "미국 경제 정복하기Q LG전자, 두산로보틱스 그 다음 최종 수혜 “종목 미국 경제 정복하기 06월 02일 | 조회수 938.594 지금 부자 큰손들은 그종목 조용히 쓸어담고 있는데 1 정복하기 격제 정복하기 LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\" 6월1일젠슨황이대만GTC 타이",
         "youtube_kind": "video"
+      },
+      {
+        "title": "1년뒤 10배 급등할 삼성전자 다음 대장주",
+        "url": "https://youtu.be/x8TE8vgBluo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 396,
+        "ocr_excerpt": "미국 경제 정복하기Q 1년뒤 10배 급등할 삼성전자 다음 대장주 미국 경제 정복하기 06월 04일 | 조회수 951.928 개미들만 놓치고 있어 THIS IS JUSTUIKE ONE OF THOSE BAD DREAMS! •SCREAMSQ 1| 정복하기 격제 정복하기 삼성전자 메모리가 팔",
+        "youtube_kind": "short"
       }
     ]
   }
