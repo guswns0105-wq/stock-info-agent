@@ -9,9 +9,9 @@
     "mention_count": 92,
     "transcript_count": 65,
     "metadata_count": 5,
-    "ocr_count": 6,
+    "ocr_count": 7,
     "transcript_chars": 137771,
-    "ocr_chars": 2226,
+    "ocr_chars": 2968,
     "stocks": [
       {
         "ticker": "005930",
@@ -90,11 +90,11 @@
         "url": "https://youtu.be/1ys7qkDKTas",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 742,
+        "ocr_excerpt": "지금 코스피가 역대금 폭리하고있는 진짜 이유 경제 사냥꾼 2026년 06월 05일 KOSPI OSPI 1000 08:49 2A66 10000 8000선까지 뚫렸다는데 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 역대는 폭리하고 있는 진짜 이유 KRX: KOSPI 8,0",
         "youtube_kind": "short"
       },
       {
@@ -2301,9 +2301,9 @@
     "mention_count": 20,
     "transcript_count": 0,
     "metadata_count": 26,
-    "ocr_count": 4,
+    "ocr_count": 8,
     "transcript_chars": 0,
-    "ocr_chars": 11073,
+    "ocr_chars": 25933,
     "stocks": [
       {
         "ticker": "TSLA",
@@ -2458,11 +2458,11 @@
         "url": "https://youtu.be/FygECrJCDm0",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 4713,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 - 양자 연구 finviz.com * Bookmars 11 inch of rain 4 Gemini에게 울어보기 1 경제학 PLUS Leaming - Yo... E S&P 500 Map ⑤ Stock Comparson T- 본인 박인- Google... 1 미국",
         "youtube_kind": "video"
       },
       {
@@ -2470,11 +2470,11 @@
         "url": "https://youtu.be/G8gDkLB2I0s",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 3308,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 • 3029) (상성전자,하이닉스) 펜디 youtube.com/watchtv=m8WdKIWMgyO&t=375s) Premium 삼성전사 하이닉스 다팔고 떠날때 vs 저가 매수할때 (삼성전자,하이닉스) 펀더멘털에 집중하자!!! 올랜도 킴 미국주식 동영상 수정 구",
         "youtube_kind": "video"
       },
       {
@@ -2482,11 +2482,11 @@
         "url": "https://youtu.be/wWc85BFeq1I",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 6062,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 SOCK Markes ousiness News finviz.com - 양자 연구 * Bookmars 89*F 4 Gemini에게 울어보기 [ 경제약 PLUS Leaming - Yo... E S&P 500 Map ⑤ Stock Comparson T_ 본인 확인-",
         "youtube_kind": "video"
       },
       {
@@ -2494,11 +2494,11 @@
         "url": "https://youtu.be/khPzRKrzA74",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 777,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 상승 투자종목 왜 이런 종목이 계속 가나? 펀더멘탈 좋은 종목찾기 챠트속의 숨은 열쇠는? 도널드 J. 트럼프 오 @realDonald Trump 이란 이슬람 공화국과의 협상이 순조롭게 진행되고 있습니다! 모두에게 이 익이 되는 훌륭한 협상이 아니면 협상은 아예",
         "youtube_kind": "video"
       },
       {
@@ -2926,9 +2926,9 @@
     "mention_count": 15,
     "transcript_count": 0,
     "metadata_count": 8,
-    "ocr_count": 4,
+    "ocr_count": 8,
     "transcript_chars": 0,
-    "ocr_chars": 6701,
+    "ocr_chars": 24629,
     "stocks": [
       {
         "ticker": "NVDA",
@@ -3012,11 +3012,11 @@
         "url": "https://youtu.be/D2TzqT51El8",
         "published_at": "2026-06-04T20:42:32+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 3067,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 BuyAlerts p Free Options Signals Today SIGN UP P a Search ticker, company or profile Chares SCHWAR Home News Screener Charts Maps Groups Portfoli",
         "youtube_kind": "video"
       },
       {
@@ -3024,11 +3024,11 @@
         "url": "https://youtu.be/bH7zkRhppsU",
         "published_at": "2026-06-04T06:46:46+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 5418,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 C Ior, Inc. JIONC) Slock ValuauL ps Mu uples lor 1ONO Ine 0N X • usS08.23 lon0. Ine (1ONO)-11 x tridingvwcom/chatt108vw; ~ 양사 연구 * Pookmarks 1 성세",
         "youtube_kind": "video"
       },
       {
@@ -3036,11 +3036,11 @@
         "url": "https://youtu.be/G20MMisYFns",
         "published_at": "2026-06-03T21:54:30+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 4253,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 시황분석 마이크론, 샌디스크, 웨스턴디지털 반도체 조정오나? 브로드컴 전망치 하회 Home News Screener Charts Maps Groups Porttolio Insider Futures Forex Crypto Calendar Pricing Wed J",
         "youtube_kind": "video"
       },
       {
@@ -3048,11 +3048,11 @@
         "url": "https://youtu.be/oqSSFBnSysQ",
         "published_at": "2026-06-02T21:26:39+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 5190,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 Download 1o use cxtension (Frce) a search ticker, company or profile charles scHwAs D Cick Cownload) J Add Privacy Shield for Chrome Privacy shie",
         "youtube_kind": "video"
       },
       {
@@ -4133,9 +4133,9 @@
     "mention_count": 0,
     "transcript_count": 0,
     "metadata_count": 17,
-    "ocr_count": 0,
+    "ocr_count": 8,
     "transcript_chars": 0,
-    "ocr_chars": 0,
+    "ocr_chars": 2068,
     "stocks": [],
     "videos": [
       {
@@ -4251,11 +4251,11 @@
         "url": "https://youtu.be/LPh2va3dyxc",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 370,
+        "ocr_excerpt": "달러 안 쓰면 박살? 미국이 작정하고 친 이유 달러 패권 수호 탈달러 동맹 분쇄 베네수엘라 원유 결제 -> 달러 강제 복귀 위안화 결제 중추 이란 -> 폭격으로 제거 브릭스 탈달러 연합 -> 척추 분쇄 여러분 미국의 진짜임은 항공모함이나 월텍남 - 월스트리트 테크남 <\"알면 소름돋는 이",
         "youtube_kind": "short"
       },
       {
@@ -4263,11 +4263,11 @@
         "url": "https://youtu.be/PX3k_1jmc2Q",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 224,
+        "ocr_excerpt": "트럼프의 사면타 콤보 중국 포위망의 완성 베네수엘라 - 석유 미국의 3연타 전략 2개월 만에 완성한 대중국 포위망 2 그랜드-광을 이란 - 요충지 베네수엘라에서 마두로를 죽출해내고 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 그린란드 분명히 광물권을 가져옵니다",
         "youtube_kind": "short"
       },
       {
@@ -4275,11 +4275,11 @@
         "url": "https://youtu.be/m7rM0PiZ0Co",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 165,
+        "ocr_excerpt": "AI가 지도자를 제거 미친 참수작전의 비밀 2026. 02.28 미국, 이란 전면 공습 단행 최고지도자 하메네이 사망 확인 2026년 2월 28일 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 2026. 02. 28 단순한 공격이 아니었어요 \"정교하게 계산된 참",
         "youtube_kind": "short"
       },
       {
@@ -4287,11 +4287,11 @@
         "url": "https://youtu.be/n0C2VICF4f0",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 168,
+        "ocr_excerpt": "미국이 이란을 공습한 진짜 소름돋는 이유 미국의 이란 공습 미중 패권 전쟁의 큰 그림 미국이 이란을 공습한건 그냥 공격이 아닙니다. 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 대부분의 사람들은 미국이랑 이란이랑 전쟁한다 월텍남 - 월스트리트 테크남 미국과 중",
         "youtube_kind": "short"
       },
       {
@@ -4299,11 +4299,11 @@
         "url": "https://youtu.be/yvrPBHzoG-k",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 480,
+        "ocr_excerpt": "시험 문제만 딱 골라 기억하는 8배 압축 기술 그래서 메모를 안 했다고 칩시다 DMS 작동 원리 - Delayed Eviction의 힘 \"바로 버리면 정보(손실 지연시키면 모델이 정보를 먼저 흡수한다\" Immediate: Decision Decision -> Remove -> Loss ",
         "youtube_kind": "short"
       },
       {
@@ -4311,11 +4311,11 @@
         "url": "https://youtu.be/QOYgNdaHPQI",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 324,
+        "ocr_excerpt": "가짜가 돈 버는 시대 AI 인플루언서의 위력 rChatoPT Seedance 2 모델은 진짜 미쳤네요. 다른 모델들을 완전히 압살해버리는 수준 입니다. OWN THE NUAT| 오리지널 음 근화해도 않을 나고 불리우는 00에 콘텐츠 제작 방식에 대해 전지하게 2번 좀 부부가 있어요. 1",
         "youtube_kind": "short"
       },
       {
@@ -4323,11 +4323,11 @@
         "url": "https://youtu.be/swqJwECAjdU",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 49,
+        "ocr_excerpt": "중국 로봇 소름 돋네 물구나무 서고 비보잉 로봇 갈라스 여기 넘어진 적 했는데 잘 보시면",
         "youtube_kind": "short"
       },
       {
@@ -4335,11 +4335,11 @@
         "url": "https://youtu.be/1vbyh32VlFA",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 288,
+        "ocr_excerpt": "클릭 한 번에 영화 끝 할리우드가 벌벌 떤다 cutx MPA(미국영화원회)와 디즈니가 Seedance 20을 두고 \"대규모 저작권 청 해를 주장하며 바이트댄스를 정면으로 공격했습니다. MPA(미국영화원회)와 디즈니가 Seedance 2.0을 두고 \"대규모 저적권 침 04I08 E 3들은",
         "youtube_kind": "short"
       }
     ]
@@ -4354,9 +4354,9 @@
     "mention_count": 0,
     "transcript_count": 0,
     "metadata_count": 16,
-    "ocr_count": 0,
+    "ocr_count": 8,
     "transcript_chars": 0,
-    "ocr_chars": 0,
+    "ocr_chars": 1089,
     "stocks": [],
     "videos": [
       {
@@ -4460,11 +4460,11 @@
         "url": "https://youtu.be/f4ZpPwmMiw0",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 105,
+        "ocr_excerpt": "테슬라분석 필수 시청 동시에 200주 이동평균선 수준이고요 TSLA는 종목 특성상 다른 종목들에 비해 자율주행부터 Al, 로보택시 등 그리고 마켓메이커들도 TSLA는 단순 펀더멘털 숫자보단",
         "youtube_kind": "short"
       },
       {
@@ -4472,11 +4472,11 @@
         "url": "https://youtu.be/e5z-EKAmBBY",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 77,
+        "ocr_excerpt": "반등시그널 차이점이라면 음봉과 양봉 거래량이 같은 패턴이라도 거래량이 2배나 많다면 추가적인 하락이 나오지 않았습니다 남은 3월 1차적으로",
         "youtube_kind": "short"
       },
       {
@@ -4484,11 +4484,11 @@
         "url": "https://youtu.be/dO6z0hc9VZ0",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 218,
+        "ocr_excerpt": "매수하세요 oMicro 대표적인 심리적 역발상 투자 전략이에요 - Cres Fear and Cored ider 00) 이럴 때는 과매도가 발생하기 쉽고 -Cre fear and Cowed ider 80) 마켓메이커는 오히려 공포 구간에서 hdre 0) 이후 강한 반등이 나왔습니다 - C",
         "youtube_kind": "short"
       },
       {
@@ -4496,11 +4496,11 @@
         "url": "https://youtu.be/96wv_iVpkWI",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 109,
+        "ocr_excerpt": "팔란티어 매수기회일까? 신고가 등 과 라인 개인적으로 상하단 모두 3번 이상 매수 기회일까? 신고가 등과 라인 강한 지지가 나오며 깨는 듯하다가 갭을 메꾸지 않았으니까요 100달러 밑에서 마감하면",
         "youtube_kind": "short"
       },
       {
@@ -4508,11 +4508,11 @@
         "url": "https://youtu.be/uyQN96xb5cA",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 80,
+        "ocr_excerpt": "미국주식 여기까지 상승 주봉 종가가 중요한 이유는 강세로 마감한다는 것은 포지션을 설정하는 경우가 많기에 이탈하지 않았어요 신고가 돌파 가능성이",
         "youtube_kind": "short"
       },
       {
@@ -4520,11 +4520,11 @@
         "url": "https://youtu.be/Oj_8-wjRVrI",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 128,
+        "ocr_excerpt": "아직 안 오른 딥시크수혜주 고성능 A칩을 토대로 AI의 퍼포먼스를 아직안오른 딥시크 수혜주 어떻게 보면 성장과 경기방어를 사이버 보안에는 ZS 말고도 FTNT 아직안 오른 강세를 보이고 있어요 2월 24일 실적 발표가 분수령이 될",
         "youtube_kind": "short"
       },
       {
@@ -4532,11 +4532,11 @@
         "url": "https://youtu.be/1GsiVGMM72w",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 147,
+        "ocr_excerpt": "트럼프 1기 vs 2기 미국주식관세영향 트럼프 대통령이 중국산 제품에 대한 트럼프 1기 vS 2기 미국주식관세 영향 장대음봉이 나왔었습니다 저점 및 고점을 계속 깨면서 현재 시장이 18년 첫 관세 부과 당시와 미국주식 관세 영향 1~2년 랠리와는 다르게 어느 정도",
         "youtube_kind": "short"
       },
       {
@@ -4544,11 +4544,11 @@
         "url": "https://youtu.be/KredaLR7sfQ",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 225,
+        "ocr_excerpt": "테슬라 주식 이제 사세요 비국주식 부시기 테슬라일공 보시면 10일과 20일선. 50일선도 극한으로 모이고 있었어요 2023/06/13 미국주식 부시기 비올라일공 거래량을 동반하지 않은 하락이 나왔어요 테슬라일정! 수령 내부로 다시 들어왔고 오늘 아마 상방으로 발산할 것으로 보여요 결국 ",
         "youtube_kind": "short"
       }
     ]
@@ -4563,9 +4563,9 @@
     "mention_count": 0,
     "transcript_count": 0,
     "metadata_count": 8,
-    "ocr_count": 0,
+    "ocr_count": 8,
     "transcript_chars": 0,
-    "ocr_chars": 0,
+    "ocr_chars": 2399,
     "stocks": [],
     "videos": [
       {
@@ -4573,11 +4573,11 @@
         "url": "https://youtu.be/6btsEAbbTIM",
         "published_at": "2026-06-01T12:07:38+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 203,
+        "ocr_excerpt": "NIDA DALTechrologes \"나는 매년 DELL 제품을 팔기 위해 여기 온다.\" DVIDIA TEGRA 4 노트북용 AI 칩도 만들고, DeL eohnigs 기존 엔비디아 GPU가 잘 돌아갈 수 있도록 DOLL DELVERING AI FACTOE TO ENTERPRISES AI",
         "youtube_kind": "video"
       },
       {
@@ -4585,11 +4585,11 @@
         "url": "https://youtu.be/5g0nbTR3vV4",
         "published_at": "2026-05-31T14:12:16+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 121,
+        "ocr_excerpt": "지금까지 엔비디아는 GPU 데이터센터같이 목표는 단순한 칩 판매가 아니야. 제2의 깐부회동' 열리나... 젠슨 황, 한국 찾아 LG•네이버 회동 깐부치킨 , Ranby Ove AI에 꼭 필요한 더욱 깊게 파겠다는 야심",
         "youtube_kind": "video"
       },
       {
@@ -4597,11 +4597,11 @@
         "url": "https://youtu.be/rvuqArXQqP0",
         "published_at": "2026-05-30T14:56:15+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 373,
+        "ocr_excerpt": "D palantir I technonge NVIDIA corporation 텐베거 종목들에 있어. EPS성장률 & S8P500: 7777777 최근 20년 평균 성장률을 봐도, 삼성전자 005930. ks - 영업이익 2.796.0022.314 A 20% 4 204% 4 345% 4 1",
         "youtube_kind": "video"
       },
       {
@@ -4609,11 +4609,11 @@
         "url": "https://youtu.be/304iqnYMnCI",
         "published_at": "2026-05-20T00:49:31+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 203,
+        "ocr_excerpt": "E 마켓의 채권시장에 인플레 경고등, 중시 연착륙 고민할 때다 미국을 비롯해 주요국 채권 금리가 꿈틀거리고 있다. 지난주 미국채 30년물은 마지노선인 5% 를 넘어섰다. 금융위기 직전원 2007년 이후 19년 만에 처음이다. 8시간 전 조정을 받고있는지 딱보일 거야. LINCO DAC ",
         "youtube_kind": "video"
       },
       {
@@ -4621,11 +4621,11 @@
         "url": "https://youtu.be/wkUc24sQgrU",
         "published_at": "2026-05-18T09:31:48+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 148,
+        "ocr_excerpt": "IREN 핫했던 아이렌이라는 종목은 대중들이 완전히 속고 있다는 AIREN BITCOIN MINING FACLITTY 고철값으로 과감하게 폐기하면서 INVEST FUTURE! LONG-TERM GRONDY 이 회사의 독점력을 가치 평가해 이게 얼마나 대단한 거냐면,",
         "youtube_kind": "video"
       },
       {
@@ -4633,11 +4633,11 @@
         "url": "https://youtu.be/uu4x-yKU1dQ",
         "published_at": "2026-05-03T12:46:17+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 140,
+        "ocr_excerpt": "© 글로벌이코노익 파원 연준 독립성 위협받고 있다 ... 연준 지도부 잔류 선언 거의 이 수준의 @ 뉴스1 유가 100달러•FOMC 분열 \"달러 강세 ... 환율 1480원대 상승 괴물을 다시 깨울까 봐 인플레로 높아질 수 있는 시장은 미래를 보지만,",
         "youtube_kind": "video"
       },
       {
@@ -4645,11 +4645,11 @@
         "url": "https://youtu.be/hVCiIJmu7F0",
         "published_at": "2026-04-09T04:49:03+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 742,
+        "ocr_excerpt": "경제덕후 언생 레버리지 투자가 위험하지만은 않은 이유 날카로운 칼'도 막 휘두르면 위험하고 잘쓰면 유용하듯이, © 경제덕후 언생 본 영상은 투자 참고용이며, 투자 결정 및 결과에 대한 책임은 투자자 본인에게 있습니다. 된장찌개 끓일 때 매콤하게 만들겠다고 일반 고추 3개 넣을 자리에 ©",
         "youtube_kind": "video"
       },
       {
@@ -4657,11 +4657,11 @@
         "url": "https://youtu.be/RuLaDH7HRtc",
         "published_at": "2026-04-05T09:57:59+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 469,
+        "ocr_excerpt": "경제덕후 언생 하락장이 와도 100억 버는 부자들 특징 라면서 이 변동성에 가즈아아아아!!!!! ©경제덕후 언생 • 본 영상은 투자 참고용이며, 투자 결정 및 결과에 대한 책임은 투자자 본인에게 있습니다. 하락잠이 와도 오늘 대한민국 상위 1% 부자 쉽게 되는 안전한 투자법 알려줄게. ",
         "youtube_kind": "video"
       }
     ]
@@ -4676,9 +4676,9 @@
     "mention_count": 0,
     "transcript_count": 0,
     "metadata_count": 5,
-    "ocr_count": 0,
+    "ocr_count": 5,
     "transcript_chars": 0,
-    "ocr_chars": 0,
+    "ocr_chars": 1776,
     "stocks": [],
     "videos": [
       {
@@ -4686,11 +4686,11 @@
         "url": "https://youtu.be/7ydxLQ2sEu8",
         "published_at": "2026-06-04T11:00:34+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 305,
+        "ocr_excerpt": "미국 경제 정복하기 \"환율 1539원 폭등\" 월가에서 보는 코스피 가격 전망 06월 04일 | 조회수 951.928 지금 월가 큰손들은 이상황다 계산하고 움직이는데 TVE NEVER HEARD SUCH MEAN-SPIRITED HATE-HOOTS 1| 정복하기 경제 정복하기 오늘 장중엔",
         "youtube_kind": "video"
       },
       {
@@ -4698,11 +4698,11 @@
         "url": "https://youtu.be/CYnLpw7t9Bw",
         "published_at": "2026-06-04T09:00:14+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 488,
+        "ocr_excerpt": "미국 경제 정복하기© 현재 실적발표한 브로드컴이 급락한 진짜 이유 미국 경제 정복하기 06월 04일 | 조회수 963.552 개미들만 아무것도 모르고 무서원하고 있어 1| 정복하기 미국 경제 격제 정복하기 어제 미국 장,끝나고 브로드컴이 2분기 실적을 터뜨렸거든 THAVE HERE A ",
         "youtube_kind": "video"
       },
       {
@@ -4710,11 +4710,11 @@
         "url": "https://youtu.be/Hq-kqPVTNKY",
         "published_at": "2026-06-03T11:00:36+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 367,
+        "ocr_excerpt": "미국 경제 정복하기© 80% 넘게 폭락한 NC가 급등한 진짜 이유 (+주가 전망) 미국 경제 정복하기 06월 03일 | 조회수 935.639 개미들만 아무것도 모르고 가만히 있어 {| 정복하기 미국 경제 격제 정복하기 엔씨가 6월2일 하루에만 108% (폭등하면서 33만8000원에 장을",
         "youtube_kind": "video"
       },
       {
@@ -4722,11 +4722,11 @@
         "url": "https://youtu.be/KajtuaG_wZU",
         "published_at": "2026-06-03T09:00:09+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 331,
+        "ocr_excerpt": "미국 경제 정복하기 현재 주식 시장을 뒤흔드는 젠슨황의 큰 그림 (+수혜 종목) 06월 03일 | 조회수 961.692 지금 월가 큰손들은 이 큰그림 보고 벌써 줄 서서 담고 있는데 1| 정복하기 격제 정복하기 미국 경제 정복하기Q 초보 투자자님들은 꼭 받아보는걸 추천할게 DIGIT H",
         "youtube_kind": "video"
       },
       {
@@ -4734,11 +4734,11 @@
         "url": "https://youtu.be/QFfxL_I-fac",
         "published_at": "2026-06-02T11:00:27+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 285,
+        "ocr_excerpt": "미국 경제 정복하기Q LG전자, 두산로보틱스 그 다음 최종 수혜 “종목 미국 경제 정복하기 06월 02일 | 조회수 938.594 지금 부자 큰손들은 그종목 조용히 쓸어담고 있는데 1 정복하기 격제 정복하기 LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\" 6월1일젠슨황이대만GTC 타이",
         "youtube_kind": "video"
       }
     ]
