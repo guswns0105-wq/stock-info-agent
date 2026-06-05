@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T16:26",
+  "generated_at": "2026-06-05T17:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -22,9 +22,9 @@
         "ret20_pct": 27.27272727272727,
         "support": 445500.0,
         "resistance": 750000.0,
-        "comment": "출처 언급 22회, 적정가 대비 68.43% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.",
+        "comment": "출처 언급 23회, 적정가 대비 68.43% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 22회",
+          "출처 언급 23회",
           "ROE 13.68%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -38,7 +38,7 @@
         "region": "domestic",
         "price": 161100.0,
         "currency": "KRW",
-        "ai_score": 10.5,
+        "ai_score": 11.75,
         "verdict": "저평가 후보",
         "ai_buy_price": 157878.0,
         "ai_sell_price": 431215.4501278773,
@@ -50,11 +50,11 @@
         "ret20_pct": 4.204398447606716,
         "support": 145200.0,
         "resistance": 179500.0,
-        "comment": "출처 언급 2회, 적정가 대비 154.9% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.",
+        "comment": "출처 언급 3회, 적정가 대비 154.9% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.",
         "why": [
+          "출처 언급 3회",
           "ROE 20.44%",
           "PER가 기준보다 낮음",
-          "PBR 0.85배",
           "차트: 중립 추세"
         ],
         "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
@@ -304,9 +304,9 @@
         "ret20_pct": 27.27272727272727,
         "support": 445500.0,
         "resistance": 750000.0,
-        "comment": "출처 언급 22회, 적정가 대비 68.43% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.",
+        "comment": "출처 언급 23회, 적정가 대비 68.43% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 22회",
+          "출처 언급 23회",
           "ROE 13.68%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -320,7 +320,7 @@
         "region": "domestic",
         "price": 161100.0,
         "currency": "KRW",
-        "ai_score": 10.5,
+        "ai_score": 11.75,
         "verdict": "저평가 후보",
         "ai_buy_price": 157878.0,
         "ai_sell_price": 431215.4501278773,
@@ -332,11 +332,11 @@
         "ret20_pct": 4.204398447606716,
         "support": 145200.0,
         "resistance": 179500.0,
-        "comment": "출처 언급 2회, 적정가 대비 154.9% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.",
+        "comment": "출처 언급 3회, 적정가 대비 154.9% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.",
         "why": [
+          "출처 언급 3회",
           "ROE 20.44%",
           "PER가 기준보다 낮음",
-          "PBR 0.85배",
           "차트: 중립 추세"
         ],
         "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
@@ -570,7 +570,7 @@
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 82,
+      "mention_count": 83,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -590,9 +590,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 82회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 83회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 82회"
+        "출처 언급 83회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -865,7 +865,7 @@
       "ticker": "005380",
       "name": "현대차",
       "region": "domestic",
-      "mention_count": 22,
+      "mention_count": 23,
       "price": 700000.0,
       "currency": "KRW",
       "pe": 4.67,
@@ -885,9 +885,9 @@
       "score": 7,
       "technical_score": 2,
       "ai_score": 12,
-      "ai_comment": "출처 언급 22회, 적정가 대비 68.43% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 23회, 적정가 대비 68.43% 여력, 상승 추세, ROE 13.68% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 22회",
+        "출처 언급 23회",
         "ROE 13.68%",
         "PER가 기준보다 낮음",
         "PBR 0.58배"
@@ -987,23 +987,23 @@
       "price": 418.91,
       "currency": "USD",
       "pe": 81.642,
-      "forward_pe": 26.737,
+      "forward_pe": 26.653,
       "pb": 24.839,
       "roe": 37.281,
       "profit_margin": 38.848,
       "eps": null,
-      "fair_value": 408.85934240234536,
-      "watch_buy_price": 335.2646607699232,
-      "ai_buy_price": 335.2646607699232,
-      "ai_sell_price": 429.3023095224626,
-      "margin_to_fair_pct": -2.3992403135887574,
+      "fair_value": 410.0814696916405,
+      "watch_buy_price": 336.2668051471452,
+      "ai_buy_price": 336.2668051471452,
+      "ai_sell_price": 430.58554317622253,
+      "margin_to_fair_pct": -2.107500491360803,
       "verdict": "중립/대기",
-      "action": "335.3 USD 근처 대기",
+      "action": "336.3 USD 근처 대기",
       "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 16회, 적정가 대비 -2.40% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 16회, 적정가 대비 -2.11% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 16회",
         "ROE 37.28%",
@@ -1011,7 +1011,7 @@
       ],
       "risks": [],
       "valuation_basis": [
-        "PER 26.74배 역산 EPS → 기준 PER 36.00배",
+        "PER 26.65배 역산 EPS → 기준 PER 36.00배",
         "PBR 24.84배 → 기준 PBR 4.00배"
       ],
       "chart": {
@@ -2134,6 +2134,65 @@
       "fetch_note": "StockAnalysis 통계 수집 실패: HTTP Error 404: Not Found"
     },
     {
+      "ticker": "000270",
+      "name": "기아",
+      "region": "domestic",
+      "mention_count": 3,
+      "price": 161100.0,
+      "currency": "KRW",
+      "pe": 4.59,
+      "forward_pe": null,
+      "pb": 0.85,
+      "roe": 20.44,
+      "profit_margin": null,
+      "eps": 21770.0,
+      "fair_value": 410681.38107416884,
+      "watch_buy_price": 336758.7324808184,
+      "ai_buy_price": 157878.0,
+      "ai_sell_price": 431215.4501278773,
+      "margin_to_fair_pct": 154.92326571953373,
+      "verdict": "저평가 후보",
+      "action": "336,759 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 8,
+      "technical_score": 3,
+      "ai_score": 11.75,
+      "ai_comment": "출처 언급 3회, 적정가 대비 154.9% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 3회",
+        "ROE 20.44%",
+        "PER가 기준보다 낮음",
+        "PBR 0.85배"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "EPS 21,770 → 기준 PER 17.00배",
+        "PBR 0.85배 → 기준 PBR 2.50배"
+      ],
+      "chart": {
+        "chart_symbol": "000270.KS",
+        "chart_status": "ok",
+        "sma20": 165975.0,
+        "sma60": 159983.33333333334,
+        "sma120": 153570.0,
+        "ret20_pct": 4.204398447606716,
+        "ret60_pct": 5.019556714471962,
+        "high_52w": 206000.0,
+        "low_52w": 93100.0,
+        "recent_support": 145200.0,
+        "recent_resistance": 179500.0,
+        "volatility_pct": 54.07781605735929,
+        "trend": "중립 추세",
+        "technical_score": 3,
+        "position_52w": 0.6023029229406555
+      },
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=000270",
+        "https://query1.finance.yahoo.com/v8/finance/chart/000270.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "000810",
       "name": "삼성화재",
       "region": "domestic",
@@ -2260,22 +2319,22 @@
       "currency": "USD",
       "pe": 57.324,
       "forward_pe": 61.562,
-      "pb": 3.189,
+      "pb": 3.207,
       "roe": 6.686,
       "profit_margin": 12.736,
       "eps": null,
-      "fair_value": 80.53367166800584,
-      "watch_buy_price": 66.03761076776479,
-      "ai_buy_price": 66.03761076776479,
+      "fair_value": 80.30798961402058,
+      "watch_buy_price": 65.85255148349688,
+      "ai_buy_price": 65.85255148349688,
       "ai_sell_price": 164.13,
-      "margin_to_fair_pct": -50.93299721683675,
+      "margin_to_fair_pct": -51.070499229866215,
       "verdict": "고평가 주의",
-      "action": "66.04 USD 이하가 아니면 보수적 접근",
+      "action": "65.85 USD 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -3,
       "technical_score": 0,
       "ai_score": -5.25,
-      "ai_comment": "출처 언급 3회, 적정가 대비 -50.93% 여력, 중립 추세, ROE 6.69% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 3회, 적정가 대비 -51.07% 여력, 중립 추세, ROE 6.69% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 3회"
       ],
@@ -2284,7 +2343,7 @@
       ],
       "valuation_basis": [
         "PER 61.56배 역산 EPS → 기준 PER 22.00배",
-        "PBR 3.19배 → 기준 PBR 2.50배"
+        "PBR 3.21배 → 기준 PBR 2.50배"
       ],
       "chart": {
         "chart_symbol": "COIN",
@@ -2363,64 +2422,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/ORCL",
         "https://stockanalysis.com/stocks/orcl/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "000270",
-      "name": "기아",
-      "region": "domestic",
-      "mention_count": 2,
-      "price": 161100.0,
-      "currency": "KRW",
-      "pe": 4.59,
-      "forward_pe": null,
-      "pb": 0.85,
-      "roe": 20.44,
-      "profit_margin": null,
-      "eps": 21770.0,
-      "fair_value": 410681.38107416884,
-      "watch_buy_price": 336758.7324808184,
-      "ai_buy_price": 157878.0,
-      "ai_sell_price": 431215.4501278773,
-      "margin_to_fair_pct": 154.92326571953373,
-      "verdict": "저평가 후보",
-      "action": "336,759 KRW 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 7,
-      "technical_score": 3,
-      "ai_score": 10.5,
-      "ai_comment": "출처 언급 2회, 적정가 대비 154.9% 여력, 중립 추세, ROE 20.44% 기준으로 산정했습니다.",
-      "positives": [
-        "ROE 20.44%",
-        "PER가 기준보다 낮음",
-        "PBR 0.85배"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "EPS 21,770 → 기준 PER 17.00배",
-        "PBR 0.85배 → 기준 PBR 2.50배"
-      ],
-      "chart": {
-        "chart_symbol": "000270.KS",
-        "chart_status": "ok",
-        "sma20": 165975.0,
-        "sma60": 159983.33333333334,
-        "sma120": 153570.0,
-        "ret20_pct": 4.204398447606716,
-        "ret60_pct": 5.019556714471962,
-        "high_52w": 206000.0,
-        "low_52w": 93100.0,
-        "recent_support": 145200.0,
-        "recent_resistance": 179500.0,
-        "volatility_pct": 54.07781605735929,
-        "trend": "중립 추세",
-        "technical_score": 3,
-        "position_52w": 0.6023029229406555
-      },
-      "data_sources": [
-        "https://finance.naver.com/item/main.naver?code=000270",
-        "https://query1.finance.yahoo.com/v8/finance/chart/000270.KS"
       ],
       "fetch_note": ""
     },
