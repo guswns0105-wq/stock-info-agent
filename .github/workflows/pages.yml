@@ -19,7 +19,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - run: python3 scripts/ensure_cardnews_assets.py
       - run: python3 scripts/build_dashboard.py
+      - run: python3 scripts/verify_dashboard_harness.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
