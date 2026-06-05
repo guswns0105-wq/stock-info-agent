@@ -24,6 +24,10 @@ UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X) Hermes Stock Agent/1.0'
 # 매시간 같이 점검할 보강 후보입니다. 추천 Top5에는 여전히 fair_value >= price
 # 조건을 통과한 종목만 들어갑니다.
 EXTRA_GLOBAL_CANDIDATES = ['NVO', 'SMCI', 'BABA', 'QCOM', 'ASML', 'LLY']
+# The publisher cron's public top section/cardnews validation explicitly keeps
+# NVIDIA/NVDA out of Top5 presentation. Keep it in detailed valuation data, but
+# do not rank it into top recommendation/cardnews rows.
+EXCLUDED_TOP_RECOMMENDATION_TICKERS = {'NVDA'}
 
 
 def fetch_text(url, timeout=20, encoding='utf-8'):
@@ -385,6 +389,7 @@ def make_ai_recommendations(valuations):
         preferred = [
             v for v in base
             if v.get('region') == region
+            and v.get('ticker') not in EXCLUDED_TOP_RECOMMENDATION_TICKERS
             and v.get('verdict') in ('저평가 후보', '관심권')
             and (v.get('margin_to_fair_pct') or -999) >= 0
         ]
