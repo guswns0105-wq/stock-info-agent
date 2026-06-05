@@ -1963,6 +1963,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "BYD, 중국에서 Tesla와의 경쟁을 돕기 위해 국영 기업과 협력",
+        "url": "https://www.investors.com/news/byd/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-03T13:07:54Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
         "title": "스페이스X' 상장 후, '테슬라' 역대급 상승장 올 수 있다는 이유",
