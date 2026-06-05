@@ -25,8 +25,8 @@ SWIFT = ROOT / 'scripts' / 'apple_vision_ocr.swift'
 YTDLP = shutil.which('yt-dlp') or '/Users/mac1/.hermes-4/home/.local/bin/yt-dlp'
 FFMPEG = shutil.which('ffmpeg') or '/opt/homebrew/bin/ffmpeg'
 
-MAX_PER_CHANNEL = int(os.environ.get('STOCK_OCR_MAX_VIDEOS_PER_CHANNEL', '5'))
-FRAMES_PER_VIDEO = int(os.environ.get('STOCK_OCR_FRAMES_PER_VIDEO', '3'))
+MAX_PER_CHANNEL = int(os.environ.get('STOCK_OCR_MAX_VIDEOS_PER_CHANNEL', '8'))
+FRAMES_PER_VIDEO = int(os.environ.get('STOCK_OCR_FRAMES_PER_VIDEO', '5'))
 MIN_CHARS = int(os.environ.get('STOCK_OCR_MIN_CHARS', '4'))
 VIDEO_HEIGHT = int(os.environ.get('STOCK_OCR_VIDEO_HEIGHT', '720'))
 TIMEOUT_DOWNLOAD = int(os.environ.get('STOCK_OCR_DOWNLOAD_TIMEOUT', '180'))

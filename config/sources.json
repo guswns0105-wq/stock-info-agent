@@ -7,9 +7,12 @@
       "url": "https://youtube.com/channel/UC7usMJDHmtbs_oegmzQKKMA?si=8xlqXxz9mhIqb1O2",
       "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
       "prefer_shorts": true,
-      "latest_limit": 50,
+      "latest_limit": 20,
       "detail_extract": true,
-      "local_asr_pack": "/Users/mac1/opencrab-local-packs/pipeline-ingest/youtube-channel-UC7usMJDHmtbs_oegmzQKKMA-20260602"
+      "local_asr_pack": "/Users/mac1/opencrab-local-packs/pipeline-ingest/youtube-channel-UC7usMJDHmtbs_oegmzQKKMA-20260602",
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "latest_only_note": "숏츠 최신 20개 ID만 확인하고, 이미 누적된 video_id는 재수집/자막작업을 건너뜁니다."
     },
     {
       "name": "Naver blog magic_rabb1t",

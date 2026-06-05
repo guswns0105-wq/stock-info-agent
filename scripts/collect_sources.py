@@ -333,6 +333,27 @@ def youtube_channel_sources(srcs):
             seen.add(key); channels.append(ch)
     return channels
 
+def existing_video_ids_for_channel(channel_id):
+    if not channel_id or not DATA.exists():
+        return set()
+    try:
+        items=json.loads(DATA.read_text(encoding='utf-8'))
+    except Exception:
+        return set()
+    return {str(item.get('video_id')) for item in items if item.get('channel_id') == channel_id and item.get('video_id')}
+
+def normalized_youtube_date(entry):
+    value = entry.get('published') or entry.get('timestamp') or entry.get('release_timestamp') or entry.get('upload_date') or ''
+    if isinstance(value, (int, float)):
+        try:
+            return datetime.utcfromtimestamp(value).isoformat(timespec='seconds') + '+00:00'
+        except Exception:
+            return ''
+    value=str(value or '')
+    if re.fullmatch(r'\d{8}', value):
+        return f'{value[:4]}-{value[4:6]}-{value[6:8]}'
+    return value
+
 def collect_youtube_channel(src):
     cid=src.get('channel_id') or (src['url'].split('/channel/')[1].split('?')[0].split('/')[0] if '/channel/' in src.get('url','') else '')
     out=[]
@@ -341,16 +362,22 @@ def collect_youtube_channel(src):
         channel_title=src.get('name','')
         entries=[]
         seen_ids=set()
+        existing_ids=existing_video_ids_for_channel(cid) if src.get('skip_existing_video_ids') else set()
+        skipped_existing=0
 
         def add_entry(entry, kind):
+            nonlocal skipped_existing
             vid=(entry.get('vid') or entry.get('id') or '').strip()
             if not vid or vid in seen_ids:
                 return
             seen_ids.add(vid)
+            if vid in existing_ids:
+                skipped_existing += 1
+                return
             entries.append({
                 'vid':vid,
                 'title':entry.get('title') or '',
-                'published':entry.get('published') or '',
+                'published':normalized_youtube_date(entry),
                 'desc':entry.get('desc') or entry.get('description') or '',
                 'kind':kind,
             })
@@ -580,6 +607,24 @@ def merge_accumulated_items(current_items, now):
         return str(item.get('published_at') or item.get('last_seen_at') or item.get('collected_at') or '')
     return sorted(merged.values(), key=sort_key, reverse=True), len(previous), len(newly)
 
+def refresh_accumulated_ocr(items, ocr_index):
+    """Refresh OCR fields for accumulated items even when a source skips already-seen videos."""
+    refreshed=[]
+    for item in items:
+        rec=ocr_index.get(item.get('video_id','')) or {}
+        if rec:
+            item=dict(item)
+            item['ocr_method']=rec.get('ocr_method','')
+            item['ocr_status']=rec.get('ocr_status','')
+            item['ocr_chars']=rec.get('ocr_chars',0)
+            item['ocr_text_path']=rec.get('ocr_text_path','')
+            if item.get('confidence') not in ('transcript',) and rec.get('ocr_status') == 'ok':
+                item['confidence']='ocr_only'
+            if rec.get('ocr_status') == 'ok':
+                item['extraction_quality']='transcript+ocr' if item.get('transcript_status') == 'ok' else 'ocr_only'
+        refreshed.append(item)
+    return refreshed
+
 def recompute_common_and_ystats(items, lex):
     agg={}
     for item in items:
@@ -616,7 +661,13 @@ def recompute_common_and_ystats(items, lex):
             ys['transcript_chars'] += int(item.get('transcript_chars') or 0)
             ys['ocr_chars'] += int(item.get('ocr_chars') or 0)
             if item.get('ocr_status') == 'ok': ys['ocr_count'] += 1
-            ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':region_tickers, 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'ocr_status':item.get('ocr_status',''), 'ocr_chars':item.get('ocr_chars',0), 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
+            ocr_excerpt=''
+            if item.get('ocr_status') == 'ok' and item.get('ocr_text_path'):
+                try:
+                    ocr_excerpt=' '.join(Path(item.get('ocr_text_path')).read_text(encoding='utf-8', errors='ignore').split())[:160]
+                except Exception:
+                    ocr_excerpt=''
+            ys['videos'].append({'title':item.get('title'), 'url':item.get('url'), 'published_at':item.get('published_at'), 'tickers':region_tickers, 'confidence':item.get('confidence'), 'transcript_chars':item.get('transcript_chars',0), 'ocr_status':item.get('ocr_status',''), 'ocr_chars':item.get('ocr_chars',0), 'ocr_excerpt':ocr_excerpt, 'youtube_kind':'short' if item.get('source_type') == 'youtube_short' else 'video'})
             for ticker in region_tickers:
                 name=lex.get(stat_region,{}).get(ticker) or ticker
                 stock=ys['stocks'].setdefault(ticker, {'ticker':ticker, 'name':name, 'count':0})
@@ -663,6 +714,7 @@ def main():
         current_items.append(item)
     save_translation_cache(translation_cache)
     items, previous_count, newly_added = merge_accumulated_items(current_items, now)
+    items = refresh_accumulated_ocr(items, ocr_index)
     # 기존 누적 뉴스도 매 실행마다 한국어 표시 필드로 보정한다.
     items=[enrich_news_translations(item, translation_cache) for item in items]
     save_translation_cache(translation_cache)
