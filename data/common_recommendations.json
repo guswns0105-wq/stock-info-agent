@@ -2984,10 +2984,10 @@
     "sources": [
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
+      "Yahoo Finance Top Stories",
       "주식용사부",
       "경제사냥꾼",
       "강지한 차트연구소",
-      "Yahoo Finance Top Stories",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식쇼퍼 - 투자도 쇼핑처럼"
@@ -3013,6 +3013,18 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUw5ek55Q2o1NVg3eXNjUG5jZUFEdG5VYWxkZFNld0haeWZyZmhWMkFvN2dTRGtYR1kxWlNUaHJiOU82RnVSOFFhTU03dVFrUThKblBtcTllaVNENVRCdlVHbGtGTG9ocF84YUY5dUhqUEE3aVVmYTcxanNzTjhpRzhPV2xZeVA2NHBZUDBmRjZmY1Mwa1o5S255WVpZYW5IRmNMNnNxSjRqQmJoRU9jNE5uMmNtYmRLTVJ5SThkZ3MtOWF2?oc=5",
         "published_at": "Thu, 04 Jun 2026 12:02:20 GMT",
         "reason": "이 칩 ETF는 마이크론 붐에 대비했습니다    The Globe and Mail",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Micron Stock의 탁월한 성과가 이 부문의 고통을 가리고 있습니다. K자형 시장을 거래하는 방법.",
+        "url": "https://www.investors.com/news/micron-stocks-outperformance-masks-retail-pain-how-to-trade-k-shaped-market/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-05T17:30:07Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6013,11 +6025,23 @@
     "ticker": "GOOGL",
     "name": "Alphabet",
     "sources": [
-      "올랜도 킴 미국주식",
-      "Yahoo Finance Top Stories"
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식"
     ],
     "source_count": 2,
     "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Berkshire Hathaway, 알파벳에 큰 투자, 기술 투자로의 전환 신호",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/berkshire-hathaway-bets-big-alphabet-175000368.html",
+        "published_at": "2026-06-05T17:50:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "올랜도 킴 미국주식",
         "source_role": "유튜버",
@@ -6141,6 +6165,70 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "sources": [
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
+        "published_at": "2026-06-05T17:41:45Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
       }
     ],
     "stance": "복수 출처 추천/관심",
@@ -6514,48 +6602,36 @@
   },
   {
     "region": "global",
-    "ticker": "ORCL",
-    "name": "Oracle",
+    "ticker": "GOOG",
+    "name": "Alphabet",
     "sources": [
-      "올랜도 킴 미국주식"
+      "Yahoo Finance Top Stories"
     ],
     "source_count": 1,
     "evidence": [
       {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Berkshire Hathaway, 알파벳에 큰 투자, 기술 투자로의 전환 신호",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/berkshire-hathaway-bets-big-alphabet-175000368.html",
+        "published_at": "2026-06-05T17:50:00Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
-        "confidence": "ocr_only"
+        "confidence": "source-title/meta"
       },
       {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
+        "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
+        "published_at": "2026-06-03T14:01:53Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
+        "confidence": "source-title/meta"
       }
     ],
     "stance": "단일 출처 추천/관심",
@@ -6784,33 +6860,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "GOOG",
-    "name": "Alphabet",
-    "sources": [
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
-        "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
-        "published_at": "2026-06-03T14:01:53Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
       }
     ],
     "stance": "단일 출처 추천/관심",

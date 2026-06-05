@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "환율, 강달러에 한때 1,560원도 넘었다…금융위기 이후 최고(종합)",
+    "summary": "(서울·뉴욕=연합뉴스) 이도흔 기자 이지헌 특파원 = 원/달러 환율이 17년 만에 장중 달러당 1,560원선을 돌파했다.",
+    "url": "https://www.yna.co.kr/view/AKR20260605158351002",
+    "published_at": "Sat, 6 Jun 2026 02:28:02 +0900",
+    "text": "환율, 강달러에 한때 1,560원도 넘었다…금융위기 이후 최고(종합) (서울·뉴욕=연합뉴스) 이도흔 기자 이지헌 특파원 = 원/달러 환율이 17년 만에 장중 달러당 1,560원선을 돌파했다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "환율, 달러 강세에 1,550원도 넘었다…금융위기 이후 최고",
     "summary": "(서울=연합뉴스) 이도흔 기자 = 원/달러 환율이 5일 야간 거래에서 1,550원을 넘어섰다.",
     "url": "https://www.yna.co.kr/view/AKR20260605158300002",
@@ -160,64 +170,54 @@
     "text": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동' (서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회..."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
-    "region": "domestic",
-    "title": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\"",
-    "summary": "(서울=연합뉴스) 신창용 기자 = 김정관 산업통상부 장관은 미국 무역법 301조 조사로 한국의 관세 부담이 지난해 한미 합의 수준인 15%를 넘...",
-    "url": "https://www.yna.co.kr/view/AKR20260605153400003",
-    "published_at": "Fri, 5 Jun 2026 21:11:38 +0900",
-    "text": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\" (서울=연합뉴스) 신창용 기자 = 김정관 산업통상부 장관은 미국 무역법 301조 조사로 한국의 관세 부담이 지난해 한미 합의 수준인 15%를 넘..."
+    "region": "global",
+    "title": "Fidelity lowers the bar for small investors to get in on SpaceX IPO",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/article/fidelity-lowers-the-bar-for-small-investors-to-get-in-on-spacex-ipo-174724915.html",
+    "published_at": "2026-06-05T17:47:24Z",
+    "text": "Fidelity lowers the bar for small investors to get in on SpaceX IPO "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "These 3 Stocks Hit New Highs Despite Stock Market Weakness",
+    "title": "Britain's Gambling Crackdown Just Triggered a Corporate Bailout",
     "summary": "",
-    "url": "https://www.investors.com/stock-lists/new-highs/new-highs-hyatt-hotels-pricesmart-voya/?src=A00220&yptr=yahoo",
-    "published_at": "2026-06-05T16:48:54Z",
-    "text": "These 3 Stocks Hit New Highs Despite Stock Market Weakness "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/britains-gambling-crackdown-just-triggered-174427430.html",
+    "published_at": "2026-06-05T17:44:27Z",
+    "text": "Britain's Gambling Crackdown Just Triggered a Corporate Bailout "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Dell Technologies (DELL): The Best American Stock to Buy and Hold for the Next Decade",
+    "title": "Why Did Oracle Stock Drop Today?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/dell-technologies-dell-best-american-164834649.html",
-    "published_at": "2026-06-05T16:48:34Z",
-    "text": "Dell Technologies (DELL): The Best American Stock to Buy and Hold for the Next Decade "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
+    "published_at": "2026-06-05T17:41:45Z",
+    "text": "Why Did Oracle Stock Drop Today? "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Stifel Raises its Price Target on Ciena (CIEN)",
+    "title": "Micron Stock's Outperformance Masks This Sector's Pain. How To Trade The K-Shaped Market.",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-raises-price-target-ciena-164825244.html",
-    "published_at": "2026-06-05T16:48:25Z",
-    "text": "Stifel Raises its Price Target on Ciena (CIEN) "
+    "url": "https://www.investors.com/news/micron-stocks-outperformance-masks-retail-pain-how-to-trade-k-shaped-market/?src=A00220&yptr=yahoo",
+    "published_at": "2026-06-05T17:30:07Z",
+    "text": "Micron Stock's Outperformance Masks This Sector's Pain. How To Trade The K-Shaped Market. "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Argus Raises its Price Target on Snowflake (SNOW)",
+    "title": "Scotiabank Raises its Price Target on Vale (VALE) to $18",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-snowflake-164751509.html",
-    "published_at": "2026-06-05T16:47:51Z",
-    "text": "Argus Raises its Price Target on Snowflake (SNOW) "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Oppenheimer Upgrades Quanta Services (PWR) to Outperform",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-upgrades-quanta-services-pwr-164713614.html",
-    "published_at": "2026-06-05T16:47:13Z",
-    "text": "Oppenheimer Upgrades Quanta Services (PWR) to Outperform "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-vale-172859065.html",
+    "published_at": "2026-06-05T17:28:59Z",
+    "text": "Scotiabank Raises its Price Target on Vale (VALE) to $18 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -243,16 +243,6 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스",
-    "summary": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVU1VvRWtQejB1Qkl1Mm5Ib1JEZUNqVi1SX2NoYUUwNzExNDZvVHBhMTZveE9YVThoaklaZ3dQT09yM3NfUzJsNzhEYWZ0eE9vcEJLLXZhemFCV3BFMkJNRU5QQnBZdEo0SHNOOFZBc3FqWDI50gF0QVVfeXFMT3hKY0p3cThBdnZFVnJ3T21feDBQZUd3M20wU1J4YUJHaXhmeVlpZVNQUkhiWXY4elBZc2FhUlVfM3E3TXAxSUlPcjdMaUJHcVgySWViRmlvN1NFUHdTZFlDbzAxUFFPMkloRkdtbVNhSWFKdzE?oc=5",
-    "published_at": "Fri, 05 Jun 2026 00:16:14 GMT",
-    "text": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스  코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 - Chosunbiz",
     "summary": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZERKR0JJVmpJN1ctU0NoWjlqQldHc19za1dUUWJPbHI3TWwyVEJrdk1qS1ZQODlVbWlDUEVRVHpKdU0zdTg5WGdRRTI5SDVrUWdkX3ltd1dqd3ZXUWpXWHVkSU1zdm5EbG8wQUdXYlg4Nk1YWEhSQjJGdUtUR0lnUUM4NG5vNWfSAZsBQVVfeXFMTk1tM0l4ZkszbFVkZGdYbXFnZjlpZ0RWSDRGMnkyaEhOOEZCNlh0ZUhrdlB3VTB4SDZMYktBVGRXZmZiQVhEMFFUcGVHek5jWHZsSmJ0RUJYSlc1bklFWkhpSlV3ZW9iUlU1aVBib0h4MU53cHpRLWVjZmktRk1uYnFrUjNLdkhKSVg0dDYzMlplc0RGYUdzXzNXM2M?oc=5",
@@ -263,11 +253,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 - 연합인포맥스",
-    "summary": "코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 &nbsp;&nbsp; 연합인포맥스",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CeUZFSjBtOVdESmpMNThXRXRQUVBVeDBZU0RNZWZiTkJmLVhIbmplUVU5aDR5S2JMVTItZ0hPcFgyZFRzUlAza3drellzeXh5YTV6WGFfanJqQU5RZVZhZVk3QmVqVndmT2xUdHI3eGLSAXRBVV95cUxOTW54Uzl6bXAtV2JvU3N2c1VhZ2hxWFlwWGpzOFlqNk0wQllablQ0UTdFdnlJYU5Sd1hUZDBSZ2dMcVZsZDF4RmpBRzZhQktKQkRWT3N0dkNZY1djc2VDSWZyaDZvMjBDSEMzUFhHdm0zRS1Jaw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 00:15:00 GMT",
-    "text": "코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 - 연합인포맥스  코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 &nbsp;&nbsp; 연합인포맥스 "
+    "title": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스",
+    "summary": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVU1VvRWtQejB1Qkl1Mm5Ib1JEZUNqVi1SX2NoYUUwNzExNDZvVHBhMTZveE9YVThoaklaZ3dQT09yM3NfUzJsNzhEYWZ0eE9vcEJLLXZhemFCV3BFMkJNRU5QQnBZdEo0SHNOOFZBc3FqWDI50gF0QVVfeXFMT3hKY0p3cThBdnZFVnJ3T21feDBQZUd3M20wU1J4YUJHaXhmeVlpZVNQUkhiWXY4elBZc2FhUlVfM3E3TXAxSUlPcjdMaUJHcVgySWViRmlvN1NFUHdTZFlDbzAxUFFPMkloRkdtbVNhSWFKdzE?oc=5",
+    "published_at": "Fri, 05 Jun 2026 00:16:14 GMT",
+    "text": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스  코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레",
+    "summary": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tVG9vZHhxMEtQazAtNE85SXRORVMwU256QTIweFdvaGJsOURUaUZZa095d1RXQTJrSl9FdUVqaUtFc0Qtdk9pQm02UTFsZ1phcVpHUEU3cWt2cm52bEUtVkpWTy1NRG8?oc=5",
+    "published_at": "Fri, 05 Jun 2026 07:58:00 GMT",
+    "text": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레  ‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -293,16 +293,6 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스",
-    "summary": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42bTdScXBmUGZSQVViNjZGU2F3SlJMZEg3Y0dXMTVNazhqa1l3ZFkxMnFGV1ZiM3NlbTVfSEE1eU1TTXdjbzYwMlV3MEFQdHRsekZEMUJoN3o1MzY5aDVDTHNrTU5CR196N2tBb1JjWDN6Ylct0gF0QVVfeXFMTjZtN1JxcGZQZlJBVWI2NkZTYXdKUkxkSDdjR1cxNU1rOGprWXdkWTEycUZXVmIzc2VtNV9IQTV5TVNNd2NvNjAyVXcwQVB0dGx6RkQxQmg3ejUzNjloNUNMc2tNTkJHX3o3a0FvUmNYM3piVy0?oc=5",
-    "published_at": "Thu, 04 Jun 2026 23:49:02 GMT",
-    "text": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스  [보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스 "
-  },
-  {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "바이비트, 삼성전자·SK하이닉스·현대차 주식 무기한 선물 상장 - 블루밍비트",
     "summary": "바이비트, 삼성전자·SK하이닉스·현대차 주식 무기한 선물 상장 &nbsp;&nbsp; 블루밍비트",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wRzkzM2tIX3ZxcVhFUXBUWHhvU0M0N01aUUlHYllNekhJN3pJR0RGRHJvaHgtVHR2SDIxOURGQ01uNE5FTUhFVFg2eV8waVhY?oc=5",
@@ -318,6 +308,16 @@
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fdkZYNEZJMWNNWjJFWjFZbGtlNEdzbUlNZE9jUUpfcEUtTHRKZmlGR1Y5QlJGZXRlOXBKZ1hTdVJSUDNLcjNzTGM0VkZLUHNoUFdUSVZyZkgzNTd6cElQbWRCMHpxZzRfY3c?oc=5",
     "published_at": "Fri, 05 Jun 2026 05:48:58 GMT",
     "text": "\"값이 다른 삼성전자 주식\"···보통주·우선주 다른 이유 - 뉴스웨이  \"값이 다른 삼성전자 주식\"···보통주·우선주 다른 이유 &nbsp;&nbsp; 뉴스웨이 "
+  },
+  {
+    "source": "Google News 한국 주식 종목",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스",
+    "summary": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42bTdScXBmUGZSQVViNjZGU2F3SlJMZEg3Y0dXMTVNazhqa1l3ZFkxMnFGV1ZiM3NlbTVfSEE1eU1TTXdjbzYwMlV3MEFQdHRsekZEMUJoN3o1MzY5aDVDTHNrTU5CR196N2tBb1JjWDN6Ylct0gF0QVVfeXFMTjZtN1JxcGZQZlJBVWI2NkZTYXdKUkxkSDdjR1cxNU1rOGprWXdkWTEycUZXVmIzc2VtNV9IQTV5TVNNd2NvNjAyVXcwQVB0dGx6RkQxQmg3ejUzNjloNUNMc2tNTkJHX3o3a0FvUmNYM3piVy0?oc=5",
+    "published_at": "Thu, 04 Jun 2026 23:49:02 GMT",
+    "text": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스  [보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스 "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -373,31 +373,11 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - Yahoo Finance",
-    "summary": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ19DRlVaeEMtTmk4NzUxXzNoUExwaERBcUhMeC1mVlRwVFRJZ1Y0NlNGTi1jVHdGbVZjMFp5OUpOb0NGNTFCcnJWclZtaFpiVDk0VFlNMm5uQThmM2dmZE0wV0VBcUU0YzBycGdTX1pVRk9iTkNIRU5QMnM2eGc0V1JXN3JZbWtHR1dXZGR2WlM?oc=5",
-    "published_at": "Fri, 05 Jun 2026 15:52:01 GMT",
-    "text": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - Yahoo Finance  Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; Yahoo Finance "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - 24/7 Wall St.",
-    "summary": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; 24/7 Wall St.",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcW9iTi12Ui1qX2gwZmNwQjFfdEFZajdLOW9GVElVVVZPd2IyNGFlZFlaRXdKMzJWYXFsWjZsOXJRQTFURFFaWWIyUVZoVm9Sak9MM3VXbHVYRlJqMUt1M3E0XzJSeGgxcnM0SGNQYmhfeEZKcEVjVnYxNUNGM3QxYVdSbEZzU2FReGloQmlWS0NaUmNGalJkbmtqMW9xVEUweFhlQ094VGktZERGV1hkbGtLRWQ?oc=5",
-    "published_at": "Fri, 05 Jun 2026 15:52:01 GMT",
-    "text": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - 24/7 Wall St.  Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; 24/7 Wall St. "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits",
-    "summary": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
-    "text": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits  Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits "
+    "title": "3 Top-Tech Stocks to Buy With $1,000 Right Now - Yahoo Finance",
+    "summary": "3 Top-Tech Stocks to Buy With $1,000 Right Now &nbsp;&nbsp; Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTFpldEVHR3RHSlFGTWg0aWQ0azRXNmZUTGloVERmQ3g1eDc1b2g3ZEdWenJMdS11Q05VU1Z6bmM1WVZSLTJvdlE5WGtjWjNhWHBhVjJTeENkajBXWUZ3ajZHM3hNM0RxSW9VU3BXWmtveEZlNlhEZlJPS3BwbXkwOWE4RXVxSV9RR254Z25rcw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 15:35:00 GMT",
+    "text": "3 Top-Tech Stocks to Buy With $1,000 Right Now - Yahoo Finance  3 Top-Tech Stocks to Buy With $1,000 Right Now &nbsp;&nbsp; Yahoo Finance "
   },
   {
     "source": "Google News Magnificent 7",
@@ -413,10 +393,30 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
+    "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits",
+    "summary": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
+    "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
+    "text": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits  Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
     "title": "Can META Stock Compound Its Way Higher? - Trefis",
     "summary": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
     "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
     "text": "Can META Stock Compound Its Way Higher? - Trefis  Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - 24/7 Wall St.",
+    "summary": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; 24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcW9iTi12Ui1qX2gwZmNwQjFfdEFZajdLOW9GVElVVVZPd2IyNGFlZFlaRXdKMzJWYXFsWjZsOXJRQTFURFFaWWIyUVZoVm9Sak9MM3VXbHVYRlJqMUt1M3E0XzJSeGgxcnM0SGNQYmhfeEZKcEVjVnYxNUNGM3QxYVdSbEZzU2FReGloQmlWS0NaUmNGalJkbmtqMW9xVEUweFhlQ094VGktZERGV1hkbGtLRWQ?oc=5",
+    "published_at": "Fri, 05 Jun 2026 15:52:01 GMT",
+    "text": "Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? - 24/7 Wall St.  Meta Stock Turns $1,000 Into $5,300 in 10 Years But Did It Beat The S&P 500? &nbsp;&nbsp; 24/7 Wall St. "
   }
 ]
