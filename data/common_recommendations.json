@@ -167,6 +167,42 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동'",
+        "url": "https://www.yna.co.kr/view/AKR20260605155700704",
+        "published_at": "Fri, 5 Jun 2026 21:56:12 +0900",
+        "reason": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동'",
+        "url": "https://www.yna.co.kr/view/AKR20260605153500704",
+        "published_at": "Fri, 5 Jun 2026 21:25:50 +0900",
+        "reason": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20260605141051017",
+        "published_at": "Fri, 5 Jun 2026 21:01:21 +0900",
+        "reason": "(서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "엔비디아, 한국 AI기술센터 설립 착수…피지컬AI 채용 공고",
         "url": "https://www.yna.co.kr/view/AKR20260605141000017",
         "published_at": "Fri, 5 Jun 2026 18:15:25 +0900",
@@ -3388,6 +3424,30 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동'",
+        "url": "https://www.yna.co.kr/view/AKR20260605155700704",
+        "published_at": "Fri, 5 Jun 2026 21:56:12 +0900",
+        "reason": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동'",
+        "url": "https://www.yna.co.kr/view/AKR20260605153500704",
+        "published_at": "Fri, 5 Jun 2026 21:25:50 +0900",
+        "reason": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "[특징주] \"깜짝선물\" 젠슨황 언급에도…LG·네이버 하락 마감(종합)",
         "url": "https://www.yna.co.kr/view/AKR20260605038251008",
         "published_at": "Fri, 5 Jun 2026 15:50:35 +0900",
@@ -4120,6 +4180,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "칩 수요를 충족시키기 위해 열심히 노력하는 TSMC는 가격 인상을 '원함'",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-boss-upbeat-outlook-ai-014601576.html",
+        "published_at": "2026-06-04T01:46:01Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       },
       {
         "source": "Yahoo Finance Top Stories",

@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 71,
-    "short_count": 71,
+    "video_count": 72,
+    "short_count": 72,
     "regular_video_count": 0,
     "mention_count": 92,
     "transcript_count": 65,
-    "metadata_count": 6,
+    "metadata_count": 7,
     "ocr_count": 8,
     "transcript_chars": 137771,
     "ocr_chars": 3324,
@@ -85,6 +85,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "코스피 하락 속, 꼭 알아야 하는 미국+일본 뉴스 3가지",
+        "url": "https://youtu.be/DeKUdPe1BWg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "6월 5일 '코인' 투자자들이 꼭 알아야 하는 투자 포인트",
         "url": "https://youtu.be/EsX6o0pbgaE",
@@ -491,20 +503,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1836,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "투자자들이 지금이라도 알아야 할 ‘삼전+닉스 레버리지 ETF’ 투자 포인트",
-        "url": "https://youtu.be/ZB81SoqiByg",
-        "published_at": "",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1734,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",

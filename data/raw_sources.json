@@ -1,5 +1,24 @@
 [
   {
+    "source": "경제사냥꾼",
+    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
+    "video_id": "DeKUdPe1BWg",
+    "youtube_kind": "short",
+    "source_type": "youtube_short",
+    "source_role": "",
+    "source_note": "",
+    "region": "domestic",
+    "title": "코스피 하락 속, 꼭 알아야 하는 미국+일본 뉴스 3가지",
+    "summary": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+    "url": "https://youtu.be/DeKUdPe1BWg",
+    "published_at": "",
+    "text": "",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: ; yt-dlp: ERROR: Unable to download video subtitles for 'ko-orig': HTTP Error 429: Too Many Requests\n",
+    "transcript_chars": 0,
+    "extraction_quality": "caption_failed"
+  },
+  {
     "source": "메르의 블로그",
     "source_type": "naver_blog_feed",
     "source_role": "macro_context",
@@ -123,51 +142,51 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[인사] 한국은행",
-    "summary": "◇ 부서장 보임",
-    "url": "https://www.yna.co.kr/view/AKR20260605150900002",
-    "published_at": "Fri, 5 Jun 2026 20:02:53 +0900",
-    "text": "[인사] 한국은행 ◇ 부서장 보임"
+    "title": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동'",
+    "summary": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
+    "url": "https://www.yna.co.kr/view/AKR20260605155700704",
+    "published_at": "Fri, 5 Jun 2026 21:56:12 +0900",
+    "text": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동' (서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "소프트센, 22억 유상증자…홍콩셩다국제무역유한공사에 3자배정",
-    "summary": "(서울=연합뉴스) 코스닥 상장사 소프트센[032680]은 타법인증권취득자금 등 22억원을 조달하고자 제3자배정 유상증자를 결정했다고 5일 공시했...",
-    "url": "https://www.yna.co.kr/view/AKR20260605139800008",
-    "published_at": "Fri, 5 Jun 2026 18:15:57 +0900",
-    "text": "소프트센, 22억 유상증자…홍콩셩다국제무역유한공사에 3자배정 (서울=연합뉴스) 코스닥 상장사 소프트센[032680]은 타법인증권취득자금 등 22억원을 조달하고자 제3자배정 유상증자를 결정했다고 5일 공시했..."
+    "title": "美 '깜짝 고용호조'에 미국채금리 급등…30년물 5.0% 돌파",
+    "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 5월 미국의 비농업 일자리가 예상 밖으로 호조를 보이면서 5일(현지시간) 미국의 국채 수익률이 급등세다.",
+    "url": "https://www.yna.co.kr/view/AKR20260605155351072",
+    "published_at": "Fri, 5 Jun 2026 21:44:51 +0900",
+    "text": "美 '깜짝 고용호조'에 미국채금리 급등…30년물 5.0% 돌파 (뉴욕=연합뉴스) 이지헌 특파원 = 5월 미국의 비농업 일자리가 예상 밖으로 호조를 보이면서 5일(현지시간) 미국의 국채 수익률이 급등세다."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "엔비디아, 한국 AI기술센터 설립 착수…피지컬AI 채용 공고",
+    "title": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동'",
+    "summary": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
+    "url": "https://www.yna.co.kr/view/AKR20260605153500704",
+    "published_at": "Fri, 5 Jun 2026 21:25:50 +0900",
+    "text": "[영상] 젠슨황, SK·LG·네이버 총수와 홍대 거리서 '삼소회동' (서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회..."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\"",
+    "summary": "(서울=연합뉴스) 신창용 기자 = 김정관 산업통상부 장관은 미국 무역법 301조 조사로 한국의 관세 부담이 지난해 한미 합의 수준인 15%를 넘...",
+    "url": "https://www.yna.co.kr/view/AKR20260605153400003",
+    "published_at": "Fri, 5 Jun 2026 21:11:38 +0900",
+    "text": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\" (서울=연합뉴스) 신창용 기자 = 김정관 산업통상부 장관은 미국 무역법 301조 조사로 한국의 관세 부담이 지난해 한미 합의 수준인 15%를 넘..."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합)",
     "summary": "(서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다.",
-    "url": "https://www.yna.co.kr/view/AKR20260605141000017",
-    "published_at": "Fri, 5 Jun 2026 18:15:25 +0900",
-    "text": "엔비디아, 한국 AI기술센터 설립 착수…피지컬AI 채용 공고 (서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다."
-  },
-  {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "[쇼츠] 젠슨황 7개월 만에 방한…PC방서 페이커에 GPU 선물",
-    "summary": "(서울=연합뉴스) 약 7개월 만에 한국을 다시 찾은 젠슨 황 엔비디아 최고경영자(CEO)가 방한 첫 행선지인 PC방에서 프로게이머 &apos;페이커&apos; 이...",
-    "url": "https://www.yna.co.kr/view/AKR20260605139000704",
-    "published_at": "Fri, 5 Jun 2026 18:02:29 +0900",
-    "text": "[쇼츠] 젠슨황 7개월 만에 방한…PC방서 페이커에 GPU 선물 (서울=연합뉴스) 약 7개월 만에 한국을 다시 찾은 젠슨 황 엔비디아 최고경영자(CEO)가 방한 첫 행선지인 PC방에서 프로게이머 &apos;페이커&apos; 이..."
-  },
-  {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
-    "summary": "■ 노태악 선관위원장 &apos;투표지 사태&apos;에 사의 표명…&quot;책임 통감&quot;",
-    "url": "https://www.yna.co.kr/view/AKR20260511082400011",
-    "published_at": "Fri, 5 Jun 2026 18:00:01 +0900",
-    "text": "[연합뉴스 이 시각 헤드라인] - 18:00 ■ 노태악 선관위원장 &apos;투표지 사태&apos;에 사의 표명…&quot;책임 통감&quot;\n"
+    "url": "https://www.yna.co.kr/view/AKR20260605141051017",
+    "published_at": "Fri, 5 Jun 2026 21:01:21 +0900",
+    "text": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합) (서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다."
   },
   {
     "source": "Yahoo Finance Top Stories",
@@ -183,41 +202,41 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is the housing market going to crash in 2026?",
+    "title": "Is Cintas Stock Underperforming the S&P 500?",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/is-the-housing-market-going-to-crash-in-2026-170038686.html",
-    "published_at": "2024-07-05T17:00:38Z",
-    "text": "Is the housing market going to crash in 2026? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cintas-stock-underperforming-p-500-011514876.html",
+    "published_at": "2026-06-04T01:15:14Z",
+    "text": "Is Cintas Stock Underperforming the S&P 500? "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "What is fractional reserve banking?",
+    "title": "TransAlta to Buy Colorado Gas Plants in $1 Billion Deal",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/fractional-reserve-banking-221027798.html",
-    "published_at": "2024-06-25T22:10:27Z",
-    "text": "What is fractional reserve banking? "
+    "url": "https://finance.yahoo.com/sectors/energy/articles/transalta-buy-colorado-gas-plants-013200802.html",
+    "published_at": "2026-06-04T01:32:00Z",
+    "text": "TransAlta to Buy Colorado Gas Plants in $1 Billion Deal "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "VOO Becomes the First $1 Trillion ETF",
+    "title": "TSMC working hard to meet chip demand, would 'like' to hike prices",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/voo-becomes-first-1-trillion-000450793.html",
-    "published_at": "2026-06-04T00:04:50Z",
-    "text": "VOO Becomes the First $1 Trillion ETF "
+    "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-boss-upbeat-outlook-ai-014601576.html",
+    "published_at": "2026-06-04T01:46:01Z",
+    "text": "TSMC working hard to meet chip demand, would 'like' to hike prices "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "C3.ai, Inc. Q4 2026 Earnings Call Summary",
+    "title": "Is Constellation Energy Stock Underperforming the Nasdaq?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-inc-q4-2026-001605974.html",
-    "published_at": "2026-06-04T00:16:05Z",
-    "text": "C3.ai, Inc. Q4 2026 Earnings Call Summary "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-stock-underperforming-nasdaq-015319288.html",
+    "published_at": "2026-06-04T01:53:19Z",
+    "text": "Is Constellation Energy Stock Underperforming the Nasdaq? "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -323,6 +342,16 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
+    "title": "Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus - Reuters",
+    "summary": "Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus &nbsp;&nbsp; Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
+    "published_at": "Fri, 05 Jun 2026 11:35:12 GMT",
+    "text": "Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus - Reuters  Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus &nbsp;&nbsp; Reuters "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
     "title": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower - CNBC",
     "summary": "Asia tech stocks drop after Broadcom rattles AI trade and drags Wall Street names lower &nbsp;&nbsp; CNBC",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSnBRX3BLYW9qOURXY2pUZGszSnd5dFQtNWMtaEJVOU5qbmFFc1hkVW5fel9RcVo3RTV1Mmh0NUUxNE5fZG9WQlpPeTdDYXJMQnZkMWV3dGhlYXAwZzlMZ1NFTWtCeWk5QjZXalFkZjFHRU1zYWR3b3VmU0N6aDg5TFRRVldDYXplcTgyMXV3aFcyMkhqY1BZ0gGcAUFVX3lxTE5rVEFtSjRacDlFNFVKclY1N0p5dTNyWXlEZC1qOUZlcVJPU1FSUi1OVlc1UXh4azBNel9ZbXVaUjNaQVQ5MlpkV3RkNi1GREVZRXYtMEZYQTlhYndZVkhQbGROdGRxb2drUU5yNFp3dDhPeTBteE9IUzBVM1ptNTFCRU05RFRfMkdNcUhZQVh5M1FkWFQ4TkRuZWE2bw?oc=5",
@@ -353,21 +382,21 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 - TradingView",
-    "summary": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 &nbsp;&nbsp; TradingView",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaDdnem5fYlcwNVo5VkYwV0Etb3VHSGlTcnNObVluVGdIVE5PbHdWVFowbVc1SVItUzhLOGhjaEZkNTdqV0VLUDlLY2dzLVVhZFN6ekpWQ3lHU3VJSFdHRXJRS3Jwa1JSN1RtN0lDY3pYaGRyM0YtbUludExzTUhkRXlES1ZwMFdMdWNHZ1lVT2pIUU42dHlWMS1YeEdNT0NNM3lfQnYxWW92bWdqUmdwZ3ZDcUotbVRqOVhPVmNhMjhpdTducEtUU3N6ZDJ3S2pIOVZ5SGVjdUl3dw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 03:38:44 GMT",
-    "text": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 - TradingView  Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 &nbsp;&nbsp; TradingView "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
     "title": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs",
     "summary": "How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5",
     "published_at": "Fri, 22 May 2026 07:00:00 GMT",
     "text": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs  How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits",
+    "summary": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
+    "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
+    "text": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits  Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits "
   },
   {
     "source": "Google News Magnificent 7",
@@ -398,16 +427,6 @@
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeURvNTBBMnF2ZXRTODBQTnBVMnh6TkhOakdlT3dDcGs0LWVMM0RoS3J6SWE1anUwbTU3SnFtalhNY1FWVjF3dHZhaGlpQV9NOXU5Z2M0bFljOThma3dZN05HdnNaU2tfRkM1MVU2ejNvc3RPSkduRG5xdUdtc0ZRS0kySQ?oc=5",
     "published_at": "Wed, 03 Jun 2026 16:55:00 GMT",
     "text": "Morgan Stanley Says Meta Can Win AI. The Stock Still Has Something to Prove. - Barron's  Morgan Stanley Says Meta Can Win AI. The Stock Still Has Something to Prove. &nbsp;&nbsp; Barron's "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits",
-    "summary": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
-    "text": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% - Stocktwits  Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200% &nbsp;&nbsp; Stocktwits "
   },
   {
     "source": "Google News Magnificent 7",
