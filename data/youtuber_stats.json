@@ -1657,12 +1657,12 @@
     "region": "global",
     "youtuber": "T3chfeed - 테크피드 미국 주식 인사이트",
     "channel_id": "UCH2sxkxg_vdJSK4KYRXNE0Q",
-    "video_count": 21,
+    "video_count": 22,
     "short_count": 10,
-    "regular_video_count": 11,
+    "regular_video_count": 12,
     "mention_count": 31,
     "transcript_count": 20,
-    "metadata_count": 1,
+    "metadata_count": 2,
     "ocr_count": 8,
     "transcript_chars": 56381,
     "ocr_chars": 1588,
@@ -1719,6 +1719,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "스페이스X 상장까지 일주일... 테슬라 투자자는 앞으로 어떻게 하나?",
+        "url": "https://youtu.be/QWvRReF14vs",
+        "published_at": "2026-06-05T06:38:58+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "엔비디아가 웬일로 폭등? 보니까 그럴만 하네요",
         "url": "https://youtu.be/9Y-tTtQGfFA",
@@ -2920,15 +2932,15 @@
     "region": "global",
     "youtuber": "올랜도 킴 미국주식",
     "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 8,
+    "video_count": 9,
     "short_count": 0,
-    "regular_video_count": 8,
+    "regular_video_count": 9,
     "mention_count": 15,
     "transcript_count": 0,
-    "metadata_count": 8,
-    "ocr_count": 8,
+    "metadata_count": 9,
+    "ocr_count": 9,
     "transcript_chars": 0,
-    "ocr_chars": 24629,
+    "ocr_chars": 28518,
     "stocks": [
       {
         "ticker": "NVDA",
@@ -3007,6 +3019,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "(삼전,하이닉스) 기간조정과 가격조정은 어디까지?",
+        "url": "https://youtu.be/Zo3di8xd41I",
+        "published_at": "2026-06-05T05:57:37+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 3889,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 USDJPY lade Ideas-OAND X SUCF tblor Exit ton Samsur X irweeling.com/pro/KOSt:A005930/mocirl/ecl ebli-exit 5yr 양사 연구 더 미국 NAHB 주택시... Waldhlt: ",
+        "youtube_kind": "video"
+      },
       {
         "title": "(시황분석)  전약후강으로  대기자금 많다.그러나 반도체 조정은 완전히 끝나지 않았다.",
         "url": "https://youtu.be/D2TzqT51El8",
