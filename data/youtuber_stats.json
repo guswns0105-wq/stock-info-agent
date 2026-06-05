@@ -3,20 +3,20 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 72,
-    "short_count": 72,
+    "video_count": 73,
+    "short_count": 73,
     "regular_video_count": 0,
-    "mention_count": 92,
-    "transcript_count": 65,
+    "mention_count": 93,
+    "transcript_count": 66,
     "metadata_count": 7,
     "ocr_count": 9,
-    "transcript_chars": 137771,
+    "transcript_chars": 139739,
     "ocr_chars": 3630,
     "stocks": [
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 36
+        "count": 37
       },
       {
         "ticker": "000660",
@@ -85,6 +85,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "하이닉스가 오늘 삼성전자보다 더 떨어진 이유",
+        "url": "https://youtu.be/g_71zxHLgkE",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1968,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "코스피 하락 속, 꼭 알아야 하는 미국+일본 뉴스 3가지",
         "url": "https://youtu.be/DeKUdPe1BWg",
@@ -487,22 +501,6 @@
         "tickers": [],
         "confidence": "transcript",
         "transcript_chars": 1956,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "현시점 '코스피'가 갑자기 급락했던 진짜 이유",
-        "url": "https://youtu.be/95IuZ1MMAHM",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "003550",
-          "009150"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1836,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
@@ -1235,20 +1233,20 @@
     "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 27,
-    "short_count": 27,
+    "video_count": 28,
+    "short_count": 28,
     "regular_video_count": 0,
-    "mention_count": 33,
-    "transcript_count": 27,
+    "mention_count": 34,
+    "transcript_count": 28,
     "metadata_count": 0,
     "ocr_count": 4,
-    "transcript_chars": 58355,
+    "transcript_chars": 60323,
     "ocr_chars": 950,
     "stocks": [
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 21
+        "count": 22
       },
       {
         "ticker": "MU",
@@ -1277,6 +1275,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "하이닉스가 오늘 삼성전자보다 더 떨어진 이유",
+        "url": "https://youtu.be/g_71zxHLgkE",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1968,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "삼성전자, 오늘 꼭 봐야 할 '반도체 호재' 뉴스",
         "url": "https://youtu.be/mbS51XsC7Ck",
