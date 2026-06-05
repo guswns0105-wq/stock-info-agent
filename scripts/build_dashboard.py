@@ -218,10 +218,10 @@ def ai_recommendation_section(region, recommendations):
         recs = [r for r in recommendations if r.get('region') == region][:5]
     else:
         recs = (recommendations or {}).get(region, [])[:5]
-    title = '국내주식 AI 추천 Top5' if region == 'domestic' else '미국주식 AI 추천 Top5'
-    empty = '국내 AI 추천 후보를 고를 데이터가 아직 없습니다.' if region == 'domestic' else '미국/해외 AI 추천 후보를 고를 데이터가 아직 없습니다.'
-    html = ''.join(ai_recommendation_card(r) for r in recs) or f'<p class="empty">{empty}</p>'
-    return f'''<section class="ai-top-section"><h2>{title}</h2><p class="section-note">현재가가 계산상 적정가격 이하인 종목만 추천 후보로 보여줍니다. 조건을 통과한 종목이 부족하면 5개보다 적게 표시됩니다. “알림 걸어둘 가격”은 다시 볼 만한 가격, “비싸 보이기 시작하는 가격”은 과열을 의심할 가격입니다. 매수·매도 지시는 아닙니다.</p><div class="ai-rec-grid">{html}</div></section>'''
+    title = '국내주식 AI 관심종목 Top5' if region == 'domestic' else '미국주식 AI 관심종목 Top5'
+    empty = '국내 AI 관심종목을 고를 데이터가 아직 없습니다.' if region == 'domestic' else '미국/해외 AI 관심종목을 고를 데이터가 아직 없습니다.'
+    html = ''.join(ai_recommendation_card(rec) for rec in recs) or f'<p class="empty">{empty}</p>'
+    return f'''<section class="ai-top-section"><h2>{title}</h2><p class="section-note">현재가가 계산상 적정가격 이하인 종목만 관심 후보로 보여줍니다. 조건을 통과한 종목이 부족하면 5개보다 적게 표시됩니다. “알림 걸어둘 가격”은 다시 볼 만한 가격, “비싸 보이기 시작하는 가격”은 과열을 의심할 가격입니다. 매수·매도 지시는 아닙니다.</p><div class="ai-rec-grid">{html}</div></section>'''
 
 
 def imagegen2_cardnews_section():
