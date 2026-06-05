@@ -1,6 +1,6 @@
 # ImageGen2 stock cardnews source
 
-Generated: 2026-06-06T05:27
+Generated: 2026-06-06T06:26
 
 ## 한국주식
 1. 현대차 005380 — 현재가 700,000원, 적정 1,179,025원
@@ -14,4 +14,4 @@ Generated: 2026-06-06T05:27
 2. TSMC TSM — 현재가 $415.17, 적정 $501.42
 3. Meta META — 현재가 $593.00, 적정 $923.67
 4. Microsoft MSFT — 현재가 $416.67, 적정 $513.34
-5. Super Micro Computer SMCI — 현재가 $41.64, 적정 $58.64
+5. Super Micro Computer SMCI — 현재가 $41.64, 적정 $58.53

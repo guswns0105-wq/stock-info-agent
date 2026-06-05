@@ -150,7 +150,7 @@
     "region": "global",
     "label": "미국주식",
     "asset_path": "public/assets/imagegen2/us-top5-cardnews.png",
-    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Micron MU\n현재가 $864.01 / 적정 $2,212.86\n출처 언급 22회, 적정가 대비 156.1%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 TSMC TSM\n현재가 $415.17 / 적정 $501.42\n출처 언급 11회, 적정가 대비 20.78%…\n주의: 과열 추격 금지, 적정매수가…\n\n3 Meta META\n현재가 $593.00 / 적정 $923.67\n출처 언급 18회, 적정가 대비 55.76%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Microsoft MSFT\n현재가 $416.67 / 적정 $513.34\n출처 언급 8회, 적정가 대비 23.20% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n5 Super Micro Computer SMCI\n현재가 $41.64 / 적정 $58.64\n출처 언급 1회, 적정가 대비 40.83% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
+    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Micron MU\n현재가 $864.01 / 적정 $2,212.86\n출처 언급 22회, 적정가 대비 156.1%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 TSMC TSM\n현재가 $415.17 / 적정 $501.42\n출처 언급 11회, 적정가 대비 20.78%…\n주의: 과열 추격 금지, 적정매수가…\n\n3 Meta META\n현재가 $593.00 / 적정 $923.67\n출처 언급 19회, 적정가 대비 55.76%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Microsoft MSFT\n현재가 $416.67 / 적정 $513.34\n출처 언급 8회, 적정가 대비 23.20% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n5 Super Micro Computer SMCI\n현재가 $41.64 / 적정 $58.53\n출처 언급 1회, 적정가 대비 40.57% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
     "recommendations": [
       {
         "rank": 1,
@@ -227,9 +227,9 @@
         "ret20_pct": -3.860183468626721,
         "support": 525.719970703125,
         "resistance": 688.5499877929688,
-        "comment": "출처 언급 18회, 적정가 대비 55.76% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+        "comment": "출처 언급 19회, 적정가 대비 55.76% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 18회",
+          "출처 언급 19회",
           "ROE 32.93%",
           "PER가 기준보다 낮음",
           "차트: 하락/약세 추세"
@@ -274,16 +274,16 @@
         "ai_score": 9.25,
         "verdict": "저평가 후보",
         "ai_buy_price": 40.8072,
-        "ai_sell_price": 61.57261512992324,
-        "fair_value": 58.64058583802213,
-        "pe": 13.768,
+        "ai_sell_price": 61.45869034406766,
+        "fair_value": 58.5320860419692,
+        "pe": 13.798,
         "pb": 3.723,
         "roe": 17.877,
         "trend": "상승 추세",
         "ret20_pct": 23.85485223947812,
         "support": 20.530000686645508,
         "resistance": 50.16999816894531,
-        "comment": "출처 언급 1회, 적정가 대비 40.83% 여력, 상승 추세, ROE 17.88% 기준으로 산정했습니다.",
+        "comment": "출처 언급 1회, 적정가 대비 40.57% 여력, 상승 추세, ROE 17.88% 기준으로 산정했습니다.",
         "why": [
           "ROE 17.88%",
           "PER가 기준보다 낮음",
