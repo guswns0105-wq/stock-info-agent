@@ -2827,6 +2827,18 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
+        "title": "메모리 칩은 시장에서 큰 인기를 누리고 있으며, 마이크론과 SK하이닉스는 1조 달러 규모의 기업이 되었습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/memory-chips-rage-markets-micron-160000501.html",
+        "published_at": "2026-06-03T16:00:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
         "title": "마이크론 주식은 여전히 ​​​​탱크에 약 70%의 상승 잠재력이 남아 있을 수 있습니다.",
         "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-could-still-nearly-185826835.html",
         "published_at": "2026-06-02T18:58:26Z",
