@@ -9,9 +9,9 @@
     "mention_count": 93,
     "transcript_count": 66,
     "metadata_count": 7,
-    "ocr_count": 9,
+    "ocr_count": 10,
     "transcript_chars": 139739,
-    "ocr_chars": 3630,
+    "ocr_chars": 4226,
     "stocks": [
       {
         "ticker": "005930",
@@ -94,9 +94,9 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1968,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 596,
+        "ocr_excerpt": "하이닉스가오늘 삼성전자보다 더 떨어진 이유 경제 사냥꾼 2026년 06월 05일 삼성전자 005930 2지 324,500 전일대비 w 27,000 -7.68% 삼전은-7.6% ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 하이닉스가 오늘 삼성전자보다더 떨어진 이유 100",
         "youtube_kind": "short"
       },
       {
@@ -1239,9 +1239,9 @@
     "mention_count": 34,
     "transcript_count": 28,
     "metadata_count": 0,
-    "ocr_count": 4,
+    "ocr_count": 5,
     "transcript_chars": 60323,
-    "ocr_chars": 950,
+    "ocr_chars": 1546,
     "stocks": [
       {
         "ticker": "NVDA",
@@ -1284,9 +1284,9 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1968,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 596,
+        "ocr_excerpt": "하이닉스가오늘 삼성전자보다 더 떨어진 이유 경제 사냥꾼 2026년 06월 05일 삼성전자 005930 2지 324,500 전일대비 w 27,000 -7.68% 삼전은-7.6% ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 하이닉스가 오늘 삼성전자보다더 떨어진 이유 100",
         "youtube_kind": "short"
       },
       {

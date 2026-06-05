@@ -261,6 +261,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "2026년 120%의 수익률로 Nvidia를 압도하는 슈퍼 반도체 주식을 만나보세요 - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdzI1aXZTR2JlNmIzMUFMd29IbGVmcFd4SmpKVlk1djNGN0xuVUxqMDZMRWhNT2QxdDlWX204eUJ1b014dy1vRVljTjhzUEwxZTh5dzhkbEo0VDAzUWt0dy1DSWhwbndpSTFTUnNac25NeTNfWnp2cmVkcHlyRHNIbDdlMlF5VnRpdlQ2bV9QTjhfTDFaN0lFbEVUYlAteW8tMlFrSzhhaw?oc=5",
+        "published_at": "Fri, 05 Jun 2026 14:05:00 GMT",
+        "reason": "2026년 120%의 수익률로 Nvidia를 압도하는 슈퍼 반도체 주식을 만나보세요    Yahoo Finance",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
         "title": "Mark Stevens, NVIDIA(NASDAQ:NVDA) 주식 500,000주 매각 - MarketBeat",
@@ -2542,9 +2554,21 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "Tesla Inc 주식(TSLA)은 6월 5일 4.11% 하락했습니다: 투자자가 알아야 할 사항 - TradingKey",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV2FtcDBsN1NaV3lMZkRqdW9zSTdsU25lT0JZaFNna2tIQlZSYXpmbGRCU3ktcFBnMU1IWTVOS0lrNFFOdS11eTlLaExIMW9CRlNBdEdjb2NDWGxsbUdrR3EwNmdYWHo2RU9BRkR5RmJfaE9VeWlHTlNpeTQzM0E4Q2hRcnZRVlVjNWNJ?oc=5",
+        "published_at": "Fri, 05 Jun 2026 16:15:34 GMT",
+        "reason": "Tesla Inc 주식(TSLA)은 6월 5일 4.11% 하락했습니다: 투자자가 알아야 할 사항    TradingKey",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "Tesla가 또 다른 회의론자를 이겼습니다 : JPMorgan, TSLA 주가 목표를 200 % 이상 인상 - Stocktwits",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWTBIMUV2YlFCMlkzSWQwa3JIa3YybnprSnVIUC1YekQxT2dLOHVVWFFxUmlMc0l6ZmNxTWFBR0ViOVBaaEg1LXZ3R29DOGE3WnBpRlNjeFVsbHU5Qlk2dVJxQ1NlWjVkbVQ5bzRfWFpfZ2JnNjE2cko2N0c2U2ZCRl9WeDE3ZFRrWnVFUWFmTmZfUDhrSFhWTk16UzF3MTc3dnVXT29qM0VBak4yNUVZLTl1T2thTy1CTGE0dg?oc=5",
-        "published_at": "Fri, 05 Jun 2026 10:55:38 GMT",
+        "published_at": "Fri, 05 Jun 2026 10:51:00 GMT",
         "reason": "Tesla, 또 다른 회의론자 제압: JPMorgan, TSLA 주가 목표를 200% 이상 인상    Stocktwits",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -5076,6 +5100,18 @@
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcW9iTi12Ui1qX2gwZmNwQjFfdEFZajdLOW9GVElVVVZPd2IyNGFlZFlaRXdKMzJWYXFsWjZsOXJRQTFURFFaWWIyUVZoVm9Sak9MM3VXbHVYRlJqMUt1M3E0XzJSeGgxcnM0SGNQYmhfeEZKcEVjVnYxNUNGM3QxYVdSbEZzU2FReGloQmlWS0NaUmNGalJkbmtqMW9xVEUweFhlQ094VGktZERGV1hkbGtLRWQ?oc=5",
         "published_at": "Fri, 05 Jun 2026 15:52:01 GMT",
         "reason": "메타 주식은 10년 만에 1,000달러를 5,300달러로 바꾸었지만 S&P 500을 이겼습니까?    연중무휴 월스트리트",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "메타 주식은 10년 만에 1,000달러를 5,300달러로 바꾸었지만 S&P 500을 이겼습니까? - 야후 파이낸스",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ19DRlVaeEMtTmk4NzUxXzNoUExwaERBcUhMeC1mVlRwVFRJZ1Y0NlNGTi1jVHdGbVZjMFp5OUpOb0NGNTFCcnJWclZtaFpiVDk0VFlNMm5uQThmM2dmZE0wV0VBcUU0YzBycGdTX1pVRk9iTkNIRU5QMnM2eGc0V1JXN3JZbWtHR1dXZGR2WlM?oc=5",
+        "published_at": "Fri, 05 Jun 2026 15:52:01 GMT",
+        "reason": "메타 주식은 10년 만에 1,000달러를 5,300달러로 바꾸었지만 S&P 500을 이겼습니까?    야후 파이낸스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
