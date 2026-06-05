@@ -38,9 +38,10 @@ STOCK_ALIASES={
     'domestic': {}
 }
 PRECISE_YOUTUBE=os.environ.get('STOCK_PRECISE_YOUTUBE','1') != '0'
-TRANSCRIPT_WORKERS=int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','1'))
+TRANSCRIPT_WORKERS=max(1, min(int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','1')), 2))
 YOUTUBE_REQUIRE_TRANSCRIPT=os.environ.get('STOCK_YOUTUBE_REQUIRE_TRANSCRIPT','1') != '0'
 YOUTUBE_CHANNEL_DELAY=float(os.environ.get('STOCK_YOUTUBE_CHANNEL_DELAY','8'))
+YOUTUBE_TRANSCRIPT_DELAY=float(os.environ.get('STOCK_YOUTUBE_TRANSCRIPT_DELAY','3'))
 
 class TextExtractor(HTMLParser):
     def __init__(self): super().__init__(); self.skip=False; self.parts=[]
@@ -313,7 +314,7 @@ def resolve_youtube_video_channel(src):
                 cid=data.get('channel_id') or ''
                 channel_url=data.get('channel_url') or data.get('uploader_url') or ''
                 if cid or channel_url:
-                    return {'name':data.get('channel') or data.get('uploader') or src.get('name','YouTube channel'), 'type':'youtube_channel', 'region':src.get('region','global'), 'url':channel_url or ('https://youtube.com/channel/'+cid), 'channel_id':cid, 'seed_video_id':vid}
+                    return {'name':data.get('channel') or data.get('uploader') or src.get('name','YouTube channel'), 'type':'youtube_channel', 'region':src.get('region','global'), 'url':channel_url or ('https://youtube.com/channel/'+cid), 'channel_id':cid, 'seed_video_id':vid, 'latest_limit':src.get('latest_limit', YOUTUBE_LATEST_LIMIT), 'skip_existing_video_ids':src.get('skip_existing_video_ids', True), 'include_shorts':src.get('include_shorts', False), 'prefer_shorts':src.get('prefer_shorts', False)}
         except Exception:
             pass
     return None
@@ -363,7 +364,7 @@ def collect_youtube_channel(src):
         channel_title=src.get('name','')
         entries=[]
         seen_ids=set()
-        existing_ids=existing_video_ids_for_channel(cid) if src.get('skip_existing_video_ids') else set()
+        existing_ids=existing_video_ids_for_channel(cid) if src.get('skip_existing_video_ids', True) is not False else set()
         skipped_existing=0
 
         def add_entry(entry, kind):
@@ -418,11 +419,12 @@ def collect_youtube_channel(src):
             for e in (data.get('entries') or [])[:latest_limit]:
                 add_entry(e, kind)
 
-        tabs=[]
         if src.get('prefer_shorts'):
             tabs=['shorts']
         else:
-            tabs=['videos','shorts']
+            tabs=['videos']
+            if src.get('include_shorts') is True:
+                tabs.append('shorts')
         for tab in tabs:
             try:
                 if tab == 'videos' and cid:
@@ -435,6 +437,10 @@ def collect_youtube_channel(src):
                     raise
                 if tab == 'shorts':
                     print(f'warning: shorts collection failed for {src.get("name")}: {str(tab_error)[:180]}')
+
+        # After combining videos/shorts, enforce one channel-level latest window.
+        entries.sort(key=lambda e: str(e.get('published') or ''), reverse=True)
+        entries = entries[:latest_limit]
 
         transcripts={}
         def transcript_for(entry):
@@ -450,7 +456,11 @@ def collect_youtube_channel(src):
             return vid, '', 'metadata', 'metadata-only mode'
         workers=max(1, min(TRANSCRIPT_WORKERS, len(entries) or 1))
         with ThreadPoolExecutor(max_workers=workers) as ex:
-            futs=[ex.submit(transcript_for, entry) for entry in entries]
+            futs=[]
+            for idx, entry in enumerate(entries):
+                if idx and YOUTUBE_TRANSCRIPT_DELAY > 0:
+                    time.sleep(YOUTUBE_TRANSCRIPT_DELAY)
+                futs.append(ex.submit(transcript_for, entry))
             for fut in as_completed(futs):
                 vid, transcript, method, status=fut.result()
                 transcripts[vid]=(transcript, method, status)
@@ -524,6 +534,36 @@ def collect_rss(src):
     except Exception as e:
         out.append({'source':src['name'],'source_type':'rss','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':''})
     return out
+
+def normalize_source_role(source, url, role):
+    source_l=str(source or '').lower()
+    url_l=str(url or '').lower()
+    if 'ranto28' in source_l or 'ranto28' in url_l or '메르의 블로그' in str(source or ''):
+        return 'macro_context'
+    return role or ''
+
+def is_macro_context_item(item):
+    return normalize_source_role(item.get('source'), item.get('url'), item.get('source_role')) == 'macro_context'
+
+def is_positive_interest_text(text):
+    low=str(text or '').lower()
+    positive=r'추천|관심|수혜|저평가|대장주|목표가\s*(상향|up|raise)|상향|top pick|buy rating|upgrade|outperform|호재|실적\s*(개선|성장)'
+    negative=r'매각|하락|급락|고평가|주의|목표가\s*(초과|하향)|downgrade|sell rating|underperform|cut|miss|부진|리스크'
+    if re.search(negative, low):
+        return False
+    return bool(re.search(positive, low, re.I))
+
+def evidence_reason_for_item(item):
+    if item.get('confidence') == 'ocr_only':
+        excerpt=''
+        path=item.get('ocr_text_path')
+        if path and Path(path).exists():
+            try:
+                excerpt=' '.join(Path(path).read_text(encoding='utf-8', errors='ignore').split())[:220]
+            except Exception:
+                excerpt=''
+        return ('OCR 화면 텍스트 기반: '+excerpt)[:360] if excerpt else 'OCR 화면 텍스트 기반으로 종목 언급을 확인했습니다.'
+    return item.get('summary') or '근거 문장 추출 대기'
 
 def detect_mentions(text, lex_region, market_region='domestic'):
     mentions=[]; low=text.lower()
@@ -648,6 +688,8 @@ def refresh_accumulated_ocr(items, ocr_index):
 def recompute_common_and_ystats(items, lex):
     agg={}
     for item in items:
+        if is_macro_context_item(item):
+            continue
         for ticker in item.get('tickers') or []:
             market=(item.get('ticker_markets') or {}).get(ticker) or item.get('region') or 'domestic'
             name=lex.get(market,{}).get(ticker) or ticker
@@ -655,7 +697,7 @@ def recompute_common_and_ystats(items, lex):
             a=agg.setdefault(key, {'region':market,'ticker':ticker,'name':name,'sources':[], 'source_count':0, 'evidence':[]})
             if item.get('source') not in a['sources']:
                 a['sources'].append(item.get('source')); a['source_count']=len(a['sources'])
-            a['evidence'].append({'source':item.get('source'),'source_role':item.get('source_role'),'title':item.get('title'),'url':item.get('url'),'published_at':item.get('published_at'),'reason':item.get('summary') or '근거 문장 추출 대기','target_price':item.get('target_price') or '출처에서 명시 안 됨','buy_zone':item.get('buy_zone') or '출처에서 명시 안 됨','price_note':item.get('price_note') or '','confidence':item.get('confidence')})
+            a['evidence'].append({'source':item.get('source'),'source_role':item.get('source_role'),'title':item.get('title'),'url':item.get('url'),'published_at':item.get('published_at'),'reason':evidence_reason_for_item(item),'target_price':item.get('target_price') or '출처에서 명시 안 됨','buy_zone':item.get('buy_zone') or '출처에서 명시 안 됨','price_note':item.get('price_note') or '','confidence':item.get('confidence')})
     common=sorted(agg.values(), key=lambda x:(x['source_count'], len(x['evidence'])), reverse=True)
     for c in common:
         c['stance']='복수 출처 추천/관심' if c['source_count']>=2 else '단일 출처 추천/관심'
@@ -728,18 +770,29 @@ def main():
             text=ocr_text[:12000]
         else:
             text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text','')+' '+ocr_text)[:24000]
-        source_role=r.get('source_role') or infer_source_role(r.get('source_type'))
+        source_role=normalize_source_role(r.get('source'), r.get('url'), r.get('source_role') or infer_source_role(r.get('source_type')))
         mention_text='' if source_role == 'macro_context' else text
         mentions=detect_all_mentions(mention_text, lex)
         stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
-        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':source_role, 'source_note':r.get('source_note',''), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('ocr_only' if ocr_text else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta')), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'ocr_method':(ocr_rec or {}).get('ocr_method',''), 'ocr_status':(ocr_rec or {}).get('ocr_status',''), 'ocr_chars':(ocr_rec or {}).get('ocr_chars',0), 'ocr_text_path':(ocr_rec or {}).get('ocr_text_path',''), 'extraction_quality':('transcript+ocr' if (r.get('transcript_status')=='ok' and ocr_text) else ('ocr_only' if ocr_text else r.get('extraction_quality','metadata')))}
+        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':source_role, 'source_note':r.get('source_note',''), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if (mentions and (not str(r.get('source_type','')).startswith('rss')) and (r.get('source_type') != 'naver_blog_feed' or source_role != 'macro_context') and (r.get('source_type') != 'rss') and (r.get('source_type') != 'naver_blog_feed' or is_positive_interest_text(text))) else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('ocr_only' if ocr_text else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta')), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'ocr_method':(ocr_rec or {}).get('ocr_method',''), 'ocr_status':(ocr_rec or {}).get('ocr_status',''), 'ocr_chars':(ocr_rec or {}).get('ocr_chars',0), 'ocr_text_path':(ocr_rec or {}).get('ocr_text_path',''), 'extraction_quality':('transcript+ocr' if (r.get('transcript_status')=='ok' and ocr_text) else ('ocr_only' if ocr_text else r.get('extraction_quality','metadata')))}
         item=enrich_news_translations(item, translation_cache)
         current_items.append(item)
     save_translation_cache(translation_cache)
     items, previous_count, newly_added = merge_accumulated_items(current_items, now)
     items = refresh_accumulated_ocr(items, ocr_index)
+    # 누적 데이터에도 최신 역할 규칙을 재적용한다. 특히 메르/ranto28은 종목 추천 카운트에서 제외한다.
+    normalized_items=[]
+    for item in items:
+        item=dict(item)
+        item['source_role']=normalize_source_role(item.get('source'), item.get('url'), item.get('source_role'))
+        if item['source_role'] == 'macro_context':
+            item['tickers']=[]
+            item['ticker_markets']={}
+            item['recommendation']='큰틀 참고'
+        normalized_items.append(item)
+    items=normalized_items
     # 기존 누적 뉴스도 매 실행마다 한국어 표시 필드로 보정한다.
     items=[enrich_news_translations(item, translation_cache) for item in items]
     save_translation_cache(translation_cache)

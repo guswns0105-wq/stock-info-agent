@@ -81,6 +81,16 @@ def badge(value, cls=''):
     return '' if not value else f'<span class="badge {cls}">{esc(value)}</span>'
 
 
+def confidence_label(conf):
+    return {
+        'transcript': ('자막 기반', 'conf'),
+        'ocr_only': ('화면 OCR 기반', 'conf'),
+        'source-title/meta': ('제목/설명 참고', 'meta-badge'),
+        'metadata': ('제목/설명 참고', 'meta-badge'),
+        'caption_failed': ('근거 부족', 'meta-badge'),
+    }.get(conf or '', (conf or '근거 미확인', 'meta-badge'))
+
+
 def short_date(value):
     if not value:
         return '날짜 미확인'
@@ -98,11 +108,11 @@ def evidence_rows(evidence):
         url = esc(ev.get('url') or '')
         target = esc(ev.get('target_price') or '출처에서 명시 안 됨')
         buy = esc(ev.get('buy_zone') or '출처에서 명시 안 됨')
-        conf = '자막 기반' if ev.get('confidence') == 'transcript' else '제목/설명 기반'
+        conf, conf_cls = confidence_label(ev.get('confidence'))
         link = f'<a href="{url}" target="_blank" rel="noreferrer">원문</a>' if url else ''
         rows.append(f'''
         <li class="evidence-row">
-          <div class="ev-top"><b>{role} {source}</b><span>{date}</span>{link}{badge(conf, 'conf' if ev.get('confidence') == 'transcript' else 'meta-badge')}</div>
+          <div class="ev-top"><b>{role} {source}</b><span>{date}</span>{link}{badge(conf, conf_cls)}</div>
           <div class="ev-title">{title}</div>
           <div class="ev-reason"><b>추천/언급 이유:</b> {reason}</div>
           <div class="price-grid"><span><b>적정가·목표가:</b> {target}</span><span><b>매수·진입가:</b> {buy}</span></div>
@@ -117,7 +127,7 @@ def rec_card(rec, rank):
       <span class="rank">#{rank}</span>
       <span class="stock-name">{esc(rec.get('name'))}</span>
       <span class="stock-code">{esc(rec.get('ticker'))}</span>
-      <span class="mention-count"><b>{count}</b>번 거론</span>
+      <span class="mention-count"><b>{count}</b>회 언급</span>
     </div>'''
 
 
@@ -179,7 +189,7 @@ def valuation_card(v):
       <p class="plain-price-hint"><b>쉽게 말하면:</b> {esc(hint)}</p>
       <p><b>읽는 법:</b> {esc(human_copy(v.get('rationale')))}<br><b>다음에 볼 것:</b> {esc(human_copy(v.get('action')))}</p>
       <div class="valuation-metrics"><span>PER {metric(v.get('pe'))}</span><span>Fwd PER {metric(v.get('forward_pe'))}</span><span>PBR {metric(v.get('pb'))}</span><span>ROE {metric(v.get('roe'), '%')}</span><span>순마진 {metric(v.get('profit_margin'), '%')}</span><span>차트 {(esc((v.get('chart') or {}).get('trend')) or '확인 불가')}</span><span>20일 {metric((v.get('chart') or {}).get('ret20_pct'), '%')}</span></div>
-      <div class="valuation-basis">산식: {esc(basis)}</div>
+      <div class="valuation-basis">계산 근거: {esc(basis)}</div>
       <div class="valuation-pills"><b>강점</b>{positives}</div>
       <div class="valuation-pills"><b>주의</b>{risks}</div>
       <div class="valuation-links">{source_links}</div>

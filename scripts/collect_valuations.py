@@ -255,18 +255,26 @@ def judge(region, ticker, name, mention_count, metrics):
     target_pe, target_pb = target_multiples(region, metrics)
     fair_values = []
     valuation_basis = []
-    if price and pe and pe > 0:
-        implied_eps = price / pe
-        fair_values.append(implied_eps * target_pe)
-        valuation_basis.append(f'PER {fmt_num(pe)}배 → 기준 PER {fmt_num(target_pe)}배')
-    if eps and eps > 0:
-        fair_values.append(eps * target_pe)
-        valuation_basis.append(f'EPS {fmt_num(eps)} → 기준 PER {fmt_num(target_pe)}배')
+    eps_from_pe = price / pe if price and pe and pe > 0 else None
+    eps_usable = eps if eps and eps > 0 else None
+    if eps_usable and eps_from_pe:
+        diff = abs(eps_usable - eps_from_pe) / max(abs(eps_usable), abs(eps_from_pe))
+        if diff > 0.50:
+            # Public finance pages can mix trailing/forward PE and EPS periods. Avoid double-counting contradictory EPS.
+            valuation_basis.append(f'EPS/PER 불일치 {fmt_num(diff*100, "%")} → PER 역산 제외')
+            eps_from_pe = None
+    if eps_usable:
+        fair_values.append((eps_usable * target_pe, 0.70))
+        valuation_basis.append(f'EPS {fmt_num(eps_usable)} → 기준 PER {fmt_num(target_pe)}배')
+    elif eps_from_pe:
+        fair_values.append((eps_from_pe * target_pe, 0.55))
+        valuation_basis.append(f'PER {fmt_num(pe)}배 역산 EPS → 기준 PER {fmt_num(target_pe)}배')
     if price and pb and pb > 0:
         book = price / pb
-        fair_values.append(book * target_pb)
+        pb_weight = 0.45 if region == 'domestic' else 0.25
+        fair_values.append((book * target_pb, pb_weight))
         valuation_basis.append(f'PBR {fmt_num(pb)}배 → 기준 PBR {fmt_num(target_pb)}배')
-    fair = sum(fair_values) / len(fair_values) if fair_values else None
+    fair = (sum(v*w for v,w in fair_values) / sum(w for _,w in fair_values)) if fair_values else None
     buy = fair * 0.82 if fair else None
     margin_to_fair = ((fair / price) - 1) * 100 if fair and price else None
     score = 0
@@ -323,7 +331,7 @@ def judge(region, ticker, name, mention_count, metrics):
     else:
         target_sell = fair_sell or resistance_sell
     support = chart.get('recent_support')
-    if buy and support and price:
+    if buy and support and price and margin_to_fair is not None and margin_to_fair >= 0:
         target_buy = max(min(price * 0.98, support * 1.03), min(buy, price * 0.98))
     else:
         target_buy = buy
