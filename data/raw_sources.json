@@ -1,24 +1,5 @@
 [
   {
-    "source": "경제사냥꾼",
-    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_id": "DeKUdPe1BWg",
-    "youtube_kind": "short",
-    "source_type": "youtube_short",
-    "source_role": "",
-    "source_note": "",
-    "region": "domestic",
-    "title": "코스피 하락 속, 꼭 알아야 하는 미국+일본 뉴스 3가지",
-    "summary": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-    "url": "https://youtu.be/DeKUdPe1BWg",
-    "published_at": "",
-    "text": "",
-    "transcript_method": "none",
-    "transcript_status": "youtube_transcript_api: ; yt-dlp: ERROR: Unable to download video subtitles for 'ko-orig': HTTP Error 429: Too Many Requests\n",
-    "transcript_chars": 0,
-    "extraction_quality": "caption_failed"
-  },
-  {
     "source": "메르의 블로그",
     "source_type": "naver_blog_feed",
     "source_role": "macro_context",
@@ -142,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "환율, 달러 강세에 1,550원도 넘었다…금융위기 이후 최고",
+    "summary": "(서울=연합뉴스) 이도흔 기자 = 원/달러 환율이 5일 야간 거래에서 1,550원을 넘어섰다.",
+    "url": "https://www.yna.co.kr/view/AKR20260605158300002",
+    "published_at": "Fri, 5 Jun 2026 22:54:19 +0900",
+    "text": "환율, 달러 강세에 1,550원도 넘었다…금융위기 이후 최고 (서울=연합뉴스) 이도흔 기자 = 원/달러 환율이 5일 야간 거래에서 1,550원을 넘어섰다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "[쇼츠] 젠슨황, SK·LG·네이버 총수와 '삼소회동'",
     "summary": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 서울 홍대 인근에서 국내 굴지의 대기업 총수들과 삼겹살에 맥주와 소주를 곁들인 만찬 회...",
     "url": "https://www.yna.co.kr/view/AKR20260605155700704",
@@ -179,16 +170,6 @@
     "text": "김정관 \"301조 추가 관세 우려에 러트닉이 '걱정말라'고 해\" (서울=연합뉴스) 신창용 기자 = 김정관 산업통상부 장관은 미국 무역법 301조 조사로 한국의 관세 부담이 지난해 한미 합의 수준인 15%를 넘..."
   },
   {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합)",
-    "summary": "(서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다.",
-    "url": "https://www.yna.co.kr/view/AKR20260605141051017",
-    "published_at": "Fri, 5 Jun 2026 21:01:21 +0900",
-    "text": "엔비디아, 한국 AI기술센터 설립 착수…젠슨 황 \"서울 유력\"(종합) (서울=연합뉴스) 권하영 기자 = 엔비디아가 한국에 인공지능(AI) 기술센터를 설립하기 위한 채용 절차에 본격 착수했다."
-  },
-  {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
@@ -202,41 +183,41 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is Cintas Stock Underperforming the S&P 500?",
+    "title": "The stock market's scorching run means the rich will keep getting richer: Chart",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/cintas-stock-underperforming-p-500-011514876.html",
-    "published_at": "2026-06-04T01:15:14Z",
-    "text": "Is Cintas Stock Underperforming the S&P 500? "
+    "url": "https://finance.yahoo.com/markets/article/the-stock-markets-scorching-run-means-the-rich-will-keep-getting-richer-chart-135939239.html",
+    "published_at": "2026-06-05T13:59:39Z",
+    "text": "The stock market's scorching run means the rich will keep getting richer: Chart "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "TransAlta to Buy Colorado Gas Plants in $1 Billion Deal",
+    "title": "Software Industry Pressures Weighed on Guidewire Software’s (GWRE) Performance in Q1",
     "summary": "",
-    "url": "https://finance.yahoo.com/sectors/energy/articles/transalta-buy-colorado-gas-plants-013200802.html",
-    "published_at": "2026-06-04T01:32:00Z",
-    "text": "TransAlta to Buy Colorado Gas Plants in $1 Billion Deal "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/software-industry-pressures-weighed-guidewire-134435255.html",
+    "published_at": "2026-06-05T13:44:35Z",
+    "text": "Software Industry Pressures Weighed on Guidewire Software’s (GWRE) Performance in Q1 "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "TSMC working hard to meet chip demand, would 'like' to hike prices",
+    "title": "Leading U.S. Banks Join Forces On Tokenization Network",
     "summary": "",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/tsmc-boss-upbeat-outlook-ai-014601576.html",
-    "published_at": "2026-06-04T01:46:01Z",
-    "text": "TSMC working hard to meet chip demand, would 'like' to hike prices "
+    "url": "https://finance.yahoo.com/markets/crypto/articles/leading-u-banks-join-forces-134300154.html",
+    "published_at": "2026-06-05T13:43:00Z",
+    "text": "Leading U.S. Banks Join Forces On Tokenization Network "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is Constellation Energy Stock Underperforming the Nasdaq?",
+    "title": "What Makes Freshpet (FRPT) a Resilient Investment?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-stock-underperforming-nasdaq-015319288.html",
-    "published_at": "2026-06-04T01:53:19Z",
-    "text": "Is Constellation Energy Stock Underperforming the Nasdaq? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/makes-freshpet-frpt-resilient-investment-134255459.html",
+    "published_at": "2026-06-05T13:42:55Z",
+    "text": "What Makes Freshpet (FRPT) a Resilient Investment? "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -247,26 +228,6 @@
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0Z1ktcHJmZ1JHUTFIRUxBN0NFbWttWmxEQ3R0R0VHSEN4UGl2OUNBWXhqRDVRa2lSNk9JT2FUS01ZT3F1UmNlX3kxXzNrUWhXU0F1ZEZGaXRJbHY0RHVFZHpyUWNJSDQ?oc=5",
     "published_at": "Fri, 05 Jun 2026 06:05:52 GMT",
     "text": "삼성전자 ″반도체 성장 성과 국민께″…구매액 20% 온누리로 지급 - 연합뉴스TV  삼성전자 ″반도체 성장 성과 국민께″…구매액 20% 온누리로 지급 &nbsp;&nbsp; 연합뉴스TV "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 - Chosunbiz",
-    "summary": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZERKR0JJVmpJN1ctU0NoWjlqQldHc19za1dUUWJPbHI3TWwyVEJrdk1qS1ZQODlVbWlDUEVRVHpKdU0zdTg5WGdRRTI5SDVrUWdkX3ltd1dqd3ZXUWpXWHVkSU1zdm5EbG8wQUdXYlg4Nk1YWEhSQjJGdUtUR0lnUUM4NG5vNWfSAZsBQVVfeXFMTk1tM0l4ZkszbFVkZGdYbXFnZjlpZ0RWSDRGMnkyaEhOOEZCNlh0ZUhrdlB3VTB4SDZMYktBVGRXZmZiQVhEMFFUcGVHek5jWHZsSmJ0RUJYSlc1bklFWkhpSlV3ZW9iUlU1aVBib0h4MU53cHpRLWVjZmktRk1uYnFrUjNLdkhKSVg0dDYzMlplc0RGYUdzXzNXM2M?oc=5",
-    "published_at": "Fri, 05 Jun 2026 07:29:00 GMT",
-    "text": "[마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 - Chosunbiz  [마켓뷰] 검은 금요일… 코스피 5% 폭락, ‘천스닥’ 겨우 지켜 - 조선비즈 &nbsp;&nbsp; Chosunbiz "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레",
-    "summary": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tVG9vZHhxMEtQazAtNE85SXRORVMwU256QTIweFdvaGJsOURUaUZZa095d1RXQTJrSl9FdUVqaUtFc0Qtdk9pQm02UTFsZ1phcVpHUEU3cWt2cm52bEUtVkpWTy1NRG8?oc=5",
-    "published_at": "Fri, 05 Jun 2026 07:58:00 GMT",
-    "text": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레  ‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -287,6 +248,26 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBVU1VvRWtQejB1Qkl1Mm5Ib1JEZUNqVi1SX2NoYUUwNzExNDZvVHBhMTZveE9YVThoaklaZ3dQT09yM3NfUzJsNzhEYWZ0eE9vcEJLLXZhemFCV3BFMkJNRU5QQnBZdEo0SHNOOFZBc3FqWDI50gF0QVVfeXFMT3hKY0p3cThBdnZFVnJ3T21feDBQZUd3M20wU1J4YUJHaXhmeVlpZVNQUkhiWXY4elBZc2FhUlVfM3E3TXAxSUlPcjdMaUJHcVgySWViRmlvN1NFUHdTZFlDbzAxUFFPMkloRkdtbVNhSWFKdzE?oc=5",
     "published_at": "Fri, 05 Jun 2026 00:16:14 GMT",
     "text": "코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 - MBC 뉴스  코스피 4% 넘게 하락 8,200선까지 밀려‥매도 사이드카도 발령 &nbsp;&nbsp; MBC 뉴스 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레",
+    "summary": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tVG9vZHhxMEtQazAtNE85SXRORVMwU256QTIweFdvaGJsOURUaUZZa095d1RXQTJrSl9FdUVqaUtFc0Qtdk9pQm02UTFsZ1phcVpHUEU3cWt2cm52bEUtVkpWTy1NRG8?oc=5",
+    "published_at": "Fri, 05 Jun 2026 07:58:00 GMT",
+    "text": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레  ‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 - 연합인포맥스",
+    "summary": "코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 &nbsp;&nbsp; 연합인포맥스",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CeUZFSjBtOVdESmpMNThXRXRQUVBVeDBZU0RNZWZiTkJmLVhIbmplUVU5aDR5S2JMVTItZ0hPcFgyZFRzUlAza3drellzeXh5YTV6WGFfanJqQU5RZVZhZVk3QmVqVndmT2xUdHI3eGLSAXRBVV95cUxOTW54Uzl6bXAtV2JvU3N2c1VhZ2hxWFlwWGpzOFlqNk0wQllablQ0UTdFdnlJYU5Sd1hUZDBSZ2dMcVZsZDF4RmpBRzZhQktKQkRWT3N0dkNZY1djc2VDSWZyaDZvMjBDSEMzUFhHdm0zRS1Jaw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 00:15:00 GMT",
+    "text": "코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 - 연합인포맥스  코스피, 미 반도체 급락 여파에 장초반 매도 사이드카 &nbsp;&nbsp; 연합인포맥스 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -342,11 +323,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus - Reuters",
-    "summary": "Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus &nbsp;&nbsp; Reuters",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 11:35:12 GMT",
-    "text": "Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus - Reuters  Nasdaq, S&P futures decline as semiconductors slip; payrolls in focus &nbsp;&nbsp; Reuters "
+    "title": "US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% - XTB.com",
+    "summary": "US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% &nbsp;&nbsp; XTB.com",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
+    "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
+    "text": "US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% - XTB.com  US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% &nbsp;&nbsp; XTB.com "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -382,11 +363,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs",
-    "summary": "How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5",
-    "published_at": "Fri, 22 May 2026 07:00:00 GMT",
-    "text": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs  How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs "
+    "title": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 - TradingView",
+    "summary": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 &nbsp;&nbsp; TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaDdnem5fYlcwNVo5VkYwV0Etb3VHSGlTcnNObVluVGdIVE5PbHdWVFowbVc1SVItUzhLOGhjaEZkNTdqV0VLUDlLY2dzLVVhZFN6ekpWQ3lHU3VJSFdHRXJRS3Jwa1JSN1RtN0lDY3pYaGRyM0YtbUludExzTUhkRXlES1ZwMFdMdWNHZ1lVT2pIUU42dHlWMS1YeEdNT0NNM3lfQnYxWW92bWdqUmdwZ3ZDcUotbVRqOVhPVmNhMjhpdTducEtUU3N6ZDJ3S2pIOVZ5SGVjdUl3dw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 03:38:44 GMT",
+    "text": "Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 - TradingView  Spotting Winners: Semtech (NASDAQ:SMTC) And Semiconductor Manufacturing Stocks In Q1 &nbsp;&nbsp; TradingView "
   },
   {
     "source": "Google News Magnificent 7",

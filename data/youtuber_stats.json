@@ -9,9 +9,9 @@
     "mention_count": 92,
     "transcript_count": 65,
     "metadata_count": 7,
-    "ocr_count": 8,
+    "ocr_count": 9,
     "transcript_chars": 137771,
-    "ocr_chars": 3324,
+    "ocr_chars": 3630,
     "stocks": [
       {
         "ticker": "005930",
@@ -90,11 +90,11 @@
         "url": "https://youtu.be/DeKUdPe1BWg",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 306,
+        "ocr_excerpt": "코스피하락속 폭알아야하는 미국 일본 뉴스80지 경제 사냥꾼 2026년 06월 05일 1000 「검은 금요일 로 끝나서 개미들 전부 패닉왔는데 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 코스피하락속 꼭알아야하는 미국 일본 뉴스 8가지 SALES SPIKE NEW MAR",
         "youtube_kind": "short"
       },
       {
