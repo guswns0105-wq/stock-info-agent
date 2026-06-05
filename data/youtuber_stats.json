@@ -1223,515 +1223,6 @@
   },
   {
     "region": "global",
-    "youtuber": "올랜도 킴 미국주식",
-    "channel_id": "",
-    "video_count": 34,
-    "short_count": 0,
-    "regular_video_count": 34,
-    "mention_count": 35,
-    "transcript_count": 0,
-    "metadata_count": 34,
-    "ocr_count": 8,
-    "transcript_chars": 0,
-    "ocr_chars": 17774,
-    "stocks": [
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "count": 3
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "count": 3
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon",
-        "count": 3
-      },
-      {
-        "ticker": "INTC",
-        "name": "Intel",
-        "count": 3
-      },
-      {
-        "ticker": "ORCL",
-        "name": "Oracle",
-        "count": 3
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA",
-        "count": 2
-      },
-      {
-        "ticker": "AAPL",
-        "name": "Apple",
-        "count": 2
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "count": 2
-      },
-      {
-        "ticker": "META",
-        "name": "Meta",
-        "count": 2
-      },
-      {
-        "ticker": "AVGO",
-        "name": "Broadcom",
-        "count": 2
-      },
-      {
-        "ticker": "NFLX",
-        "name": "Netflix",
-        "count": 2
-      },
-      {
-        "ticker": "PLTR",
-        "name": "Palantir",
-        "count": 2
-      },
-      {
-        "ticker": "ARM",
-        "name": "Arm",
-        "count": 1
-      },
-      {
-        "ticker": "CRM",
-        "name": "Salesforce",
-        "count": 1
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 1
-      },
-      {
-        "ticker": "SMCI",
-        "name": "Super Micro Computer",
-        "count": 1
-      },
-      {
-        "ticker": "IONQ",
-        "name": "IonQ",
-        "count": 1
-      },
-      {
-        "ticker": "QQQ",
-        "name": "Nasdaq 100 ETF",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AAPL",
-          "MSFT",
-          "GOOGL",
-          "AMZN",
-          "META",
-          "AVGO",
-          "NFLX",
-          "ARM",
-          "INTC",
-          "ORCL",
-          "CRM"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 4115,
-        "ocr_excerpt": "시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -G",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!",
-        "url": "https://youtu.be/vAaKxAp-3xA",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 1487,
-        "ocr_excerpt": "월간시황 대세는 상승중이다!!! 6월 장세는? 매수관점에서 출발하자 MARKET DATA Key Market Data Cryptocurrency U.S. EQUITIES Name S&P 500 DJIA NASDAQ 100 Mid Cap Small Cap Micro Cap US EQUIT",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
-        "url": "https://youtu.be/KM1gxblQq9s",
-        "published_at": "",
-        "tickers": [
-          "PLTR"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 556,
-        "ocr_excerpt": "팔란티어 결국은 주가는 이익의 함수다 팔란티어 급등이유? 어디까지 가나? 거래 내용 관련 분쟁 논의 중인 거래의 정확한 조건은 아직 불분명합니다. 이란 최고 지도자의 고문인 모흐센 레자이는 x에 올린 글 에서 트럼프 대통령이 \"외 교를 배신하고 있다”고 말했다. 레자이는 \"해상 봉쇄를 ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
-        "url": "https://youtu.be/jh-7Hm0CkLc",
-        "published_at": "",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 543,
-        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AAPL",
-          "MSFT",
-          "GOOGL",
-          "AMZN",
-          "AVGO",
-          "PLTR",
-          "NFLX",
-          "INTC",
-          "ORCL"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 2653,
-        "ocr_excerpt": "시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfoli",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 남들이 비난할때 매수하고 칭찬할때는 조심하자!!!",
-        "url": "https://youtu.be/ic1aOliaOxE",
-        "published_at": "",
-        "tickers": [
-          "SMCI",
-          "IONQ"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 2196,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 17 1ONO 70.14 A +725% Iine tradingview.com/chartROCTiq5/ - 양자 연구 * Bookmariss 1 경제약 PLUS Leaming - Yo... mh Indicators • lonQ, Inc. • 1D• NYSE Q ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "tickers": [
-          "TSLA",
-          "GOOGL",
-          "AMZN",
-          "META",
-          "QQQ",
-          "INTC",
-          "ORCL"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 4166,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Ma",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(긴급시황) 전쟁 다시 시작? 그러면 기회를 찿자!!!",
-        "url": "https://youtu.be/WGC99EzuiJQ",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 2058,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 긴급시황 한번더 기회주나? 유가급등, 선물폭락 전쟁다시 시작하나? - 양자 연구 * Bookmarks PLUS Learing - Yo... e S&P 500 Map S Stock Comparison T.... NO1! m Indicators NASDAQ 100",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 조정은 있지만 조정의 폭이 깊지 않다",
-        "url": "https://youtu.be/FygECrJCDm0",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
-        "url": "https://youtu.be/G8gDkLB2I0s",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 지금은 버블이 무서워서 매도를 하거나 매수를 못할때가 아니다!!!",
-        "url": "https://youtu.be/wWc85BFeq1I",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(상승종목) 왜 펀드멘탈이 좋은 종목은 계속 신고가를 돌파하면서 가나?",
-        "url": "https://youtu.be/khPzRKrzA74",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 양자 주식중 누가더 잘나가나?",
-        "url": "https://youtu.be/rlZAOQZR9y8",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(주간시황) 금리가 실적의 성장성을 꺽으면 주가의 조정폭이 깊다.그러나 금리상승이 없다면 주가는 조정이 있지만 아직도 추세 상승중이다",
-        "url": "https://youtu.be/qu64dHzrDew",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(스페이스X) 상장후 매매는 어떻게 하나?",
-        "url": "https://youtu.be/0w78c8xzaEo",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 신임 연준의장 취임후 3개월동안 조정오나?",
-        "url": "https://youtu.be/3Tj1uPOo1kM",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 지분투자 받는다면 주가희석은?",
-        "url": "https://youtu.be/BqHS1gAi9Q4",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 지금은 차익실현등은 나오고 있지만 저가 매수세 역시도 강하게 들어온다!!!",
-        "url": "https://youtu.be/I14ApIZK5Gg",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 수주잔고 많고 다음 매출도 두배이상 예상한다.",
-        "url": "https://youtu.be/iVrfw4Ul8r8",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 지금은 짧은 조정,긴상승 중이다!!!",
-        "url": "https://youtu.be/L1H27lCRfFE",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(테슬라) 주식수를 늘려가면서 장기 투자하자!!!",
-        "url": "https://youtu.be/jG9uFGDz21M",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 금리 영향 때문에 주가가 올라가기 힘들지만 그래도 좋은주식들은 분할매수하자(맬류에이션 조사후)",
-        "url": "https://youtu.be/EfwqE-FXWrk",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(팔란티어) 소프트웨어가 반등중에 있다!!!",
-        "url": "https://youtu.be/xKhKlxTPMfU",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(사황분석) 장기적으로는 상승,단기적으로는 조정",
-        "url": "https://youtu.be/_zpt3-2jYDM",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(우주,데이터센터 유망주) 우주와 데이터센터에서 투자해야할 종목들은?",
-        "url": "https://youtu.be/Ud1WhOHNd-8",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(주간시황) 금리폭탄으로 조정폭이 깊어지나?하락으로의 전환인가?",
-        "url": "https://youtu.be/uf3JVVnOdoY",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
-        "url": "https://youtu.be/oqSSFBnSysQ",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 건전한 조정 VS 하락시작",
-        "url": "https://youtu.be/G20MMisYFns",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 매도는 어떤 기준으로 하나?",
-        "url": "https://youtu.be/bH7zkRhppsU",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석)  전약후강으로  대기자금 많다.그러나 반도체 조정은 완전히 끝나지 않았다.",
-        "url": "https://youtu.be/D2TzqT51El8",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      }
-    ]
-  },
-  {
-    "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
     "video_count": 27,
@@ -2802,6 +2293,434 @@
   },
   {
     "region": "global",
+    "youtuber": "올랜도 킴 미국주식",
+    "channel_id": "",
+    "video_count": 26,
+    "short_count": 0,
+    "regular_video_count": 26,
+    "mention_count": 20,
+    "transcript_count": 0,
+    "metadata_count": 26,
+    "ocr_count": 4,
+    "transcript_chars": 0,
+    "ocr_chars": 11073,
+    "stocks": [
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 2
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "count": 2
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "count": 2
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "count": 2
+      },
+      {
+        "ticker": "ORCL",
+        "name": "Oracle",
+        "count": 2
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 1
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "count": 1
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "count": 1
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "count": 1
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 1
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix",
+        "count": 1
+      },
+      {
+        "ticker": "SMCI",
+        "name": "Super Micro Computer",
+        "count": 1
+      },
+      {
+        "ticker": "IONQ",
+        "name": "IonQ",
+        "count": 1
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "count": 1
+      },
+      {
+        "ticker": "QQQ",
+        "name": "Nasdaq 100 ETF",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AAPL",
+          "MSFT",
+          "GOOGL",
+          "AMZN",
+          "AVGO",
+          "PLTR",
+          "NFLX",
+          "INTC",
+          "ORCL"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 2653,
+        "ocr_excerpt": "시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfoli",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 남들이 비난할때 매수하고 칭찬할때는 조심하자!!!",
+        "url": "https://youtu.be/ic1aOliaOxE",
+        "published_at": "",
+        "tickers": [
+          "SMCI",
+          "IONQ"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 2196,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 17 1ONO 70.14 A +725% Iine tradingview.com/chartROCTiq5/ - 양자 연구 * Bookmariss 1 경제약 PLUS Leaming - Yo... mh Indicators • lonQ, Inc. • 1D• NYSE Q ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "tickers": [
+          "TSLA",
+          "GOOGL",
+          "AMZN",
+          "META",
+          "QQQ",
+          "INTC",
+          "ORCL"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 4166,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Ma",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(긴급시황) 전쟁 다시 시작? 그러면 기회를 찿자!!!",
+        "url": "https://youtu.be/WGC99EzuiJQ",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 2058,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 긴급시황 한번더 기회주나? 유가급등, 선물폭락 전쟁다시 시작하나? - 양자 연구 * Bookmarks PLUS Learing - Yo... e S&P 500 Map S Stock Comparison T.... NO1! m Indicators NASDAQ 100",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 조정은 있지만 조정의 폭이 깊지 않다",
+        "url": "https://youtu.be/FygECrJCDm0",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(마이크론) 왜 자꾸 가는종목을 팔려고 하나?",
+        "url": "https://youtu.be/G8gDkLB2I0s",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 지금은 버블이 무서워서 매도를 하거나 매수를 못할때가 아니다!!!",
+        "url": "https://youtu.be/wWc85BFeq1I",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(상승종목) 왜 펀드멘탈이 좋은 종목은 계속 신고가를 돌파하면서 가나?",
+        "url": "https://youtu.be/khPzRKrzA74",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 양자 주식중 누가더 잘나가나?",
+        "url": "https://youtu.be/rlZAOQZR9y8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(주간시황) 금리가 실적의 성장성을 꺽으면 주가의 조정폭이 깊다.그러나 금리상승이 없다면 주가는 조정이 있지만 아직도 추세 상승중이다",
+        "url": "https://youtu.be/qu64dHzrDew",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(스페이스X) 상장후 매매는 어떻게 하나?",
+        "url": "https://youtu.be/0w78c8xzaEo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 신임 연준의장 취임후 3개월동안 조정오나?",
+        "url": "https://youtu.be/3Tj1uPOo1kM",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 지분투자 받는다면 주가희석은?",
+        "url": "https://youtu.be/BqHS1gAi9Q4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 지금은 차익실현등은 나오고 있지만 저가 매수세 역시도 강하게 들어온다!!!",
+        "url": "https://youtu.be/I14ApIZK5Gg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 수주잔고 많고 다음 매출도 두배이상 예상한다.",
+        "url": "https://youtu.be/iVrfw4Ul8r8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 지금은 짧은 조정,긴상승 중이다!!!",
+        "url": "https://youtu.be/L1H27lCRfFE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(테슬라) 주식수를 늘려가면서 장기 투자하자!!!",
+        "url": "https://youtu.be/jG9uFGDz21M",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 금리 영향 때문에 주가가 올라가기 힘들지만 그래도 좋은주식들은 분할매수하자(맬류에이션 조사후)",
+        "url": "https://youtu.be/EfwqE-FXWrk",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(팔란티어) 소프트웨어가 반등중에 있다!!!",
+        "url": "https://youtu.be/xKhKlxTPMfU",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(사황분석) 장기적으로는 상승,단기적으로는 조정",
+        "url": "https://youtu.be/_zpt3-2jYDM",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(우주,데이터센터 유망주) 우주와 데이터센터에서 투자해야할 종목들은?",
+        "url": "https://youtu.be/Ud1WhOHNd-8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(주간시황) 금리폭탄으로 조정폭이 깊어지나?하락으로의 전환인가?",
+        "url": "https://youtu.be/uf3JVVnOdoY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(관심종목) 장기투자 선수들은 어느종목을 들고가나?새로 편입한 종목은?",
+        "url": "https://youtu.be/JT4ZxTcd2Ko",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 지금은 차익매물이 나와서 쉬어간다.10년물 금리 주의하자!!!",
+        "url": "https://youtu.be/MmQHpsvE6ww",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 항상 우량주 중심의 장기투자가 주식의 정석이다!!!",
+        "url": "https://youtu.be/A0c3BiNr83I",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 지금은 모아갈 때이지 팔고 떠날때 아니다!!!",
+        "url": "https://youtu.be/MLcAvuTvcZo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "global",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
     "video_count": 9,
@@ -2994,6 +2913,213 @@
         "ocr_chars": 304,
         "ocr_excerpt": "삼성전자 0 0만 원 진짜 갈 수 있나? 반도체 슈퍼사이클 AI 혁명과 함께 열리는 새로운 반도체 시대 수요 폭중 사•데이터센터 스타트폰 •전기사 가격 상승 GRAM• NIND 설비 투자 확대 글로벌 기업 대구오 CACK 공급 부족 0&> 공급 지속적 부족] 실적 폭풍 반도체 기업 사랑",
         "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "youtuber": "올랜도 킴 미국주식",
+    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
+    "video_count": 8,
+    "short_count": 0,
+    "regular_video_count": 8,
+    "mention_count": 15,
+    "transcript_count": 0,
+    "metadata_count": 8,
+    "ocr_count": 4,
+    "transcript_chars": 0,
+    "ocr_chars": 6701,
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 1
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 1
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "count": 1
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "count": 1
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "count": 1
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "count": 1
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "count": 1
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "count": 1
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix",
+        "count": 1
+      },
+      {
+        "ticker": "ARM",
+        "name": "Arm",
+        "count": 1
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "count": 1
+      },
+      {
+        "ticker": "ORCL",
+        "name": "Oracle",
+        "count": 1
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce",
+        "count": 1
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 1
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "(시황분석)  전약후강으로  대기자금 많다.그러나 반도체 조정은 완전히 끝나지 않았다.",
+        "url": "https://youtu.be/D2TzqT51El8",
+        "published_at": "2026-06-04T20:42:32+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 매도는 어떤 기준으로 하나?",
+        "url": "https://youtu.be/bH7zkRhppsU",
+        "published_at": "2026-06-04T06:46:46+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 건전한 조정 VS 하락시작",
+        "url": "https://youtu.be/G20MMisYFns",
+        "published_at": "2026-06-03T21:54:30+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
+        "url": "https://youtu.be/oqSSFBnSysQ",
+        "published_at": "2026-06-02T21:26:39+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AAPL",
+          "MSFT",
+          "GOOGL",
+          "AMZN",
+          "META",
+          "AVGO",
+          "NFLX",
+          "ARM",
+          "INTC",
+          "ORCL",
+          "CRM"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 4115,
+        "ocr_excerpt": "시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -G",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(월간시황) 약간의 조정은 있지만 아직은 상승추세이다!!!",
+        "url": "https://youtu.be/vAaKxAp-3xA",
+        "published_at": "2026-05-31T12:38:33+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 1487,
+        "ocr_excerpt": "월간시황 대세는 상승중이다!!! 6월 장세는? 매수관점에서 출발하자 MARKET DATA Key Market Data Cryptocurrency U.S. EQUITIES Name S&P 500 DJIA NASDAQ 100 Mid Cap Small Cap Micro Cap US EQUIT",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(팔란티어) 직전고점 까지 상승하나? 그 이유는?",
+        "url": "https://youtu.be/KM1gxblQq9s",
+        "published_at": "2026-05-30T22:18:25+00:00",
+        "tickers": [
+          "PLTR"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 556,
+        "ocr_excerpt": "팔란티어 결국은 주가는 이익의 함수다 팔란티어 급등이유? 어디까지 가나? 거래 내용 관련 분쟁 논의 중인 거래의 정확한 조건은 아직 불분명합니다. 이란 최고 지도자의 고문인 모흐센 레자이는 x에 올린 글 에서 트럼프 대통령이 \"외 교를 배신하고 있다”고 말했다. 레자이는 \"해상 봉쇄를 ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
+        "url": "https://youtu.be/jh-7Hm0CkLc",
+        "published_at": "2026-05-30T11:03:34+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 543,
+        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
+        "youtube_kind": "video"
       }
     ]
   },
@@ -3963,7 +4089,7 @@
   {
     "region": "domestic",
     "youtuber": "올랜도 킴 미국주식",
-    "channel_id": "",
+    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
     "video_count": 1,
     "short_count": 0,
     "regular_video_count": 1,
@@ -3984,7 +4110,7 @@
       {
         "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
         "url": "https://youtu.be/jh-7Hm0CkLc",
-        "published_at": "",
+        "published_at": "2026-05-30T11:03:34+00:00",
         "tickers": [
           "000660"
         ],
@@ -3993,6 +4119,614 @@
         "ocr_status": "ok",
         "ocr_chars": 543,
         "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "youtuber": "월텍남 - 월스트리트 테크남",
+    "channel_id": "UCWV2Uy79TOpB1bk8hnq1nGw",
+    "video_count": 16,
+    "short_count": 8,
+    "regular_video_count": 8,
+    "mention_count": 0,
+    "transcript_count": 0,
+    "metadata_count": 16,
+    "ocr_count": 0,
+    "transcript_chars": 0,
+    "ocr_chars": 0,
+    "stocks": [],
+    "videos": [
+      {
+        "title": "브로드컴 쇼크..AI 반도체 이대로 꺾이나?",
+        "url": "https://youtu.be/wA3eCk7ztJA",
+        "published_at": "2026-06-04T07:26:34+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "마벨, 젠슨황이 직접 언급한 “다음 1조 기업“ 총정리",
+        "url": "https://youtu.be/5mggPifincU",
+        "published_at": "2026-06-03T08:16:40+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현대차 아틀라스, \"진짜 대박\" 외신들이 1등 로봇으로 극찬한 이유",
+        "url": "https://youtu.be/bcuNmn6Kt1U",
+        "published_at": "2026-06-02T23:56:45+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "[밥 친구 영상] 미장 투자자로서...코스피 8000 돌파 소식에 즐거운 마음으로 찍었습니다 재밌게 봐주세요...",
+        "url": "https://youtu.be/eOgahsD9aeQ",
+        "published_at": "2026-06-01T09:01:33+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "마이크론 3배, 삼전 60만, 하이닉스 400만.. 월가에 불고있는 새로운 논리 ㄷㄷ..",
+        "url": "https://youtu.be/Nde1E61SN2s",
+        "published_at": "2026-05-27T09:51:57+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "머스크가 10조원 데이터센터를 클로드에게 넘긴 충격적 이유 ㄷㄷ...",
+        "url": "https://youtu.be/7HiPRhfiwFc",
+        "published_at": "2026-05-23T05:46:41+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "상위 0.1% '기술 귀족'만 살아남는 시대, 당장 이 2가지를 시작하세요.",
+        "url": "https://youtu.be/uBX7PZvwoNs",
+        "published_at": "2026-05-20T10:34:12+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "반도체, 아직 사이클 중간 밖에 안 온 이유",
+        "url": "https://youtu.be/8PUP8ElaU2k",
+        "published_at": "2026-05-16T00:45:20+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "달러패권을 유지하기 위해 미국이 한 \"만행\"",
+        "url": "https://youtu.be/LPh2va3dyxc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "미국의 목적은 명확합니다",
+        "url": "https://youtu.be/PX3k_1jmc2Q",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "AI가 적국의 수괴를..미친 참수작전의 비밀",
+        "url": "https://youtu.be/m7rM0PiZ0Co",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "이란이 목표가 아니라 \"000\"이 목표입니다.",
+        "url": "https://youtu.be/n0C2VICF4f0",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "메모리 8배 압축, 더 이상 메모리 필요 없나?",
+        "url": "https://youtu.be/yvrPBHzoG-k",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "실제 여자아이돌도 AI가 대체하겠네요",
+        "url": "https://youtu.be/QOYgNdaHPQI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "중국로봇..하다하다 못해 \"이것\"까지 보여주네요",
+        "url": "https://youtu.be/swqJwECAjdU",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "시댄스ai로 만든 영화 근황..진짜 말이 안되네요",
+        "url": "https://youtu.be/1vbyh32VlFA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "youtuber": "미부기",
+    "channel_id": "UCAjv8-1z6nO-i_JRa48-wvg",
+    "video_count": 16,
+    "short_count": 8,
+    "regular_video_count": 8,
+    "mention_count": 0,
+    "transcript_count": 0,
+    "metadata_count": 16,
+    "ocr_count": 0,
+    "transcript_chars": 0,
+    "ocr_chars": 0,
+    "stocks": [],
+    "videos": [
+      {
+        "title": "여기 이탈하면 추세 붕괴됩니다",
+        "url": "https://youtu.be/4Dpwec9RSFY",
+        "published_at": "2026-06-04T11:37:10+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "스페이스X 2배 ETF 매매 전략 (+ SPAL, SNKA)",
+        "url": "https://youtu.be/MXvTqOEnSUc",
+        "published_at": "2026-06-03T06:42:03+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "6월 첫 번째 주간 증시 대응 전략",
+        "url": "https://youtu.be/0vV_9XMC_gk",
+        "published_at": "2026-05-30T06:36:05+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "팔란티어 주식 오래 기다리셨습니다 (+ 오라클)",
+        "url": "https://youtu.be/S5_ktPMK5s4",
+        "published_at": "2026-05-29T11:44:02+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "스페이스X 상장 전에 꼭 봐야 할 관련주와 시장 리스크 (+ 레버리지 ETF)",
+        "url": "https://youtu.be/J9C8yEEWeh4",
+        "published_at": "2026-05-28T12:38:43+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5월 마지막 주간 증시 대응 전략 (+ NVDA, IONQ, RGTI)",
+        "url": "https://youtu.be/nc8QyxTuxdE",
+        "published_at": "2026-05-25T06:58:30+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "엔비디아 어닝 서프라이즈 이후 대응 방법",
+        "url": "https://youtu.be/ailh61JQX3k",
+        "published_at": "2026-05-21T11:37:16+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "이제부터 대응이 달라져야 합니다",
+        "url": "https://youtu.be/mbD06u5aI20",
+        "published_at": "2026-05-20T11:37:11+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "테슬라 주식 전망 (25.03.21)",
+        "url": "https://youtu.be/f4ZpPwmMiw0",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 주식 3월 전망",
+        "url": "https://youtu.be/e5z-EKAmBBY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "공포에 매수해야 하는 이유",
+        "url": "https://youtu.be/dO6z0hc9VZ0",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "팔란티어 주식 전망 확인하세요",
+        "url": "https://youtu.be/96wv_iVpkWI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "2월 말까지 이렇게 하세요",
+        "url": "https://youtu.be/uyQN96xb5cA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "손익비 10:1 딥시크 수혜주",
+        "url": "https://youtu.be/Oj_8-wjRVrI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "트럼프 관세 부과 이후 미국주식",
+        "url": "https://youtu.be/1GsiVGMM72w",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "테슬라 주식 전망 꼭 확인하세요 #Shorts",
+        "url": "https://youtu.be/KredaLR7sfQ",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "youtuber": "경제덕후 언쌤",
+    "channel_id": "UCBHYxqFQGgcqUHdezlIfY5Q",
+    "video_count": 8,
+    "short_count": 0,
+    "regular_video_count": 8,
+    "mention_count": 0,
+    "transcript_count": 0,
+    "metadata_count": 8,
+    "ocr_count": 0,
+    "transcript_chars": 0,
+    "ocr_chars": 0,
+    "stocks": [],
+    "videos": [
+      {
+        "title": "젠슨황이 직접 찝어준 종목? #DELL",
+        "url": "https://youtu.be/6btsEAbbTIM",
+        "published_at": "2026-06-01T12:07:38+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "젠슨황이 한국에 다시 오는 진짜 이유",
+        "url": "https://youtu.be/5g0nbTR3vV4",
+        "published_at": "2026-05-31T14:12:16+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "주식 고수들이 삼전 대신 미국장에 돈을 넣는 이유",
+        "url": "https://youtu.be/rvuqArXQqP0",
+        "published_at": "2026-05-30T14:56:15+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "미국은 부자 나라인데 왜 빚이 많을까?",
+        "url": "https://youtu.be/304iqnYMnCI",
+        "published_at": "2026-05-20T00:49:31+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "아이렌을 버핏의 기준으로 평가해본다면?",
+        "url": "https://youtu.be/wkUc24sQgrU",
+        "published_at": "2026-05-18T09:31:48+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "5월, 주식시장이 변곡점에 서있는 이유",
+        "url": "https://youtu.be/uu4x-yKU1dQ",
+        "published_at": "2026-05-03T12:46:17+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "3배 레버리지 투자가 위험하지만은 않은 이유",
+        "url": "https://youtu.be/hVCiIJmu7F0",
+        "published_at": "2026-04-09T04:49:03+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "하락장이 와도 100억 버는 부자들 특징",
+        "url": "https://youtu.be/RuLaDH7HRtc",
+        "published_at": "2026-04-05T09:57:59+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "youtuber": "미국 경제 정복하기",
+    "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
+    "video_count": 5,
+    "short_count": 0,
+    "regular_video_count": 5,
+    "mention_count": 0,
+    "transcript_count": 0,
+    "metadata_count": 5,
+    "ocr_count": 0,
+    "transcript_chars": 0,
+    "ocr_chars": 0,
+    "stocks": [],
+    "videos": [
+      {
+        "title": "\"환율 1539원 폭등\" 월가에서 보는 코스피 가격 전망",
+        "url": "https://youtu.be/7ydxLQ2sEu8",
+        "published_at": "2026-06-04T11:00:34+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현재 실적발표한 브로드컴이 급락한 진짜 이유",
+        "url": "https://youtu.be/CYnLpw7t9Bw",
+        "published_at": "2026-06-04T09:00:14+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "80% 넘게 폭락한 NC가 급등한 진짜 이유 (+주가 전망)",
+        "url": "https://youtu.be/Hq-kqPVTNKY",
+        "published_at": "2026-06-03T11:00:36+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현재 주식 시장을 뒤흔드는 젠슨황의 큰 그림 (+수혜 종목)",
+        "url": "https://youtu.be/KajtuaG_wZU",
+        "published_at": "2026-06-03T09:00:09+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\"",
+        "url": "https://youtu.be/QFfxL_I-fac",
+        "published_at": "2026-06-02T11:00:27+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
         "youtube_kind": "video"
       }
     ]

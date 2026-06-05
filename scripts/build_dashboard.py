@@ -330,12 +330,15 @@ def item_card(item, region=None):
     link = f'<a class="source-link" href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문</a>' if item.get('url') else ''
     when = item.get('published_at') or item.get('collected_at') or ''
     confidence = badge('자막 기반', 'conf') if item.get('confidence') == 'transcript' else badge('제목/설명 기반', 'meta-badge')
-    role = badge(item.get('source_role') or item.get('source_type', ''), 'type')
+    role_label = '큰틀 참고' if item.get('source_role') == 'macro_context' else (item.get('source_role') or item.get('source_type', ''))
+    role = badge(role_label, 'type')
+    note = f'<p class="source-note">{esc(public_text(item.get("source_note")))}</p>' if item.get('source_note') else ''
     return f'''
     <article class="card small">
       <div class="meta"><strong>{esc(item.get('source'))}</strong><span>{esc(short_date(when))}</span>{link}</div>
       <h4>{region_text(item.get('title'), region)}</h4>
       <p>{region_text(item.get('summary'), region)}</p>
+      {note}
       <div class="mini-price"><span>적정가: {esc(item.get('target_price'))}</span><span>매수/진입: {esc(item.get('buy_zone'))}</span></div>
       <div class="badges">{badge(item.get('recommendation'), 'rec')}{confidence}{role}{tickers}</div>
     </article>'''
@@ -358,6 +361,21 @@ def news_ingest_card():
     except Exception:
         return ''
     return f'''<details class="news-md-card"><summary>Markdown 뉴스 인제스트 보기</summary><pre>{esc(preview)}</pre><p class="section-note">전체 파일: data/news_ingest/latest_news.md - 매시간 새로 정리되는 뉴스 인제스트 메모입니다.</p></details>'''
+
+def macro_context_section(items):
+    rows=[item for item in items if item.get('source_role') == 'macro_context'][:8]
+    if not rows:
+        return ''
+    cards=[]
+    for item in rows:
+        link = f'<a class="read-link" href="{esc(item.get("url"))}" target="_blank" rel="noreferrer">원문 보기</a>' if item.get('url') else ''
+        cards.append(f'''<article class="news-card readable-news">
+          <div class="news-top"><b>{esc(item.get('source'))}</b><span>{short_date(item.get('published_at') or item.get('collected_at'))}</span>{badge('큰틀 참고', 'type')}{link}</div>
+          <h3>{esc(item.get('title'))}</h3>
+          <p>{esc(item.get('summary'))}</p>
+          <p class="source-note">{esc(public_text(item.get('source_note') or '종목 추천이 아니라 시장 큰틀과 산업 맥락 참고용입니다.'))}</p>
+        </article>''')
+    return f'''<section id="macro-context" class="news-section"><div class="section-kicker">큰틀 참고</div><h2>메르의 블로그 · 시장 큰틀 참고</h2><p class="section-note">메르의 블로그는 종목 추천 카운트에 넣지 않고, 정책·산업·시장 구조를 해석하는 배경 자료로만 씁니다.</p><div class="news-grid"><div class="news-column">{''.join(cards)}</div></div></section>'''
 
 def news_section(items):
     news = [item for item in items if item.get('source_role') == '뉴스' or item.get('source_type') == 'rss']
@@ -455,8 +473,8 @@ html{{scroll-behavior:smooth;overflow-x: hidden}} body{{overflow-x: hidden;font-
 </style></head>
 <body>
 <header><h1>한국·미국 주식 한눈에 보기</h1><div class="subtitle">매시간 국내주식과 미국주식의 관심 종목, 출처 발언, 재무·차트 숫자, 최신 뉴스를 새로 정리합니다. / 생성: {generated}</div><div class="kpis"><div class="kpi">수집 소스 {total_sources}개</div><div class="kpi">소스 로그 {len(items)}개</div><div class="kpi">추천/관심 종목 {len(common)}개</div><div class="kpi">유튜브 자막 {len(transcript_items)}/{len(yt_items)}개</div><div class="kpi">화면 OCR {len(ocr_items)}개</div><div class="kpi">뉴스 {len([i for i in items if i.get('source_type') == 'rss'])}건</div></div></header>
-<nav class="tabs"><a href="#top-recommendations">추천종목</a><a href="#news">뉴스</a><a href="#method">자료 확인</a><a href="#domestic">국내</a><a href="#global">미국</a></nav>
-<main><div class="notice">이 페이지는 여러 출처에서 나온 말과 공개 재무 데이터를 모아 보여주는 참고용 화면입니다. 점수와 가격대는 자동 계산한 기준선일 뿐, 투자 조언이나 수익 보장이 아닙니다. 실제 매매 전에는 현재가, 공시, 실적, 수급을 다시 확인해 주세요.</div>{top_recommendations_section(ai_recommendations)}{news_section(items)}<div id="method">{methodology_section(methodology, yt_items, transcript_items)}</div>{section('domestic', common, items, ystats, valuations, ai_recommendations)}{section('global', common, items, ystats, valuations, ai_recommendations)}</main>
+<nav class="tabs"><a href="#top-recommendations">추천종목</a><a href="#news">뉴스</a><a href="#macro-context">큰틀 참고</a><a href="#method">자료 확인</a><a href="#domestic">국내</a><a href="#global">미국</a></nav>
+<main><div class="notice">이 페이지는 여러 출처에서 나온 말과 공개 재무 데이터를 모아 보여주는 참고용 화면입니다. 점수와 가격대는 자동 계산한 기준선일 뿐, 투자 조언이나 수익 보장이 아닙니다. 실제 매매 전에는 현재가, 공시, 실적, 수급을 다시 확인해 주세요.</div>{top_recommendations_section(ai_recommendations)}{news_section(items)}{macro_context_section(items)}<div id="method">{methodology_section(methodology, yt_items, transcript_items)}</div>{section('domestic', common, items, ystats, valuations, ai_recommendations)}{section('global', common, items, ystats, valuations, ai_recommendations)}</main>
 <footer>Hermes가 매시간 새로 정리합니다. 투자 판단은 직접 확인해 주세요.</footer>
 </body></html>'''
     OUT.parent.mkdir(parents=True, exist_ok=True)

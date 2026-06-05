@@ -15,80 +15,161 @@
       "latest_only_note": "숏츠 최신 20개 ID만 확인하고, 이미 누적된 video_id는 재수집/자막작업을 건너뜁니다."
     },
     {
-      "name": "Naver blog magic_rabb1t",
-      "type": "naver_blog_post",
+      "name": "메르의 블로그",
+      "type": "naver_blog_feed",
       "region": "domestic",
-      "url": "https://blog.naver.com/magic_rabb1t/224302304075"
+      "url": "https://blog.naver.com/ranto28",
+      "blog_id": "ranto28",
+      "latest_limit": 5,
+      "source_role": "macro_context",
+      "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다."
     },
     {
-      "name": "Naver blog ranto28",
-      "type": "naver_blog_post",
+      "name": "마술토끼의 투자이야기",
+      "type": "naver_blog_feed",
       "region": "domestic",
-      "url": "https://blog.naver.com/ranto28/224302397201"
+      "url": "https://blog.naver.com/magic_rabb1t",
+      "blog_id": "magic_rabb1t",
+      "latest_limit": 5,
+      "source_role": "blog_recommendation",
+      "source_note": "블로그 원문 근거가 있는 종목/섹터 언급만 참고합니다."
     },
     {
       "name": "주식용사부",
       "type": "youtube_channel",
       "region": "domestic",
       "url": "https://youtube.com/channel/UC-jgYMsPz6NuDT9j9dmNODg?si=FchfSkCk9K47uB0K",
-      "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg"
+      "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
+      "latest_limit": 8,
+      "skip_existing_video_ids": true
     },
     {
       "name": "강지한 차트연구소",
       "type": "youtube_channel",
       "region": "domestic",
       "url": "https://youtube.com/channel/UCNqWJvNS6SwrM4gApwdCUMg?si=F47m0LP7DrPX2-xF",
-      "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg"
+      "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
+      "latest_limit": 8,
+      "skip_existing_video_ids": true
     }
   ],
   "global": [
     {
-      "name": "YouTube video bkuop8jLgOc",
-      "type": "youtube_video",
+      "name": "월가아재의 과학적 투자",
+      "type": "youtube_channel",
       "region": "global",
-      "url": "https://youtu.be/bkuop8jLgOc?si=Lf4xgZYnvNd--FrM",
-      "video_id": "bkuop8jLgOc"
-    },
-    {
-      "name": "YouTube video V2YUu1TNb8k",
-      "type": "youtube_video",
-      "region": "global",
-      "url": "https://youtu.be/V2YUu1TNb8k?si=6VvLce1GUwXzNysv",
-      "video_id": "V2YUu1TNb8k"
-    },
-    {
-      "name": "YouTube video UI9jju3rFjU",
-      "type": "youtube_video",
-      "region": "global",
-      "url": "https://youtu.be/UI9jju3rFjU?si=WZ1BrS2TQF-xPQTO",
-      "video_id": "UI9jju3rFjU"
-    },
-    {
-      "name": "YouTube video rxwa9wn9v0U",
-      "type": "youtube_video",
-      "region": "global",
-      "url": "https://youtu.be/rxwa9wn9v0U?si=484REuuw6Ija2ivj",
-      "video_id": "rxwa9wn9v0U"
+      "url": "https://www.youtube.com/channel/UCpqD9_OJNtF6suPpi6mOQCQ",
+      "channel_id": "UCpqD9_OJNtF6suPpi6mOQCQ",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "과학적 투자/시장 분석 참고 소스입니다."
     },
     {
       "name": "올랜도 킴 미국주식",
       "type": "youtube_channel",
       "region": "global",
       "url": "https://www.youtube.com/@orlandocampus",
-      "latest_limit": 30,
-      "detail_extract": true
+      "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "구독 목록 기반 추천/관심 종목 참고 소스입니다."
     },
     {
-      "name": "마피디 미국주식",
+      "name": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "type": "youtube_channel",
       "region": "global",
       "url": "https://www.youtube.com/@mapd.chart77",
       "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
-      "latest_limit": 50,
+      "latest_limit": 10,
       "detail_extract": true,
-      "prefer_shorts": false,
       "include_shorts": true,
-      "local_asr_pack": "/Users/mac1/opencrab-local-packs/pipeline-ingest/mapd-chart77-youtube-precision-20260604"
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "테슬라/TQQQ/SOXL 중심 추천·관심 종목 참고 소스입니다."
+    },
+    {
+      "name": "T3chfeed - 테크피드 미국 주식 인사이트",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/channel/UCH2sxkxg_vdJSK4KYRXNE0Q",
+      "channel_id": "UCH2sxkxg_vdJSK4KYRXNE0Q",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "미국 기술주/AI 뉴스 참고 소스입니다."
+    },
+    {
+      "name": "경제덕후 언쌤",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/@unssam2",
+      "channel_id": "UCBHYxqFQGgcqUHdezlIfY5Q",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "경제교육/ETF/시장 큰틀과 종목 언급 참고 소스입니다."
+    },
+    {
+      "name": "월텍남 - 월스트리트 테크남",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/@waltechman",
+      "channel_id": "UCWV2Uy79TOpB1bk8hnq1nGw",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "미국 테크/AI/반도체 종목 언급 참고 소스입니다."
+    },
+    {
+      "name": "미부기",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/@mibugi.official",
+      "channel_id": "UCAjv8-1z6nO-i_JRa48-wvg",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "미국주식/ETF/레버리지 관련 언급 참고 소스입니다."
+    },
+    {
+      "name": "주식쇼퍼 - 투자도 쇼핑처럼",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/@stockshopper",
+      "channel_id": "UC9Qalq_Mh1GLKv5W2W3_n-A",
+      "latest_limit": 8,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "구독 목록 기반 추천/관심 종목 참고 소스입니다."
+    },
+    {
+      "name": "미국 경제 정복하기",
+      "type": "youtube_channel",
+      "region": "global",
+      "url": "https://www.youtube.com/@%EB%AF%B8%EA%B5%AD%EA%B2%BD%EC%A0%9C%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0",
+      "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
+      "latest_limit": 5,
+      "detail_extract": true,
+      "include_shorts": true,
+      "skip_existing_video_ids": true,
+      "source_role": "youtube_recommendation",
+      "source_note": "구독 목록 기반 참고 소스입니다. 고수익/선물거래성 문구는 추천 근거로 과신하지 않고 품질 표시를 우선합니다."
     }
   ],
   "news": [

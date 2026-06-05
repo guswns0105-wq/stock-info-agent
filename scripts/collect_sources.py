@@ -40,6 +40,7 @@ STOCK_ALIASES={
 PRECISE_YOUTUBE=os.environ.get('STOCK_PRECISE_YOUTUBE','1') != '0'
 TRANSCRIPT_WORKERS=int(os.environ.get('STOCK_TRANSCRIPT_WORKERS','1'))
 YOUTUBE_REQUIRE_TRANSCRIPT=os.environ.get('STOCK_YOUTUBE_REQUIRE_TRANSCRIPT','1') != '0'
+YOUTUBE_CHANNEL_DELAY=float(os.environ.get('STOCK_YOUTUBE_CHANNEL_DELAY','8'))
 
 class TextExtractor(HTMLParser):
     def __init__(self): super().__init__(); self.skip=False; self.parts=[]
@@ -461,7 +462,7 @@ def collect_youtube_channel(src):
             if not summary: summary = '자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.'
             confidence = 'transcript' if transcript else ('caption_failed' if YOUTUBE_REQUIRE_TRANSCRIPT else 'metadata')
             analysis_text = transcript if (transcript or YOUTUBE_REQUIRE_TRANSCRIPT) else (title+' '+desc)
-            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
+            out.append({'source':channel_title,'channel_id':cid,'video_id':vid,'youtube_kind':'short' if is_short else 'video','source_type':'youtube_short' if is_short else 'youtube_video','source_role':src.get('source_role',''),'source_note':src.get('source_note',''),'region':src.get('region','domestic'),'title':title,'summary':summary,'url':'https://youtu.be/'+vid if vid else src['url'],'published_at':published,'text':analysis_text,'transcript_method':method,'transcript_status':'ok' if transcript else status,'transcript_chars':len(transcript),'extraction_quality':confidence})
     except Exception as e:
         out.append({'source':src.get('name','YouTube channel'),'channel_id':cid,'source_type':'youtube_channel','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':'','transcript_method':'none','transcript_status':'channel feed failed','transcript_chars':0,'extraction_quality':'failed'})
     return out
@@ -489,9 +490,28 @@ def collect_naver(src):
                 if len(t2)>len(text): final,text=final2,t2
             except Exception: pass
         title=text[:80]
-        return [{'source':src['name'].replace('Naver blog ','블로그 '),'source_type':'naver_blog_post','region':src.get('region','domestic'),'title':title or src['name'],'summary':clean_text(text[:700]),'url':src['url'],'published_at':'','text':text}]
+        return [{'source':src['name'].replace('Naver blog ','블로그 '),'source_type':'naver_blog_post','source_role':src.get('source_role',''),'source_note':src.get('source_note',''),'region':src.get('region','domestic'),'title':title or src['name'],'summary':clean_text(text[:700]),'url':src['url'],'published_at':'','text':text}]
     except Exception as e:
-        return [{'source':src['name'],'source_type':'naver_blog_post','region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':''}]
+        return [{'source':src['name'],'source_type':'naver_blog_post','source_role':src.get('source_role',''),'source_note':src.get('source_note',''),'region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src['url'],'published_at':'','text':''}]
+
+def collect_naver_feed(src):
+    out=[]
+    try:
+        blog_id=src.get('blog_id') or src.get('url','').rstrip('/').split('/')[-1]
+        feed=src.get('feed_url') or f'https://rss.blog.naver.com/{blog_id}.xml'
+        _,_,b=fetch(feed)
+        root=ET.fromstring(b)
+        latest_limit=int(src.get('latest_limit') or 5)
+        for it in root.findall('.//item')[:latest_limit]:
+            title=it.findtext('title') or ''
+            desc=re.sub('<[^>]+>',' ',it.findtext('description') or '')
+            link=it.findtext('link') or feed
+            pub=it.findtext('pubDate') or ''
+            text=title+' '+desc
+            out.append({'source':src.get('name') or f'블로그 {blog_id}','source_type':'naver_blog_feed','source_role':src.get('source_role',''),'source_note':src.get('source_note',''),'region':src.get('region','domestic'),'title':title or src.get('name','네이버 블로그'),'summary':clean_text(desc[:900]),'url':link,'published_at':pub,'text':text})
+    except Exception as e:
+        out.append({'source':src.get('name','네이버 블로그'),'source_type':'naver_blog_feed','source_role':src.get('source_role',''),'source_note':src.get('source_note',''),'region':src.get('region','domestic'),'title':'수집 실패','summary':str(e),'url':src.get('url',''),'published_at':'','text':''})
+    return out
 
 def collect_rss(src):
     out=[]
@@ -686,7 +706,9 @@ def main():
     ocr_index=load_ocr_index()
     records=[]
     # 공유된 개별 YouTube 영상은 해당 유튜버 채널로 확장해 최신 영상을 취합한다.
-    for ch in youtube_channel_sources(srcs):
+    for idx, ch in enumerate(youtube_channel_sources(srcs)):
+        if idx and YOUTUBE_CHANNEL_DELAY > 0:
+            time.sleep(YOUTUBE_CHANNEL_DELAY)
         records += collect_youtube_channel(ch)
     for bucket in ['domestic','global','news']:
         for src in srcs.get(bucket,[]):
@@ -694,6 +716,7 @@ def main():
             if typ in ('youtube_channel','youtube_video'):
                 continue
             elif typ=='naver_blog_post': records += collect_naver(src)
+            elif typ=='naver_blog_feed': records += collect_naver_feed(src)
             elif typ=='rss': records += collect_rss(src)
     now=datetime.now().isoformat(timespec='minutes')
     translation_cache=load_translation_cache()
@@ -705,11 +728,13 @@ def main():
             text=ocr_text[:12000]
         else:
             text=(r.get('title','')+' '+r.get('summary','')+' '+r.get('text','')+' '+ocr_text)[:24000]
-        mentions=detect_all_mentions(text, lex)
+        source_role=r.get('source_role') or infer_source_role(r.get('source_type'))
+        mention_text='' if source_role == 'macro_context' else text
+        mentions=detect_all_mentions(mention_text, lex)
         stock_regions=sorted({m['market'] for m in mentions}) or [source_region]
         title=r.get('title') or '제목 없음'; summary=r.get('summary') or '요약 없음'
         price_fields=extract_price_fields(text)
-        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':infer_source_role(r.get('source_type')), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('ocr_only' if ocr_text else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta')), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'ocr_method':(ocr_rec or {}).get('ocr_method',''), 'ocr_status':(ocr_rec or {}).get('ocr_status',''), 'ocr_chars':(ocr_rec or {}).get('ocr_chars',0), 'ocr_text_path':(ocr_rec or {}).get('ocr_text_path',''), 'extraction_quality':('transcript+ocr' if (r.get('transcript_status')=='ok' and ocr_text) else ('ocr_only' if ocr_text else r.get('extraction_quality','metadata')))}
+        item={'region':stock_regions[0], 'stock_regions':stock_regions, 'source_region':source_region, 'source':r.get('source'), 'channel_id':r.get('channel_id',''), 'video_id':r.get('video_id',''), 'source_role':source_role, 'source_note':r.get('source_note',''), 'source_type':r.get('source_type'), 'title':title, 'summary':summary[:700], 'tickers':[m['ticker'] for m in mentions], 'ticker_markets':{m['ticker']:m['market'] for m in mentions}, 'recommendation':'추천/관심 언급' if mentions else '정보', 'confidence':'transcript' if r.get('transcript_status')=='ok' else ('ocr_only' if ocr_text else ('caption_failed' if str(r.get('source_type','')).startswith('youtube') else 'source-title/meta')), 'url':r.get('url',''), 'published_at':r.get('published_at',''), 'collected_at':now, 'target_price':price_fields['target_price'], 'buy_zone':price_fields['buy_zone'], 'price_note':price_fields['price_note'], 'transcript_method':r.get('transcript_method',''), 'transcript_status':r.get('transcript_status',''), 'transcript_chars':r.get('transcript_chars',0), 'ocr_method':(ocr_rec or {}).get('ocr_method',''), 'ocr_status':(ocr_rec or {}).get('ocr_status',''), 'ocr_chars':(ocr_rec or {}).get('ocr_chars',0), 'ocr_text_path':(ocr_rec or {}).get('ocr_text_path',''), 'extraction_quality':('transcript+ocr' if (r.get('transcript_status')=='ok' and ocr_text) else ('ocr_only' if ocr_text else r.get('extraction_quality','metadata')))}
         item=enrich_news_translations(item, translation_cache)
         current_items.append(item)
     save_translation_cache(translation_cache)
