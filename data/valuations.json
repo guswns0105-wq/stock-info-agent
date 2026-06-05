@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T19:27",
+  "generated_at": "2026-06-05T20:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -747,7 +747,7 @@
       "ticker": "TSLA",
       "name": "Tesla",
       "region": "global",
-      "mention_count": 35,
+      "mention_count": 36,
       "price": 418.45,
       "currency": "USD",
       "pe": 406.935,
@@ -767,9 +767,9 @@
       "score": -4,
       "technical_score": 3,
       "ai_score": -1,
-      "ai_comment": "출처 언급 35회, 적정가 대비 -88.02% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 36회, 적정가 대비 -88.02% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 35회"
+        "출처 언급 36회"
       ],
       "risks": [
         "ROE 낮음 4.90%",
@@ -2318,31 +2318,31 @@
       "price": 164.13,
       "currency": "USD",
       "pe": 57.324,
-      "forward_pe": 61.562,
+      "forward_pe": 62.535,
       "pb": 3.207,
       "roe": 6.686,
       "profit_margin": 12.736,
       "eps": null,
-      "fair_value": 80.30798961402058,
-      "watch_buy_price": 65.85255148349688,
-      "ai_buy_price": 65.85255148349688,
+      "fair_value": 79.68056678250825,
+      "watch_buy_price": 65.33806476165677,
+      "ai_buy_price": 65.33806476165677,
       "ai_sell_price": 164.13,
-      "margin_to_fair_pct": -51.070499229866215,
+      "margin_to_fair_pct": -51.452771106739625,
       "verdict": "고평가 주의",
-      "action": "65.85 USD 이하가 아니면 보수적 접근",
+      "action": "65.34 USD 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -3,
       "technical_score": 0,
       "ai_score": -5.25,
-      "ai_comment": "출처 언급 3회, 적정가 대비 -51.07% 여력, 중립 추세, ROE 6.69% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 3회, 적정가 대비 -51.45% 여력, 중립 추세, ROE 6.69% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 3회"
       ],
       "risks": [
-        "PER 부담 61.56배"
+        "PER 부담 62.53배"
       ],
       "valuation_basis": [
-        "PER 61.56배 역산 EPS → 기준 PER 22.00배",
+        "PER 62.53배 역산 EPS → 기준 PER 22.00배",
         "PBR 3.21배 → 기준 PBR 2.50배"
       ],
       "chart": {
