@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 68,
-    "short_count": 68,
+    "video_count": 69,
+    "short_count": 69,
     "regular_video_count": 0,
     "mention_count": 92,
     "transcript_count": 65,
-    "metadata_count": 3,
+    "metadata_count": 4,
     "ocr_count": 4,
     "transcript_chars": 137771,
     "ocr_chars": 970,
@@ -369,19 +369,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "‘마이크론VS샌디스크’ 월가가 찝었다는 미국 '반도체' 핵심 종목",
-        "url": "https://youtu.be/tMTUM5JuQGw",
-        "published_at": "",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2290,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
         "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
@@ -481,6 +468,17 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
+      },
+      {
+        "title": "투자자들이 미리 체크하는 6월달 '투자' 포인트",
+        "url": "https://youtu.be/3_FlerzSCMQ",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1896,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -558,7 +556,7 @@
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한,SK,현대차,LG와 회동🔴뉴욕증시, 반도체 매도에 혼조 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/S77YRvB5fV8",
-        "published_at": "2026-06-04T23:40:06+00:00",
+        "published_at": "2026-06-05T02:49:52+00:00",
         "tickers": [],
         "confidence": "caption_failed",
         "transcript_chars": 0,
@@ -1316,19 +1314,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "‘마이크론VS샌디스크’ 월가가 찝었다는 미국 '반도체' 핵심 종목",
-        "url": "https://youtu.be/tMTUM5JuQGw",
-        "published_at": "",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2290,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "경제사냥꾼 구독자 전용 종목분석 : 네이버",
         "url": "https://youtu.be/FOe459_nse4",
         "published_at": "",
@@ -1415,6 +1400,19 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1886,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "‘마이크론VS샌디스크’ 월가가 찝었다는 미국 '반도체' 핵심 종목",
+        "url": "https://youtu.be/tMTUM5JuQGw",
+        "published_at": "",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 2290,
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
