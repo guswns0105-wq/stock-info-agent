@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 66,
-    "short_count": 66,
+    "video_count": 67,
+    "short_count": 67,
     "regular_video_count": 0,
     "mention_count": 92,
     "transcript_count": 65,
-    "metadata_count": 1,
+    "metadata_count": 2,
     "ocr_count": 4,
     "transcript_chars": 137771,
     "ocr_chars": 970,
@@ -396,19 +396,6 @@
         "youtube_kind": "short"
       },
       {
-        "title": "지금 'LS일렉트릭' 주가가 폭락하고 있는 진짜 이유(+전력주 전망)",
-        "url": "https://youtu.be/iUz2-7JRSf4",
-        "published_at": "",
-        "tickers": [
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2218,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "short"
-      },
-      {
         "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
         "url": "https://youtu.be/7cEYNeaF6YU",
         "published_at": "",
@@ -484,6 +471,19 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "youtube_kind": "short"
+      },
+      {
+        "title": "투자자들이 지금이라도 알아야 할 ‘삼전+닉스 레버리지 ETF’ 투자 포인트",
+        "url": "https://youtu.be/ZB81SoqiByg",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1734,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "short"
       }
     ]
   },
@@ -491,15 +491,15 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 18,
-    "short_count": 6,
+    "video_count": 19,
+    "short_count": 7,
     "regular_video_count": 12,
     "mention_count": 43,
     "transcript_count": 18,
-    "metadata_count": 0,
-    "ocr_count": 5,
+    "metadata_count": 1,
+    "ocr_count": 6,
     "transcript_chars": 429197,
-    "ocr_chars": 1128,
+    "ocr_chars": 1205,
     "stocks": [
       {
         "ticker": "005930",
@@ -558,6 +558,17 @@
       }
     ],
     "videos": [
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한,SK,현대차,LG와 회동🔴뉴욕증시, 반도체 매도에 혼조 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/S77YRvB5fV8",
+        "published_at": "2026-06-04T23:40:06+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "youtube_kind": "video"
+      },
       {
         "title": "좀비기업 퇴출 기준은?",
         "url": "https://youtu.be/EtNwdI9S19g",
@@ -693,17 +704,6 @@
         "youtube_kind": "video"
       },
       {
-        "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
-        "url": "https://youtu.be/otySTRJtd-A",
-        "published_at": "2026-05-28T10:00:08+00:00",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 295,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "youtube_kind": "video"
-      },
-      {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 코스피 절반 차지🔴 뉴욕 3대지수 동시 최고치 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/pF7Pg-eWUGs",
         "published_at": "2026-05-28T03:26:06+00:00",
@@ -786,6 +786,17 @@
         "transcript_chars": 200,
         "ocr_status": "ok",
         "ocr_chars": 52,
+        "youtube_kind": "short"
+      },
+      {
+        "title": "현재 선거 테마주들보다 주식시장에서 중요한 것들",
+        "url": "https://youtu.be/otySTRJtd-A",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 295,
+        "ocr_status": "ok",
+        "ocr_chars": 77,
         "youtube_kind": "short"
       },
       {

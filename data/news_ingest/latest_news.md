@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-05T08:01)
+# 주식 뉴스 인제스트 (2026-06-05T09:01)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -372,7 +372,24 @@
 - 요약: (김포·서울=연합뉴스) 권하영 한상용 임성호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 5일 오후 한국에 입국해 나흘간 한국 AI 생태계를...
 - 링크: https://www.yna.co.kr/view/AKR20260603053851017
 
-### 16. "반도체 랠리 피로감"…브로드컴 12%↓·마이크론 7%↓ - v.daum.net
+### 16. 반도체 및 AI 관련 주식의 기초 강세를 평가합니다. - 무무
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Thu, 04 Jun 2026 23:39:08 GMT
+- 관련 티커: 종목 미검출
+- 원문 제목: Assess the underlying strength of semiconductor and AI-related stocks. - Moomoo
+- 요약: 반도체 및 AI 관련 주식의 기초 강세를 평가합니다. 무무
+- 링크: https://news.google.com/rss/articles/CBMisAFBVV95cUxORmdaR29vNmZhejZlaFplVC1oYjJwMGtJTThmbWtZaTFyVzVfMVBPMnd5TGZmTTNrV2pZdW5kY3VheVMzNHhoWTZpWnNyUDc5TmFjRWZFZGJrdU10ZHltaGx1NWRmZGtJeXdsZTBScjhWTXFOS3praTFxTmx2NnNjS2VraFh6ZTdoMnBfVEwtd1gxTDdyUVBFYWstWEFkeG8xbWJINE1pMzQ0dWhRYmJzcA?oc=5
+
+### 17. 반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 - 연합인포맥스
+- 시장: 미국시장
+- 출처: Google News 국내 증시·반도체
+- 시각: Thu, 04 Jun 2026 23:23:37 GMT
+- 관련 티커: SOXX
+- 요약: 반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 &nbsp;&nbsp; 연합인포맥스
+- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE9nN1phRHR3QkwwWTl0a3F3Z2ljQUJEWk5XM3Vkb2Y0LXY4Yy1scE83ajZPRmpzVjRNbUJmMm8xYUNkRkQ2XzB6YnRoY25id3NTTjZaeFMwcjVJWUVMQjVUeWFEOGJfUWdkc1cxSnhLZ0I?oc=5
+
+### 18. "반도체 랠리 피로감"…브로드컴 12%↓·마이크론 7%↓ - v.daum.net
 - 시장: 미국시장
 - 출처: Google News 국내 증시·반도체
 - 시각: Thu, 04 Jun 2026 22:48:04 GMT
@@ -380,16 +397,16 @@
 - 요약: "반도체 랠리 피로감"…브로드컴 12%↓·마이크론 7%↓ &nbsp;&nbsp; v.daum.net
 - 링크: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WRE9MUk5TYkdzQnNFM0lSOEppUTlRejdsUTJ1QnIxZmVJWTRmV09QVXdhM21XSFdPLVVybVp5LWo2c3hucjNoUWdWTktiMnc?oc=5
 
-### 17. 유가가 완화되면서 다우지수는 900포인트 상승했지만, AI 주가 하락으로 월스트리트를 견제 - BNN Bloomberg
+### 19. 유가가 완화되고 미국 주식이 AI 랠리를 벗어나면서 다우지수는 사상 최고치로 도약했습니다. - BNN Bloomberg
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
-- 시각: Thu, 04 Jun 2026 19:18:29 GMT
+- 시각: Thu, 04 Jun 2026 20:24:50 GMT
 - 관련 티커: 종목 미검출
-- 원문 제목: The Dow jumps 900 points as oil prices ease, but slumping AI stocks keep Wall Street in check - BNN Bloomberg
-- 요약: 유가가 완화되면서 다우지수는 900포인트 급등했지만 AI 주가 하락으로 월스트리트가 견제를 받고 있습니다. BNN Bloomberg
+- 원문 제목: The Dow leaps to a record as oil prices ease and U.S. stocks outside of AI rally - BNN Bloomberg
+- 요약: 유가가 완화되고 미국 주식이 AI 랠리를 벗어나면서 다우지수는 사상 최고치로 뛰어올랐습니다. BNN Bloomberg
 - 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5
 
-### 18. AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT)의 의견 - Quiver Quantitative
+### 20. AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT)의 의견 - Quiver Quantitative
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 17:32:00 GMT
@@ -398,7 +415,7 @@
 - 요약: AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT) 의견 Quiver Quantitative
 - 링크: https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXllVG9kWWZodndoWDY3NV82OFp2TGdXV25VdE56RUQ4b21mZHRwRk5VSEpBNUxOdjBaOTVGc1VVdHZlS1NKZDQ5UnJsQXQ5VmRHZVJ6UzNkeWNrTXdaNjJnSVVqUG4wWHUyQ05FS1JJQ3FIV1RRSVdnbWxuS3RvZU02d1Z3NndVWTB6X1VCZ2IxeTVhZnBfc2JEcTdtWnBPLVJROUhR?oc=5
 
-### 19. 650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.
+### 21. 650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 16:11:34 GMT
@@ -407,7 +424,7 @@
 - 요약: $650 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 24/7 Wall St.
 - 링크: https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzZEYUNhd1YzZm5PZXBrWnNDWE5zQVZEd1BiRFBpMFdpVy14eVpBUVZHaGpRcURVQ0pySmZnYmVDQmppZ3l3S1NCM2tud2owT2Q0UHM4VVpzN3hnWUVJNWVQbzU4MU50Wk9jbUhVbHowMC0xRkh1U0dJbm95dXcxdTBBTnk5RUZ0SVZLenNHTGk5V1dISm9tTE9sZw?oc=5
 
-### 20. 미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 - TradingKey
+### 22. 미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 - TradingKey
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 12:23:18 GMT
@@ -416,7 +433,7 @@
 - 요약: 미국 프리마켓: 나스닥 선물 리드 하락, 브로드컴 부진으로 칩 주식 하락 TradingKey
 - 링크: https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNlNURm5zWDI4Qnd4RUdMVkwtM3FqRkVVR2FzaENLVHlpT1VLcTNnZDZVdGd1UnZIS2c4dzJTUU5GLXVtZkg0TTIyWlR2ZzllQU12LWp2QVpyM0hUbXExU3JtQ0drSmtCb3pTcjVZTDlmN05yUEdWc2M5SnpVaE9JakJMVmZxVGtfOWhlYVc1djhYR3hBVzVMcFA0UjdHdkF3aFc1V2ZuQjhSS1VKUHJsV2FKdlBDYWVRYWNvMlh2bEJDeFRIMk9xTUh2bjgxSlFkZUE?oc=5
 
-### 21. 이 칩 ETF는 마이크론 붐에 대비했습니다 - The Globe and Mail
+### 23. 이 칩 ETF는 마이크론 붐에 대비했습니다 - The Globe and Mail
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 12:02:20 GMT
@@ -425,7 +442,7 @@
 - 요약: 이 칩 ETF는 마이크론 붐에 대비했습니다 The Globe and Mail
 - 링크: https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUw5ek55Q2o1NVg3eXNjUG5jZUFEdG5VYWxkZFNld0haeWZyZmhWMkFvN2dTRGtYR1kxWlNUaHJiOU82RnVSOFFhTU03dVFrUThKblBtcTllaVNENVRCdlVHbGtGTG9ocF84YUY5dUhqUEE3aVVmYTcxanNzTjhpRzhPV2xZeVA2NHBZUDBmRjZmY1Mwa1o5S255WVpZYW5IRmNMNnNxSjRqQmJoRU9jNE5uMmNtYmRLTVJ5SThkZ3MtOWF2?oc=5
 
-### 22. 목요일 NVIDIA 주식에 무슨 일이 일어나고 있나요? - 벤징가
+### 24. 목요일 NVIDIA 주식에 무슨 일이 일어나고 있나요? - 벤징가
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 11:30:04 GMT
@@ -434,7 +451,7 @@
 - 요약: 목요일 NVIDIA 주식에 무슨 일이 일어나고 있나요? 벤징가
 - 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxOMkJXRFc5MkhobVJoSjdGTjlPV2ZaRnRfem5rcHRQM2x1c3I0czl0ZEZxLVkyMHp3VnZ1SW5RUWtCenR6WkVvNWJDVl9rWUtQM19DUjVhN1FZLTR1UjJHS09Jb3A3blNqRVh1U2gyQlNpVVk3VU9YSWNRMG04NkdPNG9pM0E4MEJmOS1jVjhjYVFjcXlTZmdIVmtVeUk?oc=5
 
-### 23. AVGO 1분기 심층 분석: AI 반도체 수요로 수익 급증 주도, 시장은 수익성 변화에 반응 - StockStory
+### 25. AVGO 1분기 심층 분석: AI 반도체 수요로 수익 급증 주도, 시장은 수익성 변화에 반응 - StockStory
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 08:39:14 GMT
@@ -443,7 +460,7 @@
 - 요약: AVGO 1분기 심층 분석: AI 반도체 수요가 수익 급증을 주도하고 시장은 수익성 변화에 반응합니다 StockStory
 - 링크: https://news.google.com/rss/articles/CBMi9wFBVV95cUxOTkRSbUtza203a3hQUXRWbm1BTHZFYndkTHEyZUhMcjJ1cnBuV0syTW85Tm4xT0Q0QzdzUFdWajFWX2dOT0dfUk9HMkdURVRBM3ZLYTZzODhiZGJpZmR2VHBwZnA4bm5pV2syS09vY2VBZ1oxb2RZcFYtUTc3WlVaaGRJZlMwWVZFN0RRalBocmdJRG1KYjg2OGpnQ2RwVUpzRkZIWHBvMXR2bzRkOHB1SE5jYnBfQWpTTHFmUW4zWFV2SFBWdTJoQmVCRG9FYnRzcGRINFI2LWZJMUdOal9oT24zaUJFNGFGam1xRHFQWVppUzZtQkRV?oc=5
 
-### 24. ON Semiconductor(ON)는 AI 데이터 센터 수요가 1분기 실적을 높이고 ETF 활용을 촉진한 후 7.2% 상승했습니다. 상승 추세가 바뀌었나요? - Simplywall.st
+### 26. ON Semiconductor(ON)는 AI 데이터 센터 수요가 1분기 실적을 높이고 ETF 활용을 촉진한 후 7.2% 상승했습니다. 상승 추세가 바뀌었나요? - Simplywall.st
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 06:14:21 GMT
@@ -452,7 +469,7 @@
 - 요약: ON Semiconductor(ON)는 AI 데이터 센터 수요가 1분기 실적을 높이고 ETF 활용을 촉진한 후 7.2% 상승했습니다. 상승 추세가 바뀌었나요? Simplywall.st
 - 링크: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQXzUzem1OcUEzbU1tb3VxbC1JTzJwcktURHAySHhGX2dWQjZrVXB4eno4TlZXQUpmMkZzZXZiMmxSNzBjeHVwQ2swVkFsOUZ3UWxpQVRQN18zUzd2UjVLN3ZscGNWQ0Z0S3hWV2t4Ri1nLXBzSFM0ZVloVEJVZXBJbjVLZGJXcUlpTEJKR3hUd21uOExNVV9faUFtSlpBN2ZPV0xaSkRLSjloY1I3UlJvZ3dHMHIxRDVXb0dwZGlhenVKWUdGay1oTE1Fcmt3UDRod1JoS1JR0gHbAUFVX3lxTE1OSUJ1RUdTTEhUbXF2TUttWU5hZGh5RV9hcmtmb3NxWm04ZmVRU2ZXMC1rNXVhOUNVeFIzVG8yX2lSYWtHdGk4QjdiVGJkbUFiYkNUeHJPWHpETVNFQnVaNTdnWE56Q1FQSUo3UERNOV9GVG9vdjN2T1hWZ1haUnZERDRXd0dxZ3l5T2FseWFieW5WZkRpVEw0NG8xc092X2RRNXhfYXdTZENCSFJ5dDFqRnpxQnNURldNX3FxRnIxdzBPbkxfNmVmSGVzYnZ1enYzRmJ5bmJoNkZ3NA?oc=5
 
-### 25. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보
+### 27. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 가지각색의 바보
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 04:45:00 GMT
@@ -461,7 +478,7 @@
 - 요약: Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? 가지각색의 바보
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxPdWdycWxJNmh2ZThrMGNLMmVNdXhNRXNvcDJoMTM1VDRVRS1kd1F3RjZ3QzJsWTE0cVJnUFpiQ2dHMmw0Q0swT1owdkdSX25Kanp0eGxkeFlYZy1YeWZ0YzFZbVJ2NTdsdlpFcGRTMXNxVXIzU3RVNDlOLXFTc0txek5tQnhCYnZBbWZud0Q5MnRmRUYyTjdxVQ?oc=5
 
-### 26. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 야후 파이낸스
+### 28. Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? - 야후 파이낸스
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 04 Jun 2026 04:05:00 GMT
@@ -470,7 +487,7 @@
 - 요약: Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요? 야후 파이낸스
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzFVWWdNUGlpaWZOV0h1MmFqWHZ4a3lEeFdOS1dEcmNia0NTZGYtM3lfQ3J0VnVwY1FXX3E1ejBTQkg2UWdVbFJuSXlIMkd6TUJkS24zYXFaRTdpNmVPaWZKTnJ6aTFEVENqaWdMM1hlMExxM3RmQkl4ZjRuTW5iRVdqTlR3RGpsTkdiSzd2LUFCQnNuWC1FNw?oc=5
 
-### 27. 반도체 제조 주식 1분기 결과: IPG 포토닉스 벤치마킹 (NASDAQ:IPGP) - TradingView
+### 29. 반도체 제조 주식 1분기 결과: IPG 포토닉스 벤치마킹 (NASDAQ:IPGP) - TradingView
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 03:31:00 GMT
@@ -479,7 +496,7 @@
 - 요약: 반도체 제조 주식 1분기 결과: IPG 포토닉스 벤치마킹 (NASDAQ:IPGP) TradingView
 - 링크: https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVDdNcnVueFY5RmtPNVVpcWdobjREQXoyeXQ2LXZFR05faWdTY3ZKN3NLUGU1a1JPOUlmZHllNGZqV2ZNU1FKdE9RM2g0U21wUXYxcHEwa0M4enBHei1SbGJaN1A2VW9JRkdLVmpILW5aOGFZaGdZMnBpcm9jeWFIVzV2RnNXTTd3RUljckNVRC00dExzR0JiQVlNOVFhT0pyVUZRYXRMTjNxZjJkOHMxNlloUjU0QkxLTHYyM1dlYnVVWFoxcU02U3lkTlFjNHItV2dabzV4UENrZm0xdUE?oc=5
 
-### 28. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
+### 30. AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) - Benzinga
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 04 Jun 2026 01:41:13 GMT
@@ -487,21 +504,3 @@
 - 원문 제목: AVGO, CRWD, XOS, NVTS, FIVE: 5 Trending Stocks Today - Broadcom (NASDAQ:AVGO) - Benzinga
 - 요약: AVGO, CRWD, XOS, NVTS, FIVE: 오늘의 5가지 인기 주식 - Broadcom(NASDAQ:AVGO) Benzinga
 - 링크: https://news.google.com/rss/articles/CBMi-wFBVV95cUxOX3RCamJudWg3YzhEN3VUeV8xdE5XcWZCYzd4VnJ0aWVzVm04VE9vRVJ0TXNTNUpqS1VvU2s3Y013UnJfZmc5S0pXMnV2RGd0RkZGZXBpWXZkeC1saVYtTTYxUDdwRlBNUVhhZC1HTFJ6ZWFFZXlZSnltUEhUQkx3UVhacFhaV3dEUGZHVWFjVkFycHZsbjhBRTcyX1JPbVJRU2l1TGF1ZVRDLXh5Rks0MzNRWV9FWHdDRzlnVGVkTEprMURCXzA5bGljV3dGU09HdUdaeHJaQlFlOTJwMVcxRm12dkVHQ2taS1ZNcXEzUmtzbVE5Q3Azd3VtZw?oc=5
-
-### 29. 오늘 엔비디아(NVDA) 주가가 급등하는 이유 - StockStory
-- 시장: 미국시장
-- 출처: Google News Magnificent 7
-- 시각: Mon, 01 Jun 2026 21:08:08 GMT
-- 관련 티커: NVDA
-- 원문 제목: Why Is Nvidia (NVDA) Stock Soaring Today - StockStory
-- 요약: 엔비디아(NVDA) 주가가 오늘 급등하는 이유 StockStory
-- 링크: https://news.google.com/rss/articles/CBMipAFBVV95cUxQRl84Y0hDWlJ5TmlnTl9wM2ZmUzQ0MlJ3Z2VmQ3lTbmh1MGhZWER3Y092cDBlWEQzMnJBWV9Bakc2dkZHYy1WS1JwZ3hoQ2xDa295ZjJNeGhaZWZpZGRzUzZ6S3lVRXdIQVN3REI1NkZ4WXlvUS1wRlE5bHBQTl9EZk5xWTJjdUhTbXZJeElfaHE4Q0lLMV9zY0lqaTlWbDkzU3pTTQ?oc=5
-
-### 30. 새로운 보고서에서는 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다고 밝혔습니다. - 반도체 산업 협회 | SIA
-- 시장: 미국시장
-- 출처: Google News US Markets AI Semis
-- 시각: Mon, 01 Jun 2026 09:03:16 GMT
-- 관련 티커: 종목 미검출
-- 원문 제목: New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA
-- 요약: 새로운 보고서에 따르면 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다는 사실이 밝혀졌습니다. 반도체 산업 협회 | SIA
-- 링크: https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5
