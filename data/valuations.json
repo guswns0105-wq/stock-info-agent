@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T09:27",
+  "generated_at": "2026-06-06T10:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -572,7 +572,7 @@
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 85,
+      "mention_count": 86,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -592,9 +592,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 85회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 86회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 85회"
+        "출처 언급 86회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -752,34 +752,34 @@
       "mention_count": 38,
       "price": 391.0,
       "currency": "USD",
-      "pe": 380.61,
-      "forward_pe": 193.915,
-      "pb": 18.68,
+      "pe": 380.24,
+      "forward_pe": 181.195,
+      "pb": 17.455,
       "roe": 4.901,
       "profit_margin": 3.946,
       "eps": null,
-      "fair_value": 46.849970760895424,
-      "watch_buy_price": 38.41697602393425,
-      "ai_buy_price": 38.41697602393425,
+      "fair_value": 50.138537925067304,
+      "watch_buy_price": 41.113601098555186,
+      "ai_buy_price": 41.113601098555186,
       "ai_sell_price": 391.0,
-      "margin_to_fair_pct": -88.01791029133109,
+      "margin_to_fair_pct": -87.17684452044314,
       "verdict": "고평가 주의",
-      "action": "38.42 USD 이하가 아니면 보수적 접근",
+      "action": "41.11 USD 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 38회, 적정가 대비 -88.02% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 38회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 38회"
       ],
       "risks": [
         "ROE 낮음 4.90%",
-        "PER 부담 193.9배"
+        "PER 부담 181.2배"
       ],
       "valuation_basis": [
-        "PER 193.9배 역산 EPS → 기준 PER 22.00배",
-        "PBR 18.68배 → 기준 PBR 2.50배"
+        "PER 181.2배 역산 EPS → 기준 PER 22.00배",
+        "PBR 17.45배 → 기준 PBR 2.50배"
       ],
       "chart": {
         "chart_symbol": "TSLA",
@@ -1339,34 +1339,34 @@
       "mention_count": 9,
       "price": 466.38,
       "currency": "USD",
-      "pe": 174.47,
-      "forward_pe": 60.044,
-      "pb": 13.23,
+      "pe": 155.523,
+      "forward_pe": 53.523,
+      "pb": 11.793,
       "roe": 8.063,
       "profit_margin": 13.374,
       "eps": null,
-      "fair_value": 145.0208638098501,
-      "watch_buy_price": 118.91710832407709,
-      "ai_buy_price": 118.91710832407709,
+      "fair_value": 162.69000297484902,
+      "watch_buy_price": 133.4058024393762,
+      "ai_buy_price": 133.4058024393762,
       "ai_sell_price": 466.38,
-      "margin_to_fair_pct": -68.90499939751918,
+      "margin_to_fair_pct": -65.11642802546228,
       "verdict": "고평가 주의",
-      "action": "118.9 USD 이하가 아니면 보수적 접근",
+      "action": "133.4 USD 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -2,
       "technical_score": 2,
       "ai_score": -0.75,
-      "ai_comment": "출처 언급 9회, 적정가 대비 -68.90% 여력, 중립 추세, ROE 8.06% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 9회, 적정가 대비 -65.12% 여력, 중립 추세, ROE 8.06% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 9회",
         "ROE 8.06%"
       ],
       "risks": [
-        "PER 부담 60.04배"
+        "PER 부담 53.52배"
       ],
       "valuation_basis": [
-        "PER 60.04배 역산 EPS → 기준 PER 22.00배",
-        "PBR 13.23배 → 기준 PBR 2.50배"
+        "PER 53.52배 역산 EPS → 기준 PER 22.00배",
+        "PBR 11.79배 → 기준 PBR 2.50배"
       ],
       "chart": {
         "chart_symbol": "AMD",
@@ -1627,6 +1627,63 @@
       "fetch_note": ""
     },
     {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "region": "global",
+      "mention_count": 7,
+      "price": 368.53,
+      "currency": "USD",
+      "pe": 28.116,
+      "forward_pe": 29.498,
+      "pb": 9.327,
+      "roe": 38.885,
+      "profit_margin": 37.919,
+      "eps": null,
+      "fair_value": 358.6015984274452,
+      "watch_buy_price": 294.05331071050506,
+      "ai_buy_price": 294.05331071050506,
+      "ai_sell_price": 376.5316783488175,
+      "margin_to_fair_pct": -2.694055184803079,
+      "verdict": "중립/대기",
+      "action": "294.1 USD 근처 대기",
+      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
+      "score": 4,
+      "technical_score": 1,
+      "ai_score": 6.75,
+      "ai_comment": "출처 언급 7회, 적정가 대비 -2.69% 여력, 중립 추세, ROE 38.88% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 7회",
+        "ROE 38.88%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 29.50배 역산 EPS → 기준 PER 36.00배",
+        "PBR 9.33배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "GOOGL",
+        "chart_status": "ok",
+        "sma20": 385.37550048828126,
+        "sma60": 345.7778330485026,
+        "sma120": 331.6507497151693,
+        "ret20_pct": -7.402193762970299,
+        "ret60_pct": 19.38127159931675,
+        "high_52w": 402.6199951171875,
+        "low_52w": 165.19000244140625,
+        "recent_support": 273.5,
+        "recent_resistance": 402.6199951171875,
+        "volatility_pct": 36.51364059044588,
+        "trend": "중립 추세",
+        "technical_score": 1,
+        "position_52w": 0.8564208559626307
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL",
+        "https://stockanalysis.com/stocks/googl/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "066570",
       "name": "LG전자",
       "region": "domestic",
@@ -1694,32 +1751,32 @@
       "mention_count": 6,
       "price": 307.34,
       "currency": "USD",
-      "pe": 37.729,
-      "forward_pe": 34.145,
-      "pb": 42.868,
+      "pe": 37.258,
+      "forward_pe": 33.718,
+      "pb": 42.332,
       "roe": 141.471,
       "profit_margin": 27.152,
       "eps": null,
-      "fair_value": 231.73718275404008,
-      "watch_buy_price": 190.02448985831285,
-      "ai_buy_price": 190.02448985831285,
+      "fair_value": 234.67185146837411,
+      "watch_buy_price": 192.43091820406676,
+      "ai_buy_price": 192.43091820406676,
       "ai_sell_price": 307.34,
-      "margin_to_fair_pct": -24.599081553315514,
+      "margin_to_fair_pct": -23.64422090571545,
       "verdict": "고평가 주의",
-      "action": "190.0 USD 이하가 아니면 보수적 접근",
+      "action": "192.4 USD 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": 2,
       "technical_score": 2,
       "ai_score": 5.5,
-      "ai_comment": "출처 언급 6회, 적정가 대비 -24.60% 여력, 상승 추세, ROE 141.5% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 6회, 적정가 대비 -23.64% 여력, 상승 추세, ROE 141.5% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 6회",
         "ROE 141.5%"
       ],
       "risks": [],
       "valuation_basis": [
-        "PER 34.15배 역산 EPS → 기준 PER 36.00배",
-        "PBR 42.87배 → 기준 PBR 4.00배"
+        "PER 33.72배 역산 EPS → 기준 PER 36.00배",
+        "PBR 42.33배 → 기준 PBR 4.00배"
       ],
       "chart": {
         "chart_symbol": "AAPL",
@@ -1741,63 +1798,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
         "https://stockanalysis.com/stocks/aapl/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "region": "global",
-      "mention_count": 6,
-      "price": 368.53,
-      "currency": "USD",
-      "pe": 28.116,
-      "forward_pe": 29.498,
-      "pb": 9.327,
-      "roe": 38.885,
-      "profit_margin": 37.919,
-      "eps": null,
-      "fair_value": 358.6015984274452,
-      "watch_buy_price": 294.05331071050506,
-      "ai_buy_price": 294.05331071050506,
-      "ai_sell_price": 376.5316783488175,
-      "margin_to_fair_pct": -2.694055184803079,
-      "verdict": "중립/대기",
-      "action": "294.1 USD 근처 대기",
-      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
-      "score": 4,
-      "technical_score": 1,
-      "ai_score": 6.5,
-      "ai_comment": "출처 언급 6회, 적정가 대비 -2.69% 여력, 중립 추세, ROE 38.88% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 6회",
-        "ROE 38.88%"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 29.50배 역산 EPS → 기준 PER 36.00배",
-        "PBR 9.33배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "GOOGL",
-        "chart_status": "ok",
-        "sma20": 385.37550048828126,
-        "sma60": 345.7778330485026,
-        "sma120": 331.6507497151693,
-        "ret20_pct": -7.402193762970299,
-        "ret60_pct": 19.38127159931675,
-        "high_52w": 402.6199951171875,
-        "low_52w": 165.19000244140625,
-        "recent_support": 273.5,
-        "recent_resistance": 402.6199951171875,
-        "volatility_pct": 36.51364059044588,
-        "trend": "중립 추세",
-        "technical_score": 1,
-        "position_52w": 0.8564208559626307
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL",
-        "https://stockanalysis.com/stocks/googl/statistics/"
       ],
       "fetch_note": ""
     },
@@ -1852,6 +1852,63 @@
         "https://query1.finance.yahoo.com/v8/finance/chart/QQQ"
       ],
       "fetch_note": "StockAnalysis 통계 수집 실패: HTTP Error 404: Not Found"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "region": "global",
+      "mention_count": 5,
+      "price": 246.03,
+      "currency": "USD",
+      "pe": 29.424,
+      "forward_pe": 29.495,
+      "pb": 5.987,
+      "roe": 24.285,
+      "profit_margin": 12.224,
+      "eps": null,
+      "fair_value": 177.53143005952913,
+      "watch_buy_price": 145.57577264881388,
+      "ai_buy_price": 145.57577264881388,
+      "ai_sell_price": 246.03,
+      "margin_to_fair_pct": -27.84155181907526,
+      "verdict": "고평가 주의",
+      "action": "145.6 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 1,
+      "technical_score": 2,
+      "ai_score": 2.25,
+      "ai_comment": "출처 언급 5회, 적정가 대비 -27.84% 여력, 중립 추세, ROE 24.29% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 5회",
+        "ROE 24.29%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 29.50배 역산 EPS → 기준 PER 22.00배",
+        "PBR 5.99배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "AMZN",
+        "chart_status": "ok",
+        "sma20": 264.1185012817383,
+        "sma60": 244.251833597819,
+        "sma120": 234.49958343505858,
+        "ret20_pct": -9.27094154325957,
+        "ret60_pct": 15.6971582702065,
+        "high_52w": 274.989990234375,
+        "low_52w": 198.7899932861328,
+        "recent_support": 199.33999633789062,
+        "recent_resistance": 274.989990234375,
+        "volatility_pct": 30.393963368160055,
+        "trend": "중립 추세",
+        "technical_score": 2,
+        "position_52w": 0.6199476194986506
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
+        "https://stockanalysis.com/stocks/amzn/statistics/"
+      ],
+      "fetch_note": ""
     },
     {
       "ticker": "086520",
@@ -2029,63 +2086,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/ORCL",
         "https://stockanalysis.com/stocks/orcl/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "region": "global",
-      "mention_count": 4,
-      "price": 246.03,
-      "currency": "USD",
-      "pe": 29.424,
-      "forward_pe": 29.495,
-      "pb": 5.987,
-      "roe": 24.285,
-      "profit_margin": 12.224,
-      "eps": null,
-      "fair_value": 177.53143005952913,
-      "watch_buy_price": 145.57577264881388,
-      "ai_buy_price": 145.57577264881388,
-      "ai_sell_price": 246.03,
-      "margin_to_fair_pct": -27.84155181907526,
-      "verdict": "고평가 주의",
-      "action": "145.6 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": 1,
-      "technical_score": 2,
-      "ai_score": 2.0,
-      "ai_comment": "출처 언급 4회, 적정가 대비 -27.84% 여력, 중립 추세, ROE 24.29% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 4회",
-        "ROE 24.29%"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 29.50배 역산 EPS → 기준 PER 22.00배",
-        "PBR 5.99배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "AMZN",
-        "chart_status": "ok",
-        "sma20": 264.1185012817383,
-        "sma60": 244.251833597819,
-        "sma120": 234.49958343505858,
-        "ret20_pct": -9.27094154325957,
-        "ret60_pct": 15.6971582702065,
-        "high_52w": 274.989990234375,
-        "low_52w": 198.7899932861328,
-        "recent_support": 199.33999633789062,
-        "recent_resistance": 274.989990234375,
-        "volatility_pct": 30.393963368160055,
-        "trend": "중립 추세",
-        "technical_score": 2,
-        "position_52w": 0.6199476194986506
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/AMZN",
-        "https://stockanalysis.com/stocks/amzn/statistics/"
       ],
       "fetch_note": ""
     },
@@ -2487,6 +2487,63 @@
       "fetch_note": ""
     },
     {
+      "ticker": "GOOG",
+      "name": "Alphabet",
+      "region": "global",
+      "mention_count": 3,
+      "price": 365.76,
+      "currency": "USD",
+      "pe": 27.976,
+      "forward_pe": 29.411,
+      "pb": 9.362,
+      "roe": 38.885,
+      "profit_margin": 37.919,
+      "eps": null,
+      "fair_value": 356.63076153460014,
+      "watch_buy_price": 292.4372244583721,
+      "ai_buy_price": 292.4372244583721,
+      "ai_sell_price": 374.46229961133014,
+      "margin_to_fair_pct": -2.495964147364349,
+      "verdict": "중립/대기",
+      "action": "292.4 USD 근처 대기",
+      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
+      "score": 4,
+      "technical_score": 1,
+      "ai_score": 5.75,
+      "ai_comment": "출처 언급 3회, 적정가 대비 -2.50% 여력, 중립 추세, ROE 38.88% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 3회",
+        "ROE 38.88%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 29.41배 역산 EPS → 기준 PER 36.00배",
+        "PBR 9.36배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "GOOG",
+        "chart_status": "ok",
+        "sma20": 381.84149780273435,
+        "sma60": 343.31966501871744,
+        "sma120": 330.66383209228513,
+        "ret20_pct": -7.472802606925399,
+        "ret60_pct": 18.591525865976564,
+        "high_52w": 399.0400085449219,
+        "low_52w": 166.00999450683594,
+        "recent_support": 273.1400146484375,
+        "recent_resistance": 399.0400085449219,
+        "volatility_pct": 35.70543586360213,
+        "trend": "중립 추세",
+        "technical_score": 1,
+        "position_52w": 0.8571857420071104
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/GOOG",
+        "https://stockanalysis.com/stocks/goog/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "207940",
       "name": "삼성바이오로직스",
       "region": "domestic",
@@ -2594,62 +2651,6 @@
         "https://query1.finance.yahoo.com/v8/finance/chart/VOO"
       ],
       "fetch_note": "StockAnalysis 통계 수집 실패: HTTP Error 404: Not Found"
-    },
-    {
-      "ticker": "GOOG",
-      "name": "Alphabet",
-      "region": "global",
-      "mention_count": 2,
-      "price": 365.76,
-      "currency": "USD",
-      "pe": 27.976,
-      "forward_pe": 29.411,
-      "pb": 9.362,
-      "roe": 38.885,
-      "profit_margin": 37.919,
-      "eps": null,
-      "fair_value": 356.63076153460014,
-      "watch_buy_price": 292.4372244583721,
-      "ai_buy_price": 292.4372244583721,
-      "ai_sell_price": 374.46229961133014,
-      "margin_to_fair_pct": -2.495964147364349,
-      "verdict": "중립/대기",
-      "action": "292.4 USD 근처 대기",
-      "rationale": "적정가와 현재가 차이가 작아 추격보다 조정 대기가 낫습니다.",
-      "score": 3,
-      "technical_score": 1,
-      "ai_score": 4.5,
-      "ai_comment": "출처 언급 2회, 적정가 대비 -2.50% 여력, 중립 추세, ROE 38.88% 기준으로 산정했습니다.",
-      "positives": [
-        "ROE 38.88%"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 29.41배 역산 EPS → 기준 PER 36.00배",
-        "PBR 9.36배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "GOOG",
-        "chart_status": "ok",
-        "sma20": 381.84149780273435,
-        "sma60": 343.31966501871744,
-        "sma120": 330.66383209228513,
-        "ret20_pct": -7.472802606925399,
-        "ret60_pct": 18.591525865976564,
-        "high_52w": 399.0400085449219,
-        "low_52w": 166.00999450683594,
-        "recent_support": 273.1400146484375,
-        "recent_resistance": 399.0400085449219,
-        "volatility_pct": 35.70543586360213,
-        "trend": "중립 추세",
-        "technical_score": 1,
-        "position_52w": 0.8571857420071104
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/GOOG",
-        "https://stockanalysis.com/stocks/goog/statistics/"
-      ],
-      "fetch_note": ""
     },
     {
       "ticker": "012330",
