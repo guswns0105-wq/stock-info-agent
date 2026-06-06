@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T00:27",
+  "generated_at": "2026-06-07T01:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -163,9 +163,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 25회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 26회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 25회",
+          "출처 언급 26회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -444,9 +444,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 25회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 26회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 25회",
+          "출처 언급 26회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -572,7 +572,7 @@
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 96,
+      "mention_count": 97,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -592,9 +592,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 96회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 97회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 96회"
+        "출처 언급 97회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -632,7 +632,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "region": "global",
-      "mention_count": 91,
+      "mention_count": 92,
       "price": 205.1,
       "currency": "USD",
       "pe": 31.411,
@@ -652,9 +652,9 @@
       "score": 6,
       "technical_score": 2,
       "ai_score": 11,
-      "ai_comment": "출처 언급 91회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 92회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 91회",
+        "출처 언급 92회",
         "ROE 114.3%",
         "PER가 기준보다 낮음"
       ],
@@ -749,10 +749,10 @@
       "ticker": "000660",
       "name": "SK하이닉스",
       "region": "domestic",
-      "mention_count": 39,
+      "mention_count": 40,
       "price": 2070000.0,
       "currency": "KRW",
-      "pe": null,
+      "pe": 6.4,
       "forward_pe": null,
       "pb": 1.82,
       "roe": 31.06,
@@ -766,16 +766,18 @@
       "verdict": "고평가 주의",
       "action": "1,143,008 KRW 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": 1,
+      "score": 3,
       "technical_score": 2,
-      "ai_score": 4,
-      "ai_comment": "출처 언급 39회, 적정가 대비 -32.66% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
+      "ai_score": 6,
+      "ai_comment": "출처 언급 40회, 적정가 대비 -32.66% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 39회",
-        "ROE 31.06%"
+        "출처 언급 40회",
+        "ROE 31.06%",
+        "PER가 기준보다 낮음"
       ],
       "risks": [],
       "valuation_basis": [
+        "EPS/PER 불일치 91.60% → PER 역산 제외",
         "EPS 27,182 → 기준 PER 17.00배",
         "PBR 1.82배 → 기준 PBR 2.50배"
       ],
@@ -865,7 +867,7 @@
       "ticker": "MU",
       "name": "Micron",
       "region": "global",
-      "mention_count": 25,
+      "mention_count": 26,
       "price": 864.01,
       "currency": "USD",
       "pe": 40.645,
@@ -885,9 +887,9 @@
       "score": 7,
       "technical_score": 2,
       "ai_score": 12,
-      "ai_comment": "출처 언급 25회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 26회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 25회",
+        "출처 언급 26회",
         "ROE 39.82%",
         "PER가 기준보다 낮음"
       ],

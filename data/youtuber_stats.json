@@ -3,25 +3,25 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 79,
-    "short_count": 79,
+    "video_count": 80,
+    "short_count": 80,
     "regular_video_count": 0,
-    "mention_count": 102,
-    "transcript_count": 72,
+    "mention_count": 104,
+    "transcript_count": 73,
     "metadata_count": 7,
-    "ocr_count": 16,
-    "transcript_chars": 158514,
-    "ocr_chars": 6746,
+    "ocr_count": 17,
+    "transcript_chars": 162425,
+    "ocr_chars": 7001,
     "stocks": [
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 41
+        "count": 42
       },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "count": 20
+        "count": 21
       },
       {
         "ticker": "003550",
@@ -90,6 +90,21 @@
       }
     ],
     "videos": [
+      {
+        "title": "SK하이닉스가 지금 '엔비디아'보다 더 '갑'이 된 진짜 이유",
+        "url": "https://youtu.be/e5PVVGYjwWI",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "000660"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 3911,
+        "ocr_status": "ok",
+        "ocr_chars": 255,
+        "ocr_excerpt": "SK하이낙스가지금 엔비티아보다 더 같이된 진짜 이유 경제 사냥꾼 2026년 06월 06일 1000 10000 한국 반도체는 그냥 부품 납품사라고 생각하는데 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 더 같이된 진짜이유 핵심만 정리해왔으니깐 딱 1분만 집중해봐 SK하이",
+        "youtube_kind": "short"
+      },
       {
         "title": "월가에서 '삼성전자&스페이스X' 계약 호재 뜰 수 있다는 이유",
         "url": "https://youtu.be/-FEePlGO-vY",
@@ -501,21 +516,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      },
-      {
-        "title": "‘국민연금’ 170조 매도폭탄 결과, 투자자들이 반드시 봐야 하는 이유",
-        "url": "https://youtu.be/SVeVX0wVx8c",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2100,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
       }
     ]
   },
@@ -896,29 +896,29 @@
     "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 31,
-    "short_count": 31,
+    "video_count": 32,
+    "short_count": 32,
     "regular_video_count": 0,
-    "mention_count": 38,
-    "transcript_count": 31,
+    "mention_count": 40,
+    "transcript_count": 32,
     "metadata_count": 0,
-    "ocr_count": 8,
-    "transcript_chars": 69377,
-    "ocr_chars": 3171,
+    "ocr_count": 9,
+    "transcript_chars": 73288,
+    "ocr_chars": 3426,
     "stocks": [
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 24
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "count": 5
+        "count": 25
       },
       {
         "ticker": "MU",
         "name": "Micron",
+        "count": 6
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
         "count": 5
       },
       {
@@ -943,6 +943,21 @@
       }
     ],
     "videos": [
+      {
+        "title": "SK하이닉스가 지금 '엔비디아'보다 더 '갑'이 된 진짜 이유",
+        "url": "https://youtu.be/e5PVVGYjwWI",
+        "published_at": "",
+        "tickers": [
+          "NVDA",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 3911,
+        "ocr_status": "ok",
+        "ocr_chars": 255,
+        "ocr_excerpt": "SK하이낙스가지금 엔비티아보다 더 같이된 진짜 이유 경제 사냥꾼 2026년 06월 06일 1000 10000 한국 반도체는 그냥 부품 납품사라고 생각하는데 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 더 같이된 진짜이유 핵심만 정리해왔으니깐 딱 1분만 집중해봐 SK하이",
+        "youtube_kind": "short"
+      },
       {
         "title": "월가에서 '삼성전자&스페이스X' 계약 호재 뜰 수 있다는 이유",
         "url": "https://youtu.be/-FEePlGO-vY",
@@ -1351,20 +1366,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2243,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "현시점 ‘네이버+카카오’ 주가가 오를 수 없는 진짜 이유",
-        "url": "https://youtu.be/OKqP_Pxkftk",
-        "published_at": "",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2253,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
