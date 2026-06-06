@@ -6902,6 +6902,46 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "MSTR",
+    "name": "MicroStrategy",
+    "sources": [
+      "마술토끼의 투자이야기",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "마술토끼의 투자이야기",
+        "source_role": "blog_recommendation",
+        "title": "스트래티지(MSTR)의 비트코인 매도 영향 분석",
+        "url": "https://blog.naver.com/magic_rabb1t/224304331938?fromRss=true&trackingCode=rss",
+        "published_at": "Wed, 03 Jun 2026 00:19:50 +0900",
+        "reason": "오늘 비트코인은 다시 7만 달러 아래로 내려왔어요. 6월 2일 오전, 6만 8천~6만 9천 달러대까지 밀렸죠. 하락을 설명할 만한 뉴스가 몇 가지 있었는데요. 먼저 스트래티지(MSTR)의 BTC 매도 소식이 있었어요. 원래 기업용 데이터 분석 소프트웨어를 팔던 회사였던 MicroStrategy였는데요. 처음엔 회사 여유 자금을 비트코인으로 바꾼 정도였는데, 이후엔 보통주와 전환사채, 우선주까지 발행해 BTC를 계속 사면서 회사의 성격이 180도 변했어요. 비트코인이 오르면 더 크게 오르고, 비트코인이 내리면 더 크게 내리는 레버리지 주식 성격을 가지게 됐죠. 마이클 세일러는 그 중심에 있는 인물인데요. 비트코인을 끊임없이 매수하면서 단 한번도 팔.......",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Jim Cramer는 MicroStrategy가 FUD의 바다를 탐색하는 동안 Michael Saylor가 \"비트코인을 살해했다\"고 암시합니다.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/jim-cramer-hints-michael-saylor-220000205.html",
+        "published_at": "2026-06-04T22:00:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "207940",
     "name": "삼성바이오로직스",
@@ -7068,33 +7108,6 @@
     ],
     "stance": "단일 출처 추천/관심",
     "target_price_summary": "58만원",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "MSTR",
-    "name": "MicroStrategy",
-    "sources": [
-      "마술토끼의 투자이야기"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "마술토끼의 투자이야기",
-        "source_role": "blog_recommendation",
-        "title": "스트래티지(MSTR)의 비트코인 매도 영향 분석",
-        "url": "https://blog.naver.com/magic_rabb1t/224304331938?fromRss=true&trackingCode=rss",
-        "published_at": "Wed, 03 Jun 2026 00:19:50 +0900",
-        "reason": "오늘 비트코인은 다시 7만 달러 아래로 내려왔어요. 6월 2일 오전, 6만 8천~6만 9천 달러대까지 밀렸죠. 하락을 설명할 만한 뉴스가 몇 가지 있었는데요. 먼저 스트래티지(MSTR)의 BTC 매도 소식이 있었어요. 원래 기업용 데이터 분석 소프트웨어를 팔던 회사였던 MicroStrategy였는데요. 처음엔 회사 여유 자금을 비트코인으로 바꾼 정도였는데, 이후엔 보통주와 전환사채, 우선주까지 발행해 BTC를 계속 사면서 회사의 성격이 180도 변했어요. 비트코인이 오르면 더 크게 오르고, 비트코인이 내리면 더 크게 내리는 레버리지 주식 성격을 가지게 됐죠. 마이클 세일러는 그 중심에 있는 인물인데요. 비트코인을 끊임없이 매수하면서 단 한번도 팔.......",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
     "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
