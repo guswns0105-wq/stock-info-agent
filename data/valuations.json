@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T20:27",
+  "generated_at": "2026-06-06T21:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -163,9 +163,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 24회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 25회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 24회",
+          "출처 언급 25회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -265,17 +265,17 @@
         "currency": "USD",
         "ai_score": 10,
         "verdict": "관심권",
-        "ai_buy_price": 337.88791625403184,
-        "ai_sell_price": 432.66135617894327,
-        "fair_value": 412.0584344561364,
-        "pe": 24.544,
+        "ai_buy_price": 337.86192804229853,
+        "ai_sell_price": 432.62807859074815,
+        "fair_value": 412.0267415149982,
+        "pe": 24.546,
         "pb": 20.881,
         "roe": 37.281,
         "trend": "중립 추세",
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 21회, 적정가 대비 6.82% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 21회",
           "ROE 37.28%",
@@ -444,9 +444,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 24회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 25회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 24회",
+          "출처 언급 25회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -546,17 +546,17 @@
         "currency": "USD",
         "ai_score": 10,
         "verdict": "관심권",
-        "ai_buy_price": 337.88791625403184,
-        "ai_sell_price": 432.66135617894327,
-        "fair_value": 412.0584344561364,
-        "pe": 24.544,
+        "ai_buy_price": 337.86192804229853,
+        "ai_sell_price": 432.62807859074815,
+        "fair_value": 412.0267415149982,
+        "pe": 24.546,
         "pb": 20.881,
         "roe": 37.281,
         "trend": "중립 추세",
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 21회, 적정가 대비 6.82% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 21회",
           "ROE 37.28%",
@@ -572,7 +572,7 @@
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 89,
+      "mention_count": 90,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -592,9 +592,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 89회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 90회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 89회"
+        "출처 언급 90회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -632,7 +632,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "region": "global",
-      "mention_count": 85,
+      "mention_count": 86,
       "price": 205.1,
       "currency": "USD",
       "pe": 31.411,
@@ -652,9 +652,9 @@
       "score": 6,
       "technical_score": 2,
       "ai_score": 11,
-      "ai_comment": "출처 언급 85회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 86회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 85회",
+        "출처 언급 86회",
         "ROE 114.3%",
         "PER가 기준보다 낮음"
       ],
@@ -867,7 +867,7 @@
       "ticker": "MU",
       "name": "Micron",
       "region": "global",
-      "mention_count": 24,
+      "mention_count": 25,
       "price": 864.01,
       "currency": "USD",
       "pe": 40.645,
@@ -887,9 +887,9 @@
       "score": 7,
       "technical_score": 2,
       "ai_score": 12,
-      "ai_comment": "출처 언급 24회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 25회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 24회",
+        "출처 언급 25회",
         "ROE 39.82%",
         "PER가 기준보다 낮음"
       ],
@@ -989,23 +989,23 @@
       "price": 385.73,
       "currency": "USD",
       "pe": 64.196,
-      "forward_pe": 24.544,
+      "forward_pe": 24.546,
       "pb": 20.881,
       "roe": 37.281,
       "profit_margin": 38.848,
       "eps": null,
-      "fair_value": 412.0584344561364,
-      "watch_buy_price": 337.88791625403184,
-      "ai_buy_price": 337.88791625403184,
-      "ai_sell_price": 432.66135617894327,
-      "margin_to_fair_pct": 6.82561233405139,
+      "fair_value": 412.0267415149982,
+      "watch_buy_price": 337.86192804229853,
+      "ai_buy_price": 337.86192804229853,
+      "ai_sell_price": 432.62807859074815,
+      "margin_to_fair_pct": 6.817395980348473,
       "verdict": "관심권",
       "action": "337.9 USD 부근까지 조정 시 매력 증가",
       "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 21회, 적정가 대비 6.82% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 21회",
         "ROE 37.28%",
@@ -1013,7 +1013,7 @@
       ],
       "risks": [],
       "valuation_basis": [
-        "PER 24.54배 역산 EPS → 기준 PER 36.00배",
+        "PER 24.55배 역산 EPS → 기준 PER 36.00배",
         "PBR 20.88배 → 기준 PBR 4.00배"
       ],
       "chart": {
@@ -2661,6 +2661,62 @@
       "fetch_note": ""
     },
     {
+      "ticker": "ASML",
+      "name": "ASML",
+      "region": "global",
+      "mention_count": 2,
+      "price": 1641.74,
+      "currency": "USD",
+      "pe": 56.333,
+      "forward_pe": 43.17,
+      "pb": 27.075,
+      "roe": 52.236,
+      "profit_margin": 29.713,
+      "eps": null,
+      "fair_value": 1017.0297801579403,
+      "watch_buy_price": 833.964419729511,
+      "ai_buy_price": 833.964419729511,
+      "ai_sell_price": 1641.74,
+      "margin_to_fair_pct": -38.051714634598646,
+      "verdict": "고평가 주의",
+      "action": "834.0 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 0,
+      "technical_score": 3,
+      "ai_score": 1.5,
+      "ai_comment": "출처 언급 2회, 적정가 대비 -38.05% 여력, 상승 추세, ROE 52.24% 기준으로 산정했습니다.",
+      "positives": [
+        "ROE 52.24%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 43.17배 역산 EPS → 기준 PER 36.00배",
+        "PBR 27.07배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "ASML",
+        "chart_status": "ok",
+        "sma20": 1598.0734985351562,
+        "sma60": 1467.6744995117188,
+        "sma120": 1388.3279169718423,
+        "ret20_pct": 8.251353450385945,
+        "ret60_pct": 18.393568552925288,
+        "high_52w": 1757.469970703125,
+        "low_52w": 689.6300048828125,
+        "recent_support": 1253.9599609375,
+        "recent_resistance": 1757.469970703125,
+        "volatility_pct": 50.35355244697595,
+        "trend": "상승 추세",
+        "technical_score": 3,
+        "position_52w": 0.8916223643921948
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/ASML",
+        "https://stockanalysis.com/stocks/asml/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "VOO",
       "name": "S&P 500 ETF",
       "region": "global",
@@ -2825,62 +2881,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=105560",
         "https://query1.finance.yahoo.com/v8/finance/chart/105560.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML",
-      "region": "global",
-      "mention_count": 1,
-      "price": 1641.74,
-      "currency": "USD",
-      "pe": 56.333,
-      "forward_pe": 43.17,
-      "pb": 27.075,
-      "roe": 52.236,
-      "profit_margin": 29.713,
-      "eps": null,
-      "fair_value": 1017.0297801579403,
-      "watch_buy_price": 833.964419729511,
-      "ai_buy_price": 833.964419729511,
-      "ai_sell_price": 1641.74,
-      "margin_to_fair_pct": -38.051714634598646,
-      "verdict": "고평가 주의",
-      "action": "834.0 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": 0,
-      "technical_score": 3,
-      "ai_score": 1.25,
-      "ai_comment": "출처 언급 1회, 적정가 대비 -38.05% 여력, 상승 추세, ROE 52.24% 기준으로 산정했습니다.",
-      "positives": [
-        "ROE 52.24%"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 43.17배 역산 EPS → 기준 PER 36.00배",
-        "PBR 27.07배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "ASML",
-        "chart_status": "ok",
-        "sma20": 1598.0734985351562,
-        "sma60": 1467.6744995117188,
-        "sma120": 1388.3279169718423,
-        "ret20_pct": 8.251353450385945,
-        "ret60_pct": 18.393568552925288,
-        "high_52w": 1757.469970703125,
-        "low_52w": 689.6300048828125,
-        "recent_support": 1253.9599609375,
-        "recent_resistance": 1757.469970703125,
-        "volatility_pct": 50.35355244697595,
-        "trend": "상승 추세",
-        "technical_score": 3,
-        "position_52w": 0.8916223643921948
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/ASML",
-        "https://stockanalysis.com/stocks/asml/statistics/"
       ],
       "fetch_note": ""
     },
@@ -3116,6 +3116,62 @@
       "fetch_note": ""
     },
     {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "region": "global",
+      "mention_count": 1,
+      "price": 1131.42,
+      "currency": "USD",
+      "pe": 40.191,
+      "forward_pe": 30.341,
+      "pb": 32.403,
+      "roe": 107.459,
+      "profit_margin": 34.986,
+      "eps": null,
+      "fair_value": 966.577274269267,
+      "watch_buy_price": 792.593364900799,
+      "ai_buy_price": 792.593364900799,
+      "ai_sell_price": 1131.42,
+      "margin_to_fair_pct": -14.569543205063818,
+      "verdict": "고평가 주의",
+      "action": "792.6 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 3,
+      "technical_score": 1,
+      "ai_score": 4.25,
+      "ai_comment": "출처 언급 1회, 적정가 대비 -14.57% 여력, 상승 추세, ROE 107.5% 기준으로 산정했습니다.",
+      "positives": [
+        "ROE 107.5%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 30.34배 역산 EPS → 기준 PER 36.00배",
+        "PBR 32.40배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "LLY",
+        "chart_status": "ok",
+        "sma20": 1046.449008178711,
+        "sma60": 966.7515055338541,
+        "sma120": 1006.3487559000652,
+        "ret20_pct": 16.04783524464677,
+        "ret60_pct": 13.1601025774448,
+        "high_52w": 1131.4200439453125,
+        "low_52w": 625.6500244140625,
+        "recent_support": 851.2100219726562,
+        "recent_resistance": 1131.4200439453125,
+        "volatility_pct": 38.712441051241406,
+        "trend": "상승 추세",
+        "technical_score": 1,
+        "position_52w": 0.9999999131120653
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/LLY",
+        "https://stockanalysis.com/stocks/lly/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "247540",
       "name": "에코프로비엠",
       "region": "domestic",
@@ -3284,63 +3340,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=068270",
         "https://query1.finance.yahoo.com/v8/finance/chart/068270.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "NVO",
-      "name": "Novo Nordisk",
-      "region": "global",
-      "mention_count": 0,
-      "price": 42.96,
-      "currency": "USD",
-      "pe": 10.401,
-      "forward_pe": 14.054,
-      "pb": 6.247,
-      "roe": 71.402,
-      "profit_margin": 37.205,
-      "eps": null,
-      "fair_value": 88.45452944209862,
-      "watch_buy_price": 72.53271414252086,
-      "ai_buy_price": 42.1008,
-      "ai_sell_price": 92.87725591420356,
-      "margin_to_fair_pct": 105.89974264920534,
-      "verdict": "저평가 후보",
-      "action": "72.53 USD 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 6,
-      "technical_score": 1,
-      "ai_score": 7.0,
-      "ai_comment": "적정가 대비 105.9% 여력, 중립 추세, ROE 71.40% 기준으로 산정했습니다.",
-      "positives": [
-        "ROE 71.40%",
-        "PER가 기준보다 낮음"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 14.05배 역산 EPS → 기준 PER 38.00배",
-        "PBR 6.25배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "NVO",
-        "chart_status": "ok",
-        "sma20": 44.77999973297119,
-        "sma60": 41.02733325958252,
-        "sma120": 45.704999987284346,
-        "ret20_pct": -6.200871799933283,
-        "ret60_pct": 10.636100886408673,
-        "high_52w": 81.05000305175781,
-        "low_52w": 35.290000915527344,
-        "recent_support": 35.290000915527344,
-        "recent_resistance": 47.08000183105469,
-        "volatility_pct": 33.205181556863764,
-        "trend": "중립 추세",
-        "technical_score": 1,
-        "position_52w": 0.16761360853171678
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/NVO",
-        "https://stockanalysis.com/stocks/nvo/statistics/"
       ],
       "fetch_note": ""
     }

@@ -2098,15 +2098,15 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 19,
+    "video_count": 20,
     "short_count": 0,
-    "regular_video_count": 19,
+    "regular_video_count": 20,
     "mention_count": 27,
     "transcript_count": 6,
-    "metadata_count": 13,
-    "ocr_count": 11,
+    "metadata_count": 14,
+    "ocr_count": 13,
     "transcript_chars": 4147,
-    "ocr_chars": 4512,
+    "ocr_chars": 5172,
     "stocks": [
       {
         "ticker": "003550",
@@ -2146,15 +2146,27 @@
     ],
     "videos": [
       {
+        "title": "역대급 미친 환율, 우리 일상에서 제일 먼저 체감할 10가지",
+        "url": "https://youtu.be/kenqxUYhp9E",
+        "published_at": "2026-06-06T11:56:41+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 382,
+        "ocr_excerpt": "환율 1500원 넘어가면 제일 먼저 벌어지는 10가지 1999 2099 전기• 가스요금 커피 • 초콜릿 휴대폰 • 가전제품 해외여행 택배•배달비 주식시장 휘발유•경유 가격 금등, 수유비 부담 공가 LNG•석단 수업비 증가로 공공요금 인상 압력 일•옥수수• 대두 수업가 상승, 식탁질가 급",
+        "youtube_kind": "video"
+      },
+      {
         "title": "국민연금이 폭락장에 순매수•순매도한 한국주식",
         "url": "https://youtu.be/BCzjzvDst_c",
         "published_at": "2026-06-06T10:39:36+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 278,
+        "ocr_excerpt": "국민연금이 폭락짱에 순매도 순매수한 한국기업 SAMYANG 삼양식품 식품• 라면 • 글로벌 브랜드 158억 삼성전기 MLCC• 반도체 기판 카메라오드 대한유화 식유화학• 폴리에틸렌 화학제품 달바글로벌 화장품 • 스킨케어• 글로벌 브랜드 씨에스원드 동석 나눠-통적 블레이드- 신재상에너지 ",
         "youtube_kind": "video"
       },
       {
@@ -3901,6 +3913,133 @@
     ]
   },
   {
+    "region": "global",
+    "youtuber": "미국 경제 정복하기",
+    "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
+    "video_count": 8,
+    "short_count": 1,
+    "regular_video_count": 7,
+    "mention_count": 2,
+    "transcript_count": 1,
+    "metadata_count": 7,
+    "ocr_count": 8,
+    "transcript_chars": 1993,
+    "ocr_chars": 2831,
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 1
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "하락장에 10배 폭등하는 종목",
+        "url": "https://youtu.be/PTcMph26t8g",
+        "published_at": "2026-06-06T12:00:04+00:00",
+        "tickers": [
+          "NVDA",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1993,
+        "ocr_status": "ok",
+        "ocr_chars": 323,
+        "ocr_excerpt": "미국 경제 정복하기 하락장에 10배 폭등하는 종목 06월 06일 | 조회수 953.492 금리 인하는커녕 인상 공포까지|나온거야 \" 정복하기 제 정복하기 내가 네비우스 600% 급등전에도 소개할 회사는 Nebius Group(NBIS) NEBIUS 미국 경제 정복하기Q 엔비디아 GPU ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "1년뒤 10배 급등할 엔비디아 다음 대장주",
+        "url": "https://youtu.be/AprA6F2nZsU",
+        "published_at": "2026-06-05T11:00:07+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 336,
+        "ocr_excerpt": "미국 경제 정복하기© 1년뒤 10배 급등할 엔비디아 다음 대장주 미국 경제 정복하기 06월 05일 | 조회수 963.297 개미들만 놓치고 있어 1 정복하기 《제 정복하기 AI데이터센터 광통신 부품을 소재부터 통째로 만드는 회사야 경제 정복하 1| 정복하기 미국 경제 격제 정복하기 젠슨",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"환율 1539원 폭등\" 월가에서 보는 코스피 가격 전망",
+        "url": "https://youtu.be/7ydxLQ2sEu8",
+        "published_at": "2026-06-04T11:00:34+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 305,
+        "ocr_excerpt": "미국 경제 정복하기 \"환율 1539원 폭등\" 월가에서 보는 코스피 가격 전망 06월 04일 | 조회수 951.928 지금 월가 큰손들은 이상황다 계산하고 움직이는데 TVE NEVER HEARD SUCH MEAN-SPIRITED HATE-HOOTS 1| 정복하기 경제 정복하기 오늘 장중엔",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현재 실적발표한 브로드컴이 급락한 진짜 이유",
+        "url": "https://youtu.be/CYnLpw7t9Bw",
+        "published_at": "2026-06-04T09:00:14+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 488,
+        "ocr_excerpt": "미국 경제 정복하기© 현재 실적발표한 브로드컴이 급락한 진짜 이유 미국 경제 정복하기 06월 04일 | 조회수 963.552 개미들만 아무것도 모르고 무서원하고 있어 1| 정복하기 미국 경제 격제 정복하기 어제 미국 장,끝나고 브로드컴이 2분기 실적을 터뜨렸거든 THAVE HERE A ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "80% 넘게 폭락한 NC가 급등한 진짜 이유 (+주가 전망)",
+        "url": "https://youtu.be/Hq-kqPVTNKY",
+        "published_at": "2026-06-03T11:00:36+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 367,
+        "ocr_excerpt": "미국 경제 정복하기© 80% 넘게 폭락한 NC가 급등한 진짜 이유 (+주가 전망) 미국 경제 정복하기 06월 03일 | 조회수 935.639 개미들만 아무것도 모르고 가만히 있어 {| 정복하기 미국 경제 격제 정복하기 엔씨가 6월2일 하루에만 108% (폭등하면서 33만8000원에 장을",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현재 주식 시장을 뒤흔드는 젠슨황의 큰 그림 (+수혜 종목)",
+        "url": "https://youtu.be/KajtuaG_wZU",
+        "published_at": "2026-06-03T09:00:09+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 331,
+        "ocr_excerpt": "미국 경제 정복하기 현재 주식 시장을 뒤흔드는 젠슨황의 큰 그림 (+수혜 종목) 06월 03일 | 조회수 961.692 지금 월가 큰손들은 이 큰그림 보고 벌써 줄 서서 담고 있는데 1| 정복하기 격제 정복하기 미국 경제 정복하기Q 초보 투자자님들은 꼭 받아보는걸 추천할게 DIGIT H",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\"",
+        "url": "https://youtu.be/QFfxL_I-fac",
+        "published_at": "2026-06-02T11:00:27+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 285,
+        "ocr_excerpt": "미국 경제 정복하기Q LG전자, 두산로보틱스 그 다음 최종 수혜 “종목 미국 경제 정복하기 06월 02일 | 조회수 938.594 지금 부자 큰손들은 그종목 조용히 쓸어담고 있는데 1 정복하기 격제 정복하기 LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\" 6월1일젠슨황이대만GTC 타이",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "1년뒤 10배 급등할 삼성전자 다음 대장주",
+        "url": "https://youtu.be/x8TE8vgBluo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 396,
+        "ocr_excerpt": "미국 경제 정복하기Q 1년뒤 10배 급등할 삼성전자 다음 대장주 미국 경제 정복하기 06월 04일 | 조회수 951.928 개미들만 놓치고 있어 THIS IS JUSTUIKE ONE OF THOSE BAD DREAMS! •SCREAMSQ 1| 정복하기 격제 정복하기 삼성전자 메모리가 팔",
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
     "region": "domestic",
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
     "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
@@ -4249,6 +4388,43 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
+    "youtuber": "미국 경제 정복하기",
+    "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
+    "video_count": 1,
+    "short_count": 0,
+    "regular_video_count": 1,
+    "mention_count": 1,
+    "transcript_count": 1,
+    "metadata_count": 0,
+    "ocr_count": 1,
+    "transcript_chars": 1993,
+    "ocr_chars": 323,
+    "stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "하락장에 10배 폭등하는 종목",
+        "url": "https://youtu.be/PTcMph26t8g",
+        "published_at": "2026-06-06T12:00:04+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1993,
+        "ocr_status": "ok",
+        "ocr_chars": 323,
+        "ocr_excerpt": "미국 경제 정복하기 하락장에 10배 폭등하는 종목 06월 06일 | 조회수 953.492 금리 인하는커녕 인상 공포까지|나온거야 \" 정복하기 제 정복하기 내가 네비우스 600% 급등전에도 소개할 회사는 Nebius Group(NBIS) NEBIUS 미국 경제 정복하기Q 엔비디아 GPU ",
+        "youtube_kind": "video"
       }
     ]
   },
@@ -4865,107 +5041,6 @@
         "ocr_chars": 469,
         "ocr_excerpt": "경제덕후 언생 하락장이 와도 100억 버는 부자들 특징 라면서 이 변동성에 가즈아아아아!!!!! ©경제덕후 언생 • 본 영상은 투자 참고용이며, 투자 결정 및 결과에 대한 책임은 투자자 본인에게 있습니다. 하락잠이 와도 오늘 대한민국 상위 1% 부자 쉽게 되는 안전한 투자법 알려줄게. ",
         "youtube_kind": "video"
-      }
-    ]
-  },
-  {
-    "region": "global",
-    "youtuber": "미국 경제 정복하기",
-    "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
-    "video_count": 7,
-    "short_count": 1,
-    "regular_video_count": 6,
-    "mention_count": 0,
-    "transcript_count": 0,
-    "metadata_count": 7,
-    "ocr_count": 7,
-    "transcript_chars": 0,
-    "ocr_chars": 2508,
-    "stocks": [],
-    "videos": [
-      {
-        "title": "1년뒤 10배 급등할 엔비디아 다음 대장주",
-        "url": "https://youtu.be/AprA6F2nZsU",
-        "published_at": "2026-06-05T11:00:07+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 336,
-        "ocr_excerpt": "미국 경제 정복하기© 1년뒤 10배 급등할 엔비디아 다음 대장주 미국 경제 정복하기 06월 05일 | 조회수 963.297 개미들만 놓치고 있어 1 정복하기 《제 정복하기 AI데이터센터 광통신 부품을 소재부터 통째로 만드는 회사야 경제 정복하 1| 정복하기 미국 경제 격제 정복하기 젠슨",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"환율 1539원 폭등\" 월가에서 보는 코스피 가격 전망",
-        "url": "https://youtu.be/7ydxLQ2sEu8",
-        "published_at": "2026-06-04T11:00:34+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 305,
-        "ocr_excerpt": "미국 경제 정복하기 \"환율 1539원 폭등\" 월가에서 보는 코스피 가격 전망 06월 04일 | 조회수 951.928 지금 월가 큰손들은 이상황다 계산하고 움직이는데 TVE NEVER HEARD SUCH MEAN-SPIRITED HATE-HOOTS 1| 정복하기 경제 정복하기 오늘 장중엔",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "현재 실적발표한 브로드컴이 급락한 진짜 이유",
-        "url": "https://youtu.be/CYnLpw7t9Bw",
-        "published_at": "2026-06-04T09:00:14+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 488,
-        "ocr_excerpt": "미국 경제 정복하기© 현재 실적발표한 브로드컴이 급락한 진짜 이유 미국 경제 정복하기 06월 04일 | 조회수 963.552 개미들만 아무것도 모르고 무서원하고 있어 1| 정복하기 미국 경제 격제 정복하기 어제 미국 장,끝나고 브로드컴이 2분기 실적을 터뜨렸거든 THAVE HERE A ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "80% 넘게 폭락한 NC가 급등한 진짜 이유 (+주가 전망)",
-        "url": "https://youtu.be/Hq-kqPVTNKY",
-        "published_at": "2026-06-03T11:00:36+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 367,
-        "ocr_excerpt": "미국 경제 정복하기© 80% 넘게 폭락한 NC가 급등한 진짜 이유 (+주가 전망) 미국 경제 정복하기 06월 03일 | 조회수 935.639 개미들만 아무것도 모르고 가만히 있어 {| 정복하기 미국 경제 격제 정복하기 엔씨가 6월2일 하루에만 108% (폭등하면서 33만8000원에 장을",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "현재 주식 시장을 뒤흔드는 젠슨황의 큰 그림 (+수혜 종목)",
-        "url": "https://youtu.be/KajtuaG_wZU",
-        "published_at": "2026-06-03T09:00:09+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 331,
-        "ocr_excerpt": "미국 경제 정복하기 현재 주식 시장을 뒤흔드는 젠슨황의 큰 그림 (+수혜 종목) 06월 03일 | 조회수 961.692 지금 월가 큰손들은 이 큰그림 보고 벌써 줄 서서 담고 있는데 1| 정복하기 격제 정복하기 미국 경제 정복하기Q 초보 투자자님들은 꼭 받아보는걸 추천할게 DIGIT H",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\"",
-        "url": "https://youtu.be/QFfxL_I-fac",
-        "published_at": "2026-06-02T11:00:27+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 285,
-        "ocr_excerpt": "미국 경제 정복하기Q LG전자, 두산로보틱스 그 다음 최종 수혜 “종목 미국 경제 정복하기 06월 02일 | 조회수 938.594 지금 부자 큰손들은 그종목 조용히 쓸어담고 있는데 1 정복하기 격제 정복하기 LG전자,두산로보틱스 그 다음 최종 수혜 \"종목\" 6월1일젠슨황이대만GTC 타이",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "1년뒤 10배 급등할 삼성전자 다음 대장주",
-        "url": "https://youtu.be/x8TE8vgBluo",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 396,
-        "ocr_excerpt": "미국 경제 정복하기Q 1년뒤 10배 급등할 삼성전자 다음 대장주 미국 경제 정복하기 06월 04일 | 조회수 951.928 개미들만 놓치고 있어 THIS IS JUSTUIKE ONE OF THOSE BAD DREAMS! •SCREAMSQ 1| 정복하기 격제 정복하기 삼성전자 메모리가 팔",
-        "youtube_kind": "short"
       }
     ]
   }

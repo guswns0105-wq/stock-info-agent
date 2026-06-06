@@ -1,24 +1,5 @@
 [
   {
-    "source": "강지한 차트연구소",
-    "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_id": "BCzjzvDst_c",
-    "youtube_kind": "video",
-    "source_type": "youtube_video",
-    "source_role": "",
-    "source_note": "",
-    "region": "domestic",
-    "title": "국민연금이 폭락장에 순매수•순매도한 한국주식",
-    "summary": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-    "url": "https://youtu.be/BCzjzvDst_c",
-    "published_at": "2026-06-06T10:39:36+00:00",
-    "text": "",
-    "transcript_method": "none",
-    "transcript_status": "youtube_transcript_api: unsupported operand type(s) for |: 'type' and 'type'; yt-dlp: [youtube] Extracting URL: https://www.youtube.com/watch?v=BCzjzvDst_c\n[youtube] BCzjzvDst_c: Downloading webpage\n[youtube] BCzjzvDst_c: Downloading android player API JSON\n[info] BCzjzvDst_c: Downloading 1 format(s): 18\n[info] There are no subtitles for the requested languages\n",
-    "transcript_chars": 0,
-    "extraction_quality": "caption_failed"
-  },
-  {
     "source": "메르의 블로그",
     "source_type": "naver_blog_feed",
     "source_role": "macro_context",
@@ -192,51 +173,51 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Lululemon Flubbed the Quarter, and the Founder Won't Say a Bad Word",
+    "title": "The AI bubble looks fit to burst, Bank of America director says. Here’s your road map for riding out a crash",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-flubbed-quarter-founder-wont-093238032.html",
-    "published_at": "2026-06-05T09:32:38Z",
-    "text": "Lululemon Flubbed the Quarter, and the Founder Won't Say a Bad Word "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ai-bubble-looks-fit-burst-103000477.html",
+    "published_at": "2026-06-05T10:30:00Z",
+    "text": "The AI bubble looks fit to burst, Bank of America director says. Here’s your road map for riding out a crash "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Lululemon slides as bleak forecasts deepen turnaround worries",
+    "title": "CVS Health Just Announced Fantastic News to Eli Lilly Stock Investors",
     "summary": "",
-    "url": "https://finance.yahoo.com/news/lululemon-slides-bleak-forecasts-deepen-093056245.html",
-    "published_at": "2026-06-05T09:30:56Z",
-    "text": "Lululemon slides as bleak forecasts deepen turnaround worries "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cvs-health-just-announced-fantastic-102000409.html",
+    "published_at": "2026-06-05T10:20:00Z",
+    "text": "CVS Health Just Announced Fantastic News to Eli Lilly Stock Investors "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "From Netflix to toilet paper, Americans love subscriptions — but 30% are spending much more than they realize",
+    "title": "ASML CEO says EU Commission should not try to direct 'strategic projects'",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/articles/netflix-toilet-paper-americans-love-093000128.html",
-    "published_at": "2026-06-05T09:30:00Z",
-    "text": "From Netflix to toilet paper, Americans love subscriptions — but 30% are spending much more than they realize "
+    "url": "https://finance.yahoo.com/sectors/technology/articles/asml-ceo-says-eu-commission-100938436.html",
+    "published_at": "2026-06-05T10:32:30Z",
+    "text": "ASML CEO says EU Commission should not try to direct 'strategic projects' "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Captive equity boom rewrites rules for Europe's CLO and leveraged loan markets",
+    "title": "Is ONEOK Stock Underperforming the Nasdaq?",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/captive-equity-boom-rewrites-rules-093813223.html",
-    "published_at": "2026-06-05T09:38:13Z",
-    "text": "Captive equity boom rewrites rules for Europe's CLO and leveraged loan markets "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oneok-stock-underperforming-nasdaq-102430650.html",
+    "published_at": "2026-06-05T10:24:30Z",
+    "text": "Is ONEOK Stock Underperforming the Nasdaq? "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Why Was the Commodity Sector Seeing Red Early Friday Morning?",
+    "title": "Global equity fund inflows at 3-week high as AI optimism boosts sentiment",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/why-commodity-sector-seeing-red-091003400.html",
-    "published_at": "2026-06-05T09:10:03Z",
-    "text": "Why Was the Commodity Sector Seeing Red Early Friday Morning? "
+    "url": "https://finance.yahoo.com/news/global-equity-fund-inflows-3-103523484.html",
+    "published_at": "2026-06-05T10:35:23Z",
+    "text": "Global equity fund inflows at 3-week high as AI optimism boosts sentiment "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -314,7 +295,7 @@
     "region": "domestic",
     "title": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net",
     "summary": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhcnR1OFZicWlkTkFoOFBnUm42RGN3Zjh2VjdhRHVtTXktdDR6XzFHQmJSLTZsUHY2QW9iMGNsTW1RWDhsSmZzNXhRY1hsUkE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5Ba0dCU3FPMmV3dlRhZUgyVC1vNDZCZUxSVlZpUzAySDNFMVhMQXRUM1lVWlJJel9tY0dKc2VEbExMZ3VMRVE?oc=5",
     "published_at": "Fri, 05 Jun 2026 05:49:03 GMT",
     "text": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net  \"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net "
   },
@@ -382,11 +363,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede - TradingKey",
-    "summary": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede &nbsp;&nbsp; TradingKey",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS2Z3SWljcXQ0WXR3cFlDMUl5NTZLUzg0anE4a0JGcUF2dkxCQWZ3Nmk0Q0hNMmFUQnBmVFJxZENSeTVuUkl5TmlselhnQ2xNXzc5WEhGRTFwbE9IWk1KT2xKaHFpZm9ERV9JOEZQbENrM3lPdWhReUVoVFNwZ3p2djFKRHcxNTNvYmZaN0ZXeW5ZVUNEM3VCTHRsd0xPZElQWEV3OFlTd3pkOTBYU3hMMDh4UzdFTDJkeEUzTDVIckRqa29tUHFIT2R6NXZJdHloZE1iVw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 21:25:07 GMT",
-    "text": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede - TradingKey  US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede &nbsp;&nbsp; TradingKey "
+    "title": "Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path - Moomoo",
+    "summary": "Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path &nbsp;&nbsp; Moomoo",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTEtJM1AzUnN5blV5cU5qaTg3bTBpeVpEaEgwbGpPZGV5R3FZOE9UOFNSblZIaXJMVTRmOEJmOVFUcC1jSjdWTGxVSURyRlhXN25KUkRsR3FuX1ZVVG82SFkzdUZpVjVlRHl6MHFmZ194WlhhV0tlVDhRX202UzJBd3RiZnNJcF82M2paT1JsZTVsXzZiNmgxMTdsaGxMa2Q5dnFqdjZaTEJCVW1BdUNTYzRjWXM3cjZscHE0M2lTVFpzeDhXU2VNSmRR?oc=5",
+    "published_at": "Sat, 06 Jun 2026 01:48:25 GMT",
+    "text": "Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path - Moomoo  Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path &nbsp;&nbsp; Moomoo "
   },
   {
     "source": "Google News Magnificent 7",
