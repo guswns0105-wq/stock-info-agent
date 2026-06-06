@@ -4841,6 +4841,18 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
+        "title": "Broadcom 주식은 실망스러운 전망 이후 회복될까요, 아니면 손실을 줄여야 할까요?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-recover-guidance-disappointment-235555646.html",
+        "published_at": "2026-06-04T23:55:55Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
         "title": "Broadcom이 기술을 끌고 유럽 주식이 상승함에 따라 월스트리트는 혼조세를 보였습니다. 오일 딥",
         "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-slide-flare-hostilities-004311703.html",
         "published_at": "2026-06-04T21:06:58Z",

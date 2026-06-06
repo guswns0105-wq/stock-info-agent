@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T15:26",
+  "generated_at": "2026-06-06T16:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -275,9 +275,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 20회",
+          "출처 언급 21회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -556,9 +556,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 20회",
+          "출처 언급 21회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -985,7 +985,7 @@
       "ticker": "AVGO",
       "name": "Broadcom",
       "region": "global",
-      "mention_count": 20,
+      "mention_count": 21,
       "price": 385.73,
       "currency": "USD",
       "pe": 64.196,
@@ -1005,9 +1005,9 @@
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 20회",
+        "출처 언급 21회",
         "ROE 37.28%",
         "PER가 기준보다 낮음"
       ],
@@ -2893,32 +2893,29 @@
       "currency": "KRW",
       "pe": 24.88,
       "forward_pe": null,
-      "pb": 0.7,
+      "pb": null,
       "roe": 3.18,
       "profit_margin": null,
       "eps": 20079.0,
-      "fair_value": 321073.93788819876,
-      "watch_buy_price": 263280.62906832295,
-      "ai_buy_price": 263280.62906832295,
+      "fair_value": 240947.99999999997,
+      "watch_buy_price": 197577.35999999996,
+      "ai_buy_price": 197577.35999999996,
       "ai_sell_price": 390000.0,
-      "margin_to_fair_pct": -17.67334925943621,
+      "margin_to_fair_pct": -38.21846153846155,
       "verdict": "고평가 주의",
-      "action": "263,281 KRW 이하가 아니면 보수적 접근",
+      "action": "197,577 KRW 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -4,
+      "score": -5,
       "technical_score": 1,
-      "ai_score": -2.75,
-      "ai_comment": "출처 언급 1회, 적정가 대비 -17.67% 여력, 중립 추세, ROE 3.18% 기준으로 산정했습니다.",
-      "positives": [
-        "PBR 0.70배"
-      ],
+      "ai_score": -5.75,
+      "ai_comment": "출처 언급 1회, 적정가 대비 -38.22% 여력, 중립 추세, ROE 3.18% 기준으로 산정했습니다.",
+      "positives": [],
       "risks": [
         "ROE 낮음 3.18%",
         "PER 부담 24.88배"
       ],
       "valuation_basis": [
-        "EPS 20,079 → 기준 PER 12.00배",
-        "PBR 0.70배 → 기준 PBR 0.80배"
+        "EPS 20,079 → 기준 PER 12.00배"
       ],
       "chart": {
         "chart_symbol": "005490.KS",
