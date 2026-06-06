@@ -173,11 +173,31 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "The Severance Negotiation Move That Cut a 56-Year-Old VP’s Tax Bill on Her $480,000 Package by $112,000",
+    "title": "57% Say They Haven’t Saved Enough, and the Data Confirms It",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/options/articles/severance-negotiation-move-cut-56-155808803.html",
-    "published_at": "2026-06-06T15:58:08Z",
-    "text": "The Severance Negotiation Move That Cut a 56-Year-Old VP’s Tax Bill on Her $480,000 Package by $112,000 "
+    "url": "https://finance.yahoo.com/markets/articles/57-haven-t-saved-enough-164453636.html",
+    "published_at": "2026-06-06T16:44:53Z",
+    "text": "57% Say They Haven’t Saved Enough, and the Data Confirms It "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "They have $3M invested and 2 kids headed to college — retiring at 60 could still be within reach",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/articles/3m-invested-2-kids-headed-163000517.html",
+    "published_at": "2026-06-06T16:30:00Z",
+    "text": "They have $3M invested and 2 kids headed to college — retiring at 60 could still be within reach "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Dycom is building a 49-acre fake town to train unskilled workers for $62K data center jobs",
+    "summary": "",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/dycom-building-49-acre-fake-160000988.html",
+    "published_at": "2026-06-06T16:00:00Z",
+    "text": "Dycom is building a 49-acre fake town to train unskilled workers for $62K data center jobs "
   },
   {
     "source": "Yahoo Finance Top Stories",
@@ -200,24 +220,14 @@
     "text": "Alvotech (ALVO) Receives FDA Form 483 Following Routine Facility Inspection "
   },
   {
-    "source": "Yahoo Finance Top Stories",
+    "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
-    "region": "global",
-    "title": "Jim Cramer on Banco Santander: “I Think It’s Paused Here as It Catches Its Breath”",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-banco-santander-think-150617406.html",
-    "published_at": "2026-06-06T15:06:17Z",
-    "text": "Jim Cramer on Banco Santander: “I Think It’s Paused Here as It Catches Its Breath” "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Jim Cramer on Becton, Dickinson: “I Think You Buy Some and Then You Wait”",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-becton-dickinson-think-150615738.html",
-    "published_at": "2026-06-06T15:06:15Z",
-    "text": "Jim Cramer on Becton, Dickinson: “I Think You Buy Some and Then You Wait” "
+    "region": "domestic",
+    "title": "코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 - 더구루",
+    "summary": "코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 &nbsp;&nbsp; 더구루",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SczYxaUVlcUlPdk5oLVRleVM4YVBUTU5qOFhJcFh2YzVfbVJaNDVBS2FzWFZSa2w4Q29zdlJkY185YjNTU1RtR09uc0E4RE03dUNBWEpySndVUGR2RlE?oc=5",
+    "published_at": "Sat, 06 Jun 2026 15:00:09 GMT",
+    "text": "코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 - 더구루  코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 &nbsp;&nbsp; 더구루 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -228,16 +238,6 @@
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wa29ZbFFpUkx2U2xWLXVKd2ppUWNIbmxqMXVOWVgtTjUwd2VSN3AwOFhLT29CUTd4QjhmQlIxLWx5MWgyaGtoeUptRUJBU3lSTDREQXYxakkxRUFUTGZZWmVnb1BlZ2hxRzItNG9RSjA?oc=5",
     "published_at": "Sat, 06 Jun 2026 02:06:34 GMT",
     "text": "코스피 '검은 월요일' 온다…\"떨어지는 칼날 잡지마라\" - 연합인포맥스  코스피 '검은 월요일' 온다…\"떨어지는 칼날 잡지마라\" &nbsp;&nbsp; 연합인포맥스 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 - 더구루",
-    "summary": "코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 &nbsp;&nbsp; 더구루",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SczYxaUVlcUlPdk5oLVRleVM4YVBUTU5qOFhJcFh2YzVfbVJaNDVBS2FzWFZSa2w4Q29zdlJkY185YjNTU1RtR09uc0E4RE03dUNBWEpySndVUGR2RlE?oc=5",
-    "published_at": "Sat, 06 Jun 2026 15:00:09 GMT",
-    "text": "코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 - 더구루  코스피, 1만2천 전망까지 나왔다…60만 전자·400만 닉스 다가오나 &nbsp;&nbsp; 더구루 "
   },
   {
     "source": "Google News 국내 증시·반도체",
