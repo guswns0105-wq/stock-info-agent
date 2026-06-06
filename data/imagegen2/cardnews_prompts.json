@@ -150,7 +150,7 @@
     "region": "global",
     "label": "미국주식",
     "asset_path": "public/assets/imagegen2/us-top5-cardnews.png",
-    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Micron MU\n현재가 $864.01 / 적정 $2,549.60\n출처 언급 24회, 적정가 대비 195.1%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 TSMC TSM\n현재가 $415.17 / 적정 $501.42\n출처 언급 11회, 적정가 대비 20.78%…\n주의: 과열 추격 금지, 적정매수가…\n\n3 Microsoft MSFT\n현재가 $416.67 / 적정 $527.35\n출처 언급 8회, 적정가 대비 26.56% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Meta META\n현재가 $593.00 / 적정 $977.50\n출처 언급 19회, 적정가 대비 64.84%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 Broadcom AVGO\n현재가 $385.73 / 적정 $412.06\n출처 언급 21회, 적정가 대비 6.83% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
+    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Micron MU\n현재가 $864.01 / 적정 $2,549.60\n출처 언급 24회, 적정가 대비 195.1%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 TSMC TSM\n현재가 $415.17 / 적정 $501.42\n출처 언급 11회, 적정가 대비 20.78%…\n주의: 과열 추격 금지, 적정매수가…\n\n3 Microsoft MSFT\n현재가 $416.67 / 적정 $527.35\n출처 언급 8회, 적정가 대비 26.56% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Meta META\n현재가 $593.00 / 적정 $977.50\n출처 언급 19회, 적정가 대비 64.84%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 Broadcom AVGO\n현재가 $385.73 / 적정 $412.06\n출처 언급 20회, 적정가 대비 6.83% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
     "recommendations": [
       {
         "rank": 1,
@@ -283,9 +283,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 21회",
+          "출처 언급 20회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T11:27",
+  "generated_at": "2026-06-06T12:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -275,9 +275,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 21회",
+          "출처 언급 20회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -556,9 +556,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 21회",
+          "출처 언급 20회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -687,6 +687,65 @@
       "fetch_note": ""
     },
     {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "region": "global",
+      "mention_count": 39,
+      "price": 391.0,
+      "currency": "USD",
+      "pe": 380.24,
+      "forward_pe": 181.195,
+      "pb": 17.455,
+      "roe": 4.901,
+      "profit_margin": 3.946,
+      "eps": null,
+      "fair_value": 50.138537925067304,
+      "watch_buy_price": 41.113601098555186,
+      "ai_buy_price": 41.113601098555186,
+      "ai_sell_price": 391.0,
+      "margin_to_fair_pct": -87.17684452044314,
+      "verdict": "고평가 주의",
+      "action": "41.11 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -4,
+      "technical_score": 2,
+      "ai_score": -2,
+      "ai_comment": "출처 언급 39회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 39회"
+      ],
+      "risks": [
+        "ROE 낮음 4.90%",
+        "PER 부담 181.2배"
+      ],
+      "valuation_basis": [
+        "PER 181.2배 역산 EPS → 기준 PER 22.00배",
+        "PBR 17.45배 → 기준 PBR 2.50배"
+      ],
+      "chart": {
+        "chart_symbol": "TSLA",
+        "chart_status": "ok",
+        "sma20": 425.8720001220703,
+        "sma60": 393.93900095621746,
+        "sma120": 413.2273338317871,
+        "ret20_pct": -5.048691836497998,
+        "ret60_pct": -4.124370315860149,
+        "high_52w": 489.8800048828125,
+        "low_52w": 293.94000244140625,
+        "recent_support": 343.25,
+        "recent_resistance": 445.2699890136719,
+        "volatility_pct": 43.37496917619321,
+        "trend": "중립 추세",
+        "technical_score": 2,
+        "position_52w": 0.4953557025070391
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/TSLA",
+        "https://stockanalysis.com/stocks/tsla/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "000660",
       "name": "SK하이닉스",
       "region": "domestic",
@@ -742,65 +801,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=000660",
         "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "TSLA",
-      "name": "Tesla",
-      "region": "global",
-      "mention_count": 38,
-      "price": 391.0,
-      "currency": "USD",
-      "pe": 380.24,
-      "forward_pe": 181.195,
-      "pb": 17.455,
-      "roe": 4.901,
-      "profit_margin": 3.946,
-      "eps": null,
-      "fair_value": 50.138537925067304,
-      "watch_buy_price": 41.113601098555186,
-      "ai_buy_price": 41.113601098555186,
-      "ai_sell_price": 391.0,
-      "margin_to_fair_pct": -87.17684452044314,
-      "verdict": "고평가 주의",
-      "action": "41.11 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -4,
-      "technical_score": 2,
-      "ai_score": -2,
-      "ai_comment": "출처 언급 38회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 38회"
-      ],
-      "risks": [
-        "ROE 낮음 4.90%",
-        "PER 부담 181.2배"
-      ],
-      "valuation_basis": [
-        "PER 181.2배 역산 EPS → 기준 PER 22.00배",
-        "PBR 17.45배 → 기준 PBR 2.50배"
-      ],
-      "chart": {
-        "chart_symbol": "TSLA",
-        "chart_status": "ok",
-        "sma20": 425.8720001220703,
-        "sma60": 393.93900095621746,
-        "sma120": 413.2273338317871,
-        "ret20_pct": -5.048691836497998,
-        "ret60_pct": -4.124370315860149,
-        "high_52w": 489.8800048828125,
-        "low_52w": 293.94000244140625,
-        "recent_support": 343.25,
-        "recent_resistance": 445.2699890136719,
-        "volatility_pct": 43.37496917619321,
-        "trend": "중립 추세",
-        "technical_score": 2,
-        "position_52w": 0.4953557025070391
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/TSLA",
-        "https://stockanalysis.com/stocks/tsla/statistics/"
       ],
       "fetch_note": ""
     },
@@ -985,7 +985,7 @@
       "ticker": "AVGO",
       "name": "Broadcom",
       "region": "global",
-      "mention_count": 21,
+      "mention_count": 20,
       "price": 385.73,
       "currency": "USD",
       "pe": 64.196,
@@ -1005,9 +1005,9 @@
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 20회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 21회",
+        "출처 언급 20회",
         "ROE 37.28%",
         "PER가 기준보다 낮음"
       ],
@@ -1101,7 +1101,7 @@
       "ticker": "PLTR",
       "name": "Palantir",
       "region": "global",
-      "mention_count": 15,
+      "mention_count": 16,
       "price": 135.53,
       "currency": "USD",
       "pe": 152.354,
@@ -1121,9 +1121,9 @@
       "score": -1,
       "technical_score": -1,
       "ai_score": -2,
-      "ai_comment": "출처 언급 15회, 적정가 대비 -67.97% 여력, 하락/약세 추세, ROE 32.59% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 16회, 적정가 대비 -67.97% 여력, 하락/약세 추세, ROE 32.59% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 15회",
+        "출처 언급 16회",
         "ROE 32.59%"
       ],
       "risks": [
@@ -1163,7 +1163,7 @@
       "mention_count": 13,
       "price": 1757000.0,
       "currency": "KRW",
-      "pe": null,
+      "pe": 28.11,
       "forward_pe": null,
       "pb": 1.47,
       "roe": 5.5,
@@ -1177,15 +1177,18 @@
       "verdict": "고평가 주의",
       "action": "339,456 KRW 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -1,
+      "score": -3,
       "technical_score": 0,
-      "ai_score": 0,
+      "ai_score": -3,
       "ai_comment": "출처 언급 13회, 적정가 대비 -76.44% 여력, 상승 추세, ROE 5.50% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 13회"
       ],
-      "risks": [],
+      "risks": [
+        "PER 부담 28.11배"
+      ],
       "valuation_basis": [
+        "EPS/PER 불일치 91.28% → PER 역산 제외",
         "EPS 5,450 → 기준 PER 12.00배",
         "PBR 1.47배 → 기준 PBR 0.80배"
       ],
