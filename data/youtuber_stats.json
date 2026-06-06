@@ -2098,12 +2098,12 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 18,
+    "video_count": 19,
     "short_count": 0,
-    "regular_video_count": 18,
+    "regular_video_count": 19,
     "mention_count": 27,
     "transcript_count": 6,
-    "metadata_count": 12,
+    "metadata_count": 13,
     "ocr_count": 11,
     "transcript_chars": 4147,
     "ocr_chars": 4512,
@@ -2145,6 +2145,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "국민연금이 폭락장에 순매수•순매도한 한국주식",
+        "url": "https://youtu.be/BCzjzvDst_c",
+        "published_at": "2026-06-06T10:39:36+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "삼성전자•SK하이닉스 2배 단일종목 레버리지 ETF 실제 수익률 비교..",
         "url": "https://youtu.be/OWPK9Q6PA0c",

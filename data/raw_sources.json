@@ -1,5 +1,24 @@
 [
   {
+    "source": "강지한 차트연구소",
+    "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
+    "video_id": "BCzjzvDst_c",
+    "youtube_kind": "video",
+    "source_type": "youtube_video",
+    "source_role": "",
+    "source_note": "",
+    "region": "domestic",
+    "title": "국민연금이 폭락장에 순매수•순매도한 한국주식",
+    "summary": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+    "url": "https://youtu.be/BCzjzvDst_c",
+    "published_at": "2026-06-06T10:39:36+00:00",
+    "text": "",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: unsupported operand type(s) for |: 'type' and 'type'; yt-dlp: [youtube] Extracting URL: https://www.youtube.com/watch?v=BCzjzvDst_c\n[youtube] BCzjzvDst_c: Downloading webpage\n[youtube] BCzjzvDst_c: Downloading android player API JSON\n[info] BCzjzvDst_c: Downloading 1 format(s): 18\n[info] There are no subtitles for the requested languages\n",
+    "transcript_chars": 0,
+    "extraction_quality": "caption_failed"
+  },
+  {
     "source": "메르의 블로그",
     "source_type": "naver_blog_feed",
     "source_role": "macro_context",
@@ -173,51 +192,51 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Should We Shift Assets to a Target Date Fund or an Annuity?",
+    "title": "Lululemon Flubbed the Quarter, and the Founder Won't Say a Bad Word",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/options/articles/ask-advisor-1-6m-401-120000377.html",
-    "published_at": "2026-06-05T07:00:00Z",
-    "text": "Should We Shift Assets to a Target Date Fund or an Annuity? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-flubbed-quarter-founder-wont-093238032.html",
+    "published_at": "2026-06-05T09:32:38Z",
+    "text": "Lululemon Flubbed the Quarter, and the Founder Won't Say a Bad Word "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "UK's Raspberry Pi shares hit record as industrial demand boosts outlook",
+    "title": "Lululemon slides as bleak forecasts deepen turnaround worries",
     "summary": "",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/uks-raspberry-pi-lifts-annual-064531198.html",
-    "published_at": "2026-06-05T06:45:31Z",
-    "text": "UK's Raspberry Pi shares hit record as industrial demand boosts outlook "
+    "url": "https://finance.yahoo.com/news/lululemon-slides-bleak-forecasts-deepen-093056245.html",
+    "published_at": "2026-06-05T09:30:56Z",
+    "text": "Lululemon slides as bleak forecasts deepen turnaround worries "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "China and Hong Kong users unable to access SpaceX website, IPO documents",
+    "title": "From Netflix to toilet paper, Americans love subscriptions — but 30% are spending much more than they realize",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/china-hong-kong-users-unable-070259116.html",
-    "published_at": "2026-06-05T07:02:59Z",
-    "text": "China and Hong Kong users unable to access SpaceX website, IPO documents "
+    "url": "https://finance.yahoo.com/markets/articles/netflix-toilet-paper-americans-love-093000128.html",
+    "published_at": "2026-06-05T09:30:00Z",
+    "text": "From Netflix to toilet paper, Americans love subscriptions — but 30% are spending much more than they realize "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is MetLife Stock Outperforming the S&P 500?",
+    "title": "Captive equity boom rewrites rules for Europe's CLO and leveraged loan markets",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/metlife-stock-outperforming-p-500-062224380.html",
-    "published_at": "2026-06-05T06:22:24Z",
-    "text": "Is MetLife Stock Outperforming the S&P 500? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/captive-equity-boom-rewrites-rules-093813223.html",
+    "published_at": "2026-06-05T09:38:13Z",
+    "text": "Captive equity boom rewrites rules for Europe's CLO and leveraged loan markets "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "DOJ appeal throws fresh uncertainty into tariff refund process",
+    "title": "Why Was the Commodity Sector Seeing Red Early Friday Morning?",
     "summary": "",
-    "url": "https://finance.yahoo.com/economy/policy/articles/doj-appeal-throws-fresh-uncertainty-070000681.html",
-    "published_at": "2026-06-05T07:00:00Z",
-    "text": "DOJ appeal throws fresh uncertainty into tariff refund process "
+    "url": "https://finance.yahoo.com/markets/commodities/articles/why-commodity-sector-seeing-red-091003400.html",
+    "published_at": "2026-06-05T09:10:03Z",
+    "text": "Why Was the Commodity Sector Seeing Red Early Friday Morning? "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -228,6 +247,26 @@
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wa29ZbFFpUkx2U2xWLXVKd2ppUWNIbmxqMXVOWVgtTjUwd2VSN3AwOFhLT29CUTd4QjhmQlIxLWx5MWgyaGtoeUptRUJBU3lSTDREQXYxakkxRUFUTGZZWmVnb1BlZ2hxRzItNG9RSjA?oc=5",
     "published_at": "Sat, 06 Jun 2026 02:06:42 GMT",
     "text": "코스피 '검은 월요일' 온다…\"떨어지는 칼날 잡지마라\" - 연합인포맥스  코스피 '검은 월요일' 온다…\"떨어지는 칼날 잡지마라\" &nbsp;&nbsp; 연합인포맥스 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "[단독] \"전력망 2.8조 깔아 반도체에 보내면, 159조 열린다\" - 조선일보",
+    "summary": "[단독] \"전력망 2.8조 깔아 반도체에 보내면, 159조 열린다\" &nbsp;&nbsp; 조선일보",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUZ3T3BsUGlmU2lKbl85SlZaZk5XZU5uVks1em8zb3JBcEMzR2FyT2pqZnBGeFhFN3ItbE9JSnY1ZXZfTDZVY3RqbGlrYmFTa0xBZ3JQR21zQkR0SDc1eHF2WWFVTkdCZDIxTWNRbDNwLTRBMnUxVjZvdTgxSnhYQVE4REV5VmVQamFWbENrRQ?oc=5",
+    "published_at": "Sat, 06 Jun 2026 03:04:59 GMT",
+    "text": "[단독] \"전력망 2.8조 깔아 반도체에 보내면, 159조 열린다\" - 조선일보  [단독] \"전력망 2.8조 깔아 반도체에 보내면, 159조 열린다\" &nbsp;&nbsp; 조선일보 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "'스페이스X' 블랙홀…코스피·환율 흔드나 - 연합뉴스TV",
+    "summary": "'스페이스X' 블랙홀…코스피·환율 흔드나 &nbsp;&nbsp; 연합뉴스TV",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZWEstVWJmN3Qxdkg5ZjBfSENnRXFpZG8tMTRteEppT294aEdpek94R0pXS1AyNEVUN0NDb3NibU9odUYyMV9NTDk0Wi15UTJIQ19BVGU4SU1HaEVFcXE0aTMwaXo4LU0?oc=5",
+    "published_at": "Sat, 06 Jun 2026 09:04:47 GMT",
+    "text": "'스페이스X' 블랙홀…코스피·환율 흔드나 - 연합뉴스TV  '스페이스X' 블랙홀…코스피·환율 흔드나 &nbsp;&nbsp; 연합뉴스TV "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -248,26 +287,6 @@
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5vVHZudWc0bzVpTnBYd2U4NEo2d2NYdF9pajZJSmJUWV9NUW5Xd3BHM01vZXBwVlpMN2RnVHVVZGlBek9ucklnVzJzYnktVlpTNXBzRGVLbGs2SUZlTlZyaDJiRF93UzdLd2tXV3ZnTk16RkNjY2prV9IBeEFVX3lxTE5KcWlETXhwdXhpazlDNGxGZnZOU3RNQW45SE9NUmlyd1V1V19IMDZXMzRLNm9helltcFF2X0FwZk1sc0dESE1nUG9nMHUzQldlaVpfa3VGNks1QnlqZlhXXzhKTHotSDhfZFJDazRRNnBVYnFObUxONQ?oc=5",
     "published_at": "Sat, 06 Jun 2026 07:46:20 GMT",
     "text": "김용범 \"코스피 8천·환율은 1,550원‥가보지 않은 낯선 과제\" - MBC 뉴스  김용범 \"코스피 8천·환율은 1,550원‥가보지 않은 낯선 과제\" &nbsp;&nbsp; MBC 뉴스 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 - v.daum.net",
-    "summary": "월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 &nbsp;&nbsp; v.daum.net",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhdE04VFhrVzJuelNLOFNCand3WEZlZWl5S3NUbVRaUTNhTTZ4LVo5bVd1aTc5XzV4aFUtTGJyVmVxa0VzdjV0WnphT0txTHM?oc=5",
-    "published_at": "Sat, 06 Jun 2026 05:42:00 GMT",
-    "text": "월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 - v.daum.net  월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 &nbsp;&nbsp; v.daum.net "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보",
-    "summary": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoUXR3bC14SU5xVVRXUm12U0RfOUVOdmdZSEZ6N0RWQ2pDZjZkUktJTERVY1A1TE9aNkY2UnZhQlFDeS11LXFwSmhHcVZMdEEx?oc=5",
-    "published_at": "Fri, 05 Jun 2026 22:28:26 GMT",
-    "text": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보  “보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -393,6 +412,16 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
+    "title": "Why Tesla (TSLA) Shares Are Trading Lower Today - StockStory",
+    "summary": "Why Tesla (TSLA) Shares Are Trading Lower Today &nbsp;&nbsp; StockStory",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV2JYeXgwYmZIVHYzUF91TUltYVJad1dWcWF0dGVQYlZ5SVpsNGRsZGlSRE5HWVktclJMSnktVUNLNEpGX3F4WjRvTUJwejhpT1ZRdGhBbVBmTlF3WDBUaGhDemdTOU5RclpoMUpUbzNkUXlSa3BfdWM4SWF5RnM5aDVoM1Q2WW04cl9pUnFEZTJCbmgwYnlRU0ZSSlRsdW9QNjRVSUlSWHZNem5idjdj?oc=5",
+    "published_at": "Sat, 06 Jun 2026 09:56:15 GMT",
+    "text": "Why Tesla (TSLA) Shares Are Trading Lower Today - StockStory  Why Tesla (TSLA) Shares Are Trading Lower Today &nbsp;&nbsp; StockStory "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
     "title": "Meta stock tumbles on report of potential equity raise - Investing.com",
     "summary": "Meta stock tumbles on report of potential equity raise &nbsp;&nbsp; Investing.com",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
@@ -408,15 +437,5 @@
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZi1jWEJmLXJfUkZtTm1qSk9kX2ZqQTI3TkVab0NnbGhZX28yUDJwa2JCUjNTd054NDJWRDlnVEtJV0dWRnp1RUI1OWZleEJERG5oTVVBSkY4bVdlOFREZFFoU0pjNEpxdFIxREZJMWdkLWk0WlVQY2VBOXNZM2l3dFZ0ZG1tSC00U1NfNF85dnNmWURwRnFmdV9CMThRSjYtTzBCZkdIeEc4UQ?oc=5",
     "published_at": "Sat, 06 Jun 2026 05:58:42 GMT",
     "text": "Is Your NVIDIA Stock Built to Survive a Crash? - Trefis  Is Your NVIDIA Stock Built to Survive a Crash? &nbsp;&nbsp; Trefis "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Why Tesla (TSLA) Shares Are Trading Lower Today - StockStory",
-    "summary": "Why Tesla (TSLA) Shares Are Trading Lower Today &nbsp;&nbsp; StockStory",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV2JYeXgwYmZIVHYzUF91TUltYVJad1dWcWF0dGVQYlZ5SVpsNGRsZGlSRE5HWVktclJMSnktVUNLNEpGX3F4WjRvTUJwejhpT1ZRdGhBbVBmTlF3WDBUaGhDemdTOU5RclpoMUpUbzNkUXlSa3BfdWM4SWF5RnM5aDVoM1Q2WW04cl9pUnFEZTJCbmgwYnlRU0ZSSlRsdW9QNjRVSUlSWHZNem5idjdj?oc=5",
-    "published_at": "Fri, 05 Jun 2026 19:58:09 GMT",
-    "text": "Why Tesla (TSLA) Shares Are Trading Lower Today - StockStory  Why Tesla (TSLA) Shares Are Trading Lower Today &nbsp;&nbsp; StockStory "
   }
 ]

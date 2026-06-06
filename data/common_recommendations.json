@@ -2665,7 +2665,7 @@
         "source_role": "뉴스",
         "title": "오늘 Tesla(TSLA) 주가가 하락하는 이유 - StockStory",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV2JYeXgwYmZIVHYzUF91TUltYVJad1dWcWF0dGVQYlZ5SVpsNGRsZGlSRE5HWVktclJMSnktVUNLNEpGX3F4WjRvTUJwejhpT1ZRdGhBbVBmTlF3WDBUaGhDemdTOU5RclpoMUpUbzNkUXlSa3BfdWM4SWF5RnM5aDVoM1Q2WW04cl9pUnFEZTJCbmgwYnlRU0ZSSlRsdW9QNjRVSUlSWHZNem5idjdj?oc=5",
-        "published_at": "Fri, 05 Jun 2026 19:58:09 GMT",
+        "published_at": "Sat, 06 Jun 2026 09:56:15 GMT",
         "reason": "오늘 Tesla(TSLA) 주가가 하락하는 이유    StockStory",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -6792,6 +6792,70 @@
   },
   {
     "region": "global",
+    "ticker": "NFLX",
+    "name": "Netflix",
+    "sources": [
+      "올랜도 킴 미국주식",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Netflix에서 화장지까지 미국인들은 구독을 좋아하지만 30%는 자신이 생각하는 것보다 훨씬 더 많은 돈을 지출하고 있습니다.",
+        "url": "https://finance.yahoo.com/markets/articles/netflix-toilet-paper-americans-love-093000128.html",
+        "published_at": "2026-06-05T09:30:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "압력을 받고 있는 Netflix 주식은 약점으로부터 이익을 얻기 위해 이 거래를 설정합니다.",
+        "url": "https://www.investors.com/research/options/netflix-stock-nflx-streaming-trading-options-income-investing-markets/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-04T16:37:24Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "SPY",
     "name": "S&P 500 ETF",
     "sources": [
@@ -6904,58 +6968,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "1100달러",
     "buy_zone_summary": "26,850원",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "NFLX",
-    "name": "Netflix",
-    "sources": [
-      "올랜도 킴 미국주식",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "압력을 받고 있는 Netflix 주식은 약점으로부터 이익을 얻기 위해 이 거래를 설정합니다.",
-        "url": "https://www.investors.com/research/options/netflix-stock-nflx-streaming-trading-options-income-investing-markets/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-04T16:37:24Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {

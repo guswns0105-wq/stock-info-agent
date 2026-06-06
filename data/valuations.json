@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T19:27",
+  "generated_at": "2026-06-06T20:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -2090,6 +2090,64 @@
       "fetch_note": ""
     },
     {
+      "ticker": "NFLX",
+      "name": "Netflix",
+      "region": "global",
+      "mention_count": 4,
+      "price": 82.18,
+      "currency": "USD",
+      "pe": 26.545,
+      "forward_pe": 24.718,
+      "pb": 11.123,
+      "roe": 48.495,
+      "profit_margin": 28.521,
+      "eps": null,
+      "fair_value": 91.52175864074006,
+      "watch_buy_price": 75.04784208540684,
+      "ai_buy_price": 80.5364,
+      "ai_sell_price": 96.09784657277707,
+      "margin_to_fair_pct": 11.367435678681016,
+      "verdict": "관심권",
+      "action": "75.05 USD 부근까지 조정 시 매력 증가",
+      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
+      "score": 6,
+      "technical_score": -1,
+      "ai_score": 6.0,
+      "ai_comment": "출처 언급 4회, 적정가 대비 11.37% 여력, 하락/약세 추세, ROE 48.49% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 4회",
+        "ROE 48.49%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 24.72배 역산 EPS → 기준 PER 36.00배",
+        "PBR 11.12배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "NFLX",
+        "chart_status": "ok",
+        "sma20": 86.44699935913086,
+        "sma60": 92.33766632080078,
+        "sma120": 90.23749993642171,
+        "ret20_pct": -6.878186968838518,
+        "ret60_pct": -13.394456182318159,
+        "high_52w": 133.91299438476562,
+        "low_52w": 75.86000061035156,
+        "recent_support": 81.5199966430664,
+        "recent_resistance": 107.79000091552734,
+        "volatility_pct": 31.833030565426977,
+        "trend": "하락/약세 추세",
+        "technical_score": -1,
+        "position_52w": 0.10886603736935759
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/NFLX",
+        "https://stockanalysis.com/stocks/nflx/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "SPY",
       "name": "S&P 500 ETF",
       "region": "global",
@@ -2367,64 +2425,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=000810",
         "https://query1.finance.yahoo.com/v8/finance/chart/000810.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "NFLX",
-      "name": "Netflix",
-      "region": "global",
-      "mention_count": 3,
-      "price": 82.18,
-      "currency": "USD",
-      "pe": 26.545,
-      "forward_pe": 24.718,
-      "pb": 11.123,
-      "roe": 48.495,
-      "profit_margin": 28.521,
-      "eps": null,
-      "fair_value": 91.52175864074006,
-      "watch_buy_price": 75.04784208540684,
-      "ai_buy_price": 80.5364,
-      "ai_sell_price": 96.09784657277707,
-      "margin_to_fair_pct": 11.367435678681016,
-      "verdict": "관심권",
-      "action": "75.05 USD 부근까지 조정 시 매력 증가",
-      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
-      "score": 6,
-      "technical_score": -1,
-      "ai_score": 5.75,
-      "ai_comment": "출처 언급 3회, 적정가 대비 11.37% 여력, 하락/약세 추세, ROE 48.49% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 3회",
-        "ROE 48.49%",
-        "PER가 기준보다 낮음"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 24.72배 역산 EPS → 기준 PER 36.00배",
-        "PBR 11.12배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "NFLX",
-        "chart_status": "ok",
-        "sma20": 86.44699935913086,
-        "sma60": 92.33766632080078,
-        "sma120": 90.23749993642171,
-        "ret20_pct": -6.878186968838518,
-        "ret60_pct": -13.394456182318159,
-        "high_52w": 133.91299438476562,
-        "low_52w": 75.86000061035156,
-        "recent_support": 81.5199966430664,
-        "recent_resistance": 107.79000091552734,
-        "volatility_pct": 31.833030565426977,
-        "trend": "하락/약세 추세",
-        "technical_score": -1,
-        "position_52w": 0.10886603736935759
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/NFLX",
-        "https://stockanalysis.com/stocks/nflx/statistics/"
       ],
       "fetch_note": ""
     },
