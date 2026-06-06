@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T23:26",
+  "generated_at": "2026-06-07T00:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -752,7 +752,7 @@
       "mention_count": 39,
       "price": 2070000.0,
       "currency": "KRW",
-      "pe": 6.4,
+      "pe": null,
       "forward_pe": null,
       "pb": 1.82,
       "roe": 31.06,
@@ -766,18 +766,16 @@
       "verdict": "고평가 주의",
       "action": "1,143,008 KRW 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": 3,
+      "score": 1,
       "technical_score": 2,
-      "ai_score": 6,
+      "ai_score": 4,
       "ai_comment": "출처 언급 39회, 적정가 대비 -32.66% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 39회",
-        "ROE 31.06%",
-        "PER가 기준보다 낮음"
+        "ROE 31.06%"
       ],
       "risks": [],
       "valuation_basis": [
-        "EPS/PER 불일치 91.60% → PER 역산 제외",
         "EPS 27,182 → 기준 PER 17.00배",
         "PBR 1.82배 → 기준 PBR 2.50배"
       ],
