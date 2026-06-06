@@ -336,6 +336,18 @@
         "confidence": "transcript"
       },
       {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "엔비디아는 5조 달러 아래로 떨어졌습니다. 이들은 그것을 잡을 수 있는 현실적인 기회를 가진 소수의 회사입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-just-slipped-below-5-174300785.html",
+        "published_at": "2026-06-06T17:43:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
         "title": "젠슨황이 '삼성·하이닉스' 다음으로, 꼭 필요할 수 있다는 ‘종목’ 정체",
@@ -5715,9 +5727,9 @@
     "name": "Intel",
     "sources": [
       "Google News US Markets AI Semis",
+      "Yahoo Finance Top Stories",
       "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트",
-      "Yahoo Finance Top Stories"
+      "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
     "source_count": 4,
     "evidence": [
@@ -5736,10 +5748,10 @@
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
-        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
+        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
         "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
-        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 하락 6%    XTB",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5752,6 +5764,18 @@
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRW1mMlJoM1FMOV9sZG0zcUZOVktvcC1nNjJfb3NMNU00VW9SOVpDUHVtejhkR0s0UHFyR185N1ZnYlVrYzRrSmtsYzc2LS14M1BIVFFIN2YyTnRRd0dFV1kzQTZlc0pNM05KYlo4Vk44UW1pQ3ktTVJrMl9JN00wWGYyejZ5MUVjNE1uLUttcGVfU3Q3Y1pqMml5cElINE1SNHJ1NXUyUi1CaURfbk9VM1ZVVlF4di1reExJMl83RlE2MmJqWXF3VlNQTQ?oc=5",
         "published_at": "Fri, 05 Jun 2026 13:51:50 GMT",
         "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Wells Fargo, Intel(INTC) 주식에 대한 PT 인상",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-pt-intel-172508626.html",
+        "published_at": "2026-06-06T17:25:08Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6015,6 +6039,18 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZE84LUNXVVJ1amV4a0pwMnlENnU4dFhZcWU3d25teTczVzRuN3VMSjVvY2ZZX3QtcC0tSXhzX3FIQXFrczZXYkNIMmlDMllBRmZOWWJ4akNVMWxQUy1qTUIzdXUtSTN1bmhqdHlIeW85cUIxa3FHNjdzMHZIQ2ZlWTAxeHQxRnRObG13T2s1R3NUWTg?oc=5",
         "published_at": "Thu, 04 Jun 2026 12:56:45 GMT",
         "reason": "Mark Zuckerberg가 메타 주식 투자자들과 실제 만나다    thestreet.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "메타 주식이 큰 타격을 받고 있습니다. 하지만 3년 후에는 어디로 갈 것인가? - 가지각색의 바보",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWHk5ZWtXc0Nhb2NTMkp6aFk5WV9ndllkWDY3ckFDWTVWa3ZkTC1MMVBEUUVzY0VxWnh0UVNfTDRNQUswNGlqQ0hCTEdVX0Vyc3A4em9WcnlEWW9YejRNbVRsd0ZwT1duZkNRM3dfLVVibUFxUXRXWXpuMHZ2N2V5S3h4RDdhWE1oMHA4Z2FJTk9aN0M0M25heQ?oc=5",
+        "published_at": "Sat, 06 Jun 2026 04:33:00 GMT",
+        "reason": "메타 주식이 큰 타격을 받고 있습니다. 하지만 3년 후에는 어디로 갈 것인가?    가지각색의 바보",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
