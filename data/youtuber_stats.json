@@ -3,20 +3,20 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 77,
-    "short_count": 77,
+    "video_count": 78,
+    "short_count": 78,
     "regular_video_count": 0,
-    "mention_count": 98,
-    "transcript_count": 70,
+    "mention_count": 101,
+    "transcript_count": 71,
     "metadata_count": 7,
-    "ocr_count": 14,
-    "transcript_chars": 150804,
-    "ocr_chars": 6154,
+    "ocr_count": 15,
+    "transcript_chars": 154899,
+    "ocr_chars": 6445,
     "stocks": [
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 39
+        "count": 40
       },
       {
         "ticker": "000660",
@@ -26,16 +26,16 @@
       {
         "ticker": "003550",
         "name": "LG",
-        "count": 12
-      },
-      {
-        "ticker": "035720",
-        "name": "카카오",
-        "count": 6
+        "count": 13
       },
       {
         "ticker": "005380",
         "name": "현대차",
+        "count": 7
+      },
+      {
+        "ticker": "035720",
+        "name": "카카오",
         "count": 6
       },
       {
@@ -90,6 +90,22 @@
       }
     ],
     "videos": [
+      {
+        "title": "다음주 월요일, 투자자들이 반드시 알아야 하는 투자 포인트",
+        "url": "https://youtu.be/ZriUX1jmpRw",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "005380",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 4095,
+        "ocr_status": "ok",
+        "ocr_chars": 291,
+        "ocr_excerpt": "다음주월요일 투자자들이 반드시알아야하는투자포인트 경제 사냥꾼 2026년 06월 06일 10000 미국 주식도 크게 흔들리면서 반드시알아야 하는 투자 포인트 OSPI 1000 KOSPI 08:48 8200 하이닉스가 9.9% 삼전이 6.4% 빠지면서 반드시알아야하는 쿠사포인트 300.00",
+        "youtube_kind": "short"
+      },
       {
         "title": "젠슨황이 '삼성·하이닉스' 다음으로, 꼭 필요할 수 있다는 ‘종목’ 정체",
         "url": "https://youtu.be/KObjEj3zkzU",
@@ -496,21 +512,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1980,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "6월 2일 투자자들이 꼭 알아야 하는 오늘의 투자 포인트 3가지",
-        "url": "https://youtu.be/7cEYNeaF6YU",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1815,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",

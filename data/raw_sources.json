@@ -173,11 +173,31 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "What SpaceX’s IPO Means for Index Fund Investors",
+    "title": "Should We Shift Assets to a Target Date Fund or an Annuity?",
     "summary": "",
-    "url": "https://www.barrons.com/articles/spacex-ipo-index-fund-investors-d74f2193?siteid=yhoof2&yptr=yahoo",
-    "published_at": "2026-06-05T06:00:00Z",
-    "text": "What SpaceX’s IPO Means for Index Fund Investors "
+    "url": "https://finance.yahoo.com/markets/options/articles/ask-advisor-1-6m-401-120000377.html",
+    "published_at": "2026-06-05T07:00:00Z",
+    "text": "Should We Shift Assets to a Target Date Fund or an Annuity? "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "UK's Raspberry Pi shares hit record as industrial demand boosts outlook",
+    "summary": "",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/uks-raspberry-pi-lifts-annual-064531198.html",
+    "published_at": "2026-06-05T06:45:31Z",
+    "text": "UK's Raspberry Pi shares hit record as industrial demand boosts outlook "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "China and Hong Kong users unable to access SpaceX website, IPO documents",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/china-hong-kong-users-unable-070259116.html",
+    "published_at": "2026-06-05T07:02:59Z",
+    "text": "China and Hong Kong users unable to access SpaceX website, IPO documents "
   },
   {
     "source": "Yahoo Finance Top Stories",
@@ -193,31 +213,11 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Compass Point Analyst Believes Bitcoin's Bear Market May Be Coming to an End",
+    "title": "DOJ appeal throws fresh uncertainty into tariff refund process",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/crypto/articles/compass-point-analyst-believes-bitcoins-051600988.html",
-    "published_at": "2026-06-05T05:16:00Z",
-    "text": "Compass Point Analyst Believes Bitcoin's Bear Market May Be Coming to an End "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-drop-south-koreas-050334604.html",
-    "published_at": "2026-06-05T05:03:34Z",
-    "text": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "UK's Raspberry Pi shares hit record as industrial demand boosts outlook",
-    "summary": "",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/uks-raspberry-pi-lifts-annual-064531198.html",
-    "published_at": "2026-06-05T06:45:31Z",
-    "text": "UK's Raspberry Pi shares hit record as industrial demand boosts outlook "
+    "url": "https://finance.yahoo.com/economy/policy/articles/doj-appeal-throws-fresh-uncertainty-070000681.html",
+    "published_at": "2026-06-05T07:00:00Z",
+    "text": "DOJ appeal throws fresh uncertainty into tariff refund process "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -233,11 +233,11 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "코스피 오를 때 20% 빠진 '이 종목'…\"하반기 희소식 있다\" [종목+] - 한국경제",
-    "summary": "코스피 오를 때 20% 빠진 '이 종목'…\"하반기 희소식 있다\" [종목+] &nbsp;&nbsp; 한국경제",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlVm95VWFtb19UbHRfM2o3eGhaa09nUV85dmpIZWdnanRFQ1hYdVB2a0xYUE41Q05pREVBbUhTcDFfb3ktQUdaZS0xbF9sbDJNMGJHRkFiVVJwQdIBVEFVX3lxTE51djRyLU5INkFxN2hBTHNjdnB2OGxiaDQ3MEltUGdZNEItQXB1bmUyZUQwc3E1N1JnWTJpNDk3VUdpYWlQT3R3RnVUVEN0SGFNVGF1Zw?oc=5",
-    "published_at": "Sat, 06 Jun 2026 07:02:51 GMT",
-    "text": "코스피 오를 때 20% 빠진 '이 종목'…\"하반기 희소식 있다\" [종목+] - 한국경제  코스피 오를 때 20% 빠진 '이 종목'…\"하반기 희소식 있다\" [종목+] &nbsp;&nbsp; 한국경제 "
+    "title": "반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+] - 한국경제",
+    "summary": "반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+] &nbsp;&nbsp; 한국경제",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02VlpRS0h6MTlxbTBaamJuQ0F0MmtHemFPeFFvME5aVWlQWi1lZEhIelU2YnFlQjdzbDdxc1RoNzBlSWNqb1Z3WkJFcGNLVmk3NWV4WDI3RmRiQdIBVEFVX3lxTE1HRzc3N1dFaHJHRnF2WjVFR0EzWkNqYWlRSmd3UC0yNXdUdjAyV3Z6d19PTmUtY1ZyTmFyQnd3aENGV3otSmoyenZOUXVsalM2M2ZRbQ?oc=5",
+    "published_at": "Sat, 06 Jun 2026 08:08:15 GMT",
+    "text": "반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+] - 한국경제  반도체 급락에 개미들 '당황'…연기금·외국인은 '이것' 샀다 [종목+] &nbsp;&nbsp; 한국경제 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -253,21 +253,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보",
-    "summary": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoUXR3bC14SU5xVVRXUm12U0RfOUVOdmdZSEZ6N0RWQ2pDZjZkUktJTERVY1A1TE9aNkY2UnZhQlFDeS11LXFwSmhHcVZMdEEx?oc=5",
-    "published_at": "Fri, 05 Jun 2026 22:28:26 GMT",
-    "text": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보  “보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보 "
+    "title": "월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 - v.daum.net",
+    "summary": "월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 &nbsp;&nbsp; v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhdE04VFhrVzJuelNLOFNCand3WEZlZWl5S3NUbVRaUTNhTTZ4LVo5bVd1aTc5XzV4aFUtTGJyVmVxa0VzdjV0WnphT0txTHM?oc=5",
+    "published_at": "Sat, 06 Jun 2026 05:42:00 GMT",
+    "text": "월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 - v.daum.net  월요일 우리 증시는?…필라델피아 반도체지수 10.3% 폭락 &nbsp;&nbsp; v.daum.net "
   },
   {
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 - v.daum.net",
-    "summary": "반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 &nbsp;&nbsp; v.daum.net",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtYzE1Q0NzRXduX3hrR1Z2S2VBc1BUMUxjTkdvaVRzZXlpU2lQcmlKTWpzUDA0REV2UkplWk5IbTBzTks4bGpTOFRaZjdGc2M?oc=5",
-    "published_at": "Sat, 06 Jun 2026 07:00:03 GMT",
-    "text": "반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 - v.daum.net  반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 &nbsp;&nbsp; v.daum.net "
+    "title": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보",
+    "summary": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoUXR3bC14SU5xVVRXUm12U0RfOUVOdmdZSEZ6N0RWQ2pDZjZkUktJTERVY1A1TE9aNkY2UnZhQlFDeS11LXFwSmhHcVZMdEEx?oc=5",
+    "published_at": "Fri, 05 Jun 2026 22:28:26 GMT",
+    "text": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보  “보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -363,11 +363,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path - Moomoo",
-    "summary": "Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path &nbsp;&nbsp; Moomoo",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTEtJM1AzUnN5blV5cU5qaTg3bTBpeVpEaEgwbGpPZGV5R3FZOE9UOFNSblZIaXJMVTRmOEJmOVFUcC1jSjdWTGxVSURyRlhXN25KUkRsR3FuX1ZVVG82SFkzdUZpVjVlRHl6MHFmZ194WlhhV0tlVDhRX202UzJBd3RiZnNJcF82M2paT1JsZTVsXzZiNmgxMTdsaGxMa2Q5dnFqdjZaTEJCVW1BdUNTYzRjWXM3cjZscHE0M2lTVFpzeDhXU2VNSmRR?oc=5",
-    "published_at": "Sat, 06 Jun 2026 01:48:25 GMT",
-    "text": "Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path - Moomoo  Semiconductor Pullback: There Are Still \"Shining\" Stocks Brightening Long-Term Path &nbsp;&nbsp; Moomoo "
+    "title": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede - TradingKey",
+    "summary": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede &nbsp;&nbsp; TradingKey",
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS2Z3SWljcXQ0WXR3cFlDMUl5NTZLUzg0anE4a0JGcUF2dkxCQWZ3Nmk0Q0hNMmFUQnBmVFJxZENSeTVuUkl5TmlselhnQ2xNXzc5WEhGRTFwbE9IWk1KT2xKaHFpZm9ERV9JOEZQbENrM3lPdWhReUVoVFNwZ3p2djFKRHcxNTNvYmZaN0ZXeW5ZVUNEM3VCTHRsd0xPZElQWEV3OFlTd3pkOTBYU3hMMDh4UzdFTDJkeEUzTDVIckRqa29tUHFIT2R6NXZJdHloZE1iVw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 21:25:07 GMT",
+    "text": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede - TradingKey  US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede &nbsp;&nbsp; TradingKey "
   },
   {
     "source": "Google News Magnificent 7",
@@ -403,11 +403,11 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg.com",
-    "summary": "Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
-    "published_at": "Fri, 05 Jun 2026 19:17:42 GMT",
-    "text": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg.com  Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg.com "
+    "title": "Is Your NVIDIA Stock Built to Survive a Crash? - Trefis",
+    "summary": "Is Your NVIDIA Stock Built to Survive a Crash? &nbsp;&nbsp; Trefis",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZi1jWEJmLXJfUkZtTm1qSk9kX2ZqQTI3TkVab0NnbGhZX28yUDJwa2JCUjNTd054NDJWRDlnVEtJV0dWRnp1RUI1OWZleEJERG5oTVVBSkY4bVdlOFREZFFoU0pjNEpxdFIxREZJMWdkLWk0WlVQY2VBOXNZM2l3dFZ0ZG1tSC00U1NfNF85dnNmWURwRnFmdV9CMThRSjYtTzBCZkdIeEc4UQ?oc=5",
+    "published_at": "Sat, 06 Jun 2026 05:58:42 GMT",
+    "text": "Is Your NVIDIA Stock Built to Survive a Crash? - Trefis  Is Your NVIDIA Stock Built to Survive a Crash? &nbsp;&nbsp; Trefis "
   },
   {
     "source": "Google News Magnificent 7",
