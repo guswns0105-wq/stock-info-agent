@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "국힘, '투표지' 공세 고삐…개표소 봉쇄 시위엔 \"민주적 항거\"",
+    "summary": "(서울=연합뉴스) 박수윤 기자 = 국민의힘은 주말인 6일에도 6·3 지방선거에서 발생한 투표용지 부족 사태를 연결 고리로 대여 공세를 이어갔다.",
+    "url": "https://www.yna.co.kr/view/AKR20260606034300001",
+    "published_at": "Sat, 6 Jun 2026 14:47:16 +0900",
+    "text": "국힘, '투표지' 공세 고삐…개표소 봉쇄 시위엔 \"민주적 항거\" (서울=연합뉴스) 박수윤 기자 = 국민의힘은 주말인 6일에도 6·3 지방선거에서 발생한 투표용지 부족 사태를 연결 고리로 대여 공세를 이어갔다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
     "summary": "[연합뉴스 이 시각 헤드라인] - 10:30",
     "url": "https://www.yna.co.kr/view/AKR20260606024500011",
@@ -160,64 +170,54 @@
     "text": "[다음주 경제] 취업자 얼마나 늘었나…1분기 성장률 잠정치도 공개 (서울·세종=연합뉴스) 이세원 배영경 한지훈 기자 = 다음 주(8∼12일)에는 취업·금융 시장 동향과 한국 경제 성장률을 살필 수 있는 지표가 ..."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
-    "region": "domestic",
-    "title": "한-세르비아 투자 증진 및 보호 협정 오늘 발효",
-    "summary": "(서울=연합뉴스) 이은정 기자 = &apos;대한민국 정부와 세르비아 공화국 정부 간의 투자의 증진 및 보호를 위한 협정&apos;이 6일 발효된다고 외교부가 밝...",
-    "url": "https://www.yna.co.kr/view/AKR20260606014100504",
-    "published_at": "Sat, 6 Jun 2026 07:47:09 +0900",
-    "text": "한-세르비아 투자 증진 및 보호 협정 오늘 발효 (서울=연합뉴스) 이은정 기자 = &apos;대한민국 정부와 세르비아 공화국 정부 간의 투자의 증진 및 보호를 위한 협정&apos;이 6일 발효된다고 외교부가 밝..."
+    "region": "global",
+    "title": "'I'm Not Saying It Goes To Zero': Mark Cuban Debunks Perceived Misconceptions Around His Bitcoin Position",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/im-not-saying-goes-zero-230013517.html",
+    "published_at": "2026-06-04T23:00:13Z",
+    "text": "'I'm Not Saying It Goes To Zero': Mark Cuban Debunks Perceived Misconceptions Around His Bitcoin Position "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Jim Cramer Hints Michael Saylor “Murdered Bitcoin” as MicroStrategy Navigates a Sea of FUD",
+    "title": "The Best-Performing AI ETF of the Year Isn't a Pure Chip Play",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/crypto/articles/jim-cramer-hints-michael-saylor-220000205.html",
-    "published_at": "2026-06-04T22:00:00Z",
-    "text": "Jim Cramer Hints Michael Saylor “Murdered Bitcoin” as MicroStrategy Navigates a Sea of FUD "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-ai-etf-isnt-225625460.html",
+    "published_at": "2026-06-04T22:56:25Z",
+    "text": "The Best-Performing AI ETF of the Year Isn't a Pure Chip Play "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Best airline credit cards for June 2026",
+    "title": "Brazil, Guyana, Venezuela Fuel South America’s Oil Export Boom",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/best-airline-credit-cards-193236919.html",
-    "published_at": "2024-09-11T22:47:15Z",
-    "text": "Best airline credit cards for June 2026 "
+    "url": "https://finance.yahoo.com/sectors/energy/articles/brazil-guyana-venezuela-fuel-south-230000460.html",
+    "published_at": "2026-06-04T23:00:00Z",
+    "text": "Brazil, Guyana, Venezuela Fuel South America’s Oil Export Boom "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Delta SkyMiles Gold Business Card Amex review: First and second checked bags free",
+    "title": "Trump to Boost Coal Industry With $700 Million in New Funding",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/delta-skymiles-gold-business-american-express-review-004134954.html",
-    "published_at": "2024-11-05T00:41:34Z",
-    "text": "Delta SkyMiles Gold Business Card Amex review: First and second checked bags free "
+    "url": "https://finance.yahoo.com/sectors/energy/articles/trump-boost-coal-industry-700-230251595.html",
+    "published_at": "2026-06-04T23:02:51Z",
+    "text": "Trump to Boost Coal Industry With $700 Million in New Funding "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Delta SkyMiles® Gold American Express Card review: Great for casual Delta flyers",
+    "title": "Knight-Swift founder, executive chairman Kevin Knight retires",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/delta-skymiles-gold-american-express-card-review-223134826.html",
-    "published_at": "2024-12-30T22:31:34Z",
-    "text": "Delta SkyMiles® Gold American Express Card review: Great for casual Delta flyers "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Delta SkyMiles Blue American Express Card review: A fee-free pick for Delta Airlines fans",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/delta-skymiles-blue-american-express-card-review-161512974.html",
-    "published_at": "2025-02-28T16:15:12Z",
-    "text": "Delta SkyMiles Blue American Express Card review: A fee-free pick for Delta Airlines fans "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/knight-swift-founder-executive-chairman-224457222.html",
+    "published_at": "2026-06-04T22:44:57Z",
+    "text": "Knight-Swift founder, executive chairman Kevin Knight retires "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -253,21 +253,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 - 머니투데이",
-    "summary": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 &nbsp;&nbsp; 머니투데이",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GdkM5NDh4Y2JnM3BGTTFrdXZDX0ZiTFRQcXVMOTlJVUhaaTRGeEFBU0F0cldMTnNzaEFqNmhtb095WW9GVWt6N2lLS3dpVkFBeWlaWWVGbnRid3VESXJsT0JfaDVzaVhF0gFuQVVfeXFMTm5VYU5VeFpvMkkyQWlxcG5wTlRuTm5DRWI2akpoeXRvVllKY3JVRXlUcFhPd0RJRmdrSzEwd3BqTU9vaVpMaHd2MUw0MFp4NjBIUm1yUHV4bURickJVd01QdmdDak9nR3RhTFNNUWc?oc=5",
-    "published_at": "Sat, 06 Jun 2026 01:00:00 GMT",
-    "text": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 - 머니투데이  AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 &nbsp;&nbsp; 머니투데이 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스",
     "summary": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스",
     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05MGNWdGhNbFJFdzFmbE9Ubm5PNG55YWJ3WExOLVdPNFVhTmg5U1Q5U29kdE9FWmt3OFQ4Yi16eW9wa2lfWC1WakpmMzFRRmhsamVObmZxdlNIWU3SAWBBVV95cUxNN2wtNWdZRndVQU5lYUVjcURSQkQ2eGpvLUJzTEZqNEVCenFyWUJxRWtsS0Rhc0U2cFZsa3o1OU5EZllRLXRrSHZJZ0xNVnZBWWlaNDBwWDFLSUJHRmJWbWM?oc=5",
     "published_at": "Fri, 05 Jun 2026 00:14:52 GMT",
     "text": "미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 - 연합뉴스  미국발 반도체 찬바람에 코스피 급락…매도 사이드카 발동 &nbsp;&nbsp; 연합뉴스 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 - 머니투데이",
+    "summary": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 &nbsp;&nbsp; 머니투데이",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GdkM5NDh4Y2JnM3BGTTFrdXZDX0ZiTFRQcXVMOTlJVUhaaTRGeEFBU0F0cldMTnNzaEFqNmhtb095WW9GVWt6N2lLS3dpVkFBeWlaWWVGbnRid3VESXJsT0JfaDVzaVhF0gFuQVVfeXFMTm5VYU5VeFpvMkkyQWlxcG5wTlRuTm5DRWI2akpoeXRvVllKY3JVRXlUcFhPd0RJRmdrSzEwd3BqTU9vaVpMaHd2MUw0MFp4NjBIUm1yUHV4bURickJVd01QdmdDak9nR3RhTFNNUWc?oc=5",
+    "published_at": "Sat, 06 Jun 2026 01:00:00 GMT",
+    "text": "AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 - 머니투데이  AI發 훈풍에 뭉칫돈 몰린 반도체·전력 ETF… 차기 투자처는? - 머니투데이 &nbsp;&nbsp; 머니투데이 "
   },
   {
     "source": "Google News 한국 주식 종목",
