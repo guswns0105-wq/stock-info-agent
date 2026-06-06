@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "'은행규제 강화론자' 美연준 이사 \"규제완화 단기 흥분제 불과\"",
+    "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 은행규제 강화론자인 미국 연방준비제도(Fed·연준)의 마이클 바 이사는 6일(현지시간) 도널드 트럼프 미 행...",
+    "url": "https://www.yna.co.kr/view/AKR20260607002400072",
+    "published_at": "Sun, 7 Jun 2026 04:00:55 +0900",
+    "text": "'은행규제 강화론자' 美연준 이사 \"규제완화 단기 흥분제 불과\" (뉴욕=연합뉴스) 이지헌 특파원 = 은행규제 강화론자인 미국 연방준비제도(Fed·연준)의 마이클 바 이사는 6일(현지시간) 도널드 트럼프 미 행..."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "[동정] 오세훈 서울시장, 대학생 진로지원사업 성과공유회 참석해 격려",
     "summary": "▲ 오세훈 서울시장은 6일 대학생 진로 탐색 프로그램인 &apos;서울영커리언스&apos; 성과공유회에 참석해 청년들을 격려하고 응원했다. 오 시장은 &quot;청년의 성...",
     "url": "https://www.yna.co.kr/view/AKR20260606041600004",
@@ -160,24 +170,14 @@
     "text": "[연합뉴스 이 시각 헤드라인] - 10:30 [연합뉴스 이 시각 헤드라인] - 10:30\n"
   },
   {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "부산 아파트값 보합…해운대·동래구는 약진",
-    "summary": "(부산=연합뉴스) 민영규 기자 = 부산지역 아파트 매매가격이 보합을 유지했다.",
-    "url": "https://www.yna.co.kr/view/AKR20260605114300051",
-    "published_at": "Sat, 6 Jun 2026 10:00:04 +0900",
-    "text": "부산 아파트값 보합…해운대·동래구는 약진 (부산=연합뉴스) 민영규 기자 = 부산지역 아파트 매매가격이 보합을 유지했다. "
-  },
-  {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Can Pfizer's Dividend Survive the Patent Cliff? This $10.5 Billion Cancer Bet Could Hold the Answer.",
+    "title": "A controversial fashion giant is closing its fitting rooms",
     "summary": "",
-    "url": "https://finance.yahoo.com/sectors/healthcare/articles/pfizers-dividend-survive-patent-cliff-175200060.html",
-    "published_at": "2026-06-06T17:52:00Z",
-    "text": "Can Pfizer's Dividend Survive the Patent Cliff? This $10.5 Billion Cancer Bet Could Hold the Answer. "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/controversial-fashion-giant-closing-fitting-184700666.html",
+    "published_at": "2026-06-06T18:47:00Z",
+    "text": "A controversial fashion giant is closing its fitting rooms "
   },
   {
     "source": "Yahoo Finance Top Stories",
@@ -343,21 +343,21 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA",
-    "summary": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
-    "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
-    "text": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA  New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
     "title": "US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% - XTB",
     "summary": "US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% &nbsp;&nbsp; XTB",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
     "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
     "text": "US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% - XTB  US Open: Wall Street slides amid semiconductor stocks sell-off 📌Intel down 6% &nbsp;&nbsp; XTB "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA",
+    "summary": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
+    "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
+    "text": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA  New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -373,21 +373,21 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC",
-    "summary": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
-    "published_at": "Fri, 05 Jun 2026 19:05:58 GMT",
-    "text": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC  Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC "
+    "title": "Wells Fargo Raises PT on Microsoft (MSFT) Stock - Yahoo Finance",
+    "summary": "Wells Fargo Raises PT on Microsoft (MSFT) Stock &nbsp;&nbsp; Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDI4LTNNZUs0TWNrZXJ0SEM1T05VMnp2TF9VN0tvRXdZalRIUVRoVHR3S3BUS1ZOaVFZM3NqMk1sUlBiemF5dzJETEh1OEJxVy1wM2ljemxBeFBzYVM3MmlkUUxIMjJUazF0b2xjcUduNzd3dXRub1ZYRUpNZXNPUUZQZ3JzTkQ1WnlwTDV3dFJZaXB0SUpBZFJpcUM?oc=5",
+    "published_at": "Sat, 06 Jun 2026 17:24:23 GMT",
+    "text": "Wells Fargo Raises PT on Microsoft (MSFT) Stock - Yahoo Finance  Wells Fargo Raises PT on Microsoft (MSFT) Stock &nbsp;&nbsp; Yahoo Finance "
   },
   {
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta stock sinks 6% on report of stock sale - Yahoo Finance",
-    "summary": "Meta stock sinks 6% on report of stock sale &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXBYTHRnWmk1YXRHbEJ2NS1QQzB4NHlYS0FabW55T19XT2c1RE1LU1o0a1p1N2R0M0RMTjVSYnE1VUVSaE1VNHFIb2FyNGJyU204OW5WemtNNEV0NzFEZ0Q3TzBlbTF1Y2cwXzdhSGpsNmoxX2RmY2NGVjBDT1lGc0xYQUxTUDk0YWozYmdoUHlydw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 19:38:57 GMT",
-    "text": "Meta stock sinks 6% on report of stock sale - Yahoo Finance  Meta stock sinks 6% on report of stock sale &nbsp;&nbsp; Yahoo Finance "
+    "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC",
+    "summary": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
+    "published_at": "Fri, 05 Jun 2026 19:05:58 GMT",
+    "text": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC  Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC "
   },
   {
     "source": "Google News Magnificent 7",

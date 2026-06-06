@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T03:26",
+  "generated_at": "2026-06-07T04:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -207,7 +207,7 @@
         "region": "global",
         "price": 416.67,
         "currency": "USD",
-        "ai_score": 11.0,
+        "ai_score": 11.25,
         "verdict": "저평가 후보",
         "ai_buy_price": 408.33660000000003,
         "ai_sell_price": 553.7164859682797,
@@ -219,9 +219,9 @@
         "ret20_pct": -0.9744014831672421,
         "support": 356.7699890136719,
         "resistance": 460.5199890136719,
-        "comment": "출처 언급 8회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
+        "comment": "출처 언급 9회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 8회",
+          "출처 언급 9회",
           "ROE 34.01%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -488,7 +488,7 @@
         "region": "global",
         "price": 416.67,
         "currency": "USD",
-        "ai_score": 11.0,
+        "ai_score": 11.25,
         "verdict": "저평가 후보",
         "ai_buy_price": 408.33660000000003,
         "ai_sell_price": 553.7164859682797,
@@ -500,9 +500,9 @@
         "ret20_pct": -0.9744014831672421,
         "support": 356.7699890136719,
         "resistance": 460.5199890136719,
-        "comment": "출처 언급 8회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
+        "comment": "출처 언급 9회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 8회",
+          "출처 언급 9회",
           "ROE 34.01%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -1451,6 +1451,64 @@
       "fetch_note": ""
     },
     {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "region": "global",
+      "mention_count": 9,
+      "price": 416.67,
+      "currency": "USD",
+      "pe": 24.817,
+      "forward_pe": 22.535,
+      "pb": 7.47,
+      "roe": 34.014,
+      "profit_margin": 39.342,
+      "eps": null,
+      "fair_value": 527.3490342555044,
+      "watch_buy_price": 432.4262080895136,
+      "ai_buy_price": 408.33660000000003,
+      "ai_sell_price": 553.7164859682797,
+      "margin_to_fair_pct": 26.56275571927531,
+      "verdict": "저평가 후보",
+      "action": "432.4 USD 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 7,
+      "technical_score": 2,
+      "ai_score": 11.25,
+      "ai_comment": "출처 언급 9회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 9회",
+        "ROE 34.01%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 22.54배 역산 EPS → 기준 PER 36.00배",
+        "PBR 7.47배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "MSFT",
+        "chart_status": "ok",
+        "sma20": 422.58049926757815,
+        "sma60": 405.06216583251955,
+        "sma120": 423.10108337402346,
+        "ret20_pct": -0.9744014831672421,
+        "ret60_pct": 2.911972677089847,
+        "high_52w": 542.0700073242188,
+        "low_52w": 356.7699890136719,
+        "recent_support": 356.7699890136719,
+        "recent_resistance": 460.5199890136719,
+        "volatility_pct": 31.751613534260397,
+        "trend": "중립 추세",
+        "technical_score": 2,
+        "position_52w": 0.3232596064072745
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
+        "https://stockanalysis.com/stocks/msft/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "IONQ",
       "name": "IonQ",
       "region": "global",
@@ -1506,64 +1564,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/IONQ",
         "https://stockanalysis.com/stocks/ionq/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "region": "global",
-      "mention_count": 8,
-      "price": 416.67,
-      "currency": "USD",
-      "pe": 24.817,
-      "forward_pe": 22.535,
-      "pb": 7.47,
-      "roe": 34.014,
-      "profit_margin": 39.342,
-      "eps": null,
-      "fair_value": 527.3490342555044,
-      "watch_buy_price": 432.4262080895136,
-      "ai_buy_price": 408.33660000000003,
-      "ai_sell_price": 553.7164859682797,
-      "margin_to_fair_pct": 26.56275571927531,
-      "verdict": "저평가 후보",
-      "action": "432.4 USD 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 7,
-      "technical_score": 2,
-      "ai_score": 11.0,
-      "ai_comment": "출처 언급 8회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 8회",
-        "ROE 34.01%",
-        "PER가 기준보다 낮음"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 22.54배 역산 EPS → 기준 PER 36.00배",
-        "PBR 7.47배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "MSFT",
-        "chart_status": "ok",
-        "sma20": 422.58049926757815,
-        "sma60": 405.06216583251955,
-        "sma120": 423.10108337402346,
-        "ret20_pct": -0.9744014831672421,
-        "ret60_pct": 2.911972677089847,
-        "high_52w": 542.0700073242188,
-        "low_52w": 356.7699890136719,
-        "recent_support": 356.7699890136719,
-        "recent_resistance": 460.5199890136719,
-        "volatility_pct": 31.751613534260397,
-        "trend": "중립 추세",
-        "technical_score": 2,
-        "position_52w": 0.3232596064072745
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/MSFT",
-        "https://stockanalysis.com/stocks/msft/statistics/"
       ],
       "fetch_note": ""
     },

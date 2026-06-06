@@ -5061,6 +5061,133 @@
   },
   {
     "region": "global",
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "sources": [
+      "Google News Magnificent 7",
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식",
+      "주식용사부",
+      "T3chfeed - 테크피드 미국 주식 인사이트"
+    ],
+    "source_count": 5,
+    "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT)의 의견 - Quiver Quantitative",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXllVG9kWWZodndoWDY3NV82OFp2TGdXV25VdE56RUQ4b21mZHRwRk5VSEpBNUxOdjBaOTVGc1VVdHZlS1NKZDQ5UnJsQXQ5VmRHZVJ6UzNkeWNrTXdaNjJnSVVqUG4wWHUyQ05FS1JJQ3FIV1RRSVdnbWxuS3RvZU02d1Z3NndVWTB6X1VCZ2IxeTVhZnBfc2JEcTdtWnBPLVJROUhR?oc=5",
+        "published_at": "Thu, 04 Jun 2026 17:32:00 GMT",
+        "reason": "AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT) 의견    Quiver Quantitative",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Wells Fargo, Microsoft(MSFT) 주식에 대한 PT 인상 - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDI4LTNNZUs0TWNrZXJ0SEM1T05VMnp2TF9VN0tvRXdZalRIUVRoVHR3S3BUS1ZOaVFZM3NqMk1sUlBiemF5dzJETEh1OEJxVy1wM2ljemxBeFBzYVM3MmlkUUxIMjJUazF0b2xjcUduNzd3dXRub1ZYRUpNZXNPUUZQZ3JzTkQ1WnlwTDV3dFJZaXB0SUpBZFJpcUM?oc=5",
+        "published_at": "Sat, 06 Jun 2026 17:24:23 GMT",
+        "reason": "Wells Fargo, Microsoft(MSFT) 주식 PT 인상    Yahoo Finance",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "링크드인 공동 창업자 리드 호프만, 마이크로소프트 이사회에서 사임",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/linkedin-co-founder-reid-hoffman-154541318.html",
+        "published_at": "2026-06-05T15:45:41Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "sk하이닉스, IHBM 공개",
+        "url": "https://youtu.be/avtz-xgjyUk",
+        "published_at": "",
+        "reason": "SK 하이닉스가 IHBM 기술을 공개했습니다. 그동안 HBM 칩 내부에 발를 쉽게 해결하지 못했었는데이 기술은 칩 내부의 발을 해결할 신기술입니다. 원리는 간단합니다. 침 내부에서 가장 열이 꽉 막히고 발열이 집중되는 핵심 통로에 전기는 통하지 않고 열만 빼내는 실리콘 냉각제 일명 IC를 아예 내장해 버린 겁니다. 결과는 기존 방식보다 열 저항이 무려 30% 이상 낮춰졌습니다. 이미 시장에서 검증된 공정을 사용하여 대량 생산도 문제가 없습니다. 크기게 핀의 위치가 기존 HBM과 100% 동일하기 때문에 고객사들이 설계에 변경 없이 바로이 HBM을 사용할 수 있게 되어 중목받고 있습니다.이 이 기술은 4세대 HBN 5부터 정격 도입 예정이라고 하고",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "마이크로소프트, 수익 매도 후 핵심 레벨 재취득. Microsoft Stock은 지금 구매됩니까?",
+        "url": "https://www.investors.com/research/microsoft-msft-stock-buy-now-june-2026/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-02T18:57:08Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "url": "https://youtu.be/bkuop8jLgOc",
+        "published_at": "2026-05-29T06:37:35+00:00",
+        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
+        "url": "https://youtu.be/AnDxrYqudj0",
+        "published_at": "2026-05-10T08:41:18+00:00",
+        "reason": "작년 9월 계속해서 시장이 오르면서 버블이 아니냐라는 우려가 있었을 때 저는 일관되게 뉴 노멀의 영역에 진입하는 것일 수도 있다 말씀드렸습니다. 지금은이 영상을 올린지 약 8개월이 지난 상황이라서 조금 더 시야가 확보되었는데 요즘 시장이 확실히 과열되고 있는게 느껴지죠. 전쟁 또 이로 인한 유가 상승이라는 명확한 리스크가 있는 상황임에도 엔비디아가 다시 최고가를 경신했고 실적이 안 좋았던 테슬라마저 다시 400달러 위를 회복했습니다. 또 한국의 대표 기업들이 AI 혁명에서 가장 중요한 위치를 확보하게 되는 것이 세상에 알려지면서 코스피 지수가 1년 만에 세대 가까이 올랐습니다. 제가 연초에 26년도 결국 미국 주식이라고 말씀드렸는데 뭐 지금 미국 주식도 최고가 경신하고 좋은 상황이긴 하지만 코스피에 비할 바는 안 되죠. 지금 5월이 지나가는 시점 기준으로는 재가 그렇게 맞지 않았던 거 같습니다. 자, 그런데 제3회 4회 국가도 아니고 OECD 주요국 대표 지수가 1년 만에 세배 가까이 오르는 건 현대 자본 시장에서 전례를 찾기 어려운 사건입니다. 무서운 건 앞으로도 더 오를 것으로 보인다는 것이죠. S&P 500 레이시오도 2000년 당시 역사적 고점으로 향해 가고 있습니다. 숫자만 놓고 보면 명백한 버블인 거 같죠? 자, 버블은 단순히 밸루에이션이 높아서 생기는 걸까요? 그렇진 않습니다. 버블은 비전과 현실의 간극이 생각보다 크다는",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "IONQ",
     "name": "IonQ",
     "sources": [
@@ -5184,121 +5311,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "83달러",
     "buy_zone_summary": "31,800원, 2,000원, 30달러",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "sources": [
-      "Google News Magnificent 7",
-      "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식",
-      "주식용사부",
-      "T3chfeed - 테크피드 미국 주식 인사이트"
-    ],
-    "source_count": 5,
-    "evidence": [
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT)의 의견 - Quiver Quantitative",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXllVG9kWWZodndoWDY3NV82OFp2TGdXV25VdE56RUQ4b21mZHRwRk5VSEpBNUxOdjBaOTVGc1VVdHZlS1NKZDQ5UnJsQXQ5VmRHZVJ6UzNkeWNrTXdaNjJnSVVqUG4wWHUyQ05FS1JJQ3FIV1RRSVdnbWxuS3RvZU02d1Z3NndVWTB6X1VCZ2IxeTVhZnBfc2JEcTdtWnBPLVJROUhR?oc=5",
-        "published_at": "Thu, 04 Jun 2026 17:32:00 GMT",
-        "reason": "AI 성장 및 주가 성과에 대한 Microsoft Stock(MSFT) 의견    Quiver Quantitative",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "링크드인 공동 창업자 리드 호프만, 마이크로소프트 이사회에서 사임",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/linkedin-co-founder-reid-hoffman-154541318.html",
-        "published_at": "2026-06-05T15:45:41Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "sk하이닉스, IHBM 공개",
-        "url": "https://youtu.be/avtz-xgjyUk",
-        "published_at": "",
-        "reason": "SK 하이닉스가 IHBM 기술을 공개했습니다. 그동안 HBM 칩 내부에 발를 쉽게 해결하지 못했었는데이 기술은 칩 내부의 발을 해결할 신기술입니다. 원리는 간단합니다. 침 내부에서 가장 열이 꽉 막히고 발열이 집중되는 핵심 통로에 전기는 통하지 않고 열만 빼내는 실리콘 냉각제 일명 IC를 아예 내장해 버린 겁니다. 결과는 기존 방식보다 열 저항이 무려 30% 이상 낮춰졌습니다. 이미 시장에서 검증된 공정을 사용하여 대량 생산도 문제가 없습니다. 크기게 핀의 위치가 기존 HBM과 100% 동일하기 때문에 고객사들이 설계에 변경 없이 바로이 HBM을 사용할 수 있게 되어 중목받고 있습니다.이 이 기술은 4세대 HBN 5부터 정격 도입 예정이라고 하고",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "마이크로소프트, 수익 매도 후 핵심 레벨 재취득. Microsoft Stock은 지금 구매됩니까?",
-        "url": "https://www.investors.com/research/microsoft-msft-stock-buy-now-june-2026/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-02T18:57:08Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
-        "url": "https://youtu.be/bkuop8jLgOc",
-        "published_at": "2026-05-29T06:37:35+00:00",
-        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
-        "url": "https://youtu.be/AnDxrYqudj0",
-        "published_at": "2026-05-10T08:41:18+00:00",
-        "reason": "작년 9월 계속해서 시장이 오르면서 버블이 아니냐라는 우려가 있었을 때 저는 일관되게 뉴 노멀의 영역에 진입하는 것일 수도 있다 말씀드렸습니다. 지금은이 영상을 올린지 약 8개월이 지난 상황이라서 조금 더 시야가 확보되었는데 요즘 시장이 확실히 과열되고 있는게 느껴지죠. 전쟁 또 이로 인한 유가 상승이라는 명확한 리스크가 있는 상황임에도 엔비디아가 다시 최고가를 경신했고 실적이 안 좋았던 테슬라마저 다시 400달러 위를 회복했습니다. 또 한국의 대표 기업들이 AI 혁명에서 가장 중요한 위치를 확보하게 되는 것이 세상에 알려지면서 코스피 지수가 1년 만에 세대 가까이 올랐습니다. 제가 연초에 26년도 결국 미국 주식이라고 말씀드렸는데 뭐 지금 미국 주식도 최고가 경신하고 좋은 상황이긴 하지만 코스피에 비할 바는 안 되죠. 지금 5월이 지나가는 시점 기준으로는 재가 그렇게 맞지 않았던 거 같습니다. 자, 그런데 제3회 4회 국가도 아니고 OECD 주요국 대표 지수가 1년 만에 세배 가까이 오르는 건 현대 자본 시장에서 전례를 찾기 어려운 사건입니다. 무서운 건 앞으로도 더 오를 것으로 보인다는 것이죠. S&P 500 레이시오도 2000년 당시 역사적 고점으로 향해 가고 있습니다. 숫자만 놓고 보면 명백한 버블인 거 같죠? 자, 버블은 단순히 밸루에이션이 높아서 생기는 걸까요? 그렇진 않습니다. 버블은 비전과 현실의 간극이 생각보다 크다는",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {

@@ -1431,7 +1431,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224304331938?fromRss=true&trackingCode=rss",
     "published_at": "Wed, 03 Jun 2026 00:19:50 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -1444,7 +1444,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T14:12",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -2529,7 +2529,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224303290917?fromRss=true&trackingCode=rss",
     "published_at": "Tue, 02 Jun 2026 00:43:17 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -2542,7 +2542,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T14:12",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6044,7 +6044,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wRzkzM2tIX3ZxcVhFUXBUWHhvU0M0N01aUUlHYllNekhJN3pJR0RGRHJvaHgtVHR2SDIxOURGQ01uNE5FTUhFVFg2eV8waVhY?oc=5",
     "published_at": "Thu, 04 Jun 2026 04:37:17 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6057,7 +6057,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-04T14:01",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6654,7 +6654,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224305194018?fromRss=true&trackingCode=rss",
     "published_at": "Thu, 04 Jun 2026 00:29:50 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "110달러",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "외부 서비스에서 데이터를 읽고 행동하는데요. 일본의 3대 메가뱅크 중 하나인 미즈호(Mizuho) 파이낸셜 그룹은 이 기능을 보고 목표주가를 110달러에서 115달러로 올릴 정도로 호평이었죠. 설문에서는 응답자의 89%가 별도 Agentic Trading 계좌로 투자....... AI 에이전트",
@@ -6667,7 +6667,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T14:12",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6747,6 +6747,42 @@
       "domestic"
     ],
     "source_region": "domestic",
+    "source": "연합뉴스 경제",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_note": "",
+    "source_type": "rss",
+    "title": "'은행규제 강화론자' 美연준 이사 \"규제완화 단기 흥분제 불과\"",
+    "summary": "(뉴욕=연합뉴스) 이지헌 특파원 = 은행규제 강화론자인 미국 연방준비제도(Fed·연준)의 마이클 바 이사는 6일(현지시간) 도널드 트럼프 미 행...",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://www.yna.co.kr/view/AKR20260607002400072",
+    "published_at": "Sun, 7 Jun 2026 04:00:55 +0900",
+    "collected_at": "2026-06-07T04:04",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "first_seen_at": "2026-06-07T04:04",
+    "last_seen_at": "2026-06-07T04:04",
+    "accumulated": true
+  },
+  {
+    "region": "domestic",
+    "stock_regions": [
+      "domestic"
+    ],
+    "source_region": "domestic",
     "source": "메르의 블로그",
     "channel_id": "",
     "video_id": "",
@@ -6761,7 +6797,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224307952070?fromRss=true&trackingCode=rss",
     "published_at": "Sun, 07 Jun 2026 00:10:00 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6774,7 +6810,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-07T01:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6797,7 +6833,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260606041600004",
     "published_at": "Sat, 6 Jun 2026 17:07:42 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6810,7 +6846,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T18:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6833,7 +6869,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260606037100030",
     "published_at": "Sat, 6 Jun 2026 15:36:42 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6846,7 +6882,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T16:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6869,7 +6905,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260606034300001",
     "published_at": "Sat, 6 Jun 2026 14:47:16 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6882,7 +6918,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T15:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6905,7 +6941,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260606024500011",
     "published_at": "Sat, 6 Jun 2026 10:30:00 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6918,7 +6954,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T11:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -6941,7 +6977,7 @@
     "confidence": "source-title/meta",
     "url": "https://www.yna.co.kr/view/AKR20260605114300051",
     "published_at": "Sat, 6 Jun 2026 10:00:04 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:02",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -6954,7 +6990,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T10:05",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:02",
     "accumulated": true
   },
   {
@@ -7506,6 +7542,51 @@
     "accumulated": true
   },
   {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Google News Magnificent 7",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_note": "",
+    "source_type": "rss",
+    "title": "Wells Fargo, Microsoft(MSFT) 주식에 대한 PT 인상 - Yahoo Finance",
+    "summary": "Wells Fargo, Microsoft(MSFT) 주식 PT 인상    Yahoo Finance",
+    "tickers": [
+      "MSFT"
+    ],
+    "ticker_markets": {
+      "MSFT": "global"
+    },
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMDI4LTNNZUs0TWNrZXJ0SEM1T05VMnp2TF9VN0tvRXdZalRIUVRoVHR3S3BUS1ZOaVFZM3NqMk1sUlBiemF5dzJETEh1OEJxVy1wM2ljemxBeFBzYVM3MmlkUUxIMjJUazF0b2xjcUduNzd3dXRub1ZYRUpNZXNPUUZQZ3JzTkQ1WnlwTDV3dFJZaXB0SUpBZFJpcUM?oc=5",
+    "published_at": "Sat, 06 Jun 2026 17:24:23 GMT",
+    "collected_at": "2026-06-07T04:04",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "title_original": "Wells Fargo Raises PT on Microsoft (MSFT) Stock - Yahoo Finance",
+    "summary_original": "Wells Fargo Raises PT on Microsoft (MSFT) Stock &nbsp;&nbsp; Yahoo Finance",
+    "title_ko": "Wells Fargo, Microsoft(MSFT) 주식에 대한 PT 인상 - Yahoo Finance",
+    "summary_ko": "Wells Fargo, Microsoft(MSFT) 주식 PT 인상    Yahoo Finance",
+    "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
+    "first_seen_at": "2026-06-07T04:02",
+    "last_seen_at": "2026-06-07T04:04",
+    "accumulated": true
+  },
+  {
     "region": "domestic",
     "stock_regions": [
       "domestic"
@@ -7525,7 +7606,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5SczYxaUVlcUlPdk5oLVRleVM4YVBUTU5qOFhJcFh2YzVfbVJaNDVBS2FzWFZSa2w4Q29zdlJkY185YjNTU1RtR09uc0E4RE03dUNBWEpySndVUGR2RlE?oc=5",
     "published_at": "Sat, 06 Jun 2026 15:00:09 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7538,7 +7619,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-07T01:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -7565,7 +7646,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV2JYeXgwYmZIVHYzUF91TUltYVJad1dWcWF0dGVQYlZ5SVpsNGRsZGlSRE5HWVktclJMSnktVUNLNEpGX3F4WjRvTUJwejhpT1ZRdGhBbVBmTlF3WDBUaGhDemdTOU5RclpoMUpUbzNkUXlSa3BfdWM4SWF5RnM5aDVoM1Q2WW04cl9pUnFEZTJCbmgwYnlRU0ZSSlRsdW9QNjRVSUlSWHZNem5idjdj?oc=5",
     "published_at": "Sat, 06 Jun 2026 10:05:31 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7583,7 +7664,7 @@
     "summary_ko": "오늘 Tesla(TSLA) 주가가 하락하는 이유    StockStory",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-06T12:13",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -7606,7 +7687,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224307573432?fromRss=true&trackingCode=rss",
     "published_at": "Sat, 06 Jun 2026 09:47:53 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7619,7 +7700,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T10:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -7642,7 +7723,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZWEstVWJmN3Qxdkg5ZjBfSENnRXFpZG8tMTRteEppT294aEdpek94R0pXS1AyNEVUN0NDb3NibU9odUYyMV9NTDk0Wi15UTJIQ19BVGU4SU1HaEVFcXE0aTMwaXo4LU0?oc=5",
     "published_at": "Sat, 06 Jun 2026 09:04:47 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7655,7 +7736,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T20:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -7678,7 +7759,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02VlpRS0h6MTlxbTBaamJuQ0F0MmtHemFPeFFvME5aVWlQWi1lZEhIelU2YnFlQjdzbDdxc1RoNzBlSWNqb1Z3WkJFcGNLVmk3NWV4WDI3RmRiQdIBVEFVX3lxTE1HRzc3N1dFaHJHRnF2WjVFR0EzWkNqYWlRSmd3UC0yNXdUdjAyV3Z6d19PTmUtY1ZyTmFyQnd3aENGV3otSmoyenZOUXVsalM2M2ZRbQ?oc=5",
     "published_at": "Sat, 06 Jun 2026 08:08:15 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -7691,7 +7772,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T19:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -7988,7 +8069,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWHk5ZWtXc0Nhb2NTMkp6aFk5WV9ndllkWDY3ckFDWTVWa3ZkTC1MMVBEUUVzY0VxWnh0UVNfTDRNQUswNGlqQ0hCTEdVX0Vyc3A4em9WcnlEWW9YejRNbVRsd0ZwT1duZkNRM3dfLVVibUFxUXRXWXpuMHZ2N2V5S3h4RDdhWE1oMHA4Z2FJTk9aN0M0M25heQ?oc=5",
     "published_at": "Sat, 06 Jun 2026 04:33:00 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8006,7 +8087,7 @@
     "summary_ko": "메타 주식이 큰 타격을 받고 있습니다. 하지만 3년 후에는 어디로 갈 것인가?    가지각색의 바보",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-07T03:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -8029,7 +8110,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTUZ3T3BsUGlmU2lKbl85SlZaZk5XZU5uVks1em8zb3JBcEMzR2FyT2pqZnBGeFhFN3ItbE9JSnY1ZXZfTDZVY3RqbGlrYmFTa0xBZ3JQR21zQkR0SDc1eHF2WWFVTkdCZDIxTWNRbDNwLTRBMnUxVjZvdTgxSnhYQVE4REV5VmVQamFWbENrRQ?oc=5",
     "published_at": "Sat, 06 Jun 2026 03:04:59 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8042,7 +8123,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T13:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -8065,7 +8146,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wa29ZbFFpUkx2U2xWLXVKd2ppUWNIbmxqMXVOWVgtTjUwd2VSN3AwOFhLT29CUTd4QjhmQlIxLWx5MWgyaGtoeUptRUJBU3lSTDREQXYxakkxRUFUTGZZWmVnb1BlZ2hxRzItNG9RSjA?oc=5",
     "published_at": "Sat, 06 Jun 2026 02:06:34 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8078,7 +8159,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T12:13",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -8146,7 +8227,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
     "published_at": "Sat, 06 Jun 2026 01:39:59 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8164,7 +8245,7 @@
     "summary_ko": "잠재적 자본확충 소식에 메타주 폭락    Investing.com",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-06T04:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -8187,7 +8268,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224307390550?fromRss=true&trackingCode=rss",
     "published_at": "Sat, 06 Jun 2026 01:29:15 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8200,7 +8281,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T02:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -8295,7 +8376,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224306532703?fromRss=true&trackingCode=rss",
     "published_at": "Sat, 06 Jun 2026 00:10:00 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8308,7 +8389,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T01:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -8376,7 +8457,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
     "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -8394,7 +8475,7 @@
     "summary_ko": "새로운 보고서에 따르면 칩 기술의 전체 스택을 포괄하는 AI 데이터 서버 랙 가치의 95%를 반도체가 차지한다는 사실이 밝혀졌습니다.    반도체 산업 협회 | SIA",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-04T11:41",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -11401,7 +11482,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5",
     "published_at": "Fri, 22 May 2026 07:00:00 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -11419,7 +11500,7 @@
     "summary_ko": "헤지펀드가 반도체 주식을 거래하는 방법    Goldman Sachs",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-04T11:41",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -11478,7 +11559,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGUHJwc19CMzVJSXhkTDA3T243bF90TGl4MHlQeDg2STcwLXVxSkE0a3pmWThSRUNxck5hYmRHRllCTXZQTkl6MXZkdVQyNWYwVTRZZjkzZTRmLS1hRDhqYnd1QVl5Nm9JX0pTUGlkbUw3QXM?oc=5",
     "published_at": "Fri, 05 Jun 2026 23:30:47 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -11491,7 +11572,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T21:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -11550,7 +11631,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14Vng5ZlBMWnNfSndsbVJKbVA2OTRjVm9JYm9QX2g3b2pYVE9nb0VVdEpwYktxZFY1clJ2dDNmNkNfWDlWUU5veUthdnkxa2xrRWFOZEtBOG12UHVtQTBLOTVob2NwN3U3bDQzWVhaaHQ5SXBibVHSAXZBVV95cUxNeFZ4OWZQTFpzX0p3bG1SSm1QNjk0Y1ZvSWJvUF9oN29qWFRPZ29FVXRKcGJLcWRWNXJSdnQzZjZDX1g5VlFOb3lLYXZ5MWtsa0VhTmRLQThtdlB1bUEwSzk1aG9jcDd1N2w0M1lYWmh0OUlwYm1R?oc=5",
     "published_at": "Fri, 05 Jun 2026 22:15:50 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -11563,7 +11644,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-06T10:05",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -11699,7 +11780,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRExta2FOYXZ5MEdTYWVFZXlBUmEtVXF0TGRyU2lSVjVkc1ExeGZTMkk2MlVrX0xyeUhMN3RPUWVGZGppV0ZiREo3MzBpZ0Vxc0NwS1g4MWdlYTNIbkY2Qi1vR3hkaUtLQzl4a2Q5MEpNZTd2Qm5ha1RNUURLeWhKc2lzaXNCOE5ZckM1Y0VHUGM0YUgyZHZWQkxYZGFqeHM1TFVWUHJJUi01Um9vSUxlSDZnNWw4ZnY2djZqdkFSZkpibjhTVnc?oc=5",
     "published_at": "Fri, 05 Jun 2026 20:45:48 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -11717,7 +11798,7 @@
     "summary_ko": "기술주 매도는 일부 주식 시장 전문가를 걱정하지 않습니다. '버블'이 곧 터지나요?    인베스토피디아",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-06T09:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -11875,7 +11956,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
     "published_at": "Fri, 05 Jun 2026 19:05:58 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -11893,7 +11974,7 @@
     "summary_ko": "보고서 회사에 대한 Meta의 주가 하락으로 AI 푸시 자금을 조달하기 위해 수백억 달러를 모을 수 있음    CNBC",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-06T05:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -12358,7 +12439,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
     "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -12376,7 +12457,7 @@
     "summary_ko": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 하락 6%    XTB",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-05T23:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -12444,7 +12525,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224306629430?fromRss=true&trackingCode=rss",
     "published_at": "Fri, 05 Jun 2026 11:02:06 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -12457,7 +12538,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T14:12",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -12525,7 +12606,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
     "published_at": "Fri, 05 Jun 2026 10:05:00 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -12543,7 +12624,7 @@
     "summary_ko": "월스트리트는 칩 하락으로 급락세로 마감하고, 고용 데이터로 인해 금리 인상 우려가 가중됨    Reuters",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-05T20:02",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -12754,7 +12835,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhcnR1OFZicWlkTkFoOFBnUm42RGN3Zjh2VjdhRHVtTXktdDR6XzFHQmJSLTZsUHY2QW9iMGNsTW1RWDhsSmZzNXhRY1hsUkE?oc=5",
     "published_at": "Fri, 05 Jun 2026 05:49:03 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -12767,7 +12848,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T15:09",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -13027,7 +13108,7 @@
     "confidence": "source-title/meta",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
     "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -13040,7 +13121,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T12:01",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -13157,7 +13238,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/magic_rabb1t/224306331298?fromRss=true&trackingCode=rss",
     "published_at": "Fri, 05 Jun 2026 00:53:00 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -13170,7 +13251,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T14:12",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -13518,7 +13599,7 @@
     "confidence": "source-title/meta",
     "url": "https://blog.naver.com/ranto28/224305346386?fromRss=true&trackingCode=rss",
     "published_at": "Fri, 05 Jun 2026 00:10:00 +0900",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -13531,7 +13612,7 @@
     "ocr_text_path": "",
     "extraction_quality": "metadata",
     "first_seen_at": "2026-06-05T14:12",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -13906,6 +13987,47 @@
     "source_role": "뉴스",
     "source_note": "",
     "source_type": "rss",
+    "title": "논란의 여지가 있는 패션 대기업이 피팅룸을 폐쇄한다",
+    "summary": "요약 없음",
+    "tickers": [],
+    "ticker_markets": {},
+    "recommendation": "정보",
+    "confidence": "source-title/meta",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/controversial-fashion-giant-closing-fitting-184700666.html",
+    "published_at": "2026-06-06T18:47:00Z",
+    "collected_at": "2026-06-07T04:04",
+    "target_price": "출처에서 명시 안 됨",
+    "buy_zone": "출처에서 명시 안 됨",
+    "price_note": "",
+    "transcript_method": "",
+    "transcript_status": "",
+    "transcript_chars": 0,
+    "ocr_method": "",
+    "ocr_status": "",
+    "ocr_chars": 0,
+    "ocr_text_path": "",
+    "extraction_quality": "metadata",
+    "title_original": "A controversial fashion giant is closing its fitting rooms",
+    "summary_original": "요약 없음",
+    "title_ko": "논란의 여지가 있는 패션 대기업이 피팅룸을 폐쇄한다",
+    "summary_ko": "요약 없음",
+    "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
+    "first_seen_at": "2026-06-07T04:02",
+    "last_seen_at": "2026-06-07T04:04",
+    "accumulated": true
+  },
+  {
+    "region": "global",
+    "stock_regions": [
+      "global"
+    ],
+    "source_region": "global",
+    "source": "Yahoo Finance Top Stories",
+    "channel_id": "",
+    "video_id": "",
+    "source_role": "뉴스",
+    "source_note": "",
+    "source_type": "rss",
     "title": "화이자 배당금, 특허 절벽에서 살아남을 수 있을까? 이 105억 달러의 암 베팅이 답을 잡을 수 있습니다.",
     "summary": "요약 없음",
     "tickers": [],
@@ -14000,7 +14122,7 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-explores-potential-172531894.html",
     "published_at": "2026-06-06T17:25:31Z",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -14018,7 +14140,7 @@
     "summary_ko": "요약 없음",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-07T03:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -14041,7 +14163,7 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/ubs-lifts-pt-caterpillar-cat-172522857.html",
     "published_at": "2026-06-06T17:25:22Z",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -14059,7 +14181,7 @@
     "summary_ko": "요약 없음",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-07T03:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -14082,7 +14204,7 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-reiterates-buy-rating-172516326.html",
     "published_at": "2026-06-06T17:25:16Z",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -14100,7 +14222,7 @@
     "summary_ko": "요약 없음",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-07T03:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
@@ -14127,7 +14249,7 @@
     "confidence": "source-title/meta",
     "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-pt-intel-172508626.html",
     "published_at": "2026-06-06T17:25:08Z",
-    "collected_at": "2026-06-07T03:05",
+    "collected_at": "2026-06-07T04:04",
     "target_price": "출처에서 명시 안 됨",
     "buy_zone": "출처에서 명시 안 됨",
     "price_note": "",
@@ -14145,7 +14267,7 @@
     "summary_ko": "요약 없음",
     "translation_note": "자동번역: Google Translate public endpoint; 원문은 title_original/summary_original 및 링크 참조",
     "first_seen_at": "2026-06-07T03:03",
-    "last_seen_at": "2026-06-07T03:05",
+    "last_seen_at": "2026-06-07T04:04",
     "accumulated": true
   },
   {
