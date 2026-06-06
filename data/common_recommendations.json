@@ -7,6 +7,7 @@
       "Google News Magnificent 7",
       "Google News US Markets AI Semis",
       "연합뉴스 경제",
+      "Google News 국내 증시·반도체",
       "마술토끼의 투자이야기",
       "경제사냥꾼",
       "Yahoo Finance Top Stories",
@@ -18,7 +19,7 @@
       "강지한 차트연구소",
       "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
-    "source_count": 13,
+    "source_count": 14,
     "evidence": [
       {
         "source": "Google News Magnificent 7",
@@ -135,6 +136,18 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzFVWWdNUGlpaWZOV0h1MmFqWHZ4a3lEeFdOS1dEcmNia0NTZGYtM3lfQ3J0VnVwY1FXX3E1ejBTQkg2UWdVbFJuSXlIMkd6TUJkS24zYXFaRTdpNmVPaWZKTnJ6aTFEVENqaWdMM1hlMExxM3RmQkl4ZjRuTW5iRVdqTlR3RGpsTkdiSzd2LUFCQnNuWC1FNw?oc=5",
         "published_at": "Thu, 04 Jun 2026 04:05:00 GMT",
         "reason": "Nvidia(NVDA) 주식은 초기 투자자에게 행운을 안겨주었습니다. 아직 달릴 여지가 있나요?    야후 파이낸스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 국내 증시·반도체",
+        "source_role": "뉴스",
+        "title": "반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 - v.daum.net",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtYzE1Q0NzRXduX3hrR1Z2S2VBc1BUMUxjTkdvaVRzZXlpU2lQcmlKTWpzUDA0REV2UkplWk5IbTBzTks4bGpTOFRaZjdGc2M?oc=5",
+        "published_at": "Sat, 06 Jun 2026 07:00:03 GMT",
+        "reason": "반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 &nbsp;&nbsp; v.daum.net",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5638,10 +5651,10 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
-        "title": "Meta는 수십억 달러의 주식 매각을 고려하고 있습니다. FT 보고서-Bloomberg",
+        "title": "Meta, FT 보고서에서 수십억 달러 규모의 주식 매각을 고려 중 - Bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
         "published_at": "Fri, 05 Jun 2026 19:17:42 GMT",
-        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg",
+        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg.com",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
