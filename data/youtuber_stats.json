@@ -9,9 +9,9 @@
     "mention_count": 104,
     "transcript_count": 74,
     "metadata_count": 7,
-    "ocr_count": 17,
+    "ocr_count": 18,
     "transcript_chars": 165732,
-    "ocr_chars": 7001,
+    "ocr_chars": 7475,
     "stocks": [
       {
         "ticker": "005930",
@@ -97,9 +97,9 @@
         "tickers": [],
         "confidence": "transcript",
         "transcript_chars": 3307,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 474,
+        "ocr_excerpt": "월가에서말하는 반도체다음10년을 지배한신영 경제 사냥꾼 2026년 06월 06일 1000 \"AI 소프트웨어다\" ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 일기에서말하는 반동체다음 10년을 지배한 신형 28008 250. 6852806 4008 30985668000. ",
         "youtube_kind": "short"
       },
       {
