@@ -144,6 +144,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Bank of America, CFO와의 만남 후 Nvidia 주식 예측 재설정 - thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTFdNdGVqSDNWUWdDZEctdVgwSy1sSVlWVElFYzFiTmdpb0J0NmxReUx5R0tmWHN5Nk9DemdkeFUwTWZFN2w0Uk1jOFlQSm53SVVfc0dJZGdJZ3FaTnZRVGhVOXVid2tnTVpyUzB1RmNjb2pGUldkZ2tPRUtQNDJmd0N3LXJGOGZyLWdjVXZXTGVlTVR4elRGbXZWQmJraVNNVFE2YmV1akxadw?oc=5",
+        "published_at": "Sat, 06 Jun 2026 20:17:00 GMT",
+        "reason": "Bank of America, CFO와의 만남 후 Nvidia 주식 예측 재설정    thestreet.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News 국내 증시·반도체",
         "source_role": "뉴스",
         "title": "반도체 주도 '끝이다' '아니다'…엔비디아 등 시총 2천조 증발 - v.daum.net",
@@ -334,6 +346,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "엔비디아 CEO 젠슨 황(Jensen Huang)은 이것이 차세대 AI 칩 주식이라고 말했습니다. 그가 맞나요?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-ceo-jensen-huang-says-205700328.html",
+        "published_at": "2026-06-06T20:57:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       },
       {
         "source": "Yahoo Finance Top Stories",

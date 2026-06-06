@@ -3,14 +3,14 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 80,
-    "short_count": 80,
+    "video_count": 81,
+    "short_count": 81,
     "regular_video_count": 0,
     "mention_count": 104,
-    "transcript_count": 73,
+    "transcript_count": 74,
     "metadata_count": 7,
     "ocr_count": 17,
-    "transcript_chars": 162425,
+    "transcript_chars": 165732,
     "ocr_chars": 7001,
     "stocks": [
       {
@@ -90,6 +90,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "월가에서 말하는 반도체 다음 10년을 지배할 산업",
+        "url": "https://youtu.be/y5qWSN3ExhM",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 3307,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "SK하이닉스가 지금 '엔비디아'보다 더 '갑'이 된 진짜 이유",
         "url": "https://youtu.be/e5PVVGYjwWI",
@@ -496,22 +508,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2339,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "'젠슨황 방한 D-7', 깐부회동에 콕 찝었다는 '한국 기업' 정체",
-        "url": "https://youtu.be/eJTM6tl54xk",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "000660",
-          "005380"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2372,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
