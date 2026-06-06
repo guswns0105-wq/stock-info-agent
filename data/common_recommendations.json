@@ -7604,6 +7604,57 @@
   },
   {
     "region": "global",
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "sources": [
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Eli Lilly의 38억 달러 백신 투자: 많은 투자자들이 놓치고 있는 중요한 이야기가 있습니다.",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/eli-lillys-3-8-billion-193500831.html",
+        "published_at": "2026-06-06T19:35:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Eli Lilly는 의료 주식을 주목하고 Google은 지원을 찾습니다.",
+        "url": "https://www.investors.com/news/eli-lilly-stocks-to-watch-google/?src=A00220&yptr=yahoo",
+        "published_at": "2026-06-06T12:00:14Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "CVS Health는 Eli Lilly 주식 투자자들에게 환상적인 소식을 발표했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/cvs-health-just-announced-fantastic-102000409.html",
+        "published_at": "2026-06-05T10:20:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "GOOG",
     "name": "Alphabet",
     "sources": [
@@ -7641,45 +7692,6 @@
         "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
         "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
         "published_at": "2026-06-03T14:01:53Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "LLY",
-    "name": "Eli Lilly",
-    "sources": [
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Eli Lilly는 의료 주식을 주목하고 Google은 지원을 찾습니다.",
-        "url": "https://www.investors.com/news/eli-lilly-stocks-to-watch-google/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-06T12:00:14Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "CVS Health는 Eli Lilly 주식 투자자들에게 환상적인 소식을 발표했습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/cvs-health-just-announced-fantastic-102000409.html",
-        "published_at": "2026-06-05T10:20:00Z",
         "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",

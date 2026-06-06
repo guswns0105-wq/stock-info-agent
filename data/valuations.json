@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T04:27",
+  "generated_at": "2026-06-07T05:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -2487,6 +2487,63 @@
       "fetch_note": ""
     },
     {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "region": "global",
+      "mention_count": 3,
+      "price": 1131.42,
+      "currency": "USD",
+      "pe": 40.191,
+      "forward_pe": 30.341,
+      "pb": 32.403,
+      "roe": 107.459,
+      "profit_margin": 34.986,
+      "eps": null,
+      "fair_value": 966.577274269267,
+      "watch_buy_price": 792.593364900799,
+      "ai_buy_price": 792.593364900799,
+      "ai_sell_price": 1131.42,
+      "margin_to_fair_pct": -14.569543205063818,
+      "verdict": "고평가 주의",
+      "action": "792.6 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 4,
+      "technical_score": 1,
+      "ai_score": 5.75,
+      "ai_comment": "출처 언급 3회, 적정가 대비 -14.57% 여력, 상승 추세, ROE 107.5% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 3회",
+        "ROE 107.5%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 30.34배 역산 EPS → 기준 PER 36.00배",
+        "PBR 32.40배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "LLY",
+        "chart_status": "ok",
+        "sma20": 1046.449008178711,
+        "sma60": 966.7515055338541,
+        "sma120": 1006.3487559000652,
+        "ret20_pct": 16.04783524464677,
+        "ret60_pct": 13.1601025774448,
+        "high_52w": 1131.4200439453125,
+        "low_52w": 625.6500244140625,
+        "recent_support": 851.2100219726562,
+        "recent_resistance": 1131.4200439453125,
+        "volatility_pct": 38.712441051241406,
+        "trend": "상승 추세",
+        "technical_score": 1,
+        "position_52w": 0.9999999131120653
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/LLY",
+        "https://stockanalysis.com/stocks/lly/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "GOOG",
       "name": "Alphabet",
       "region": "global",
@@ -2765,62 +2822,6 @@
         "https://query1.finance.yahoo.com/v8/finance/chart/VOO"
       ],
       "fetch_note": "StockAnalysis 통계 수집 실패: HTTP Error 404: Not Found"
-    },
-    {
-      "ticker": "LLY",
-      "name": "Eli Lilly",
-      "region": "global",
-      "mention_count": 2,
-      "price": 1131.42,
-      "currency": "USD",
-      "pe": 40.191,
-      "forward_pe": 30.341,
-      "pb": 32.403,
-      "roe": 107.459,
-      "profit_margin": 34.986,
-      "eps": null,
-      "fair_value": 966.577274269267,
-      "watch_buy_price": 792.593364900799,
-      "ai_buy_price": 792.593364900799,
-      "ai_sell_price": 1131.42,
-      "margin_to_fair_pct": -14.569543205063818,
-      "verdict": "고평가 주의",
-      "action": "792.6 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": 3,
-      "technical_score": 1,
-      "ai_score": 4.5,
-      "ai_comment": "출처 언급 2회, 적정가 대비 -14.57% 여력, 상승 추세, ROE 107.5% 기준으로 산정했습니다.",
-      "positives": [
-        "ROE 107.5%"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 30.34배 역산 EPS → 기준 PER 36.00배",
-        "PBR 32.40배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "LLY",
-        "chart_status": "ok",
-        "sma20": 1046.449008178711,
-        "sma60": 966.7515055338541,
-        "sma120": 1006.3487559000652,
-        "ret20_pct": 16.04783524464677,
-        "ret60_pct": 13.1601025774448,
-        "high_52w": 1131.4200439453125,
-        "low_52w": 625.6500244140625,
-        "recent_support": 851.2100219726562,
-        "recent_resistance": 1131.4200439453125,
-        "volatility_pct": 38.712441051241406,
-        "trend": "상승 추세",
-        "technical_score": 1,
-        "position_52w": 0.9999999131120653
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/LLY",
-        "https://stockanalysis.com/stocks/lly/statistics/"
-      ],
-      "fetch_note": ""
     },
     {
       "ticker": "012330",
