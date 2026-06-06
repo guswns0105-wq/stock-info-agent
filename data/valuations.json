@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T10:26",
+  "generated_at": "2026-06-06T11:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -163,9 +163,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 23회, 적정가 대비 195.1% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 24회, 적정가 대비 195.1% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 23회",
+          "출처 언급 24회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -238,16 +238,16 @@
         "ai_score": 10,
         "verdict": "저평가 후보",
         "ai_buy_price": 581.14,
-        "ai_sell_price": 969.85132271923,
-        "fair_value": 923.6679263992667,
-        "pe": 19.12,
-        "pb": 6.536,
+        "ai_sell_price": 1026.3780683635193,
+        "fair_value": 977.5029222509708,
+        "pe": 18.067,
+        "pb": 6.176,
         "roe": 32.93,
         "trend": "하락/약세 추세",
         "ret20_pct": -3.860183468626721,
         "support": 525.719970703125,
         "resistance": 688.5499877929688,
-        "comment": "출처 언급 19회, 적정가 대비 55.76% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+        "comment": "출처 언급 19회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 19회",
           "ROE 32.93%",
@@ -275,9 +275,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 19회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 19회",
+          "출처 언급 21회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -444,9 +444,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 23회, 적정가 대비 195.1% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 24회, 적정가 대비 195.1% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 23회",
+          "출처 언급 24회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -519,16 +519,16 @@
         "ai_score": 10,
         "verdict": "저평가 후보",
         "ai_buy_price": 581.14,
-        "ai_sell_price": 969.85132271923,
-        "fair_value": 923.6679263992667,
-        "pe": 19.12,
-        "pb": 6.536,
+        "ai_sell_price": 1026.3780683635193,
+        "fair_value": 977.5029222509708,
+        "pe": 18.067,
+        "pb": 6.176,
         "roe": 32.93,
         "trend": "하락/약세 추세",
         "ret20_pct": -3.860183468626721,
         "support": 525.719970703125,
         "resistance": 688.5499877929688,
-        "comment": "출처 언급 19회, 적정가 대비 55.76% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+        "comment": "출처 언급 19회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 19회",
           "ROE 32.93%",
@@ -556,9 +556,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 19회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 19회",
+          "출처 언급 21회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -867,7 +867,7 @@
       "ticker": "MU",
       "name": "Micron",
       "region": "global",
-      "mention_count": 23,
+      "mention_count": 24,
       "price": 864.01,
       "currency": "USD",
       "pe": 40.666,
@@ -887,9 +887,9 @@
       "score": 7,
       "technical_score": 2,
       "ai_score": 12,
-      "ai_comment": "출처 언급 23회, 적정가 대비 195.1% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 24회, 적정가 대비 195.1% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 23회",
+        "출처 언급 24회",
         "ROE 39.82%",
         "PER가 기준보다 낮음"
       ],
@@ -985,7 +985,7 @@
       "ticker": "AVGO",
       "name": "Broadcom",
       "region": "global",
-      "mention_count": 19,
+      "mention_count": 21,
       "price": 385.73,
       "currency": "USD",
       "pe": 64.196,
@@ -1005,9 +1005,9 @@
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 19회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 21회, 적정가 대비 6.83% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 19회",
+        "출처 언급 21회",
         "ROE 37.28%",
         "PER가 기준보다 낮음"
       ],
@@ -1046,24 +1046,24 @@
       "mention_count": 19,
       "price": 593.0,
       "currency": "USD",
-      "pe": 22.83,
-      "forward_pe": 19.12,
-      "pb": 6.536,
+      "pe": 21.572,
+      "forward_pe": 18.067,
+      "pb": 6.176,
       "roe": 32.93,
       "profit_margin": 32.837,
       "eps": null,
-      "fair_value": 923.6679263992667,
-      "watch_buy_price": 757.4076996473987,
+      "fair_value": 977.5029222509708,
+      "watch_buy_price": 801.552396245796,
       "ai_buy_price": 581.14,
-      "ai_sell_price": 969.85132271923,
-      "margin_to_fair_pct": 55.761876289926924,
+      "ai_sell_price": 1026.3780683635193,
+      "margin_to_fair_pct": 64.84029043018056,
       "verdict": "저평가 후보",
-      "action": "757.4 USD 이하부터 분할 관심",
+      "action": "801.6 USD 이하부터 분할 관심",
       "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
       "score": 7,
       "technical_score": 0,
       "ai_score": 10,
-      "ai_comment": "출처 언급 19회, 적정가 대비 55.76% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 19회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 19회",
         "ROE 32.93%",
@@ -1071,8 +1071,8 @@
       ],
       "risks": [],
       "valuation_basis": [
-        "PER 19.12배 역산 EPS → 기준 PER 38.00배",
-        "PBR 6.54배 → 기준 PBR 4.00배"
+        "PER 18.07배 역산 EPS → 기준 PER 38.00배",
+        "PBR 6.18배 → 기준 PBR 4.00배"
       ],
       "chart": {
         "chart_symbol": "META",
@@ -1163,7 +1163,7 @@
       "mention_count": 13,
       "price": 1757000.0,
       "currency": "KRW",
-      "pe": 28.11,
+      "pe": null,
       "forward_pe": null,
       "pb": 1.47,
       "roe": 5.5,
@@ -1177,18 +1177,15 @@
       "verdict": "고평가 주의",
       "action": "339,456 KRW 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -3,
+      "score": -1,
       "technical_score": 0,
-      "ai_score": -3,
+      "ai_score": 0,
       "ai_comment": "출처 언급 13회, 적정가 대비 -76.44% 여력, 상승 추세, ROE 5.50% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 13회"
       ],
-      "risks": [
-        "PER 부담 28.11배"
-      ],
+      "risks": [],
       "valuation_basis": [
-        "EPS/PER 불일치 91.28% → PER 역산 제외",
         "EPS 5,450 → 기준 PER 12.00배",
         "PBR 1.47배 → 기준 PBR 0.80배"
       ],
@@ -1336,7 +1333,7 @@
       "ticker": "AMD",
       "name": "AMD",
       "region": "global",
-      "mention_count": 9,
+      "mention_count": 10,
       "price": 466.38,
       "currency": "USD",
       "pe": 155.523,
@@ -1355,10 +1352,10 @@
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -2,
       "technical_score": 2,
-      "ai_score": -0.75,
-      "ai_comment": "출처 언급 9회, 적정가 대비 -65.12% 여력, 중립 추세, ROE 8.06% 기준으로 산정했습니다.",
+      "ai_score": -0.5,
+      "ai_comment": "출처 언급 10회, 적정가 대비 -65.12% 여력, 중립 추세, ROE 8.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 9회",
+        "출처 언급 10회",
         "ROE 8.06%"
       ],
       "risks": [
@@ -1388,6 +1385,65 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/AMD",
         "https://stockanalysis.com/stocks/amd/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "region": "global",
+      "mention_count": 9,
+      "price": 99.17,
+      "currency": "USD",
+      "pe": null,
+      "forward_pe": 93.858,
+      "pb": 4.472,
+      "roe": -2.911,
+      "profit_margin": -5.904,
+      "eps": null,
+      "fair_value": 33.30582925923123,
+      "watch_buy_price": 27.310779992569607,
+      "ai_buy_price": 27.310779992569607,
+      "ai_sell_price": 99.17,
+      "margin_to_fair_pct": -66.4154187161125,
+      "verdict": "고평가 주의",
+      "action": "27.31 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -4,
+      "technical_score": 2,
+      "ai_score": -2.75,
+      "ai_comment": "출처 언급 9회, 적정가 대비 -66.42% 여력, 중립 추세, ROE -2.91% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 9회"
+      ],
+      "risks": [
+        "ROE 낮음 -2.91%",
+        "PER 부담 93.86배"
+      ],
+      "valuation_basis": [
+        "PER 93.86배 역산 EPS → 기준 PER 22.00배",
+        "PBR 4.47배 → 기준 PBR 2.50배"
+      ],
+      "chart": {
+        "chart_symbol": "INTC",
+        "chart_status": "ok",
+        "sma20": 115.90049934387207,
+        "sma60": 81.48799985249838,
+        "sma120": 62.82800000508626,
+        "ret20_pct": -9.532934213421063,
+        "ret60_pct": 106.69028959181546,
+        "high_52w": 129.44000244140625,
+        "low_52w": 19.309999465942383,
+        "recent_support": 41.189998626708984,
+        "recent_resistance": 129.44000244140625,
+        "volatility_pct": 93.010726158412,
+        "trend": "중립 추세",
+        "technical_score": 2,
+        "position_52w": 0.7251429980606631
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/INTC",
+        "https://stockanalysis.com/stocks/intc/statistics/"
       ],
       "fetch_note": ""
     },
@@ -1505,65 +1561,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/IONQ",
         "https://stockanalysis.com/stocks/ionq/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel",
-      "region": "global",
-      "mention_count": 8,
-      "price": 99.17,
-      "currency": "USD",
-      "pe": null,
-      "forward_pe": 93.858,
-      "pb": 4.472,
-      "roe": -2.911,
-      "profit_margin": -5.904,
-      "eps": null,
-      "fair_value": 33.30582925923123,
-      "watch_buy_price": 27.310779992569607,
-      "ai_buy_price": 27.310779992569607,
-      "ai_sell_price": 99.17,
-      "margin_to_fair_pct": -66.4154187161125,
-      "verdict": "고평가 주의",
-      "action": "27.31 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -4,
-      "technical_score": 2,
-      "ai_score": -3.0,
-      "ai_comment": "출처 언급 8회, 적정가 대비 -66.42% 여력, 중립 추세, ROE -2.91% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 8회"
-      ],
-      "risks": [
-        "ROE 낮음 -2.91%",
-        "PER 부담 93.86배"
-      ],
-      "valuation_basis": [
-        "PER 93.86배 역산 EPS → 기준 PER 22.00배",
-        "PBR 4.47배 → 기준 PBR 2.50배"
-      ],
-      "chart": {
-        "chart_symbol": "INTC",
-        "chart_status": "ok",
-        "sma20": 115.90049934387207,
-        "sma60": 81.48799985249838,
-        "sma120": 62.82800000508626,
-        "ret20_pct": -9.532934213421063,
-        "ret60_pct": 106.69028959181546,
-        "high_52w": 129.44000244140625,
-        "low_52w": 19.309999465942383,
-        "recent_support": 41.189998626708984,
-        "recent_resistance": 129.44000244140625,
-        "volatility_pct": 93.010726158412,
-        "trend": "중립 추세",
-        "technical_score": 2,
-        "position_52w": 0.7251429980606631
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/INTC",
-        "https://stockanalysis.com/stocks/intc/statistics/"
       ],
       "fetch_note": ""
     },
@@ -2894,31 +2891,30 @@
       "pe": 24.88,
       "forward_pe": null,
       "pb": 0.7,
-      "roe": 3.18,
+      "roe": null,
       "profit_margin": null,
       "eps": 20079.0,
-      "fair_value": 321073.93788819876,
-      "watch_buy_price": 263280.62906832295,
-      "ai_buy_price": 263280.62906832295,
-      "ai_sell_price": 390000.0,
-      "margin_to_fair_pct": -17.67334925943621,
-      "verdict": "고평가 주의",
-      "action": "263,281 KRW 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -4,
+      "fair_value": 408278.90683229815,
+      "watch_buy_price": 334788.7036024845,
+      "ai_buy_price": 334788.7036024845,
+      "ai_sell_price": 428692.8521739131,
+      "margin_to_fair_pct": 4.686899187768745,
+      "verdict": "관심권",
+      "action": "334,789 KRW 부근까지 조정 시 매력 증가",
+      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
+      "score": -1,
       "technical_score": 1,
-      "ai_score": -2.75,
-      "ai_comment": "출처 언급 1회, 적정가 대비 -17.67% 여력, 중립 추세, ROE 3.18% 기준으로 산정했습니다.",
+      "ai_score": 0.25,
+      "ai_comment": "출처 언급 1회, 적정가 대비 4.69% 여력, 중립 추세 기준으로 산정했습니다.",
       "positives": [
         "PBR 0.70배"
       ],
       "risks": [
-        "ROE 낮음 3.18%",
         "PER 부담 24.88배"
       ],
       "valuation_basis": [
         "EPS 20,079 → 기준 PER 12.00배",
-        "PBR 0.70배 → 기준 PBR 0.80배"
+        "PBR 0.70배 → 기준 PBR 1.20배"
       ],
       "chart": {
         "chart_symbol": "005490.KS",

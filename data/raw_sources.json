@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "[연합뉴스 이 시각 헤드라인] - 10:30",
+    "summary": "[연합뉴스 이 시각 헤드라인] - 10:30",
+    "url": "https://www.yna.co.kr/view/AKR20260606024500011",
+    "published_at": "Sat, 6 Jun 2026 10:30:00 +0900",
+    "text": "[연합뉴스 이 시각 헤드라인] - 10:30 [연합뉴스 이 시각 헤드라인] - 10:30\n"
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "부산 아파트값 보합…해운대·동래구는 약진",
     "summary": "(부산=연합뉴스) 민영규 기자 = 부산지역 아파트 매매가격이 보합을 유지했다.",
     "url": "https://www.yna.co.kr/view/AKR20260605114300051",
@@ -160,64 +170,74 @@
     "text": "한-세르비아 투자 증진 및 보호 협정 오늘 발효 (서울=연합뉴스) 이은정 기자 = &apos;대한민국 정부와 세르비아 공화국 정부 간의 투자의 증진 및 보호를 위한 협정&apos;이 6일 발효된다고 외교부가 밝..."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Intel, AMD, Micron shares trim losses after Broadcom results spark semiconductor sector sell-off",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
+    "published_at": "2026-06-04T13:01:28Z",
+    "text": "Intel, AMD, Micron shares trim losses after Broadcom results spark semiconductor sector sell-off "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Broadcom Just Had a Record Quarter—and It Just Wasn’t Good Enough",
+    "summary": "",
+    "url": "https://www.barrons.com/articles/broadcom-earnings-stock-price-278daece?siteid=yhoof2&yptr=yahoo",
+    "published_at": "2026-06-04T20:08:00Z",
+    "text": "Broadcom Just Had a Record Quarter—and It Just Wasn’t Good Enough "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "AppLovin Rival Liftoff Stock Jumps After IPO",
+    "summary": "",
+    "url": "https://www.investors.com/news/technology/liftoff-ipo-stock-applovin-news/?src=A00220&yptr=yahoo",
+    "published_at": "2026-06-04T20:12:45Z",
+    "text": "AppLovin Rival Liftoff Stock Jumps After IPO "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Lululemon cuts annual forecasts amid slowing demand in US",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-cuts-annual-forecasts-amid-201210492.html",
+    "published_at": "2026-06-04T20:12:10Z",
+    "text": "Lululemon cuts annual forecasts amid slowing demand in US "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Banking On Breakouts: UBS, Citi Charts Shape Up",
+    "summary": "",
+    "url": "https://www.investors.com/news/ubs-citigroup-bank-stocks-jane-fraser-america-goldman-sachs-jp-morgan/?src=A00220&yptr=yahoo",
+    "published_at": "2026-06-04T20:06:57Z",
+    "text": "Banking On Breakouts: UBS, Citi Charts Shape Up "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "삼성바이오 노사 갈등 장기화 조짐…준법투쟁 한 달째",
-    "summary": "(서울=연합뉴스) 신선미 기자 = 삼성바이오로직스[207940] 노동조합이 임금 인상과 인사 제도 개선을 요구하며 준법 투쟁에 나선지 한 달이 ...",
-    "url": "https://www.yna.co.kr/view/AKR20260605109000017",
-    "published_at": "Sat, 6 Jun 2026 07:33:00 +0900",
-    "text": "삼성바이오 노사 갈등 장기화 조짐…준법투쟁 한 달째 (서울=연합뉴스) 신선미 기자 = 삼성바이오로직스[207940] 노동조합이 임금 인상과 인사 제도 개선을 요구하며 준법 투쟁에 나선지 한 달이 ..."
+    "title": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보",
+    "summary": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoUXR3bC14SU5xVVRXUm12U0RfOUVOdmdZSEZ6N0RWQ2pDZjZkUktJTERVY1A1TE9aNkY2UnZhQlFDeS11LXFwSmhHcVZMdEEx?oc=5",
+    "published_at": "Fri, 05 Jun 2026 22:28:26 GMT",
+    "text": "“보험금194억 깨졌다” 반도체수송차 추돌 조심 - 문화일보  “보험금194억 깨졌다” 반도체수송차 추돌 조심 &nbsp;&nbsp; 문화일보 "
   },
   {
-    "source": "Yahoo Finance Top Stories",
+    "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
-    "region": "global",
-    "title": "Why Alphabet Stock Popped Today",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/why-alphabet-stock-popped-today-173120863.html",
-    "published_at": "2026-06-04T17:31:20Z",
-    "text": "Why Alphabet Stock Popped Today "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Cotton Facing Midday Weakness",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-facing-midday-weakness-172513179.html",
-    "published_at": "2026-06-04T17:25:13Z",
-    "text": "Cotton Facing Midday Weakness "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Soybeans Falling on Thursday, with Products Adding Some Weight",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-falling-thursday-products-adding-172513368.html",
-    "published_at": "2026-06-04T17:25:13Z",
-    "text": "Soybeans Falling on Thursday, with Products Adding Some Weight "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Corn Losses Continue on Thursday",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/corn-losses-continue-thursday-172513161.html",
-    "published_at": "2026-06-04T17:25:13Z",
-    "text": "Corn Losses Continue on Thursday "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Amazon Lands $4 Billion AI Cloud Deal From Pinterest. Both Stocks Are Higher.",
-    "summary": "",
-    "url": "https://www.investors.com/news/technology/amazon-stock-pinterest-ai-cloud-aws-4-billion/?src=A00220&yptr=yahoo",
-    "published_at": "2026-06-04T17:25:03Z",
-    "text": "Amazon Lands $4 Billion AI Cloud Deal From Pinterest. Both Stocks Are Higher. "
+    "region": "domestic",
+    "title": "\"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" - 연합인포맥스",
+    "summary": "\"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" &nbsp;&nbsp; 연합인포맥스",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZVXpYeVJ1Ri04NHZwRTAyRkxtbENxN1JzTmxWLWJRQU9odEhubENuOVk1dzA1V0pSR2pYZlN2dHRiZE9FM0liNDhaRUREZ2tTa2U2QlFUOWZPbWNvVzFOaFY1WnVIeHJ1WnRUNm5TQkE?oc=5",
+    "published_at": "Sat, 06 Jun 2026 00:32:30 GMT",
+    "text": "\"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" - 연합인포맥스  \"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" &nbsp;&nbsp; 연합인포맥스 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -243,31 +263,11 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "교통사고 나면 ‘보험금194억’… “롤스로이스보다 더 조심해야 하는 차” - 문화일보",
-    "summary": "교통사고 나면 ‘보험금194억’… “롤스로이스보다 더 조심해야 하는 차” &nbsp;&nbsp; 문화일보",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoUXR3bC14SU5xVVRXUm12U0RfOUVOdmdZSEZ6N0RWQ2pDZjZkUktJTERVY1A1TE9aNkY2UnZhQlFDeS11LXFwSmhHcVZMdEEx?oc=5",
-    "published_at": "Fri, 05 Jun 2026 23:30:33 GMT",
-    "text": "교통사고 나면 ‘보험금194억’… “롤스로이스보다 더 조심해야 하는 차” - 문화일보  교통사고 나면 ‘보험금194억’… “롤스로이스보다 더 조심해야 하는 차” &nbsp;&nbsp; 문화일보 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "\"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" - 연합인포맥스",
-    "summary": "\"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" &nbsp;&nbsp; 연합인포맥스",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZVXpYeVJ1Ri04NHZwRTAyRkxtbENxN1JzTmxWLWJRQU9odEhubENuOVk1dzA1V0pSR2pYZlN2dHRiZE9FM0liNDhaRUREZ2tTa2U2QlFUOWZPbWNvVzFOaFY1WnVIeHJ1WnRUNm5TQkE?oc=5",
-    "published_at": "Sat, 06 Jun 2026 00:32:30 GMT",
-    "text": "\"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" - 연합인포맥스  \"美 반도체·환율 충격…국내 증시 변동성 장세 대비해야\" &nbsp;&nbsp; 연합인포맥스 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "\"깜짝선물\" 젠슨황 언급에도 코스피 '검은 금요일'…5%대↓ 8,160(종합) - 연합뉴스",
-    "summary": "\"깜짝선물\" 젠슨황 언급에도 코스피 '검은 금요일'…5%대↓ 8,160(종합) &nbsp;&nbsp; 연합뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DZmtxTWoyOXl6ZUE1dVFSTk9tZ3lCby1SNkVDNDhRWm1aZkdpc043V3Q4cEVvRVRYV1M1X1lSclFNYlBNbHc1c0xIb0J2Wno5QnhZUURGUGJ0VVlzWHJ5MtIBYEFVX3lxTE1DZmtxTWoyOXl6ZUE1dVFSTk9tZ3lCby1SNkVDNDhRWm1aZkdpc043V3Q4cEVvRVRYV1M1X1lSclFNYlBNbHc1c0xIb0J2Wno5QnhZUURGUGJ0VVlzWHJ5Mg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 07:20:53 GMT",
-    "text": "\"깜짝선물\" 젠슨황 언급에도 코스피 '검은 금요일'…5%대↓ 8,160(종합) - 연합뉴스  \"깜짝선물\" 젠슨황 언급에도 코스피 '검은 금요일'…5%대↓ 8,160(종합) &nbsp;&nbsp; 연합뉴스 "
+    "title": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레",
+    "summary": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tVG9vZHhxMEtQazAtNE85SXRORVMwU256QTIweFdvaGJsOURUaUZZa095d1RXQTJrSl9FdUVqaUtFc0Qtdk9pQm02UTFsZ1phcVpHUEU3cWt2cm52bEUtVkpWTy1NRG8?oc=5",
+    "published_at": "Fri, 05 Jun 2026 07:58:00 GMT",
+    "text": "‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 - 한겨레  ‘9천피’ 바라보던 코스피…‘브로드컴 쇼크’에 5.5% 녹아내렸다 &nbsp;&nbsp; 한겨레 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -313,11 +313,11 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
-    "title": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제",
-    "summary": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
-    "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
-    "text": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제  흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제 "
+    "title": "\"값이 다른 삼성전자 주식\"···보통주·우선주 다른 이유 - 뉴스웨이",
+    "summary": "\"값이 다른 삼성전자 주식\"···보통주·우선주 다른 이유 &nbsp;&nbsp; 뉴스웨이",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fdkZYNEZJMWNNWjJFWjFZbGtlNEdzbUlNZE9jUUpfcEUtTHRKZmlGR1Y5QlJGZXRlOXBKZ1hTdVJSUDNLcjNzTGM0VkZLUHNoUFdUSVZyZkgzNTd6cElQbWRCMHpxZzRfY3c?oc=5",
+    "published_at": "Fri, 05 Jun 2026 05:48:58 GMT",
+    "text": "\"값이 다른 삼성전자 주식\"···보통주·우선주 다른 이유 - 뉴스웨이  \"값이 다른 삼성전자 주식\"···보통주·우선주 다른 이유 &nbsp;&nbsp; 뉴스웨이 "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -326,7 +326,7 @@
     "title": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears - Reuters",
     "summary": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears &nbsp;&nbsp; Reuters",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 21:39:47 GMT",
+    "published_at": "Fri, 05 Jun 2026 10:05:00 GMT",
     "text": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears - Reuters  Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears &nbsp;&nbsp; Reuters "
   },
   {
@@ -366,7 +366,7 @@
     "title": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede - TradingKey",
     "summary": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede &nbsp;&nbsp; TradingKey",
     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNS2Z3SWljcXQ0WXR3cFlDMUl5NTZLUzg0anE4a0JGcUF2dkxCQWZ3Nmk0Q0hNMmFUQnBmVFJxZENSeTVuUkl5TmlselhnQ2xNXzc5WEhGRTFwbE9IWk1KT2xKaHFpZm9ERV9JOEZQbENrM3lPdWhReUVoVFNwZ3p2djFKRHcxNTNvYmZaN0ZXeW5ZVUNEM3VCTHRsd0xPZElQWEV3OFlTd3pkOTBYU3hMMDh4UzdFTDJkeEUzTDVIckRqa29tUHFIT2R6NXZJdHloZE1iVw?oc=5",
-    "published_at": "Fri, 05 Jun 2026 20:20:17 GMT",
+    "published_at": "Fri, 05 Jun 2026 21:25:07 GMT",
     "text": "US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede - TradingKey  US Stocks Close: Nasdaq Slumps 4.18%, Philadelphia Semiconductor Index Falls Over 10%, AI Investment Sentiment Continues to Recede &nbsp;&nbsp; TradingKey "
   },
   {
@@ -396,18 +396,18 @@
     "title": "Meta stock tumbles on report of potential equity raise - Investing.com",
     "summary": "Meta stock tumbles on report of potential equity raise &nbsp;&nbsp; Investing.com",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
-    "published_at": "Sat, 06 Jun 2026 00:23:45 GMT",
+    "published_at": "Sat, 06 Jun 2026 00:33:45 GMT",
     "text": "Meta stock tumbles on report of potential equity raise - Investing.com  Meta stock tumbles on report of potential equity raise &nbsp;&nbsp; Investing.com "
   },
   {
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg.com",
-    "summary": "Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg.com",
+    "title": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg",
+    "summary": "Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
     "published_at": "Fri, 05 Jun 2026 19:17:42 GMT",
-    "text": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg.com  Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg.com "
+    "text": "Meta Considers Raising Billions in Share Sale, FT Reports - Bloomberg  Meta Considers Raising Billions in Share Sale, FT Reports &nbsp;&nbsp; Bloomberg "
   },
   {
     "source": "Google News Magnificent 7",

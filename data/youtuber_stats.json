@@ -2080,15 +2080,15 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 17,
+    "video_count": 18,
     "short_count": 0,
-    "regular_video_count": 17,
+    "regular_video_count": 18,
     "mention_count": 27,
     "transcript_count": 6,
-    "metadata_count": 11,
-    "ocr_count": 10,
+    "metadata_count": 12,
+    "ocr_count": 11,
     "transcript_chars": 4147,
-    "ocr_chars": 4139,
+    "ocr_chars": 4512,
     "stocks": [
       {
         "ticker": "003550",
@@ -2127,6 +2127,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "삼성전자•SK하이닉스 2배 단일종목 레버리지 ETF 실제 수익률 비교..",
+        "url": "https://youtu.be/OWPK9Q6PA0c",
+        "published_at": "2026-06-06T01:45:25+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 373,
+        "ocr_excerpt": "삼성 하이닉스 레버리지 처참한 실제 수익률... SK하이닉스 vs 삼성전자 단일 레버리지 수익률 비교 1,000만원 투자 기준 추자금 15) 13,000.000 -StON스 안할 해버리지 SSrN SK하이닉스 역 215만원 차이 9000000 7.000,000 SK하이더스 단열 레버리지",
+        "youtube_kind": "video"
+      },
       {
         "title": "일론 머스크의 스페이스X 상장 임박, 한국 미국 핵심 ETF 상위 5개",
         "url": "https://youtu.be/2HOIIVmhRgk",

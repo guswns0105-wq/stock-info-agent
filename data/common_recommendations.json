@@ -3139,6 +3139,18 @@
         "confidence": "transcript"
       },
       {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Intel, AMD, Micron은 Broadcom 결과로 반도체 부문 매각이 촉발된 후 손실을 줄였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
+        "published_at": "2026-06-04T13:01:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
         "title": "SK하이닉스가 몰래 키우는 반도체 소부장 저평가 우량주 한국주식 3개 공개",
@@ -4278,6 +4290,146 @@
   },
   {
     "region": "global",
+    "ticker": "AMD",
+    "name": "AMD",
+    "sources": [
+      "올랜도 킴 미국주식",
+      "주식용사부",
+      "경제사냥꾼",
+      "Yahoo Finance Top Stories",
+      "T3chfeed - 테크피드 미국 주식 인사이트",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+    ],
+    "source_count": 6,
+    "evidence": [
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 오늘의 투매는 알고리즘 투매가 많았다!!!",
+        "url": "https://youtu.be/37nfP8BwiYQ",
+        "published_at": "2026-06-05T21:54:55+00:00",
+        "reason": "안녕하세요. 올랜도 캠입니다. 오늘 또 시험 분석과 더불어서 종목 분석해 보는 시간을 갖도록 하겠습니다. 자, 먼저 오늘 시장 한번 보겠습니다. 다오가 1.35%, 나사기 4.18% SM이 2.64%, 러셀이 3.5%로서 큰 폭이 하락했는데 나스닥이 일단은 지금 장이 주범으로서 계속해서 하락했다. 그다 흘러내리는 그런 하루에 있다. 이렇게 보시면 되겠죠. 한번 또 반등다운 반등 없이도 계속해서 내려갔다 이렇게 보시면 되겠고. 자, 특별히 아침장에서 다른 것보다는 일단 고용 발표가 있었죠. 고용이 상당히 좋았습니다. 남판 페롤이. 자, 그게 좋다 보니까 아무래도 금리를 갖다가 인하지 못하겠다. 그 10년물 금리가 엄청나게 뛰었고 자, 그로 인해서 가장 타격이 많이 받은 그로 쓰렸고 그다음에 나스닥이 더욱더 많이 타격 받았다. 장 후반으로 갈수록도 아무래도 반도체 매물들이 계속해서 나왔다. 그렇게 보면 되겠죠. 그래서 반도체 시장이 거기다가 무너지면서 전반적으로 기술주 중심으로서 시장 자체의 투매가 계속해서 발생했다. 자, 그렇게 보시면 되겠습니다. 자, 오늘 하루 동안 맵을 보시게 되면 완전히 망가진 것은 결국은 일단 테크날지가 완전히 망가졌다 이렇게 보시면 되겠고 빅테크도 구글하고 애플 빼고는 거기다가 하락을 했죠. 아마존, 테슬라 마찬가지입니다. 제 그에 반해서 지금 올라갔던 종목들하면 헬스케어 쪽이 올라가고 있었고 금융주 마찬가지",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "sk하이닉스, IHBM 공개",
+        "url": "https://youtu.be/avtz-xgjyUk",
+        "published_at": "",
+        "reason": "SK 하이닉스가 IHBM 기술을 공개했습니다. 그동안 HBM 칩 내부에 발를 쉽게 해결하지 못했었는데이 기술은 칩 내부의 발을 해결할 신기술입니다. 원리는 간단합니다. 침 내부에서 가장 열이 꽉 막히고 발열이 집중되는 핵심 통로에 전기는 통하지 않고 열만 빼내는 실리콘 냉각제 일명 IC를 아예 내장해 버린 겁니다. 결과는 기존 방식보다 열 저항이 무려 30% 이상 낮춰졌습니다. 이미 시장에서 검증된 공정을 사용하여 대량 생산도 문제가 없습니다. 크기게 핀의 위치가 기존 HBM과 100% 동일하기 때문에 고객사들이 설계에 변경 없이 바로이 HBM을 사용할 수 있게 되어 중목받고 있습니다.이 이 기술은 4세대 HBN 5부터 정격 도입 예정이라고 하고",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "6월 1일 '미국 주식' 투자자들이 꼭 알아야 하는 '투자 포인트'",
+        "url": "https://youtu.be/ONdDvSRQaak",
+        "published_at": "",
+        "reason": "[0.0s] 님들 6월 1일 미국 주식 투자자들이 꼬가라야 하는 투자 포인트 뭔지 알고 있었어? [3.7s] 지금 다들 엔비디아 GTC 관련 유수만 보느라 [5.8s] 오늘 밤에 미국에서 한꺼번에 쏟아질 지표랑 실적은 전부 놓치고 있었다는데 [9.2s] 경제 사냥꾼이 우리 구독자님들 위해 오늘 미장에서 진짜 봐야 할 포인트! [12.4s] 싹 다 뜯어 왔으니까 딱 1분만 집중해봐 [14.3s] 먼저 첫 번째로 봐야 할 건 어젯밤 미국 상무부가 던진 AI집 구제야 [17.9s] 지금까지 일부 중국계 AI 기업들은 자기네 AI 모델을 학습시킬 고성능집이 필요하며 [22.2s] 말레이시아 같은데 세운 해외 자회사를 통해 후회해서 사갔었어 [24.9s] 미국이 중국 본토로는 첨단 집 수출을 막아놨는데 [27.3s] 경작 중국 밖에 있는 자회사한테 파는 건 막혀 있지 않았기 때문이지 [30.1s] 근데 최근 로이터 통신에 따르면 미국 상무부가 중국 본사 기업이면 [33.5s] 해외법인이라도 허가받으라고 막아버리는 규제를 내세웠어 [35.9s] 쉽게 말하면 본사가 중국에 있는 기업이라면 [38.0s] 그 자회사가 세계 어디에 있던 엔비디아나 AMD의 첨단 AI집을 사기 위해 [41.4s] 미국 정보 허가를 받아야 하는 구조가 된 거야 [43.2s] 물론 이번 규제로 당장 엔비디아나 AMD 입장에선 단기 부담 요인이 될 수 있어 [46.8s] 중",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Intel, AMD, Micron은 Broadcom 결과로 반도체 부문 매각이 촉발된 후 손실을 줄였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
+        "published_at": "2026-06-04T13:01:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "엔비디아가 웬일로 폭등? 보니까 그럴만 하네요",
+        "url": "https://youtu.be/9Y-tTtQGfFA",
+        "published_at": "2026-06-02T03:57:40+00:00",
+        "reason": "자, 엔비디아와 관련해선 국룰 패턴이 하나 있죠. 이벤트를 마무리하면 그다음 날은 하락하는 겁니다. GTC도 그래 갖고 실적 발표도 마찬가지죠. 아무리 놀라운 소리를 해도 시장은 매도합니다. 자, 근데 지금 엔비디아가 이미 최고점인 상황에서 이번 타이페이 컴퓨텍스가 있고 나서는 6%라는 폭등을 보여줬는데요. 보니까 충분히 그럴 만하다라는 생각이 듭니다. 자, 두시간 동안 진행되었던 컴퓨텍스 액기스만 빠르게 요약해 보겠습니다. 젠슨이 가장 먼저 가지고 나온 건 기타부의 커밋 데이터였습니다. 개발자들이 코드를 고쳐서 올리는 횟수라고 보시면 되는데요. 이게 급증하고 있죠. 이게 무슨 뜻일까요? 전 세계 소프트웨어 개발자가 약 3, 4천만 명 정도 되는데이 개발자들의 연봉 총합이 대략 3조 달러입니다. 자, 그런데 AI 덕분에 개발자들의 산출물이 거의 세배가 뛰었습니다. 즉 3조 달러의 임금이 인풋됐는데 아웃풋은 9조달러치의 생산성이라는 것이죠. 젠슨의 논리는 단순합니다. 9조 달러치 일을 해주는 인력이라면 누가 덜 뽑을까요? 오히려 더 뽑는다는 겁니다. 자, 그래서 젠슨은 오히려 엔지니어가 더 많이 고용될 것이다라고 단원하고 있죠. 자, 비디아 투자자 관점에선 이게 왜 중요할까요? 바로 토큰 수요가 폭발한다는 뜻이기 때문입니다. 결정적으로 지금 토큰은 돈을 까먹는 비용이 아니죠. 지금은 토큰이 돈을 버는 수익 단위가 되어 가고 있습니다. ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/rapTrDT6EcM",
+        "published_at": "2026-06-02T03:35:18+00:00",
+        "reason": "창수 님 안녕하세요. 봉래 님, 오렌지 님, 진짜님, 진노이 님 반갑습니다. 은주 님, 차트님, 꽃하나 님 안녕하세요. 자, 어서 오세요. 자비 님, 님 반갑습니다. 성우 님, 속도 님, 무라 님 반갑습니다. 다들 안녕하세요. 자, 2026년 6월 2일 금일은 화요일입니다. 내일 또 6월 3일 선거가 있어 가지고 오늘이 또 막날이죠. 내일은 또 휴장입니다. 자, 오늘의 특이점 또 한번 체크하고 넘어가 보도록 하겠습니다. 자, 오늘은 공포 탐욕 지수가 59포인트로 마무리가 되었고요. 전일 대비 1포인트 하락했고 빅스 지수는 4.7% 7% 정도 올라가지고 반등을 조금 줬습니다. 그리고 다운은 0.9% 정도 올랐고 나스닥 0.42% SP 500도 0.2% 2% 정도 올랐습니다. 오늘 특징주는 코부하고 HP 그리고 ARM이 있습니다. 원달러 환율 같은 경우는 1511원으로 마감이 되었고 원달러 환율이 이제 좀 특이점이 있는데요. 이게 이제 24시간 거래가 된다라고 얘기하고 있습니다. 여기 내용을 보게 되면 29일 총회를 열고 7월 6일부터 원달러 환율 외한 거래 시장은 24시간 무중단하는 방식으로 운영하는 계획을 지금 잡고 있고 이게 이제 월요일 오전 오전부터 해 가지고 6시 오전부터 해서 토요일 오전 6시까지 그러니까 그냥 주 뭐 공유 빼고는 그냥 계속 거래가 될 수 있게끔 만들려고 한다. 이런 얘기를 하고 있죠. 뭐 금요일 장까지 해서 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/GTShwWRIaCI",
+        "published_at": "2026-06-01T03:39:23+00:00",
+        "reason": "자, 어서 들어오세요. 반갑습니다. 안녕하세요. 2026년 6월 1일 6월의 첫날입니다. 다들 어서 오세요. 반갑습니다. 자, 아트 님 어서 오세요. 송이 님, 비비 님 반갑습니다. 매종 님 반갑고요. 다들 어서 오십시오. 자, 오늘의 특이점 한번 또 체크해 보고 넘어가 보도록 하겠습니다. 다들 어서 오시고요. 네, 반갑습니다. 케이지 님, 하나님, 호박 님, 렉스 님, 사각 님도 반갑습니다. 자, 오늘은 특이점 공포 탐수가 60포인트로 마무리가 되었고요. 살짝 꺾였다가 반등을 조금 보여 주는 모습인데 뭐 이렇할 크게 반등을 주는 건 아니죠. 지금 탐욕 지수가요. 빅스 지수는 2.67% 빠져 가지고이 박스권을 깨려고 확실히 시도하고 있는 그런 모습입니다. 어, 그리고 다운은 0.72% 0.72% 올랐고 나스닥은 0.2% SP 500은 이제 또 0.2% 다 이렇게 상승으로 마무리가 되었습니다. 자, 그리고 AI 서버 쪽으로 이제 특징 델 테크놀로지가 32% 정도 상승이 나왔고 엔비디아가 1.45% 하락이 나왔습니다. 오라클은 10.84% % 상승이 나왔고요. 원달러 환율은 1507원으로 마무리가 되었습니다. 원달러 환율의 상승 배경에는 이단과이 미국이 또 M 양해 각서가 원래 넘어갔었는데 트럼프 쪽으로 아마 뒷부분에 나오겠지만은 체결이 안 됐죠. 그래서 조금이 부분이 작용이 된 거 같고요. 그리고 최근에 이제 외국인이 실질적으로 어 금",
+        "target_price": "500달러",
+        "buy_zone": "5,600달러",
+        "price_note": "론이 강화되고 있다라고 얘기하는 거고 여기에 이제 하나 더 플러스 해 가지고 팬코 오브 아메리카가 이번 실적을 역사적이라고 평가하면서 목표가를 500달러까지 상향 조정했습니다. 현재는 420달러입니다. 자, 그래서 우려의 시각도 있는데 여기에서 이제 더 올라간다고 보지만 비정상적으로 지금 프리미",
+        "confidence": "transcript"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
+        "url": "https://youtu.be/ZSTrI_ryiZ8",
+        "published_at": "2026-05-27T15:33:12+00:00",
+        "reason": "아, 인생님, 와인 님 반갑습니다. 네. 네. 윤정 님 반갑습니다. 지니 님, 땡문 님, 크루싱 님 반갑습니다. 네. 질루 님, 상우 님, 로즈 님 반갑습니다. 네. 조정다운 조정 없이 마이크론 반도체 위주로 상승세가 이어집니다. 네. JH 님, 영이 님, 휘찬 님, 밝은 님, 레드 님, 올리브 님 안녕하세요. 반갑습니다. SJ 님, 와이스 님, 푸스 님, 즐거기 살자님, 존버 님, 워렌버티기 님, 호아 님네 감사합니다. 어, 뮤직 패토리 님, 자장나무 님, 대한직기 님, 쿠레나이 님, 슈퍼그레이 님, 네, 데박스 님 반갑습니다. >> 아유, 들어오세요. 뭐 아직 뭐 마지막 풀고인지 모르겠지만 하여튼 뭐 그런 조중 보이고 있고요. 자, 잘 가고 있죠? >> 네. 어우, >> 반도체만 가고 있습니다. 반도체. 와, >> 좋습니다. >> 무섭게 가고 있습니다. 무섭게. >> 네. 여러분, 좋아요 한 번씩만 부탁드립니다. >> 네. 좋아요 한번 부탁드릴게요. >> 좋아요 31개. 아, 사자님 반갑습니다. 젤루 님, 쿠레나이 님 반갑습니다. >> 자, 기사 먼저 봐 주실까요? 기사요? >> 네. 네. 지금 본장 전에 한 40분 전에 좀 이런 소식이 나왔습니다. 어 일한 구격 구경 언론에서 이야기가 나왔는데 어 협정 초기 세부 사항이 발표가 됐어요. 미국 군사 병력이 일한 주변에 철수할 것이다. 미군 미예군은 후르무즈 해 봉쇄 해제할 것. 일",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "엔비디아가 보여주는 충격적인 1분기 실적...",
+        "url": "https://youtu.be/og-O3Ujymn0",
+        "published_at": "2026-05-21T22:24:08+00:00",
+        "reason": "자, 원래 어제 바로 엔비디아 닝 분석을 올리려고 했는데 스페이스 X가 S1 신청서를내는 바람에 조금 밀렸습니다. 자, 오늘은 그래서 Nv디디아 이야기를 해 보려고 하는데요. 결론은 엔비디아가 엔비디아 했습니다. 매출 예상 치였던 785억 달러를 비트한 816억 달러를 내줬고요. EPS도 마찬가지로 예상치었던 1.75달러를 크게 비트해서 1.85달러 내줬습니다. 자, 이미 시총 1위인 엔비디아 저는 지금으로부터 더 크게 성장할 것 같다는 생각이 드는데요. 이미 하나 1100원 시절 때부터 엔비디아를 모아서 지금 10배가 넘게 수익이 난 상황이지만 앞으로도 두 배가 더 올라서 제 수익이 20배까지 더 올라갈 수 있겠다는 생각을 하고 있습니다. 자, 이번 실적에서 제일 중요했던 이야기를 한번 [음악] 정리해 보겠습니다. [음악] 자, 먼저 빠르게 숫자부터 보시겠습니다. 계속해서 엄청난 실적을 내주고 있는 엔비디아인데요. 하지만 어제 실적에서 진짜 중요했던 것은 이런 표면적인 숫자가 아니었다 생각합니다. 젠슨이 어닝콜에서 이야기한 몇 가지 신호들을 좀 살펴볼 텐데요. 이번에 제가 가장 눈여겨 본 것은 실적 보고 세그먼트가 통째로 바뀌었다는 것입니다. 기존에는 데이터 센터, 게이밍, 또 프로라이션이랑 오토모티브 등등 잘게 쪼개져 있었지만 이번 분기는 데이터 센터를 두 개로 크게 나누고 나머지 게이밍이나 프로라이제이션은 컴퓨팅으로 분리해줬습니",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "url": "https://youtu.be/cwMSV6imFo0",
+        "published_at": "2026-05-17T12:41:48+00:00",
+        "reason": "자, 5월 17일 일요일 실시간 방송 진행하도록 하겠습니다. 자, 오늘 상당히 드릴 말씀이 좀 많이 있는데 자, 기사도 좀 많이 좀 준비했고 뭐 뭐 어떻게 굵직한 얘기도 많이 좀 있습니다. 자, 어디 오세요? 초록사가님 1등이시네요. 어유 오세요. 아 모수 님, 우유찬 님, 현캐리 님 어 자 어여 들어오시고요. 반갑습니다. 자, 5월 17일네 김동아 님 벌써부터 살려드리 살려 주시나 살려 줘야 되나요? 네. hj님, 훈니 님, 김동아 님, 미스라이 님, 아기 인생님, 로즈 님 어요. 반갑습니다. 와이 님, 이승전 님, 볼만한 TV 님, 초록상아 님 어시고요. 의자 님, 네, 리즈모로 님 어시고요. 네, 세라 님 어시고 좋아요 한 번씩 부탁드릴게요. 좋아요. 네, 좋아요 한 번씩 부탁드립니다. 어 아기인세님 욕심 부리고 비중 관리 님 제임 제임 님 스틸 님 어 슬픈비 님 어 특형님 오셨네요. 어여서 오세요. 그레나이 님네 감사합니다.네 좋아요 한 번씩 좋아요 누르신 분들 7번 한번 해 주세요. 난 좋아요 눌렀다. 한번 7번 한번 출석 체크로 한번 눌러 주세요. 좋아요 눌러. 좋아요 눌렀다. 7번 한번 깡통 님 어세요. 존보장군 님 어우시고요. 자 출석 체크 7번. 설포비 님, 우이찬 님, TV 님, 왕가리 님, 모노수 님, 세라 님, 리즈모러 님, 와인 님, 승제 님, 제인수님, 초록사님, 청백인호 님, 이상훈 님, 35p 님, 비 욕",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "2,000원",
+        "price_note": "중에서 300 남기고 다 전량 다 매도를 했고 여기서 매수한 물량만 갖고 있고 여기 매수형 물량은 300만 원만 갖고 있습니다. 여기서 제가 2,000원 얼마 매수했는데 대부분 익절을 했습니다. 삼슬라도 익절할 생각이 있었는데 뭐 익절을 하지 못했고 자 목요일 날 요까지 나왔는데 금요일 날 하락",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "500달러",
+    "buy_zone_summary": "5,600달러, 2,000원",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "TSM",
     "name": "TSMC",
     "sources": [
@@ -4425,133 +4577,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
     "buy_zone_summary": "200만원, 2,000원",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "AMD",
-    "name": "AMD",
-    "sources": [
-      "올랜도 킴 미국주식",
-      "주식용사부",
-      "경제사냥꾼",
-      "T3chfeed - 테크피드 미국 주식 인사이트",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
-    ],
-    "source_count": 5,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 오늘의 투매는 알고리즘 투매가 많았다!!!",
-        "url": "https://youtu.be/37nfP8BwiYQ",
-        "published_at": "2026-06-05T21:54:55+00:00",
-        "reason": "안녕하세요. 올랜도 캠입니다. 오늘 또 시험 분석과 더불어서 종목 분석해 보는 시간을 갖도록 하겠습니다. 자, 먼저 오늘 시장 한번 보겠습니다. 다오가 1.35%, 나사기 4.18% SM이 2.64%, 러셀이 3.5%로서 큰 폭이 하락했는데 나스닥이 일단은 지금 장이 주범으로서 계속해서 하락했다. 그다 흘러내리는 그런 하루에 있다. 이렇게 보시면 되겠죠. 한번 또 반등다운 반등 없이도 계속해서 내려갔다 이렇게 보시면 되겠고. 자, 특별히 아침장에서 다른 것보다는 일단 고용 발표가 있었죠. 고용이 상당히 좋았습니다. 남판 페롤이. 자, 그게 좋다 보니까 아무래도 금리를 갖다가 인하지 못하겠다. 그 10년물 금리가 엄청나게 뛰었고 자, 그로 인해서 가장 타격이 많이 받은 그로 쓰렸고 그다음에 나스닥이 더욱더 많이 타격 받았다. 장 후반으로 갈수록도 아무래도 반도체 매물들이 계속해서 나왔다. 그렇게 보면 되겠죠. 그래서 반도체 시장이 거기다가 무너지면서 전반적으로 기술주 중심으로서 시장 자체의 투매가 계속해서 발생했다. 자, 그렇게 보시면 되겠습니다. 자, 오늘 하루 동안 맵을 보시게 되면 완전히 망가진 것은 결국은 일단 테크날지가 완전히 망가졌다 이렇게 보시면 되겠고 빅테크도 구글하고 애플 빼고는 거기다가 하락을 했죠. 아마존, 테슬라 마찬가지입니다. 제 그에 반해서 지금 올라갔던 종목들하면 헬스케어 쪽이 올라가고 있었고 금융주 마찬가지",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "sk하이닉스, IHBM 공개",
-        "url": "https://youtu.be/avtz-xgjyUk",
-        "published_at": "",
-        "reason": "SK 하이닉스가 IHBM 기술을 공개했습니다. 그동안 HBM 칩 내부에 발를 쉽게 해결하지 못했었는데이 기술은 칩 내부의 발을 해결할 신기술입니다. 원리는 간단합니다. 침 내부에서 가장 열이 꽉 막히고 발열이 집중되는 핵심 통로에 전기는 통하지 않고 열만 빼내는 실리콘 냉각제 일명 IC를 아예 내장해 버린 겁니다. 결과는 기존 방식보다 열 저항이 무려 30% 이상 낮춰졌습니다. 이미 시장에서 검증된 공정을 사용하여 대량 생산도 문제가 없습니다. 크기게 핀의 위치가 기존 HBM과 100% 동일하기 때문에 고객사들이 설계에 변경 없이 바로이 HBM을 사용할 수 있게 되어 중목받고 있습니다.이 이 기술은 4세대 HBN 5부터 정격 도입 예정이라고 하고",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
-        "title": "6월 1일 '미국 주식' 투자자들이 꼭 알아야 하는 '투자 포인트'",
-        "url": "https://youtu.be/ONdDvSRQaak",
-        "published_at": "",
-        "reason": "[0.0s] 님들 6월 1일 미국 주식 투자자들이 꼬가라야 하는 투자 포인트 뭔지 알고 있었어? [3.7s] 지금 다들 엔비디아 GTC 관련 유수만 보느라 [5.8s] 오늘 밤에 미국에서 한꺼번에 쏟아질 지표랑 실적은 전부 놓치고 있었다는데 [9.2s] 경제 사냥꾼이 우리 구독자님들 위해 오늘 미장에서 진짜 봐야 할 포인트! [12.4s] 싹 다 뜯어 왔으니까 딱 1분만 집중해봐 [14.3s] 먼저 첫 번째로 봐야 할 건 어젯밤 미국 상무부가 던진 AI집 구제야 [17.9s] 지금까지 일부 중국계 AI 기업들은 자기네 AI 모델을 학습시킬 고성능집이 필요하며 [22.2s] 말레이시아 같은데 세운 해외 자회사를 통해 후회해서 사갔었어 [24.9s] 미국이 중국 본토로는 첨단 집 수출을 막아놨는데 [27.3s] 경작 중국 밖에 있는 자회사한테 파는 건 막혀 있지 않았기 때문이지 [30.1s] 근데 최근 로이터 통신에 따르면 미국 상무부가 중국 본사 기업이면 [33.5s] 해외법인이라도 허가받으라고 막아버리는 규제를 내세웠어 [35.9s] 쉽게 말하면 본사가 중국에 있는 기업이라면 [38.0s] 그 자회사가 세계 어디에 있던 엔비디아나 AMD의 첨단 AI집을 사기 위해 [41.4s] 미국 정보 허가를 받아야 하는 구조가 된 거야 [43.2s] 물론 이번 규제로 당장 엔비디아나 AMD 입장에선 단기 부담 요인이 될 수 있어 [46.8s] 중",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "엔비디아가 웬일로 폭등? 보니까 그럴만 하네요",
-        "url": "https://youtu.be/9Y-tTtQGfFA",
-        "published_at": "2026-06-02T03:57:40+00:00",
-        "reason": "자, 엔비디아와 관련해선 국룰 패턴이 하나 있죠. 이벤트를 마무리하면 그다음 날은 하락하는 겁니다. GTC도 그래 갖고 실적 발표도 마찬가지죠. 아무리 놀라운 소리를 해도 시장은 매도합니다. 자, 근데 지금 엔비디아가 이미 최고점인 상황에서 이번 타이페이 컴퓨텍스가 있고 나서는 6%라는 폭등을 보여줬는데요. 보니까 충분히 그럴 만하다라는 생각이 듭니다. 자, 두시간 동안 진행되었던 컴퓨텍스 액기스만 빠르게 요약해 보겠습니다. 젠슨이 가장 먼저 가지고 나온 건 기타부의 커밋 데이터였습니다. 개발자들이 코드를 고쳐서 올리는 횟수라고 보시면 되는데요. 이게 급증하고 있죠. 이게 무슨 뜻일까요? 전 세계 소프트웨어 개발자가 약 3, 4천만 명 정도 되는데이 개발자들의 연봉 총합이 대략 3조 달러입니다. 자, 그런데 AI 덕분에 개발자들의 산출물이 거의 세배가 뛰었습니다. 즉 3조 달러의 임금이 인풋됐는데 아웃풋은 9조달러치의 생산성이라는 것이죠. 젠슨의 논리는 단순합니다. 9조 달러치 일을 해주는 인력이라면 누가 덜 뽑을까요? 오히려 더 뽑는다는 겁니다. 자, 그래서 젠슨은 오히려 엔지니어가 더 많이 고용될 것이다라고 단원하고 있죠. 자, 비디아 투자자 관점에선 이게 왜 중요할까요? 바로 토큰 수요가 폭발한다는 뜻이기 때문입니다. 결정적으로 지금 토큰은 돈을 까먹는 비용이 아니죠. 지금은 토큰이 돈을 버는 수익 단위가 되어 가고 있습니다. ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/rapTrDT6EcM",
-        "published_at": "2026-06-02T03:35:18+00:00",
-        "reason": "창수 님 안녕하세요. 봉래 님, 오렌지 님, 진짜님, 진노이 님 반갑습니다. 은주 님, 차트님, 꽃하나 님 안녕하세요. 자, 어서 오세요. 자비 님, 님 반갑습니다. 성우 님, 속도 님, 무라 님 반갑습니다. 다들 안녕하세요. 자, 2026년 6월 2일 금일은 화요일입니다. 내일 또 6월 3일 선거가 있어 가지고 오늘이 또 막날이죠. 내일은 또 휴장입니다. 자, 오늘의 특이점 또 한번 체크하고 넘어가 보도록 하겠습니다. 자, 오늘은 공포 탐욕 지수가 59포인트로 마무리가 되었고요. 전일 대비 1포인트 하락했고 빅스 지수는 4.7% 7% 정도 올라가지고 반등을 조금 줬습니다. 그리고 다운은 0.9% 정도 올랐고 나스닥 0.42% SP 500도 0.2% 2% 정도 올랐습니다. 오늘 특징주는 코부하고 HP 그리고 ARM이 있습니다. 원달러 환율 같은 경우는 1511원으로 마감이 되었고 원달러 환율이 이제 좀 특이점이 있는데요. 이게 이제 24시간 거래가 된다라고 얘기하고 있습니다. 여기 내용을 보게 되면 29일 총회를 열고 7월 6일부터 원달러 환율 외한 거래 시장은 24시간 무중단하는 방식으로 운영하는 계획을 지금 잡고 있고 이게 이제 월요일 오전 오전부터 해 가지고 6시 오전부터 해서 토요일 오전 6시까지 그러니까 그냥 주 뭐 공유 빼고는 그냥 계속 거래가 될 수 있게끔 만들려고 한다. 이런 얘기를 하고 있죠. 뭐 금요일 장까지 해서 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/GTShwWRIaCI",
-        "published_at": "2026-06-01T03:39:23+00:00",
-        "reason": "자, 어서 들어오세요. 반갑습니다. 안녕하세요. 2026년 6월 1일 6월의 첫날입니다. 다들 어서 오세요. 반갑습니다. 자, 아트 님 어서 오세요. 송이 님, 비비 님 반갑습니다. 매종 님 반갑고요. 다들 어서 오십시오. 자, 오늘의 특이점 한번 또 체크해 보고 넘어가 보도록 하겠습니다. 다들 어서 오시고요. 네, 반갑습니다. 케이지 님, 하나님, 호박 님, 렉스 님, 사각 님도 반갑습니다. 자, 오늘은 특이점 공포 탐수가 60포인트로 마무리가 되었고요. 살짝 꺾였다가 반등을 조금 보여 주는 모습인데 뭐 이렇할 크게 반등을 주는 건 아니죠. 지금 탐욕 지수가요. 빅스 지수는 2.67% 빠져 가지고이 박스권을 깨려고 확실히 시도하고 있는 그런 모습입니다. 어, 그리고 다운은 0.72% 0.72% 올랐고 나스닥은 0.2% SP 500은 이제 또 0.2% 다 이렇게 상승으로 마무리가 되었습니다. 자, 그리고 AI 서버 쪽으로 이제 특징 델 테크놀로지가 32% 정도 상승이 나왔고 엔비디아가 1.45% 하락이 나왔습니다. 오라클은 10.84% % 상승이 나왔고요. 원달러 환율은 1507원으로 마무리가 되었습니다. 원달러 환율의 상승 배경에는 이단과이 미국이 또 M 양해 각서가 원래 넘어갔었는데 트럼프 쪽으로 아마 뒷부분에 나오겠지만은 체결이 안 됐죠. 그래서 조금이 부분이 작용이 된 거 같고요. 그리고 최근에 이제 외국인이 실질적으로 어 금",
-        "target_price": "500달러",
-        "buy_zone": "5,600달러",
-        "price_note": "론이 강화되고 있다라고 얘기하는 거고 여기에 이제 하나 더 플러스 해 가지고 팬코 오브 아메리카가 이번 실적을 역사적이라고 평가하면서 목표가를 500달러까지 상향 조정했습니다. 현재는 420달러입니다. 자, 그래서 우려의 시각도 있는데 여기에서 이제 더 올라간다고 보지만 비정상적으로 지금 프리미",
-        "confidence": "transcript"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "5/27 (수) 미국주식 마지막 불꽃 상승 인가?",
-        "url": "https://youtu.be/ZSTrI_ryiZ8",
-        "published_at": "2026-05-27T15:33:12+00:00",
-        "reason": "아, 인생님, 와인 님 반갑습니다. 네. 네. 윤정 님 반갑습니다. 지니 님, 땡문 님, 크루싱 님 반갑습니다. 네. 질루 님, 상우 님, 로즈 님 반갑습니다. 네. 조정다운 조정 없이 마이크론 반도체 위주로 상승세가 이어집니다. 네. JH 님, 영이 님, 휘찬 님, 밝은 님, 레드 님, 올리브 님 안녕하세요. 반갑습니다. SJ 님, 와이스 님, 푸스 님, 즐거기 살자님, 존버 님, 워렌버티기 님, 호아 님네 감사합니다. 어, 뮤직 패토리 님, 자장나무 님, 대한직기 님, 쿠레나이 님, 슈퍼그레이 님, 네, 데박스 님 반갑습니다. >> 아유, 들어오세요. 뭐 아직 뭐 마지막 풀고인지 모르겠지만 하여튼 뭐 그런 조중 보이고 있고요. 자, 잘 가고 있죠? >> 네. 어우, >> 반도체만 가고 있습니다. 반도체. 와, >> 좋습니다. >> 무섭게 가고 있습니다. 무섭게. >> 네. 여러분, 좋아요 한 번씩만 부탁드립니다. >> 네. 좋아요 한번 부탁드릴게요. >> 좋아요 31개. 아, 사자님 반갑습니다. 젤루 님, 쿠레나이 님 반갑습니다. >> 자, 기사 먼저 봐 주실까요? 기사요? >> 네. 네. 지금 본장 전에 한 40분 전에 좀 이런 소식이 나왔습니다. 어 일한 구격 구경 언론에서 이야기가 나왔는데 어 협정 초기 세부 사항이 발표가 됐어요. 미국 군사 병력이 일한 주변에 철수할 것이다. 미군 미예군은 후르무즈 해 봉쇄 해제할 것. 일",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "엔비디아가 보여주는 충격적인 1분기 실적...",
-        "url": "https://youtu.be/og-O3Ujymn0",
-        "published_at": "2026-05-21T22:24:08+00:00",
-        "reason": "자, 원래 어제 바로 엔비디아 닝 분석을 올리려고 했는데 스페이스 X가 S1 신청서를내는 바람에 조금 밀렸습니다. 자, 오늘은 그래서 Nv디디아 이야기를 해 보려고 하는데요. 결론은 엔비디아가 엔비디아 했습니다. 매출 예상 치였던 785억 달러를 비트한 816억 달러를 내줬고요. EPS도 마찬가지로 예상치었던 1.75달러를 크게 비트해서 1.85달러 내줬습니다. 자, 이미 시총 1위인 엔비디아 저는 지금으로부터 더 크게 성장할 것 같다는 생각이 드는데요. 이미 하나 1100원 시절 때부터 엔비디아를 모아서 지금 10배가 넘게 수익이 난 상황이지만 앞으로도 두 배가 더 올라서 제 수익이 20배까지 더 올라갈 수 있겠다는 생각을 하고 있습니다. 자, 이번 실적에서 제일 중요했던 이야기를 한번 [음악] 정리해 보겠습니다. [음악] 자, 먼저 빠르게 숫자부터 보시겠습니다. 계속해서 엄청난 실적을 내주고 있는 엔비디아인데요. 하지만 어제 실적에서 진짜 중요했던 것은 이런 표면적인 숫자가 아니었다 생각합니다. 젠슨이 어닝콜에서 이야기한 몇 가지 신호들을 좀 살펴볼 텐데요. 이번에 제가 가장 눈여겨 본 것은 실적 보고 세그먼트가 통째로 바뀌었다는 것입니다. 기존에는 데이터 센터, 게이밍, 또 프로라이션이랑 오토모티브 등등 잘게 쪼개져 있었지만 이번 분기는 데이터 센터를 두 개로 크게 나누고 나머지 게이밍이나 프로라이제이션은 컴퓨팅으로 분리해줬습니",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
-        "url": "https://youtu.be/cwMSV6imFo0",
-        "published_at": "2026-05-17T12:41:48+00:00",
-        "reason": "자, 5월 17일 일요일 실시간 방송 진행하도록 하겠습니다. 자, 오늘 상당히 드릴 말씀이 좀 많이 있는데 자, 기사도 좀 많이 좀 준비했고 뭐 뭐 어떻게 굵직한 얘기도 많이 좀 있습니다. 자, 어디 오세요? 초록사가님 1등이시네요. 어유 오세요. 아 모수 님, 우유찬 님, 현캐리 님 어 자 어여 들어오시고요. 반갑습니다. 자, 5월 17일네 김동아 님 벌써부터 살려드리 살려 주시나 살려 줘야 되나요? 네. hj님, 훈니 님, 김동아 님, 미스라이 님, 아기 인생님, 로즈 님 어요. 반갑습니다. 와이 님, 이승전 님, 볼만한 TV 님, 초록상아 님 어시고요. 의자 님, 네, 리즈모로 님 어시고요. 네, 세라 님 어시고 좋아요 한 번씩 부탁드릴게요. 좋아요. 네, 좋아요 한 번씩 부탁드립니다. 어 아기인세님 욕심 부리고 비중 관리 님 제임 제임 님 스틸 님 어 슬픈비 님 어 특형님 오셨네요. 어여서 오세요. 그레나이 님네 감사합니다.네 좋아요 한 번씩 좋아요 누르신 분들 7번 한번 해 주세요. 난 좋아요 눌렀다. 한번 7번 한번 출석 체크로 한번 눌러 주세요. 좋아요 눌러. 좋아요 눌렀다. 7번 한번 깡통 님 어세요. 존보장군 님 어우시고요. 자 출석 체크 7번. 설포비 님, 우이찬 님, TV 님, 왕가리 님, 모노수 님, 세라 님, 리즈모러 님, 와인 님, 승제 님, 제인수님, 초록사님, 청백인호 님, 이상훈 님, 35p 님, 비 욕",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "2,000원",
-        "price_note": "중에서 300 남기고 다 전량 다 매도를 했고 여기서 매수한 물량만 갖고 있고 여기 매수형 물량은 300만 원만 갖고 있습니다. 여기서 제가 2,000원 얼마 매수했는데 대부분 익절을 했습니다. 삼슬라도 익절할 생각이 있었는데 뭐 익절을 하지 못했고 자 목요일 날 요까지 나왔는데 금요일 날 하락",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "500달러",
-    "buy_zone_summary": "5,600달러, 2,000원",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -4780,6 +4805,18 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
+        "title": "Broadcom은 기록적인 분기 실적을 기록했지만 충분하지 않았습니다.",
+        "url": "https://www.barrons.com/articles/broadcom-earnings-stock-price-278daece?siteid=yhoof2&yptr=yahoo",
+        "published_at": "2026-06-04T20:08:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
         "title": "Broadcom의 매각이 메가캡 역사에 막 진입했습니다.",
         "url": "https://finance.yahoo.com/markets/stocks/article/broadcoms-sell-off-just-entered-megacap-history-163942663.html",
         "published_at": "2026-06-04T16:39:42Z",
@@ -4807,6 +4844,18 @@
         "title": "Broadcom 주식은 수익 후 하락합니다. AVGO 딥을 구매하세요.",
         "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-stock-drops-earnings-buy-154344959.html",
         "published_at": "2026-06-04T15:43:44Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Intel, AMD, Micron은 Broadcom 결과로 반도체 부문 매각이 촉발된 후 손실을 줄였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
+        "published_at": "2026-06-04T13:01:28Z",
         "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -5063,6 +5112,132 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "535달러, 500달러",
     "buy_zone_summary": "5,600달러, 31,800원",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "INTC",
+    "name": "Intel",
+    "sources": [
+      "Google News US Markets AI Semis",
+      "올랜도 킴 미국주식",
+      "T3chfeed - 테크피드 미국 주식 인사이트",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 4,
+    "evidence": [
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5",
+        "published_at": "Mon, 01 Jun 2026 08:22:00 GMT",
+        "reason": "예측: 인텔 다음으로 이 인공지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다    The Motley Fool",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
+        "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
+        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRW1mMlJoM1FMOV9sZG0zcUZOVktvcC1nNjJfb3NMNU00VW9SOVpDUHVtejhkR0s0UHFyR185N1ZnYlVrYzRrSmtsYzc2LS14M1BIVFFIN2YyTnRRd0dFV1kzQTZlc0pNM05KYlo4Vk44UW1pQ3ktTVJrMl9JN00wWGYyejZ5MUVjNE1uLUttcGVfU3Q3Y1pqMml5cElINE1SNHJ1NXUyUi1CaURfbk9VM1ZVVlF4di1reExJMl83RlE2MmJqWXF3VlNQTQ?oc=5",
+        "published_at": "Fri, 05 Jun 2026 13:51:50 GMT",
+        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
+        "url": "https://youtu.be/A45bkodmBEQ",
+        "published_at": "",
+        "reason": "현재 미국뿐만 아니라 전 세계의 국방은 단연 AI 판이 새로 짜여지고 있고 2차 대전 때 맨헤튼 프로젝트와 같이 AI 국방연구 개발은 국가의 존폐 이기가 달려 있는만큼 가장 최우선 과제가 되므로 가장 많은 예산이 정되 될 분야라고 저는 확신합니다 2023년 기준의 미국방부 예산은 8130 달러로 책정되어 있고 이중 연구 개발에 대한 예산은 1300억 달러 정도로 책정되어 있는데 쉽지만 정확히 AI 얼마가 할당되어 있는지는 공개되어 있지 않습니다 하지만이는 상당한 것으로 예측되며 세계 무대가 AI 중심으로 흘러가게 되는만큼 이에 대한 예산 비중은 앞으로도 계속해서 커질 가능성이 높습니다 즉 파란 티어가 먹을 수 있는 파이가 계속 늘어나고 있는이 트렌드에 우리 투자자들은 편승했다 봐도 무방한 것이라고 생각합니다",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Intel, AMD, Micron은 Broadcom 결과로 반도체 부문 매각이 촉발된 후 손실을 줄였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
+        "published_at": "2026-06-04T13:01:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "url": "https://youtu.be/bkuop8jLgOc",
+        "published_at": "2026-05-29T06:37:35+00:00",
+        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -5369,7 +5544,7 @@
         "source_role": "뉴스",
         "title": "잠재적 자본확충 소식에 메타주 하락 - Investing.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
-        "published_at": "Sat, 06 Jun 2026 00:23:45 GMT",
+        "published_at": "Sat, 06 Jun 2026 00:33:45 GMT",
         "reason": "잠재적 자본확충 소식에 메타주 폭락    Investing.com",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -5391,10 +5566,10 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
-        "title": "Meta, FT 보고서에서 수십억 달러 규모의 주식 매각을 고려 중 - Bloomberg.com",
+        "title": "Meta는 수십억 달러의 주식 매각을 고려하고 있습니다. FT 보고서-Bloomberg",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFhZRkpXQnBRajRLWmNWQkFCZTU2T2UzVXZOS09NRjFycU4tcXhjc00wbEg5ZDZsOTk5azlhYTVZWU05ejVIMUJjM1FMRjNBU1Z6Sy1rck41Mk5JdWxKdjlwTWhid1pTRnNsbXlaWVBCYzJ5cWJlZFd4aDhCUjBPXzNnUkRERUI2R2xmbHp3bGJHeFk3bnY5LXdpdVNqUGotQWtfSlREUnZWT0k?oc=5",
         "published_at": "Fri, 05 Jun 2026 19:17:42 GMT",
-        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg.com",
+        "reason": "Meta는 수십억 달러의 주식 매각을 고려하고 있음, FT 보고서    Bloomberg",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5685,119 +5860,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "220달러, 1100달러",
     "buy_zone_summary": "200만원, 26,850원, 31,800원, 90달러",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "INTC",
-    "name": "Intel",
-    "sources": [
-      "Google News US Markets AI Semis",
-      "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5",
-        "published_at": "Mon, 01 Jun 2026 08:22:00 GMT",
-        "reason": "예측: 인텔 다음으로 이 인공지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다    The Motley Fool",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
-        "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
-        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRW1mMlJoM1FMOV9sZG0zcUZOVktvcC1nNjJfb3NMNU00VW9SOVpDUHVtejhkR0s0UHFyR185N1ZnYlVrYzRrSmtsYzc2LS14M1BIVFFIN2YyTnRRd0dFV1kzQTZlc0pNM05KYlo4Vk44UW1pQ3ktTVJrMl9JN00wWGYyejZ5MUVjNE1uLUttcGVfU3Q3Y1pqMml5cElINE1SNHJ1NXUyUi1CaURfbk9VM1ZVVlF4di1reExJMl83RlE2MmJqWXF3VlNQTQ?oc=5",
-        "published_at": "Fri, 05 Jun 2026 13:51:50 GMT",
-        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
-        "url": "https://youtu.be/A45bkodmBEQ",
-        "published_at": "",
-        "reason": "현재 미국뿐만 아니라 전 세계의 국방은 단연 AI 판이 새로 짜여지고 있고 2차 대전 때 맨헤튼 프로젝트와 같이 AI 국방연구 개발은 국가의 존폐 이기가 달려 있는만큼 가장 최우선 과제가 되므로 가장 많은 예산이 정되 될 분야라고 저는 확신합니다 2023년 기준의 미국방부 예산은 8130 달러로 책정되어 있고 이중 연구 개발에 대한 예산은 1300억 달러 정도로 책정되어 있는데 쉽지만 정확히 AI 얼마가 할당되어 있는지는 공개되어 있지 않습니다 하지만이는 상당한 것으로 예측되며 세계 무대가 AI 중심으로 흘러가게 되는만큼 이에 대한 예산 비중은 앞으로도 계속해서 커질 가능성이 높습니다 즉 파란 티어가 먹을 수 있는 파이가 계속 늘어나고 있는이 트렌드에 우리 투자자들은 편승했다 봐도 무방한 것이라고 생각합니다",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
-        "url": "https://youtu.be/bkuop8jLgOc",
-        "published_at": "2026-05-29T06:37:35+00:00",
-        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
