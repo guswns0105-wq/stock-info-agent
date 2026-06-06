@@ -3,15 +3,15 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 74,
-    "short_count": 74,
+    "video_count": 75,
+    "short_count": 75,
     "regular_video_count": 0,
-    "mention_count": 94,
-    "transcript_count": 67,
+    "mention_count": 95,
+    "transcript_count": 68,
     "metadata_count": 7,
-    "ocr_count": 11,
-    "transcript_chars": 141670,
-    "ocr_chars": 4478,
+    "ocr_count": 12,
+    "transcript_chars": 143622,
+    "ocr_chars": 4759,
     "stocks": [
       {
         "ticker": "005930",
@@ -29,6 +29,11 @@
         "count": 11
       },
       {
+        "ticker": "035720",
+        "name": "카카오",
+        "count": 6
+      },
+      {
         "ticker": "005380",
         "name": "현대차",
         "count": 6
@@ -36,11 +41,6 @@
       {
         "ticker": "009150",
         "name": "삼성전기",
-        "count": 5
-      },
-      {
-        "ticker": "035720",
-        "name": "카카오",
         "count": 5
       },
       {
@@ -90,6 +90,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "현시점 '네이버+카카오' 주주들이 꼭 봐야하는 ‘네카오’ 투자 포인트",
+        "url": "https://youtu.be/3eCShaC1jbM",
+        "published_at": "",
+        "tickers": [
+          "035720"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1952,
+        "ocr_status": "ok",
+        "ocr_chars": 281,
+        "ocr_excerpt": "현시점네이버리기와주주들이 꼭빠이하는 바요 투자 인트 경제 사냥꾼 2026년 06월 05일 1000 10000 콕 찝으면서 신고가 바로 갈아치우니까 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 현시점네이버기와 주주들이 엔비디아 CEO 젠슨황이 이번 주 현시점네이버•기와 ",
+        "youtube_kind": "short"
+      },
       {
         "title": "경제사냥꾼 구독자 전용 종목분석 : POSCO홀딩스",
         "url": "https://youtu.be/fDeFHbKKwRM",
@@ -494,20 +508,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1816,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "0.1% 투자자들이 '코스피 하락장'에서 노린다는 '저점매수' 타이밍",
-        "url": "https://youtu.be/3ezl6ZmQWRw",
-        "published_at": "",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1785,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
@@ -1240,20 +1240,20 @@
     "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 28,
-    "short_count": 28,
+    "video_count": 29,
+    "short_count": 29,
     "regular_video_count": 0,
-    "mention_count": 34,
-    "transcript_count": 28,
+    "mention_count": 35,
+    "transcript_count": 29,
     "metadata_count": 0,
-    "ocr_count": 5,
-    "transcript_chars": 60323,
-    "ocr_chars": 1546,
+    "ocr_count": 6,
+    "transcript_chars": 62275,
+    "ocr_chars": 1827,
     "stocks": [
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 22
+        "count": 23
       },
       {
         "ticker": "MU",
@@ -1282,6 +1282,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "현시점 '네이버+카카오' 주주들이 꼭 봐야하는 ‘네카오’ 투자 포인트",
+        "url": "https://youtu.be/3eCShaC1jbM",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1952,
+        "ocr_status": "ok",
+        "ocr_chars": 281,
+        "ocr_excerpt": "현시점네이버리기와주주들이 꼭빠이하는 바요 투자 인트 경제 사냥꾼 2026년 06월 05일 1000 10000 콕 찝으면서 신고가 바로 갈아치우니까 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 현시점네이버기와 주주들이 엔비디아 CEO 젠슨황이 이번 주 현시점네이버•기와 ",
+        "youtube_kind": "short"
+      },
       {
         "title": "하이닉스가 오늘 삼성전자보다 더 떨어진 이유",
         "url": "https://youtu.be/g_71zxHLgkE",
