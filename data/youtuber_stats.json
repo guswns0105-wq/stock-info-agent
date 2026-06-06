@@ -3695,6 +3695,196 @@
   },
   {
     "region": "global",
+    "youtuber": "경제명탐정",
+    "channel_id": "UC1eyYJRpM_g5WBp60mmRwCQ",
+    "video_count": 11,
+    "short_count": 5,
+    "regular_video_count": 6,
+    "mention_count": 10,
+    "transcript_count": 11,
+    "metadata_count": 0,
+    "ocr_count": 6,
+    "transcript_chars": 164065,
+    "ocr_chars": 2525,
+    "stocks": [
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 4
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 3
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 1
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "count": 1
+      },
+      {
+        "ticker": "IONQ",
+        "name": "IonQ",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "'젠슨황 시구 수혜주' 두산로봇틱스 대신 외국인들이 조용히 담는 이 섹터는?",
+        "url": "https://youtu.be/EDr9dclD3CQ",
+        "published_at": "2026-06-06T09:40:51+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 9747,
+        "ocr_status": "ok",
+        "ocr_chars": 185,
+        "ocr_excerpt": "경제명탐정) 우리나라 그룹 총수들이랑 삼겹살을 구워 먹었어. 1001 경제명탐정 100. BEARS 1993 엔비디아가 태어난 해, 1993년에서 따온 거야. 두산로보틱스재 ROBOTICS DOOSAN 그런데 로봇 관련주만 보면 딱 표면만 보는거야. 두 가지 TWO CLUES FIRST",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "빌게이츠도 매도? 마이크로소프트 더 이상 우리가 아는 AI 회사가 아닌 이유",
+        "url": "https://youtu.be/nNXO4ew8e-U",
+        "published_at": "2026-06-04T14:36:17+00:00",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 13651,
+        "ocr_status": "ok",
+        "ocr_chars": 524,
+        "ocr_excerpt": "마이크로소프트0. MIcRoSOFT soft SELL 같은 회사 한 종목에 정반대 두 베팅이 공개됐어. 경제명탐정 중앙일보 게이츠 재단, 4.8조원대 MS 주식 전량 매각... 활동 종료 나선 듯 세계적인 부호 빌 게이츠가 세운 자선•연구지원 단체인 게이츠 재단이 주요 자산이었던 마이크",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "'코스피 8800 시대' 월가 전설이 말하는 사상최고가에도 내 계좌만 시퍼런 진짜 이유",
+        "url": "https://youtu.be/d-1Pp4Np8B0",
+        "published_at": "2026-06-03T14:06:16+00:00",
+        "tickers": [
+          "NVDA",
+          "PLTR"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 14021,
+        "ocr_status": "ok",
+        "ocr_chars": 772,
+        "ocr_excerpt": "경제명탐정 | 코스피 8,964.00 8,838.13 8.712.25 8,586.37 8,460.50 2026.06.02 장마감 8,801.49 장중최고 52주최고 632,553 8,933.62 등락/종목 4 271 3.11+0.15% 거래대금(백만) 장중최저 52주최저 7 636 투자",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "위고비 마운자로뿐? 226조 비만약 시장 국내 제약주 진짜 승자는?",
+        "url": "https://youtu.be/ab7m7BWAPJM",
+        "published_at": "2026-06-02T12:58:06+00:00",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 14489,
+        "ocr_status": "ok",
+        "ocr_chars": 333,
+        "ocr_excerpt": "평생 못 끊어 CAN'T QUIT FOREVER 경제(명탐정) 마운자로 살 빼는 주사로 전 세계가 난리 났던 그 약이야. 바이오계의 넷플릭스 경제명탐정) BlOTECH NETFLIX 환자 한 명 잡으면 매월 돈이 평생 들어오는, 의외의 효과 SURPRISE EFFECTS REDUCED ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "스페이스X는 잊어라 오픈AI 상장 | 월가도 갈아탄 수혜주 지금 당장 살 수 있는 5종목의 정체",
+        "url": "https://youtu.be/p-OvKuMLEAA",
+        "published_at": "2026-06-01T14:06:23+00:00",
+        "tickers": [
+          "NVDA",
+          "AMD"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 16575,
+        "ocr_status": "ok",
+        "ocr_chars": 230,
+        "ocr_excerpt": "스페이스X LATE 경제명탐정 SPACEX 그런데 벌써 늦은 것 같다고? 오픈AI 상장 OPENAI IPO 경제명탐정) 근데 우리 구독자님들 솔직히 이렇게 생각하실 거야. 숨은 다섯 자리 FIVE HIDDEN SPOTS 수혜주 다섯 FIVE BENEFICIARIES 우리가 한국 계좌에서",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "[5월 5주차 몰아보기] 트럼프 양자 지분 인수부터 엔비디아 광통신·코스피 외국인 90조 매도까지 한 주 총정리",
+        "url": "https://youtu.be/gOMVtFrUoxk",
+        "published_at": "2026-05-31T08:20:53+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "IONQ"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 88963,
+        "ocr_status": "ok",
+        "ocr_chars": 481,
+        "ocr_excerpt": "경제(명탐정) RARE EARTH SEMICONDUCTOR LITHIUM 트럼프 행정부가 작년부터 미국 산업을 하나씩 골라가며 MINERALS 경제명탐정 H 한국경제 WSJ \" 양자컴퓨팅 기업 9곳에 20억 투자 BM에 10억# 미국 정부가 자국 양자컴퓨팅 기업 9곳에 총 20억달러를 ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "[차트 명탐정] 마이크로소프트 지금 들어가도 되나요? #shorts #마이크로소프트 #차트공부 #주식투자 #경제명탐정",
+        "url": "https://youtu.be/9SIr0H0geq8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1609,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[1분 명탐정] 클래리티 법안 마크업 통과, 진짜 수혜주는 따로 있습니다",
+        "url": "https://youtu.be/SAcud_Ns1Oo",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1469,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[1분 명탐정] 고수들의 돈버는 이동평균선 세팅법 #경제명탐정 #주식차트 #이동평균선 #이평선보는법 #차트분석",
+        "url": "https://youtu.be/oyECnYYKL5o",
+        "published_at": "",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1305,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[1분 명탐정] 월가 고수들이 비쌀 때 주식 사는 진짜 이유 #경제명탐정 #주식투자 #주식공부 #월가 #투자전략 #추세추종",
+        "url": "https://youtu.be/rpCbTjg3Wz8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1163,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "[1분 명탐정] \"고점에서 또 물립니다\" 월가 전문가들만 쓰는 'PEG' 사용법 #shorts #peg #주식투자 #주식거품 #미국주식 #주가고점 #경제명탐정",
+        "url": "https://youtu.be/OotwQ1Bg64w",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 1073,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "global",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
     "video_count": 7,
@@ -3830,6 +4020,97 @@
         "confidence": "transcript",
         "transcript_chars": 719,
         "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
+    "youtuber": "경제명탐정",
+    "channel_id": "UC1eyYJRpM_g5WBp60mmRwCQ",
+    "video_count": 4,
+    "short_count": 0,
+    "regular_video_count": 4,
+    "mention_count": 6,
+    "transcript_count": 4,
+    "metadata_count": 0,
+    "ocr_count": 3,
+    "transcript_chars": 48784,
+    "ocr_chars": 1416,
+    "stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 4
+      },
+      {
+        "ticker": "003550",
+        "name": "LG",
+        "count": 1
+      },
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "'젠슨황 시구 수혜주' 두산로봇틱스 대신 외국인들이 조용히 담는 이 섹터는?",
+        "url": "https://youtu.be/EDr9dclD3CQ",
+        "published_at": "2026-06-06T09:40:51+00:00",
+        "tickers": [
+          "005930",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 9747,
+        "ocr_status": "ok",
+        "ocr_chars": 185,
+        "ocr_excerpt": "경제명탐정) 우리나라 그룹 총수들이랑 삼겹살을 구워 먹었어. 1001 경제명탐정 100. BEARS 1993 엔비디아가 태어난 해, 1993년에서 따온 거야. 두산로보틱스재 ROBOTICS DOOSAN 그런데 로봇 관련주만 보면 딱 표면만 보는거야. 두 가지 TWO CLUES FIRST",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "'환율폭등' 주식 팔아야 하나요? 현재상황이 월요일 아침 코스피에 미칠 영향",
+        "url": "https://youtu.be/04fBcpIsO7M",
+        "published_at": "2026-06-05T14:03:42+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 12685,
+        "ocr_status": "ok",
+        "ocr_chars": 459,
+        "ocr_excerpt": "U.S. Dollar / South Korean• 1h• ICE 01,532.60 H1,532.60 L1,532.60 C1,532.60 0.00 (0.00%) -0.26 (-0.02%) Vol 3 환율 1540원 OKRW 1,545.00 1,540.00 1,535.00 1,532.60 ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "'코스피 8800 시대' 월가 전설이 말하는 사상최고가에도 내 계좌만 시퍼런 진짜 이유",
+        "url": "https://youtu.be/d-1Pp4Np8B0",
+        "published_at": "2026-06-03T14:06:16+00:00",
+        "tickers": [
+          "005930",
+          "000660"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 14021,
+        "ocr_status": "ok",
+        "ocr_chars": 772,
+        "ocr_excerpt": "경제명탐정 | 코스피 8,964.00 8,838.13 8.712.25 8,586.37 8,460.50 2026.06.02 장마감 8,801.49 장중최고 52주최고 632,553 8,933.62 등락/종목 4 271 3.11+0.15% 거래대금(백만) 장중최저 52주최저 7 636 투자",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "'코스피 상승장인가, 끝물인가?' 지금 한국 증시가 혼란스러운 진짜 이유",
+        "url": "https://youtu.be/UK_HBJe7oe8",
+        "published_at": "2026-05-30T13:45:28+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 12331,
+        "ocr_status": "download_failed",
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "video"
@@ -4035,6 +4316,57 @@
         "ocr_status": "ok",
         "ocr_chars": 396,
         "ocr_excerpt": "미국 경제 정복하기Q 1년뒤 10배 급등할 삼성전자 다음 대장주 미국 경제 정복하기 06월 04일 | 조회수 951.928 개미들만 놓치고 있어 THIS IS JUSTUIKE ONE OF THOSE BAD DREAMS! •SCREAMSQ 1| 정복하기 격제 정복하기 삼성전자 메모리가 팔",
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
+    "youtuber": "미국 경제 정복하기",
+    "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
+    "video_count": 2,
+    "short_count": 1,
+    "regular_video_count": 1,
+    "mention_count": 2,
+    "transcript_count": 2,
+    "metadata_count": 0,
+    "ocr_count": 2,
+    "transcript_chars": 3752,
+    "ocr_chars": 617,
+    "stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 2
+      }
+    ],
+    "videos": [
+      {
+        "title": "하락장에 10배 폭등하는 종목",
+        "url": "https://youtu.be/PTcMph26t8g",
+        "published_at": "2026-06-06T12:00:04+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1993,
+        "ocr_status": "ok",
+        "ocr_chars": 323,
+        "ocr_excerpt": "미국 경제 정복하기 하락장에 10배 폭등하는 종목 06월 06일 | 조회수 953.492 금리 인하는커녕 인상 공포까지|나온거야 \" 정복하기 제 정복하기 내가 네비우스 600% 급등전에도 소개할 회사는 Nebius Group(NBIS) NEBIUS 미국 경제 정복하기Q 엔비디아 GPU ",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "1년뒤 5배 급등할 블룸에너지 다음 대장주",
+        "url": "https://youtu.be/NbTvlMStwNM",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 1759,
+        "ocr_status": "ok",
+        "ocr_chars": 294,
+        "ocr_excerpt": "미국 경제 정복하기 1년뒤 5배 급등할 블룸에너지 다음 대장주 06월 06일 조회수 928.591 개미들만 아직도 놓치고 있어 결제 잘복하기 06월 06일 | 조회수 928.591 첫번째\"퓨얼셀에너지” fuelcellenergy 경제 정복하기 1| 정복하기 복제 정복하기 전체 수주 파이",
         "youtube_kind": "short"
       }
     ]
@@ -4388,43 +4720,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      }
-    ]
-  },
-  {
-    "region": "domestic",
-    "youtuber": "미국 경제 정복하기",
-    "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
-    "video_count": 1,
-    "short_count": 0,
-    "regular_video_count": 1,
-    "mention_count": 1,
-    "transcript_count": 1,
-    "metadata_count": 0,
-    "ocr_count": 1,
-    "transcript_chars": 1993,
-    "ocr_chars": 323,
-    "stocks": [
-      {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "하락장에 10배 폭등하는 종목",
-        "url": "https://youtu.be/PTcMph26t8g",
-        "published_at": "2026-06-06T12:00:04+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1993,
-        "ocr_status": "ok",
-        "ocr_chars": 323,
-        "ocr_excerpt": "미국 경제 정복하기 하락장에 10배 폭등하는 종목 06월 06일 | 조회수 953.492 금리 인하는커녕 인상 공포까지|나온거야 \" 정복하기 제 정복하기 내가 네비우스 600% 급등전에도 소개할 회사는 Nebius Group(NBIS) NEBIUS 미국 경제 정복하기Q 엔비디아 GPU ",
-        "youtube_kind": "video"
       }
     ]
   },
