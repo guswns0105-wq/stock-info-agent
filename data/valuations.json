@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T22:26",
+  "generated_at": "2026-06-06T23:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -179,7 +179,7 @@
         "region": "global",
         "price": 415.17,
         "currency": "USD",
-        "ai_score": 11.75,
+        "ai_score": 12,
         "verdict": "관심권",
         "ai_buy_price": 406.8666,
         "ai_sell_price": 526.4954486810915,
@@ -191,9 +191,9 @@
         "ret20_pct": 0.24628905433972115,
         "support": 316.5,
         "resistance": 446.69000244140625,
-        "comment": "출처 언급 11회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+        "comment": "출처 언급 12회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 11회",
+          "출처 언급 12회",
           "ROE 36.21%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -460,7 +460,7 @@
         "region": "global",
         "price": 415.17,
         "currency": "USD",
-        "ai_score": 11.75,
+        "ai_score": 12,
         "verdict": "관심권",
         "ai_buy_price": 406.8666,
         "ai_sell_price": 526.4954486810915,
@@ -472,9 +472,9 @@
         "ret20_pct": 0.24628905433972115,
         "support": 316.5,
         "resistance": 446.69000244140625,
-        "comment": "출처 언급 11회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+        "comment": "출처 언급 12회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 11회",
+          "출처 언급 12회",
           "ROE 36.21%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -572,7 +572,7 @@
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 95,
+      "mention_count": 96,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -592,9 +592,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 95회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 96회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 95회"
+        "출처 언급 96회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -690,7 +690,7 @@
       "ticker": "TSLA",
       "name": "Tesla",
       "region": "global",
-      "mention_count": 42,
+      "mention_count": 43,
       "price": 391.0,
       "currency": "USD",
       "pe": 380.24,
@@ -710,9 +710,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 42회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 43회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 42회"
+        "출처 언급 43회"
       ],
       "risks": [
         "ROE 낮음 4.90%",
@@ -1216,6 +1216,64 @@
       "fetch_note": ""
     },
     {
+      "ticker": "TSM",
+      "name": "TSMC",
+      "region": "global",
+      "mention_count": 12,
+      "price": 415.17,
+      "currency": "USD",
+      "pe": 32.55,
+      "forward_pe": 22.74,
+      "pb": 10.472,
+      "roe": 36.21,
+      "profit_margin": 46.505,
+      "eps": null,
+      "fair_value": 501.4242368391348,
+      "watch_buy_price": 411.1678742080905,
+      "ai_buy_price": 406.8666,
+      "ai_sell_price": 526.4954486810915,
+      "margin_to_fair_pct": 20.775642950871863,
+      "verdict": "관심권",
+      "action": "411.2 USD 부근까지 조정 시 매력 증가",
+      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
+      "score": 6,
+      "technical_score": 3,
+      "ai_score": 12,
+      "ai_comment": "출처 언급 12회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 12회",
+        "ROE 36.21%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 22.74배 역산 EPS → 기준 PER 36.00배",
+        "PBR 10.47배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "TSM",
+        "chart_status": "ok",
+        "sma20": 414.73400115966797,
+        "sma60": 380.82833404541014,
+        "sma120": 357.9108332316081,
+        "ret20_pct": 0.24628905433972115,
+        "ret60_pct": 17.09442770158809,
+        "high_52w": 446.69000244140625,
+        "low_52w": 205.17999267578125,
+        "recent_support": 316.5,
+        "recent_resistance": 446.69000244140625,
+        "volatility_pct": 44.25255840814715,
+        "trend": "상승 추세",
+        "technical_score": 3,
+        "position_52w": 0.8694878010563826
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/TSM",
+        "https://stockanalysis.com/stocks/tsm/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "AMD",
       "name": "AMD",
       "region": "global",
@@ -1271,64 +1329,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/AMD",
         "https://stockanalysis.com/stocks/amd/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "TSM",
-      "name": "TSMC",
-      "region": "global",
-      "mention_count": 11,
-      "price": 415.17,
-      "currency": "USD",
-      "pe": 32.55,
-      "forward_pe": 22.74,
-      "pb": 10.472,
-      "roe": 36.21,
-      "profit_margin": 46.505,
-      "eps": null,
-      "fair_value": 501.4242368391348,
-      "watch_buy_price": 411.1678742080905,
-      "ai_buy_price": 406.8666,
-      "ai_sell_price": 526.4954486810915,
-      "margin_to_fair_pct": 20.775642950871863,
-      "verdict": "관심권",
-      "action": "411.2 USD 부근까지 조정 시 매력 증가",
-      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
-      "score": 6,
-      "technical_score": 3,
-      "ai_score": 11.75,
-      "ai_comment": "출처 언급 11회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 11회",
-        "ROE 36.21%",
-        "PER가 기준보다 낮음"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 22.74배 역산 EPS → 기준 PER 36.00배",
-        "PBR 10.47배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "TSM",
-        "chart_status": "ok",
-        "sma20": 414.73400115966797,
-        "sma60": 380.82833404541014,
-        "sma120": 357.9108332316081,
-        "ret20_pct": 0.24628905433972115,
-        "ret60_pct": 17.09442770158809,
-        "high_52w": 446.69000244140625,
-        "low_52w": 205.17999267578125,
-        "recent_support": 316.5,
-        "recent_resistance": 446.69000244140625,
-        "volatility_pct": 44.25255840814715,
-        "trend": "상승 추세",
-        "technical_score": 3,
-        "position_52w": 0.8694878010563826
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/TSM",
-        "https://stockanalysis.com/stocks/tsm/statistics/"
       ],
       "fetch_note": ""
     },
