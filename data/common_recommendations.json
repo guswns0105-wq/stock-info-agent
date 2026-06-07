@@ -1250,6 +1250,7 @@
       "연합뉴스 경제",
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
+      "올랜도 킴 미국주식",
       "강지한 차트연구소",
       "미국 경제 정복하기",
       "경제사냥꾼",
@@ -1259,7 +1260,7 @@
       "주식용사부",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)"
     ],
-    "source_count": 12,
+    "source_count": 13,
     "evidence": [
       {
         "source": "Google News 한국 주식 종목",
@@ -1536,6 +1537,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
+        "url": "https://youtu.be/Dih2dabDeGA",
+        "published_at": "2026-06-07T20:38:48+00:00",
+        "reason": "안녕하세요. 올린도 캠미입니다. 오늘은 삼성전자 하이닉스 마이크론의 지금 이제 조종폭이 어느 정도 될지에 대해서 알아보는 시간을 갖도록 하겠습니다. 자, 먼저 삼성전자의 지금 DCF 모델을 통해서 얼마만큼의 가치가 나오는지 한번 보겠습니다. 이거는 디스카운트된 캐시플로죠. 현금 흐름 활동을 통해서 나타난 건데 자, 5년 동안 이연 평균 성장률을 11.9% 9% 그다음 이비때 맞을지를 갖다 5년 동안의 평균이 45.7 그다음에 프리케스프로의 연평주 성장률이 5년 동안 22.3% 자 그렇게 했을 때 적정 가치는 한 35만 원대가 나오고 있다. 그래서 상승 여력이 한 6.8% 있다 이렇게 보면 되겠고 가장 낮게 준다 하더라도 33만2,000원이니까 지금 가격보다 약간 높게 형성이 되고 있는 것이 삼성전자다. 자 그렇게 보시면 되겠죠. 자, 그런데 EB비타 같은 경우에 있어서 기업의 가치를 갖다가 닝으로 나눠 주는 거다. 이렇게 보시면 되는데 한 13.7% 지금 현재 하락이 있다 이렇게 보면 되겠고 적정 주가는 28만 3,000원 정도 되고 있다 이렇게 보시면 되겠죠. 많이 준다 하더라도 한 29만 원대. 그래서 지금보다는 조금 하락할 수 있다. 자, 입이 입이 있다는 자, 그렇게 현재로서 이야기를 하고 있습니다. 자, 그다음 피 멀티플로 봤을 때는 34만 3,000원 정도 되고 있다. 한 4.5%의 상승 여력이 있다. 이렇게 보면 되는데 ",
+        "target_price": "30불",
+        "buy_zone": "6,000원",
+        "price_note": "있겠죠. 자, 그렇다면 삼성전자 같은 경우에도 지금 마이크론 테크놀로지하고 비슷하게 20% 밑으로 내려온다. 자, 그렇게 했을 때는 지금 현재 30불대가 좀 깨질 수도 있다. 이렇게 보면 되겠죠. 그래서 1차적인 목표가는 아무래도 30불대를 지켜지느냐. 자, 그것이 문젠데 자, 아무래도 좀",
+        "confidence": "transcript"
       },
       {
         "source": "강지한 차트연구소",
@@ -2475,8 +2488,8 @@
       }
     ],
     "stance": "복수 출처 추천/관심",
-    "target_price_summary": "560달러, 58만원, 535달러, 1100달러, 500달러",
-    "buy_zone_summary": "1560원, 100원, 226만원, 1530원, 26,850원, 280만원, 5,600달러, 31,800원, 90달러, 45,500원, 8,000원",
+    "target_price_summary": "30불, 560달러, 58만원, 535달러, 1100달러, 500달러",
+    "buy_zone_summary": "6,000원, 1560원, 100원, 226만원, 1530원, 26,850원, 280만원, 5,600달러, 31,800원, 90달러, 45,500원, 8,000원",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -3567,10 +3580,10 @@
     "sources": [
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
-      "미국 경제 정복하기",
-      "경제사냥꾼",
       "올랜도 킴 미국주식",
       "Yahoo Finance Top Stories",
+      "미국 경제 정복하기",
+      "경제사냥꾼",
       "주식용사부",
       "강지한 차트연구소",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
@@ -3597,6 +3610,30 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUw5ek55Q2o1NVg3eXNjUG5jZUFEdG5VYWxkZFNld0haeWZyZmhWMkFvN2dTRGtYR1kxWlNUaHJiOU82RnVSOFFhTU03dVFrUThKblBtcTllaVNENVRCdlVHbGtGTG9ocF84YUY5dUhqUEE3aVVmYTcxanNzTjhpRzhPV2xZeVA2NHBZUDBmRjZmY1Mwa1o5S255WVpZYW5IRmNMNnNxSjRqQmJoRU9jNE5uMmNtYmRLTVJ5SThkZ3MtOWF2?oc=5",
         "published_at": "Thu, 04 Jun 2026 12:02:20 GMT",
         "reason": "이 칩 ETF는 마이크론 붐에 대비했습니다    The Globe and Mail",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
+        "url": "https://youtu.be/Dih2dabDeGA",
+        "published_at": "2026-06-07T20:38:48+00:00",
+        "reason": "안녕하세요. 올린도 캠미입니다. 오늘은 삼성전자 하이닉스 마이크론의 지금 이제 조종폭이 어느 정도 될지에 대해서 알아보는 시간을 갖도록 하겠습니다. 자, 먼저 삼성전자의 지금 DCF 모델을 통해서 얼마만큼의 가치가 나오는지 한번 보겠습니다. 이거는 디스카운트된 캐시플로죠. 현금 흐름 활동을 통해서 나타난 건데 자, 5년 동안 이연 평균 성장률을 11.9% 9% 그다음 이비때 맞을지를 갖다 5년 동안의 평균이 45.7 그다음에 프리케스프로의 연평주 성장률이 5년 동안 22.3% 자 그렇게 했을 때 적정 가치는 한 35만 원대가 나오고 있다. 그래서 상승 여력이 한 6.8% 있다 이렇게 보면 되겠고 가장 낮게 준다 하더라도 33만2,000원이니까 지금 가격보다 약간 높게 형성이 되고 있는 것이 삼성전자다. 자 그렇게 보시면 되겠죠. 자, 그런데 EB비타 같은 경우에 있어서 기업의 가치를 갖다가 닝으로 나눠 주는 거다. 이렇게 보시면 되는데 한 13.7% 지금 현재 하락이 있다 이렇게 보면 되겠고 적정 주가는 28만 3,000원 정도 되고 있다 이렇게 보시면 되겠죠. 많이 준다 하더라도 한 29만 원대. 그래서 지금보다는 조금 하락할 수 있다. 자, 입이 입이 있다는 자, 그렇게 현재로서 이야기를 하고 있습니다. 자, 그다음 피 멀티플로 봤을 때는 34만 3,000원 정도 되고 있다. 한 4.5%의 상승 여력이 있다. 이렇게 보면 되는데 ",
+        "target_price": "30불",
+        "buy_zone": "6,000원",
+        "price_note": "있겠죠. 자, 그렇다면 삼성전자 같은 경우에도 지금 마이크론 테크놀로지하고 비슷하게 20% 밑으로 내려온다. 자, 그렇게 했을 때는 지금 현재 30불대가 좀 깨질 수도 있다. 이렇게 보면 되겠죠. 그래서 1차적인 목표가는 아무래도 30불대를 지켜지느냐. 자, 그것이 문젠데 자, 아무래도 좀",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "마이크론 주가 올해 270% 이상 상승 2026년에도 여전히 두 배로 증가할 수 있는 방법은 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/microns-stock-over-270-heres-203100938.html",
+        "published_at": "2026-06-07T20:31:00Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -3916,8 +3953,8 @@
       }
     ],
     "stance": "복수 출처 추천/관심",
-    "target_price_summary": "500달러, 535달러, 1100달러",
-    "buy_zone_summary": "500달러, 26,850원, 45,500원, 2,000원",
+    "target_price_summary": "30불, 500달러, 535달러, 1100달러",
+    "buy_zone_summary": "6,000원, 500달러, 26,850원, 45,500원, 2,000원",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -4206,6 +4243,18 @@
         "url": "https://www.yna.co.kr/view/AKR20260607047600003",
         "published_at": "Sun, 7 Jun 2026 19:39:42 +0900",
         "reason": "(서울=연합뉴스) 강태우 기자 = LG에너지솔루션[373220]이 미국의 관세 부과 조치 무효 판결에 따라 1천억원이 넘는 관세 환급금을 돌려받...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 국내 증시·반도체",
+        "source_role": "뉴스",
+        "title": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" - 조선일보",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNnNpSHhSSy1JV2RlY3k0YWlyY2U5WjRaM0NKazNPVkhpREV2dldZV0JmT1QwX3NnVm1kMU44dHpCcjBsaTJrM1NBaElLcTJ1YjRnYVV0VUNuSUtNblpBdXZWdWVNMXl0V3VrYks3V0ZZNFRwdkp6UmZ2cGRtZUtBaQ?oc=5",
+        "published_at": "Sun, 07 Jun 2026 20:30:00 GMT",
+        "reason": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" &nbsp;&nbsp; 조선일보",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6311,6 +6360,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News 국내 증시·반도체",
+        "source_role": "뉴스",
+        "title": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" - 조선일보",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNnNpSHhSSy1JV2RlY3k0YWlyY2U5WjRaM0NKazNPVkhpREV2dldZV0JmT1QwX3NnVm1kMU44dHpCcjBsaTJrM1NBaElLcTJ1YjRnYVV0VUNuSUtNblpBdXZWdWVNMXl0V3VrYks3V0ZZNFRwdkp6UmZ2cGRtZUtBaQ?oc=5",
+        "published_at": "Sun, 07 Jun 2026 20:30:00 GMT",
+        "reason": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" &nbsp;&nbsp; 조선일보",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
         "title": "월가에서 437% 오른 ‘LG전자’ 다음으로, 상승장 올 수 있다는 ‘2차 수혜주’ 정체",
@@ -6859,24 +6920,12 @@
     "ticker": "AAPL",
     "name": "Apple",
     "sources": [
-      "Yahoo Finance Top Stories",
       "올랜도 킴 미국주식",
+      "Yahoo Finance Top Stories",
       "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
     "source_count": 3,
     "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "시장 랠리의 첫 번째 실제 테스트 중 다우존스 선물 만기; SpaceX IPO, Apple, Oracle 앞두고",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-what-to-do-market-rally-test-spacex-ipo-apple-oracle/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-07T19:41:50Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
       {
         "source": "올랜도 킴 미국주식",
         "source_role": "유튜버",
@@ -7435,82 +7484,6 @@
   },
   {
     "region": "global",
-    "ticker": "ORCL",
-    "name": "Oracle",
-    "sources": [
-      "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "시장 랠리의 첫 번째 실제 테스트 중 다우존스 선물 만기; SpaceX IPO, Apple, Oracle 앞두고",
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-what-to-do-market-rally-test-spacex-ipo-apple-oracle/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-07T19:41:50Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
-        "published_at": "2026-06-05T17:41:45Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "AMZN",
     "name": "Amazon",
     "sources": [
@@ -7642,6 +7615,70 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "sources": [
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
+        "published_at": "2026-06-05T17:41:45Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
       }
     ],
     "stance": "복수 출처 추천/관심",

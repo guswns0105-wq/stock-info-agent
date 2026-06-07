@@ -2524,24 +2524,24 @@
     "region": "global",
     "youtuber": "올랜도 킴 미국주식",
     "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 11,
+    "video_count": 12,
     "short_count": 0,
-    "regular_video_count": 11,
-    "mention_count": 23,
-    "transcript_count": 2,
+    "regular_video_count": 12,
+    "mention_count": 24,
+    "transcript_count": 3,
     "metadata_count": 9,
-    "ocr_count": 11,
-    "transcript_chars": 51397,
-    "ocr_chars": 33277,
+    "ocr_count": 12,
+    "transcript_chars": 73652,
+    "ocr_chars": 36599,
     "stocks": [
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "count": 3
-      },
       {
         "ticker": "MU",
         "name": "Micron",
+        "count": 4
+      },
+      {
+        "ticker": "TSLA",
+        "name": "Tesla",
         "count": 3
       },
       {
@@ -2621,6 +2621,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
+        "url": "https://youtu.be/Dih2dabDeGA",
+        "published_at": "2026-06-07T20:38:48+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 22255,
+        "ocr_status": "ok",
+        "ocr_chars": 3322,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
+        "youtube_kind": "video"
+      },
       {
         "title": "(주간시황) 다음주 초는 아직 하락세가 강하겠지만 마이크론 실적발표(6/24)가 분수령이 될것이다.",
         "url": "https://youtu.be/iDhFOKCGfwU",
@@ -4553,6 +4567,62 @@
   },
   {
     "region": "domestic",
+    "youtuber": "올랜도 킴 미국주식",
+    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
+    "video_count": 2,
+    "short_count": 0,
+    "regular_video_count": 2,
+    "mention_count": 2,
+    "transcript_count": 1,
+    "metadata_count": 1,
+    "ocr_count": 2,
+    "transcript_chars": 22255,
+    "ocr_chars": 3865,
+    "stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 1
+      },
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
+        "url": "https://youtu.be/Dih2dabDeGA",
+        "published_at": "2026-06-07T20:38:48+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 22255,
+        "ocr_status": "ok",
+        "ocr_chars": 3322,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
+        "url": "https://youtu.be/jh-7Hm0CkLc",
+        "published_at": "2026-05-30T11:03:34+00:00",
+        "tickers": [
+          "000660"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 543,
+        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
     "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
     "video_count": 2,
@@ -4900,43 +4970,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      }
-    ]
-  },
-  {
-    "region": "domestic",
-    "youtuber": "올랜도 킴 미국주식",
-    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 1,
-    "short_count": 0,
-    "regular_video_count": 1,
-    "mention_count": 1,
-    "transcript_count": 0,
-    "metadata_count": 1,
-    "ocr_count": 1,
-    "transcript_chars": 0,
-    "ocr_chars": 543,
-    "stocks": [
-      {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
-        "url": "https://youtu.be/jh-7Hm0CkLc",
-        "published_at": "2026-05-30T11:03:34+00:00",
-        "tickers": [
-          "000660"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 543,
-        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
-        "youtube_kind": "video"
       }
     ]
   },

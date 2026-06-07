@@ -5,11 +5,11 @@
     "source_role": "macro_context",
     "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
     "region": "domestic",
-    "title": "삼성전자와 SK하이닉스를 흔든 엔비디아 SOCAMM 이슈가 뭘까?",
+    "title": "삼성전자와 마이크론등을 흔든 엔비디아 SOCAMM이 뭘까?",
     "summary": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클릭에 두번 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이.......",
     "url": "https://blog.naver.com/ranto28/224307440861?fromRss=true&trackingCode=rss",
     "published_at": "Mon, 08 Jun 2026 00:10:00 +0900",
-    "text": "삼성전자와 SK하이닉스를 흔든 엔비디아 SOCAMM 이슈가 뭘까? '브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클릭에 두번 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이.......  "
+    "text": "삼성전자와 마이크론등을 흔든 엔비디아 SOCAMM이 뭘까? '브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클릭에 두번 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이.......  "
   },
   {
     "source": "메르의 블로그",
@@ -123,101 +123,121 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보)",
-    "summary": "(서울=연합뉴스) 홍국기 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보...",
-    "url": "https://www.yna.co.kr/view/AKR20260607034852030",
-    "published_at": "Sun, 7 Jun 2026 22:24:25 +0900",
-    "text": "야구관람·회동에도 K치킨…젠슨황 \"치맥보다 좋은 건 없다\"(종합2보) (서울=연합뉴스) 홍국기 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보..."
+    "title": "서울 직업계고 학생-F&B 기업 취업 매칭…박람회서 면접",
+    "summary": "(서울=연합뉴스) 오보람 기자 = 서울시교육청은 오는 8일 중구 LW컨벤션센터에서 &apos;2026 서울 직업계고 식음료(F&amp;amp;B) 취업박람회&apos;를...",
+    "url": "https://www.yna.co.kr/view/AKR20260606045600530",
+    "published_at": "Mon, 8 Jun 2026 06:00:09 +0900",
+    "text": "서울 직업계고 학생-F&B 기업 취업 매칭…박람회서 면접 (서울=연합뉴스) 오보람 기자 = 서울시교육청은 오는 8일 중구 LW컨벤션센터에서 &apos;2026 서울 직업계고 식음료(F&amp;amp;B) 취업박람회&apos;를..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "LG엔솔, 미국 관세 환급 절차 착수…환급금 1천억원 넘을 듯",
-    "summary": "(서울=연합뉴스) 강태우 기자 = LG에너지솔루션[373220]이 미국의 관세 부과 조치 무효 판결에 따라 1천억원이 넘는 관세 환급금을 돌려받...",
-    "url": "https://www.yna.co.kr/view/AKR20260607047600003",
-    "published_at": "Sun, 7 Jun 2026 19:39:42 +0900",
-    "text": "LG엔솔, 미국 관세 환급 절차 착수…환급금 1천억원 넘을 듯 (서울=연합뉴스) 강태우 기자 = LG에너지솔루션[373220]이 미국의 관세 부과 조치 무효 판결에 따라 1천억원이 넘는 관세 환급금을 돌려받..."
+    "title": "대한상의, '중대재해 예방' 전국 35개 지역상의 순회 설명회",
+    "summary": "(서울=연합뉴스) 임성호 기자 = 대한상공회의소는 한국산업안전보건공단과 전국 중소기업의 중대재해 처벌 등에 관한 법률(중대재해법) 대응을 위한 ...",
+    "url": "https://www.yna.co.kr/view/AKR20260607032300003",
+    "published_at": "Mon, 8 Jun 2026 06:00:07 +0900",
+    "text": "대한상의, '중대재해 예방' 전국 35개 지역상의 순회 설명회 (서울=연합뉴스) 임성호 기자 = 대한상공회의소는 한국산업안전보건공단과 전국 중소기업의 중대재해 처벌 등에 관한 법률(중대재해법) 대응을 위한 ..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "레미콘 노조 8일 휴업 돌입…수도권 1만1천대 운송 중단",
-    "summary": "(서울=연합뉴스) 오진송 기자 = 레미콘 운송 노동조합이 사측에 임금 및 단체협약(임단협) 체결 등을 요구하며 8일부터 휴업에 들어간다.",
-    "url": "https://www.yna.co.kr/view/AKR20260607038900003",
-    "published_at": "Sun, 7 Jun 2026 17:15:36 +0900",
-    "text": "레미콘 노조 8일 휴업 돌입…수도권 1만1천대 운송 중단 (서울=연합뉴스) 오진송 기자 = 레미콘 운송 노동조합이 사측에 임금 및 단체협약(임단협) 체결 등을 요구하며 8일부터 휴업에 들어간다.\n"
+    "title": "금감원 '사기예방 백과사전' 발간…오디오북 등 무료 배포",
+    "summary": "(서울=연합뉴스) 강류나 기자 = 금융감독원은 은행연합회와 금융사기 사례와 대응 요령 등을 담은 &apos;사기예방 백과사전&apos;을 발간하고, 이를 오디오북...",
+    "url": "https://www.yna.co.kr/view/AKR20260607024200002",
+    "published_at": "Mon, 8 Jun 2026 06:00:02 +0900",
+    "text": "금감원 '사기예방 백과사전' 발간…오디오북 등 무료 배포 (서울=연합뉴스) 강류나 기자 = 금융감독원은 은행연합회와 금융사기 사례와 대응 요령 등을 담은 &apos;사기예방 백과사전&apos;을 발간하고, 이를 오디오북..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "F4 \"원화약세 편승한 투기적 움직임 점검해 엄정한 조치할 것\"",
-    "summary": "(세종=연합뉴스) 이세원 안채원 기자 = 자금·외환시장을 규율하는 4개 기관장은 최근 원화 약세 흐름에 편승한 투기적 수요가 엿보인다며 시장 교...",
-    "url": "https://www.yna.co.kr/view/AKR20260607034700002",
-    "published_at": "Sun, 7 Jun 2026 16:55:46 +0900",
-    "text": "F4 \"원화약세 편승한 투기적 움직임 점검해 엄정한 조치할 것\" (세종=연합뉴스) 이세원 안채원 기자 = 자금·외환시장을 규율하는 4개 기관장은 최근 원화 약세 흐름에 편승한 투기적 수요가 엿보인다며 시장 교..."
+    "title": "통상본부장 \"통상 네트워크 다변화해 수출 상승 흐름 이을 것\"",
+    "summary": "(서울=연합뉴스) 신창용 기자 = 여한구 산업통상부 통상교섭본부장은 8일 &quot;수출 상승 흐름을 이어 나갈 수 있도록 통상 네트워크를 다변화하고 기...",
+    "url": "https://www.yna.co.kr/view/AKR20260607040900003",
+    "published_at": "Mon, 8 Jun 2026 06:00:01 +0900",
+    "text": "통상본부장 \"통상 네트워크 다변화해 수출 상승 흐름 이을 것\" (서울=연합뉴스) 신창용 기자 = 여한구 산업통상부 통상교섭본부장은 8일 &quot;수출 상승 흐름을 이어 나갈 수 있도록 통상 네트워크를 다변화하고 기..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "中企·소상공인업계, 한성숙 총리 지명 환영…\"AI 전환 적임자\"(종합)",
-    "summary": "(서울=연합뉴스) 구정모 기자 = 중소기업계와 소상공인업계, 벤처·기술혁신 업계는 7일 한성숙 중소벤처기업부 장관의 국무총리 후보자 지명을 일제...",
-    "url": "https://www.yna.co.kr/view/AKR20260607034351030",
-    "published_at": "Sun, 7 Jun 2026 16:52:30 +0900",
-    "text": "中企·소상공인업계, 한성숙 총리 지명 환영…\"AI 전환 적임자\"(종합) (서울=연합뉴스) 구정모 기자 = 중소기업계와 소상공인업계, 벤처·기술혁신 업계는 7일 한성숙 중소벤처기업부 장관의 국무총리 후보자 지명을 일제..."
+    "title": "한-아세안 FTA 개선 위한 1차 공식협상 서울서 개최",
+    "summary": "(서울=연합뉴스) 신창용 기자 = 2007년 발효된 한국-아세안 자유무역협정(FTA)을 글로벌 통상환경 변화에 맞춰 개선하기 위한 1차 공식 협...",
+    "url": "https://www.yna.co.kr/view/AKR20260607041700003",
+    "published_at": "Mon, 8 Jun 2026 06:00:00 +0900",
+    "text": "한-아세안 FTA 개선 위한 1차 공식협상 서울서 개최 (서울=연합뉴스) 신창용 기자 = 2007년 발효된 한국-아세안 자유무역협정(FTA)을 글로벌 통상환경 변화에 맞춰 개선하기 위한 1차 공식 협..."
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "PBW’s 34% Year-to-Date Gain Masks a Brutal Five-Year Pattern Every Rate Cycle Repeats",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/pbw-34-date-gain-masks-200048746.html",
-    "published_at": "2026-06-07T20:00:48Z",
-    "text": "PBW’s 34% Year-to-Date Gain Masks a Brutal Five-Year Pattern Every Rate Cycle Repeats "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Cathie Wood’s ARK Buys Coinbase and Circle While Trimming Archer and Baidu",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-ark-buys-coinbase-194600496.html",
-    "published_at": "2026-06-07T19:46:00Z",
-    "text": "Cathie Wood’s ARK Buys Coinbase and Circle While Trimming Archer and Baidu "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Bybit Launches IPO Express With Tokenized SpaceX Access",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/crypto/articles/bybit-launches-ipo-express-tokenized-194400932.html",
-    "published_at": "2026-06-07T19:44:00Z",
-    "text": "Bybit Launches IPO Express With Tokenized SpaceX Access "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Dow Jones Futures Due Amid Market Rally's First Real Test; SpaceX IPO, Apple, Oracle Ahead",
+    "title": "Dow Jones Futures Due As Iran Attacks Israel; Market Rally Faces First Real Test",
     "summary": "",
     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-what-to-do-market-rally-test-spacex-ipo-apple-oracle/?src=A00220&yptr=yahoo",
-    "published_at": "2026-06-07T19:41:50Z",
-    "text": "Dow Jones Futures Due Amid Market Rally's First Real Test; SpaceX IPO, Apple, Oracle Ahead "
+    "published_at": "2026-06-07T20:38:31Z",
+    "text": "Dow Jones Futures Due As Iran Attacks Israel; Market Rally Faces First Real Test "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Mark Cuban says small businesses are desperate for AI talent — and it's where job seekers should look first",
+    "title": "Micron's Stock Is Up Over 270% This Year. Here's How It Can Still Double in 2026.",
     "summary": "",
-    "url": "https://finance.yahoo.com/sectors/technology/articles/mark-cuban-says-small-businesses-184500292.html",
-    "published_at": "2026-06-07T18:45:00Z",
-    "text": "Mark Cuban says small businesses are desperate for AI talent — and it's where job seekers should look first "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/microns-stock-over-270-heres-203100938.html",
+    "published_at": "2026-06-07T20:31:00Z",
+    "text": "Micron's Stock Is Up Over 270% This Year. Here's How It Can Still Double in 2026. "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Is BBB Foods Inc. (TBBB) A Good Stock To Buy Now?",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bbb-foods-inc-tbbb-good-201451661.html",
+    "published_at": "2026-06-07T20:14:51Z",
+    "text": "Is BBB Foods Inc. (TBBB) A Good Stock To Buy Now? "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Is UnitedHealth Group Incorporated (UNH) A Good Stock To Buy Now?",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-incorporated-unh-good-201437713.html",
+    "published_at": "2026-06-07T20:14:37Z",
+    "text": "Is UnitedHealth Group Incorporated (UNH) A Good Stock To Buy Now? "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Is Vir Biotechnology, Inc. (VIR) A Good Stock To Buy Now?",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/vir-biotechnology-inc-vir-good-201423806.html",
+    "published_at": "2026-06-07T20:14:23Z",
+    "text": "Is Vir Biotechnology, Inc. (VIR) A Good Stock To Buy Now? "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" - 조선일보",
+    "summary": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" &nbsp;&nbsp; 조선일보",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNnNpSHhSSy1JV2RlY3k0YWlyY2U5WjRaM0NKazNPVkhpREV2dldZV0JmT1QwX3NnVm1kMU44dHpCcjBsaTJrM1NBaElLcTJ1YjRnYVV0VUNuSUtNblpBdXZWdWVNMXl0V3VrYks3V0ZZNFRwdkp6UmZ2cGRtZUtBaQ?oc=5",
+    "published_at": "Sun, 07 Jun 2026 20:30:00 GMT",
+    "text": "\"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" - 조선일보  \"LG전자 상한가가 고점 신호였나, 코스피 반토막 가능성은..\" &nbsp;&nbsp; 조선일보 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" - v.daum.net",
+    "summary": "코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" &nbsp;&nbsp; v.daum.net",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tZlZQa2lwMlpOZVlMYnd0TE1uZlQtdU1DeGNSNGcxZ2tVVU9zNjZvVkl0MElDdDFrUDI2MC16bnhUSmVIMk5HbFFvNFpLeEk?oc=5",
+    "published_at": "Sun, 07 Jun 2026 19:45:00 GMT",
+    "text": "코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" - v.daum.net  코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" &nbsp;&nbsp; v.daum.net "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -243,31 +263,11 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" - v.daum.net",
-    "summary": "코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" &nbsp;&nbsp; v.daum.net",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tZlZQa2lwMlpOZVlMYnd0TE1uZlQtdU1DeGNSNGcxZ2tVVU9zNjZvVkl0MElDdDFrUDI2MC16bnhUSmVIMk5HbFFvNFpLeEk?oc=5",
-    "published_at": "Sun, 07 Jun 2026 19:45:00 GMT",
-    "text": "코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" - v.daum.net  코스피, 너무 빨리 올랐나...\"글로벌 펀드들, 한국 증시 하락 방어 시작\" &nbsp;&nbsp; v.daum.net "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 - 조선일보",
-    "summary": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 &nbsp;&nbsp; 조선일보",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FYXNfRGhzMkxFUEM1cElEaG51Nm1OeGw3Rk9HNWw3UGczV3pGazA2ZlJMblM5ejFuQU0xVGlkT21XX1RaaS1aWUktNlhob2RCVmpRdjRrdWdBdkVPX3Z1c25rRzc2dmRSbGfSAW5BVV95cUxNcTJrVW9SalNWZk4xTHVLSDZLNG9zR3BXaFBpckRJWXMzdXo4R1FJbTlUT0NuSVEzUzRpUHZLYUQxM0JzblFMWVh4TWVUMnpmbTYybkRHZngtQXlLOWRpRURvNFdRaFBza0ZPb2I1QQ?oc=5",
-    "published_at": "Sun, 07 Jun 2026 13:45:00 GMT",
-    "text": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 - 조선일보  '검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 &nbsp;&nbsp; 조선일보 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "美 반도체 폭락·치솟는 환율…\"검은 월요일\" vs \"비중확대 기회\" - 뉴스1",
-    "summary": "美 반도체 폭락·치솟는 환율…\"검은 월요일\" vs \"비중확대 기회\" &nbsp;&nbsp; 뉴스1",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QbEtCOHZmOVFiZFZnWFQwUnY1Mlk5VkRJaS1qQW1waGVJamQteHpSZFQ2RXdkbkpzLUFxTTMyZTlqRmtVclJLd3NyNWVOLVN4ZmRMWGlSRVk1T05VdTkw?oc=5",
-    "published_at": "Sun, 07 Jun 2026 02:38:18 GMT",
-    "text": "美 반도체 폭락·치솟는 환율…\"검은 월요일\" vs \"비중확대 기회\" - 뉴스1  美 반도체 폭락·치솟는 환율…\"검은 월요일\" vs \"비중확대 기회\" &nbsp;&nbsp; 뉴스1 "
+    "title": "靑 정책실장의 1년 소회...“역대급 기업실적·코스피·환율, 좋은 일도 어려운 일도 가보지 않은 낯선 과제” - 문화일보",
+    "summary": "靑 정책실장의 1년 소회...“역대급 기업실적·코스피·환율, 좋은 일도 어려운 일도 가보지 않은 낯선 과제” &nbsp;&nbsp; 문화일보",
+    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1DVFNmZkV2allEaVlsOGhvVjJfa0R2eW95eU40N0JmMmZ3c01iNXpnOHpKTXpsSVBfeDlnS2MySFFmOEVzM1FUdS1PUmNIOThL?oc=5",
+    "published_at": "Sun, 07 Jun 2026 20:35:57 GMT",
+    "text": "靑 정책실장의 1년 소회...“역대급 기업실적·코스피·환율, 좋은 일도 어려운 일도 가보지 않은 낯선 과제” - 문화일보  靑 정책실장의 1년 소회...“역대급 기업실적·코스피·환율, 좋은 일도 어려운 일도 가보지 않은 낯선 과제” &nbsp;&nbsp; 문화일보 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -413,10 +413,10 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Meta Platforms Stock (META) Opinions on AI Spending and Growth Prospects - Quiver Quantitative",
-    "summary": "Meta Platforms Stock (META) Opinions on AI Spending and Growth Prospects &nbsp;&nbsp; Quiver Quantitative",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbW96dVVqTDdTZGFkUEJkNGFtbkhmckdNTHhueHdRdTNaMWIzTDNCeTdUWEh5blRYb0g1eEFtQ1JOMWdxdnN3Y2M5Tjg1cGs3bE9GNmtfT1h2ZzNTQVRNLWdmWWxWcjJzUUFIMzdXcWxJa1MwUlo2SFN4bV82bjByLUJtSWE4Yk1HamdlVHdLTUNYSnIySVZOeC1BZkdLR3RQQU03bEc1SzJUOVJvc1E?oc=5",
-    "published_at": "Sun, 07 Jun 2026 14:03:00 GMT",
-    "text": "Meta Platforms Stock (META) Opinions on AI Spending and Growth Prospects - Quiver Quantitative  Meta Platforms Stock (META) Opinions on AI Spending and Growth Prospects &nbsp;&nbsp; Quiver Quantitative "
+    "title": "If You Invested $10,000 in Meta Platforms Stock 10 Years Ago, Here's How Much You'd Have Today - The Motley Fool",
+    "summary": "If You Invested $10,000 in Meta Platforms Stock 10 Years Ago, Here's How Much You'd Have Today &nbsp;&nbsp; The Motley Fool",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMlN6NTlxZkc3SmdvaExaMXYtQ0l4M2ZRYnFkZGRYOVRjZUR0a3hEaTJWOHZ3MmM0RmwxaEdUbVlCb01WV01mLUZyWk9BbmF3ZlNQUWFJd3Q1MXN1bno1UWpMMXdybFJpdWgzcnFhVHZsYTJSTll3SmVlUldXSHdwVzR0VVp0UHFzR1E4NW4zdi1zb1k?oc=5",
+    "published_at": "Sun, 07 Jun 2026 17:49:15 GMT",
+    "text": "If You Invested $10,000 in Meta Platforms Stock 10 Years Ago, Here's How Much You'd Have Today - The Motley Fool  If You Invested $10,000 in Meta Platforms Stock 10 Years Ago, Here's How Much You'd Have Today &nbsp;&nbsp; The Motley Fool "
   }
 ]
