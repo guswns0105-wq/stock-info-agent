@@ -5,6 +5,18 @@
     "source_role": "macro_context",
     "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
     "region": "domestic",
+    "title": "삼성전자와 SK하이닉스를 흔든 엔비디아 SOCAMM 이슈가 뭘까?",
+    "summary": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 양쪽에서 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이터센터.......",
+    "url": "https://blog.naver.com/ranto28/224307440861?fromRss=true&trackingCode=rss",
+    "published_at": "Mon, 08 Jun 2026 00:10:00 +0900",
+    "text": "삼성전자와 SK하이닉스를 흔든 엔비디아 SOCAMM 이슈가 뭘까? '브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 양쪽에서 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이터센터.......  "
+  },
+  {
+    "source": "메르의 블로그",
+    "source_type": "naver_blog_feed",
+    "source_role": "macro_context",
+    "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
+    "region": "domestic",
     "title": "구글 초대형 유상증자의 속사정(feat OpenAI,스페이스X,엔트로픽)",
     "summary": "2026년 6월 1일, 알파벳(구글)은 800억달러의 유상증자를 발표했다. 미국 기업 역사상 최대규모의 유상증자다. 구글이 유상증자를 발표하자 시장의 돈은 구글로 몰렸다. 6월 1일에 800억달러 유상증자를 발표했는데, 하루만에 사겠다는 수요자가 847억달러까지 나온 것이다. 구글은 유상증자 금액을 800억달러에서 847억달러로 증액했다. 구글은 직전 1년간 영업에서 나오는 현금흐름만 1,740억달러라 돈을 못버는 기업이 아니다. 돈을 잘 버는 구글이 유상증자를 해서 돈을 마련한다는 것이 이상 할 수 있다. 구글의 유상증자 이유는 다양하게 해석할 수 있다. 정파적인 해석은 다음과 같다. 구글은 AI 설비투자(CAPEX)를 확대하고 있다. 2024년.......",
     "url": "https://blog.naver.com/ranto28/224308296478?fromRss=true&trackingCode=rss",
@@ -46,18 +58,6 @@
     "url": "https://blog.naver.com/ranto28/224306532703?fromRss=true&trackingCode=rss",
     "published_at": "Sat, 06 Jun 2026 00:10:00 +0900",
     "text": "미국이 한국에 12.5% 관세를 때리겠다는데, 이것이 끝이 아닌 이유 1년전인 2025년 4월, 미국이 특이한 행보를 보여서 블로그에 글을 올리며 주목한 적이 있었다. 2025년 4월 3일, 미국 관세청 홈페이지에 아래와 같은 공지 하나가 올라와서였다. 미국 관세국경 보호청(CBP)이 \"한국 신안의 태평염전에서 강제노동이 이뤄지고 있다\"라고 판단해서, 태평염전에서 생산된 천일염을 세관에서 압류하는 인도보류명령(WRO)을 시행한 것이다. CBP는 태평염전을 조사하는 과정에서 다음과 같은 강제노동 상황을 확인했다며 다음과 같이 발표했다. \"이동제한, 신분증 압수, 생활 및 노동조건이 학대수준, 협박 및 위협, 신체적 폭력, 채무로 인한 노예계약, 임금체불, 과도한 초과근무등\" \"강제.......  "
-  },
-  {
-    "source": "메르의 블로그",
-    "source_type": "naver_blog_feed",
-    "source_role": "macro_context",
-    "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
-    "region": "domestic",
-    "title": "젠슨 황, 회식의 비밀 (feat 형님 저요)",
-    "summary": "젠슨 황이 이 기업을 선택한 이유 A/S : 네이버 블로그 젠슨 황의 성수동 삼겹살 회동에 대해서 아래와 같이 이야기 했다. 젠슨 황이 최태원(SK), 정의선(현대차),구광모(LG),이해진(네이버)등과 5일 성수동에서 삼겹살 회동을 할 것이라는 기사가 나오고있다. 이번에는 깐부치킨이 아니라, 삼겹살에 폭탄주가 이슈가 될 것 같다. © 공원남, 출처 OGQ 한줄 코멘트. 두산 베어스 시구로 추정을 해봤는데, 틀리지 않은것 같다. 요즘 뇌피셜 타율이 좀 높은듯...성수동 삼겹살이면 잠수교집인데 이름이 좀 그렇다. \"어느 식당을 갈까?\"와 \"삼겹살은 누가 구울까?\" 가 궁금해진다. 오늘 삼겹살집이 확정된 것같다. 이동 동선이나.......",
-    "url": "https://blog.naver.com/ranto28/224306629430?fromRss=true&trackingCode=rss",
-    "published_at": "Fri, 05 Jun 2026 11:02:06 +0900",
-    "text": "젠슨 황, 회식의 비밀 (feat 형님 저요) 젠슨 황이 이 기업을 선택한 이유 A/S : 네이버 블로그 젠슨 황의 성수동 삼겹살 회동에 대해서 아래와 같이 이야기 했다. 젠슨 황이 최태원(SK), 정의선(현대차),구광모(LG),이해진(네이버)등과 5일 성수동에서 삼겹살 회동을 할 것이라는 기사가 나오고있다. 이번에는 깐부치킨이 아니라, 삼겹살에 폭탄주가 이슈가 될 것 같다. © 공원남, 출처 OGQ 한줄 코멘트. 두산 베어스 시구로 추정을 해봤는데, 틀리지 않은것 같다. 요즘 뇌피셜 타율이 좀 높은듯...성수동 삼겹살이면 잠수교집인데 이름이 좀 그렇다. \"어느 식당을 갈까?\"와 \"삼겹살은 누가 구울까?\" 가 궁금해진다. 오늘 삼겹살집이 확정된 것같다. 이동 동선이나.......  "
   },
   {
     "source": "마술토끼의 투자이야기",
@@ -173,6 +173,16 @@
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
+    "title": "Why Short-Term Oil Volatility Is Giving Long-Term Investors a Once-in-a-Generation Gift to Buy ExxonMobil for Good",
+    "summary": "",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/why-short-term-oil-volatility-155035544.html",
+    "published_at": "2026-06-07T15:50:35Z",
+    "text": "Why Short-Term Oil Volatility Is Giving Long-Term Investors a Once-in-a-Generation Gift to Buy ExxonMobil for Good "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
     "title": "Is eBay Inc. (EBAY) A Good Stock To Buy Now?",
     "summary": "",
     "url": "https://finance.yahoo.com/markets/stocks/articles/ebay-inc-ebay-good-stock-145946430.html",
@@ -208,16 +218,6 @@
     "url": "https://finance.yahoo.com/markets/stocks/articles/ouster-inc-oust-good-stock-145849403.html",
     "published_at": "2026-06-07T14:58:49Z",
     "text": "Is Ouster, Inc. (OUST) A Good Stock To Buy Now? "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Is Everpure, Inc. (P) A Good Stock To Buy Now?",
-    "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/everpure-inc-p-good-stock-145834619.html",
-    "published_at": "2026-06-07T14:58:34Z",
-    "text": "Is Everpure, Inc. (P) A Good Stock To Buy Now? "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -283,16 +283,6 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
-    "title": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 - 땅집고",
-    "summary": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 &nbsp;&nbsp; 땅집고",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHRHlMMV92cVJNODQyS3ZpdTJqakktY1VyZUpiWktjSFZ0U1Atcy01Ty03UnR4NnhZc004dnRDNnhUcjlSa1owOFlTdHJWdUR1QzRvRzN2STBoZGdpNzVqQ3BSX3BTdDhxOEhWRHMwY2x2alpwdG16emhLWFZtcnPSAXNBVV95cUxOaGdrOUdzS041WjlyUXgxSXJRazJnUm1NU1lCR296cF9UVHg5bGk0R3RCYThJRUlGZzhzSGhxeXdZcDhkRDk1MUd5bExfQmRDeVp5QldpbU9GREJnWjVVQmpSTjJsMGtSOEU3V2hGbUxfS29V?oc=5",
-    "published_at": "Sat, 06 Jun 2026 21:00:00 GMT",
-    "text": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 - 땅집고  꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 &nbsp;&nbsp; 땅집고 "
-  },
-  {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "삼전·닉스 담으니 ‘스타 ETF’···10대 운용사 최대 상품 보니 - 시사저널e",
     "summary": "삼전·닉스 담으니 ‘스타 ETF’···10대 운용사 최대 상품 보니 &nbsp;&nbsp; 시사저널e",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14Vng5ZlBMWnNfSndsbVJKbVA2OTRjVm9JYm9QX2g3b2pYVE9nb0VVdEpwYktxZFY1clJ2dDNmNkNfWDlWUU5veUthdnkxa2xrRWFOZEtBOG12UHVtQTBLOTVob2NwN3U3bDQzWVhaaHQ5SXBibVHSAXZBVV95cUxNeFZ4OWZQTFpzX0p3bG1SSm1QNjk0Y1ZvSWJvUF9oN29qWFRPZ29FVXRKcGJLcWRWNXJSdnQzZjZDX1g5VlFOb3lLYXZ5MWtsa0VhTmRLQThtdlB1bUEwSzk1aG9jcDd1N2w0M1lYWmh0OUlwYm1R?oc=5",
@@ -303,9 +293,19 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
+    "title": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 - 땅집고",
+    "summary": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 &nbsp;&nbsp; 땅집고",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHRHlMMV92cVJNODQyS3ZpdTJqakktY1VyZUpiWktjSFZ0U1Atcy01Ty03UnR4NnhZc004dnRDNnhUcjlSa1owOFlTdHJWdUR1QzRvRzN2STBoZGdpNzVqQ3BSX3BTdDhxOEhWRHMwY2x2alpwdG16emhLWFZtcnPSAXNBVV95cUxOaGdrOUdzS041WjlyUXgxSXJRazJnUm1NU1lCR296cF9UVHg5bGk0R3RCYThJRUlGZzhzSGhxeXdZcDhkRDk1MUd5bExfQmRDeVp5QldpbU9GREJnWjVVQmpSTjJsMGtSOEU3V2hGbUxfS29V?oc=5",
+    "published_at": "Sat, 06 Jun 2026 21:00:00 GMT",
+    "text": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 - 땅집고  꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 &nbsp;&nbsp; 땅집고 "
+  },
+  {
+    "source": "Google News 한국 주식 종목",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net",
     "summary": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net",
-    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5Ba0dCU3FPMmV3dlRhZUgyVC1vNDZCZUxSVlZpUzAySDNFMVhMQXRUM1lVWlJJel9tY0dKc2VEbExMZ3VMRVE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhcnR1OFZicWlkTkFoOFBnUm42RGN3Zjh2VjdhRHVtTXktdDR6XzFHQmJSLTZsUHY2QW9iMGNsTW1RWDhsSmZzNXhRY1hsUkE?oc=5",
     "published_at": "Fri, 05 Jun 2026 05:49:03 GMT",
     "text": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net  \"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net "
   },
@@ -343,21 +343,21 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs",
-    "summary": "How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5",
-    "published_at": "Fri, 22 May 2026 07:00:00 GMT",
-    "text": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs  How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs "
+    "title": "U.S. Semiconductor Shock, High Exchange Rate Spark 'Black Monday' Fears - 조선일보",
+    "summary": "U.S. Semiconductor Shock, High Exchange Rate Spark 'Black Monday' Fears &nbsp;&nbsp; 조선일보",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdXNvSDF3SjNKN3lBbXQ0M0pzcEFnUFdUekRkNkE0Si1TYmRQV1dWOHdETHhHZmJYS1VRSGxPY0ppdTNlUzd5eDFRU2VPUHhBRndkeXBWMVRkeFo3dGJoQzdjSjEwbGtGRktQdEhKYUtSS3JTeU85MnYtNUVOVy1JcUtjZm1tOHpEN05uWnN3?oc=5",
+    "published_at": "Sun, 07 Jun 2026 15:33:08 GMT",
+    "text": "U.S. Semiconductor Shock, High Exchange Rate Spark 'Black Monday' Fears - 조선일보  U.S. Semiconductor Shock, High Exchange Rate Spark 'Black Monday' Fears &nbsp;&nbsp; 조선일보 "
   },
   {
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "A Look At Lattice Semiconductor (LSCC) Valuation After Nvidia’s Computex AI Demand Boost - simplywall.st",
-    "summary": "A Look At Lattice Semiconductor (LSCC) Valuation After Nvidia’s Computex AI Demand Boost &nbsp;&nbsp; simplywall.st",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdnpDeUZKQWM3Qk1MTjVSNjJDbnVBMVU2dm92WXVqN2ptVFQ3MV8zUk96dDE5SzBYUFpyMkEzaDhPNk9VeUV1RlYyYmZ5VThabGhHUk5YbEVzRWdaOHBYdjlmb0FubnZoZUFYdjdSV3JtX1FSZjFfeUEwYkZiSzFFOEszbmNua2JpRlFZUHZ4SnI4VmhQRUJlTU14NlJzS0NxQk1wN2lnU2NkWjlyRDV1Y1lSX3JkM3JPT3k3YlVEOWZxNTdCQXFOQzR0TXQ0UVJDVkZSTTQ1a25tMExKTXBn0gHkAUFVX3lxTE9hUm5wTE9fT3UyTlhnemFxaUtDVWVhLWtOOWpKYlBjM0RnVzNaX3k2RGVYX3JuNXd1am11bzY4QmxRRlg2RE5WczZIeEt5N0lfcXJuN0FVZWQ0WjRfRzRUcHMxdmdGc0xSZV9KTExrQnZfNUhSSHk2bVJ4LTlfaU5UczdScGNLai1TdzhBa1EtMnQ5TkdxOXZYMWFfd3NlWFAyaGhJVnJDLWZicndjWTNNZ0dJRF92MnZxNFZGc0tSR0JmSTdfZGVCanNpc0FGcTZCUEp5VG5jUHZQQzlqMXJNSnUtQQ?oc=5",
-    "published_at": "Sat, 06 Jun 2026 21:33:08 GMT",
-    "text": "A Look At Lattice Semiconductor (LSCC) Valuation After Nvidia’s Computex AI Demand Boost - simplywall.st  A Look At Lattice Semiconductor (LSCC) Valuation After Nvidia’s Computex AI Demand Boost &nbsp;&nbsp; simplywall.st "
+    "title": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs",
+    "summary": "How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX1ZVMWdIVnpxZ3Y5UGpXRldRV3RRMEpKTnVqSnNuWmJHcENVOGJjXzJQcUtQTnFzQUNtRDkxb1VFbHhwdGdlRTg2Z05aM1VvSTNHeDdUNTN0N1RQWlYxYVhoMnFMSGs0YlUzcTJnVHpMRm1KTUk4cHp0czNJekxqeS1SSFptUGVDV2lFRk5iUVVhT3IweE40Y2djZw?oc=5",
+    "published_at": "Fri, 22 May 2026 07:00:00 GMT",
+    "text": "How Hedge Funds Are Trading Semiconductor Stocks - Goldman Sachs  How Hedge Funds Are Trading Semiconductor Stocks &nbsp;&nbsp; Goldman Sachs "
   },
   {
     "source": "Google News US Markets AI Semis",
