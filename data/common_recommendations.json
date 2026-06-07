@@ -6868,9 +6868,9 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
-        "title": "다우존스 선물: 시장 반등이 첫 번째 실제 시험에 직면할 때 해야 할 일; SpaceX IPO, 애플, 오라클 룸",
+        "title": "시장 랠리의 첫 번째 실제 테스트 중 다우존스 선물 만기; SpaceX IPO, Apple, Oracle 앞두고",
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-what-to-do-market-rally-test-spacex-ipo-apple-oracle/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-06T15:47:52Z",
+        "published_at": "2026-06-07T19:41:50Z",
         "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -7446,9 +7446,9 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
-        "title": "다우존스 선물: 시장 반등이 첫 번째 실제 시험에 직면할 때 해야 할 일; SpaceX IPO, 애플, 오라클 룸",
+        "title": "시장 랠리의 첫 번째 실제 테스트 중 다우존스 선물 만기; SpaceX IPO, Apple, Oracle 앞두고",
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-what-to-do-market-rally-test-spacex-ipo-apple-oracle/?src=A00220&yptr=yahoo",
-        "published_at": "2026-06-06T15:47:52Z",
+        "published_at": "2026-06-07T19:41:50Z",
         "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -7578,6 +7578,70 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "ocr_only"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "COIN",
+    "name": "Coinbase",
+    "sources": [
+      "Yahoo Finance Top Stories",
+      "월가아재의 과학적 투자"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Cathie Wood의 ARK는 Archer와 Baidu를 정리하면서 Coinbase와 Circle을 인수했습니다.",
+        "url": "https://finance.yahoo.com/markets/crypto/articles/cathie-wood-ark-buys-coinbase-194600496.html",
+        "published_at": "2026-06-07T19:46:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "월가아재의 과학적 투자",
+        "source_role": "유튜버",
+        "title": "미국이 인플레를 '방치'하는 속사정",
+        "url": "https://youtu.be/O0-kHcJWClo",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 미국 정부의 큰 그림 'Al 존버' 미국은 정부부채비율을 숨였습니다 FRED VALLEY A =COIN 생산성이 그 인플레이션을 제 하는 수주으로 VALL=Y Al ECOIN 산업이라고 하면 VALLEY AI 미국 정부는 그렇게 볼 수 있지 않다고 보는 거죠 이 시장을 붕괴시키면 안 된다",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
+        "url": "https://finance.yahoo.com/news/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
+        "published_at": "2026-06-04T12:45:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
+        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
+        "published_at": "2026-06-04T12:45:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       }
     ],
     "stance": "복수 출처 추천/관심",
@@ -7763,58 +7827,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "1100달러",
     "buy_zone_summary": "26,850원",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "COIN",
-    "name": "Coinbase",
-    "sources": [
-      "월가아재의 과학적 투자",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "월가아재의 과학적 투자",
-        "source_role": "유튜버",
-        "title": "미국이 인플레를 '방치'하는 속사정",
-        "url": "https://youtu.be/O0-kHcJWClo",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 미국 정부의 큰 그림 'Al 존버' 미국은 정부부채비율을 숨였습니다 FRED VALLEY A =COIN 생산성이 그 인플레이션을 제 하는 수주으로 VALL=Y Al ECOIN 산업이라고 하면 VALLEY AI 미국 정부는 그렇게 볼 수 있지 않다고 보는 거죠 이 시장을 붕괴시키면 안 된다",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
-        "url": "https://finance.yahoo.com/news/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
-        "published_at": "2026-06-04T12:45:00Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Better와 Coinbase는 최초의 암호화폐 지원 기존 모기지를 발행합니다.",
-        "url": "https://finance.yahoo.com/personal-finance/mortgages/article/better-and-coinbase-issue-the-first-crypto-backed-conventional-mortgage-124500216.html",
-        "published_at": "2026-06-04T12:45:00Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {

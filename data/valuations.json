@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T04:26",
+  "generated_at": "2026-06-08T05:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -2090,6 +2090,64 @@
       "fetch_note": ""
     },
     {
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "region": "global",
+      "mention_count": 4,
+      "price": 152.4,
+      "currency": "USD",
+      "pe": 53.227,
+      "forward_pe": 58.066,
+      "pb": 2.978,
+      "roe": 6.686,
+      "profit_margin": 12.736,
+      "eps": null,
+      "fair_value": 79.6777605921073,
+      "watch_buy_price": 65.33576368552798,
+      "ai_buy_price": 65.33576368552798,
+      "ai_sell_price": 152.4,
+      "margin_to_fair_pct": -47.718004860821985,
+      "verdict": "고평가 주의",
+      "action": "65.34 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -3,
+      "technical_score": -2,
+      "ai_score": -7.0,
+      "ai_comment": "출처 언급 4회, 적정가 대비 -47.72% 여력, 하락/약세 추세, ROE 6.69% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 4회"
+      ],
+      "risks": [
+        "PER 부담 58.07배"
+      ],
+      "valuation_basis": [
+        "PER 58.07배 역산 EPS → 기준 PER 22.00배",
+        "PBR 2.98배 → 기준 PBR 2.50배"
+      ],
+      "chart": {
+        "chart_symbol": "COIN",
+        "chart_status": "ok",
+        "sma20": 187.43949966430665,
+        "sma60": 188.47616678873698,
+        "sma120": 198.62683296203613,
+        "ret20_pct": -21.01990324555286,
+        "ret60_pct": -23.274431730536993,
+        "high_52w": 419.7799987792969,
+        "low_52w": 141.08999633789062,
+        "recent_support": 152.39999389648438,
+        "recent_resistance": 216.60000610351562,
+        "volatility_pct": 66.34250258115455,
+        "trend": "하락/약세 추세",
+        "technical_score": -2,
+        "position_52w": 0.04058273911166683
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/COIN",
+        "https://stockanalysis.com/stocks/coin/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "NFLX",
       "name": "Netflix",
       "region": "global",
@@ -2425,64 +2483,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=000810",
         "https://query1.finance.yahoo.com/v8/finance/chart/000810.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "region": "global",
-      "mention_count": 3,
-      "price": 152.4,
-      "currency": "USD",
-      "pe": 53.227,
-      "forward_pe": 58.066,
-      "pb": 2.978,
-      "roe": 6.686,
-      "profit_margin": 12.736,
-      "eps": null,
-      "fair_value": 79.6777605921073,
-      "watch_buy_price": 65.33576368552798,
-      "ai_buy_price": 65.33576368552798,
-      "ai_sell_price": 152.4,
-      "margin_to_fair_pct": -47.718004860821985,
-      "verdict": "고평가 주의",
-      "action": "65.34 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -3,
-      "technical_score": -2,
-      "ai_score": -7.25,
-      "ai_comment": "출처 언급 3회, 적정가 대비 -47.72% 여력, 하락/약세 추세, ROE 6.69% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 3회"
-      ],
-      "risks": [
-        "PER 부담 58.07배"
-      ],
-      "valuation_basis": [
-        "PER 58.07배 역산 EPS → 기준 PER 22.00배",
-        "PBR 2.98배 → 기준 PBR 2.50배"
-      ],
-      "chart": {
-        "chart_symbol": "COIN",
-        "chart_status": "ok",
-        "sma20": 187.43949966430665,
-        "sma60": 188.47616678873698,
-        "sma120": 198.62683296203613,
-        "ret20_pct": -21.01990324555286,
-        "ret60_pct": -23.274431730536993,
-        "high_52w": 419.7799987792969,
-        "low_52w": 141.08999633789062,
-        "recent_support": 152.39999389648438,
-        "recent_resistance": 216.60000610351562,
-        "volatility_pct": 66.34250258115455,
-        "trend": "하락/약세 추세",
-        "technical_score": -2,
-        "position_52w": 0.04058273911166683
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/COIN",
-        "https://stockanalysis.com/stocks/coin/statistics/"
       ],
       "fetch_note": ""
     },
