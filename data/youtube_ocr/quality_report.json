@@ -1,52 +1,77 @@
 {
-  "generated_at": "2026-06-05T14:00",
+  "generated_at": "2026-06-08T00:06",
   "max_per_channel": 8,
   "frames_per_video": 5,
-  "selected_this_run": 64,
-  "processed_this_run": 64,
-  "index_total": 64,
-  "ok_total": 64,
-  "total_ocr_chars": 37508,
+  "selected_this_run": 112,
+  "processed_this_run": 112,
+  "index_total": 155,
+  "ok_total": 153,
+  "total_ocr_chars": 108723,
   "by_source": {
     "경제사냥꾼": {
-      "items": 8,
-      "ok": 8,
-      "chars": 2733
+      "items": 24,
+      "ok": 24,
+      "chars": 9992
     },
     "주식용사부": {
-      "items": 8,
-      "ok": 8,
-      "chars": 4163
+      "items": 10,
+      "ok": 10,
+      "chars": 5365
     },
     "T3chfeed - 테크피드 미국 주식 인사이트": {
-      "items": 8,
-      "ok": 8,
-      "chars": 1588
+      "items": 9,
+      "ok": 9,
+      "chars": 1744
     },
     "마피디 미국주식 (테슬라,TQQQ,SOXL)": {
-      "items": 8,
+      "items": 9,
       "ok": 8,
       "chars": 1929
     },
     "주식쇼퍼 - 투자도 쇼핑처럼": {
-      "items": 8,
-      "ok": 8,
-      "chars": 2926
+      "items": 9,
+      "ok": 9,
+      "chars": 3843
     },
     "월가아재의 과학적 투자": {
-      "items": 8,
-      "ok": 8,
-      "chars": 2892
+      "items": 9,
+      "ok": 9,
+      "chars": 3512
     },
     "올랜도 킴 미국주식": {
-      "items": 8,
-      "ok": 8,
-      "chars": 17774
+      "items": 19,
+      "ok": 19,
+      "chars": 59210
     },
     "강지한 차트연구소": {
+      "items": 16,
+      "ok": 16,
+      "chars": 7696
+    },
+    "월텍남 - 월스트리트 테크남": {
+      "items": 9,
+      "ok": 9,
+      "chars": 2272
+    },
+    "미부기": {
+      "items": 9,
+      "ok": 9,
+      "chars": 2353
+    },
+    "미국 경제 정복하기": {
+      "items": 11,
+      "ok": 11,
+      "chars": 3898
+    },
+    "경제덕후 언쌤": {
       "items": 8,
       "ok": 8,
-      "chars": 3503
+      "chars": 2399
+    },
+    "경제명탐정": {
+      "items": 13,
+      "ok": 12,
+      "chars": 4510
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T09:26",
+  "generated_at": "2026-06-08T00:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -78,9 +78,9 @@
         "ret20_pct": 19.320388349514573,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 39회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 41회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 39회",
+          "출처 언급 41회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
@@ -88,6 +88,34 @@
       },
       {
         "rank": 4,
+        "ticker": "055550",
+        "name": "신한지주",
+        "region": "domestic",
+        "price": 107500.0,
+        "currency": "KRW",
+        "ai_score": 8.5,
+        "verdict": "저평가 후보",
+        "ai_buy_price": 105350.0,
+        "ai_sell_price": 196607.15869565218,
+        "fair_value": 187244.91304347827,
+        "pe": 4.78,
+        "pb": 0.38,
+        "roe": 8.36,
+        "trend": "상승 추세",
+        "ret20_pct": 10.483042137718401,
+        "support": 87700.0,
+        "resistance": 107500.0,
+        "comment": "출처 언급 2회, 적정가 대비 74.18% 여력, 상승 추세, ROE 8.36% 기준으로 산정했습니다.",
+        "why": [
+          "ROE 8.36%",
+          "PER가 기준보다 낮음",
+          "PBR 0.38배",
+          "차트: 상승 추세"
+        ],
+        "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
+      },
+      {
+        "rank": 5,
         "ticker": "105560",
         "name": "KB금융",
         "region": "domestic",
@@ -113,34 +141,6 @@
           "차트: 상승 추세"
         ],
         "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
-      },
-      {
-        "rank": 5,
-        "ticker": "000810",
-        "name": "삼성화재",
-        "region": "domestic",
-        "price": 695000.0,
-        "currency": "KRW",
-        "ai_score": 7.75,
-        "verdict": "저평가 후보",
-        "ai_buy_price": 681100.0,
-        "ai_sell_price": 980306.6231568999,
-        "fair_value": 933625.3553875237,
-        "pe": 7.31,
-        "pb": 0.69,
-        "roe": 12.73,
-        "trend": "상승 추세",
-        "ret20_pct": 44.64099895941727,
-        "support": 440500.0,
-        "resistance": 730000.0,
-        "comment": "출처 언급 3회, 적정가 대비 34.33% 여력, 상승 추세, ROE 12.73% 기준으로 산정했습니다.",
-        "why": [
-          "출처 언급 3회",
-          "ROE 12.73%",
-          "PER가 기준보다 낮음",
-          "차트: 상승 추세"
-        ],
-        "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
       }
     ],
     "global": [
@@ -163,9 +163,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 26회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 28회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 26회",
+          "출처 언급 28회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -191,9 +191,9 @@
         "ret20_pct": 0.24628905433972115,
         "support": 316.5,
         "resistance": 446.69000244140625,
-        "comment": "출처 언급 12회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+        "comment": "출처 언급 13회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 12회",
+          "출처 언급 13회",
           "ROE 36.21%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -247,9 +247,9 @@
         "ret20_pct": -3.860183468626721,
         "support": 525.719970703125,
         "resistance": 688.5499877929688,
-        "comment": "출처 언급 20회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+        "comment": "출처 언급 22회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 20회",
+          "출처 언급 22회",
           "ROE 32.93%",
           "PER가 기준보다 낮음",
           "차트: 하락/약세 추세"
@@ -361,9 +361,9 @@
         "ret20_pct": 19.320388349514573,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 39회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 41회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 39회",
+          "출처 언급 41회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
@@ -371,6 +371,34 @@
       },
       {
         "rank": 4,
+        "ticker": "055550",
+        "name": "신한지주",
+        "region": "domestic",
+        "price": 107500.0,
+        "currency": "KRW",
+        "ai_score": 8.5,
+        "verdict": "저평가 후보",
+        "ai_buy_price": 105350.0,
+        "ai_sell_price": 196607.15869565218,
+        "fair_value": 187244.91304347827,
+        "pe": 4.78,
+        "pb": 0.38,
+        "roe": 8.36,
+        "trend": "상승 추세",
+        "ret20_pct": 10.483042137718401,
+        "support": 87700.0,
+        "resistance": 107500.0,
+        "comment": "출처 언급 2회, 적정가 대비 74.18% 여력, 상승 추세, ROE 8.36% 기준으로 산정했습니다.",
+        "why": [
+          "ROE 8.36%",
+          "PER가 기준보다 낮음",
+          "PBR 0.38배",
+          "차트: 상승 추세"
+        ],
+        "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
+      },
+      {
+        "rank": 5,
         "ticker": "105560",
         "name": "KB금융",
         "region": "domestic",
@@ -398,34 +426,6 @@
         "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
       },
       {
-        "rank": 5,
-        "ticker": "000810",
-        "name": "삼성화재",
-        "region": "domestic",
-        "price": 695000.0,
-        "currency": "KRW",
-        "ai_score": 7.75,
-        "verdict": "저평가 후보",
-        "ai_buy_price": 681100.0,
-        "ai_sell_price": 980306.6231568999,
-        "fair_value": 933625.3553875237,
-        "pe": 7.31,
-        "pb": 0.69,
-        "roe": 12.73,
-        "trend": "상승 추세",
-        "ret20_pct": 44.64099895941727,
-        "support": 440500.0,
-        "resistance": 730000.0,
-        "comment": "출처 언급 3회, 적정가 대비 34.33% 여력, 상승 추세, ROE 12.73% 기준으로 산정했습니다.",
-        "why": [
-          "출처 언급 3회",
-          "ROE 12.73%",
-          "PER가 기준보다 낮음",
-          "차트: 상승 추세"
-        ],
-        "risk_comment": "과열 추격 금지, 적정매수가 이탈 시만 분할 접근. 실적·공시 확인 필요."
-      },
-      {
         "rank": 1,
         "ticker": "MU",
         "name": "Micron",
@@ -444,9 +444,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 26회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 28회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 26회",
+          "출처 언급 28회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -472,9 +472,9 @@
         "ret20_pct": 0.24628905433972115,
         "support": 316.5,
         "resistance": 446.69000244140625,
-        "comment": "출처 언급 12회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+        "comment": "출처 언급 13회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 12회",
+          "출처 언급 13회",
           "ROE 36.21%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -528,9 +528,9 @@
         "ret20_pct": -3.860183468626721,
         "support": 525.719970703125,
         "resistance": 688.5499877929688,
-        "comment": "출처 언급 20회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+        "comment": "출처 언급 22회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 20회",
+          "출처 언급 22회",
           "ROE 32.93%",
           "PER가 기준보다 낮음",
           "차트: 하락/약세 추세"
@@ -569,10 +569,68 @@
   },
   "valuations": [
     {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "region": "global",
+      "mention_count": 101,
+      "price": 205.1,
+      "currency": "USD",
+      "pe": 31.411,
+      "forward_pe": 20.637,
+      "pb": 25.414,
+      "roe": 114.288,
+      "profit_margin": 62.966,
+      "eps": null,
+      "fair_value": 256.0648298284208,
+      "watch_buy_price": 209.97316045930503,
+      "ai_buy_price": 200.998,
+      "ai_sell_price": 268.8680713198418,
+      "margin_to_fair_pct": 24.848771247401658,
+      "verdict": "저평가 후보",
+      "action": "210.0 USD 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 6,
+      "technical_score": 2,
+      "ai_score": 11,
+      "ai_comment": "출처 언급 101회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 101회",
+        "ROE 114.3%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 20.64배 역산 EPS → 기준 PER 36.00배",
+        "PBR 25.41배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "NVDA",
+        "chart_status": "ok",
+        "sma20": 219.1045021057129,
+        "sma60": 199.3678337097168,
+        "sma120": 192.121750386556,
+        "ret20_pct": -3.026004728132392,
+        "ret60_pct": 10.251035502788696,
+        "high_52w": 235.74000549316406,
+        "low_52w": 141.72000122070312,
+        "recent_support": 165.1699981689453,
+        "recent_resistance": 235.74000549316406,
+        "volatility_pct": 40.22300020822184,
+        "trend": "중립 추세",
+        "technical_score": 2,
+        "position_52w": 0.6741118474705418
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+        "https://stockanalysis.com/stocks/nvda/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 98,
+      "mention_count": 101,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -592,9 +650,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 98회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 101회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 98회"
+        "출처 언급 101회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -629,68 +687,10 @@
       "fetch_note": ""
     },
     {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "region": "global",
-      "mention_count": 96,
-      "price": 205.1,
-      "currency": "USD",
-      "pe": 31.411,
-      "forward_pe": 20.637,
-      "pb": 25.414,
-      "roe": 114.288,
-      "profit_margin": 62.966,
-      "eps": null,
-      "fair_value": 256.0648298284208,
-      "watch_buy_price": 209.97316045930503,
-      "ai_buy_price": 200.998,
-      "ai_sell_price": 268.8680713198418,
-      "margin_to_fair_pct": 24.848771247401658,
-      "verdict": "저평가 후보",
-      "action": "210.0 USD 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 6,
-      "technical_score": 2,
-      "ai_score": 11,
-      "ai_comment": "출처 언급 96회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 96회",
-        "ROE 114.3%",
-        "PER가 기준보다 낮음"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 20.64배 역산 EPS → 기준 PER 36.00배",
-        "PBR 25.41배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "NVDA",
-        "chart_status": "ok",
-        "sma20": 219.1045021057129,
-        "sma60": 199.3678337097168,
-        "sma120": 192.121750386556,
-        "ret20_pct": -3.026004728132392,
-        "ret60_pct": 10.251035502788696,
-        "high_52w": 235.74000549316406,
-        "low_52w": 141.72000122070312,
-        "recent_support": 165.1699981689453,
-        "recent_resistance": 235.74000549316406,
-        "volatility_pct": 40.22300020822184,
-        "trend": "중립 추세",
-        "technical_score": 2,
-        "position_52w": 0.6741118474705418
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
-        "https://stockanalysis.com/stocks/nvda/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
       "ticker": "TSLA",
       "name": "Tesla",
       "region": "global",
-      "mention_count": 43,
+      "mention_count": 45,
       "price": 391.0,
       "currency": "USD",
       "pe": 380.24,
@@ -710,9 +710,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 43회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 45회, 적정가 대비 -87.18% 여력, 중립 추세, ROE 4.90% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 43회"
+        "출처 언급 45회"
       ],
       "risks": [
         "ROE 낮음 4.90%",
@@ -749,7 +749,7 @@
       "ticker": "000660",
       "name": "SK하이닉스",
       "region": "domestic",
-      "mention_count": 40,
+      "mention_count": 41,
       "price": 2070000.0,
       "currency": "KRW",
       "pe": 6.4,
@@ -769,9 +769,9 @@
       "score": 3,
       "technical_score": 2,
       "ai_score": 6,
-      "ai_comment": "출처 언급 40회, 적정가 대비 -32.66% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 41회, 적정가 대비 -32.66% 여력, 상승 추세, ROE 31.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 40회",
+        "출처 언급 41회",
         "ROE 31.06%",
         "PER가 기준보다 낮음"
       ],
@@ -808,7 +808,7 @@
       "ticker": "003550",
       "name": "LG",
       "region": "domestic",
-      "mention_count": 39,
+      "mention_count": 41,
       "price": 122900.0,
       "currency": "KRW",
       "pe": 10.92,
@@ -828,9 +828,9 @@
       "score": 3,
       "technical_score": 3,
       "ai_score": 9,
-      "ai_comment": "출처 언급 39회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 41회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 39회",
+        "출처 언급 41회",
         "PBR 0.51배"
       ],
       "risks": [
@@ -867,7 +867,7 @@
       "ticker": "MU",
       "name": "Micron",
       "region": "global",
-      "mention_count": 26,
+      "mention_count": 28,
       "price": 864.01,
       "currency": "USD",
       "pe": 40.645,
@@ -887,9 +887,9 @@
       "score": 7,
       "technical_score": 2,
       "ai_score": 12,
-      "ai_comment": "출처 언급 26회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 28회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 26회",
+        "출처 언급 28회",
         "ROE 39.82%",
         "PER가 기준보다 낮음"
       ],
@@ -982,6 +982,64 @@
       "fetch_note": ""
     },
     {
+      "ticker": "META",
+      "name": "Meta",
+      "region": "global",
+      "mention_count": 22,
+      "price": 593.0,
+      "currency": "USD",
+      "pe": 21.572,
+      "forward_pe": 18.067,
+      "pb": 6.176,
+      "roe": 32.93,
+      "profit_margin": 32.837,
+      "eps": null,
+      "fair_value": 977.5029222509708,
+      "watch_buy_price": 801.552396245796,
+      "ai_buy_price": 581.14,
+      "ai_sell_price": 1026.3780683635193,
+      "margin_to_fair_pct": 64.84029043018056,
+      "verdict": "저평가 후보",
+      "action": "801.6 USD 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 7,
+      "technical_score": 0,
+      "ai_score": 10,
+      "ai_comment": "출처 언급 22회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 22회",
+        "ROE 32.93%",
+        "PER가 기준보다 낮음"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 18.07배 역산 EPS → 기준 PER 38.00배",
+        "PBR 6.18배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "META",
+        "chart_status": "ok",
+        "sma20": 612.7174987792969,
+        "sma60": 618.0988321940105,
+        "sma120": 637.0885818481445,
+        "ret20_pct": -3.860183468626721,
+        "ret60_pct": -9.446291838758913,
+        "high_52w": 790.0,
+        "low_52w": 525.719970703125,
+        "recent_support": 525.719970703125,
+        "recent_resistance": 688.5499877929688,
+        "volatility_pct": 43.54854943032796,
+        "trend": "하락/약세 추세",
+        "technical_score": 0,
+        "position_52w": 0.25457856000650353
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/META",
+        "https://stockanalysis.com/stocks/meta/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "AVGO",
       "name": "Broadcom",
       "region": "global",
@@ -1040,68 +1098,10 @@
       "fetch_note": ""
     },
     {
-      "ticker": "META",
-      "name": "Meta",
-      "region": "global",
-      "mention_count": 20,
-      "price": 593.0,
-      "currency": "USD",
-      "pe": 21.572,
-      "forward_pe": 18.067,
-      "pb": 6.176,
-      "roe": 32.93,
-      "profit_margin": 32.837,
-      "eps": null,
-      "fair_value": 977.5029222509708,
-      "watch_buy_price": 801.552396245796,
-      "ai_buy_price": 581.14,
-      "ai_sell_price": 1026.3780683635193,
-      "margin_to_fair_pct": 64.84029043018056,
-      "verdict": "저평가 후보",
-      "action": "801.6 USD 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 7,
-      "technical_score": 0,
-      "ai_score": 10,
-      "ai_comment": "출처 언급 20회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 20회",
-        "ROE 32.93%",
-        "PER가 기준보다 낮음"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 18.07배 역산 EPS → 기준 PER 38.00배",
-        "PBR 6.18배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "META",
-        "chart_status": "ok",
-        "sma20": 612.7174987792969,
-        "sma60": 618.0988321940105,
-        "sma120": 637.0885818481445,
-        "ret20_pct": -3.860183468626721,
-        "ret60_pct": -9.446291838758913,
-        "high_52w": 790.0,
-        "low_52w": 525.719970703125,
-        "recent_support": 525.719970703125,
-        "recent_resistance": 688.5499877929688,
-        "volatility_pct": 43.54854943032796,
-        "trend": "하락/약세 추세",
-        "technical_score": 0,
-        "position_52w": 0.25457856000650353
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/META",
-        "https://stockanalysis.com/stocks/meta/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
       "region": "global",
-      "mention_count": 17,
+      "mention_count": 18,
       "price": 135.53,
       "currency": "USD",
       "pe": 152.354,
@@ -1121,9 +1121,9 @@
       "score": -1,
       "technical_score": -1,
       "ai_score": -2,
-      "ai_comment": "출처 언급 17회, 적정가 대비 -67.97% 여력, 하락/약세 추세, ROE 32.59% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 18회, 적정가 대비 -67.97% 여력, 하락/약세 추세, ROE 32.59% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 17회",
+        "출처 언급 18회",
         "ROE 32.59%"
       ],
       "risks": [
@@ -1160,7 +1160,7 @@
       "ticker": "009150",
       "name": "삼성전기",
       "region": "domestic",
-      "mention_count": 13,
+      "mention_count": 14,
       "price": 1757000.0,
       "currency": "KRW",
       "pe": 28.11,
@@ -1180,9 +1180,9 @@
       "score": -3,
       "technical_score": 0,
       "ai_score": -3,
-      "ai_comment": "출처 언급 13회, 적정가 대비 -76.44% 여력, 상승 추세, ROE 5.50% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 14회, 적정가 대비 -76.44% 여력, 상승 추세, ROE 5.50% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 13회"
+        "출처 언급 14회"
       ],
       "risks": [
         "PER 부담 28.11배"
@@ -1219,7 +1219,7 @@
       "ticker": "TSM",
       "name": "TSMC",
       "region": "global",
-      "mention_count": 12,
+      "mention_count": 13,
       "price": 415.17,
       "currency": "USD",
       "pe": 32.55,
@@ -1239,9 +1239,9 @@
       "score": 6,
       "technical_score": 3,
       "ai_score": 12,
-      "ai_comment": "출처 언급 12회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 13회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 12회",
+        "출처 언급 13회",
         "ROE 36.21%",
         "PER가 기준보다 낮음"
       ],
@@ -1277,7 +1277,7 @@
       "ticker": "AMD",
       "name": "AMD",
       "region": "global",
-      "mention_count": 11,
+      "mention_count": 12,
       "price": 466.38,
       "currency": "USD",
       "pe": 155.523,
@@ -1296,10 +1296,10 @@
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -2,
       "technical_score": 2,
-      "ai_score": -0.25,
-      "ai_comment": "출처 언급 11회, 적정가 대비 -65.12% 여력, 중립 추세, ROE 8.06% 기준으로 산정했습니다.",
+      "ai_score": 0,
+      "ai_comment": "출처 언급 12회, 적정가 대비 -65.12% 여력, 중립 추세, ROE 8.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 11회",
+        "출처 언급 12회",
         "ROE 8.06%"
       ],
       "risks": [
@@ -1568,6 +1568,65 @@
       "fetch_note": ""
     },
     {
+      "ticker": "ARM",
+      "name": "Arm",
+      "region": "global",
+      "mention_count": 8,
+      "price": 342.93,
+      "currency": "USD",
+      "pe": 405.173,
+      "forward_pe": 158.124,
+      "pb": 44.038,
+      "roe": 11.954,
+      "profit_margin": 18.374,
+      "eps": null,
+      "fair_value": 38.88590930454765,
+      "watch_buy_price": 31.886445629729074,
+      "ai_buy_price": 31.886445629729074,
+      "ai_sell_price": 342.93,
+      "margin_to_fair_pct": -88.66068605705314,
+      "verdict": "고평가 주의",
+      "action": "31.89 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -2,
+      "technical_score": 0,
+      "ai_score": -3.0,
+      "ai_comment": "출처 언급 8회, 적정가 대비 -88.66% 여력, 상승 추세, ROE 11.95% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 8회",
+        "ROE 11.95%"
+      ],
+      "risks": [
+        "PER 부담 158.1배"
+      ],
+      "valuation_basis": [
+        "PER 158.1배 역산 EPS → 기준 PER 22.00배",
+        "PBR 44.04배 → 기준 PBR 2.50배"
+      ],
+      "chart": {
+        "chart_symbol": "ARM",
+        "chart_status": "ok",
+        "sma20": 293.2349998474121,
+        "sma60": 208.16425081888835,
+        "sma120": 162.52004197438558,
+        "ret20_pct": 60.76602312360026,
+        "ret60_pct": 185.5370560840547,
+        "high_52w": 411.8299865722656,
+        "low_52w": 104.55000305175781,
+        "recent_support": 115.12000274658203,
+        "recent_resistance": 411.8299865722656,
+        "volatility_pct": 104.35156497962757,
+        "trend": "상승 추세",
+        "technical_score": 0,
+        "position_52w": 0.7757745695541953
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/ARM",
+        "https://stockanalysis.com/stocks/arm/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "AAPL",
       "name": "Apple",
       "region": "global",
@@ -1621,65 +1680,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
         "https://stockanalysis.com/stocks/aapl/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "ARM",
-      "name": "Arm",
-      "region": "global",
-      "mention_count": 7,
-      "price": 342.93,
-      "currency": "USD",
-      "pe": 405.173,
-      "forward_pe": 158.124,
-      "pb": 44.038,
-      "roe": 11.954,
-      "profit_margin": 18.374,
-      "eps": null,
-      "fair_value": 38.88590930454765,
-      "watch_buy_price": 31.886445629729074,
-      "ai_buy_price": 31.886445629729074,
-      "ai_sell_price": 342.93,
-      "margin_to_fair_pct": -88.66068605705314,
-      "verdict": "고평가 주의",
-      "action": "31.89 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -2,
-      "technical_score": 0,
-      "ai_score": -3.25,
-      "ai_comment": "출처 언급 7회, 적정가 대비 -88.66% 여력, 상승 추세, ROE 11.95% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 7회",
-        "ROE 11.95%"
-      ],
-      "risks": [
-        "PER 부담 158.1배"
-      ],
-      "valuation_basis": [
-        "PER 158.1배 역산 EPS → 기준 PER 22.00배",
-        "PBR 44.04배 → 기준 PBR 2.50배"
-      ],
-      "chart": {
-        "chart_symbol": "ARM",
-        "chart_status": "ok",
-        "sma20": 293.2349998474121,
-        "sma60": 208.16425081888835,
-        "sma120": 162.52004197438558,
-        "ret20_pct": 60.76602312360026,
-        "ret60_pct": 185.5370560840547,
-        "high_52w": 411.8299865722656,
-        "low_52w": 104.55000305175781,
-        "recent_support": 115.12000274658203,
-        "recent_resistance": 411.8299865722656,
-        "volatility_pct": 104.35156497962757,
-        "trend": "상승 추세",
-        "technical_score": 0,
-        "position_52w": 0.7757745695541953
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/ARM",
-        "https://stockanalysis.com/stocks/arm/statistics/"
       ],
       "fetch_note": ""
     },
@@ -1798,6 +1798,67 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=066570",
         "https://query1.finance.yahoo.com/v8/finance/chart/066570.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "032830",
+      "name": "삼성생명",
+      "region": "domestic",
+      "mention_count": 5,
+      "price": 412500.0,
+      "currency": "KRW",
+      "pe": 7.29,
+      "forward_pe": null,
+      "pb": 0.29,
+      "roe": 4.95,
+      "profit_margin": null,
+      "eps": 9477.0,
+      "fair_value": 514500.6656671665,
+      "watch_buy_price": 421890.5458470765,
+      "ai_buy_price": 404250.0,
+      "ai_sell_price": 540225.6989505249,
+      "margin_to_fair_pct": 24.727434101131273,
+      "verdict": "저평가 후보",
+      "action": "421,891 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 4,
+      "technical_score": 0,
+      "ai_score": 5.25,
+      "ai_comment": "출처 언급 5회, 적정가 대비 24.73% 여력, 상승 추세, ROE 4.95% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 5회",
+        "PER가 기준보다 낮음",
+        "PBR 0.29배"
+      ],
+      "risks": [
+        "ROE 낮음 4.95%"
+      ],
+      "valuation_basis": [
+        "EPS/PER 불일치 83.25% → PER 역산 제외",
+        "EPS 9,477 → 기준 PER 12.00배",
+        "PBR 0.29배 → 기준 PBR 0.80배"
+      ],
+      "chart": {
+        "chart_symbol": "032830.KS",
+        "chart_status": "ok",
+        "sma20": 349300.0,
+        "sma60": 273575.0,
+        "sma120": 227184.16666666666,
+        "ret20_pct": 38.42281879194631,
+        "ret60_pct": 105.73566084788028,
+        "high_52w": 480000.0,
+        "low_52w": 116200.0,
+        "recent_support": 210500.0,
+        "recent_resistance": 480000.0,
+        "volatility_pct": 77.77655995927108,
+        "trend": "상승 추세",
+        "technical_score": 0,
+        "position_52w": 0.814458493677845
+      },
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=032830",
+        "https://query1.finance.yahoo.com/v8/finance/chart/032830.KS"
       ],
       "fetch_note": ""
     },
@@ -2025,67 +2086,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=086520",
         "https://query1.finance.yahoo.com/v8/finance/chart/086520.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "032830",
-      "name": "삼성생명",
-      "region": "domestic",
-      "mention_count": 4,
-      "price": 412500.0,
-      "currency": "KRW",
-      "pe": 7.29,
-      "forward_pe": null,
-      "pb": 0.29,
-      "roe": 4.95,
-      "profit_margin": null,
-      "eps": 9477.0,
-      "fair_value": 514500.6656671665,
-      "watch_buy_price": 421890.5458470765,
-      "ai_buy_price": 404250.0,
-      "ai_sell_price": 540225.6989505249,
-      "margin_to_fair_pct": 24.727434101131273,
-      "verdict": "저평가 후보",
-      "action": "421,891 KRW 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 4,
-      "technical_score": 0,
-      "ai_score": 5.0,
-      "ai_comment": "출처 언급 4회, 적정가 대비 24.73% 여력, 상승 추세, ROE 4.95% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 4회",
-        "PER가 기준보다 낮음",
-        "PBR 0.29배"
-      ],
-      "risks": [
-        "ROE 낮음 4.95%"
-      ],
-      "valuation_basis": [
-        "EPS/PER 불일치 83.25% → PER 역산 제외",
-        "EPS 9,477 → 기준 PER 12.00배",
-        "PBR 0.29배 → 기준 PBR 0.80배"
-      ],
-      "chart": {
-        "chart_symbol": "032830.KS",
-        "chart_status": "ok",
-        "sma20": 349300.0,
-        "sma60": 273575.0,
-        "sma120": 227184.16666666666,
-        "ret20_pct": 38.42281879194631,
-        "ret60_pct": 105.73566084788028,
-        "high_52w": 480000.0,
-        "low_52w": 116200.0,
-        "recent_support": 210500.0,
-        "recent_resistance": 480000.0,
-        "volatility_pct": 77.77655995927108,
-        "trend": "상승 추세",
-        "technical_score": 0,
-        "position_52w": 0.814458493677845
-      },
-      "data_sources": [
-        "https://finance.naver.com/item/main.naver?code=032830",
-        "https://query1.finance.yahoo.com/v8/finance/chart/032830.KS"
       ],
       "fetch_note": ""
     },
@@ -2774,6 +2774,65 @@
       "fetch_note": ""
     },
     {
+      "ticker": "055550",
+      "name": "신한지주",
+      "region": "domestic",
+      "mention_count": 2,
+      "price": 107500.0,
+      "currency": "KRW",
+      "pe": 4.78,
+      "forward_pe": null,
+      "pb": 0.38,
+      "roe": 8.36,
+      "profit_margin": null,
+      "eps": 8398.0,
+      "fair_value": 187244.91304347827,
+      "watch_buy_price": 153540.82869565216,
+      "ai_buy_price": 105350.0,
+      "ai_sell_price": 196607.15869565218,
+      "margin_to_fair_pct": 74.18131445904956,
+      "verdict": "저평가 후보",
+      "action": "153,541 KRW 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
+      "score": 6,
+      "technical_score": 2,
+      "ai_score": 8.5,
+      "ai_comment": "출처 언급 2회, 적정가 대비 74.18% 여력, 상승 추세, ROE 8.36% 기준으로 산정했습니다.",
+      "positives": [
+        "ROE 8.36%",
+        "PER가 기준보다 낮음",
+        "PBR 0.38배"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "EPS/PER 불일치 62.66% → PER 역산 제외",
+        "EPS 8,398 → 기준 PER 14.00배",
+        "PBR 0.38배 → 기준 PBR 1.04배"
+      ],
+      "chart": {
+        "chart_symbol": "055550.KS",
+        "chart_status": "ok",
+        "sma20": 96295.0,
+        "sma60": 95636.66666666667,
+        "sma120": 90476.66666666667,
+        "ret20_pct": 10.483042137718401,
+        "ret60_pct": 21.46892655367232,
+        "high_52w": 107500.0,
+        "low_52w": 58600.0,
+        "recent_support": 87700.0,
+        "recent_resistance": 107500.0,
+        "volatility_pct": 37.96940849135682,
+        "trend": "상승 추세",
+        "technical_score": 2,
+        "position_52w": 1.0
+      },
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=055550",
+        "https://query1.finance.yahoo.com/v8/finance/chart/055550.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "VOO",
       "name": "S&P 500 ETF",
       "region": "global",
@@ -2938,6 +2997,63 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=105560",
         "https://query1.finance.yahoo.com/v8/finance/chart/105560.KS"
+      ],
+      "fetch_note": ""
+    },
+    {
+      "ticker": "373220",
+      "name": "LG에너지솔루션",
+      "region": "domestic",
+      "mention_count": 1,
+      "price": 414000.0,
+      "currency": "KRW",
+      "pe": 80.86,
+      "forward_pe": null,
+      "pb": 4.95,
+      "roe": 6.35,
+      "profit_margin": null,
+      "eps": 5287.0,
+      "fair_value": 64799.90513833992,
+      "watch_buy_price": 53135.92221343873,
+      "ai_buy_price": 53135.92221343873,
+      "ai_sell_price": 414000.0,
+      "margin_to_fair_pct": -84.34784900040098,
+      "verdict": "고평가 주의",
+      "action": "53,136 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -5,
+      "technical_score": 2,
+      "ai_score": -5.75,
+      "ai_comment": "출처 언급 1회, 적정가 대비 -84.35% 여력, 중립 추세, ROE 6.35% 기준으로 산정했습니다.",
+      "positives": [],
+      "risks": [
+        "PER 부담 80.86배",
+        "PBR 부담 4.95배"
+      ],
+      "valuation_basis": [
+        "EPS 5,287 → 기준 PER 12.00배",
+        "PBR 4.95배 → 기준 PBR 0.80배"
+      ],
+      "chart": {
+        "chart_symbol": "373220.KS",
+        "chart_status": "ok",
+        "sma20": 428400.0,
+        "sma60": 418933.3333333333,
+        "sma120": 408766.6666666667,
+        "ret20_pct": -14.10788381742739,
+        "ret60_pct": 15.159944367176625,
+        "high_52w": 514000.0,
+        "low_52w": 285000.0,
+        "recent_support": 356000.0,
+        "recent_resistance": 484500.0,
+        "volatility_pct": 62.26566109990193,
+        "trend": "중립 추세",
+        "technical_score": 2,
+        "position_52w": 0.5633187772925764
+      },
+      "data_sources": [
+        "https://finance.naver.com/item/main.naver?code=373220",
+        "https://query1.finance.yahoo.com/v8/finance/chart/373220.KS"
       ],
       "fetch_note": ""
     },
@@ -3227,120 +3343,6 @@
       "data_sources": [
         "https://finance.naver.com/item/main.naver?code=247540",
         "https://query1.finance.yahoo.com/v8/finance/chart/247540.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "011200",
-      "name": "HMM",
-      "region": "domestic",
-      "mention_count": 1,
-      "price": 19450.0,
-      "currency": "KRW",
-      "pe": 10.71,
-      "forward_pe": null,
-      "pb": 0.63,
-      "roe": 4.59,
-      "profit_margin": null,
-      "eps": 1829.0,
-      "fair_value": 23024.248447204973,
-      "watch_buy_price": 18879.883726708078,
-      "ai_buy_price": 19061.0,
-      "ai_sell_price": 24175.460869565224,
-      "margin_to_fair_pct": 18.37659870028263,
-      "verdict": "관심권",
-      "action": "18,880 KRW 부근까지 조정 시 매력 증가",
-      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
-      "score": 2,
-      "technical_score": -1,
-      "ai_score": 1.25,
-      "ai_comment": "출처 언급 1회, 적정가 대비 18.38% 여력, 하락/약세 추세, ROE 4.59% 기준으로 산정했습니다.",
-      "positives": [
-        "PBR 0.63배"
-      ],
-      "risks": [
-        "ROE 낮음 4.59%"
-      ],
-      "valuation_basis": [
-        "EPS 1,829 → 기준 PER 12.00배",
-        "PBR 0.63배 → 기준 PBR 0.80배"
-      ],
-      "chart": {
-        "chart_symbol": "011200.KS",
-        "chart_status": "ok",
-        "sma20": 19944.0,
-        "sma60": 20428.166666666668,
-        "sma120": 20601.416666666668,
-        "ret20_pct": -5.3527980535279855,
-        "ret60_pct": -5.811138014527851,
-        "high_52w": 25950.0,
-        "low_52w": 18660.0,
-        "recent_support": 19450.0,
-        "recent_resistance": 21650.0,
-        "volatility_pct": 28.179663618458896,
-        "trend": "하락/약세 추세",
-        "technical_score": -1,
-        "position_52w": 0.1083676268861454
-      },
-      "data_sources": [
-        "https://finance.naver.com/item/main.naver?code=011200",
-        "https://query1.finance.yahoo.com/v8/finance/chart/011200.KS"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "068270",
-      "name": "셀트리온",
-      "region": "domestic",
-      "mention_count": 1,
-      "price": 171400.0,
-      "currency": "KRW",
-      "pe": 55.43,
-      "forward_pe": null,
-      "pb": 2.65,
-      "roe": 5.07,
-      "profit_margin": null,
-      "eps": 3187.0,
-      "fair_value": 43526.372436423306,
-      "watch_buy_price": 35691.62539786711,
-      "ai_buy_price": 35691.62539786711,
-      "ai_sell_price": 171400.0,
-      "margin_to_fair_pct": -74.60538364269351,
-      "verdict": "고평가 주의",
-      "action": "35,692 KRW 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -4,
-      "technical_score": 0,
-      "ai_score": -6.75,
-      "ai_comment": "출처 언급 1회, 적정가 대비 -74.61% 여력, 하락/약세 추세, ROE 5.07% 기준으로 산정했습니다.",
-      "positives": [],
-      "risks": [
-        "PER 부담 55.43배"
-      ],
-      "valuation_basis": [
-        "EPS 3,187 → 기준 PER 12.00배",
-        "PBR 2.65배 → 기준 PBR 0.80배"
-      ],
-      "chart": {
-        "chart_symbol": "068270.KS",
-        "chart_status": "ok",
-        "sma20": 181456.903125,
-        "sma60": 188804.68151041667,
-        "sma120": 194100.75403645833,
-        "ret20_pct": -7.565488700206258,
-        "ret60_pct": -11.779413791833326,
-        "high_52w": 236666.671875,
-        "low_52w": 149358.96875,
-        "recent_support": 170857.140625,
-        "recent_resistance": 199523.8125,
-        "volatility_pct": 40.5952313740175,
-        "trend": "하락/약세 추세",
-        "technical_score": 0,
-        "position_52w": 0.2524523090298626
-      },
-      "data_sources": [
-        "https://finance.naver.com/item/main.naver?code=068270",
-        "https://query1.finance.yahoo.com/v8/finance/chart/068270.KS"
       ],
       "fetch_note": ""
     }
