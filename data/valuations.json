@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T07:26",
+  "generated_at": "2026-06-08T08:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -78,9 +78,9 @@
         "ret20_pct": 19.320388349514573,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 42회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 43회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 42회",
+          "출처 언급 43회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
@@ -361,9 +361,9 @@
         "ret20_pct": 19.320388349514573,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 42회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 43회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 42회",
+          "출처 언급 43회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
@@ -749,7 +749,7 @@
       "ticker": "003550",
       "name": "LG",
       "region": "domestic",
-      "mention_count": 42,
+      "mention_count": 43,
       "price": 122900.0,
       "currency": "KRW",
       "pe": 10.92,
@@ -769,9 +769,9 @@
       "score": 3,
       "technical_score": 3,
       "ai_score": 9,
-      "ai_comment": "출처 언급 42회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 43회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 42회",
+        "출처 언급 43회",
         "PBR 0.51배"
       ],
       "risks": [
@@ -2891,32 +2891,30 @@
       "currency": "KRW",
       "pe": 6.52,
       "forward_pe": null,
-      "pb": 0.53,
+      "pb": null,
       "roe": 8.73,
       "profit_margin": null,
       "eps": 36340.0,
-      "fair_value": 871239.5775225596,
-      "watch_buy_price": 714416.4535684988,
-      "ai_buy_price": 683060.0,
-      "ai_sell_price": 914801.5563986875,
-      "margin_to_fair_pct": 24.9985046660774,
-      "verdict": "저평가 후보",
-      "action": "714,416 KRW 이하부터 분할 관심",
-      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
-      "score": 5,
+      "fair_value": 508760.00000000006,
+      "watch_buy_price": 417183.2,
+      "ai_buy_price": 417183.2,
+      "ai_sell_price": 697000.0,
+      "margin_to_fair_pct": -27.00717360114777,
+      "verdict": "고평가 주의",
+      "action": "417,183 KRW 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 1,
       "technical_score": 0,
-      "ai_score": 5.5,
-      "ai_comment": "출처 언급 2회, 적정가 대비 25.00% 여력, 상승 추세, ROE 8.73% 기준으로 산정했습니다.",
+      "ai_score": -0.5,
+      "ai_comment": "출처 언급 2회, 적정가 대비 -27.01% 여력, 상승 추세, ROE 8.73% 기준으로 산정했습니다.",
       "positives": [
         "ROE 8.73%",
-        "PER가 기준보다 낮음",
-        "PBR 0.53배"
+        "PER가 기준보다 낮음"
       ],
       "risks": [],
       "valuation_basis": [
         "EPS/PER 불일치 66.01% → PER 역산 제외",
-        "EPS 36,340 → 기준 PER 14.00배",
-        "PBR 0.53배 → 기준 PBR 1.09배"
+        "EPS 36,340 → 기준 PER 14.00배"
       ],
       "chart": {
         "chart_symbol": "012330.KS",
@@ -3237,7 +3235,7 @@
       "mention_count": 1,
       "price": 95600.0,
       "currency": "KRW",
-      "pe": 183.04,
+      "pe": null,
       "forward_pe": null,
       "pb": 1.43,
       "roe": 0.78,
@@ -3251,17 +3249,15 @@
       "verdict": "고평가 주의",
       "action": "17,682 KRW 이하가 아니면 보수적 접근",
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -5,
+      "score": -3,
       "technical_score": 1,
-      "ai_score": -6.75,
+      "ai_score": -3.75,
       "ai_comment": "출처 언급 1회, 적정가 대비 -77.44% 여력, 중립 추세, ROE 0.78% 기준으로 산정했습니다.",
       "positives": [],
       "risks": [
-        "ROE 낮음 0.78%",
-        "PER 부담 183.0배"
+        "ROE 낮음 0.78%"
       ],
       "valuation_basis": [
-        "EPS/PER 불일치 83.34% → PER 역산 제외",
         "EPS 87.00 → 기준 PER 12.00배",
         "PBR 1.43배 → 기준 PBR 0.80배"
       ],

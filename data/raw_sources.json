@@ -6,10 +6,10 @@
     "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
     "region": "domestic",
     "title": "삼성전자와 마이크론등을 흔든 엔비디아 SOCAMM이 뭘까?",
-    "summary": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클릭에 두번 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이.......",
+    "summary": "'브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클록에 두번 전송한다는 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이터센터의 가.......",
     "url": "https://blog.naver.com/ranto28/224307440861?fromRss=true&trackingCode=rss",
     "published_at": "Mon, 08 Jun 2026 00:10:00 +0900",
-    "text": "삼성전자와 마이크론등을 흔든 엔비디아 SOCAMM이 뭘까? '브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클릭에 두번 전송한다는 일반D램의 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이.......  "
+    "text": "삼성전자와 마이크론등을 흔든 엔비디아 SOCAMM이 뭘까? '브로드컴 쇼크'에 반도체 패닉셀…증권가 \"저가매수 기회\" [분석+] 반도체 기업들 주가하락이 브로드컴 쇼크라는데, 다른 이유가 하나 더 있을 수 있어서 정리해 봅니다. 보통 '메모리'라고 부르는 D램(DRAM)은 어디에 어떻게 쓰이느냐에 따라서 설계가 달라짐. 2. D램중 LPDDR은 스마트폰이나 노트북과 같이 배터리로 돌아가는 기기에 주로 사용됨. 3. LPDDR중 DDR(Double Data Rate)은 데이터를 한 클록에 두번 전송한다는 기본동작 방식이고, LP가 중요함. 4. LP(Low Power)는 저전력의 의미로, LPDDR은 전력을 최대한 아끼도록 설계되니, 배터리가 작은 스마트폰에 주로 사용되고 있음. 5. AI데이터센터의 가.......  "
   },
   {
     "source": "메르의 블로그",
@@ -123,6 +123,36 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "부산시 9일 디지털 대전환 포럼…\"데이터를 비즈니스로 연결\"",
+    "summary": "(부산=연합뉴스) 김선호 기자 = 부산시는 9일 오후 해운대구 부산빅데이터혁신센터에서 &apos;디지털 대전환(DX·AX) 포럼&apos;을 연다.",
+    "url": "https://www.yna.co.kr/view/AKR20260608017500051",
+    "published_at": "Mon, 8 Jun 2026 07:52:26 +0900",
+    "text": "부산시 9일 디지털 대전환 포럼…\"데이터를 비즈니스로 연결\" (부산=연합뉴스) 김선호 기자 = 부산시는 9일 오후 해운대구 부산빅데이터혁신센터에서 &apos;디지털 대전환(DX·AX) 포럼&apos;을 연다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "부산시, 지역전략산업 고도화 공모 선정…3년간 108억원 투입",
+    "summary": "(부산=연합뉴스) 김선호 기자 = 부산시는 산업통상부의 2026년 지역전략산업 기반 고도화 사업 공모에 최종 선정됐다고 8일 밝혔다.",
+    "url": "https://www.yna.co.kr/view/AKR20260608017300051",
+    "published_at": "Mon, 8 Jun 2026 07:51:06 +0900",
+    "text": "부산시, 지역전략산업 고도화 공모 선정…3년간 108억원 투입 (부산=연합뉴스) 김선호 기자 = 부산시는 산업통상부의 2026년 지역전략산업 기반 고도화 사업 공모에 최종 선정됐다고 8일 밝혔다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "[연합뉴스 이 시각 헤드라인] - 07:30",
+    "summary": "■ 李대통령, 오늘 1주년 기자회견…2년차 비전·4대 목표 공개",
+    "url": "https://www.yna.co.kr/view/AKR20260608012400011",
+    "published_at": "Mon, 8 Jun 2026 07:30:01 +0900",
+    "text": "[연합뉴스 이 시각 헤드라인] - 07:30 ■ 李대통령, 오늘 1주년 기자회견…2년차 비전·4대 목표 공개\n"
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "잠자는 퇴직금 깨운다…기금형 퇴직연금에 국민연금 참여 논란",
     "summary": "(서울=연합뉴스) 서한기 기자 = 2005년 국내 퇴직연금 제도가 도입된 지 약 20년 만에 대대적인 구조 개편을 맞이하고 있다. 노사정은 개인...",
     "url": "https://www.yna.co.kr/view/AKR20260607042000530",
@@ -140,84 +170,64 @@
     "text": "서울 직업계고 학생-F&B 기업 취업 매칭…박람회서 면접 (서울=연합뉴스) 오보람 기자 = 서울시교육청은 오는 8일 중구 LW컨벤션센터에서 &apos;2026 서울 직업계고 식음료(F&amp;amp;B) 취업박람회&apos;를..."
   },
   {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "대한상의, '중대재해 예방' 전국 35개 지역상의 순회 설명회",
-    "summary": "(서울=연합뉴스) 임성호 기자 = 대한상공회의소는 한국산업안전보건공단과 전국 중소기업의 중대재해 처벌 등에 관한 법률(중대재해법) 대응을 위한 ...",
-    "url": "https://www.yna.co.kr/view/AKR20260607032300003",
-    "published_at": "Mon, 8 Jun 2026 06:00:07 +0900",
-    "text": "대한상의, '중대재해 예방' 전국 35개 지역상의 순회 설명회 (서울=연합뉴스) 임성호 기자 = 대한상공회의소는 한국산업안전보건공단과 전국 중소기업의 중대재해 처벌 등에 관한 법률(중대재해법) 대응을 위한 ..."
-  },
-  {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "금감원 '사기예방 백과사전' 발간…오디오북 등 무료 배포",
-    "summary": "(서울=연합뉴스) 강류나 기자 = 금융감독원은 은행연합회와 금융사기 사례와 대응 요령 등을 담은 &apos;사기예방 백과사전&apos;을 발간하고, 이를 오디오북...",
-    "url": "https://www.yna.co.kr/view/AKR20260607024200002",
-    "published_at": "Mon, 8 Jun 2026 06:00:02 +0900",
-    "text": "금감원 '사기예방 백과사전' 발간…오디오북 등 무료 배포 (서울=연합뉴스) 강류나 기자 = 금융감독원은 은행연합회와 금융사기 사례와 대응 요령 등을 담은 &apos;사기예방 백과사전&apos;을 발간하고, 이를 오디오북..."
-  },
-  {
-    "source": "연합뉴스 경제",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "통상본부장 \"통상 네트워크 다변화해 수출 상승 흐름 이을 것\"",
-    "summary": "(서울=연합뉴스) 신창용 기자 = 여한구 산업통상부 통상교섭본부장은 8일 &quot;수출 상승 흐름을 이어 나갈 수 있도록 통상 네트워크를 다변화하고 기...",
-    "url": "https://www.yna.co.kr/view/AKR20260607040900003",
-    "published_at": "Mon, 8 Jun 2026 06:00:01 +0900",
-    "text": "통상본부장 \"통상 네트워크 다변화해 수출 상승 흐름 이을 것\" (서울=연합뉴스) 신창용 기자 = 여한구 산업통상부 통상교섭본부장은 8일 &quot;수출 상승 흐름을 이어 나갈 수 있도록 통상 네트워크를 다변화하고 기..."
-  },
-  {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Dow Jones Futures Due As Iran Attacks Israel; Market Rally Faces First Real Test",
+    "title": "Dow Jones Futures Fall As Trump Says This After Iran Attacks Israel; Market Rally Faces First Real Test",
     "summary": "",
     "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-what-to-do-market-rally-test-spacex-ipo-apple-oracle/?src=A00220&yptr=yahoo",
-    "published_at": "2026-06-07T21:35:47Z",
-    "text": "Dow Jones Futures Due As Iran Attacks Israel; Market Rally Faces First Real Test "
+    "published_at": "2026-06-07T22:49:25Z",
+    "text": "Dow Jones Futures Fall As Trump Says This After Iran Attacks Israel; Market Rally Faces First Real Test "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "3 Reasons to Buy SpaceX Stock at Its IPO -- and 2 Reasons to Wait",
+    "title": "Here is why Stantec Inc. (STN) is among the Best Water Infrastructure Stocks to Buy for Scarcity Trends",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-spacex-stock-213500979.html",
-    "published_at": "2026-06-07T21:35:00Z",
-    "text": "3 Reasons to Buy SpaceX Stock at Its IPO -- and 2 Reasons to Wait "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-stantec-inc-stn-among-224158502.html",
+    "published_at": "2026-06-07T22:41:58Z",
+    "text": "Here is why Stantec Inc. (STN) is among the Best Water Infrastructure Stocks to Buy for Scarcity Trends "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is SoundHound AI, Inc. (SOUN) A Good Stock To Buy Now?",
+    "title": "Mueller Water (MWA) Gets A Quiet Target Hike As Results Stay Steady",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/soundhound-ai-inc-soun-good-212738180.html",
-    "published_at": "2026-06-07T21:27:38Z",
-    "text": "Is SoundHound AI, Inc. (SOUN) A Good Stock To Buy Now? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/mueller-water-mwa-gets-quiet-224146385.html",
+    "published_at": "2026-06-07T22:41:46Z",
+    "text": "Mueller Water (MWA) Gets A Quiet Target Hike As Results Stay Steady "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is VICI Properties Inc. (VICI) A Good Stock To Buy Now?",
+    "title": "Why Analysts Are Still Bullish On United Rentals (URI) Despite Macro Noise",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/vici-properties-inc-vici-good-212722352.html",
-    "published_at": "2026-06-07T21:27:22Z",
-    "text": "Is VICI Properties Inc. (VICI) A Good Stock To Buy Now? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-still-bullish-united-224128219.html",
+    "published_at": "2026-06-07T22:41:28Z",
+    "text": "Why Analysts Are Still Bullish On United Rentals (URI) Despite Macro Noise "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Is Western Digital Corporation (WDC) A Good Stock To Buy Now?",
+    "title": "Tutor Perini (TPC) Lands A Major Federal Contract That Could Lift Its Backlog",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-corporation-wdc-good-212709268.html",
-    "published_at": "2026-06-07T21:27:09Z",
-    "text": "Is Western Digital Corporation (WDC) A Good Stock To Buy Now? "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/tutor-perini-tpc-lands-major-224117016.html",
+    "published_at": "2026-06-07T22:41:17Z",
+    "text": "Tutor Perini (TPC) Lands A Major Federal Contract That Could Lift Its Backlog "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” - 중앙일보",
+    "summary": "美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” &nbsp;&nbsp; 중앙일보",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5waHhLSnZfQlBpbXF1UV80YkYzazJ2bEtwQ1JIeGxnd2hhU1FOSlhiZzVwUjJFQ1MtNGVDZnBmdmdxYjdaQkRnNGxuNkRkeDRmaG9LUlF3?oc=5",
+    "published_at": "Sun, 07 Jun 2026 20:00:00 GMT",
+    "text": "美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” - 중앙일보  美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” &nbsp;&nbsp; 중앙일보 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -233,11 +243,11 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "전부 반도체에 올인할 때…버핏 후계자는 ‘여기’ 베팅했다 [오찬종의 매일뉴욕] - 매일경제",
-    "summary": "전부 반도체에 올인할 때…버핏 후계자는 ‘여기’ 베팅했다 [오찬종의 매일뉴욕] &nbsp;&nbsp; 매일경제",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SeEt2VlFxZlZmNG1KQjhEek5XSktaQk5Pc1JaZ2RZR3ZVUXh4Si14Ykdmai1DMzJlckxqYUdKVkhoOFVwUVRXVkM2amZfOHNfRlE?oc=5",
-    "published_at": "Sun, 07 Jun 2026 09:11:58 GMT",
-    "text": "전부 반도체에 올인할 때…버핏 후계자는 ‘여기’ 베팅했다 [오찬종의 매일뉴욕] - 매일경제  전부 반도체에 올인할 때…버핏 후계자는 ‘여기’ 베팅했다 [오찬종의 매일뉴욕] &nbsp;&nbsp; 매일경제 "
+    "title": "SOL 한국형글로벌반도체액티브(423170) - 매일경제 마켓",
+    "summary": "SOL 한국형글로벌반도체액티브(423170) &nbsp;&nbsp; 매일경제 마켓",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDFjeE9TZURZMG1DS3JDWWw4YU9jYm50NzdlLTBqZnpQREpqOHYyUWZxdV9MWlUtbWZZY0ItRTBFQjhVdTVteno3R3JkNFFwWXRwU3pQRWluWV9iem9mc1dQQ1BfWUhQS29jSldiQ1c4akJBVGVnX0pjOHNSaDhSc0p5WkhnTldLS1BmcndpM3hqNzZYUHloYW12WQ?oc=5",
+    "published_at": "Sun, 07 Jun 2026 23:03:58 GMT",
+    "text": "SOL 한국형글로벌반도체액티브(423170) - 매일경제 마켓  SOL 한국형글로벌반도체액티브(423170) &nbsp;&nbsp; 매일경제 마켓 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -248,16 +258,6 @@
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZW9mU3hhQ2xReG1wUXVpSHNsamhlWTJtMzFZMkZ4VFNKdm91eVJxRG5xUm50cTdVYk5BZl9tckxYdzBNajZMbHMyNnI2cnp5ZnBEVzBnTlVaUdIBX0FVX3lxTFBkOGgxMmJQM0I3dzJLeXlpNzRlVnBybEY2aUFyUnNZQjFELVhfRzZjeHM5Zm9VUFpldmRQSkF1ZWFUVkhoVWdyMTY3MzVGaDg4d2w4REY4YV9GOXhFVFlr?oc=5",
     "published_at": "Sun, 07 Jun 2026 01:34:00 GMT",
     "text": "코스피, 내일 ‘검은 월요일’ 오나···“당분간 변동성 커질 듯” - 경향신문  코스피, 내일 ‘검은 월요일’ 오나···“당분간 변동성 커질 듯” &nbsp;&nbsp; 경향신문 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 - 조선일보",
-    "summary": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 &nbsp;&nbsp; 조선일보",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FYXNfRGhzMkxFUEM1cElEaG51Nm1OeGw3Rk9HNWw3UGczV3pGazA2ZlJMblM5ejFuQU0xVGlkT21XX1RaaS1aWUktNlhob2RCVmpRdjRrdWdBdkVPX3Z1c25rRzc2dmRSbGfSAW5BVV95cUxNcTJrVW9SalNWZk4xTHVLSDZLNG9zR3BXaFBpckRJWXMzdXo4R1FJbTlUT0NuSVEzUzRpUHZLYUQxM0JzblFMWVh4TWVUMnpmbTYybkRHZngtQXlLOWRpRURvNFdRaFBza0ZPb2I1QQ?oc=5",
-    "published_at": "Sun, 07 Jun 2026 13:45:00 GMT",
-    "text": "'검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 - 조선일보  '검은 월요일' 오나…하루 새 2000조 증발한 美 반도체, 코스피 긴장 &nbsp;&nbsp; 조선일보 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -303,21 +303,21 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스",
-    "summary": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE42bTdScXBmUGZSQVViNjZGU2F3SlJMZEg3Y0dXMTVNazhqa1l3ZFkxMnFGV1ZiM3NlbTVfSEE1eU1TTXdjbzYwMlV3MEFQdHRsekZEMUJoN3o1MzY5aDVDTHNrTU5CR196N2tBb1JjWDN6Ylct0gF0QVVfeXFMTjZtN1JxcGZQZlJBVWI2NkZTYXdKUkxkSDdjR1cxNU1rOGprWXdkWTEycUZXVmIzc2VtNV9IQTV5TVNNd2NvNjAyVXcwQVB0dGx6RkQxQmg3ejUzNjloNUNMc2tNTkJHX3o3a0FvUmNYM3piVy0?oc=5",
-    "published_at": "Thu, 04 Jun 2026 23:49:02 GMT",
-    "text": "[보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 - 연합인포맥스  [보험사 이모저모] 삼성생명의 8.51%…채권 비중 넘긴 삼성전자 &nbsp;&nbsp; 연합인포맥스 "
-  },
-  {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제",
     "summary": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JdnJIaDNmcVJmNlJDM2dWdjhBWkY1UE5scWxBd0taZ1lXZGR5OEJ0cmVESl9hV2UyREdwZmRQN2Q2UXluYks0MVlad2luc000NVE?oc=5",
     "published_at": "Fri, 05 Jun 2026 02:16:12 GMT",
     "text": "흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] - 매일경제  흔들리는 SK하이닉스·네이버, 초고수는 담았다[주식 초고수는 지금] &nbsp;&nbsp; 매일경제 "
+  },
+  {
+    "source": "Google News 한국 주식 종목",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 - 땅집고",
+    "summary": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 &nbsp;&nbsp; 땅집고",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHRHlMMV92cVJNODQyS3ZpdTJqakktY1VyZUpiWktjSFZ0U1Atcy01Ty03UnR4NnhZc004dnRDNnhUcjlSa1owOFlTdHJWdUR1QzRvRzN2STBoZGdpNzVqQ3BSX3BTdDhxOEhWRHMwY2x2alpwdG16emhLWFZtcnPSAXNBVV95cUxOaGdrOUdzS041WjlyUXgxSXJRazJnUm1NU1lCR296cF9UVHg5bGk0R3RCYThJRUlGZzhzSGhxeXdZcDhkRDk1MUd5bExfQmRDeVp5QldpbU9GREJnWjVVQmpSTjJsMGtSOEU3V2hGbUxfS29V?oc=5",
+    "published_at": "Sat, 06 Jun 2026 21:00:00 GMT",
+    "text": "꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 - 땅집고  꼬마빌딩으로 16억 챙긴 가수 소유, 이번엔 삼전닉스로 내 집 마련 &nbsp;&nbsp; 땅집고 "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -373,21 +373,21 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid - Yahoo Finance",
-    "summary": "Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT3FoNmFfWmVXYnRnVGY0YTB3aFVka3VYNnlWUU9OVnNtQmlPSTc0U1JXei1CLU1kUnJWZjdqSDZRLXN0TVdieXVoemVvUDlCSWFMYjJTTmQyRjZGWWdvdFBHQlplS0JNNHdZNVJoMFhoVHYteTUzaS1wcjREYmMzNmZDQmY5S1FGbGdibldjS001TXQtcjlBRzN2V3g?oc=5",
-    "published_at": "Sun, 07 Jun 2026 11:38:27 GMT",
-    "text": "Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid - Yahoo Finance  Senator Sells Up To $500K In Nvidia Stock: You Won't Believe How Much He Paid &nbsp;&nbsp; Yahoo Finance "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
     "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC",
     "summary": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
     "published_at": "Fri, 05 Jun 2026 19:05:58 GMT",
     "text": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC  Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Meta stock sinks 6% on report of stock sale - Yahoo Finance",
+    "summary": "Meta stock sinks 6% on report of stock sale &nbsp;&nbsp; Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXBYTHRnWmk1YXRHbEJ2NS1QQzB4NHlYS0FabW55T19XT2c1RE1LU1o0a1p1N2R0M0RMTjVSYnE1VUVSaE1VNHFIb2FyNGJyU204OW5WemtNNEV0NzFEZ0Q3TzBlbTF1Y2cwXzdhSGpsNmoxX2RmY2NGVjBDT1lGc0xYQUxTUDk0YWozYmdoUHlydw?oc=5",
+    "published_at": "Fri, 05 Jun 2026 19:38:57 GMT",
+    "text": "Meta stock sinks 6% on report of stock sale - Yahoo Finance  Meta stock sinks 6% on report of stock sale &nbsp;&nbsp; Yahoo Finance "
   },
   {
     "source": "Google News Magnificent 7",

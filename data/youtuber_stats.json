@@ -3,15 +3,15 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 84,
-    "short_count": 84,
+    "video_count": 85,
+    "short_count": 85,
     "regular_video_count": 0,
-    "mention_count": 105,
-    "transcript_count": 77,
+    "mention_count": 106,
+    "transcript_count": 78,
     "metadata_count": 7,
-    "ocr_count": 21,
-    "transcript_chars": 177243,
-    "ocr_chars": 8808,
+    "ocr_count": 22,
+    "transcript_chars": 181028,
+    "ocr_chars": 9092,
     "stocks": [
       {
         "ticker": "005930",
@@ -26,7 +26,7 @@
       {
         "ticker": "003550",
         "name": "LG",
-        "count": 13
+        "count": 14
       },
       {
         "ticker": "005380",
@@ -90,6 +90,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "월가에서 곧 '2차전지' 역대급 상승장 올 수 있다는 이유",
+        "url": "https://youtu.be/skAsO-5D-Uw",
+        "published_at": "",
+        "tickers": [
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 3785,
+        "ocr_status": "ok",
+        "ocr_chars": 284,
+        "ocr_excerpt": "월기에서곧2차전지 역대금상송장을수있다는 이유 경제 사냥꾼 2026년 06월 07일 10000 요즘 시장이 전부 반도체 AI로만 쏠리면서 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 역대금 상송장을수있다는 이유 한 번 쓰고 버리는 게 아니라 월기에서곧 2차전지 여대문 상",
+        "youtube_kind": "short"
+      },
       {
         "title": "지금 ‘국민연금’이 조용히 쓸어담고 있다는, 의외의 '한국 종목’ 3개",
         "url": "https://youtu.be/vop8buqTrag",
@@ -489,18 +503,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2105,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "월가 억만장자들이 '나스닥의 미래'라고 말하는 '미국 종목' TOP3",
-        "url": "https://youtu.be/cb7uvusF7PU",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 2194,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",

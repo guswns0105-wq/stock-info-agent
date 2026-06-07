@@ -3,7 +3,7 @@
     "region": "domestic",
     "label": "한국주식",
     "asset_path": "public/assets/imagegen2/korea-top5-cardnews.png",
-    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle green/red market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 한국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 현대차 005380\n현재가 700,000원 / 적정 1,179,025원\n출처 언급 24회, 적정가 대비 68.43%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 기아 000270\n현재가 161,100원 / 적정 410,681원\n출처 언급 3회, 적정가 대비 154.9% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n3 LG 003550\n현재가 122,900원 / 적정 132,901원\n출처 언급 42회, 적정가 대비 8.14% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n4 신한지주 055550\n현재가 107,500원 / 적정 187,245원\n출처 언급 2회, 적정가 대비 74.18% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n5 KB금융 105560\n현재가 171,600원 / 적정 292,328원\n출처 언급 1회, 적정가 대비 70.35% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
+    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle green/red market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 한국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 현대차 005380\n현재가 700,000원 / 적정 1,179,025원\n출처 언급 24회, 적정가 대비 68.43%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 기아 000270\n현재가 161,100원 / 적정 410,681원\n출처 언급 3회, 적정가 대비 154.9% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n3 LG 003550\n현재가 122,900원 / 적정 132,901원\n출처 언급 43회, 적정가 대비 8.14% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n4 신한지주 055550\n현재가 107,500원 / 적정 187,245원\n출처 언급 2회, 적정가 대비 74.18% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n5 KB금융 105560\n현재가 171,600원 / 적정 292,328원\n출처 언급 1회, 적정가 대비 70.35% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
     "recommendations": [
       {
         "rank": 1,
@@ -80,9 +80,9 @@
         "ret20_pct": 19.320388349514573,
         "support": 82800.0,
         "resistance": 165800.0,
-        "comment": "출처 언급 42회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
+        "comment": "출처 언급 43회, 적정가 대비 8.14% 여력, 상승 추세, ROE 4.89% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 42회",
+          "출처 언급 43회",
           "PBR 0.51배",
           "차트: 상승 추세"
         ],
