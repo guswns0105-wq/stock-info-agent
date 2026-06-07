@@ -6153,13 +6153,25 @@
     "ticker": "ARM",
     "name": "Arm",
     "sources": [
-      "T3chfeed - 테크피드 미국 주식 인사이트",
       "Yahoo Finance Top Stories",
+      "T3chfeed - 테크피드 미국 주식 인사이트",
       "주식용사부",
       "올랜도 킴 미국주식"
     ],
     "source_count": 4,
     "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Wolfe Research, West Pharmaceutical Services Inc (WST) 주식에 무게를 두다",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-research-weighs-west-pharmaceutical-174809999.html",
+        "published_at": "2026-06-07T17:48:09Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "T3chfeed - 테크피드 미국 주식 인사이트",
         "source_role": "youtube_recommendation",
@@ -6358,8 +6370,8 @@
     "name": "Meta",
     "sources": [
       "Google News Magnificent 7",
-      "올랜도 킴 미국주식",
-      "Yahoo Finance Top Stories"
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식"
     ],
     "source_count": 3,
     "evidence": [
@@ -6574,6 +6586,18 @@
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORDAxNkRjOWstREpLVi1zRF9TOGJ0R3FkQkxXN3loMHFXcjBsaHJPeHROdTdJazlaMElfY3JwM08wZUlfUERsZXhyNkVkYVV6NHl5ekJjZEtVbFVWM0M2UGNlV21saTEtM05wWXZCUWFTUk8tY28za0FwNzZfS2NaWnNEMml6eWRCV0MycnJ4M2FxN3NNdnZVaA?oc=5",
         "published_at": "Fri, 05 Jun 2026 14:10:33 GMT",
         "reason": "강한 실적 이후 메타주 하락: 드문 매수 기회인가?    가지각색의 바보",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "10년 전에 Meta Platforms 주식에 10,000달러를 투자했다면 현재 얼마를 갖게 될까요?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/invested-10-000-meta-platforms-174500511.html",
+        "published_at": "2026-06-07T17:45:00Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
