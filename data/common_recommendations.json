@@ -1480,6 +1480,18 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
+        "title": "삼성전자 '5만 원에 추천했던' 경제사냥꾼이 보고있는 다음 '종목' 정체",
+        "url": "https://youtu.be/Y5tiZeq-5UQ",
+        "published_at": "",
+        "reason": "님들 삼성전자 5만 원에 추천했던 경제사냥꾼이 보고 있는 다음 [음악] 종목 정체 뭔지 알고 있었어? 이거 지금 미리 알아놔야 3전처럼 주가 역대급 재평가 받기 전에 미리 주어둘 수 있는 건데. 경제사냥꾼이 딱 작년 3전 5만 원대랑 그런 비슷한 종목 뜯어 왔으니까 더 늦기 전에 1분만 집중해 [음악] 봐. 먼저 작년 6월 삼성전자 주가 5만 원 되었을 당시 경제 사냥꾼은 올해 안에 3전 주가 10만 원 될 [음악] 수 있다고 장담했었어. 근데 그때만 봐도 시장 반응은 차가웠어. 왜? 당연히 그냥 장미빛 전망으로 보고 안 [음악] 믿었기 때문이지. 하지만 지금 결과 보면 실제로 주가는 당시에 계속 상승세를 이어가다가 10월에 정말 10만 원을 뚫어버렸어. >> [음악] >> 경제 사냥꾼이 예상한지 4개월 만에 일어난 거야. 그리고 지금 주가 보면 30만 원을 훌쩍 넘겨 버렸지. 그때 경제 사냥꾼은 어떤 흐름을 파고든 거냐면 삼성전자는 디램, 랜드, HBM, 파운드리 패키징의 수요 개선까지 차세대 메모리 라인을 통제로 깔고 있다는 걸 본 거야. 그래서 AI 서버 수요만 올라가면 주가 두 배는 [음악] 충분히 간다고 본 거지. 그럼 지금 현시점 3전 다음으로 그 수혜가 내려올 종목은 또 뭐가 있을까? 이번 핵심은 삼성이랑 하이닉스가 메모리를 더 찍어내려면 결국 그걸 만드는 장비부터 사야 한다는 걸 눈여겨 봤는데 그중 첫 번째 기업은 원가",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
         "title": "SK하이닉스가 지금 '엔비디아'보다 더 '갑'이 된 진짜 이유",
         "url": "https://youtu.be/e5PVVGYjwWI",
         "published_at": "",
@@ -5823,6 +5835,18 @@
         "title": "Wells Fargo, Intel(INTC) 주식에 대한 PT 인상",
         "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-pt-intel-172508626.html",
         "published_at": "2026-06-06T17:25:08Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "인텔 주식은 기록적인 반등 이후 이번 주에 큰 타격을 입었습니다. 다음 주에 얼마나 많은 거래자들이 움직일 것으로 보는지는 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-took-hit-week-174628311.html",
+        "published_at": "2026-06-05T17:46:28Z",
         "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",

@@ -3,20 +3,20 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 81,
-    "short_count": 81,
+    "video_count": 82,
+    "short_count": 82,
     "regular_video_count": 0,
-    "mention_count": 104,
-    "transcript_count": 74,
+    "mention_count": 105,
+    "transcript_count": 75,
     "metadata_count": 7,
-    "ocr_count": 18,
-    "transcript_chars": 165732,
-    "ocr_chars": 7475,
+    "ocr_count": 19,
+    "transcript_chars": 169563,
+    "ocr_chars": 7972,
     "stocks": [
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 42
+        "count": 43
       },
       {
         "ticker": "000660",
@@ -90,6 +90,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "삼성전자 '5만 원에 추천했던' 경제사냥꾼이 보고있는 다음 '종목' 정체",
+        "url": "https://youtu.be/Y5tiZeq-5UQ",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 3831,
+        "ocr_status": "ok",
+        "ocr_chars": 497,
+        "ocr_excerpt": "삼정전자형 원],추천해달:정제사방편이 보고있는 다음 명곡 쟁에 경제 사냥꾼 2026년 06월 06일 1000 10000 이거 지금 미리 알아놔야 삼전처럼 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 삼정전자형과 원에 추진하단정제사방편이 보고있는 다음 통과 경제 삼성시 ",
+        "youtube_kind": "short"
+      },
       {
         "title": "월가에서 말하는 반도체 다음 10년을 지배할 산업",
         "url": "https://youtu.be/y5qWSN3ExhM",
@@ -492,22 +506,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2155,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "경제사냥꾼 구독자 전용, 종목 분석 : 네이버",
-        "url": "https://youtu.be/IiXBGYSNPTM",
-        "published_at": "",
-        "tickers": [
-          "035720",
-          "005380",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2339,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",

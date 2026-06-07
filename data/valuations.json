@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T08:26",
+  "generated_at": "2026-06-07T09:26",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -572,7 +572,7 @@
       "ticker": "005930",
       "name": "삼성전자",
       "region": "domestic",
-      "mention_count": 97,
+      "mention_count": 98,
       "price": 329000.0,
       "currency": "KRW",
       "pe": 36.84,
@@ -592,9 +592,9 @@
       "score": -4,
       "technical_score": 2,
       "ai_score": -2,
-      "ai_comment": "출처 언급 97회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 98회, 적정가 대비 -74.54% 여력, 상승 추세, ROE 4.15% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 97회"
+        "출처 언급 98회"
       ],
       "risks": [
         "ROE 낮음 4.15%",
@@ -1395,7 +1395,7 @@
       "ticker": "INTC",
       "name": "Intel",
       "region": "global",
-      "mention_count": 10,
+      "mention_count": 11,
       "price": 99.17,
       "currency": "USD",
       "pe": null,
@@ -1414,10 +1414,10 @@
       "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
       "score": -4,
       "technical_score": 2,
-      "ai_score": -2.5,
-      "ai_comment": "출처 언급 10회, 적정가 대비 -66.42% 여력, 중립 추세, ROE -2.91% 기준으로 산정했습니다.",
+      "ai_score": -2.25,
+      "ai_comment": "출처 언급 11회, 적정가 대비 -66.42% 여력, 중립 추세, ROE -2.91% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 10회"
+        "출처 언급 11회"
       ],
       "risks": [
         "ROE 낮음 -2.91%",
