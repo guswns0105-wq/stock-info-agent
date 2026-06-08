@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 85,
-    "short_count": 85,
+    "video_count": 86,
+    "short_count": 86,
     "regular_video_count": 0,
     "mention_count": 106,
     "transcript_count": 78,
-    "metadata_count": 7,
+    "metadata_count": 8,
     "ocr_count": 22,
     "transcript_chars": 181028,
     "ocr_chars": 9092,
@@ -90,6 +90,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "현재 한국 주식 중에서 가장 저평가됐다는 종목 3개",
+        "url": "https://youtu.be/2rQZAQg5iV4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "월가에서 곧 '2차전지' 역대급 상승장 올 수 있다는 이유",
         "url": "https://youtu.be/skAsO-5D-Uw",
@@ -493,20 +505,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      },
-      {
-        "title": "경제사냥꾼 구독자 전용, 종목 분석 : 대우건설",
-        "url": "https://youtu.be/X6kfI4zhGAA",
-        "published_at": "",
-        "tickers": [
-          "028260"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2105,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
       }
     ]
   },
@@ -588,7 +586,7 @@
         "tickers": [],
         "confidence": "caption_failed",
         "transcript_chars": 0,
-        "ocr_status": "",
+        "ocr_status": "download_failed",
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "video"

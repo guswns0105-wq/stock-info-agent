@@ -1,5 +1,36 @@
 [
   {
+    "source": "경제사냥꾼",
+    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
+    "video_id": "2rQZAQg5iV4",
+    "youtube_kind": "short",
+    "source_type": "youtube_short",
+    "source_role": "",
+    "source_note": "",
+    "region": "domestic",
+    "title": "현재 한국 주식 중에서 가장 저평가됐다는 종목 3개",
+    "summary": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+    "url": "https://youtu.be/2rQZAQg5iV4",
+    "published_at": "",
+    "text": "",
+    "transcript_method": "none",
+    "transcript_status": "youtube_transcript_api: unsupported operand type(s) for |: 'type' and 'type'; yt-dlp: [youtube] Extracting URL: https://www.youtube.com/watch?v=2rQZAQg5iV4\n[youtube] 2rQZAQg5iV4: Downloading webpage\n[youtube] 2rQZAQg5iV4: Downloading android player API JSON\n[info] 2rQZAQg5iV4: Downloading 1 format(s): 18\n[info] There are no subtitles for the requested languages\n",
+    "transcript_chars": 0,
+    "extraction_quality": "caption_failed"
+  },
+  {
+    "source": "메르의 블로그",
+    "source_type": "naver_blog_feed",
+    "source_role": "macro_context",
+    "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
+    "region": "domestic",
+    "title": "시장상황점검 긴급회의 결과(feat 저번에는 서학개미, 이번엔 기업)",
+    "summary": "재정경제부장관, 한은총재, 금융위위원회 위원장, 금감원장이 7일 긴급 시장상황점검회의를 했다고 한다. 환율 때문이다. 참석자들은 회의후에 다음과 같이 발언했다. \"외환시장에서 원화 약세 흐름에 편승한 투기적 움직임 또는 시장교란 의심 행위가 있는지를 한국은행·금융감독원의 검사 등으로 점검하고 그 결과에 따라 엄정한 조처를 하겠다. 예를 들어 시장기능을 교란하거나 가격 발견과정을 방해할 의도로 하는 거래, 고객에게 불리하게 가격을 변동시키려는 의도로 특정 시점에 고객의 주문보다 큰 규모로 하는 일방향 거래 등이다. \" 이것을 막기위해 재경부,국정원,국세청,관세청,한국은행,금감원이 합동으로 '불법외.......",
+    "url": "https://blog.naver.com/ranto28/224309101928?fromRss=true&trackingCode=rss",
+    "published_at": "Mon, 08 Jun 2026 11:00:00 +0900",
+    "text": "시장상황점검 긴급회의 결과(feat 저번에는 서학개미, 이번엔 기업) 재정경제부장관, 한은총재, 금융위위원회 위원장, 금감원장이 7일 긴급 시장상황점검회의를 했다고 한다. 환율 때문이다. 참석자들은 회의후에 다음과 같이 발언했다. \"외환시장에서 원화 약세 흐름에 편승한 투기적 움직임 또는 시장교란 의심 행위가 있는지를 한국은행·금융감독원의 검사 등으로 점검하고 그 결과에 따라 엄정한 조처를 하겠다. 예를 들어 시장기능을 교란하거나 가격 발견과정을 방해할 의도로 하는 거래, 고객에게 불리하게 가격을 변동시키려는 의도로 특정 시점에 고객의 주문보다 큰 규모로 하는 일방향 거래 등이다. \" 이것을 막기위해 재경부,국정원,국세청,관세청,한국은행,금감원이 합동으로 '불법외.......  "
+  },
+  {
     "source": "메르의 블로그",
     "source_type": "naver_blog_feed",
     "source_role": "macro_context",
@@ -46,18 +77,6 @@
     "url": "https://blog.naver.com/ranto28/224307573432?fromRss=true&trackingCode=rss",
     "published_at": "Sat, 06 Jun 2026 09:47:53 +0900",
     "text": "미국 고용지표 발표의 나비효과 (feat 금, 비트코인, 환율) 미국 고용지표가 너무 잘 나왔다. 2026년 6월 5일 저녁(한국시간), 미국 노동부는 고용(농업제외)이 5월 한달간 17만2000명 증가했다고 발표했다. 시장은 8만명 정도 고용증가를 예상했는데, 예상보다 두배가 넘는 고용증가가 발표된 것이다. 5월 한달의 일시적인 증가가 아니다. 3월 21만4000명, 4월 17만9000명에 이어서 5월 17만2000명의 높은 고용이 3개월 연속으로 나온 것이다. 연준이 가진 과제는 고용과 물가 두가지다. 고용이 크게 늘어난다는 것은 연준의 관심이 물가에 집중된다는 말이 된다. 연준의 관심이 물가에 집중될 수 있는데, 마침 물가가 심상치가 않다. 연준이 메인으로 보는 물가지수 PCE는 4월 들어 전년 동기 대비 3.8% .......  "
-  },
-  {
-    "source": "메르의 블로그",
-    "source_type": "naver_blog_feed",
-    "source_role": "macro_context",
-    "source_note": "메르의 블로그는 종목 자체 추천보다 시장 큰틀·정책·산업 맥락 참고용으로만 반영합니다. 종목 추천 카운트에는 넣지 않습니다.",
-    "region": "domestic",
-    "title": "미국이 한국에 12.5% 관세를 때리겠다는데, 이것이 끝이 아닌 이유",
-    "summary": "1년전인 2025년 4월, 미국이 특이한 행보를 보여서 블로그에 글을 올리며 주목한 적이 있었다. 2025년 4월 3일, 미국 관세청 홈페이지에 아래와 같은 공지 하나가 올라와서였다. 미국 관세국경 보호청(CBP)이 \"한국 신안의 태평염전에서 강제노동이 이뤄지고 있다\"라고 판단해서, 태평염전에서 생산된 천일염을 세관에서 압류하는 인도보류명령(WRO)을 시행한 것이다. CBP는 태평염전을 조사하는 과정에서 다음과 같은 강제노동 상황을 확인했다며 다음과 같이 발표했다. \"이동제한, 신분증 압수, 생활 및 노동조건이 학대수준, 협박 및 위협, 신체적 폭력, 채무로 인한 노예계약, 임금체불, 과도한 초과근무등\" \"강제.......",
-    "url": "https://blog.naver.com/ranto28/224306532703?fromRss=true&trackingCode=rss",
-    "published_at": "Sat, 06 Jun 2026 00:10:00 +0900",
-    "text": "미국이 한국에 12.5% 관세를 때리겠다는데, 이것이 끝이 아닌 이유 1년전인 2025년 4월, 미국이 특이한 행보를 보여서 블로그에 글을 올리며 주목한 적이 있었다. 2025년 4월 3일, 미국 관세청 홈페이지에 아래와 같은 공지 하나가 올라와서였다. 미국 관세국경 보호청(CBP)이 \"한국 신안의 태평염전에서 강제노동이 이뤄지고 있다\"라고 판단해서, 태평염전에서 생산된 천일염을 세관에서 압류하는 인도보류명령(WRO)을 시행한 것이다. CBP는 태평염전을 조사하는 과정에서 다음과 같은 강제노동 상황을 확인했다며 다음과 같이 발표했다. \"이동제한, 신분증 압수, 생활 및 노동조건이 학대수준, 협박 및 위협, 신체적 폭력, 채무로 인한 노예계약, 임금체불, 과도한 초과근무등\" \"강제.......  "
   },
   {
     "source": "마술토끼의 투자이야기",
@@ -123,101 +142,101 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "GS건설, 건설현장에 로봇 기술 도입…대동로보틱스와 맞손",
-    "summary": "(서울=연합뉴스) 서미숙 기자 = GS건설이 건설 현장에 로봇 자동화 기술을 도입한다.",
-    "url": "https://www.yna.co.kr/view/AKR20260608056500003",
-    "published_at": "Mon, 8 Jun 2026 10:05:24 +0900",
-    "text": "GS건설, 건설현장에 로봇 기술 도입…대동로보틱스와 맞손 (서울=연합뉴스) 서미숙 기자 = GS건설이 건설 현장에 로봇 자동화 기술을 도입한다. "
+    "title": "강진군, 옛 성화대 입주기업 발굴 육성 본격화",
+    "summary": "(강진=연합뉴스) 조근영 기자 = 전남 강진군은 옛 성화대 성화관에 입주할 기업을 사전 발굴·육성하기 위한 아이디어 경진대회를 연다고 8일 밝혔...",
+    "url": "https://www.yna.co.kr/view/AKR20260608075100054",
+    "published_at": "Mon, 8 Jun 2026 11:01:43 +0900",
+    "text": "강진군, 옛 성화대 입주기업 발굴 육성 본격화 (강진=연합뉴스) 조근영 기자 = 전남 강진군은 옛 성화대 성화관에 입주할 기업을 사전 발굴·육성하기 위한 아이디어 경진대회를 연다고 8일 밝혔..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "경남도, 혁신기업 35곳에 320억 지원해 기술개발 뒷받침",
-    "summary": "(창원=연합뉴스) 이정훈 기자 = 경남도는 중소벤처기업부가 주관한 지역혁신선도기업육성 사업에 뽑힌 지역 35개 기업에 320억원(국비 224억원...",
-    "url": "https://www.yna.co.kr/view/AKR20260608053700052",
-    "published_at": "Mon, 8 Jun 2026 10:04:47 +0900",
-    "text": "경남도, 혁신기업 35곳에 320억 지원해 기술개발 뒷받침 (창원=연합뉴스) 이정훈 기자 = 경남도는 중소벤처기업부가 주관한 지역혁신선도기업육성 사업에 뽑힌 지역 35개 기업에 320억원(국비 224억원..."
+    "title": "스페이스X 기대…한투운용 우주테크 한달 개인순매수 600억 돌파",
+    "summary": "(서울=연합뉴스) 고은지 기자 = 한국투자신탁운용은 스페이스X 상장에 대한 기대감 속 최근 한 달간 &apos;ACE 미국우주테크액티브&apos; 상장지수펀드(E...",
+    "url": "https://www.yna.co.kr/view/AKR20260608073600008",
+    "published_at": "Mon, 8 Jun 2026 11:00:31 +0900",
+    "text": "스페이스X 기대…한투운용 우주테크 한달 개인순매수 600억 돌파 (서울=연합뉴스) 고은지 기자 = 한국투자신탁운용은 스페이스X 상장에 대한 기대감 속 최근 한 달간 &apos;ACE 미국우주테크액티브&apos; 상장지수펀드(E..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[게시판] 업비트 데이터랩, 콘텐츠 매거진 '인텔리전스' 출시",
-    "summary": "▲ 가상자산 거래소 업비트를 운영하는 두나무가 데이터 기반 콘텐츠 매거진 &apos;인텔리전스&apos;를 출시했다고 8일 밝혔다. 업비트 데이터랩이 선보이는 인...",
-    "url": "https://www.yna.co.kr/view/AKR20260608055400002",
-    "published_at": "Mon, 8 Jun 2026 10:02:07 +0900",
-    "text": "[게시판] 업비트 데이터랩, 콘텐츠 매거진 '인텔리전스' 출시 ▲ 가상자산 거래소 업비트를 운영하는 두나무가 데이터 기반 콘텐츠 매거진 &apos;인텔리전스&apos;를 출시했다고 8일 밝혔다. 업비트 데이터랩이 선보이는 인..."
+    "title": "'QR코드로 뚝딱' 농진청, 수출농산물 농약사용지침 간소화",
+    "summary": "(전주=연합뉴스) 김진방 기자 = 농촌진흥청은 농약 잔류허용기준 위반에 따른 통관 거부로 어려움을 겪는 수출 농가와 업체를 위해 &apos;수출농산물 농...",
+    "url": "https://www.yna.co.kr/view/AKR20260608058000055",
+    "published_at": "Mon, 8 Jun 2026 11:00:01 +0900",
+    "text": "'QR코드로 뚝딱' 농진청, 수출농산물 농약사용지침 간소화 (전주=연합뉴스) 김진방 기자 = 농촌진흥청은 농약 잔류허용기준 위반에 따른 통관 거부로 어려움을 겪는 수출 농가와 업체를 위해 &apos;수출농산물 농..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "5월 서울 아파트 경매 낙찰가율 2개월 연속 100% 넘어",
-    "summary": "(서울=연합뉴스) 임기창 기자 = 지난달 서울 아파트 경매 낙찰가율(감정가 대비 낙찰가 비율)이 일부 재건축 아파트와 외곽 구축 강세로 2개월 ...",
-    "url": "https://www.yna.co.kr/view/AKR20260608052700003",
-    "published_at": "Mon, 8 Jun 2026 10:01:48 +0900",
-    "text": "5월 서울 아파트 경매 낙찰가율 2개월 연속 100% 넘어 (서울=연합뉴스) 임기창 기자 = 지난달 서울 아파트 경매 낙찰가율(감정가 대비 낙찰가 비율)이 일부 재건축 아파트와 외곽 구축 강세로 2개월 ..."
+    "title": "농식품부-국립농업박물관, 화훼 역사 기획전…유물 115점 전시",
+    "summary": "(서울=연합뉴스) 김세린 기자 = 농림축산식품부와 국립농업박물관은 오는 9일부터 10월 5일까지 박물관 기획전시실에서 &apos;손끝에서 핀 나날의 꽃&apos;...",
+    "url": "https://www.yna.co.kr/view/AKR20260608052100030",
+    "published_at": "Mon, 8 Jun 2026 11:00:00 +0900",
+    "text": "농식품부-국립농업박물관, 화훼 역사 기획전…유물 115점 전시 (서울=연합뉴스) 김세린 기자 = 농림축산식품부와 국립농업박물관은 오는 9일부터 10월 5일까지 박물관 기획전시실에서 &apos;손끝에서 핀 나날의 꽃&apos;..."
   },
   {
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
-    "title": "공정위, 가맹·유통·대리점·하도급 실태 점검 및 조사",
-    "summary": "(세종=연합뉴스) 이세원 기자 = 공정거래위원회는 가맹, 유통, 대리점, 하도급 거래 등에 관한 실태 점검 및 조사를 8일부터 한다고 밝혔다.",
-    "url": "https://www.yna.co.kr/view/AKR20260608042000002",
-    "published_at": "Mon, 8 Jun 2026 10:00:01 +0900",
-    "text": "공정위, 가맹·유통·대리점·하도급 실태 점검 및 조사 (세종=연합뉴스) 이세원 기자 = 공정거래위원회는 가맹, 유통, 대리점, 하도급 거래 등에 관한 실태 점검 및 조사를 8일부터 한다고 밝혔다."
+    "title": "[바이오스냅] 보령컨슈머헬스케어, 겔포스엠 대용량 패키지 출시",
+    "summary": "(서울=연합뉴스) 신선미 기자 = 보령컨슈머헬스케어는 제산제 &apos;겔포스엠&apos;의 대용량 규격 제품을 선보였다고 밝혔다.",
+    "url": "https://www.yna.co.kr/view/AKR20260608067700017",
+    "published_at": "Mon, 8 Jun 2026 10:53:46 +0900",
+    "text": "[바이오스냅] 보령컨슈머헬스케어, 겔포스엠 대용량 패키지 출시 (서울=연합뉴스) 신선미 기자 = 보령컨슈머헬스케어는 제산제 &apos;겔포스엠&apos;의 대용량 규격 제품을 선보였다고 밝혔다.\n"
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Glittering Returns: iShares Silver Trust Outpaces Sprott Gold Miners ETF",
+    "title": "Jim Cramer Says “Right Now, Boeing Trades With the War”",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/glittering-returns-ishares-silver-trust-141132483.html",
-    "published_at": "2026-06-06T14:11:32Z",
-    "text": "Glittering Returns: iShares Silver Trust Outpaces Sprott Gold Miners ETF "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-now-boeing-150610152.html",
+    "published_at": "2026-06-06T15:06:10Z",
+    "text": "Jim Cramer Says “Right Now, Boeing Trades With the War” "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "74% of home buyers would consider a 50-year mortgage — experts say making monthly payments would be key",
+    "title": "Jim Cramer on JFrog: “I Want You to Take a Little off the Table”",
     "summary": "",
-    "url": "https://finance.yahoo.com/economy/policy/articles/74-home-buyers-consider-50-140000807.html",
-    "published_at": "2026-06-06T14:00:00Z",
-    "text": "74% of home buyers would consider a 50-year mortgage — experts say making monthly payments would be key "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-jfrog-want-little-150613445.html",
+    "published_at": "2026-06-06T15:06:13Z",
+    "text": "Jim Cramer on JFrog: “I Want You to Take a Little off the Table” "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Bloom Energy Stock Is Surging. Its CEO Said These Magic Words.",
+    "title": "Jim Cramer on Six Flags: “I Think It’s Too Dicey”",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-surging-ceo-140002775.html",
-    "published_at": "2026-06-06T14:00:02Z",
-    "text": "Bloom Energy Stock Is Surging. Its CEO Said These Magic Words. "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-six-flags-think-150600366.html",
+    "published_at": "2026-06-06T15:06:00Z",
+    "text": "Jim Cramer on Six Flags: “I Think It’s Too Dicey” "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "'The fastest way to get rich quick is don't': Dave Ramsey's truth bomb for investors. His 3 wealth-building rules",
+    "title": "Jim Cramer on Prologis: “I’ve Always Liked It so Much”",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/fastest-way-rich-quick-dont-142500389.html",
-    "published_at": "2026-06-06T14:25:00Z",
-    "text": "'The fastest way to get rich quick is don't': Dave Ramsey's truth bomb for investors. His 3 wealth-building rules "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-prologis-ve-always-150612518.html",
+    "published_at": "2026-06-06T15:06:12Z",
+    "text": "Jim Cramer on Prologis: “I’ve Always Liked It so Much” "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Stock Market Week Ahead: SpaceX And The Power Trend",
+    "title": "Jim Cramer on Axon: “It Sells at a Very High Price to Earnings Multiple”",
     "summary": "",
-    "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-spacex-apple-oracle-power-trend/?src=A00220&yptr=yahoo",
-    "published_at": "2026-06-06T13:39:17Z",
-    "text": "Stock Market Week Ahead: SpaceX And The Power Trend "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-axon-sells-very-150609702.html",
+    "published_at": "2026-06-06T15:06:09Z",
+    "text": "Jim Cramer on Axon: “It Sells at a Very High Price to Earnings Multiple” "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -233,6 +252,16 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
+    "title": "코스피 급락에 8천선 아래로…코스닥도 동반 하락 - KBS 뉴스",
+    "summary": "코스피 급락에 8천선 아래로…코스닥도 동반 하락 &nbsp;&nbsp; KBS 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zNnN4cGFDUmJySVI1c29tbV91TTR5X2x0YWRnb3Q3OFZsdm5uSVRlTFBuVG40dDh0emx3Rm96ZEZ0M3RJeFQ4SkRNQnRpTWFteUd1Z0NVbEdHNWM?oc=5",
+    "published_at": "Mon, 08 Jun 2026 00:13:00 GMT",
+    "text": "코스피 급락에 8천선 아래로…코스닥도 동반 하락 - KBS 뉴스  코스피 급락에 8천선 아래로…코스닥도 동반 하락 &nbsp;&nbsp; KBS 뉴스 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…8000선 붕괴 - 경향신문",
     "summary": "[속보]코스피, 8% 폭락에 서킷브레이커 발동…8000선 붕괴 &nbsp;&nbsp; 경향신문",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53OFN5aUE4aEoyVjJMejRDMllYTXlWNUtfT0FFNzBKejZEcnM4RVctbkNselF5R3p5dEpCN1VRcG9fdzdfMTQ1SENvcjZBeTg4WTIwelE1LTdqd9IBX0FVX3lxTFBibTFPQVZzb2VTcXZzdkJYcHJHcFZVTGNkRTY3NEZXWWpCWnBzSFdXeGtJcGxzWVhHODJ6UWFlUUFOYTdwa3lsM3I2MHExeEVPNEhsWk1qS2phc3cyLVNJ?oc=5",
@@ -243,31 +272,31 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[속보] 코스피 서킷브레이커 발동…20분간 매매 중단 - KBS 뉴스",
-    "summary": "[속보] 코스피 서킷브레이커 발동…20분간 매매 중단 &nbsp;&nbsp; KBS 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zNnN4cGFDUmJySVI1c29tbV91TTR5X2x0YWRnb3Q3OFZsdm5uSVRlTFBuVG40dDh0emx3Rm96ZEZ0M3RJeFQ4SkRNQnRpTWFteUd1Z0NVbEdHNWM?oc=5",
-    "published_at": "Mon, 08 Jun 2026 00:13:00 GMT",
-    "text": "[속보] 코스피 서킷브레이커 발동…20분간 매매 중단 - KBS 뉴스  [속보] 코스피 서킷브레이커 발동…20분간 매매 중단 &nbsp;&nbsp; KBS 뉴스 "
+    "title": "[증시 긴급진단] \"코스피 20% 이상 조정 가능성…당분간 관망\" - 연합인포맥스",
+    "summary": "[증시 긴급진단] \"코스피 20% 이상 조정 가능성…당분간 관망\" &nbsp;&nbsp; 연합인포맥스",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1sTnIzUnBvWEZHejFpMlRsbUJvQmN5M1hBemIyWmwzak51N284ajlDMjAyb1U2bFpXRUpGT1NyVGZEMHNlcDNfVE9CMmZ5NXJkZDdjQ0tRTzVCMXZublNKTkNnOGVhTGdwV3ItaGo0MGQ?oc=5",
+    "published_at": "Sun, 07 Jun 2026 23:30:37 GMT",
+    "text": "[증시 긴급진단] \"코스피 20% 이상 조정 가능성…당분간 관망\" - 연합인포맥스  [증시 긴급진단] \"코스피 20% 이상 조정 가능성…당분간 관망\" &nbsp;&nbsp; 연합인포맥스 "
   },
   {
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[증시 긴급진단] 美 반도체 폭락 여진에도…\"투매 말라\" 이유는 - 연합인포맥스",
-    "summary": "[증시 긴급진단] 美 반도체 폭락 여진에도…\"투매 말라\" 이유는 &nbsp;&nbsp; 연합인포맥스",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QNmpZYk5RRnhNU1p4UDE0LUlrS1Y3Q1E1U0JMQ0lYMW9wWTFmdG9sS01qMDZVRU1nVXhoMEVUdi1KUFRwTjkxUUI1bkhiNHJTX1M0TE5URmUyYVF0UmZWS0dYMmk0YjVQbVdSNVJ0SnXSAXRBVV95cUxOcGlINU1SdDhneHQtZlNhNXNEV2dHLWRYdldxdVZ6d1BIaE1UekVGNENlSVhMMVU1anVyYUhTOTdqZklQMF9Cb0M0a0Y5RUx3QTBmYW9YejdVMlNTTTBCbjA5VHZfalFva0xyV3ExSzZlajNCWQ?oc=5",
-    "published_at": "Sun, 07 Jun 2026 23:36:42 GMT",
-    "text": "[증시 긴급진단] 美 반도체 폭락 여진에도…\"투매 말라\" 이유는 - 연합인포맥스  [증시 긴급진단] 美 반도체 폭락 여진에도…\"투매 말라\" 이유는 &nbsp;&nbsp; 연합인포맥스 "
+    "title": "[속보] 코스피 개장 직후 8% 폭락…서킷 브레이커 발동 - 한겨레",
+    "summary": "[속보] 코스피 개장 직후 8% 폭락…서킷 브레이커 발동 &nbsp;&nbsp; 한겨레",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB1dWJwMXRnMjhQakdoNE04Z1U0OTloN0VHclc2cV9mRU90N21rT3JqYnNDYUlNWXBPaWpCMDF5WnZQUkRVdUloeVVLVzN4NzRGaGRzWWp2OF9nRFNJOGxWUjZ2Ql9ocVE?oc=5",
+    "published_at": "Mon, 08 Jun 2026 01:00:00 GMT",
+    "text": "[속보] 코스피 개장 직후 8% 폭락…서킷 브레이커 발동 - 한겨레  [속보] 코스피 개장 직후 8% 폭락…서킷 브레이커 발동 &nbsp;&nbsp; 한겨레 "
   },
   {
-    "source": "Google News 국내 증시·반도체",
+    "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
-    "title": "美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” - 중앙일보",
-    "summary": "美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” &nbsp;&nbsp; 중앙일보",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5waHhLSnZfQlBpbXF1UV80YkYzazJ2bEtwQ1JIeGxnd2hhU1FOSlhiZzVwUjJFQ1MtNGVDZnBmdmdxYjdaQkRnNGxuNkRkeDRmaG9LUlF3?oc=5",
-    "published_at": "Sun, 07 Jun 2026 20:00:00 GMT",
-    "text": "美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” - 중앙일보  美 반도체 급락 뒤 첫 장…“오늘 주식앱 못켜겠다” &nbsp;&nbsp; 중앙일보 "
+    "title": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문",
+    "summary": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 &nbsp;&nbsp; 매일신문",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83MUt0VFNVT3hSQk9mTm5aNWQ2WFp2ODhkdjIweERZYWRNRllGQkNqX2gxNTFtRE1QV1JUYVVjRFZxR1FkUXJHaExrQXdKRzlZa0h6WWVuYm9tZVNOQXlJZXp3?oc=5",
+    "published_at": "Mon, 08 Jun 2026 01:27:30 GMT",
+    "text": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문  젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 &nbsp;&nbsp; 매일신문 "
   },
   {
     "source": "Google News 한국 주식 종목",
@@ -310,26 +339,6 @@
     "text": "삼전·닉스 담으니 ‘스타 ETF’···10대 운용사 최대 상품 보니 - 시사저널e  삼전·닉스 담으니 ‘스타 ETF’···10대 운용사 최대 상품 보니 &nbsp;&nbsp; 시사저널e "
   },
   {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net",
-    "summary": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBhcnR1OFZicWlkTkFoOFBnUm42RGN3Zjh2VjdhRHVtTXktdDR6XzFHQmJSLTZsUHY2QW9iMGNsTW1RWDhsSmZzNXhRY1hsUkE?oc=5",
-    "published_at": "Fri, 05 Jun 2026 05:49:03 GMT",
-    "text": "\"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] - v.daum.net  \"값이 다른 삼성전자 주식\"…보통주·우선주 다른 이유[주린이 투자지침서] &nbsp;&nbsp; v.daum.net "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears - Reuters",
-    "summary": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears &nbsp;&nbsp; Reuters",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZzdPM20tT2tIYkJrWFRJSmRaUDk5M1Z0ZHJRbEZ0dFpmSkpFWVAtTEZGdjFwa1YyN2hhU2NEbkx5NVJ2c0JCYzlZclV6NVh6SHhqbVk3V2h5V2J5azlCQ3MyN0ZsUmhvd1RYLXo1Ti1qNlJUOVhBaHVRQkNWckRJQ000UEZIWk9SLVk5QmZ6ZmpDUzhxbWRDZ2JSVER5VDZEbmtSWg?oc=5",
-    "published_at": "Fri, 05 Jun 2026 10:05:00 GMT",
-    "text": "Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears - Reuters  Wall Street ends sharply lower as chips slide, jobs data fuels rate hike fears &nbsp;&nbsp; Reuters "
-  },
-  {
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
@@ -358,6 +367,16 @@
     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
     "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
     "text": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA  New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
+    "title": "What Triggered the Recent Semiconductor Sell-Off - Kavout",
+    "summary": "What Triggered the Recent Semiconductor Sell-Off &nbsp;&nbsp; Kavout",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeV9hbWl4LXg0eW5ZWFVERlpaZGRsZzBkOEQzb0VuSmptQ2RsR3RUcldSTzhJcW1URGZsbnBjVUxmYlNpMHlESnlJdEVvZ1RaSWloQ0ZfODJXV012UF9qYjFfYVNDaG15cXpBNXYxYWpjaGNIY2hRa3hOdGhUSjdOcDhabENFWmFvV1M0?oc=5",
+    "published_at": "Sat, 06 Jun 2026 06:30:11 GMT",
+    "text": "What Triggered the Recent Semiconductor Sell-Off - Kavout  What Triggered the Recent Semiconductor Sell-Off &nbsp;&nbsp; Kavout "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -413,10 +432,10 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "NVIDIA links 'AI factories' buildout to new SK hynix memory deal - Stock Titan",
-    "summary": "NVIDIA links 'AI factories' buildout to new SK hynix memory deal &nbsp;&nbsp; Stock Titan",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUnhwWFVOSVEtWjA4QmkzeFRndTZuYTZyWjdKekJRc2owNUtHeTkxMmFQbU5Pak1sdWExVVd5eVJTTFVkRjB2cXM5NTd0SmlzbFdLN0ZoVzZBbkZyRlIzSnZRelJZbHhybEJjRFRfdHBKRUZrSTIxRGk5Y2ozM0JBLXN2TEdLM3NXNXBZZ0FfUGRRNkh2VHY0bkhsUGpETDlnRWVVcEh3RS01ajZ1dnF3RkoxZFJ4ZGdiSmFr?oc=5",
-    "published_at": "Sun, 07 Jun 2026 23:00:00 GMT",
-    "text": "NVIDIA links 'AI factories' buildout to new SK hynix memory deal - Stock Titan  NVIDIA links 'AI factories' buildout to new SK hynix memory deal &nbsp;&nbsp; Stock Titan "
+    "title": "Can META Stock Compound Its Way Higher? - Trefis",
+    "summary": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
+    "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
+    "text": "Can META Stock Compound Its Way Higher? - Trefis  Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis "
   }
 ]

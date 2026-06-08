@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-08T08:04",
+  "generated_at": "2026-06-08T11:06",
   "max_per_channel": 8,
   "frames_per_video": 5,
   "selected_this_run": 112,
   "processed_this_run": 112,
-  "index_total": 157,
+  "index_total": 158,
   "ok_total": 155,
   "total_ocr_chars": 112329,
   "by_source": {
@@ -14,7 +14,7 @@
       "chars": 10276
     },
     "주식용사부": {
-      "items": 10,
+      "items": 11,
       "ok": 10,
       "chars": 5365
     },

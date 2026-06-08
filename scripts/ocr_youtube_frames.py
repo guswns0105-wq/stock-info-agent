@@ -144,7 +144,10 @@ def extract_frames(video_path, frames_dir, frames_per_video=FRAMES_PER_VIDEO):
 
 
 def ocr_frame(frame):
-    proc = run(['/usr/bin/swift', str(SWIFT), str(frame)], timeout=90)
+    try:
+        proc = run(['/usr/bin/swift', str(SWIFT), str(frame)], timeout=90)
+    except subprocess.TimeoutExpired:
+        return [], 'ocr timeout'
     if proc.returncode != 0:
         return [], proc.stderr[-500:]
     try:
@@ -167,11 +170,17 @@ def process_item(item, index):
         d.mkdir(parents=True, exist_ok=True)
     video_path = vdir / f'{video_id}.mp4'
     if not video_path.exists() or video_path.stat().st_size < 100_000:
-        proc = download_video(video_id, video_path)
+        try:
+            proc = download_video(video_id, video_path)
+        except subprocess.TimeoutExpired as e:
+            return {'video_id': video_id, 'ocr_status': 'download_failed', 'title': item.get('title'), 'source': item.get('source'), 'error': f'download timeout after {e.timeout}s'}
         (logs_dir / f'{video_id}.download.log').write_text((proc.stdout or '') + '\n--- STDERR ---\n' + (proc.stderr or ''), encoding='utf-8')
         if proc.returncode != 0 or not video_path.exists():
             return {'video_id': video_id, 'ocr_status': 'download_failed', 'title': item.get('title'), 'source': item.get('source'), 'error': (proc.stderr or proc.stdout)[-700:]}
-    frames, proc = extract_frames(video_path, frames_dir)
+    try:
+        frames, proc = extract_frames(video_path, frames_dir)
+    except subprocess.TimeoutExpired as e:
+        return {'video_id': video_id, 'ocr_status': 'frame_failed', 'title': item.get('title'), 'source': item.get('source'), 'video_path': str(video_path), 'error': f'ffmpeg timeout after {e.timeout}s'}
     (logs_dir / f'{video_id}.ffmpeg.log').write_text((proc.stdout or '') + '\n--- STDERR ---\n' + (proc.stderr or ''), encoding='utf-8')
     if not frames:
         return {'video_id': video_id, 'ocr_status': 'frame_failed', 'title': item.get('title'), 'source': item.get('source'), 'video_path': str(video_path)}
