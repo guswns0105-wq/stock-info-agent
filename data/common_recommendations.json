@@ -10,11 +10,11 @@
       "Google News 국내 증시·반도체",
       "Google News 한국 주식 종목",
       "마술토끼의 투자이야기",
+      "Yahoo Finance Top Stories",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "미국 경제 정복하기",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
-      "Yahoo Finance Top Stories",
       "경제명탐정",
       "블로그 magic_rabb1t",
       "주식쇼퍼 - 투자도 쇼핑처럼",
@@ -255,6 +255,18 @@
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
+        "title": "엔비디아와 SK하이닉스, AI 칩 파트너십 확대 - Gasworld",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzhBLVZmV1doaXY2TDV6aGFNZVlIZFhHek1rTEpQcGtSOFR3T3U3Q1B5azFZZk55djNOS2ZPVEp3QWZoRWVBWmtUNFV3MDFCM3VTeTB3TE9WN3ViZzZfNkI0Y3VEY2UxUDZXclJZWG1TZi1lMk9TWTdYdXp3WENuMXFweWpBNFhuWmNES3cteWU0cmxxVUlSUFR3?oc=5",
+        "published_at": "Mon, 08 Jun 2026 10:11:52 GMT",
+        "reason": "엔비디아와 SK하이닉스, AI 칩 파트너십 확대    가스월드",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
         "title": "SOXQ Semiconductor ETF는 AI 칩 붐이 NVIDIA, Broadcom, AMD를 상승시키면서 181.74% 급등합니다 - 24/7 Wall St.",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQamZBUXFhMUhCLTBSdUZYa01sd0xVTzhCODNIdFZadkxVVXpoUGZIVVZzZllRX3U0SkRzZk8yZmJSSTBwd3hnRVZIZUgwdE5wbW44Um55Q3RPakV5QjZObGdHQmRvc093WVM5WEltZnh6cmoxZ0gtTXJlUzh1TDVSTHdjalFQOTVkTVlQX21KVWUzdk1kLVlheGMtcW1IU3BLbUJoeTZTZThITEplTzBPSG9lNVdmM3VPUmpZOXFWYw?oc=5",
         "published_at": "Mon, 08 Jun 2026 09:30:49 GMT",
@@ -271,6 +283,18 @@
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUxqM2ROZkpHRU9pdnppek5HcUM2QVZkT0ZDclRZRVR6OXhlX2FQYWh2WGJNNEp1ai1SNFdzZGh5aWtYS1p5UEh5ZDZ3dEV0NTMzWGptQ2cxVVF3RzBoUXB2WDhOUHU4bXh0UXNUaGlENEFIOVJlSzJDWWVRTkZqaXY0R2MwSlJzblhwUThWbksyc0JsMFQ1SWtEanYybFh4cExF?oc=5",
         "published_at": "Mon, 08 Jun 2026 09:11:35 GMT",
         "reason": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까?    스톡트윗",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까? - 야후 파이낸스",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGNUN2pnT0Y4OURwSlFkMDdBSUdlQ3loSkxLWnpBdXpYZWVfQ1JlUEhSZ1h5cGc5cFIwcS1zRzRWelJlSkR6SkxZOTV3aUkwUktsX001RXJOSHZlTFlaLWJlS2djYjVNV1psZkJQX2U5WDlsQ0FQNXZtSklQOGhMLWNyZ0plV0UwUXhjZGN3LU1NZENBcWVVdGVqeC0?oc=5",
+        "published_at": "Mon, 08 Jun 2026 09:06:23 GMT",
+        "reason": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까?    야후 파이낸스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -463,6 +487,18 @@
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN0NPS0JzVEU2N3laWFJoSkpiSmFYcnpCWVVOeVpuaWhpcVNOVTkyWWFGRFFJUWR6UThaUGg5OTlYenJuQWR4WHp3Q21mMW1HcDY4b2RkOWk4ZUhQTTJxOHE4SVhZMjZiWVMzWktSVlV6UzZld1dMcW1UQV9fblRNTk9BOHRCbGIzQzh3UXJacUUzWl9LOXNFaGprVk5uZTZMdWplal9TbUdtNUdyWW56ZVBXSQ?oc=5",
         "published_at": "Fri, 05 Jun 2026 01:25:15 GMT",
         "reason": "Mark Stevens, NVIDIA(NASDAQ:NVDA) 주식 500,000주 매각    MarketBeat",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "NVIDIA(NVDA)는 억만장자 Ken Fisher의 포트폴리오에서 최고의 AI 주식입니다",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-nvda-top-ai-stock-105344444.html",
+        "published_at": "2026-06-08T10:53:44Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -3833,8 +3869,8 @@
     "sources": [
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
-      "올랜도 킴 미국주식",
       "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식",
       "미국 경제 정복하기",
       "경제사냥꾼",
       "주식용사부",
@@ -3863,6 +3899,18 @@
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaUw5ek55Q2o1NVg3eXNjUG5jZUFEdG5VYWxkZFNld0haeWZyZmhWMkFvN2dTRGtYR1kxWlNUaHJiOU82RnVSOFFhTU03dVFrUThKblBtcTllaVNENVRCdlVHbGtGTG9ocF84YUY5dUhqUEE3aVVmYTcxanNzTjhpRzhPV2xZeVA2NHBZUDBmRjZmY1Mwa1o5S255WVpZYW5IRmNMNnNxSjRqQmJoRU9jNE5uMmNtYmRLTVJ5SThkZ3MtOWF2?oc=5",
         "published_at": "Thu, 04 Jun 2026 12:02:20 GMT",
         "reason": "이 칩 ETF는 마이크론 붐에 대비했습니다    The Globe and Mail",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "2x Micron ETF(MUU)는 Broadcom이 실패하고 금리가 급등한 하루 만에 26.65% 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2x-micron-etf-muu-shed-103012331.html",
+        "published_at": "2026-06-08T10:30:12Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -5959,9 +6007,9 @@
     "name": "Broadcom",
     "sources": [
       "Google News US Markets AI Semis",
+      "Yahoo Finance Top Stories",
       "올랜도 킴 미국주식",
-      "주식용사부",
-      "Yahoo Finance Top Stories"
+      "주식용사부"
     ],
     "source_count": 4,
     "evidence": [
@@ -6044,6 +6092,18 @@
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSnBRX3BLYW9qOURXY2pUZGszSnd5dFQtNWMtaEJVOU5qbmFFc1hkVW5fel9RcVo3RTV1Mmh0NUUxNE5fZG9WQlpPeTdDYXJMQnZkMWV3dGhlYXAwZzlMZ1NFTWtCeWk5QjZXalFkZjFHRU1zYWR3b3VmU0N6aDg5TFRRVldDYXplcTgyMXV3aFcyMkhqY1BZ0gGcAUFVX3lxTE5rVEFtSjRacDlFNFVKclY1N0p5dTNyWXlEZC1qOUZlcVJPU1FSUi1OVlc1UXh4azBNel9ZbXVaUjNaQVQ5MlpkV3RkNi1GREVZRXYtMEZYQTlhYndZVkhQbGROdGRxb2drUU5yNFp3dDhPeTBteE9IUzBVM1ptNTFCRU05RFRfMkdNcUhZQVh5M1FkWFQ4TkRuZWE2bw?oc=5",
         "published_at": "Fri, 05 Jun 2026 01:39:00 GMT",
         "reason": "Broadcom이 AI 거래를 방해하고 월스트리트 이름을 끌어내린 후 아시아 기술 주식은 하락    CNBC",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "2x Micron ETF(MUU)는 Broadcom이 실패하고 금리가 급등한 하루 만에 26.65% 하락했습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/2x-micron-etf-muu-shed-103012331.html",
+        "published_at": "2026-06-08T10:30:12Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6559,6 +6619,18 @@
     ],
     "source_count": 4,
     "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "바이오마린제약(BMRN): 2년 동안 매수하고 보유해야 할 가장 저평가된 주식",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/biomarin-pharmaceutical-bmrn-most-undervalued-104743082.html",
+        "published_at": "2026-06-08T10:47:43Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
@@ -7360,12 +7432,24 @@
     "ticker": "AAPL",
     "name": "Apple",
     "sources": [
-      "올랜도 킴 미국주식",
       "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식",
       "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
     "source_count": 3,
     "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Apple(AAPL)은 억만장자 Ken Fisher 포트폴리오의 최고 주식입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-top-stock-billionaire-105404818.html",
+        "published_at": "2026-06-08T10:54:04Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "올랜도 킴 미국주식",
         "source_role": "유튜버",

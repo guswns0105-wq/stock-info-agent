@@ -123,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "美 금리인상 가능성에 국고채 일제히↑…3년물 낙찰금리 4%(종합3보)",
+    "summary": "(서울·세종=연합뉴스) 김태종 김수현 기자 = 미국의 기준금리 인상 가능성 등으로 8일 국고채 금리가 일제히 상승 마감했다.",
+    "url": "https://www.yna.co.kr/view/AKR20260608152352008",
+    "published_at": "Mon, 8 Jun 2026 19:13:32 +0900",
+    "text": "美 금리인상 가능성에 국고채 일제히↑…3년물 낙찰금리 4%(종합3보) (서울·세종=연합뉴스) 김태종 김수현 기자 = 미국의 기준금리 인상 가능성 등으로 8일 국고채 금리가 일제히 상승 마감했다."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "[전북소식] 식품진흥원, 스페인 농식품 클러스터와 기술 협력",
     "summary": "(전주=연합뉴스) 한국식품산업클러스터진흥원은 스페인 라리오하주 기술혁신센터에서 스페인의 농식품 클러스터인 푸드+아이(Food+i)와 업무협약을 ...",
     "url": "https://www.yna.co.kr/view/AKR20260608169900055",
@@ -160,24 +170,44 @@
     "text": "투기거래 정조준한 외환당국…1,600원 향하던 환율 급제동 (서울=연합뉴스) 임지우 이도흔 기자 = 외환당국이 1,600원을 향해 가파르게 치솟는 환율을 진정시키기 위해 특단의 대책을 총동원하는 분위기다..."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
-    "region": "domestic",
-    "title": "[게시판] 강태영 농협은행장, 경상국립대 농생대에서 일일 멘토 특강",
-    "summary": "▲ NH농협은행은 강태영 은행장이 8일 경상국립대 농업생명과학대 학생 300여명을 대상으로 특강을 했다고 이날 밝혔다. 강 행장은 협동조합의 의...",
-    "url": "https://www.yna.co.kr/view/AKR20260608163400002",
-    "published_at": "Mon, 8 Jun 2026 18:00:25 +0900",
-    "text": "[게시판] 강태영 농협은행장, 경상국립대 농생대에서 일일 멘토 특강 ▲ NH농협은행은 강태영 은행장이 8일 경상국립대 농업생명과학대 학생 300여명을 대상으로 특강을 했다고 이날 밝혔다. 강 행장은 협동조합의 의..."
+    "region": "global",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-as-oil-rises-after-iran-and-israel-exchange-strikes-085310526.html",
+    "published_at": "2026-06-08T08:53:10Z",
+    "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Mortgage and refinance interest rates today, Monday, June 8, 2026: Purchase and refi rates very similar",
+    "title": "Morning Bid: Chip chill, jobs heat and war",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-rates-today-monday-june-8-2026-100000800.html",
-    "published_at": "2026-06-08T10:00:00Z",
-    "text": "Mortgage and refinance interest rates today, Monday, June 8, 2026: Purchase and refi rates very similar "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-chip-chill-jobs-103725632.html",
+    "published_at": "2026-06-08T10:37:25Z",
+    "text": "Morning Bid: Chip chill, jobs heat and war "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "The 2x Micron ETF (MUU) Shed 26.65% in One Day When Broadcom Missed and Rates Spiked",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/2x-micron-etf-muu-shed-103012331.html",
+    "published_at": "2026-06-08T10:30:12Z",
+    "text": "The 2x Micron ETF (MUU) Shed 26.65% in One Day When Broadcom Missed and Rates Spiked "
+  },
+  {
+    "source": "Yahoo Finance Top Stories",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Five ways Elon Musk's SpaceX upended Wall Street's IPO playbook",
+    "summary": "",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/five-ways-elon-musks-spacex-100202620.html",
+    "published_at": "2026-06-08T10:20:18Z",
+    "text": "Five ways Elon Musk's SpaceX upended Wall Street's IPO playbook "
   },
   {
     "source": "Yahoo Finance Top Stories",
@@ -190,44 +220,14 @@
     "text": "Best high-yield savings interest rates today, Monday, June 8, 2026: Earn up to 4.1% APY "
   },
   {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "HELOC and home equity loan rates, Monday, June 8, 2026: Looking back at May rates",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-home-equity-loan-rates-today-monday-june-8-2026-100000056.html",
-    "published_at": "2026-06-08T10:00:00Z",
-    "text": "HELOC and home equity loan rates, Monday, June 8, 2026: Looking back at May rates "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Best CD rates today, Monday, June 8, 2026: Lock in up to 4% APY",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-june-8-2026-100000439.html",
-    "published_at": "2026-06-08T10:00:00Z",
-    "text": "Best CD rates today, Monday, June 8, 2026: Lock in up to 4% APY "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Best money market account rates today, Monday, June 8, 2026: Earn up to 4.01% APY",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-june-8-2026-100000546.html",
-    "published_at": "2026-06-08T10:00:00Z",
-    "text": "Best money market account rates today, Monday, June 8, 2026: Earn up to 4.01% APY "
-  },
-  {
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[속보] ‘검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 - 조선일보",
-    "summary": "[속보] ‘검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 &nbsp;&nbsp; 조선일보",
+    "title": "검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 - 조선일보",
+    "summary": "검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 &nbsp;&nbsp; 조선일보",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdl9xNVV4aVZSdVpvcjM3Wl9yckVtLTV1TW4yRU5SUUJiLWZtOHlHZXk1N1NZNG1oNDV0T252Q0FfR1hlS1JqUjY2WEdJWmtZeFRXczZqbDZpOGxDT1ZUMXdjOEpyLUlIbWdXanpwaFhrNHI5SFR3N3hoVDRKaktONE1HdUJMdHRvX0h3?oc=5",
     "published_at": "Mon, 08 Jun 2026 07:05:12 GMT",
-    "text": "[속보] ‘검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 - 조선일보  [속보] ‘검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 &nbsp;&nbsp; 조선일보 "
+    "text": "검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 - 조선일보  검은 월요일’ 된 코스피 8.29% 대폭락… 7500선 결국 깨졌다 &nbsp;&nbsp; 조선일보 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -253,11 +253,11 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보) - 연합뉴스",
-    "summary": "반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보) &nbsp;&nbsp; 연합뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Xd1EwMzNaWGZFTnFYLUJQZHVzZXdVWFE5LWVfaWsxWklaX0lZRVRFclV4VmpoSUc2bmdpZWdDbEdQalp0ZHV0LWNyS05WbWIzOVNRdFVfUEdaZmhXWHBqRNIBYEFVX3lxTE9Xd1EwMzNaWGZFTnFYLUJQZHVzZXdVWFE5LWVfaWsxWklaX0lZRVRFclV4VmpoSUc2bmdpZWdDbEdQalp0ZHV0LWNyS05WbWIzOVNRdFVfUEdaZmhXWHBqRA?oc=5",
-    "published_at": "Mon, 08 Jun 2026 06:00:00 GMT",
-    "text": "반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보) - 연합뉴스  반도체발 급락에 코스피·코스닥, 잇단 서킷브레이커(종합2보) &nbsp;&nbsp; 연합뉴스 "
+    "title": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ - 연합뉴스",
+    "summary": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ &nbsp;&nbsp; 연합뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xZTBmc1o5OWFMR3JaVFNBZjdNTVJTSkIzZktMTlFCcXNvU1ZHcmRWNGszNjZnOWVQVTlIT1BkRVJBaDdQbzVwMS1fX3FKajlIUkdWRVhSVU5MaWPSAWBBVV95cUxOaldwQWhRS0k4MTVxLWF1VzRBSjVCSGNFeElDcWhWSVplZjJfTkUybEJDU3ZGaWxUeTd0blQ2ZmsyYm1Obk1Ob3NwVzJmZGFWZEJ5YVdzYl9OX1llcC00SEo?oc=5",
+    "published_at": "Mon, 08 Jun 2026 06:34:16 GMT",
+    "text": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ - 연합뉴스  [속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ &nbsp;&nbsp; 연합뉴스 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -275,8 +275,8 @@
     "region": "domestic",
     "title": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제 마켓",
     "summary": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제 마켓",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5em9VMGpqTEZoLXdSOWhwVWF4ZC0teERUNlV2WGQyUWd6XzM2WmZ4Mmd4UXVyZ0xvLUJNampxdUQ3NlFuVDc4eTRyaWJ1R2NjelE?oc=5",
-    "published_at": "Mon, 08 Jun 2026 05:27:07 GMT",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Pdm5MY0tQbHpHalM5NGxmeVdZN2JZTl83ZHV1NTgxZmM5NjZTS2Jzd0ZJQ3JUWDBRdmp5VlptUVVOaHdLUTByQXpaY3VfU05vdXc?oc=5",
+    "published_at": "Mon, 08 Jun 2026 05:01:17 GMT",
     "text": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제 마켓  [생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제 마켓 "
   },
   {
@@ -323,10 +323,20 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
+    "title": "Have Lattice Semiconductor Insiders Been Selling Stock? - simplywall.st",
+    "summary": "Have Lattice Semiconductor Insiders Been Selling Stock? &nbsp;&nbsp; simplywall.st",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRGdvbVhKaFZrWm9vNVVPSm5PQ0Zqek5La3RBQUdQLWRyUXE4WHYyejVvRlFSMGN0LUh4dFZlNnJVZkx4ZXhFU216TklsV3pjbV9sYjIwUlFieWY4REYxNWQxWDB5NzNjS1Bpb2FkVDNYU3liZDBHOVBZTXViNU43VURRT0xsd1NiZ21XWHFOYWJTRm9FOTJDVi1OWkFFSkpLM0R5Q05nbW1VaEVWOE9NYmYtcTQ1Q3JvNmdoMHl6T2g2b2pPb1h4YmFkUUVaYVh2WXBxR0RZMlVsZ9IB3wFBVV95cUxNSnZVdkZOYW40SkxrY3B5cnBkX252WHVRendkeFpicVg2Vm9nUU41UGQ1cWQ4Vmhhb2Y5Uzh3SXkzdEdtMG9CUzJFYkE1WFY1S0JlR3pYVGRfMkpBR3NaX2loX19YSHV3QkJhRlU0Um0xaWE1UUhNZ2Z0eXFqQ3FyclkzTG1SN3BYalhmdkM4R09lb1lWbjE0YlhxVlZVaE96YS1ETmxqTXF3VG15Tm92V01DTlJMeFRPd0RXNWQwak1QWHZVVmhYWV85UDdtN2MweUdBRXhOaHNMS3ltOWlz?oc=5",
+    "published_at": "Mon, 08 Jun 2026 10:10:50 GMT",
+    "text": "Have Lattice Semiconductor Insiders Been Selling Stock? - simplywall.st  Have Lattice Semiconductor Insiders Been Selling Stock? &nbsp;&nbsp; simplywall.st "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
     "title": "[U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s - Moomoo",
     "summary": "[U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s &nbsp;&nbsp; Moomoo",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQVU2eEItR1hWSVFjUVhZZGZVWFVVWl9pV2MwVHpXTE9OMFh6QmNFTm5TM3VjQzF2YndJX3pGaS1vWlZuMVB3cDhHZEp2V1ZvVnFQQ2YzNGhXVWJlVUo3Szd2MmRPcUFCZ3VJYXp1MWJaV2h3Q0ZUV1pxZW4wanlhejFUQnBqNlE4aHg5ajA5cHd0VDZ3bThCS3ZlRnc4SVlnckViSnpkX0pXMUNSS1BHbncxSQ?oc=5",
-    "published_at": "Mon, 08 Jun 2026 01:00:38 GMT",
+    "published_at": "Mon, 08 Jun 2026 00:48:00 GMT",
     "text": "[U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s - Moomoo  [U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s &nbsp;&nbsp; Moomoo "
   },
   {
@@ -343,31 +353,21 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
+    "title": "Nvidia and Sk hynix expand AI chip partnership - gasworld",
+    "summary": "Nvidia and Sk hynix expand AI chip partnership &nbsp;&nbsp; gasworld",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzhBLVZmV1doaXY2TDV6aGFNZVlIZFhHek1rTEpQcGtSOFR3T3U3Q1B5azFZZk55djNOS2ZPVEp3QWZoRWVBWmtUNFV3MDFCM3VTeTB3TE9WN3ViZzZfNkI0Y3VEY2UxUDZXclJZWG1TZi1lMk9TWTdYdXp3WENuMXFweWpBNFhuWmNES3cteWU0cmxxVUlSUFR3?oc=5",
+    "published_at": "Mon, 08 Jun 2026 10:11:52 GMT",
+    "text": "Nvidia and Sk hynix expand AI chip partnership - gasworld  Nvidia and Sk hynix expand AI chip partnership &nbsp;&nbsp; gasworld "
+  },
+  {
+    "source": "Google News US Markets AI Semis",
+    "source_type": "rss",
+    "region": "global",
     "title": "SOXQ Semiconductor ETF Surges 181.74% as AI Chip Boom Lifts NVIDIA, Broadcom, AMD - 24/7 Wall St.",
     "summary": "SOXQ Semiconductor ETF Surges 181.74% as AI Chip Boom Lifts NVIDIA, Broadcom, AMD &nbsp;&nbsp; 24/7 Wall St.",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQamZBUXFhMUhCLTBSdUZYa01sd0xVTzhCODNIdFZadkxVVXpoUGZIVVZzZllRX3U0SkRzZk8yZmJSSTBwd3hnRVZIZUgwdE5wbW44Um55Q3RPakV5QjZObGdHQmRvc093WVM5WEltZnh6cmoxZ0gtTXJlUzh1TDVSTHdjalFQOTVkTVlQX21KVWUzdk1kLVlheGMtcW1IU3BLbUJoeTZTZThITEplTzBPSG9lNVdmM3VPUmpZOXFWYw?oc=5",
     "published_at": "Mon, 08 Jun 2026 09:30:49 GMT",
     "text": "SOXQ Semiconductor ETF Surges 181.74% as AI Chip Boom Lifts NVIDIA, Broadcom, AMD - 24/7 Wall St.  SOXQ Semiconductor ETF Surges 181.74% as AI Chip Boom Lifts NVIDIA, Broadcom, AMD &nbsp;&nbsp; 24/7 Wall St. "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
-    "title": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA",
-    "summary": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWnRsazNfRFdXeUNoM3VQS2QySUFrLThKYkd0akM5emRmNWVndTdjRkMwUDVHVTdOR2hVU05aaGozckg2YzFTd3lwNWNES2VfZXI5R2ZqOGtjZ09hdzRGZmVKaHk3dmFTRkRYRmtpVm5STmhocXpfLUJKenM5Nzd0YTJMZkZyQnFGNnNQVG82a2FQUENhUDhwQ3hXUDU4WFNXTjc0Rm5UemloLVRQeThkTzZUY0lud0d2SjRuNVhJVXUtSXdBQW93WFJWOGVwTUdDdGREVTFQWDBMbUNVbVRFSy1JZDktbEFGU3FIU0lqTGdpQQ?oc=5",
-    "published_at": "Mon, 01 Jun 2026 09:03:16 GMT",
-    "text": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies - Semiconductor Industry Association | SIA  New Report Finds Semiconductors Account for 95% of an AI Data Server Rack’s Value, Encompassing the Full Stack of Chip Technologies &nbsp;&nbsp; Semiconductor Industry Association | SIA "
-  },
-  {
-    "source": "Google News US Markets AI Semis",
-    "source_type": "rss",
-    "region": "global",
-    "title": "What Triggered the Recent Semiconductor Sell-Off - Kavout",
-    "summary": "What Triggered the Recent Semiconductor Sell-Off &nbsp;&nbsp; Kavout",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeV9hbWl4LXg0eW5ZWFVERlpaZGRsZzBkOEQzb0VuSmptQ2RsR3RUcldSTzhJcW1URGZsbnBjVUxmYlNpMHlESnlJdEVvZ1RaSWloQ0ZfODJXV012UF9qYjFfYVNDaG15cXpBNXYxYWpjaGNIY2hRa3hOdGhUSjdOcDhabENFWmFvV1M0?oc=5",
-    "published_at": "Sat, 06 Jun 2026 06:30:11 GMT",
-    "text": "What Triggered the Recent Semiconductor Sell-Off - Kavout  What Triggered the Recent Semiconductor Sell-Off &nbsp;&nbsp; Kavout "
   },
   {
     "source": "Google News Magnificent 7",
@@ -383,11 +383,11 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Why Is NVDA Stock Jumping Over 2% In Overnight Trading Today? - Yahoo Finance",
-    "summary": "Why Is NVDA Stock Jumping Over 2% In Overnight Trading Today? &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMFV2UzZSNGlmQ2stcnh3a2tfMUY5U0t0cE9wc2VELVlqbnlUdDJxb3ZPTEQ2R3hJbXAtczltcmtRbDlWcU11TU1RS3Y2czZvQmRqM2pmYVNTQlBkOE40eDRyY0FqRURqaXpGRnhSMXo0LWlHeDFCQ1BPMHdwZmRDUHlRZHVxZ3VhUUdYM1hSX2lwbHRrc1Fn?oc=5",
-    "published_at": "Mon, 08 Jun 2026 02:13:00 GMT",
-    "text": "Why Is NVDA Stock Jumping Over 2% In Overnight Trading Today? - Yahoo Finance  Why Is NVDA Stock Jumping Over 2% In Overnight Trading Today? &nbsp;&nbsp; Yahoo Finance "
+    "title": "Why Is NVDA Stock Rising In Premarket? - Yahoo Finance",
+    "summary": "Why Is NVDA Stock Rising In Premarket? &nbsp;&nbsp; Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGNUN2pnT0Y4OURwSlFkMDdBSUdlQ3loSkxLWnpBdXpYZWVfQ1JlUEhSZ1h5cGc5cFIwcS1zRzRWelJlSkR6SkxZOTV3aUkwUktsX001RXJOSHZlTFlaLWJlS2djYjVNV1psZkJQX2U5WDlsQ0FQNXZtSklQOGhMLWNyZ0plV0UwUXhjZGN3LU1NZENBcWVVdGVqeC0?oc=5",
+    "published_at": "Mon, 08 Jun 2026 09:06:23 GMT",
+    "text": "Why Is NVDA Stock Rising In Premarket? - Yahoo Finance  Why Is NVDA Stock Rising In Premarket? &nbsp;&nbsp; Yahoo Finance "
   },
   {
     "source": "Google News Magnificent 7",
@@ -403,20 +403,20 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Why Is NVDA Stock Rising In Premarket? - Stocktwits",
-    "summary": "Why Is NVDA Stock Rising In Premarket? &nbsp;&nbsp; Stocktwits",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUxqM2ROZkpHRU9pdnppek5HcUM2QVZkT0ZDclRZRVR6OXhlX2FQYWh2WGJNNEp1ai1SNFdzZGh5aWtYS1p5UEh5ZDZ3dEV0NTMzWGptQ2cxVVF3RzBoUXB2WDhOUHU4bXh0UXNUaGlENEFIOVJlSzJDWWVRTkZqaXY0R2MwSlJzblhwUThWbksyc0JsMFQ1SWtEanYybFh4cExF?oc=5",
-    "published_at": "Mon, 08 Jun 2026 09:11:35 GMT",
-    "text": "Why Is NVDA Stock Rising In Premarket? - Stocktwits  Why Is NVDA Stock Rising In Premarket? &nbsp;&nbsp; Stocktwits "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
     "title": "Can META Stock Compound Its Way Higher? - Trefis",
     "summary": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
     "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
     "text": "Can META Stock Compound Its Way Higher? - Trefis  Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "Morgan Stanley Says Meta Can Win AI. The Stock Still Has Something to Prove. - Barron's",
+    "summary": "Morgan Stanley Says Meta Can Win AI. The Stock Still Has Something to Prove. &nbsp;&nbsp; Barron's",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeURvNTBBMnF2ZXRTODBQTnBVMnh6TkhOakdlT3dDcGs0LWVMM0RoS3J6SWE1anUwbTU3SnFtalhNY1FWVjF3dHZhaGlpQV9NOXU5Z2M0bFljOThma3dZN05HdnNaU2tfRkM1MVU2ejNvc3RPSkduRG5xdUdtc0ZRS0kySQ?oc=5",
+    "published_at": "Wed, 03 Jun 2026 16:55:00 GMT",
+    "text": "Morgan Stanley Says Meta Can Win AI. The Stock Still Has Something to Prove. - Barron's  Morgan Stanley Says Meta Can Win AI. The Stock Still Has Something to Prove. &nbsp;&nbsp; Barron's "
   }
 ]

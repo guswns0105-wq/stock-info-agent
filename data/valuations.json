@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T19:27",
+  "generated_at": "2026-06-08T20:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -163,9 +163,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 30회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 31회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 30회",
+          "출처 언급 31회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -180,18 +180,18 @@
         "price": 415.17,
         "currency": "USD",
         "ai_score": 12,
-        "verdict": "관심권",
+        "verdict": "저평가 후보",
         "ai_buy_price": 406.8666,
-        "ai_sell_price": 526.4954486810915,
-        "fair_value": 501.4242368391348,
-        "pe": 22.74,
-        "pb": 10.472,
+        "ai_sell_price": 542.5529266888997,
+        "fair_value": 516.7170730370473,
+        "pe": 22.067,
+        "pb": 10.162,
         "roe": 36.21,
         "trend": "상승 추세",
         "ret20_pct": 0.24628905433972115,
         "support": 316.5,
         "resistance": 446.69000244140625,
-        "comment": "출처 언급 13회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+        "comment": "출처 언급 13회, 적정가 대비 24.46% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 13회",
           "ROE 36.21%",
@@ -275,9 +275,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 22회, 적정가 대비 6.99% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 23회, 적정가 대비 6.99% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 22회",
+          "출처 언급 23회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -444,9 +444,9 @@
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 30회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 31회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 30회",
+          "출처 언급 31회",
           "ROE 39.82%",
           "PER가 기준보다 낮음",
           "차트: 상승 추세"
@@ -461,18 +461,18 @@
         "price": 415.17,
         "currency": "USD",
         "ai_score": 12,
-        "verdict": "관심권",
+        "verdict": "저평가 후보",
         "ai_buy_price": 406.8666,
-        "ai_sell_price": 526.4954486810915,
-        "fair_value": 501.4242368391348,
-        "pe": 22.74,
-        "pb": 10.472,
+        "ai_sell_price": 542.5529266888997,
+        "fair_value": 516.7170730370473,
+        "pe": 22.067,
+        "pb": 10.162,
         "roe": 36.21,
         "trend": "상승 추세",
         "ret20_pct": 0.24628905433972115,
         "support": 316.5,
         "resistance": 446.69000244140625,
-        "comment": "출처 언급 13회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+        "comment": "출처 언급 13회, 적정가 대비 24.46% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 13회",
           "ROE 36.21%",
@@ -556,9 +556,9 @@
         "ret20_pct": -6.503295936922049,
         "support": 293.4100036621094,
         "resistance": 481.57000732421875,
-        "comment": "출처 언급 22회, 적정가 대비 6.99% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+        "comment": "출처 언급 23회, 적정가 대비 6.99% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 22회",
+          "출처 언급 23회",
           "ROE 37.28%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -572,7 +572,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "region": "global",
-      "mention_count": 109,
+      "mention_count": 112,
       "price": 205.1,
       "currency": "USD",
       "pe": 31.411,
@@ -592,9 +592,9 @@
       "score": 6,
       "technical_score": 2,
       "ai_score": 11,
-      "ai_comment": "출처 언급 109회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 112회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 109회",
+        "출처 언급 112회",
         "ROE 114.3%",
         "PER가 기준보다 낮음"
       ],
@@ -867,7 +867,7 @@
       "ticker": "MU",
       "name": "Micron",
       "region": "global",
-      "mention_count": 30,
+      "mention_count": 31,
       "price": 864.01,
       "currency": "USD",
       "pe": 40.645,
@@ -887,9 +887,9 @@
       "score": 7,
       "technical_score": 2,
       "ai_score": 12,
-      "ai_comment": "출처 언급 30회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 31회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 30회",
+        "출처 언급 31회",
         "ROE 39.82%",
         "PER가 기준보다 낮음"
       ],
@@ -1043,7 +1043,7 @@
       "ticker": "AVGO",
       "name": "Broadcom",
       "region": "global",
-      "mention_count": 22,
+      "mention_count": 23,
       "price": 385.73,
       "currency": "USD",
       "pe": 64.196,
@@ -1063,9 +1063,9 @@
       "score": 5,
       "technical_score": 2,
       "ai_score": 10,
-      "ai_comment": "출처 언급 22회, 적정가 대비 6.99% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 23회, 적정가 대비 6.99% 여력, 중립 추세, ROE 37.28% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 22회",
+        "출처 언급 23회",
         "ROE 37.28%",
         "PER가 기준보다 낮음"
       ],
@@ -1281,24 +1281,24 @@
       "mention_count": 13,
       "price": 415.17,
       "currency": "USD",
-      "pe": 32.55,
-      "forward_pe": 22.74,
-      "pb": 10.472,
+      "pe": 31.587,
+      "forward_pe": 22.067,
+      "pb": 10.162,
       "roe": 36.21,
       "profit_margin": 46.505,
       "eps": null,
-      "fair_value": 501.4242368391348,
-      "watch_buy_price": 411.1678742080905,
+      "fair_value": 516.7170730370473,
+      "watch_buy_price": 423.70799989037874,
       "ai_buy_price": 406.8666,
-      "ai_sell_price": 526.4954486810915,
-      "margin_to_fair_pct": 20.775642950871863,
-      "verdict": "관심권",
-      "action": "411.2 USD 부근까지 조정 시 매력 증가",
-      "rationale": "적정가 아래이지만 안전마진은 크지 않습니다.",
+      "ai_sell_price": 542.5529266888997,
+      "margin_to_fair_pct": 24.459154812979556,
+      "verdict": "저평가 후보",
+      "action": "423.7 USD 이하부터 분할 관심",
+      "rationale": "현재가가 보수적 관찰매수가 이하입니다.",
       "score": 6,
       "technical_score": 3,
       "ai_score": 12,
-      "ai_comment": "출처 언급 13회, 적정가 대비 20.78% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 13회, 적정가 대비 24.46% 여력, 상승 추세, ROE 36.21% 기준으로 산정했습니다.",
       "positives": [
         "출처 언급 13회",
         "ROE 36.21%",
@@ -1306,8 +1306,8 @@
       ],
       "risks": [],
       "valuation_basis": [
-        "PER 22.74배 역산 EPS → 기준 PER 36.00배",
-        "PBR 10.47배 → 기준 PBR 4.00배"
+        "PER 22.07배 역산 EPS → 기준 PER 36.00배",
+        "PBR 10.16배 → 기준 PBR 4.00배"
       ],
       "chart": {
         "chart_symbol": "TSM",
@@ -1451,6 +1451,65 @@
       "fetch_note": ""
     },
     {
+      "ticker": "ARM",
+      "name": "Arm",
+      "region": "global",
+      "mention_count": 10,
+      "price": 342.93,
+      "currency": "USD",
+      "pe": 405.173,
+      "forward_pe": 158.124,
+      "pb": 44.038,
+      "roe": 11.954,
+      "profit_margin": 18.374,
+      "eps": null,
+      "fair_value": 38.88590930454765,
+      "watch_buy_price": 31.886445629729074,
+      "ai_buy_price": 31.886445629729074,
+      "ai_sell_price": 342.93,
+      "margin_to_fair_pct": -88.66068605705314,
+      "verdict": "고평가 주의",
+      "action": "31.89 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": -2,
+      "technical_score": 0,
+      "ai_score": -2.5,
+      "ai_comment": "출처 언급 10회, 적정가 대비 -88.66% 여력, 상승 추세, ROE 11.95% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 10회",
+        "ROE 11.95%"
+      ],
+      "risks": [
+        "PER 부담 158.1배"
+      ],
+      "valuation_basis": [
+        "PER 158.1배 역산 EPS → 기준 PER 22.00배",
+        "PBR 44.04배 → 기준 PBR 2.50배"
+      ],
+      "chart": {
+        "chart_symbol": "ARM",
+        "chart_status": "ok",
+        "sma20": 293.2349998474121,
+        "sma60": 208.16425081888835,
+        "sma120": 162.52004197438558,
+        "ret20_pct": 60.76602312360026,
+        "ret60_pct": 185.5370560840547,
+        "high_52w": 411.8299865722656,
+        "low_52w": 104.55000305175781,
+        "recent_support": 115.12000274658203,
+        "recent_resistance": 411.8299865722656,
+        "volatility_pct": 104.35156497962757,
+        "trend": "상승 추세",
+        "technical_score": 0,
+        "position_52w": 0.7757745695541953
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/ARM",
+        "https://stockanalysis.com/stocks/arm/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "MSFT",
       "name": "Microsoft",
       "region": "global",
@@ -1568,65 +1627,6 @@
       "fetch_note": ""
     },
     {
-      "ticker": "ARM",
-      "name": "Arm",
-      "region": "global",
-      "mention_count": 9,
-      "price": 342.93,
-      "currency": "USD",
-      "pe": 405.173,
-      "forward_pe": 158.124,
-      "pb": 44.038,
-      "roe": 11.954,
-      "profit_margin": 18.374,
-      "eps": null,
-      "fair_value": 38.88590930454765,
-      "watch_buy_price": 31.886445629729074,
-      "ai_buy_price": 31.886445629729074,
-      "ai_sell_price": 342.93,
-      "margin_to_fair_pct": -88.66068605705314,
-      "verdict": "고평가 주의",
-      "action": "31.89 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": -2,
-      "technical_score": 0,
-      "ai_score": -2.75,
-      "ai_comment": "출처 언급 9회, 적정가 대비 -88.66% 여력, 상승 추세, ROE 11.95% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 9회",
-        "ROE 11.95%"
-      ],
-      "risks": [
-        "PER 부담 158.1배"
-      ],
-      "valuation_basis": [
-        "PER 158.1배 역산 EPS → 기준 PER 22.00배",
-        "PBR 44.04배 → 기준 PBR 2.50배"
-      ],
-      "chart": {
-        "chart_symbol": "ARM",
-        "chart_status": "ok",
-        "sma20": 293.2349998474121,
-        "sma60": 208.16425081888835,
-        "sma120": 162.52004197438558,
-        "ret20_pct": 60.76602312360026,
-        "ret60_pct": 185.5370560840547,
-        "high_52w": 411.8299865722656,
-        "low_52w": 104.55000305175781,
-        "recent_support": 115.12000274658203,
-        "recent_resistance": 411.8299865722656,
-        "volatility_pct": 104.35156497962757,
-        "trend": "상승 추세",
-        "technical_score": 0,
-        "position_52w": 0.7757745695541953
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/ARM",
-        "https://stockanalysis.com/stocks/arm/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
       "ticker": "066570",
       "name": "LG전자",
       "region": "domestic",
@@ -1688,6 +1688,63 @@
       "fetch_note": ""
     },
     {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "region": "global",
+      "mention_count": 7,
+      "price": 307.34,
+      "currency": "USD",
+      "pe": 37.258,
+      "forward_pe": 33.718,
+      "pb": 42.332,
+      "roe": 141.471,
+      "profit_margin": 27.152,
+      "eps": null,
+      "fair_value": 234.67185146837411,
+      "watch_buy_price": 192.43091820406676,
+      "ai_buy_price": 192.43091820406676,
+      "ai_sell_price": 307.34,
+      "margin_to_fair_pct": -23.64422090571545,
+      "verdict": "고평가 주의",
+      "action": "192.4 USD 이하가 아니면 보수적 접근",
+      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
+      "score": 2,
+      "technical_score": 2,
+      "ai_score": 5.75,
+      "ai_comment": "출처 언급 7회, 적정가 대비 -23.64% 여력, 상승 추세, ROE 141.5% 기준으로 산정했습니다.",
+      "positives": [
+        "출처 언급 7회",
+        "ROE 141.5%"
+      ],
+      "risks": [],
+      "valuation_basis": [
+        "PER 33.72배 역산 EPS → 기준 PER 36.00배",
+        "PBR 42.33배 → 기준 PBR 4.00배"
+      ],
+      "chart": {
+        "chart_symbol": "AAPL",
+        "chart_status": "ok",
+        "sma20": 304.2535003662109,
+        "sma60": 276.29066670735676,
+        "sma120": 270.74183247884116,
+        "ret20_pct": 6.923183060663329,
+        "ret60_pct": 17.840574700727394,
+        "high_52w": 315.20001220703125,
+        "low_52w": 195.63999938964844,
+        "recent_support": 246.6300048828125,
+        "recent_resistance": 315.20001220703125,
+        "volatility_pct": 22.396587160376303,
+        "trend": "상승 추세",
+        "technical_score": 2,
+        "position_52w": 0.9342588544295597
+      },
+      "data_sources": [
+        "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
+        "https://stockanalysis.com/stocks/aapl/statistics/"
+      ],
+      "fetch_note": ""
+    },
+    {
       "ticker": "GOOGL",
       "name": "Alphabet",
       "region": "global",
@@ -1741,63 +1798,6 @@
       "data_sources": [
         "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL",
         "https://stockanalysis.com/stocks/googl/statistics/"
-      ],
-      "fetch_note": ""
-    },
-    {
-      "ticker": "AAPL",
-      "name": "Apple",
-      "region": "global",
-      "mention_count": 6,
-      "price": 307.34,
-      "currency": "USD",
-      "pe": 37.258,
-      "forward_pe": 33.718,
-      "pb": 42.332,
-      "roe": 141.471,
-      "profit_margin": 27.152,
-      "eps": null,
-      "fair_value": 234.67185146837411,
-      "watch_buy_price": 192.43091820406676,
-      "ai_buy_price": 192.43091820406676,
-      "ai_sell_price": 307.34,
-      "margin_to_fair_pct": -23.64422090571545,
-      "verdict": "고평가 주의",
-      "action": "192.4 USD 이하가 아니면 보수적 접근",
-      "rationale": "현재가가 보수 산정 적정가를 의미 있게 웃돕니다.",
-      "score": 2,
-      "technical_score": 2,
-      "ai_score": 5.5,
-      "ai_comment": "출처 언급 6회, 적정가 대비 -23.64% 여력, 상승 추세, ROE 141.5% 기준으로 산정했습니다.",
-      "positives": [
-        "출처 언급 6회",
-        "ROE 141.5%"
-      ],
-      "risks": [],
-      "valuation_basis": [
-        "PER 33.72배 역산 EPS → 기준 PER 36.00배",
-        "PBR 42.33배 → 기준 PBR 4.00배"
-      ],
-      "chart": {
-        "chart_symbol": "AAPL",
-        "chart_status": "ok",
-        "sma20": 304.2535003662109,
-        "sma60": 276.29066670735676,
-        "sma120": 270.74183247884116,
-        "ret20_pct": 6.923183060663329,
-        "ret60_pct": 17.840574700727394,
-        "high_52w": 315.20001220703125,
-        "low_52w": 195.63999938964844,
-        "recent_support": 246.6300048828125,
-        "recent_resistance": 315.20001220703125,
-        "volatility_pct": 22.396587160376303,
-        "trend": "상승 추세",
-        "technical_score": 2,
-        "position_52w": 0.9342588544295597
-      },
-      "data_sources": [
-        "https://query1.finance.yahoo.com/v8/finance/chart/AAPL",
-        "https://stockanalysis.com/stocks/aapl/statistics/"
       ],
       "fetch_note": ""
     },

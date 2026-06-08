@@ -509,15 +509,15 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 22,
+    "video_count": 23,
     "short_count": 7,
-    "regular_video_count": 15,
+    "regular_video_count": 16,
     "mention_count": 46,
     "transcript_count": 19,
-    "metadata_count": 3,
-    "ocr_count": 11,
+    "metadata_count": 4,
+    "ocr_count": 12,
     "transcript_chars": 429408,
-    "ocr_chars": 9836,
+    "ocr_chars": 9944,
     "stocks": [
       {
         "ticker": "003550",
@@ -576,6 +576,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "국내주식 급락, 젠슨황도 어쩔 수가 없었다",
+        "url": "https://youtu.be/Dzl1BXaEpgc",
+        "published_at": "2026-06-08T10:28:20+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 108,
+        "ocr_excerpt": "젠슨황도 어쩔 수 없던 주식 급락 이유 만약에 젠슨 황이 용사부 LIVE 방송 평일 08:40~12:30 코드한 이 8내 공격민가 없다가 김상 가지 20각표 위함 지금은 거시적인 불가피한 거구요",
+        "youtube_kind": "video"
+      },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 |삼성전자,하이닉스 반도체 폭락, 향후 전망 🔴뉴욕증시 AI거품 우려에 동반 하락  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/hg0HEA6I4o4",
@@ -1747,15 +1759,15 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 23,
+    "video_count": 24,
     "short_count": 0,
-    "regular_video_count": 23,
+    "regular_video_count": 24,
     "mention_count": 34,
     "transcript_count": 8,
-    "metadata_count": 15,
-    "ocr_count": 16,
+    "metadata_count": 16,
+    "ocr_count": 17,
     "transcript_chars": 6797,
-    "ocr_chars": 7696,
+    "ocr_chars": 8073,
     "stocks": [
       {
         "ticker": "005930",
@@ -1804,6 +1816,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "네이버•엔비디아가 찍은 한국판 스타게이트, AI팩토리 핵심 한국주식 대장주",
+        "url": "https://youtu.be/pauPkD2UyDo",
+        "published_at": "2026-06-08T10:55:22+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 377,
+        "ocr_excerpt": "네이버 엔비디아가 찍은 AI 팩토리 핵심 한국기업 1,260,00 240.00 220,00 3,200.00 네이버가 그리는 3,120.00 3,260,00 엔비디아가 새로 찍은 제2의 삼성전자 1,240.00 11만원 -> 17만원 3,140,00 AI...'전력 이 끊기자 반도체 주가",
+        "youtube_kind": "video"
+      },
       {
         "title": "삼성전자•SK하이닉스 폭락 후 매수 타이밍, 한국주식 대장주는 이 때 사는겁니다",
         "url": "https://youtu.be/AH8rUmr6nPs",
@@ -4282,15 +4306,15 @@
     "region": "global",
     "youtuber": "미국 경제 정복하기",
     "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
-    "video_count": 11,
+    "video_count": 12,
     "short_count": 1,
-    "regular_video_count": 10,
+    "regular_video_count": 11,
     "mention_count": 4,
     "transcript_count": 3,
-    "metadata_count": 8,
-    "ocr_count": 11,
+    "metadata_count": 9,
+    "ocr_count": 12,
     "transcript_chars": 7573,
-    "ocr_chars": 3979,
+    "ocr_chars": 4382,
     "stocks": [
       {
         "ticker": "NVDA",
@@ -4304,6 +4328,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "월가가 하락장에 쓸어담는 나스닥 종목",
+        "url": "https://youtu.be/LEgOaxoiStM",
+        "published_at": "2026-06-08T11:00:09+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 403,
+        "ocr_excerpt": "미국 경제 정복하기 월가가 하락장에 쓸어담는 나스닥 종목 06월 08일 | 조회수 962.573 하나는 5월 고용지표가 예상보다 너무 세게나온거 300.00K 2026년 06월 05일 172.00K 85.00K 179.00K 200.00K 100.00K 0.00K - 100.00K {|",
+        "youtube_kind": "video"
+      },
       {
         "title": "상위 1% 큰손들이 코스피 대장주 폭락장에 쓸어담는 종목",
         "url": "https://youtu.be/QLyS3g44z4E",
