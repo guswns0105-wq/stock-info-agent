@@ -2647,6 +2647,18 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "SK하이닉스, 한미반도체 TC본더 442억원 발주…\"HBM4 생산 확대\"",
+        "url": "https://www.yna.co.kr/view/AKR20260608112600003",
+        "published_at": "Mon, 8 Jun 2026 13:55:27 +0900",
+        "reason": "(서울=연합뉴스) 강태우 기자 = SK하이닉스[000660]가 한미반도체[042700]에 442억원 규모의 HBM4(6세대)용 TC 본더 장비를...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "KB운용, 삼전·닉스 담고 채권으로 안정성 확보 펀드 출시",
         "url": "https://www.yna.co.kr/view/AKR20260608029000008",
         "published_at": "Mon, 8 Jun 2026 08:47:02 +0900",
@@ -6091,6 +6103,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "[게시판] 카카오뱅크, 문화소외계층 600명 초청 '모두의 국악' 행사",
+        "url": "https://www.yna.co.kr/view/AKR20260608104800002",
+        "published_at": "Mon, 8 Jun 2026 13:27:44 +0900",
+        "reason": "▲ 카카오뱅크[323410]는 한국메세나협회와 지난 6일 국립중앙박물관 극장 &apos;용&apos;에서 문화 나눔 프로그램 &apos;2026 모두의 국악&apos; 행사를 열었...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
         "title": "현시점 '네이버+카카오' 주주들이 꼭 봐야하는 ‘네카오’ 투자 포인트",
@@ -8483,6 +8507,33 @@
         "url": "https://www.yna.co.kr/view/AKR20260607047600003",
         "published_at": "Sun, 7 Jun 2026 19:39:42 +0900",
         "reason": "(서울=연합뉴스) 강태우 기자 = LG에너지솔루션[373220]이 미국의 관세 부과 조치 무효 판결에 따라 1천억원이 넘는 관세 환급금을 돌려받...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "domestic",
+    "ticker": "042700",
+    "name": "한미반도체",
+    "sources": [
+      "연합뉴스 경제"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "SK하이닉스, 한미반도체 TC본더 442억원 발주…\"HBM4 생산 확대\"",
+        "url": "https://www.yna.co.kr/view/AKR20260608112600003",
+        "published_at": "Mon, 8 Jun 2026 13:55:27 +0900",
+        "reason": "(서울=연합뉴스) 강태우 기자 = SK하이닉스[000660]가 한미반도체[042700]에 442억원 규모의 HBM4(6세대)용 TC 본더 장비를...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
