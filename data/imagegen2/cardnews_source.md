@@ -1,6 +1,6 @@
 # ImageGen2 stock cardnews source
 
-Generated: 2026-06-08T18:27
+Generated: 2026-06-08T19:27
 
 ## 한국주식
 1. 현대차 005380 — 현재가 639,000원, 적정 1,108,651원

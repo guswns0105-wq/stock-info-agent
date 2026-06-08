@@ -3,15 +3,15 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 88,
-    "short_count": 88,
+    "video_count": 89,
+    "short_count": 89,
     "regular_video_count": 0,
     "mention_count": 109,
     "transcript_count": 79,
-    "metadata_count": 9,
-    "ocr_count": 25,
+    "metadata_count": 10,
+    "ocr_count": 26,
     "transcript_chars": 184685,
-    "ocr_chars": 10456,
+    "ocr_chars": 11380,
     "stocks": [
       {
         "ticker": "005930",
@@ -90,6 +90,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "지금 한국 정부가 꺼내든 ‘환율 긴급 대응책’ 정체",
+        "url": "https://youtu.be/BWoxxXUOxMc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 924,
+        "ocr_excerpt": "환율 1507원)폴마,지금한국정부가 꺼내든 긴급 대응책 정치 경제 사냥꾼 2026년 06월 08일 1000 0000 환율은 순식간에 1501원을 뚫어버렸고, ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 환율 158원)돌파,지금한국정부가 꺼내든 긴큼 대응책 정치 코스피,",
+        "youtube_kind": "short"
+      },
       {
         "title": "검은 월요일' 폭락장 속, 혼자 돈 몰리고 있는 ‘종목’ 정체",
         "url": "https://youtu.be/JHwyThKNu_8",
@@ -486,21 +498,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2439,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "월가가 지금 보고 있다는 ‘조선주’ 매수 타이밍",
-        "url": "https://youtu.be/SSPXSGdl0jE",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1914,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
