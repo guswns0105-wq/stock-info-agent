@@ -520,9 +520,9 @@
     "mention_count": 46,
     "transcript_count": 19,
     "metadata_count": 3,
-    "ocr_count": 10,
+    "ocr_count": 11,
     "transcript_chars": 429408,
-    "ocr_chars": 5365,
+    "ocr_chars": 9836,
     "stocks": [
       {
         "ticker": "003550",
@@ -586,11 +586,11 @@
         "url": "https://youtu.be/hg0HEA6I4o4",
         "published_at": "2026-06-07T23:40:05+00:00",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "download_failed",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 4471,
+        "ocr_excerpt": "LG전자 066570 주• 전 263,500 W - Q 4• 신 L전자 1,215,211 1열주칠년 분초 3 5 10 20 30 60/120 263,500 K종간 195/665 1%E ☆ 2026/06/08 m am 08:40:24 06108월 2026.06.08 *투자 자문성 질문 답",
         "youtube_kind": "video"
       },
       {

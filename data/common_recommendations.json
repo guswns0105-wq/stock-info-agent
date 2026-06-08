@@ -253,6 +253,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "오늘 익일 거래에서 NVDA 주식이 2% 이상 상승하는 이유는 무엇입니까? - 야후 파이낸스",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMFV2UzZSNGlmQ2stcnh3a2tfMUY5U0t0cE9wc2VELVlqbnlUdDJxb3ZPTEQ2R3hJbXAtczltcmtRbDlWcU11TU1RS3Y2czZvQmRqM2pmYVNTQlBkOE40eDRyY0FqRURqaXpGRnhSMXo0LWlHeDFCQ1BPMHdwZmRDUHlRZHVxZ3VhUUdYM1hSX2lwbHRrc1Fn?oc=5",
+        "published_at": "Mon, 08 Jun 2026 02:13:00 GMT",
+        "reason": "오늘 익일 거래에서 NVDA 주식이 2% 이상 상승하는 이유는 무엇입니까?    야후 파이낸스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News 한국 주식 종목",
         "source_role": "뉴스",
         "title": "엔비디아보다 삼성전자(?)…서학개미, 美주식 순매도 지속 - 청년일보",
@@ -6732,6 +6744,18 @@
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTXhUejZWYV94T3lMNmdfUUozXzRDRUlIdVExbWUtMlhjMkgtNGhLYmJtYUVObFJmbmd1aUpEdVNrMzZZZUNaSWtiQ0RFcVFKc1dGUmMtM2dKaVlmamZvMTNncGMwOTZBd3pKRHhCclE0LTJpMWgyaUREUlFtM0dxMXJOQ0N6QVFpamdqYzFvMnhBbExSekVMTjJVUnJSd2dhdFI5eG1qamRBUHYyZXhlMQ?oc=5",
         "published_at": "Sat, 06 Jun 2026 01:39:59 GMT",
         "reason": "잠재적 자본확충 소식에 메타주 폭락    Investing.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "메타스톡 투자자들을 위한 엄청난 소식! - 글로브 앤 메일",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWllubHBVcHNhNlhNNU1ObDBYUlBDUEtfb2k0TFBud1Nrd2U2VzdHRkNjZHdaZks2MTFfODYtc0UyQjl1bmVpMjhkZVB0aHB3RmxKNEdLNE5xejRISjZSWjlMMzlfbjlQYV9QN3FEa1JwUVRIdUlmaXRkcTdEeUw3Rk1lbERkMDhsb3VTWEFiZk5PQkVuYzFZZ3dqYUJiaHlZazB1ekxpckV4OERMSndHb2p3bw?oc=5",
+        "published_at": "Mon, 08 Jun 2026 01:52:30 GMT",
+        "reason": "메타스톡 투자자들을 위한 엄청난 소식!    글로브 앤 메일",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
