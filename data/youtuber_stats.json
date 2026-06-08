@@ -514,12 +514,12 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 21,
+    "video_count": 22,
     "short_count": 7,
-    "regular_video_count": 14,
+    "regular_video_count": 15,
     "mention_count": 46,
     "transcript_count": 19,
-    "metadata_count": 2,
+    "metadata_count": 3,
     "ocr_count": 10,
     "transcript_chars": 429408,
     "ocr_chars": 5365,
@@ -581,6 +581,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 |삼성전자,하이닉스 반도체 폭락, 향후 전망 🔴뉴욕증시 AI거품 우려에 동반 하락  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/hg0HEA6I4o4",
+        "published_at": "2026-06-07T23:40:05+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "국내증시 차익실현 대금 어디로 갔을까",
         "url": "https://youtu.be/Q9EYqFl114s",

@@ -1443,6 +1443,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "KB운용, 삼전·닉스 담고 채권으로 안정성 확보 펀드 출시",
+        "url": "https://www.yna.co.kr/view/AKR20260608029000008",
+        "published_at": "Mon, 8 Jun 2026 08:47:02 +0900",
+        "reason": "(서울=연합뉴스) 김태종 기자 = KB자산운용은 삼성전자[005930]와 SK하이닉스[000660]에 집중 투자하면서 단기 국고채와 통안채로 안...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News 한국 주식 종목",
         "source_role": "뉴스",
         "title": "이재용 삼성전자 회장 주식재산 60조원 넘어…시총 15위 규모 - v.daum.net",
@@ -2498,8 +2510,8 @@
     "name": "SK하이닉스",
     "sources": [
       "Google News 한국 주식 종목",
-      "마술토끼의 투자이야기",
       "연합뉴스 경제",
+      "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
       "강지한 차트연구소",
       "경제사냥꾼",
@@ -2542,6 +2554,18 @@
         "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wRzkzM2tIX3ZxcVhFUXBUWHhvU0M0N01aUUlHYllNekhJN3pJR0RGRHJvaHgtVHR2SDIxOURGQ01uNE5FTUhFVFg2eV8waVhY?oc=5",
         "published_at": "Thu, 04 Jun 2026 04:37:17 GMT",
         "reason": "바이비트, 삼성전자·SK하이닉스·현대차 주식 무기한 선물 상장 &nbsp;&nbsp; 블루밍비트",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "KB운용, 삼전·닉스 담고 채권으로 안정성 확보 펀드 출시",
+        "url": "https://www.yna.co.kr/view/AKR20260608029000008",
+        "published_at": "Mon, 8 Jun 2026 08:47:02 +0900",
+        "reason": "(서울=연합뉴스) 김태종 기자 = KB자산운용은 삼성전자[005930]와 SK하이닉스[000660]에 집중 투자하면서 단기 국고채와 통안채로 안...",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4764,6 +4788,18 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "현대차, 하반기 신규 채용…완성차 제조·연구개발 기술 분야",
+        "url": "https://www.yna.co.kr/view/AKR20260608028500003",
+        "published_at": "Mon, 8 Jun 2026 08:44:58 +0900",
+        "reason": "(서울=연합뉴스) 홍규빈 기자 = 현대차는 하반기 모빌리티 기술인력 신규 채용을 실시한다고 8일 밝혔다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "'현대차·기아 채권혼합' 등 ETF 3종 신규상장 예정",
         "url": "https://www.yna.co.kr/view/AKR20260605118900008",
         "published_at": "Fri, 5 Jun 2026 16:34:48 +0900",
@@ -6595,6 +6631,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "메타스톡 투자자들을 위한 엄청난 소식! - 가지각색의 바보",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeWR5dUROTzVHNzhFSV9rOEpGTDdTWUNHNEpfUmVvcjRMTG1sVElsMUZHd3NBcHVPeEladThhOE85MUFjV2M0MjhMSU4xQTVmcUVDbVViTVQ3WW5fdEZWdUwwcmJMcVZvWTR5NE5nLXJaa0tHUXZLVEtoOVA0RnlxSjRKdw?oc=5",
+        "published_at": "Mon, 08 Jun 2026 00:03:36 GMT",
+        "reason": "메타스톡 투자자들을 위한 엄청난 소식!    가지각색의 바보",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "메타주, 주식 매각 소식에 6% 하락 - 야후 파이낸스",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeXBYTHRnWmk1YXRHbEJ2NS1QQzB4NHlYS0FabW55T19XT2c1RE1LU1o0a1p1N2R0M0RMTjVSYnE1VUVSaE1VNHFIb2FyNGJyU204OW5WemtNNEV0NzFEZ0Q3TzBlbTF1Y2cwXzdhSGpsNmoxX2RmY2NGVjBDT1lGc0xYQUxTUDk0YWozYmdoUHlydw?oc=5",
         "published_at": "Fri, 05 Jun 2026 19:38:57 GMT",
@@ -7959,6 +8007,46 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "domestic",
+    "ticker": "028260",
+    "name": "삼성물산",
+    "sources": [
+      "연합뉴스 경제",
+      "경제사냥꾼"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "하나증권 \"삼성물산, 주가 여전히 저평가…목표가↑\"",
+        "url": "https://www.yna.co.kr/view/AKR20260608028700008",
+        "published_at": "Mon, 8 Jun 2026 08:45:06 +0900",
+        "reason": "(서울=연합뉴스) 이민영 기자 = 하나증권은 8일 삼성물산[028260]에 대해 최근 주가 상승에도 밸류에이션(평가가치) 매력이 여전히 크다며 ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "경제사냥꾼 구독자 전용, 종목 분석 : 대우건설",
+        "url": "https://youtu.be/X6kfI4zhGAA",
+        "published_at": "",
+        "reason": "[0.0s] 님들, 대우건설이 1년 만에 주가 772% 터졌다가 한 달 만에 폭락한 진짜 이유 뭔지 알고 있었어? [5.2s] 그래서 지금 대우건설 들고 있는 개미들 전부 다 던지고 있는데 [8.1s] 증권사들은 오히려 목표과를 줄줄이 올리고 있었어. [10.5s] 이 이유 모르고 무작정 던지면 나중에 주가 2배 올랐을 때 진짜 후회할 수도 있으니까 [14.4s] 더 늦기 전에 딱 1분만 집중해봐. [16.1s] 대우건설, 아파트 프로지오 짓는 회사로 유명하지만 [18.7s] 사실 이 회사의 진짜 정체는 원전, LNG, 해외 플랜트까지 다하는 종합 인프라 건설사야. [23.4s] 특히 지금 시장이 주목하는 건 아파트가 아니라 [25.5s] 체코 원전 시공주관사 글로벌 LNG 원청사라는 타이틀이다 보니 [28.6s] 우리 구독자님들도 많이 궁금해하셨던 종목이지. [30.9s] 근데 지금 영상 제작 시간 기준으로 대우건설 주가 보면 25,050원이야. [34.4s] 52주 최저점이 3320원이었으니까 거기서 약 7.5배 넘게 올랐다가 [38.4s] 5.3만 350원 찍고 37% 넘게 빠진 거지. [41.3s] 그래서 다들 이렇게 생각할 거야. [42.9s] 원전 테마 끝났구나, 건설주 법을 터진 거 아니냐 라고 말이야. [45.7s] 근데 이번 하락의 진짜 원인은 [47.2s] 대우건설이 깨진 게 아니라 주가만 너무 빨리 앞서갔기 때문이",
+        "target_price": "5만원",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "익 2556억 원 전년 대비 69% 폭증했어. [97.2s] 신규 수주도 3조 4천억으로 21% 들었고 [99.6s] NH 투자 증권은 목표가 5만원을 제시했어. [101.8s] 지금 영상 제작 시간 기준 주가 대비 최대 96% 상승. [104.9s] 그러니까 2배 정도 상승 여력이 있다는",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "5만원",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "global",
     "ticker": "ASML",
     "name": "ASML",
@@ -8324,33 +8412,6 @@
     ],
     "stance": "단일 출처 추천/관심",
     "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
-    "ticker": "028260",
-    "name": "삼성물산",
-    "sources": [
-      "경제사냥꾼"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
-        "title": "경제사냥꾼 구독자 전용, 종목 분석 : 대우건설",
-        "url": "https://youtu.be/X6kfI4zhGAA",
-        "published_at": "",
-        "reason": "[0.0s] 님들, 대우건설이 1년 만에 주가 772% 터졌다가 한 달 만에 폭락한 진짜 이유 뭔지 알고 있었어? [5.2s] 그래서 지금 대우건설 들고 있는 개미들 전부 다 던지고 있는데 [8.1s] 증권사들은 오히려 목표과를 줄줄이 올리고 있었어. [10.5s] 이 이유 모르고 무작정 던지면 나중에 주가 2배 올랐을 때 진짜 후회할 수도 있으니까 [14.4s] 더 늦기 전에 딱 1분만 집중해봐. [16.1s] 대우건설, 아파트 프로지오 짓는 회사로 유명하지만 [18.7s] 사실 이 회사의 진짜 정체는 원전, LNG, 해외 플랜트까지 다하는 종합 인프라 건설사야. [23.4s] 특히 지금 시장이 주목하는 건 아파트가 아니라 [25.5s] 체코 원전 시공주관사 글로벌 LNG 원청사라는 타이틀이다 보니 [28.6s] 우리 구독자님들도 많이 궁금해하셨던 종목이지. [30.9s] 근데 지금 영상 제작 시간 기준으로 대우건설 주가 보면 25,050원이야. [34.4s] 52주 최저점이 3320원이었으니까 거기서 약 7.5배 넘게 올랐다가 [38.4s] 5.3만 350원 찍고 37% 넘게 빠진 거지. [41.3s] 그래서 다들 이렇게 생각할 거야. [42.9s] 원전 테마 끝났구나, 건설주 법을 터진 거 아니냐 라고 말이야. [45.7s] 근데 이번 하락의 진짜 원인은 [47.2s] 대우건설이 깨진 게 아니라 주가만 너무 빨리 앞서갔기 때문이",
-        "target_price": "5만원",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "익 2556억 원 전년 대비 69% 폭증했어. [97.2s] 신규 수주도 3조 4천억으로 21% 들었고 [99.6s] NH 투자 증권은 목표가 5만원을 제시했어. [101.8s] 지금 영상 제작 시간 기준 주가 대비 최대 96% 상승. [104.9s] 그러니까 2배 정도 상승 여력이 있다는",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "5만원",
     "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },

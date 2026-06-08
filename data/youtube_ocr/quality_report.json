@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-08T03:04",
+  "generated_at": "2026-06-08T08:04",
   "max_per_channel": 8,
   "frames_per_video": 5,
   "selected_this_run": 112,
   "processed_this_run": 112,
-  "index_total": 155,
-  "ok_total": 153,
-  "total_ocr_chars": 108723,
+  "index_total": 157,
+  "ok_total": 155,
+  "total_ocr_chars": 112329,
   "by_source": {
     "경제사냥꾼": {
-      "items": 24,
-      "ok": 24,
-      "chars": 9992
+      "items": 25,
+      "ok": 25,
+      "chars": 10276
     },
     "주식용사부": {
       "items": 10,
@@ -39,9 +39,9 @@
       "chars": 3512
     },
     "올랜도 킴 미국주식": {
-      "items": 19,
-      "ok": 19,
-      "chars": 59210
+      "items": 20,
+      "ok": 20,
+      "chars": 62532
     },
     "강지한 차트연구소": {
       "items": 16,
