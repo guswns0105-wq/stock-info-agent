@@ -8,6 +8,7 @@
       "Google News US Markets AI Semis",
       "연합뉴스 경제",
       "Google News 국내 증시·반도체",
+      "Google News 한국 주식 종목",
       "마술토끼의 투자이야기",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "미국 경제 정복하기",
@@ -21,7 +22,7 @@
       "주식용사부",
       "강지한 차트연구소"
     ],
-    "source_count": 16,
+    "source_count": 17,
     "evidence": [
       {
         "source": "Google News Magnificent 7",
@@ -158,6 +159,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "NVIDIA, 새로운 SK하이닉스 메모리 거래에 'AI 공장' 건설 연결 - Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUnhwWFVOSVEtWjA4QmkzeFRndTZuYTZyWjdKekJRc2owNUtHeTkxMmFQbU5Pak1sdWExVVd5eVJTTFVkRjB2cXM5NTd0SmlzbFdLN0ZoVzZBbkZyRlIzSnZRelJZbHhybEJjRFRfdHBKRUZrSTIxRGk5Y2ozM0JBLXN2TEdLM3NXNXBZZ0FfUGRRNkh2VHY0bkhsUGpETDlnRWVVcEh3RS01ajZ1dnF3RkoxZFJ4ZGdiSmFr?oc=5",
+        "published_at": "Sun, 07 Jun 2026 23:00:00 GMT",
+        "reason": "NVIDIA, 새로운 SK하이닉스 메모리 거래에 'AI 공장' 구축 연결    Stock Titan",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "Bank of America, CFO 회의 후 Nvidia 주식 전망 재설정 - thestreet.com",
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTFdNdGVqSDNWUWdDZEctdVgwSy1sSVlWVElFYzFiTmdpb0J0NmxReUx5R0tmWHN5Nk9DemdkeFUwTWZFN2w0Uk1jOFlQSm53SVVfc0dJZGdJZ3FaTnZRVGhVOXVid2tnTVpyUzB1RmNjb2pGUldkZ2tPRUtQNDJmd0N3LXJGOGZyLWdjVXZXTGVlTVR4elRGbXZWQmJraVNNVFE2YmV1akxadw?oc=5",
         "published_at": "Sun, 07 Jun 2026 13:49:38 GMT",
@@ -210,6 +223,18 @@
         "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZi1jWEJmLXJfUkZtTm1qSk9kX2ZqQTI3TkVab0NnbGhZX28yUDJwa2JCUjNTd054NDJWRDlnVEtJV0dWRnp1RUI1OWZleEJERG5oTVVBSkY4bVdlOFREZFFoU0pjNEpxdFIxREZJMWdkLWk0WlVQY2VBOXNZM2l3dFZ0ZG1tSC00U1NfNF85dnNmWURwRnFmdV9CMThRSjYtTzBCZkdIeEc4UQ?oc=5",
         "published_at": "Sat, 06 Jun 2026 05:58:42 GMT",
         "reason": "귀하의 NVIDIA 주식은 충돌을 견딜 수 있도록 제작되었습니까?    트레피스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "엔비디아보다 삼성전자(?)…서학개미, 美주식 순매도 지속 - 청년일보",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WOS13MlQyX3U1UDRJczRkS3dZcnBPU29FbWZNX2hBWFV5cFJpUGZIQXpoQ1pfd1YySG1tNjFYWWZpUURWV1ZrT2p4dDU0YTdZcURQUW43NXk0VmNHVFlQQm1n?oc=5",
+        "published_at": "Mon, 08 Jun 2026 00:30:37 GMT",
+        "reason": "엔비디아보다 삼성전자(?)…서학개미, 美주식 순매도 지속 &nbsp;&nbsp; 청년일보",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -1449,6 +1474,18 @@
         "url": "https://www.yna.co.kr/view/AKR20260608029000008",
         "published_at": "Mon, 8 Jun 2026 08:47:02 +0900",
         "reason": "(서울=연합뉴스) 김태종 기자 = KB자산운용은 삼성전자[005930]와 SK하이닉스[000660]에 집중 투자하면서 단기 국고채와 통안채로 안...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "엔비디아보다 삼성전자(?)…서학개미, 美주식 순매도 지속 - 청년일보",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1WOS13MlQyX3U1UDRJczRkS3dZcnBPU29FbWZNX2hBWFV5cFJpUGZIQXpoQ1pfd1YySG1tNjFYWWZpUURWV1ZrT2p4dDU0YTdZcURQUW43NXk0VmNHVFlQQm1n?oc=5",
+        "published_at": "Mon, 08 Jun 2026 00:30:37 GMT",
+        "reason": "엔비디아보다 삼성전자(?)…서학개미, 美주식 순매도 지속 &nbsp;&nbsp; 청년일보",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6633,7 +6670,7 @@
         "source_role": "뉴스",
         "title": "메타스톡 투자자들을 위한 엄청난 소식! - 가지각색의 바보",
         "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeWR5dUROTzVHNzhFSV9rOEpGTDdTWUNHNEpfUmVvcjRMTG1sVElsMUZHd3NBcHVPeEladThhOE85MUFjV2M0MjhMSU4xQTVmcUVDbVViTVQ3WW5fdEZWdUwwcmJMcVZvWTR5NE5nLXJaa0tHUXZLVEtoOVA0RnlxSjRKdw?oc=5",
-        "published_at": "Mon, 08 Jun 2026 00:03:36 GMT",
+        "published_at": "Mon, 08 Jun 2026 00:28:31 GMT",
         "reason": "메타스톡 투자자들을 위한 엄청난 소식!    가지각색의 바보",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
