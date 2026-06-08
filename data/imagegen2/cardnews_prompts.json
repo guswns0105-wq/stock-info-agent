@@ -150,7 +150,7 @@
     "region": "global",
     "label": "미국주식",
     "asset_path": "public/assets/imagegen2/us-top5-cardnews.png",
-    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Micron MU\n현재가 $864.01 / 적정 $2,550.99\n출처 언급 31회, 적정가 대비 195.3%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 TSMC TSM\n현재가 $415.17 / 적정 $516.72\n출처 언급 13회, 적정가 대비 24.46%…\n주의: 과열 추격 금지, 적정매수가…\n\n3 Microsoft MSFT\n현재가 $416.67 / 적정 $527.35\n출처 언급 9회, 적정가 대비 26.56% 여…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Meta META\n현재가 $593.00 / 적정 $977.50\n출처 언급 26회, 적정가 대비 64.84%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 Broadcom AVGO\n현재가 $385.73 / 적정 $412.69\n출처 언급 23회, 적정가 대비 6.99% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
+    "prompt": "Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.\nIMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.\nStyle: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.\n\nTitle: 미국주식 Top 5\nSubtitle: 적정가격과 한 줄 설명\n\n1 Micron MU\n현재가 $864.01 / 적정 $2,591.68\n출처 언급 31회, 적정가 대비 200.0%…\n주의: 과열 추격 금지, 적정매수가…\n\n2 TSMC TSM\n현재가 $415.17 / 적정 $516.72\n출처 언급 13회, 적정가 대비 24.46%…\n주의: 과열 추격 금지, 적정매수가…\n\n3 Microsoft MSFT\n현재가 $416.67 / 적정 $527.35\n출처 언급 10회, 적정가 대비 26.56%…\n주의: 과열 추격 금지, 적정매수가…\n\n4 Meta META\n현재가 $593.00 / 적정 $977.50\n출처 언급 27회, 적정가 대비 64.84%…\n주의: 과열 추격 금지, 적정매수가…\n\n5 Broadcom AVGO\n현재가 $385.73 / 적정 $412.69\n출처 언급 23회, 적정가 대비 6.99% 여…\n주의: 과열 추격 금지, 적정매수가…\n\nFooter: 정보 요약용 · 투자 추천 아님\nUse generous safe margins, large Korean typography, high contrast, clear card separation.\nAvoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.",
     "recommendations": [
       {
         "rank": 1,
@@ -162,16 +162,16 @@
         "ai_score": 12,
         "verdict": "저평가 후보",
         "ai_buy_price": 846.7298,
-        "ai_sell_price": 2678.5420430237587,
-        "fair_value": 2550.992421927389,
-        "pe": 9.136,
+        "ai_sell_price": 2721.259651204705,
+        "fair_value": 2591.675858290195,
+        "pe": 8.988,
         "pb": 13.45,
         "roe": 39.823,
         "trend": "상승 추세",
         "ret20_pct": 33.617369048097736,
         "support": 321.79998779296875,
         "resistance": 1079.5699462890625,
-        "comment": "출처 언급 31회, 적정가 대비 195.3% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
+        "comment": "출처 언급 31회, 적정가 대비 200.0% 여력, 상승 추세, ROE 39.82% 기준으로 산정했습니다.",
         "why": [
           "출처 언급 31회",
           "ROE 39.82%",
@@ -215,7 +215,7 @@
         "region": "global",
         "price": 416.67,
         "currency": "USD",
-        "ai_score": 11.25,
+        "ai_score": 11.5,
         "verdict": "저평가 후보",
         "ai_buy_price": 408.33660000000003,
         "ai_sell_price": 553.7164859682797,
@@ -227,9 +227,9 @@
         "ret20_pct": -0.9744014831672421,
         "support": 356.7699890136719,
         "resistance": 460.5199890136719,
-        "comment": "출처 언급 9회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
+        "comment": "출처 언급 10회, 적정가 대비 26.56% 여력, 중립 추세, ROE 34.01% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 9회",
+          "출처 언급 10회",
           "ROE 34.01%",
           "PER가 기준보다 낮음",
           "차트: 중립 추세"
@@ -255,9 +255,9 @@
         "ret20_pct": -3.860183468626721,
         "support": 525.719970703125,
         "resistance": 688.5499877929688,
-        "comment": "출처 언급 26회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
+        "comment": "출처 언급 27회, 적정가 대비 64.84% 여력, 하락/약세 추세, ROE 32.93% 기준으로 산정했습니다.",
         "why": [
-          "출처 언급 26회",
+          "출처 언급 27회",
           "ROE 32.93%",
           "PER가 기준보다 낮음",
           "차트: 하락/약세 추세"

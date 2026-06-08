@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 89,
-    "short_count": 89,
+    "video_count": 90,
+    "short_count": 90,
     "regular_video_count": 0,
     "mention_count": 109,
     "transcript_count": 79,
-    "metadata_count": 10,
+    "metadata_count": 11,
     "ocr_count": 26,
     "transcript_chars": 184685,
     "ocr_chars": 11380,
@@ -90,6 +90,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "코스피 하락 속, 오늘 꼭 봐야 하는 미국 뉴스 3가지",
+        "url": "https://youtu.be/MZC69cRPFEU",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "지금 한국 정부가 꺼내든 ‘환율 긴급 대응책’ 정체",
         "url": "https://youtu.be/BWoxxXUOxMc",
@@ -483,21 +495,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2319,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "투자자들이 미리 체크하는, 다음주 '투자' 포인트(06.01~06.05)",
-        "url": "https://youtu.be/EfNfXvCxOac",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2439,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",

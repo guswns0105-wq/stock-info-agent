@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-08T18:05",
+  "generated_at": "2026-06-08T21:03",
   "max_per_channel": 8,
   "frames_per_video": 5,
   "selected_this_run": 112,
   "processed_this_run": 112,
-  "index_total": 162,
-  "ok_total": 160,
-  "total_ocr_chars": 118539,
+  "index_total": 166,
+  "ok_total": 164,
+  "total_ocr_chars": 120351,
   "by_source": {
     "경제사냥꾼": {
-      "items": 28,
-      "ok": 28,
-      "chars": 11640
+      "items": 29,
+      "ok": 29,
+      "chars": 12564
     },
     "주식용사부": {
-      "items": 11,
-      "ok": 11,
-      "chars": 9836
+      "items": 12,
+      "ok": 12,
+      "chars": 9944
     },
     "T3chfeed - 테크피드 미국 주식 인사이트": {
       "items": 9,
@@ -44,9 +44,9 @@
       "chars": 62532
     },
     "강지한 차트연구소": {
-      "items": 16,
-      "ok": 16,
-      "chars": 7696
+      "items": 17,
+      "ok": 17,
+      "chars": 8073
     },
     "월텍남 - 월스트리트 테크남": {
       "items": 9,
@@ -59,9 +59,9 @@
       "chars": 2353
     },
     "미국 경제 정복하기": {
-      "items": 12,
-      "ok": 12,
-      "chars": 4273
+      "items": 13,
+      "ok": 13,
+      "chars": 4676
     },
     "경제덕후 언쌤": {
       "items": 8,
