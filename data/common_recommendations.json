@@ -2707,6 +2707,18 @@
       {
         "source": "Google News 한국 주식 종목",
         "source_role": "뉴스",
+        "title": "SK하이닉스 주가 급락에…젠슨 황 \"할인된 가격에 살 기회, 기뻐해야\" - 인포스탁데일리",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5za21ST1JRSVcyaC1qaVNabmlOSXFmZzNkbkVJU2N1SGo0QlJfTWx1Z29saEZkbER6cU5Ha0M3SUhfeTZabHRkdUlMdWJRSmtjZUdyamk4V2tfX1BNQkVOLUhQNy1fME10emNHUG03clY3eUpDakE?oc=5",
+        "published_at": "Mon, 08 Jun 2026 01:29:00 GMT",
+        "reason": "SK하이닉스 주가 급락에…젠슨 황 \"할인된 가격에 살 기회, 기뻐해야\" &nbsp;&nbsp; 인포스탁데일리",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
         "title": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83MUt0VFNVT3hSQk9mTm5aNWQ2WFp2ODhkdjIweERZYWRNRllGQkNqX2gxNTFtRE1QV1JUYVVjRFZxR1FkUXJHaExrQXdKRzlZa0h6WWVuYm9tZVNOQXlJZXp3?oc=5",
         "published_at": "Mon, 08 Jun 2026 01:27:30 GMT",

@@ -9,9 +9,9 @@
     "mention_count": 109,
     "transcript_count": 79,
     "metadata_count": 9,
-    "ocr_count": 24,
+    "ocr_count": 25,
     "transcript_chars": 184685,
-    "ocr_chars": 9849,
+    "ocr_chars": 10456,
     "stocks": [
       {
         "ticker": "005930",
@@ -95,11 +95,11 @@
         "url": "https://youtu.be/JHwyThKNu_8",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 607,
+        "ocr_excerpt": "검은일요일 폭락장속, 혼자들몰리고있는 종목 장에 경제 사냥꾼 2026년 06월 08일 SAMSUNG 지금 삼성전자 SK하이브스를 포함한 hyni) ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 검은 월요일 폭락장속, 자돈 몰리고 있는 명의 행 2900 2000 2600 ",
         "youtube_kind": "short"
       },
       {

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-08T11:06",
+  "generated_at": "2026-06-08T16:03",
   "max_per_channel": 8,
   "frames_per_video": 5,
   "selected_this_run": 112,
   "processed_this_run": 112,
-  "index_total": 158,
-  "ok_total": 155,
-  "total_ocr_chars": 112329,
+  "index_total": 161,
+  "ok_total": 159,
+  "total_ocr_chars": 118164,
   "by_source": {
     "경제사냥꾼": {
-      "items": 25,
-      "ok": 25,
-      "chars": 10276
+      "items": 28,
+      "ok": 28,
+      "chars": 11640
     },
     "주식용사부": {
       "items": 11,
-      "ok": 10,
-      "chars": 5365
+      "ok": 11,
+      "chars": 9836
     },
     "T3chfeed - 테크피드 미국 주식 인사이트": {
       "items": 9,
