@@ -3,20 +3,20 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 86,
-    "short_count": 86,
+    "video_count": 87,
+    "short_count": 87,
     "regular_video_count": 0,
-    "mention_count": 106,
-    "transcript_count": 78,
+    "mention_count": 109,
+    "transcript_count": 79,
     "metadata_count": 8,
-    "ocr_count": 22,
-    "transcript_chars": 181028,
-    "ocr_chars": 9092,
+    "ocr_count": 24,
+    "transcript_chars": 184685,
+    "ocr_chars": 9849,
     "stocks": [
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 43
+        "count": 44
       },
       {
         "ticker": "000660",
@@ -26,12 +26,12 @@
       {
         "ticker": "003550",
         "name": "LG",
-        "count": 14
+        "count": 15
       },
       {
         "ticker": "005380",
         "name": "현대차",
-        "count": 7
+        "count": 8
       },
       {
         "ticker": "035720",
@@ -91,15 +91,31 @@
     ],
     "videos": [
       {
+        "title": "6월 8일, 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
+        "url": "https://youtu.be/gbHXEh6B1jw",
+        "published_at": "",
+        "tickers": [
+          "005930",
+          "005380",
+          "003550"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 3657,
+        "ocr_status": "ok",
+        "ocr_chars": 374,
+        "ocr_excerpt": "6월 8일 오늘 투자자들이 곡알아야하는 투자 포인트 경제 사냥꾼 2026년 06월 08일 13.50 KOSPI 11828 ₩ 20.331 1.80 Y420 10324 T12.52% 1000 〈OSPI Market -orrection 코스피가 8% 넘게 폭락하면서, ※본 영상은 투자 참고",
+        "youtube_kind": "short"
+      },
+      {
         "title": "현재 한국 주식 중에서 가장 저평가됐다는 종목 3개",
         "url": "https://youtu.be/2rQZAQg5iV4",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 383,
+        "ocr_excerpt": "현재 한국 주식' 중에서 기장저평가했다는 정확 3개 경제 사냥꾼 2026년 06월 07일 1000 10000 아무도 모를 때 혼자 알아놔야 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 현재 한국주식' 중에서 가장저평가했다는 명복 3개 대신 만들어주는 파운드리 기장 저평",
         "youtube_kind": "short"
       },
       {
@@ -487,20 +503,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 2252,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "월가에서 '삼성전기' 가장 쌀 때 매수하는 방법",
-        "url": "https://youtu.be/aGVEMI-IgqU",
-        "published_at": "",
-        "tickers": [
-          "009150"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2283,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
