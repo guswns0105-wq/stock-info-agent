@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T17:28",
+  "generated_at": "2026-06-08T18:27",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -690,7 +690,7 @@
       "ticker": "000660",
       "name": "SK하이닉스",
       "region": "domestic",
-      "mention_count": 49,
+      "mention_count": 50,
       "price": 1911000.0,
       "currency": "KRW",
       "pe": 6.4,
@@ -710,9 +710,9 @@
       "score": 3,
       "technical_score": 1,
       "ai_score": 5,
-      "ai_comment": "출처 언급 49회, 적정가 대비 -31.53% 여력, 중립 추세, ROE 31.06% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 50회, 적정가 대비 -31.53% 여력, 중립 추세, ROE 31.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 49회",
+        "출처 언급 50회",
         "ROE 31.06%",
         "PER가 기준보다 낮음"
       ],

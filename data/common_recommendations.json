@@ -2659,6 +2659,18 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "하이닉스 8% 떨어졌는데…ACE단일종목 레버리지 50%↑'이상거래'(종합)",
+        "url": "https://www.yna.co.kr/view/AKR20260608146651008",
+        "published_at": "Mon, 8 Jun 2026 17:14:58 +0900",
+        "reason": "(서울=연합뉴스) 고은지 기자 = 8일 SK하이닉스[000660] 주가가 8% 가까이 떨어졌는데도 &apos;ACE SK하이닉스단일종목레버리지&apos;는 50%...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "SK하이닉스, 한미반도체 TC본더 442억원 발주…\"HBM4 생산 확대\"",
         "url": "https://www.yna.co.kr/view/AKR20260608112600003",
         "published_at": "Mon, 8 Jun 2026 13:55:27 +0900",

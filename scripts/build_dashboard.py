@@ -425,7 +425,9 @@ def top_recommendations_section(ai_recommendations):
 
 
 def section(region, common, items, ystats, valuations, ai_recommendations):
+    forbidden = {'NVDA', 'NVIDIA'}
     recs = [rec for rec in common if rec.get('region') == region]
+    recs = [rec for rec in recs if (rec.get('ticker') not in forbidden and rec.get('name') not in forbidden)]
     recs = sorted(recs, key=lambda r: (len(r.get('evidence', [])), r.get('source_count', 0)), reverse=True)
     details = [item for item in items if item_visible_in_region(item, region)]
     rec_html = '<div class="stock-rank-grid">' + '\n'.join(rec_card(rec, idx + 1) for idx, rec in enumerate(recs)) + '</div>' if recs else '<p class="empty">추천/관심 종목이 아직 없습니다.</p>'

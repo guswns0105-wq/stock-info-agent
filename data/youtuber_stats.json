@@ -4285,15 +4285,15 @@
     "region": "global",
     "youtuber": "미국 경제 정복하기",
     "channel_id": "UCu5FbwzTQGycs_lWChSOwoA",
-    "video_count": 10,
+    "video_count": 11,
     "short_count": 1,
-    "regular_video_count": 9,
+    "regular_video_count": 10,
     "mention_count": 4,
     "transcript_count": 3,
-    "metadata_count": 7,
-    "ocr_count": 10,
+    "metadata_count": 8,
+    "ocr_count": 11,
     "transcript_chars": 7573,
-    "ocr_chars": 3604,
+    "ocr_chars": 3979,
     "stocks": [
       {
         "ticker": "NVDA",
@@ -4307,6 +4307,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "상위 1% 큰손들이 코스피 대장주 폭락장에 쓸어담는 종목",
+        "url": "https://youtu.be/QLyS3g44z4E",
+        "published_at": "2026-06-08T09:00:26+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 375,
+        "ocr_excerpt": "미국 경제 정복하기 상위 1% 큰손들이 코스피 대장주 폭락장에 쓸어담는 종목 06월 08일 조회수 951.496 외국인 매도 폭탄에 코스피 지수가 장중 7500선도 무너졌어 S PREPARED FOR ARTCO. P 1| 정복하기 격제 정복하기 06월 08일 | 조회수 951.496 환",
+        "youtube_kind": "video"
+      },
       {
         "title": "월가에서 지금 몰래 담고 있는 종목 3개",
         "url": "https://youtu.be/Rs2abIit-9A",
