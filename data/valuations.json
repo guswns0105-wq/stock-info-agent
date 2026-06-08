@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T16:27",
+  "generated_at": "2026-06-08T17:28",
   "method": "공개 재무지표(PER/PBR/ROE/EPS/마진) + Yahoo 1년 일봉 차트(SMA/52주 범위/20·60일 모멘텀) 기반 국내 AI 추천 Top5와 미국/해외 AI 추천 Top5 분리 산정. 투자 조언이 아니라 검토용 스크리닝입니다.",
   "ai_recommendations": {
     "domestic": [
@@ -572,7 +572,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "region": "global",
-      "mention_count": 106,
+      "mention_count": 107,
       "price": 205.1,
       "currency": "USD",
       "pe": 31.411,
@@ -592,9 +592,9 @@
       "score": 6,
       "technical_score": 2,
       "ai_score": 11,
-      "ai_comment": "출처 언급 106회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 107회, 적정가 대비 24.85% 여력, 중립 추세, ROE 114.3% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 106회",
+        "출처 언급 107회",
         "ROE 114.3%",
         "PER가 기준보다 낮음"
       ],
@@ -690,7 +690,7 @@
       "ticker": "000660",
       "name": "SK하이닉스",
       "region": "domestic",
-      "mention_count": 48,
+      "mention_count": 49,
       "price": 1911000.0,
       "currency": "KRW",
       "pe": 6.4,
@@ -710,9 +710,9 @@
       "score": 3,
       "technical_score": 1,
       "ai_score": 5,
-      "ai_comment": "출처 언급 48회, 적정가 대비 -31.53% 여력, 중립 추세, ROE 31.06% 기준으로 산정했습니다.",
+      "ai_comment": "출처 언급 49회, 적정가 대비 -31.53% 여력, 중립 추세, ROE 31.06% 기준으로 산정했습니다.",
       "positives": [
-        "출처 언급 48회",
+        "출처 언급 49회",
         "ROE 31.06%",
         "PER가 기준보다 낮음"
       ],

@@ -231,6 +231,18 @@
       {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
+        "title": "[영상] '3일 4닭' 젠슨 황의 K치킨 홀릭…최태원과 러브샷 \"깐부됐다\"",
+        "url": "https://www.yna.co.kr/view/AKR20260608145400704",
+        "published_at": "Mon, 8 Jun 2026 16:19:14 +0900",
+        "reason": "(서울=연합뉴스) 젠슨 황 엔비디아 최고경영자(CEO)가 하루에 두 번 연속 치킨을 먹으며 한국식 치킨에 대한 남다른 애정을 보여줬습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
         "title": "[특징주] SKT·네이버, '엔비디아 협력'에 급락장서 강세(종합)",
         "url": "https://www.yna.co.kr/view/AKR20260608078551008",
         "published_at": "Mon, 8 Jun 2026 11:46:14 +0900",
@@ -2686,6 +2698,18 @@
         "title": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제 마켓",
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkd3NPN2xBSnFJVElEREY5OG1NRDFydGlhT1V2SGlmNzFlVlBobGl3RnY4anVIR1dxa1R1a0EtQVBzR1RBZUNkS0FLUWZCTlA3WjFqem50RENDVUZQRElHVg?oc=5",
         "published_at": "Mon, 08 Jun 2026 05:27:07 GMT",
+        "reason": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제 마켓",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제 마켓",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Pdm5MY0tQbHpHalM5NGxmeVdZN2JZTl83ZHV1NTgxZmM5NjZTS2Jzd0ZJQ3JUWDBRdmp5VlptUVVOaHdLUTByQXpaY3VfU05vdXc?oc=5",
+        "published_at": "Mon, 08 Jun 2026 05:01:17 GMT",
         "reason": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제 마켓",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
