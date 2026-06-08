@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 87,
-    "short_count": 87,
+    "video_count": 88,
+    "short_count": 88,
     "regular_video_count": 0,
     "mention_count": 109,
     "transcript_count": 79,
-    "metadata_count": 8,
+    "metadata_count": 9,
     "ocr_count": 24,
     "transcript_chars": 184685,
     "ocr_chars": 9849,
@@ -90,6 +90,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "검은 월요일' 폭락장 속, 혼자 돈 몰리고 있는 ‘종목’ 정체",
+        "url": "https://youtu.be/JHwyThKNu_8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "6월 8일, 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
         "url": "https://youtu.be/gbHXEh6B1jw",
@@ -489,20 +501,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 1914,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "카카오 ‘창사 첫 파업’, 지금 주주들이 반드시 알아야하는 이슈 3가지",
-        "url": "https://youtu.be/fhzgzWQLp4k",
-        "published_at": "",
-        "tickers": [
-          "035720"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2252,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",

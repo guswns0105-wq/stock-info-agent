@@ -2671,6 +2671,42 @@
       {
         "source": "Google News 한국 주식 종목",
         "source_role": "뉴스",
+        "title": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제 마켓",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5em9VMGpqTEZoLXdSOWhwVWF4ZC0teERUNlV2WGQyUWd6XzM2WmZ4Mmd4UXVyZ0xvLUJNampxdUQ3NlFuVDc4eTRyaWJ1R2NjelE?oc=5",
+        "published_at": "Mon, 08 Jun 2026 05:27:07 GMT",
+        "reason": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제 마켓",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제 마켓",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkd3NPN2xBSnFJVElEREY5OG1NRDFydGlhT1V2SGlmNzFlVlBobGl3RnY4anVIR1dxa1R1a0EtQVBzR1RBZUNkS0FLUWZCTlA3WjFqem50RENDVUZQRElHVg?oc=5",
+        "published_at": "Mon, 08 Jun 2026 05:27:07 GMT",
+        "reason": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제 마켓",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제TV",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VMHplZkJuWm9mMGU4SWVMcFJSTFNTcWdabGJrNmxFaDJxLUJVdzRDMkUzY2piOWJOVHRKc2lzdmo1a2IxVEt0S0VwQ2pkVmM2TV9ZMTZla2FTbEJTUG1LTWVIQ0p3dURz?oc=5",
+        "published_at": "Mon, 08 Jun 2026 05:00:00 GMT",
+        "reason": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제TV",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
         "title": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83MUt0VFNVT3hSQk9mTm5aNWQ2WFp2ODhkdjIweERZYWRNRllGQkNqX2gxNTFtRE1QV1JUYVVjRFZxR1FkUXJHaExrQXdKRzlZa0h6WWVuYm9tZVNOQXlJZXp3?oc=5",
         "published_at": "Mon, 08 Jun 2026 01:27:30 GMT",
@@ -3151,10 +3187,10 @@
       "경제사냥꾼",
       "올랜도 킴 미국주식",
       "경제명탐정",
+      "Yahoo Finance Top Stories",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식쇼퍼 - 투자도 쇼핑처럼",
-      "Yahoo Finance Top Stories",
       "주식용사부",
       "강지한 차트연구소"
     ],
@@ -3267,6 +3303,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "중국에서 Tesla 판매가 터지고 있지만 TSLA 주식의 터무니없는 P/E 비율을 감당할 수 없다면 아무 의미가 없습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-sales-china-popping-means-200002834.html",
+        "published_at": "2026-06-06T20:00:02Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
       },
       {
         "source": "경제명탐정",
