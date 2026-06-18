@@ -10,6 +10,7 @@
       "Google News 국내 증시·반도체",
       "Google News 한국 주식 종목",
       "마술토끼의 투자이야기",
+      "미국 경제 정복하기",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
@@ -17,7 +18,6 @@
       "강지한 차트연구소",
       "Yahoo Finance Top Stories",
       "T3chfeed - 테크피드 미국 주식 인사이트",
-      "미국 경제 정복하기",
       "경제명탐정",
       "블로그 magic_rabb1t",
       "주식쇼퍼 - 투자도 쇼핑처럼"
@@ -103,6 +103,42 @@
         "url": "https://www.yna.co.kr/view/AKR20260603053851017",
         "published_at": "Thu, 4 Jun 2026 14:41:47 +0900",
         "reason": "(김포·서울=연합뉴스) 권하영 한상용 임성호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 5일 오후 한국에 입국해 나흘간 한국 AI 생태계를...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "칩 제조업체가 미국 이외의 지역에서 성장을 기대하면서 Nvidia 주가 상승 - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZjZLUTVQd1QtY2RQaFVYTzBIMWZBRjJiM3B1WDZPZjBFNUVMVDYzOEMtTjh3NVg1UGp5SVJ1OFo4emtTMmJiRjRDN3hDM1M0SmpEbms2UUg4VV9HcDVjRnFsVVhJdk1ESDhHTkpiY1J6MnF3c2NmMkphaWJkMFZOc0hXZw?oc=5",
+        "published_at": "Thu, 18 Jun 2026 18:04:00 GMT",
+        "reason": "칩 제조업체가 미국 외 지역에서 성장을 기대하면서 Nvidia 주가 상승    Barron's",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "반도체 기업 급등에 엔비디아 주도로 미국 증시 상승 - The Edge Singapore",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbndURnlsTXdLUUJvNjJFMXQ5bWRUeWJKSjh5N1U5ZFVoUlh6a2hWZl9ZZGxmdVlPYnI1bmk5S1gzWlR1V2otenhTcFhEbjdlQzd0NTN1Umk2T1ctS0JLSWtVNTFnTzVMaXFnZ0F6TkI3Z25WRW1fVmFwVENkWjIteVRSQ2lGMEZYTy1IYk53VHZ4VTZ5cXJKRzJnRGNhNlpBU0xmSFZZNEFpZDjSAbABQVVfeXFMTlp1eGEwUEVWVmY4aXBTSjVROVlVdWU2VjE3cEdZMjNzamt0b3RmaTdiR0hKaTZtRGo3SXppdkRTUFpBUXFHdkVpNmNWZXdFc2lvcXZPeTdEWkpvNVBBblV2cDRUZ2o3cG43Rm9lV1Z1cmtSQUllVmZWa2xfUjk1eUNOTGZRRVF5MFotczgxY1JROUQ0a2dKZml0TWpTbGVCb21pN0RnOGxJRjNSVURhYmk?oc=5",
+        "published_at": "Thu, 18 Jun 2026 16:13:38 GMT",
+        "reason": "반도체 기업 급등에 엔비디아 선두로 미국 증시 상승    The Edge Singapore",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "AI 주식 하락에 대한 NVIDIA CEO Jensen Huang: \"모두가 더 저렴한 가격에 주식을 구매하게 되어 매우 기뻐해야 합니다.\" — 걱정스러운 수요일 이후 내 레이더에 이러한 주식이 있습니다 - 연중무휴 월스트리트",
+        "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxNRHNpQXhtbVltVVhMcHIyb1FFa05UYzRIZU9rcWc3bEJNczJCV0h6R3N0NzZYaG1fVk1Pb0tVbVRxQ1RubG1aWlh6dldKWUdWcUxwY29LaHNBejBvLWdTRU15MUh3VEprdXA3clVOZGEydHJEWUlKZGI0TVFnVFRxM0FLbFV0eHZSYXJGWWV4VFpTY0Z1U3V0N1BwS1hDZlNHN0dXMF9EZVlfR1BjZV93TmZnRnF3T1F4UnU5cVJJV2tmOFlXT01jWGhwMXRWQ1VQTjhMYXhXSVdFbzlkT0YzQ2RJbU15MzNValRhVEMxNS1YOU9KY1h0ZW1wTGt5TkdldmRiQWtiRFktMDFGOTZYZVdvU0N5TV94SUZxenQ2MzVfRnk1RTM0cjBn?oc=5",
+        "published_at": "Thu, 18 Jun 2026 11:05:51 GMT",
+        "reason": "AI 주식 하락에 대한 NVIDIA CEO Jensen Huang: \"모두가 더 저렴한 가격에 주식을 구매하게 되어 매우 기뻐해야 합니다.\" — 걱정스러운 수요일 이후 내 레이더에 이러한 주식이 있습니다.    24/7 Wall St.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -481,6 +517,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "마술토끼의 투자이야기",
+        "source_role": "blog_recommendation",
+        "title": "커스텀 AI 칩 설계에 AI를 적용한다고? (feat. Architect Labs)",
+        "url": "https://blog.naver.com/magic_rabb1t/224320380170?fromRss=true&trackingCode=rss",
+        "published_at": "Fri, 19 Jun 2026 01:52:15 +0900",
+        "reason": "AI 반도체라고 하면 엔비디아의 GPU가 떠오르는데요. GPU는 범용성이 강해서, AI 모델 학습, 추론 등 여러 분야에서 넓게 쓰이고 있죠. 다만, 특정 작업만 계속 반복한다면 이야기가 달라져요. 모든 계산을 범용 GPU에게 맡기기보다, 그 작업에 맞춘 회로를 직접 만드는 편이 전력과 비용에서 유리할 수 있거든요. ASIC 같은 커스텀 칩이 여기에 속해요. ASIC은 특정 용도에 맞춘 집적회로를 말해요. 구글의 TPU도 머신러닝 가속용 ASIC이고요. 아마존의 Trainium은 학습과 추론 비용을 낮추기 위한 칩, Inferentia는 추론용 칩이에요. 이런 커스텀 칩은 하나의 제품군이 아니며, 용도에 따라 칩의 구조가 달라져요. 학습은 모델이 대량의 데이터.......",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
         "title": "엔비디아가 Kumo AI를 4억 달러에 인수했습니다. NVDA 주식에 대한 의미. - Barchart.com",
@@ -515,6 +563,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "미국 경제 정복하기",
+        "source_role": "youtube_recommendation",
+        "title": "현재 월가가 가장 선호하는 FAB10 종목 TOP3",
+        "url": "https://youtu.be/3MzanT_ybVo",
+        "published_at": "2026-06-18T11:00:02+00:00",
+        "reason": "님들 현재 월가가 가장 선호하는 펩텐 종목 탑수이 뭔지 알고 있었음. 이번에 월가가 메그니피 센터에 스페이스엑 오픈 AI 엔트로픽 세 개를 더 붙여서 프론티어 AI 빅테크십 줄여서 ක්ෂ텐 시대 열렸다고 난리야. 부자들은 이미 텐 핵심 종목 쓰러담는 중인데 개미들만 아직도 무서워서 놓치고 있어. 내가 네비우스 600% 급등전해도 삼성전자 21% 빠졌을 때도 담으라고 분명히 말했었는데 놓친 구독자들 없지? 월가가 최선호하는 펩텐 세 종목 가르쳐 줄테니까 이번엔 놓치지 마. 첫 번째 엔비디아 펩텐 안에서도 월가가 가장 사랑하는 1등조야. 시청 5조 달러 넘겼고 블랙 물량이 하반기로 쏟아지는 구조라 월가 평균 목표가가 300달러인데 지금 주가는 204달러야. 상승 여력 아직도 50% 가까이 남았다는 거지. 두 번째 마이크로소프트 애널리스트 90% 넘게 매수 때린 월가 공식 최해주야. AI 매출만 연 환산 370억 달러로 123% 폭증했고 애저도 두 자릿수로 쏟아지는 중이야. 지금 주가 378달러대인데 심지어 목표가가 560달러대 48% 위라 안 살 이유가 없어. 마지막 아마존. 작년 M 꼴찌였는데 월가가 2026년 부활주로 콕 찍은 종목이야. 애널리스트 예순 일곱명이 강력 매수에 평균 목표가 313달러 걸어놨는데 지금 237달러야. AWS가 다시 클라우드 점유율 먹으면서 최근 분기 이익 36% 폭증까지 나왔어. 32% 상승 여력 남기고 이",
+        "target_price": "300달러",
+        "buy_zone": "300달러",
+        "price_note": "번째 엔비디아 펩텐 안에서도 월가가 가장 사랑하는 1등조야. 시청 5조 달러 넘겼고 블랙 물량이 하반기로 쏟아지는 구조라 월가 평균 목표가가 300달러인데 지금 주가는 204달러야. 상승 여력 아직도 50% 가까이 남았다는 거지. 두 번째 마이크로소프트 애널리스트 90% 넘게 매수 때린 월가",
+        "confidence": "transcript"
       },
       {
         "source": "경제사냥꾼",
@@ -1646,8 +1706,8 @@
       }
     ],
     "stance": "복수 출처 추천/관심",
-    "target_price_summary": "190달러, 1,560원, 1,000달러, 200달러, 167달러, 161달러, 35,000달러, 1,500달러, 71달러, 560달러, 400달러, 220달러, 535달러, 600달러, 500달러, 83달러",
-    "buy_zone_summary": "200달러, 190달러, 1,000달러, 4,800원, 184불, 6,900원, 1,500달러, 50달러, 71달러, 400달러, 280만원, 200만원, 5,600달러, 90달러, 2,000원",
+    "target_price_summary": "300달러, 190달러, 1,560원, 1,000달러, 200달러, 167달러, 161달러, 35,000달러, 1,500달러, 71달러, 560달러, 400달러, 220달러, 535달러, 600달러, 500달러, 83달러",
+    "buy_zone_summary": "300달러, 200달러, 190달러, 1,000달러, 4,800원, 184불, 6,900원, 1,500달러, 50달러, 71달러, 400달러, 280만원, 200만원, 5,600달러, 90달러, 2,000원",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -1660,11 +1720,11 @@
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
       "경제사냥꾼",
+      "미국 경제 정복하기",
       "주식용사부",
       "강지한 차트연구소",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-      "미국 경제 정복하기",
       "경제명탐정",
       "블로그 magic_rabb1t",
       "주식쇼퍼 - 투자도 쇼핑처럼"
@@ -1774,6 +1834,18 @@
         "url": "https://www.yna.co.kr/view/AKR20260618087600003",
         "published_at": "Thu, 18 Jun 2026 11:48:24 +0900",
         "reason": "(서울=연합뉴스) 강태우 기자 = 박용인 삼성전자[005930] DS(반도체)부문 시스템LSI사업부장(사장)은 18일 &quot;올해 1분기 역대 최고 ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "엇갈린 반도체 투심…초고수는 하이닉스 팔고 삼성전자 샀다 [주식 초고수] - 매일경제",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9odnowM29UeXlLTjhQUmY0anVYQzBIYVV3Q2JOZ3FPZEpuRUpBWEtJanNobmtvbXZOUFBURXQ0U1FGY0c1c3BNWUU5blFkVk15emc?oc=5",
+        "published_at": "Thu, 18 Jun 2026 06:18:13 GMT",
+        "reason": "엇갈린 반도체 투심…초고수는 하이닉스 팔고 삼성전자 샀다 [주식 초고수] &nbsp;&nbsp; 매일경제",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -2046,6 +2118,54 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
+        "title": "코스피 9000 돌파' 외국인이 반도체만 쓸어담은 진짜 이유",
+        "url": "https://youtu.be/D-wMbrJ-fV8",
+        "published_at": "",
+        "reason": "님들 코스피 9,000 돌파했는데 외국인이 반도체만 쓸어담은 진짜 이유 뭔지 알고 있었어? 지수는 사상 최고가를 찍었는데도 정작 3전 하이닉스 제외한 790개 종목들은 [음악] 주가 폭락장 왔다는데 지금 이후 놓치면 다음 상승장에서도 혼자 고점에서 물릴 수 있으니까 더 늦기 전에 딱 1분만 집중해 봐. 먼저 [음악] 오늘 코스피는 사상 처음으로 종가 기준 9천을 돌파했어. 정거래일보다 2% 넘게 오르면서 장 중에는 9,00선 근처까지 치고 올라갔지. 오늘 시장은 외국인과 반도체가 만든 장이었어. 외국인이 유가증권 시장에서 1조 원 넘게 순매수했고 그 돈이 삼성전자와 SK 하이닉스 같은 초대형 반도체로 몰렸거든. 근데 오늘 진짜 핵심은 상승 종목이 100개 조금 넘었는데 하락 종목은 790개 넘게 쏟아졌다는 거야. 즉 시장 전체가 오른게 아니라 3전 하이닉스 같은 대형 반도체주가 지수를 들어 올렸다는 거지. 그럼 대체 왜 자금이 전부 반도체로만 쏠린 걸까? 그 이유는 아침에 경제 사냥꾼이 말해졌듯이 지금 시장에서 금리 충격을 이길 수 있는 업종이 사실상 반도체밖에 없기 때문이야. 이번 FOMC는 금리를 동결했지만 점도표는 매파적으로 나왔어. 점도표란 연준 위원들이 앞으로 금리가 어디쯤 갈지 찍어 놓은 예상표인데 이번엔 금리 인하가 빨리 온다가 아니라 추가 인상도 조심해야 한다는 쪽에 가까웠던 거야. 근데 이런 장에서는 바이오 2차전지 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "오늘 미국 투자자들이 꼭 봐야 하는 '미국 뉴스' 3가지",
+        "url": "https://youtu.be/Ocoj4Yv0EHU",
+        "published_at": "",
+        "reason": "님들, 오늘 미국 투자자들이 꼭 봐야 하는 미국 뉴스 세 가지 뭔지 알고 있었어? 지금 다들 FOMC 금리 결과만 쳐다보고 있느라. 정작 한국 코스피까지 뒤집을이 세계 뉴스를 놓치고 있는데 이거 그냥 지나치면 AI 섹터 리스크부터 반도체 수급 흐름까지 전부 놓칠 수도 있으니까 지금 딱 1분만 집중해 봐. 먼저 첫 번째로 봐야 할 뉴스는 애플의 가격 인상이야. [음악] 이번에 애플 CEO 팀쿡은 안타깝게도 가격 인상은 불가피하다고 말했어. AI 데이터 센터가 메모리를 미친 듯이 빨아들이면서 디램이랑 랜드 가격이 감당 안 되는 수준까지 올라왔기 때문이야. 그러면서 고객들이 가격 인상 부담에서 벗어나도록 최선을 다했지만 더 이상이 상황을 유지할 수 없게 됐다고 했지. 아직 인상식이나 규모, 어떤 제품이 영향을 받을지는 밝히지 않았지만 업깨는 9월 출시 예정인 아이폰 18 시리즈부터 가격이 오를 가능성을 보고 있어. 근데 여기서 중요한 건 이게 단순히 애플 소비자 악재가 아니라 메모리 업체에 협상력이 완전히 세졌다는 증거라는 거야. 애플 같은 세계 최강 브랜드도 원가를 혼자 못 버티겠다고 말한 거잖아. 그럼 삼성전자랑 SK 하이닉스 입장에서는 그동안 고객사에 끌려다니던 메모리 가격표를 이제 더 강하게 줄 수 있다는 뜻으로도 볼 수 있지. 물론 아이폰 가격이 오르면 단기적으로 판매량이 꺾일 수 있지만 한국 반도체 주에는 반대로 AI가 HBM만",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "미국의 금리 발표가 '삼전·닉스'에 끼치는 영향",
+        "url": "https://youtu.be/X9H6Pq-82Fk",
+        "published_at": "",
+        "reason": "님들 미국의 금리 발표가 3전 닉스에 끼치는 영향 뭔지 알고 있었어? [음악] 간밤 연준이 메파 쇼크를 날리면서 미국 빅테크가 줄줄이 무너졌는데 이상하게도 한국 3전 하이닉스에는 오히려 자금이 전부 쏠리고 있어. 이거 그냥 대장주니까 그렇게 하고 넘기면 지금이 자리가 기회인지 함정인지도 모르고 휩쓸릴 수 있으니까 지금 딱 1분만 집중해 봐. 먼저 경제 사냥꾼이 바로 이전 영상에서도 말해줬듯이 이번에 발표된 FOMC 결과부터 보면 연주는 예상대로 금리를 동결했어. 근데 시장이 놀란 건 동결이 아니라 위원들이 올해 금리를 더 올릴 수도 있다는 신호를 점도표에 찍었다는 거야. [음악] 점도표를 제출한 18명 중 절반인 아홉 명이 연내 인상을 예상했고 그중 여섯 명은 두 번 이상 올린다고 봤거든. 그러면서 시장이 기대하던이나 스토리가 크게 흔들린 거지. 원래 보통 금리 인상 신호가 나오면 주식 시장 전체에는 부담이 커죠. 금리가 오르면 은행에 돈만 넣어둬도 수익이 나니까 굳이 위험한 주식에 돈을 둘 이유가 줄어들거든. 근데 그 와중에 반도체 지수는 오히려 상승 마감했어. 마이크로소프트, 아마존, 알파벳 등 빅테크가 줄줄이 하락한 와중에 마이크론, 인텔, 브로드컴이 다 상승 흐름이었지. 그러면서이 흐름이 한국 코스피에도 일부 이어졌는데 장 초반 기준으로 보면 SK 하이닉스가 거래대금 1위로 돈을 빨아들이고 있어. 그럼 왜 하필 반도체로만 돈이",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "'현대차' 주가만 계속 폭락하는 진짜 이유",
+        "url": "https://youtu.be/T-IjMhju7e8",
+        "published_at": "",
+        "reason": "님들 현대차 주가만 계속 폭락하는 진짜 이유 뭔지 알고 있었어? 특히 3전 하이닉스 같은 애들은 코스피가 흔들려도 금방 회복하는데 현대차는 시장이 조금만 흔들려도 바로 폭락하니까 투자자들 진짜 미치려 하고 있어. 지금 그 이유 모르고 지나치면 진짜 고점에서 물릴 수도 있으니까 딱 1분만 집중해 봐. 먼저 [음악] 최근 현대차 주가 흐름부터 살펴보면 올해만 150% 넘게 폭등하면서 상승세를 이어가다가 갑자기 6월 들어서만 18% 넘게 빠지면서 고점 78만 원대에서 60만 원대까지 주르내렸어. 잘 가다가 혼자만 이러니까 우리 구독자님들께서도 대체 어떤 이유 때문이냐며 많이들 궁금해하셨지. 그럼 대체 왜 혼자만 이렇게 빠지는 걸까? 이유는 [음악] 명확해. 로봇 기대감이 이미 주가에 꽉 차버려서 빠지는 거야. 이게 무슨 말이냐면 올해 전 세계 자동차 회사 중에 주가가 제일 많이 오른게 현대차 그룹이야. 현대차 그룹 기준으로 GM 포드보다 높은 평가를 받으며 테슬라와 도요타 다음 건까지 올라왔지. 근데 많이 올랐다는 건데 오를만큼 다 올랐다는 뜻이기도 해. 실제로 지금 PER 그러니까 회사가 버는 이익 대비 주가가 몇 배냐를 보면 19배야. 이게 도요타보다 훨씬 비싸. 자동차 회사인데 자동차 회사 값이 아닌 거지. 그러니까 새로 들어오는 사람 입장에선 이미 너무 비싼데 더 사야 하나. 망설릴 수밖에 없어. 그래서 최근엔 하루에만 외국인이 3",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
         "title": "6월 18일 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
         "url": "https://youtu.be/nlRAP7bBSyU",
         "published_at": "",
@@ -2053,6 +2173,18 @@
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "미국 경제 정복하기",
+        "source_role": "youtube_recommendation",
+        "title": "현재 월가가 가장 선호하는 FAB10 종목 TOP3",
+        "url": "https://youtu.be/3MzanT_ybVo",
+        "published_at": "2026-06-18T11:00:02+00:00",
+        "reason": "님들 현재 월가가 가장 선호하는 펩텐 종목 탑수이 뭔지 알고 있었음. 이번에 월가가 메그니피 센터에 스페이스엑 오픈 AI 엔트로픽 세 개를 더 붙여서 프론티어 AI 빅테크십 줄여서 ක්ෂ텐 시대 열렸다고 난리야. 부자들은 이미 텐 핵심 종목 쓰러담는 중인데 개미들만 아직도 무서워서 놓치고 있어. 내가 네비우스 600% 급등전해도 삼성전자 21% 빠졌을 때도 담으라고 분명히 말했었는데 놓친 구독자들 없지? 월가가 최선호하는 펩텐 세 종목 가르쳐 줄테니까 이번엔 놓치지 마. 첫 번째 엔비디아 펩텐 안에서도 월가가 가장 사랑하는 1등조야. 시청 5조 달러 넘겼고 블랙 물량이 하반기로 쏟아지는 구조라 월가 평균 목표가가 300달러인데 지금 주가는 204달러야. 상승 여력 아직도 50% 가까이 남았다는 거지. 두 번째 마이크로소프트 애널리스트 90% 넘게 매수 때린 월가 공식 최해주야. AI 매출만 연 환산 370억 달러로 123% 폭증했고 애저도 두 자릿수로 쏟아지는 중이야. 지금 주가 378달러대인데 심지어 목표가가 560달러대 48% 위라 안 살 이유가 없어. 마지막 아마존. 작년 M 꼴찌였는데 월가가 2026년 부활주로 콕 찍은 종목이야. 애널리스트 예순 일곱명이 강력 매수에 평균 목표가 313달러 걸어놨는데 지금 237달러야. AWS가 다시 클라우드 점유율 먹으면서 최근 분기 이익 36% 폭증까지 나왔어. 32% 상승 여력 남기고 이",
+        "target_price": "300달러",
+        "buy_zone": "300달러",
+        "price_note": "번째 엔비디아 펩텐 안에서도 월가가 가장 사랑하는 1등조야. 시청 5조 달러 넘겼고 블랙 물량이 하반기로 쏟아지는 구조라 월가 평균 목표가가 300달러인데 지금 주가는 204달러야. 상승 여력 아직도 50% 가까이 남았다는 거지. 두 번째 마이크로소프트 애널리스트 90% 넘게 매수 때린 월가",
         "confidence": "transcript"
       },
       {
@@ -3257,8 +3389,8 @@
       }
     ],
     "stance": "복수 출처 추천/관심",
-    "target_price_summary": "1,560원, 167달러, 35,000달러, 1,500달러, 30불, 560달러, 58만원, 535달러, 1100달러, 500달러",
-    "buy_zone_summary": "80달러, 4,800원, 6,900원, 1,500달러, 1518원, 50달러, 5만원, 1560원, 6,000원, 100원, 226만원, 1530원, 26,850원, 280만원, 5,600달러, 31,800원, 90달러, 45,500원, 8,000원",
+    "target_price_summary": "300달러, 1,560원, 167달러, 35,000달러, 1,500달러, 30불, 560달러, 58만원, 535달러, 1100달러, 500달러",
+    "buy_zone_summary": "300달러, 80달러, 4,800원, 6,900원, 1,500달러, 1518원, 50달러, 5만원, 1560원, 6,000원, 100원, 226만원, 1530원, 26,850원, 280만원, 5,600달러, 31,800원, 90달러, 45,500원, 8,000원",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -3271,8 +3403,8 @@
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
       "경제사냥꾼",
-      "주식용사부",
       "강지한 차트연구소",
+      "주식용사부",
       "블로그 magic_rabb1t",
       "경제명탐정",
       "올랜도 킴 미국주식",
@@ -3299,6 +3431,18 @@
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHdEd3B0MFF4bS1FT3BzVHFPSF94LU1RdVhSTEEtTWpUYjl0OWdKUVhxOE54TlYyWnFGSW4wZTlkZHFsdDhEUEQwNGJpZHo2LXFRSW45TlpKbEpDTFU3YW9pbTNXZTZHT0RHVFg1WXVhSjVBcXFWcHl5VXFjejRNUkhGYzJGSm4xU3RraTF3SFQ2VUXSAacBQVVfeXFMUGZoblI2SXozLUJxTmtkWmI0ZGZSSk1RY2ZPMVFsQl81RHJPXzRXNl9CLV9DUVZOYlRNWmlRcGtPcUoydXRkMjgxRDMzNDBweGJvTm1lTmdHWnR1ZnFFTWpKTXE3aVI3UHV1bkhpeUJkU3F1VS1kYXVtMlhoRlhKTV84Y19SRmd1RU9mcEFZRzNiNXkxM0kwMzJ5ek41WG85TVJTUUxhRlE?oc=5",
         "published_at": "Tue, 02 Jun 2026 02:28:00 GMT",
         "reason": "삼성전자·SK하이닉스 주식 10년 묻어둔 가수 소유… “수익금 보태 집 샀다” - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "'1억 손실' 미자, SK하이닉스 매수 \"이번에도 잃으면 내 인생 주식 없어\" - starnewskorea.com",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9KY1BxSDBpaEZIbGxLTTZEMGdWSE9KUWkzZ2hNX1BXUjVUNkNfSGpQc2hlNTdKVmEwaktDN0tvWEFnWnN0YlM3NmxCNnBHSXI0b2lnUXU4QVplS3lFcnJUQmlaMnh6ZFVFY3d5MXV4MVRKSHM?oc=5",
+        "published_at": "Thu, 18 Jun 2026 08:57:17 GMT",
+        "reason": "'1억 손실' 미자, SK하이닉스 매수 \"이번에도 잃으면 내 인생 주식 없어\" &nbsp;&nbsp; starnewskorea.com",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -3539,6 +3683,18 @@
         "url": "https://youtu.be/Q_7L-G_DQ_g",
         "published_at": "",
         "reason": "님들 지금 SK 하이닉스 투자자들이 꼽아야 하는 뉴스 세 가지 뭔지 알고 있었어? 주가가 올해에만 270% 넘게 폭등하면서 코스피를 흔들고 [음악] 있는데 오늘 뜬이 세계 모르고 지나치면 하이닉스가 다시 재평가 받을 때 놓칠 수도 있으니까 지금 딱 1분만 집중해 봐. 먼저 첫 번째는 SK 그룹 시총이 사상 처음으로 2,조를 넘어섰다는 거야. 최근 SK 하이닉스 주가가 쉬지 않고 오르면서 장종 신고가를 갈아치웠고 그 힘으로 SK 그룹 상장사 전체 시총이 2019조까지 불어났어. 지금 하이닉스의 시총만 보면 1697조야. SK 그룹 전체 시총의 84%가이 한 종목이라는 거지. 그래서 사실상 하이닉스 하나가 그룹 전체를 통째로 끌어올린 구조야. 근데 여기서 이상한게 하나 있어. 오늘 시장 보면 미국 반도체 주가 하락하면서 한국 코스피에도 그 하락세가 번졌어. 특히 삼성전자, 삼성전기, 한미 반도체 같은 대표 반도체주가 다 같이 눌렸지. 미국장이 약한데도 하이닉스 혼자 신고가를 갈아치웠다는 거야. 그 배경에는 전날 장마감 뒤 불거진 100조 주조원설이 있는데 이건 워낙 중요하니까 뒷부분에서 풀어 줄게. 두 번째는 하이닉스가 신입 채용해서 학력 제한을 아예 다 없애 버렸다는 거야. 이번에 하이닉스는 4년제 학사 이상이라는 조건을 공고해서 통째로 지웠어. 고조이든 전문대든 직무 역량만 있으면 누구나 지원할 수 있게 바뀐 거고. 차세대 반도체 기",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "SK하이닉스 미국 ADR 상장 비공개 서류 제출한 최태원 회장의 진짜 목적",
+        "url": "https://youtu.be/McgUN7OVQSk",
+        "published_at": "2026-06-18T10:45:16+00:00",
+        "reason": "하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 상장 절차까지 밟고 있냐는 거죠. 그것도 1초에 150만 원씩 버는 초 거대 기업이 말입니다. 여기에 명확한 목적이 숨겨져 있습니다. NBDI에 들어갈 차세대 HBM 생산 확대와 미국 첨단 패키징 공장 그리고 ASML EUB 장비 확보까지 앞으로도 수십조원의 투자가 필요한 겁니다. 게다가 미국 상장 이후에는 NBI, TSMC, 브로드컴 같은 글로벌 AI 반도체 대표 종목들이 담긴 ETF 편입 가능성까지도 커지죠. 그렇게 되면 코리아 디스카운트로 PR 여섯 배에서 일곱배 수준에 머물던 가치가 미국 메모리 업체 마이크론처럼 PER 11배 수준까지 재평가 받을 수 있다는 겁니다. 그런데 오늘처럼 신고가를 찍은 날 바로 들어가기 부담되는 분들 많죠. 제가 하이닉스 82만 원대에도 말씀드렸고 240만 원 찍고 빠질 때는 233만 원에 하락할 림도 드렸습니다. 그리고 최근 신곡가 돌파 직전에도 다시 상승할림 드렸죠. 이렇게 실시간 상승하락 알림은 구독자님들께만 무료로 보내 드리고 있으니 언제 사고 언제 팔아야 할지 혼자 판단하기 어렵다면 댓글 확인해 보세요. 하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 ",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4083,6 +4239,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "'현대차' 주가만 계속 폭락하는 진짜 이유",
+        "url": "https://youtu.be/T-IjMhju7e8",
+        "published_at": "",
+        "reason": "님들 현대차 주가만 계속 폭락하는 진짜 이유 뭔지 알고 있었어? 특히 3전 하이닉스 같은 애들은 코스피가 흔들려도 금방 회복하는데 현대차는 시장이 조금만 흔들려도 바로 폭락하니까 투자자들 진짜 미치려 하고 있어. 지금 그 이유 모르고 지나치면 진짜 고점에서 물릴 수도 있으니까 딱 1분만 집중해 봐. 먼저 [음악] 최근 현대차 주가 흐름부터 살펴보면 올해만 150% 넘게 폭등하면서 상승세를 이어가다가 갑자기 6월 들어서만 18% 넘게 빠지면서 고점 78만 원대에서 60만 원대까지 주르내렸어. 잘 가다가 혼자만 이러니까 우리 구독자님들께서도 대체 어떤 이유 때문이냐며 많이들 궁금해하셨지. 그럼 대체 왜 혼자만 이렇게 빠지는 걸까? 이유는 [음악] 명확해. 로봇 기대감이 이미 주가에 꽉 차버려서 빠지는 거야. 이게 무슨 말이냐면 올해 전 세계 자동차 회사 중에 주가가 제일 많이 오른게 현대차 그룹이야. 현대차 그룹 기준으로 GM 포드보다 높은 평가를 받으며 테슬라와 도요타 다음 건까지 올라왔지. 근데 많이 올랐다는 건데 오를만큼 다 올랐다는 뜻이기도 해. 실제로 지금 PER 그러니까 회사가 버는 이익 대비 주가가 몇 배냐를 보면 19배야. 이게 도요타보다 훨씬 비싸. 자동차 회사인데 자동차 회사 값이 아닌 거지. 그러니까 새로 들어오는 사람 입장에선 이미 너무 비싼데 더 사야 하나. 망설릴 수밖에 없어. 그래서 최근엔 하루에만 외국인이 3",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
       },
       {
         "source": "경제사냥꾼",
@@ -4782,12 +4950,12 @@
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
       "경제사냥꾼",
+      "강지한 차트연구소",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식용사부",
       "Yahoo Finance Top Stories",
       "미국 경제 정복하기",
-      "강지한 차트연구소",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
     "source_count": 10,
@@ -4815,6 +4983,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "미국의 금리 발표가 '삼전·닉스'에 끼치는 영향",
+        "url": "https://youtu.be/X9H6Pq-82Fk",
+        "published_at": "",
+        "reason": "님들 미국의 금리 발표가 3전 닉스에 끼치는 영향 뭔지 알고 있었어? [음악] 간밤 연준이 메파 쇼크를 날리면서 미국 빅테크가 줄줄이 무너졌는데 이상하게도 한국 3전 하이닉스에는 오히려 자금이 전부 쏠리고 있어. 이거 그냥 대장주니까 그렇게 하고 넘기면 지금이 자리가 기회인지 함정인지도 모르고 휩쓸릴 수 있으니까 지금 딱 1분만 집중해 봐. 먼저 경제 사냥꾼이 바로 이전 영상에서도 말해줬듯이 이번에 발표된 FOMC 결과부터 보면 연주는 예상대로 금리를 동결했어. 근데 시장이 놀란 건 동결이 아니라 위원들이 올해 금리를 더 올릴 수도 있다는 신호를 점도표에 찍었다는 거야. [음악] 점도표를 제출한 18명 중 절반인 아홉 명이 연내 인상을 예상했고 그중 여섯 명은 두 번 이상 올린다고 봤거든. 그러면서 시장이 기대하던이나 스토리가 크게 흔들린 거지. 원래 보통 금리 인상 신호가 나오면 주식 시장 전체에는 부담이 커죠. 금리가 오르면 은행에 돈만 넣어둬도 수익이 나니까 굳이 위험한 주식에 돈을 둘 이유가 줄어들거든. 근데 그 와중에 반도체 지수는 오히려 상승 마감했어. 마이크로소프트, 아마존, 알파벳 등 빅테크가 줄줄이 하락한 와중에 마이크론, 인텔, 브로드컴이 다 상승 흐름이었지. 그러면서이 흐름이 한국 코스피에도 일부 이어졌는데 장 초반 기준으로 보면 SK 하이닉스가 거래대금 1위로 돈을 빨아들이고 있어. 그럼 왜 하필 반도체로만 돈이",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
       },
       {
         "source": "경제사냥꾼",
@@ -4850,6 +5030,30 @@
         "target_price": "1,560원",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "코스피도 하루 만에 5% 넘게 뛴 적이 있어. 종전 한 방에 시장 색깔이 통째로 바뀐다는 걸 이미 한번 보여 준 거지. 실제로 이번 금요일에도 1,560원을 넘었던 환율이 한 숨 돌리면서 올해 팔자였던 외국인이 모처럼 돌아오는 신호가 같이 나왔거든. 괜히 골드만삭스가 코스피 목표치를 12,000까",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "SK하이닉스 미국 ADR 상장 비공개 서류 제출한 최태원 회장의 진짜 목적",
+        "url": "https://youtu.be/McgUN7OVQSk",
+        "published_at": "2026-06-18T10:45:16+00:00",
+        "reason": "하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 상장 절차까지 밟고 있냐는 거죠. 그것도 1초에 150만 원씩 버는 초 거대 기업이 말입니다. 여기에 명확한 목적이 숨겨져 있습니다. NBDI에 들어갈 차세대 HBM 생산 확대와 미국 첨단 패키징 공장 그리고 ASML EUB 장비 확보까지 앞으로도 수십조원의 투자가 필요한 겁니다. 게다가 미국 상장 이후에는 NBI, TSMC, 브로드컴 같은 글로벌 AI 반도체 대표 종목들이 담긴 ETF 편입 가능성까지도 커지죠. 그렇게 되면 코리아 디스카운트로 PR 여섯 배에서 일곱배 수준에 머물던 가치가 미국 메모리 업체 마이크론처럼 PER 11배 수준까지 재평가 받을 수 있다는 겁니다. 그런데 오늘처럼 신고가를 찍은 날 바로 들어가기 부담되는 분들 많죠. 제가 하이닉스 82만 원대에도 말씀드렸고 240만 원 찍고 빠질 때는 233만 원에 하락할 림도 드렸습니다. 그리고 최근 신곡가 돌파 직전에도 다시 상승할림 드렸죠. 이렇게 실시간 상승하락 알림은 구독자님들께만 무료로 보내 드리고 있으니 언제 사고 언제 팔아야 할지 혼자 판단하기 어렵다면 댓글 확인해 보세요. 하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(마이크론) 주가가 계속가는 이유를 알아보자",
+        "url": "https://youtu.be/PDFnnuXUTH0",
+        "published_at": "2026-06-18T05:46:39+00:00",
+        "reason": "안녕하세요. 올린도 킴입니다. 오늘은 마이크이 얼마까지 갈 수 있는지 자 거기에 대해서 한번 알아보는 시간을 갖도록 하겠습니다. 자 마이코의 예상 실적에 대해서 한번 알아보겠습니다. 신규 데이터라지 컨센서스 추정치가 지나치게 보수적이다. 이렇게 말하고 있는데 앞으로 더 많이 갈 수 있다. 그 이야기를 하고 있죠. 자, 거기에 대해서 한번 살펴보겠습니다. 자서 마이크론 같은 경우는 기램, 랜드, HBM, 그다음에 엔터프라이즈, SSD에 대해서 전리없는 수요를 경험하고 있고 사상 최대 매출, 매출의 총익률을 견인하고 있다. 그렇게 말하고 있고 마이크로넷 수급 불균량은 2020년도 이후까지도 지속될 것으로 예상이 되고 있고 실적의 가시선 가격의 결정력을 높이는 전략적인 고객 계약에서 뒷받침되고 있다. 자, 2010년도 2010, 2027년도 회계 연도의 실적에 대한 컨센서스의 추정치가 지나측에 보수적일 가능성이 높기 때문에 선행 비례 주가 과도하게 평가되고 여전히 상당한 상승 여력이 남아 있다. 이렇게 말하고 있죠. 여러 가지 가격 리스크라든지 실적에 대한 집행에도 불구하고 경기 순환 위험이 완화되고 있고 자 강한 영업 레버리지 장기 수요 추세에서 긍정적인 근거가 되고 있다 해서 매수 요견으로 우리가 제시가 될 수 있다. 자꾸 그렇게 이야기를 하고 있는데 조금 더 깊이 있게 한번 살펴보겠습니다. 자, 그래서 마이크론 같은 경우 역사적으로 ",
+        "target_price": "1625달러",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "가격 결정력에는 유리하지만은 수유 파괴 위험을 높이고 있다. 그렇게 말하고 있고 자 2016년도 5월 26일에 목표가를 UBS에서 535에서 1625달러로 상향 조정했죠. 자 그런데 지금 이제 애널리스트 목표가 범위가 상당히 넓다는 겁니다. 뭐 최저 249에서 최고 1750까지 있기 때문에 불확",
         "confidence": "transcript"
       },
       {
@@ -5298,7 +5502,7 @@
       }
     ],
     "stance": "복수 출처 추천/관심",
-    "target_price_summary": "1,560원, 1,000달러, 200달러, 35,000달러, 1,500달러, 96달러, 30불, 500달러, 535달러, 1100달러",
+    "target_price_summary": "1,560원, 1625달러, 1,000달러, 200달러, 35,000달러, 1,500달러, 96달러, 30불, 500달러, 535달러, 1100달러",
     "buy_zone_summary": "1,000달러, 200달러, 6,900원, 1,500달러, 50달러, 96달러, 6,000원, 500달러, 26,850원, 45,500원, 2,000원",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
@@ -6303,6 +6507,18 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
+        "title": "'현대차' 주가만 계속 폭락하는 진짜 이유",
+        "url": "https://youtu.be/T-IjMhju7e8",
+        "published_at": "",
+        "reason": "님들 현대차 주가만 계속 폭락하는 진짜 이유 뭔지 알고 있었어? 특히 3전 하이닉스 같은 애들은 코스피가 흔들려도 금방 회복하는데 현대차는 시장이 조금만 흔들려도 바로 폭락하니까 투자자들 진짜 미치려 하고 있어. 지금 그 이유 모르고 지나치면 진짜 고점에서 물릴 수도 있으니까 딱 1분만 집중해 봐. 먼저 [음악] 최근 현대차 주가 흐름부터 살펴보면 올해만 150% 넘게 폭등하면서 상승세를 이어가다가 갑자기 6월 들어서만 18% 넘게 빠지면서 고점 78만 원대에서 60만 원대까지 주르내렸어. 잘 가다가 혼자만 이러니까 우리 구독자님들께서도 대체 어떤 이유 때문이냐며 많이들 궁금해하셨지. 그럼 대체 왜 혼자만 이렇게 빠지는 걸까? 이유는 [음악] 명확해. 로봇 기대감이 이미 주가에 꽉 차버려서 빠지는 거야. 이게 무슨 말이냐면 올해 전 세계 자동차 회사 중에 주가가 제일 많이 오른게 현대차 그룹이야. 현대차 그룹 기준으로 GM 포드보다 높은 평가를 받으며 테슬라와 도요타 다음 건까지 올라왔지. 근데 많이 올랐다는 건데 오를만큼 다 올랐다는 뜻이기도 해. 실제로 지금 PER 그러니까 회사가 버는 이익 대비 주가가 몇 배냐를 보면 19배야. 이게 도요타보다 훨씬 비싸. 자동차 회사인데 자동차 회사 값이 아닌 거지. 그러니까 새로 들어오는 사람 입장에선 이미 너무 비싼데 더 사야 하나. 망설릴 수밖에 없어. 그래서 최근엔 하루에만 외국인이 3",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
         "title": "지금 이재용이 ‘AI 시대 주도권’ 위해 뛰어든 '신사업' 정체",
         "url": "https://youtu.be/hOmYcBePOTU",
         "published_at": "",
@@ -6909,17 +7125,29 @@
     "ticker": "TSM",
     "name": "TSMC",
     "sources": [
+      "강지한 차트연구소",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "올랜도 킴 미국주식",
       "월텍남 - 월스트리트 테크남",
       "경제사냥꾼",
       "블로그 magic_rabb1t",
       "Yahoo Finance Top Stories",
-      "강지한 차트연구소",
       "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
     "source_count": 8,
     "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "SK하이닉스 미국 ADR 상장 비공개 서류 제출한 최태원 회장의 진짜 목적",
+        "url": "https://youtu.be/McgUN7OVQSk",
+        "published_at": "2026-06-18T10:45:16+00:00",
+        "reason": "하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 상장 절차까지 밟고 있냐는 거죠. 그것도 1초에 150만 원씩 버는 초 거대 기업이 말입니다. 여기에 명확한 목적이 숨겨져 있습니다. NBDI에 들어갈 차세대 HBM 생산 확대와 미국 첨단 패키징 공장 그리고 ASML EUB 장비 확보까지 앞으로도 수십조원의 투자가 필요한 겁니다. 게다가 미국 상장 이후에는 NBI, TSMC, 브로드컴 같은 글로벌 AI 반도체 대표 종목들이 담긴 ETF 편입 가능성까지도 커지죠. 그렇게 되면 코리아 디스카운트로 PR 여섯 배에서 일곱배 수준에 머물던 가치가 미국 메모리 업체 마이크론처럼 PER 11배 수준까지 재평가 받을 수 있다는 겁니다. 그런데 오늘처럼 신고가를 찍은 날 바로 들어가기 부담되는 분들 많죠. 제가 하이닉스 82만 원대에도 말씀드렸고 240만 원 찍고 빠질 때는 233만 원에 하락할 림도 드렸습니다. 그리고 최근 신곡가 돌파 직전에도 다시 상승할림 드렸죠. 이렇게 실시간 상승하락 알림은 구독자님들께만 무료로 보내 드리고 있으니 언제 사고 언제 팔아야 할지 혼자 판단하기 어렵다면 댓글 확인해 보세요. 하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "youtube_recommendation",
@@ -8368,6 +8596,18 @@
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
+        "title": "인텔의 주요 반도체 랠리로 미국 주식 선물 상승 - Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONS1WU3owblRvcldNU3REVFo5MldfODE1YzctWWlXX0FqM1h0VnE2ckRDM2Q4c1FTWUNNWVp5YTJjcjVDel9HN1ZvdzFSdTRYcjcwbnJweWFaRmNqcVhQdUlKOGVZUTJyRzFoU29qS1RpcVM5bFNBWm44SWdvQUpIUXpFVFZvTEZBTGNlcDRKMDJHSDlZRUVYN01hS3RTX3l2SFFLRWNtZl8tZHNjd3JYSQ?oc=5",
+        "published_at": "Thu, 18 Jun 2026 11:43:07 GMT",
+        "reason": "인텔의 주요 반도체 랠리로 미국 주식 선물 상승    Bloomberg.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
         "title": "예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5",
         "published_at": "Mon, 01 Jun 2026 08:22:00 GMT",
@@ -9069,6 +9309,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식 - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmFhNUpWeUZSLWNGVzl1UTk0LXI1YUVVeFhsQXNwSmFKRjBfb0xNeG5pcGtISlpnaGppSHNDcVBKLXhwM2pnX1M5TGhKRVJCLVlCblgzLUFlRFg5aDUxbUQzV0RIV0hzUWhTUHJYQ0lrM24yVVNYYkZfNndPSUozZENHanZFUDMtcUZ4MmxxMmpod1FrcXJzYQ?oc=5",
+        "published_at": "Thu, 18 Jun 2026 16:20:57 GMT",
+        "reason": "AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식    야후 파이낸스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "650달러 이상의 메타 플랫폼 주식을 판매해야 하는 1가지 큰 이유 - 24/7 Wall St.",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZzZEYUNhd1YzZm5PZXBrWnNDWE5zQVZEd1BiRFBpMFdpVy14eVpBUVZHaGpRcURVQ0pySmZnYmVDQmppZ3l3S1NCM2tud2owT2Q0UHM4VVpzN3hnWUVJNWVQbzU4MU50Wk9jbUhVbHowMC0xRkh1U0dJbm95dXcxdTBBTnk5RUZ0SVZLenNHTGk5V1dISm9tTE9sZw?oc=5",
         "published_at": "Thu, 04 Jun 2026 16:11:34 GMT",
@@ -9359,6 +9611,18 @@
     ],
     "source_count": 3,
     "evidence": [
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "코스피 9000 돌파' 외국인이 반도체만 쓸어담은 진짜 이유",
+        "url": "https://youtu.be/D-wMbrJ-fV8",
+        "published_at": "",
+        "reason": "님들 코스피 9,000 돌파했는데 외국인이 반도체만 쓸어담은 진짜 이유 뭔지 알고 있었어? 지수는 사상 최고가를 찍었는데도 정작 3전 하이닉스 제외한 790개 종목들은 [음악] 주가 폭락장 왔다는데 지금 이후 놓치면 다음 상승장에서도 혼자 고점에서 물릴 수 있으니까 더 늦기 전에 딱 1분만 집중해 봐. 먼저 [음악] 오늘 코스피는 사상 처음으로 종가 기준 9천을 돌파했어. 정거래일보다 2% 넘게 오르면서 장 중에는 9,00선 근처까지 치고 올라갔지. 오늘 시장은 외국인과 반도체가 만든 장이었어. 외국인이 유가증권 시장에서 1조 원 넘게 순매수했고 그 돈이 삼성전자와 SK 하이닉스 같은 초대형 반도체로 몰렸거든. 근데 오늘 진짜 핵심은 상승 종목이 100개 조금 넘었는데 하락 종목은 790개 넘게 쏟아졌다는 거야. 즉 시장 전체가 오른게 아니라 3전 하이닉스 같은 대형 반도체주가 지수를 들어 올렸다는 거지. 그럼 대체 왜 자금이 전부 반도체로만 쏠린 걸까? 그 이유는 아침에 경제 사냥꾼이 말해졌듯이 지금 시장에서 금리 충격을 이길 수 있는 업종이 사실상 반도체밖에 없기 때문이야. 이번 FOMC는 금리를 동결했지만 점도표는 매파적으로 나왔어. 점도표란 연준 위원들이 앞으로 금리가 어디쯤 갈지 찍어 놓은 예상표인데 이번엔 금리 인하가 빨리 온다가 아니라 추가 인상도 조심해야 한다는 쪽에 가까웠던 거야. 근데 이런 장에서는 바이오 2차전지 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
@@ -9769,6 +10033,59 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "35,000달러, 500달러",
     "buy_zone_summary": "6,900원, 5,600달러",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "ASML",
+    "name": "ASML",
+    "sources": [
+      "마술토끼의 투자이야기",
+      "강지한 차트연구소",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "마술토끼의 투자이야기",
+        "source_role": "blog_recommendation",
+        "title": "니콘, 반도체 노광장비 회복 노린다 (feat. ArF)",
+        "url": "https://blog.naver.com/magic_rabb1t/224306331298?fromRss=true&trackingCode=rss",
+        "published_at": "Fri, 05 Jun 2026 00:53:00 +0900",
+        "reason": "26년 5월 28일 보도에 따르면, 니콘이 반도체 노광장비 시장 점유율 회복을 노리고 있다고 해요. ASML이 80% 이상 시장점유율을 보유한 상황에서 가격 경쟁력으로 차별화를 시도하겠다고 했죠. 그러면서 미국·아시아 대형 반도체 업체들과 ArF(불화아르곤) 노광장비 신규 주문에 대해 논의하고 있다고 말했어요. 오무라 야스히로는 26년 4월 1일 부로 취임한 니콘의 신임 CEO인데요. 취임 약 두 달만에 공개 인터뷰 자리에서 이런 전략을 밝힌거에요. 니콘이 노리고 있는건 ASML이 독점하고 있는 EUV 장비가 아니고, ArF(불화아르곤) 장비를 말하는거에요. ArF 장비는 반도체 제조 중 포토리소그래피라고 불리는 노광 공정에서 사용되는데요. 노.......",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "SK하이닉스 미국 ADR 상장 비공개 서류 제출한 최태원 회장의 진짜 목적",
+        "url": "https://youtu.be/McgUN7OVQSk",
+        "published_at": "2026-06-18T10:45:16+00:00",
+        "reason": "하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 상장 절차까지 밟고 있냐는 거죠. 그것도 1초에 150만 원씩 버는 초 거대 기업이 말입니다. 여기에 명확한 목적이 숨겨져 있습니다. NBDI에 들어갈 차세대 HBM 생산 확대와 미국 첨단 패키징 공장 그리고 ASML EUB 장비 확보까지 앞으로도 수십조원의 투자가 필요한 겁니다. 게다가 미국 상장 이후에는 NBI, TSMC, 브로드컴 같은 글로벌 AI 반도체 대표 종목들이 담긴 ETF 편입 가능성까지도 커지죠. 그렇게 되면 코리아 디스카운트로 PR 여섯 배에서 일곱배 수준에 머물던 가치가 미국 메모리 업체 마이크론처럼 PER 11배 수준까지 재평가 받을 수 있다는 겁니다. 그런데 오늘처럼 신고가를 찍은 날 바로 들어가기 부담되는 분들 많죠. 제가 하이닉스 82만 원대에도 말씀드렸고 240만 원 찍고 빠질 때는 233만 원에 하락할 림도 드렸습니다. 그리고 최근 신곡가 돌파 직전에도 다시 상승할림 드렸죠. 이렇게 실시간 상승하락 알림은 구독자님들께만 무료로 보내 드리고 있으니 언제 사고 언제 팔아야 할지 혼자 판단하기 어렵다면 댓글 확인해 보세요. 하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "ASML CEO는 EU 집행위원회가 '전략적 프로젝트'를 지시하려고 해서는 안 된다고 말했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/asml-ceo-says-eu-commission-100938436.html",
+        "published_at": "2026-06-05T10:32:30Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -10665,46 +10982,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "caption_failed"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "ASML",
-    "name": "ASML",
-    "sources": [
-      "마술토끼의 투자이야기",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "마술토끼의 투자이야기",
-        "source_role": "blog_recommendation",
-        "title": "니콘, 반도체 노광장비 회복 노린다 (feat. ArF)",
-        "url": "https://blog.naver.com/magic_rabb1t/224306331298?fromRss=true&trackingCode=rss",
-        "published_at": "Fri, 05 Jun 2026 00:53:00 +0900",
-        "reason": "26년 5월 28일 보도에 따르면, 니콘이 반도체 노광장비 시장 점유율 회복을 노리고 있다고 해요. ASML이 80% 이상 시장점유율을 보유한 상황에서 가격 경쟁력으로 차별화를 시도하겠다고 했죠. 그러면서 미국·아시아 대형 반도체 업체들과 ArF(불화아르곤) 노광장비 신규 주문에 대해 논의하고 있다고 말했어요. 오무라 야스히로는 26년 4월 1일 부로 취임한 니콘의 신임 CEO인데요. 취임 약 두 달만에 공개 인터뷰 자리에서 이런 전략을 밝힌거에요. 니콘이 노리고 있는건 ASML이 독점하고 있는 EUV 장비가 아니고, ArF(불화아르곤) 장비를 말하는거에요. ArF 장비는 반도체 제조 중 포토리소그래피라고 불리는 노광 공정에서 사용되는데요. 노.......",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "ASML CEO는 EU 집행위원회가 '전략적 프로젝트'를 지시하려고 해서는 안 된다고 말했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/asml-ceo-says-eu-commission-100938436.html",
-        "published_at": "2026-06-05T10:32:30Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
       }
     ],
     "stance": "복수 출처 추천/관심",

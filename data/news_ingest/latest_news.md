@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-18T13:00)
+# 주식 뉴스 인제스트 (2026-06-19T05:32)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -165,7 +165,15 @@
 - 요약: (서울=연합뉴스) 임은진 기자 = 코스피가 반도체주의 질주에 힘입어 9,000을 향해 질주하고 있지만 증권주 움직임은 지지부진하다.
 - 링크: https://www.yna.co.kr/view/AKR20260602138600008
 
-### 21. 개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 - Chosunbiz
+### 21. '250만닉스' 신기록…외국인이 3.8조 쓸어 담은 이유는? [종목+] - 한국경제
+- 시장: 한국시장
+- 출처: Google News 한국 주식 종목
+- 시각: Wed, 17 Jun 2026 21:30:01 GMT
+- 관련 티커: 종목 미검출
+- 요약: '250만닉스' 신기록…외국인이 3.8조 쓸어 담은 이유는? [종목+] &nbsp;&nbsp; 한국경제
+- 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE43YnBCRnloRFFuaHlSdEdKVXhuVHh5dzRpeS1IWHNtYkV4SjZJc2dtNkNDYmNQMUd2TUFUR21DS25GWU1IdVBEM1lqY1dVVmJwbTNPR005Q3lwUdIBVEFVX3lxTE9FdUY2WTI0RmV1Rmd4cl9Hd1J1bmRZZjhnSW91dUVqUER3a1NjcDBfSTd4MUdWWkIwZms3RGYzb2dhM1Y3T1V0TFVsTDFsank3dHJsUA?oc=5
+
+### 22. 개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 - Chosunbiz
 - 시장: 한국시장
 - 출처: Google News 한국 주식 종목
 - 시각: Wed, 17 Jun 2026 21:02:34 GMT
@@ -173,7 +181,7 @@
 - 요약: 개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 &nbsp;&nbsp; Chosunbiz
 - 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS1IyUWZRa1RsOTR6ZHVCa21sakxDZ2hGXzR6VFp5aERQUkt5Sl9wNmV2Vnl5NGNLejZHWlYtdmh3YkVkWnN1ZXdrSTRUYnJabFN0bWlMdzFZWEpiMmRjYWEySWZkN3NNeTFTZ0lxaFRCRGxkOTJ6M3NlU1kteGJna1BMamNDR0J00gGcAUFVX3lxTE02anBGOUtMQl9lbThvMlNWaTVTY1R5TkNWSGJrUUNidjlucVhTUU5jd1ZoNFhYS3hKY01ULXM2eTJVdmpzajUzcVBfUEhuSkJtMncxcVBOV1FiYVlMSUJ0RDNNNV9jYkYzTUE5YTZiR3lwWl9iMTNQeXUxaC1rUVBGZHRvWWxObUpib004aTljOEZ0eWNFWmUycjVwTg?oc=5
 
-### 22. 호남 반도체공장에 장성 ‘방긋’ 해남 ‘긴장’ 무안 ‘어머’…엇갈린 표정 - 한겨레
+### 23. 호남 반도체공장에 장성 ‘방긋’ 해남 ‘긴장’ 무안 ‘어머’…엇갈린 표정 - 한겨레
 - 시장: 한국시장
 - 출처: Google News 국내 증시·반도체
 - 시각: Wed, 17 Jun 2026 08:09:00 GMT
@@ -181,7 +189,7 @@
 - 요약: 호남 반도체공장에 장성 ‘방긋’ 해남 ‘긴장’ 무안 ‘어머’…엇갈린 표정 &nbsp;&nbsp; 한겨레
 - 링크: https://news.google.com/rss/articles/CBMiYEFVX3lxTE03Wk0wUWNfZl9Cb0thNDlkbE9XNnIxZ3JydXJuVW9qOGsxdEx6V25qcnZhX2VTOEFVSmltb0JkVGNpTGtOY3FkQnZPTVRROE9scHVKNHYzZ3FGbl93MTkzQQ?oc=5
 
-### 23. 삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 - 네이버 프리미엄콘텐츠
+### 24. 삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 - 네이버 프리미엄콘텐츠
 - 시장: 한국시장
 - 출처: Google News 한국 주식 종목
 - 시각: Wed, 17 Jun 2026 05:56:00 GMT
@@ -189,7 +197,7 @@
 - 요약: 삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 &nbsp;&nbsp; 네이버 프리미엄콘텐츠
 - 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxOTTFXVFRsOHJfSy1XR05tTzZVRllxbXd6TkR4NWs2TE1CRUhjX0V4MHEtQ280YUtUeE1kaUlNc0F0Skt2UTR4VThTQU9uNDg1U2ZUclBLR2gySU5oMHJpRlg5cjdVN28wZDduOTZwSHJTbkc1ZEVUYlczZ0NQOVFrMXFBVQ?oc=5
 
-### 24. 삼성전자 주식보상 '1.6조' 압도적 규모 - 세이프타임즈
+### 25. 삼성전자 주식보상 '1.6조' 압도적 규모 - 세이프타임즈
 - 시장: 한국시장
 - 출처: Google News 한국 주식 종목
 - 시각: Wed, 17 Jun 2026 04:52:39 GMT
@@ -197,7 +205,7 @@
 - 요약: 삼성전자 주식보상 '1.6조' 압도적 규모 &nbsp;&nbsp; 세이프타임즈
 - 링크: https://news.google.com/rss/articles/CBMib0FVX3lxTE1oU1ZDODB6bl93eGtUVFRQczRRLTN3TjktWVVvRWxocFVIek9POWM3RFR3OFZUSXZmMXJBSzJjYVAxQWpsTHpGMTRibTM4c0pEcERBTUFJMW9qMDdZS0xOLUdhTV9MY3JwQTFoTU5Kb9IBc0FVX3lxTFBVUFc1WlBzRlU5akQ0WHZab3M4UVJtQWlKbGpQd013Vzhzemo0LWhtakgyTXEyYWJRQnVtbWVtTmVGakZVbVNkQVJpRjR1RFR3STIxVWh3S3lsNU04dDV6RVNJU05MY3VpeVhtb0UzYU5ndmM?oc=5
 
-### 25. 한투증권, 하반기 코스피 목표치 9250→11000 상향 - 경향신문
+### 26. 한투증권, 하반기 코스피 목표치 9250→11000 상향 - 경향신문
 - 시장: 한국시장
 - 출처: Google News 국내 증시·반도체
 - 시각: Wed, 03 Jun 2026 23:45:00 GMT
@@ -205,7 +213,7 @@
 - 요약: 한투증권, 하반기 코스피 목표치 9250→11000 상향 &nbsp;&nbsp; 경향신문
 - 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZOE5Ka1NXV2dCZUE4b2t4UFhPRTBwZHNTN2xUSnJmdkpkNTcxeDFuQ25ySDg0dHI1SEd0b0NGb0NNOHhmYnZ3RmFJZjNCX3JmSUZXSGRfU0V4Z9IBX0FVX3lxTE5GQkpadERvRHItb25xY3JRWlA5N2VHWnI0Vkh3ME4yZjMzWWY5Z3o2V1FKSV9ld25xUkx0Um1rSlQ4TjNWZUM3cXVvSWRaRWJCMG5SdlV3RDBpaHJwdHRF?oc=5
 
-### 26. 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" - v.daum.net
+### 27. 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" - v.daum.net
 - 시장: 한국시장
 - 출처: Google News 한국 주식 종목
 - 시각: Wed, 03 Jun 2026 23:39:01 GMT
@@ -213,7 +221,7 @@
 - 요약: 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" &nbsp;&nbsp; v.daum.net
 - 링크: https://news.google.com/rss/articles/CBMiT0FVX3lxTFA4bmRPN0s0WThhYkdjQk5rZXpWZlAxYWVYMXZsX0Q5d19XVnJ4TnJYbHQxa2FJeEFORHYtYm5hd1Nobm1qY0NUOGVEdzFuYU0?oc=5
 
-### 27. 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" - 파이낸셜뉴스
+### 28. 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" - 파이낸셜뉴스
 - 시장: 한국시장
 - 출처: Google News 한국 주식 종목
 - 시각: Wed, 03 Jun 2026 23:37:04 GMT
@@ -221,7 +229,7 @@
 - 요약: 삼성전자 주가 오르며 몸값 뛴 이 주식..."주가 11만원 더 오른다" &nbsp;&nbsp; 파이낸셜뉴스
 - 링크: https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yd0wySlNhX2FmLUNNQ3F5MXJIU3JxaUdlSTIwci1kdjZhX1JuR3IzTENwOFFhLTlNNXNWd1VOZkVsQS00elZjS3NGOGFrNWdrMHEzVnMyTGR6QdIBXkFVX3lxTE5qdUNxRDhJRWRlTHJ3cGVRN0NrZnlyeDhuRFJWNzJPTEZ3WnJrV1Y2bllMcjR2aFh1TVRzU3d3RXhqWXlNM0RzeDFIU0FwNnRZOHExdkpXZWR4Q3JDOUE?oc=5
 
-### 28. 반도체, AI를 넘어 ‘피지컬’의 시대로 [트랜D] - 중앙일보
+### 29. 반도체, AI를 넘어 ‘피지컬’의 시대로 [트랜D] - 중앙일보
 - 시장: 한국시장
 - 출처: Google News 국내 증시·반도체
 - 시각: Wed, 03 Jun 2026 22:00:00 GMT
@@ -229,21 +237,13 @@
 - 요약: 반도체, AI를 넘어 ‘피지컬’의 시대로 [트랜D] &nbsp;&nbsp; 중앙일보
 - 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTE95LWpHbEFNdlk0UU1NcHVvOVJTdURWNFY5MmRYZS05MGp4algyYlFYZUNvTlFzLWZnb2ZQVkNLZXlwenZfX2JJWVVmTFFwNlFPaHplR25R?oc=5
 
-### 29. “삼전닉스 놓쳤다면 이 종목” … 1년새 180% 뛴 ‘반도체 설거지’ 기업 - 매일경제
+### 30. “삼전닉스 놓쳤다면 이 종목” … 1년새 180% 뛴 ‘반도체 설거지’ 기업 - 매일경제
 - 시장: 한국시장
 - 출처: Google News 국내 증시·반도체
 - 시각: Wed, 03 Jun 2026 20:00:00 GMT
 - 관련 티커: 종목 미검출
 - 요약: “삼전닉스 놓쳤다면 이 종목” … 1년새 180% 뛴 ‘반도체 설거지’ 기업 &nbsp;&nbsp; 매일경제
 - 링크: https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0Sk5TUWhNMVZGOVRFTVFERnQ1SS1sWGtUamFPRW5mdkV4VWNvM1paRmZYOXZvMXJOdmtHY1R1bnVVTk85MWFLZ1lzRUhDOVpZWnppVFVR?oc=5
-
-### 30. 캐나다산 원유 도입 3.3배로 확대…잠수함 수주 '막판 총력전'
-- 시장: 한국시장
-- 출처: 연합뉴스 경제
-- 시각: Tue, 2 Jun 2026 22:29:49 +0900
-- 관련 티커: 종목 미검출
-- 요약: (서울=연합뉴스) 신창용 기자 = 이달 말 캐나다 차세대 잠수함 도입 사업(CPSP) 최종 선정을 앞두고 정부가 에너지·자원 공급망 협력을 연계...
-- 링크: https://www.yna.co.kr/view/AKR20260602167400003
 
 ## 미국시장 뉴스
 
@@ -265,7 +265,16 @@
 - 요약: 수요일 메타 플랫폼 주가가 5% 이상 급락한 이유 Yahoo Finance
 - 링크: https://news.google.com/rss/articles/CBMioAFBVV95cUxORVI4M2Zhd3hjREpNLXRWR2t4T09hX0RyTWM3ak1id3RYcHFRbTg5cGVxWHByWlAyT0RaR292d0ZDOEFJZEtzUHE1R1NfMkk5QTZZR0pUMHdPeVZzcHJjM2I4dUVSY29pUm54OG1zaXhBZ0hnaVdZTkhYUDdaSUh4cUMxTDd5LWVHQm9rQUJ0cDZPb0gtd1pDRVotYXZ3U1Jm?oc=5
 
-### 3. 마이크로소프트 주식을 팔아야 할 때인가? 이 분석가가 투자자들에게 퇴출을 경고하는 이유. - 배런의
+### 3. 야구 게임은 끝났다. 미국은 중국의 AI 칩 시장에서 벗어났다 - 브루킹스
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Wed, 17 Jun 2026 20:48:50 GMT
+- 관련 티커: 종목 미검출
+- 원문 제목: Ball game’s over—the US is out of the AI chip market in China - Brookings
+- 요약: 야구 게임은 끝났다. 미국은 중국의 AI 칩 시장에서 벗어났다 브루킹스
+- 링크: https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHdoMzA3Y2hoYm1lcVQ5OUhVWHpCd1FPaFdvc3ZfSzRrajc2RzFmaVRPYnhOSWJQTFpvZFg3THVhZHRiLUt0Tm52QlhYbTFKNTVpaGlCTnVwV2pDM3htbVV4cTIzYWh1WnZNU044a1dtZmlTWkNKa0xmNmhWZkpSVjQzUzJfS01LbnZuRnhXRldKaXVfUFRqck9QZXg?oc=5
+
+### 4. 마이크로소프트 주식을 팔아야 할 때인가? 이 분석가가 투자자들에게 퇴출을 경고하는 이유. - 배런의
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 17 Jun 2026 19:16:00 GMT
@@ -274,7 +283,7 @@
 - 요약: 마이크로소프트 주식을 팔아야 할 때인가? 이 분석가가 투자자들에게 퇴출을 경고하는 이유. 배런스
 - 링크: https://news.google.com/rss/articles/CBMiekFVX3lxTFBkMkJMSHUzM0hOUmJ1X1F6RzI3eXJXOXZNU0NST0hLTU1IanpPbXFhdG9GR1ZPQWZjakppeGlWdVktdU5kWGZLc3FTaDE1NnU3OUtIQlVjSmpJUTRrdFhPV2Jsd3lOc1ZQMUZRNTlXWC1BN05lWGRMa2FB?oc=5
 
-### 4. 오늘 Meta Platform 주식이 하락하는 이유는 무엇입니까? - Investing.com
+### 5. 오늘 Meta Platform 주식이 하락하는 이유는 무엇입니까? - Investing.com
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 17 Jun 2026 18:05:44 GMT
@@ -283,7 +292,7 @@
 - 요약: 오늘 Meta Platform 주식이 하락하는 이유는 무엇입니까? Investing.com
 - 링크: https://news.google.com/rss/articles/CBMipgFBVV95cUxOT191X05CSmFoaElyMzB6YVRWR0s1bDVKYlVFazhLM2JOSkgzM2V0ZTJfQUNVYjNZcklqdDVGZy03VzlES2ppOFlsTjVQcjNuMG5QNGxmTnNoU1c0UXpVRnBQSTdLdHpkS0NnMURzS1VwWXNxWUltRnBYZXBjUDhvU0FnekVpQVJlUmNpLVczeGxRZE9kS2Z1OE5QbVBULXJlTkJlbENn?oc=5
 
-### 5. 미국 주식 이동 | 반도체 장비 부문 강세. 앰코테크놀로지(AMKR.US) 7% 이상 상승 - Moomoo
+### 6. 미국 주식 이동 | 반도체 장비 부문 강세. 앰코테크놀로지(AMKR.US) 7% 이상 상승 - Moomoo
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Wed, 17 Jun 2026 16:00:28 GMT
@@ -292,7 +301,7 @@
 - 요약: 미국 주식 이동 | 반도체 장비 부문 강세. 앰코테크놀로지(AMKR.US) 7% 이상 상승 무무
 - 링크: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeS14VndDQ2UtclhpY00tQ3ZKRHpablMzdjFfdUYzdXUwVEg2U0ljeUpuMmU5ZlRHX0EtNTlnTVA1Mjh2dDYwOFNIY1RQV0JYeV9SSENLVDhjYWVFaTA0cUxma3BkUEhYejhKR2JEVGlJSFVrZHkzQWg5ekZ5LVNNNXoxck5CMFo0VVFCZHF5RE8xN003NDd3VDlOM2hlbWFmUk9FVHZEMnE1SnRVR3U2M3c4UE4tTUpXMEpvTkx0WWc?oc=5
 
-### 6. 미국은 새로운 칩 제조 재료를 찾기 위해 Nvidia가 지원하는 SandboxAQ에 5억 달러를 지원했습니다. - Reuters
+### 7. 미국은 새로운 칩 제조 재료를 찾기 위해 Nvidia가 지원하는 SandboxAQ에 5억 달러를 지원했습니다. - Reuters
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Wed, 17 Jun 2026 11:24:11 GMT
@@ -301,7 +310,7 @@
 - 요약: 미국은 새로운 칩 제조 재료를 찾기 위해 Nvidia가 지원하는 SandboxAQ에 5억 달러를 지원했습니다. Reuters
 - 링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdk4xYlJEQzhuS1ZNa3dQRHhibDlrS3VuV0pqTEdZNGRSVE43SjdIaHBaVjZlMnEzaWY5UmhNamNkWlF3T3NoR1pPY1RFcHVzU0xUQ2I2SzhyTHJTWUZJMl9abG5KclAzd0JXRHJ2Z2laV2drcHdKbzRQNlZ6RmhESG45QzRFRUg5ekhtYjhYRVVFMzZKQldxYXozTmtBb3NDRXVlaWZNU1VEQTVITkxxcEdCd1ZIOWd4SkNVQ3YyTFdQSjA?oc=5
 
-### 7. 상원 의원이 Nvidia 주식을 최대 50만 달러에 매각했습니다: 그가 얼마나 많은 돈을 지불했는지 믿을 수 없을 것입니다 - Benzinga
+### 8. 상원 의원이 Nvidia 주식을 최대 50만 달러에 매각했습니다: 그가 얼마나 많은 돈을 지불했는지 믿을 수 없을 것입니다 - Benzinga
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 23:06:41 GMT
@@ -309,7 +318,7 @@
 - 요약: 상원 의원이 Nvidia 주식을 최대 50만 달러에 매각: 그가 얼마나 많은 금액을 지불했는지 믿을 수 없을 것입니다 Benzinga
 - 링크: https://news.google.com/rss/articles/CBMixwFBVV95cUxNSFdFQmN0cEhYeXhwNGZQN0xIZWpXRjhhTGthUGl1NWdhQTAxbG5UYXg3V2dLT0JqN0NaX0c0TktDR0hwX1pWVU1qNU5LN0tqVC1ERnEwMm9GdDdhZHMyaTAzMU5MbThwSkJudnJTaUQtZFpLSUp4cVVCQmNPb2c1OG1mb1EyVzZUYmhrS0hzc1pKNzhiNjZIcVNoVndXeHpYTHhsZXAzMVh5NmR6UUExRzM1SWxJUDdocGNlcjVqYWY4WDc3SVlJ?oc=5
 
-### 8. NVIDIA, 또 다른 주가 상승: Navitas Semiconductor, 800V AI 전력 혁명에 베팅하며 19% 급등 - 富途牛牛
+### 9. NVIDIA, 또 다른 주가 상승: Navitas Semiconductor, 800V AI 전력 혁명에 베팅하며 19% 급등 - 富途牛牛
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Wed, 03 Jun 2026 22:48:53 GMT
@@ -317,7 +326,7 @@
 - 요약: NVIDIA, 또 다른 주가 상승: Navitas Semiconductor가 19% 급등하며 800V AI 전력 혁명에 베팅 富途牛牛
 - 링크: https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHU0bEU5QXNCb1hQNUFSY204ZFNvamJWQi10c3VSSE40TmdlcEFYLXBwdVhrMUw3dXJuNjBUY21JTkVZWmRqLS1mUnNBcEdwSzBDcFZHblNNZEJGbFNfaVFSNFdwVVNENEhaZ21MTHgwYkR3aUF2OXQtRjJCd3gyYU1kVWZNNksxVW9sU1dTRmJhOHB1Q0RVb1BFemQxWmhiSG41a0tWLVpRZFpXVjln?oc=5
 
-### 9. 메타(META) 주식이 상승하는 이유는 다음과 같습니다. - Yahoo Finance
+### 10. 메타(META) 주식이 상승하는 이유는 다음과 같습니다. - Yahoo Finance
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 22:23:33 GMT
@@ -326,7 +335,7 @@
 - 요약: 메타(META) 주식이 상승하는 이유는 다음과 같습니다. Yahoo Finance
 - 링크: https://news.google.com/rss/articles/CBMilgFBVV95cUxOSjZSdEVwQ3VlcVROZEF5V1VEbFZXU0xWUG0xTEdnWk51QWJEX2ZPYjhEVVFWRHFuVlpEcUFUa0NtYWF1NHVMbWg0MFlEbFprYlJ3Qm5TTFV5bmNtbFgzUDNaVUlvaTdNVnZPVmRHcW11MTJyMWQtaEFCRzZ2ejVaZU1wV3NMci0yOUdhNzFvWFNiTkhnSGc?oc=5
 
-### 10. 브로드컴, 2분기 비AI 반도체 매출 6% 증가했다고 CEO - Moomoo
+### 11. 브로드컴, 2분기 비AI 반도체 매출 6% 증가했다고 CEO - Moomoo
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Wed, 03 Jun 2026 21:28:30 GMT
@@ -334,7 +343,7 @@
 - 요약: 브로드컴의 비AI 반도체 매출 2분기 6% 증가, CEO “무무”
 - 링크: https://news.google.com/rss/articles/CBMimgFBVV95cUxQd1YwOWlMX3dQeHBabkJoVTBjZ0pjb21iNDY2eEdTVGpZZHVqNk5uenlqZUJWQjBkWnk2TXBfZ0M4SkRvTzBtZGRxdDhXRXFFSDVuREUtRDZRNXZ4YlRJaV90WWVCelFsSnpTUTUyQXczRGRUek1xa2xwQlVxcnBFWHJuX3dlVzRHc3Z6d3RuR2lyeTFyZUp2UVBB?oc=5
 
-### 11. 새로운 AI 데이터 센터 전력 솔루션 출시 후 알파 및 오메가 반도체(AOSL) 가치 평가 - simplewall.st
+### 12. 새로운 AI 데이터 센터 전력 솔루션 출시 후 알파 및 오메가 반도체(AOSL) 가치 평가 - simplewall.st
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Wed, 03 Jun 2026 19:25:51 GMT
@@ -342,7 +351,7 @@
 - 요약: 새로운 AI 데이터 센터 전력 솔루션 출시 후 알파 및 오메가 반도체(AOSL) 가치 평가 simplewall.st
 - 링크: https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZjlzaURCQWYxUGxQZFA5cWNpUlNPOUhZcTVpWHdMSGpoM0xoY2QxQ1B4c1BHbjlQWFFjbE5aRjU3ZXNxR3JsZmlyYkxPX1lUbk1GdFhDY2dmb09fcnctM0tlMDd5bFJKZkhIVjFJOUo1WUFUSjVmZG1mbVpKRkVWT2UyWDRyNEpLanlTRGYyZlBZVkZROVU3RzRoR2djbHBMM19hQllEWWtKb3NaX2t3eVZOZ2labWFlWWdOSGt4YmZkdnRaX0lzZDFWUDl3RFhrc09hQnhnMV9vQmZWamdDNFJFUk9UeUVla0Nsa9IB8gFBVV95cUxOMVktNjdpVER2N3RfWU5kQzFVVzlqRV91cXl0T2tCVWVGWU8zWlFOWmdJa004VFhBdGk2TUQxTktrSlhybnJMbk9HdU5YSjFOa08yUVFJN2g3YWg2TjduUjdDVnZ6NERtU0FteDlhSUVKalFIRUpQQ0czTkd5Z1ZRTXNxdnNFdFRvNEc1LTlNWFpQU3NIMnZXZVByQ0h6WHR1V19rTnVXaEF5eGhxUGhjTXV4RmVsLTNJNVBCX0V6YWxyMnV5SGJ3OWtySlN6eVhFUWFxUXRKUnhZQzM4NUhmNHFiWUlRZGZTOHpFbzI3dlk1QQ?oc=5
 
-### 12. 나는 '소파 문제'로 인해 테슬라의 옵티머스가 실패할 것이라고 예측했다. 공장 노동에 초점을 맞추면 내 TSLA 주식 논제가 뒤집어집니다. - Barchart.com
+### 13. 나는 '소파 문제'로 인해 테슬라의 옵티머스가 실패할 것이라고 예측했다. 공장 노동에 초점을 맞추면 내 TSLA 주식 논제가 뒤집어집니다. - Barchart.com
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 19:24:01 GMT
@@ -350,7 +359,7 @@
 - 요약: 나는 '소파 문제'로 인해 테슬라의 옵티머스가 실패할 것이라고 예측했다. 공장 노동에 초점을 맞추면 내 TSLA 주식 논제가 뒤집어집니다. Barchart.com
 - 링크: https://news.google.com/rss/articles/CBMiigJBVV95cUxPWjhrczF4UFVwZEdHQ3RTQ0xEaDlKc2NkMTZLcElFVmJTajRMc0FsTjJROHBXM1B0d2FxcFdON3ZjTkJQR0hVdW96c3VEV2MtSWJRSmpOamR4bWdwUjBtYm84WmJTZDVyTUQ2THVGeS1XSkw3X0FiM1lSVGJ3UXUtellZLUtrV2NHcDBGZjF3WkV0VXlLNzBRM2gxV0k1RnRYa1NXc3NSbTNTM0hsb01Cd2toYl9FNHVTeVdEZDBVWElKUDdUX0FJcjJ4T2xyZm1KcmtudDZtUVFxcy1ZLUVxZWpWbldnUktCMjdEckhUclJRUFdLSTJZN2ltR1k0NGltZ3N6M3gtLV9TZw?oc=5
 
-### 13. 모건스탠리는 메타가 AI를 이길 수 있다고 말한다. 주식에는 아직 증명할 것이 있습니다. - 배런의
+### 14. 모건스탠리는 메타가 AI를 이길 수 있다고 말한다. 주식에는 아직 증명할 것이 있습니다. - 배런의
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 16:55:00 GMT
@@ -359,7 +368,7 @@
 - 요약: 모건스탠리는 메타가 AI를 이길 수 있다고 말한다. 주식에는 아직 증명할 것이 있습니다. 배런스
 - 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxOeURvNTBBMnF2ZXRTODBQTnBVMnh6TkhOakdlT3dDcGs0LWVMM0RoS3J6SWE1anUwbTU3SnFtalhNY1FWVjF3dHZhaGlpQV9NOXU5Z2M0bFljOThma3dZN05HdnNaU2tfRkM1MVU2ejNvc3RPSkduRG5xdUdtc0ZRS0kySQ?oc=5
 
-### 14. Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 - MarketWise
+### 15. Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 - MarketWise
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 16:44:12 GMT
@@ -368,7 +377,7 @@
 - 요약: Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다 MarketWise
 - 링크: https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5
 
-### 15. META 주식이 더 높아질 수 있습니까? - 트레피스
+### 16. META 주식이 더 높아질 수 있습니까? - 트레피스
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 15:02:02 GMT
@@ -377,7 +386,7 @@
 - 요약: META 주식이 더 높아질 수 있습니까? 트레피스
 - 링크: https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5
 
-### 16. 메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. 'AI 승자' 관점을 반환할 수 있는 것은 다음과 같습니다. - 투자자경제신문
+### 17. 메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. 'AI 승자' 관점을 반환할 수 있는 것은 다음과 같습니다. - 투자자경제신문
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 13:38:00 GMT
@@ -386,7 +395,7 @@
 - 요약: 메타 주식은 거대 기술 동료들보다 뒤처져 있습니다. 'AI 승자' 관점을 반환할 수 있는 것은 다음과 같습니다. 투자자 비즈니스 데일리
 - 링크: https://news.google.com/rss/articles/CBMijgFBVV95cUxPT21SY094eTVQRG5HZnFwR2xXbzBHelBmWDZ1WjNpWWJHTV84VWthNXhBelpmRVpta29ITkRxQXktZ0luOTBKN3VycnpwSTVjdGVKWjNNeW5Ld3BYSV9LMHhtaXdmSXZJYXZhSE8wTlVkSThMR3pWbGVWOHdNWDVQeVJuRk1tSUdIRlQ3WHVR?oc=5
 
-### 17. Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말했습니다. – META 주가는 시판 전 반등 - MSN
+### 18. Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말했습니다. – META 주가는 시판 전 반등 - MSN
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Wed, 03 Jun 2026 10:19:27 GMT
@@ -394,7 +403,7 @@
 - 요약: Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말합니다 – META 주식은 시판 전 반등 MSN
 - 링크: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5
 
-### 18. 젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)
+### 19. 젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)
 - 시장: 미국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 18:22:04 +0900
@@ -402,7 +411,7 @@
 - 요약: (서울=연합뉴스) 권하영 김주환 강태우 오지은 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 방한 기간 김성훈 업스테이지 대표를 비롯한 국내 ...
 - 링크: https://www.yna.co.kr/view/AKR20260602134652017
 
-### 19. [특징주] SKT, '엔비디아 파트너' 부각에 11% 급등 마감(종합)
+### 20. [특징주] SKT, '엔비디아 파트너' 부각에 11% 급등 마감(종합)
 - 시장: 미국시장
 - 출처: 연합뉴스 경제
 - 시각: Tue, 2 Jun 2026 15:46:23 +0900
@@ -410,7 +419,7 @@
 - 요약: (서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...
 - 링크: https://www.yna.co.kr/view/AKR20260602041951008
 
-### 20. 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 - Bloomberg.com
+### 21. 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 - Bloomberg.com
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Tue, 16 Jun 2026 20:25:38 GMT
@@ -419,7 +428,7 @@
 - 요약: 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 Bloomberg.com
 - 링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxQd3JrMkNDTHZBRFBIODczNDFWeFZXYmN0bVJRa1ZqQno2aTU1eGRaUTMyVFF5SWtVTFd2dEtLVGNjaUY2Z2pUY0RkYXVfaWtVR0k1SmFrcW8tbWdCRHFnWW83VGxUMXdXbVNvLUVGNkhzYm5BR3poQnpCYnZpdnpHcVBtcXZILV9mWFlnbVJFSEJ0cFFkcmdnMzJXeHkyMXlDVHlZOXFNemdDMm1xcUdxMy1OSmw?oc=5
 
-### 21. 반도체 폭락, 주가 하락 - Sherwood News
+### 22. 반도체 폭락, 주가 하락 - Sherwood News
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Tue, 16 Jun 2026 20:05:03 GMT
@@ -428,7 +437,7 @@
 - 요약: 반도체 폭락, 주가 하락 Sherwood News
 - 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE1DUEpzLTFFMTdXczZZd2Z2alk2Y2ZMZmlTVnFicVM0R0h1Nzhma1YzSG5GS1Vpb2Fadk5NQ1ZaMHJVRWxaeTBBa1JkLWRpOWNCbGFhV2I4NFRVZEdveGo2LWFMb29WWll1SnZUZ0JwWk0?oc=5
 
-### 22. 노키아, AI 성장 촉진 위해 펜실베니아에서 미국 반도체 첨단 테스트 및 패키징 대규모 확장 발표 - Nokia
+### 23. 노키아, AI 성장 촉진 위해 펜실베니아에서 미국 반도체 첨단 테스트 및 패키징 대규모 확장 발표 - Nokia
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Tue, 16 Jun 2026 18:30:00 GMT
@@ -437,7 +446,7 @@
 - 요약: Nokia는 AI 성장을 강화하기 위해 펜실베니아에서 미국 반도체 고급 테스트 및 패키징을 대대적으로 확장한다고 발표했습니다. Nokia
 - 링크: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbWs2UDR5WUotYTVENjhYdUFlOGpMZkhTV09ZM0d6bEZCc2kwOUt3YzhXeFlRcjdScThsa0VONmoxcVpHX3JsYmRmV0ZwakY2MUQxaHh0bklSZ2YySGY5MDNaLVFIOWt6NVU1NUs4dHVNcUgwVW9RanBlS1dKSEFUQU9ud2JvbEZ6bndQLVdvUU9nNF9aQjBVU0l0V1YxR3VRbkN5bDVIU1dTek5nNDRRb01WMnhTNUplTG80UWVwNDNtU1dhQlRVZkFham0zTW1hTktjVUhZX0dnQTZvQW5pemh3?oc=5
 
-### 23. [특징주] '젠슨황 효과' 급등했던 관련주 동반 약세…크래프톤은 올라(종합)
+### 24. [특징주] '젠슨황 효과' 급등했던 관련주 동반 약세…크래프톤은 올라(종합)
 - 시장: 미국시장
 - 출처: 연합뉴스 경제
 - 시각: Thu, 4 Jun 2026 15:43:20 +0900
@@ -445,7 +454,7 @@
 - 요약: (서울=연합뉴스) 김유향 기자 = 젠슨 황 엔비디아 최고경영자(CEO)의 방한 기대 효과로 최근 급등했던 관련주들이 4일 차익실현 등에 약세 마...
 - 링크: https://www.yna.co.kr/view/AKR20260604077851008
 
-### 24. 젠슨 황, 내일 전세기로 방한…나흘간 한국서 광폭 행보(종합)
+### 25. 젠슨 황, 내일 전세기로 방한…나흘간 한국서 광폭 행보(종합)
 - 시장: 미국시장
 - 출처: 연합뉴스 경제
 - 시각: Thu, 4 Jun 2026 14:41:47 +0900
@@ -453,54 +462,47 @@
 - 요약: (김포·서울=연합뉴스) 권하영 한상용 임성호 기자 = 젠슨 황 엔비디아 최고경영자(CEO)가 5일 오후 한국에 입국해 나흘간 한국 AI 생태계를...
 - 링크: https://www.yna.co.kr/view/AKR20260603053851017
 
-### 25. 반도체 및 AI 관련 주식의 기초 강세를 평가합니다. - 무무
+### 26. 미국 주식 마감: 나스닥 1.91% 상승, 필라델피아 반도체 지수 6% 이상 상승해 사상 최고 기록, SpaceX 랠리 늦게 장중 손실 소거 - TradingKey
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
-- 시각: Thu, 04 Jun 2026 23:39:08 GMT
+- 시각: Thu, 18 Jun 2026 20:20:28 GMT
 - 관련 티커: 종목 미검출
-- 원문 제목: Assess the underlying strength of semiconductor and AI-related stocks. - Moomoo
-- 요약: 반도체 및 AI 관련 주식의 기초 강세를 평가합니다. 무무
-- 링크: https://news.google.com/rss/articles/CBMisAFBVV95cUxORmdaR29vNmZhejZlaFplVC1oYjJwMGtJTThmbWtZaTFyVzVfMVBPMnd5TGZmTTNrV2pZdW5kY3VheVMzNHhoWTZpWnNyUDc5TmFjRWZFZGJrdU10ZHltaGx1NWRmZGtJeXdsZTBScjhWTXFOS3praTFxTmx2NnNjS2VraFh6ZTdoMnBfVEwtd1gxTDdyUVBFYWstWEFkeG8xbWJINE1pMzQ0dWhRYmJzcA?oc=5
+- 원문 제목: US Stocks Close: Nasdaq Rises 1.91%, Philadelphia Semiconductor Index Rises Over 6% to Record High, SpaceX Rallies Late to Erase Intraday Losses - TradingKey
+- 요약: 미국 주식 마감: 나스닥 1.91% 상승, 필라델피아 반도체 지수 6% 이상 상승해 사상 최고치 기록, SpaceX가 장중 손실을 소거하기 위해 늦게 반등 TradingKey
+- 링크: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU1E2V1dzVmNiU1ZPMFAxUE40THVXY2U2S1lDenk0UEJ3UTVsMVdiOUFCVkhfVmtuT3BneXViNmJqLUhrZzU3V3VMUmxkNEhaTmh3SFY2LUtuLUdDUFlOZFBTZWdlR1A5WFZsb25PcHFjTkFsb2I4amQwOHctcjJhOHlacmQtcm9DQmI1Vm9Qd0dXUkhkYzdRUFVyYU93TmhrUXU1bjhldG9ZUm02aEoyX3pJTHJqOXVpc1Y3SklNQlk1NnpVRVg1RnB5YnVfUjFkVV9rRHpkOFcwQ1BqUHFUeXY2NUM?oc=5
 
-### 26. 반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 - 연합인포맥스
-- 시장: 미국시장
-- 출처: Google News 국내 증시·반도체
-- 시각: Thu, 04 Jun 2026 23:23:37 GMT
-- 관련 티커: SOXX
-- 요약: 반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 &nbsp;&nbsp; 연합인포맥스
-- 링크: https://news.google.com/rss/articles/CBMicEFVX3lxTE9nN1phRHR3QkwwWTl0a3F3Z2ljQUJEWk5XM3Vkb2Y0LXY4Yy1scE83ajZPRmpzVjRNbUJmMm8xYUNkRkQ2XzB6YnRoY25id3NTTjZaeFMwcjVJWUVMQjVUeWFEOGJfUWdkc1cxSnhLZ0I?oc=5
-
-### 27. Warren이 Huang에게 중국 칩 판매에 대한 증언을 요청한 것으로 알려지면서 NVDA 주식은 영업 시간 이후 하락했습니다 - Stocktwits
+### 27. 칩 제조업체가 미국 이외의 지역에서 성장을 기대하면서 Nvidia 주가 상승 - Barron's
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
-- 시각: Thu, 04 Jun 2026 23:06:15 GMT
+- 시각: Thu, 18 Jun 2026 18:04:00 GMT
 - 관련 티커: NVDA
-- 원문 제목: NVDA Stock Slips After Hours As Warren Reportedly Calls Huang To Testify On China Chip Sales - Stocktwits
-- 요약: Warren이 Huang에게 전화하여 중국 칩 판매에 대해 증언하자 NVDA 주가는 영업 시간 이후 하락했습니다 Stocktwits
-- 링크: https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkVfWGo3QkU2eElrdmlnLVNnczVWNDhzNVFDTG01ZmdEWW5PMWpaWFFDVUt4ZGZ5NDFxQkVFOXZjY2NlOWRzQm81ZVZkalJjZFNYS3ZKcTdtWlpKeTBtakR2QmRzQVI2V0ZUS1FvUHFscUItbi11ZU5MRGI0Y2xXbUdsa2NITm5DTXkteGl1eHF3R21Nby1zbnNfMDhrMlNVZ3ZsNWwwOXpZdzhFMDc2enRFMm02dGxHZ0dKNU5EUjRJZTFXWl9wUlRpblhXZGN6R1cydFZkN2ZaVXhWZ2dlUmtVVW15MDVPTEdwbw?oc=5
+- 원문 제목: Nvidia Stock Gains as the Chip Maker Looks to Growth Outside the U.S. - Barron's
+- 요약: 칩 제조업체가 미국 외 지역에서 성장을 기대하면서 Nvidia 주가 상승 Barron's
+- 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxQZjZLUTVQd1QtY2RQaFVYTzBIMWZBRjJiM3B1WDZPZjBFNUVMVDYzOEMtTjh3NVg1UGp5SVJ1OFo4emtTMmJiRjRDN3hDM1M0SmpEbms2UUg4VV9HcDVjRnFsVVhJdk1ESDhHTkpiY1J6MnF3c2NmMkphaWJkMFZOc0hXZw?oc=5
 
-### 28. "반도체 랠리 피로감"…브로드컴 12%↓·마이크론 7%↓ - v.daum.net
-- 시장: 미국시장
-- 출처: Google News 국내 증시·반도체
-- 시각: Thu, 04 Jun 2026 22:48:04 GMT
-- 관련 티커: MU
-- 요약: "반도체 랠리 피로감"…브로드컴 12%↓·마이크론 7%↓ &nbsp;&nbsp; v.daum.net
-- 링크: https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WRE9MUk5TYkdzQnNFM0lSOEppUTlRejdsUTJ1QnIxZmVJWTRmV09QVXdhM21XSFdPLVVybVp5LWo2c3hucjNoUWdWTktiMnc?oc=5
-
-### 29. 유가가 완화되고 미국 주식이 AI 랠리를 벗어나면서 다우지수는 사상 최고치로 도약했습니다. - BNN Bloomberg
+### 28. Power Integrations, Lattice Semiconductor 및 온세미 주식 트레이드업, 알아야 할 사항 - TradingView
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
-- 시각: Thu, 04 Jun 2026 20:24:50 GMT
+- 시각: Thu, 18 Jun 2026 17:10:43 GMT
 - 관련 티커: 종목 미검출
-- 원문 제목: The Dow leaps to a record as oil prices ease and U.S. stocks outside of AI rally - BNN Bloomberg
-- 요약: 유가가 완화되고 미국 주식이 AI 랠리를 벗어나면서 다우지수는 사상 최고치로 뛰어올랐습니다. BNN Bloomberg
-- 링크: https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVZwNzZPblIxNWZKZWo2NVRYblBnWVZHazRpQ1M3NWZRdW9KTUo5aDBtaWRKMF9DZ1hLSmV4SDBWS25YMFJnSmNjWTRvQmRrVlRoRW9zUllZTDAtb2w3VFBFWHVXSTlmejZ5blYzemVCUy05T2NLTFU1cTJuRDNqRURLcEE4VHVaeTJvMThkaDVCWDYySWJJSUZWMmRCRE1oV25McURwZ1lURFJRdVQ2V0drS1FEYjVDV3BLbA?oc=5
+- 원문 제목: Power Integrations, Lattice Semiconductor, and onsemi Stocks Trade Up, What You Need To Know - TradingView
+- 요약: Power Integrations, Lattice Semiconductor 및 온세미 주식 트레이드업, 알아야 할 사항 TradingView
+- 링크: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS29veGtEcHhwQjVmQTlVVjRMbG5rNHZGQXVBc01sbFNyUWc2Z3ZBUU5OTU9Mb0taa3J1V0E5NXY2dUZfUExkWjJjczNwampIeHh2dGt6NEJJUjJfY0JORFhKZmswbVItTGJFWVBvODVfZ1pYcHhYZG1MT2ZjT1BnR0cyQWE3VXNleFZGTUhIaXk2TEZpN0JRZF8xMlpqQkZoWVkxM3hYWTFsOVgwaFN6dEhvUEEzdlVhXzQ3YWJpYnlpNVdsOUdjallaVWFZS2JyUzNHS1V1MG1YUFRydmRaZkU2NFk?oc=5
 
-### 30. Broadcom은 매출 전망이 실망스러워서 2,850억 달러의 손실을 입었습니다 - Financial Times
+### 29. AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식 - Yahoo Finance
+- 시장: 미국시장
+- 출처: Google News Magnificent 7
+- 시각: Thu, 18 Jun 2026 16:20:57 GMT
+- 관련 티커: META
+- 원문 제목: Meta Platforms (META) Stock After AI Investment Surge And Recent Pullback - Yahoo Finance
+- 요약: AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식 야후 파이낸스
+- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmFhNUpWeUZSLWNGVzl1UTk0LXI1YUVVeFhsQXNwSmFKRjBfb0xNeG5pcGtISlpnaGppSHNDcVBKLXhwM2pnX1M5TGhKRVJCLVlCblgzLUFlRFg5aDUxbUQzV0RIV0hzUWhTUHJYQ0lrM24yVVNYYkZfNndPSUozZENHanZFUDMtcUZ4MmxxMmpod1FrcXJzYQ?oc=5
+
+### 30. 반도체 기업 급등에 엔비디아 주도로 미국 증시 상승 - The Edge Singapore
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
-- 시각: Thu, 04 Jun 2026 20:16:20 GMT
-- 관련 티커: AVGO
-- 원문 제목: Broadcom suffers $285bn rout as revenue outlook disappoints - Financial Times
-- 요약: Broadcom은 수익 전망이 실망스러워서 2,850억 달러의 손실을 입었습니다 Financial Times
-- 링크: https://news.google.com/rss/articles/CBMihAFBVV95cUxNWDlQSU5BSkJEVXhLWmJNNXpaVkR1S2FnN1BEaV9nUk9IQ05QQlNNVTRqbXdyNl9mbkt0anRyYUhoeGd5d0lWYnFQVl85ZUtGZzJjU3lNQ2Vnb0JjYkVpVE8wRWMwRW1sNkJLanMxSTVoX2dWa0dmb3BndEhoSnhYendDdzY?oc=5
+- 시각: Thu, 18 Jun 2026 16:13:38 GMT
+- 관련 티커: NVDA
+- 원문 제목: US stocks rise with Nvidia leading as semiconductor companies surge - The Edge Singapore
+- 요약: 반도체 기업 급등에 엔비디아 선두로 미국 증시 상승 The Edge Singapore
+- 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbndURnlsTXdLUUJvNjJFMXQ5bWRUeWJKSjh5N1U5ZFVoUlh6a2hWZl9ZZGxmdVlPYnI1bmk5S1gzWlR1V2otenhTcFhEbjdlQzd0NTN1Umk2T1ctS0JLSWtVNTFnTzVMaXFnZ0F6TkI3Z25WRW1fVmFwVENkWjIteVRSQ2lGMEZYTy1IYk53VHZ4VTZ5cXJKRzJnRGNhNlpBU0xmSFZZNEFpZDjSAbABQVVfeXFMTlp1eGEwUEVWVmY4aXBTSjVROVlVdWU2VjE3cEdZMjNzamt0b3RmaTdiR0hKaTZtRGo3SXppdkRTUFpBUXFHdkVpNmNWZXdFc2lvcXZPeTdEWkpvNVBBblV2cDRUZ2o3cG43Rm9lV1Z1cmtSQUllVmZWa2xfUjk1eUNOTGZRRVF5MFotczgxY1JROUQ0a2dKZml0TWpTbGVCb21pN0RnOGxJRjNSVURhYmk?oc=5
