@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-18T12:01)
+# 주식 뉴스 인제스트 (2026-06-18T13:00)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -410,13 +410,13 @@
 - 요약: (서울=연합뉴스) 김유아 기자 = SK텔레콤[017670]이 엔비디아의 피지컬AI 주요 파트너 중 하나로 또다시 언급되며 2일 11%대 급등 마...
 - 링크: https://www.yna.co.kr/view/AKR20260602041951008
 
-### 20. 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 - Bloomberg
+### 20. 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 - Bloomberg.com
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Tue, 16 Jun 2026 20:25:38 GMT
 - 관련 티커: 종목 미검출
-- 원문 제목: US Futures Waver as Oil Drops on Iran Hope; SpaceX Extends Gains - Bloomberg
-- 요약: 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 Bloomberg
+- 원문 제목: US Futures Waver as Oil Drops on Iran Hope; SpaceX Extends Gains - Bloomberg.com
+- 요약: 이란 희망에 석유가 떨어지면서 미국 선물이 흔들립니다. SpaceX, 이익 확대 Bloomberg.com
 - 링크: https://news.google.com/rss/articles/CBMitAFBVV95cUxQd3JrMkNDTHZBRFBIODczNDFWeFZXYmN0bVJRa1ZqQno2aTU1eGRaUTMyVFF5SWtVTFd2dEtLVGNjaUY2Z2pUY0RkYXVfaWtVR0k1SmFrcW8tbWdCRHFnWW83VGxUMXdXbVNvLUVGNkhzYm5BR3poQnpCYnZpdnpHcVBtcXZILV9mWFlnbVJFSEJ0cFFkcmdnMzJXeHkyMXlDVHlZOXFNemdDMm1xcUdxMy1OSmw?oc=5
 
 ### 21. 반도체 폭락, 주가 하락 - Sherwood News
