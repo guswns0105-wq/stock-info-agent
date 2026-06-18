@@ -253,6 +253,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "NVIDIA Corporation(NVDA)은 자율 기능에서 Vera CPU가 최고이기 때문에 구매할 수 있는 저렴한 로봇공학 주식입니다 - Insider Monkey",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVjlid2l6dnpsdGtpdFd0WFFaWGNBSHVPYUQybF9sNGxvRE9HV3loaUZXODBwaEhua18zT3ZJWHNqaDJRMjRzYkFYS0lnbVFhaFVlcG0yWVhXcTFZbzVra3dVdmJ1QXJ6TFNLdzJoU0V1cWhabDdPQVpXcHh2N2ZRbG9wOFVSRkwzMXdHcHdHN0xRYzZDTmtJVEN4blZoSmdKbnRuRUNsdWZWN2ZDb0NwektxOGtNZ180TlFpUTN4VVliWWtQNi1aWmx1bU5mNjNRUUxuWk93WVdOWEdHdUHSAeYBQVVfeXFMTTk3V1VIYkFnVWJ4ajIzUTdFNGxfVTlFM0VBNUJYQ1RoTm96UlREU0xHVEd5NExMeEFuZ0VyTDhhYmMwcEJ1akZMX0VnNDV3bFp5YVVyQTJPOGwyR1ZUdG1VS2dQYzZLUHZjem1HdW9xVTVaeWVUYTJ3UUdnSzRGc3JBRk9XOHdyTWFBZWZoX0UzbHdZMjN6WU5RUTk3Q0ZwLXF1TG1qelNhOGtxV0FRZ0ZkMFU2UV8xN0traTdSMlhSbDJmRzRPVWdyRm10N1ZreDJpeVcteF9ySE1PaHBjSjZVN1J4VFE?oc=5",
+        "published_at": "Mon, 08 Jun 2026 12:04:58 GMT",
+        "reason": "NVIDIA Corporation(NVDA)은 자율 기능에서 Vera CPU가 최고이기 때문에 구매할 수 있는 저렴한 로봇공학 주식입니다.    Insider Monkey",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
         "title": "엔비디아와 SK하이닉스, AI 칩 파트너십 확대 - Gasworld",
@@ -279,10 +291,10 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
-        "title": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까? - 스톡트윗",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUxqM2ROZkpHRU9pdnppek5HcUM2QVZkT0ZDclRZRVR6OXhlX2FQYWh2WGJNNEp1ai1SNFdzZGh5aWtYS1p5UEh5ZDZ3dEV0NTMzWGptQ2cxVVF3RzBoUXB2WDhOUHU4bXh0UXNUaGlENEFIOVJlSzJDWWVRTkZqaXY0R2MwSlJzblhwUThWbksyc0JsMFQ1SWtEanYybFh4cExF?oc=5",
-        "published_at": "Mon, 08 Jun 2026 09:11:35 GMT",
-        "reason": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까?    스톡트윗",
+        "title": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까? - 야후 파이낸스",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGNUN2pnT0Y4OURwSlFkMDdBSUdlQ3loSkxLWnpBdXpYZWVfQ1JlUEhSZ1h5cGc5cFIwcS1zRzRWelJlSkR6SkxZOTV3aUkwUktsX001RXJOSHZlTFlaLWJlS2djYjVNV1psZkJQX2U5WDlsQ0FQNXZtSklQOGhMLWNyZ0plV0UwUXhjZGN3LU1NZENBcWVVdGVqeC0?oc=5",
+        "published_at": "Mon, 08 Jun 2026 09:06:23 GMT",
+        "reason": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까?    야후 파이낸스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -291,10 +303,10 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
-        "title": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까? - 야후 파이낸스",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGNUN2pnT0Y4OURwSlFkMDdBSUdlQ3loSkxLWnpBdXpYZWVfQ1JlUEhSZ1h5cGc5cFIwcS1zRzRWelJlSkR6SkxZOTV3aUkwUktsX001RXJOSHZlTFlaLWJlS2djYjVNV1psZkJQX2U5WDlsQ0FQNXZtSklQOGhMLWNyZ0plV0UwUXhjZGN3LU1NZENBcWVVdGVqeC0?oc=5",
-        "published_at": "Mon, 08 Jun 2026 09:06:23 GMT",
-        "reason": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까?    야후 파이낸스",
+        "title": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까? - 스톡트윗",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUxqM2ROZkpHRU9pdnppek5HcUM2QVZkT0ZDclRZRVR6OXhlX2FQYWh2WGJNNEp1ai1SNFdzZGh5aWtYS1p5UEh5ZDZ3dEV0NTMzWGptQ2cxVVF3RzBoUXB2WDhOUHU4bXh0UXNUaGlENEFIOVJlSzJDWWVRTkZqaXY0R2MwSlJzblhwUThWbksyc0JsMFQ1SWtEanYybFh4cExF?oc=5",
+        "published_at": "Mon, 08 Jun 2026 09:06:00 GMT",
+        "reason": "프리마켓에서 NVDA 주식이 상승하는 이유는 무엇입니까?    스톡트윗",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -6112,6 +6124,18 @@
       {
         "source": "Yahoo Finance Top Stories",
         "source_role": "뉴스",
+        "title": "HSBC, AI ASIC 성장 전망에 따라 Broadcom(AVGO) 가격 목표 상향",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/hsbc-raises-broadcom-avgo-price-124943102.html",
+        "published_at": "2026-06-08T12:49:43Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
         "title": "2x Micron ETF(MUU)는 Broadcom이 실패하고 금리가 급등한 하루 만에 26.65% 하락했습니다.",
         "url": "https://finance.yahoo.com/markets/stocks/articles/2x-micron-etf-muu-shed-103012331.html",
         "published_at": "2026-06-08T10:30:12Z",
@@ -6308,6 +6332,180 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "INTC",
+    "name": "Intel",
+    "sources": [
+      "Google News US Markets AI Semis",
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식",
+      "T3chfeed - 테크피드 미국 주식 인사이트"
+    ],
+    "source_count": 4,
+    "evidence": [
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5",
+        "published_at": "Mon, 01 Jun 2026 08:22:00 GMT",
+        "reason": "예측: 인텔 다음으로 이 인공지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다    The Motley Fool",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
+        "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
+        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRW1mMlJoM1FMOV9sZG0zcUZOVktvcC1nNjJfb3NMNU00VW9SOVpDUHVtejhkR0s0UHFyR185N1ZnYlVrYzRrSmtsYzc2LS14M1BIVFFIN2YyTnRRd0dFV1kzQTZlc0pNM05KYlo4Vk44UW1pQ3ktTVJrMl9JN00wWGYyejZ5MUVjNE1uLUttcGVfU3Q3Y1pqMml5cElINE1SNHJ1NXUyUi1CaURfbk9VM1ZVVlF4di1reExJMl83RlE2MmJqWXF3VlNQTQ?oc=5",
+        "published_at": "Fri, 05 Jun 2026 13:51:50 GMT",
+        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "기계 구동에서 지능 강화까지 - 전기의 새로운 시대",
+        "url": "https://finance.yahoo.com/sectors/energy/articles/powering-machines-powering-intelligence-age-125423658.html",
+        "published_at": "2026-06-08T12:54:23Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Intel(INTC)과 Hitachi가 협력하여 산업 전반에 걸쳐 물리적 AI를 가속화합니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/intel-intc-hitachi-team-accelerate-125046796.html",
+        "published_at": "2026-06-08T12:50:46Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Wells Fargo, Intel(INTC) 주식에 대한 PT 인상",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-pt-intel-172508626.html",
+        "published_at": "2026-06-06T17:25:08Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "인텔 주식은 기록적인 반등 이후 이번 주에 큰 타격을 입었습니다. 다음 주에 얼마나 많은 거래자들이 움직일 것으로 보는지는 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-took-hit-week-174628311.html",
+        "published_at": "2026-06-05T17:46:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
+        "url": "https://youtu.be/A45bkodmBEQ",
+        "published_at": "",
+        "reason": "현재 미국뿐만 아니라 전 세계의 국방은 단연 AI 판이 새로 짜여지고 있고 2차 대전 때 맨헤튼 프로젝트와 같이 AI 국방연구 개발은 국가의 존폐 이기가 달려 있는만큼 가장 최우선 과제가 되므로 가장 많은 예산이 정되 될 분야라고 저는 확신합니다 2023년 기준의 미국방부 예산은 8130 달러로 책정되어 있고 이중 연구 개발에 대한 예산은 1300억 달러 정도로 책정되어 있는데 쉽지만 정확히 AI 얼마가 할당되어 있는지는 공개되어 있지 않습니다 하지만이는 상당한 것으로 예측되며 세계 무대가 AI 중심으로 흘러가게 되는만큼 이에 대한 예산 비중은 앞으로도 계속해서 커질 가능성이 높습니다 즉 파란 티어가 먹을 수 있는 파이가 계속 늘어나고 있는이 트렌드에 우리 투자자들은 편승했다 봐도 무방한 것이라고 생각합니다",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Intel, AMD, Micron은 Broadcom의 결과로 반도체 부문 매각이 촉발된 후 손실을 줄였습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
+        "published_at": "2026-06-04T13:01:28Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
+        "url": "https://youtu.be/bkuop8jLgOc",
+        "published_at": "2026-05-29T06:37:35+00:00",
+        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "035720",
     "name": "카카오",
@@ -6471,156 +6669,6 @@
   },
   {
     "region": "global",
-    "ticker": "INTC",
-    "name": "Intel",
-    "sources": [
-      "Google News US Markets AI Semis",
-      "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트"
-    ],
-    "source_count": 4,
-    "evidence": [
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "예측: 인텔 다음으로 이 인공 지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다 - The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQnpDQlVudkd6czZfRjVaVVdaRDBURURtNzNKdG5UcGllcUNIX2pxV2lUWFAwajVYQzFmb05HVWFCVWR6MGtzRTFnYVEzN2pYZjAyOTFHMUtiR1g3THVJUTZ6T1p3UWxGREdLMFNjWjJ1UW5pNDJDWjA4by1nV1cxMmE1YkV1bWpPb2tGdDE1ZE9MdFoyT2Mwbg?oc=5",
-        "published_at": "Mon, 01 Jun 2026 08:22:00 GMT",
-        "reason": "예측: 인텔 다음으로 이 인공지능(AI) 반도체 주식이 트럼프 행정부의 투자를 확보할 수 있을 것입니다    The Motley Fool",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWUhkQk1yUGZfUEVmc3Nwd19EY2pZRjl3TnJwVTJhUjgzdGtjcDlaMWVfVkxERTY5TFBBcVNEUUFxeDR1ZG9OdVFPc0xBVUxUbnpHd2JkRHNGenkwX2lrNzg4blctelk2akF1aDYzNTE0NzVhVU5nTEZVUEQ0NjBmUDM0LXZzSWdjRXRNbzF3YmoxRVRoUjdmNkhONTNZZFh3eV9pMTZsOEx4TENrV3dDQmgyMThNVS1BZDZsd01IX3lVcjFQeGVEOWJKLU8?oc=5",
-        "published_at": "Fri, 05 Jun 2026 13:55:56 GMT",
-        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 ❗인텔 6% 하락 - XTB.com",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRW1mMlJoM1FMOV9sZG0zcUZOVktvcC1nNjJfb3NMNU00VW9SOVpDUHVtejhkR0s0UHFyR185N1ZnYlVrYzRrSmtsYzc2LS14M1BIVFFIN2YyTnRRd0dFV1kzQTZlc0pNM05KYlo4Vk44UW1pQ3ktTVJrMl9JN00wWGYyejZ5MUVjNE1uLUttcGVfU3Q3Y1pqMml5cElINE1SNHJ1NXUyUi1CaURfbk9VM1ZVVlF4di1reExJMl83RlE2MmJqWXF3VlNQTQ?oc=5",
-        "published_at": "Fri, 05 Jun 2026 13:51:50 GMT",
-        "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Wells Fargo, Intel(INTC) 주식에 대한 PT 인상",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/wells-fargo-raises-pt-intel-172508626.html",
-        "published_at": "2026-06-06T17:25:08Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "인텔 주식은 기록적인 반등 이후 이번 주에 큰 타격을 입었습니다. 다음 주에 얼마나 많은 거래자들이 움직일 것으로 보는지는 다음과 같습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-took-hit-week-174628311.html",
-        "published_at": "2026-06-05T17:46:28Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "AI 국방의 시대, 팔란티어가 가장 큰 수혜자  #미국주식 #목표주가 #팔란티어 #장기투자",
-        "url": "https://youtu.be/A45bkodmBEQ",
-        "published_at": "",
-        "reason": "현재 미국뿐만 아니라 전 세계의 국방은 단연 AI 판이 새로 짜여지고 있고 2차 대전 때 맨헤튼 프로젝트와 같이 AI 국방연구 개발은 국가의 존폐 이기가 달려 있는만큼 가장 최우선 과제가 되므로 가장 많은 예산이 정되 될 분야라고 저는 확신합니다 2023년 기준의 미국방부 예산은 8130 달러로 책정되어 있고 이중 연구 개발에 대한 예산은 1300억 달러 정도로 책정되어 있는데 쉽지만 정확히 AI 얼마가 할당되어 있는지는 공개되어 있지 않습니다 하지만이는 상당한 것으로 예측되며 세계 무대가 AI 중심으로 흘러가게 되는만큼 이에 대한 예산 비중은 앞으로도 계속해서 커질 가능성이 높습니다 즉 파란 티어가 먹을 수 있는 파이가 계속 늘어나고 있는이 트렌드에 우리 투자자들은 편승했다 봐도 무방한 것이라고 생각합니다",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Intel, AMD, Micron은 Broadcom의 결과로 반도체 부문 매각이 촉발된 후 손실을 줄였습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/article/intel-amd-micron-shares-trim-losses-after-broadcom-results-spark-semiconductor-sector-sell-off-130128361.html",
-        "published_at": "2026-06-04T13:01:28Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "”팔란티어는 다르다?“ 팔란티어 컨설턴트에게 직접 들어보는 이야기",
-        "url": "https://youtu.be/bkuop8jLgOc",
-        "published_at": "2026-05-29T06:37:35+00:00",
-        "reason": "[music] >> Welcome to the Tech Feed podcast. So, today we have a very special guest with us, Uria Jacobs. He's the co-founder and CEO of Venator, a specialist firm focused on Palantir Foundry and AIP. Uria has spent more than two decades building enterprise technology businesses across Salesforce, ServiceNow, and now the Palantir ecosystem. So, the reason why I wanted to speak with him today is simple. A lot of investors are now asking whether companies like Anthropic or OpenAI could eventually replace Palantir, the AI SaaS apocalypse. So, I thought he would be one of the best people to shed some light on this topic. Uria, thank you so much for joining. >> Thanks for having me. I really appr",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "ARM",
     "name": "Arm",
     "sources": [
@@ -6776,6 +6824,18 @@
         "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQTHV2T1dUNXlIdXk2X3l3LWhlb3BwTVFndF9NaVhnXzlnbWVDOXd4RVFBNHZNUW9tVG5Wakk3ekFKdHZreDQ2ZDVBa25GX05WUUJCR0FmQk5hNHFwTWxqblZLWVVhdHFPenluWXQySUl3d1FNUWxTM2lERnhKTXRVeHR3Q0ZHYXRsYXd3dExhX2FiZ3NuT2ItN0ZuN2dBRUhzdW5MR01jdnR3RXlwY3lDQjdDdEhHek1YMm0ySmswTG53Qnh3MGRvUmpXcEwwR3FsQ3pDOHZNVUI1enVJSE5qSi1rM1ppQTVyTVNacEFGd3FxQXN6bUVTTk42MlRTblpjNkpabEZCNlgxR2VyMm85Uzc1dDN0MHpIYnc?oc=5",
         "published_at": "Mon, 08 Jun 2026 11:33:17 GMT",
         "reason": "최고 분석가는 WWDC를 앞두고 AAPL 주식의 30% 상승 여력을 확인했습니다. John Ternus처럼 '런닝머신 접근 방식'은 예상되지 않습니다.    Benzinga",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Apple(AAPL)은 App Store 성장이 둔화되면서 단기적인 압박에 직면해 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-near-term-124948028.html",
+        "published_at": "2026-06-08T12:49:48Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -7992,6 +8052,82 @@
   },
   {
     "region": "global",
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "sources": [
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오라클(ORCL), AI 클라우드 인프라 성장에 대한 낙관적인 장기적 전망 제시",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-orcl-draws-bullish-long-125024986.html",
+        "published_at": "2026-06-08T12:50:24Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
+        "published_at": "2026-06-05T17:41:45Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
     "ticker": "AMZN",
     "name": "Amazon",
     "sources": [
@@ -8123,70 +8259,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "ORCL",
-    "name": "Oracle",
-    "sources": [
-      "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "오늘 Oracle 주식이 하락한 이유는 무엇입니까?",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-oracle-stock-drop-174145020.html",
-        "published_at": "2026-06-05T17:41:45Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
       }
     ],
     "stance": "복수 출처 추천/관심",

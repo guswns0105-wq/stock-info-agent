@@ -1,24 +1,5 @@
 [
   {
-    "source": "경제사냥꾼",
-    "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_id": "MZC69cRPFEU",
-    "youtube_kind": "short",
-    "source_type": "youtube_short",
-    "source_role": "",
-    "source_note": "",
-    "region": "domestic",
-    "title": "코스피 하락 속, 오늘 꼭 봐야 하는 미국 뉴스 3가지",
-    "summary": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-    "url": "https://youtu.be/MZC69cRPFEU",
-    "published_at": "",
-    "text": "",
-    "transcript_method": "none",
-    "transcript_status": "youtube_transcript_api: unsupported operand type(s) for |: 'type' and 'type'; yt-dlp: ERROR: Unable to download video subtitles for 'ko-orig': HTTP Error 429: Too Many Requests\n",
-    "transcript_chars": 0,
-    "extraction_quality": "caption_failed"
-  },
-  {
     "source": "메르의 블로그",
     "source_type": "naver_blog_feed",
     "source_role": "macro_context",
@@ -142,6 +123,16 @@
     "source": "연합뉴스 경제",
     "source_type": "rss",
     "region": "domestic",
+    "title": "김태원 아워홈 대표 \"용인공장 근로자 끼임 사고 사죄\"",
+    "summary": "(서울=연합뉴스) 김세린 기자 = 김태원 아워홈 대표이사는 8일 경기 용인공장에서 작업 중이던 근로자가 사고를 당한 것과 관련해 사과문을 발표했...",
+    "url": "https://www.yna.co.kr/view/AKR20260608177600030",
+    "published_at": "Mon, 8 Jun 2026 21:11:23 +0900",
+    "text": "김태원 아워홈 대표 \"용인공장 근로자 끼임 사고 사죄\" (서울=연합뉴스) 김세린 기자 = 김태원 아워홈 대표이사는 8일 경기 용인공장에서 작업 중이던 근로자가 사고를 당한 것과 관련해 사과문을 발표했..."
+  },
+  {
+    "source": "연합뉴스 경제",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "美 금리인상 가능성에 국고채 일제히↑…3년물 낙찰금리 4%(종합3보)",
     "summary": "(서울·세종=연합뉴스) 김태종 김수현 기자 = 미국의 기준금리 인상 가능성 등으로 8일 국고채 금리가 일제히 상승 마감했다.",
     "url": "https://www.yna.co.kr/view/AKR20260608152352008",
@@ -179,64 +170,54 @@
     "text": "세미티에스 코스닥 합병상장…오는 10일 거래개시 (서울=연합뉴스) 김유향 기자 = 한국거래소는 세미티에스의 합병상장을 승인했다고 8일 밝혔다."
   },
   {
-    "source": "연합뉴스 경제",
+    "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
-    "region": "domestic",
-    "title": "투기거래 정조준한 외환당국…1,600원 향하던 환율 급제동",
-    "summary": "(서울=연합뉴스) 임지우 이도흔 기자 = 외환당국이 1,600원을 향해 가파르게 치솟는 환율을 진정시키기 위해 특단의 대책을 총동원하는 분위기다...",
-    "url": "https://www.yna.co.kr/view/AKR20260608155900002",
-    "published_at": "Mon, 8 Jun 2026 18:17:03 +0900",
-    "text": "투기거래 정조준한 외환당국…1,600원 향하던 환율 급제동 (서울=연합뉴스) 임지우 이도흔 기자 = 외환당국이 1,600원을 향해 가파르게 치솟는 환율을 진정시키기 위해 특단의 대책을 총동원하는 분위기다..."
+    "region": "global",
+    "title": "From Powering Machines to Powering Intelligence—The New Age of Electricity",
+    "summary": "",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/powering-machines-powering-intelligence-age-125423658.html",
+    "published_at": "2026-06-08T12:54:23Z",
+    "text": "From Powering Machines to Powering Intelligence—The New Age of Electricity "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Franklin’s Western Asset Management settles SEC case for $100m",
+    "title": "Cerebras shares climb as Wall Street brokerages back AI chip strategy",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/franklin-western-asset-management-settles-115913679.html",
-    "published_at": "2026-06-08T11:59:13Z",
-    "text": "Franklin’s Western Asset Management settles SEC case for $100m "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cerebras-shares-climb-wall-street-125242243.html",
+    "published_at": "2026-06-08T12:52:42Z",
+    "text": "Cerebras shares climb as Wall Street brokerages back AI chip strategy "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Silver prices today, Monday, June 8, 2026: Much lower to start the week following Israel, Iran missile strikes",
+    "title": "Intel (INTC) and Hitachi Team Up to Accelerate Physical AI Across Industries",
     "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-prices-today-monday-june-8-2026-much-lower-to-start-the-week-following-israel-iran-missile-strikes-112853793.html",
-    "published_at": "2026-06-08T11:28:53Z",
-    "text": "Silver prices today, Monday, June 8, 2026: Much lower to start the week following Israel, Iran missile strikes "
+    "url": "https://finance.yahoo.com/sectors/technology/articles/intel-intc-hitachi-team-accelerate-125046796.html",
+    "published_at": "2026-06-08T12:50:46Z",
+    "text": "Intel (INTC) and Hitachi Team Up to Accelerate Physical AI Across Industries "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes",
+    "title": "Stifel Raises Marvell (MRVL) Price Target on AI Data Center Opportunity",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-futures-mixed-as-oil-rises-after-iran-and-israel-exchange-strikes-085310526.html",
-    "published_at": "2026-06-08T08:53:10Z",
-    "text": "Stock market today: Dow, S&P 500, Nasdaq futures mixed as oil rises after Iran and Israel exchange strikes "
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stifel-raises-marvell-mrvl-price-125036186.html",
+    "published_at": "2026-06-08T12:50:36Z",
+    "text": "Stifel Raises Marvell (MRVL) Price Target on AI Data Center Opportunity "
   },
   {
     "source": "Yahoo Finance Top Stories",
     "source_type": "rss",
     "region": "global",
-    "title": "Spacecraft developer Quantum Space to go public in $1.2 billion SPAC deal",
+    "title": "Daily Spotlight: Equities Lead Asset-Class Returns",
     "summary": "",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/spacecraft-developer-quantum-space-public-111346808.html",
-    "published_at": "2026-06-08T11:20:57Z",
-    "text": "Spacecraft developer Quantum Space to go public in $1.2 billion SPAC deal "
-  },
-  {
-    "source": "Yahoo Finance Top Stories",
-    "source_type": "rss",
-    "region": "global",
-    "title": "Gold prices today, Monday, June 8: Lower to start the week following Israel, Iran missile strikes",
-    "summary": "",
-    "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-june-8-lower-to-start-the-week-following-israel-iran-missile-strikes-110937603.html",
-    "published_at": "2026-06-08T11:09:37Z",
-    "text": "Gold prices today, Monday, June 8: Lower to start the week following Israel, Iran missile strikes "
+    "url": "https://finance.yahoo.com/research/reports/ARGUS_47255_MarketOutlook_1780918524000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+    "published_at": "2026-06-08T11:35:24Z",
+    "text": "Daily Spotlight: Equities Lead Asset-Class Returns "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -262,21 +243,21 @@
     "source": "Google News 국내 증시·반도체",
     "source_type": "rss",
     "region": "domestic",
-    "title": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ - 연합뉴스",
-    "summary": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ &nbsp;&nbsp; 연합뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xZTBmc1o5OWFMR3JaVFNBZjdNTVJTSkIzZktMTlFCcXNvU1ZHcmRWNGszNjZnOWVQVTlIT1BkRVJBaDdQbzVwMS1fX3FKajlIUkdWRVhSVU5MaWPSAWBBVV95cUxOaldwQWhRS0k4MTVxLWF1VzRBSjVCSGNFeElDcWhWSVplZjJfTkUybEJDU3ZGaWxUeTd0blQ2ZmsyYm1Obk1Ob3NwVzJmZGFWZEJ5YVdzYl9OX1llcC00SEo?oc=5",
-    "published_at": "Mon, 08 Jun 2026 06:34:16 GMT",
-    "text": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ - 연합뉴스  [속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ &nbsp;&nbsp; 연합뉴스 "
-  },
-  {
-    "source": "Google News 국내 증시·반도체",
-    "source_type": "rss",
-    "region": "domestic",
     "title": "“코스피 급락 겁나는 일이지만”…골드만삭스가 전망한 한국 증시 - 매일경제 마켓",
     "summary": "“코스피 급락 겁나는 일이지만”…골드만삭스가 전망한 한국 증시 &nbsp;&nbsp; 매일경제 마켓",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rSGkwSU9XZ1VzLWVtaE4tRWZsc0dsMEVfcXAyVjlJUHZmbWJqbWxBem5yRTg0RjB4NTNMZmNYaE40cjhOTmoxdks0V0RzdUtSRnc?oc=5",
     "published_at": "Mon, 08 Jun 2026 08:02:05 GMT",
     "text": "“코스피 급락 겁나는 일이지만”…골드만삭스가 전망한 한국 증시 - 매일경제 마켓  “코스피 급락 겁나는 일이지만”…골드만삭스가 전망한 한국 증시 &nbsp;&nbsp; 매일경제 마켓 "
+  },
+  {
+    "source": "Google News 국내 증시·반도체",
+    "source_type": "rss",
+    "region": "domestic",
+    "title": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ - 연합뉴스",
+    "summary": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ &nbsp;&nbsp; 연합뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xZTBmc1o5OWFMR3JaVFNBZjdNTVJTSkIzZktMTlFCcXNvU1ZHcmRWNGszNjZnOWVQVTlIT1BkRVJBaDdQbzVwMS1fX3FKajlIUkdWRVhSVU5MaWPSAWBBVV95cUxOaldwQWhRS0k4MTVxLWF1VzRBSjVCSGNFeElDcWhWSVplZjJfTkUybEJDU3ZGaWxUeTd0blQ2ZmsyYm1Obk1Ob3NwVzJmZGFWZEJ5YVdzYl9OX1llcC00SEo?oc=5",
+    "published_at": "Mon, 08 Jun 2026 06:34:16 GMT",
+    "text": "[속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ - 연합뉴스  [속보] '검은 월요일' 코스피, 8.3% 급락…코스닥 9%↓ &nbsp;&nbsp; 연합뉴스 "
   },
   {
     "source": "Google News 국내 증시·반도체",
@@ -312,6 +293,16 @@
     "source": "Google News 한국 주식 종목",
     "source_type": "rss",
     "region": "domestic",
+    "title": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문",
+    "summary": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 &nbsp;&nbsp; 매일신문",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83MUt0VFNVT3hSQk9mTm5aNWQ2WFp2ODhkdjIweERZYWRNRllGQkNqX2gxNTFtRE1QV1JUYVVjRFZxR1FkUXJHaExrQXdKRzlZa0h6WWVuYm9tZVNOQXlJZXp3?oc=5",
+    "published_at": "Mon, 08 Jun 2026 01:27:30 GMT",
+    "text": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문  젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 &nbsp;&nbsp; 매일신문 "
+  },
+  {
+    "source": "Google News 한국 주식 종목",
+    "source_type": "rss",
+    "region": "domestic",
     "title": "‘현대차·삼전하닉’ 담은 ‘상위 1%’…폭락장서도 주도株 쓸어담았다[주식초고수는 지금] - 서울경제",
     "summary": "‘현대차·삼전하닉’ 담은 ‘상위 1%’…폭락장서도 주도株 쓸어담았다[주식초고수는 지금] &nbsp;&nbsp; 서울경제",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xeXhsVF9tSFZwWm9SUURjREZsWWFnMzRHRURVTGp1N0Q1dUpyR0VkVC1XN281dUhDX2NFdGJDS2RYU0hyXzRXUnJSSmNuRTVfV0HSAVNBVV95cUxQSFYxZ0VUeE1xeDhRd0ZpX2EyYkRlallSZWtlTW51MzEwOWVBTzEyY0JWclpHWnk1QWVreGM4NloyUVJfQllfWVkyWlRmMUo5M2FuTQ?oc=5",
@@ -327,16 +318,6 @@
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VMHplZkJuWm9mMGU4SWVMcFJSTFNTcWdabGJrNmxFaDJxLUJVdzRDMkUzY2piOWJOVHRKc2lzdmo1a2IxVEt0S0VwQ2pkVmM2TV9ZMTZla2FTbEJTUG1LTWVIQ0p3dURz?oc=5",
     "published_at": "Mon, 08 Jun 2026 05:00:00 GMT",
     "text": "[생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 - 매일경제TV  [생생한 주식쇼 생쇼] 급락장 대응, 시장 주도주 SK하이닉스 집중 공략 &nbsp;&nbsp; 매일경제TV "
-  },
-  {
-    "source": "Google News 한국 주식 종목",
-    "source_type": "rss",
-    "region": "domestic",
-    "title": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문",
-    "summary": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 &nbsp;&nbsp; 매일신문",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE83MUt0VFNVT3hSQk9mTm5aNWQ2WFp2ODhkdjIweERZYWRNRllGQkNqX2gxNTFtRE1QV1JUYVVjRFZxR1FkUXJHaExrQXdKRzlZa0h6WWVuYm9tZVNOQXlJZXp3?oc=5",
-    "published_at": "Mon, 08 Jun 2026 01:27:30 GMT",
-    "text": "젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 - 매일신문  젠슨 황 \"주식 싸게 살 때\" 한 마디에…SK하이닉스·SK텔레콤 일부 회복 &nbsp;&nbsp; 매일신문 "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -355,7 +336,7 @@
     "title": "[U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s - Moomoo",
     "summary": "[U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s &nbsp;&nbsp; Moomoo",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQVU2eEItR1hWSVFjUVhZZGZVWFVVWl9pV2MwVHpXTE9OMFh6QmNFTm5TM3VjQzF2YndJX3pGaS1vWlZuMVB3cDhHZEp2V1ZvVnFQQ2YzNGhXVWJlVUo3Szd2MmRPcUFCZ3VJYXp1MWJaV2h3Q0ZUV1pxZW4wanlhejFUQnBqNlE4aHg5ajA5cHd0VDZ3bThCS3ZlRnc4SVlnckViSnpkX0pXMUNSS1BHbncxSQ?oc=5",
-    "published_at": "Mon, 08 Jun 2026 00:48:00 GMT",
+    "published_at": "Mon, 08 Jun 2026 01:00:38 GMT",
     "text": "[U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s - Moomoo  [U.S. Stocks After-Hours Trading] Semiconductor stocks rebounded across the board in after-hours trading; Marvell briefly rose over 6%. Crypto-related stocks also advanced, with Circle up more than 2% at one point. Korean ETFs gained as well, with KORU s &nbsp;&nbsp; Moomoo "
   },
   {
@@ -372,11 +353,11 @@
     "source": "Google News US Markets AI Semis",
     "source_type": "rss",
     "region": "global",
-    "title": "Nvidia and Sk hynix expand AI chip partnership - gasworld",
-    "summary": "Nvidia and Sk hynix expand AI chip partnership &nbsp;&nbsp; gasworld",
+    "title": "Nvidia and SK hynix expand AI chip partnership - gasworld",
+    "summary": "Nvidia and SK hynix expand AI chip partnership &nbsp;&nbsp; gasworld",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUzhBLVZmV1doaXY2TDV6aGFNZVlIZFhHek1rTEpQcGtSOFR3T3U3Q1B5azFZZk55djNOS2ZPVEp3QWZoRWVBWmtUNFV3MDFCM3VTeTB3TE9WN3ViZzZfNkI0Y3VEY2UxUDZXclJZWG1TZi1lMk9TWTdYdXp3WENuMXFweWpBNFhuWmNES3cteWU0cmxxVUlSUFR3?oc=5",
     "published_at": "Mon, 08 Jun 2026 10:11:52 GMT",
-    "text": "Nvidia and Sk hynix expand AI chip partnership - gasworld  Nvidia and Sk hynix expand AI chip partnership &nbsp;&nbsp; gasworld "
+    "text": "Nvidia and SK hynix expand AI chip partnership - gasworld  Nvidia and SK hynix expand AI chip partnership &nbsp;&nbsp; gasworld "
   },
   {
     "source": "Google News US Markets AI Semis",
@@ -402,16 +383,6 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio - Yahoo Finance",
-    "summary": "Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio &nbsp;&nbsp; Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZm9DUS1vbFhOWXlxSFZRaVAydFFQdE5FemVDclJTNWNmNEFpX050ZURsRG1EbzNxd0ZrYzZ1Rl92Y1FfUDBscGZZOVRRN3Y1cXN1NW1lZlI5ZDBWeFZLaUZQTXNzT1ltSzljU0VXYVJmaFdYTTFDWGZCbC0xMDE2dy04SnBnNmpGNVRVNC1pa3NiaS0xOUl0bVl2b08?oc=5",
-    "published_at": "Mon, 08 Jun 2026 11:07:41 GMT",
-    "text": "Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio - Yahoo Finance  Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio &nbsp;&nbsp; Yahoo Finance "
-  },
-  {
-    "source": "Google News Magnificent 7",
-    "source_type": "rss",
-    "region": "global",
     "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC",
     "summary": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push &nbsp;&nbsp; CNBC",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
@@ -422,20 +393,30 @@
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Can META Stock Compound Its Way Higher? - Trefis",
-    "summary": "Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmFMV3I4S1BtVHFKQUI5WG5JdUVyeFpCN3JoZnBjTlBxM01FdGlGV2NwVU1tSlVXT05pdW5xUldHYTF5ZWFxQk41RWFINi1jVHBJMFFXcjdPUVNRbXVNVmt4QnhiMk9ScnVWVm9LcGFJek9GblNJV2xHbWpGaG9LUzQ4ckNDZTNLZUJEdDkxZ0U2UjNfTGlOdEYxbmVyLUxQ?oc=5",
-    "published_at": "Wed, 03 Jun 2026 15:02:02 GMT",
-    "text": "Can META Stock Compound Its Way Higher? - Trefis  Can META Stock Compound Its Way Higher? &nbsp;&nbsp; Trefis "
+    "title": "Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio - Yahoo Finance",
+    "summary": "Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio &nbsp;&nbsp; Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZm9DUS1vbFhOWXlxSFZRaVAydFFQdE5FemVDclJTNWNmNEFpX050ZURsRG1EbzNxd0ZrYzZ1Rl92Y1FfUDBscGZZOVRRN3Y1cXN1NW1lZlI5ZDBWeFZLaUZQTXNzT1ltSzljU0VXYVJmaFdYTTFDWGZCbC0xMDE2dy04SnBnNmpGNVRVNC1pa3NiaS0xOUl0bVl2b08?oc=5",
+    "published_at": "Mon, 08 Jun 2026 11:07:41 GMT",
+    "text": "Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio - Yahoo Finance  Microsoft (MSFT) Is A Top AI Stock In Billionaire Ken Fisher’s Portfolio &nbsp;&nbsp; Yahoo Finance "
   },
   {
     "source": "Google News Magnificent 7",
     "source_type": "rss",
     "region": "global",
-    "title": "Top Analyst Eyes 30% Upside On AAPL Stock Ahead Of WWDC: No 'Treadmill Approach' Expected As John Ternus - Benzinga",
-    "summary": "Top Analyst Eyes 30% Upside On AAPL Stock Ahead Of WWDC: No 'Treadmill Approach' Expected As John Ternus &nbsp;&nbsp; Benzinga",
-    "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQTHV2T1dUNXlIdXk2X3l3LWhlb3BwTVFndF9NaVhnXzlnbWVDOXd4RVFBNHZNUW9tVG5Wakk3ekFKdHZreDQ2ZDVBa25GX05WUUJCR0FmQk5hNHFwTWxqblZLWVVhdHFPenluWXQySUl3d1FNUWxTM2lERnhKTXRVeHR3Q0ZHYXRsYXd3dExhX2FiZ3NuT2ItN0ZuN2dBRUhzdW5MR01jdnR3RXlwY3lDQjdDdEhHek1YMm0ySmswTG53Qnh3MGRvUmpXcEwwR3FsQ3pDOHZNVUI1enVJSE5qSi1rM1ppQTVyTVNacEFGd3FxQXN6bUVTTk42MlRTblpjNkpabEZCNlgxR2VyMm85Uzc1dDN0MHpIYnc?oc=5",
-    "published_at": "Mon, 08 Jun 2026 11:33:17 GMT",
-    "text": "Top Analyst Eyes 30% Upside On AAPL Stock Ahead Of WWDC: No 'Treadmill Approach' Expected As John Ternus - Benzinga  Top Analyst Eyes 30% Upside On AAPL Stock Ahead Of WWDC: No 'Treadmill Approach' Expected As John Ternus &nbsp;&nbsp; Benzinga "
+    "title": "Why Is NVDA Stock Rising In Premarket? - Stocktwits",
+    "summary": "Why Is NVDA Stock Rising In Premarket? &nbsp;&nbsp; Stocktwits",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZUxqM2ROZkpHRU9pdnppek5HcUM2QVZkT0ZDclRZRVR6OXhlX2FQYWh2WGJNNEp1ai1SNFdzZGh5aWtYS1p5UEh5ZDZ3dEV0NTMzWGptQ2cxVVF3RzBoUXB2WDhOUHU4bXh0UXNUaGlENEFIOVJlSzJDWWVRTkZqaXY0R2MwSlJzblhwUThWbksyc0JsMFQ1SWtEanYybFh4cExF?oc=5",
+    "published_at": "Mon, 08 Jun 2026 09:06:00 GMT",
+    "text": "Why Is NVDA Stock Rising In Premarket? - Stocktwits  Why Is NVDA Stock Rising In Premarket? &nbsp;&nbsp; Stocktwits "
+  },
+  {
+    "source": "Google News Magnificent 7",
+    "source_type": "rss",
+    "region": "global",
+    "title": "NVIDIA Corporation (NVDA) is a Cheap Robotics Stock to buy as the Vera CPU Tops on Autonomous Functions - Insider Monkey",
+    "summary": "NVIDIA Corporation (NVDA) is a Cheap Robotics Stock to buy as the Vera CPU Tops on Autonomous Functions &nbsp;&nbsp; Insider Monkey",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVjlid2l6dnpsdGtpdFd0WFFaWGNBSHVPYUQybF9sNGxvRE9HV3loaUZXODBwaEhua18zT3ZJWHNqaDJRMjRzYkFYS0lnbVFhaFVlcG0yWVhXcTFZbzVra3dVdmJ1QXJ6TFNLdzJoU0V1cWhabDdPQVpXcHh2N2ZRbG9wOFVSRkwzMXdHcHdHN0xRYzZDTmtJVEN4blZoSmdKbnRuRUNsdWZWN2ZDb0NwektxOGtNZ180TlFpUTN4VVliWWtQNi1aWmx1bU5mNjNRUUxuWk93WVdOWEdHdUHSAeYBQVVfeXFMTTk3V1VIYkFnVWJ4ajIzUTdFNGxfVTlFM0VBNUJYQ1RoTm96UlREU0xHVEd5NExMeEFuZ0VyTDhhYmMwcEJ1akZMX0VnNDV3bFp5YVVyQTJPOGwyR1ZUdG1VS2dQYzZLUHZjem1HdW9xVTVaeWVUYTJ3UUdnSzRGc3JBRk9XOHdyTWFBZWZoX0UzbHdZMjN6WU5RUTk3Q0ZwLXF1TG1qelNhOGtxV0FRZ0ZkMFU2UV8xN0traTdSMlhSbDJmRzRPVWdyRm10N1ZreDJpeVcteF9ySE1PaHBjSjZVN1J4VFE?oc=5",
+    "published_at": "Mon, 08 Jun 2026 12:04:58 GMT",
+    "text": "NVIDIA Corporation (NVDA) is a Cheap Robotics Stock to buy as the Vera CPU Tops on Autonomous Functions - Insider Monkey  NVIDIA Corporation (NVDA) is a Cheap Robotics Stock to buy as the Vera CPU Tops on Autonomous Functions &nbsp;&nbsp; Insider Monkey "
   }
 ]

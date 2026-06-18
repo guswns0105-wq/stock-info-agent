@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-08T21:03",
+  "generated_at": "2026-06-08T22:05",
   "max_per_channel": 8,
   "frames_per_video": 5,
   "selected_this_run": 112,
   "processed_this_run": 112,
-  "index_total": 166,
-  "ok_total": 164,
-  "total_ocr_chars": 120351,
+  "index_total": 169,
+  "ok_total": 167,
+  "total_ocr_chars": 123026,
   "by_source": {
     "경제사냥꾼": {
-      "items": 29,
-      "ok": 29,
-      "chars": 12564
+      "items": 30,
+      "ok": 30,
+      "chars": 12878
     },
     "주식용사부": {
       "items": 12,
@@ -34,9 +34,9 @@
       "chars": 3843
     },
     "월가아재의 과학적 투자": {
-      "items": 9,
-      "ok": 9,
-      "chars": 3512
+      "items": 10,
+      "ok": 10,
+      "chars": 4855
     },
     "올랜도 킴 미국주식": {
       "items": 20,
@@ -44,9 +44,9 @@
       "chars": 62532
     },
     "강지한 차트연구소": {
-      "items": 17,
-      "ok": 17,
-      "chars": 8073
+      "items": 18,
+      "ok": 18,
+      "chars": 9091
     },
     "월텍남 - 월스트리트 테크남": {
       "items": 9,

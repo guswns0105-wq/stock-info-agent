@@ -9,9 +9,9 @@
     "mention_count": 109,
     "transcript_count": 79,
     "metadata_count": 11,
-    "ocr_count": 26,
+    "ocr_count": 27,
     "transcript_chars": 184685,
-    "ocr_chars": 11380,
+    "ocr_chars": 11694,
     "stocks": [
       {
         "ticker": "005930",
@@ -95,11 +95,11 @@
         "url": "https://youtu.be/MZC69cRPFEU",
         "published_at": "",
         "tickers": [],
-        "confidence": "caption_failed",
+        "confidence": "ocr_only",
         "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
+        "ocr_status": "ok",
+        "ocr_chars": 314,
+        "ocr_excerpt": "코스피하락속 오늘편봐야하는 미국 뉴스8가지 경제 사냥꾼 2026년 06월 08일 US MARKET CRASH! DJI 1200/-3 S&P 5U NASD. 10000 만만치 않아서 ※본 영상은 투자 참고용이며, 투자 책임은 본인에게 있습니다. 코스피하락속 안늘꼭봐야하는 1000 더는 못",
         "youtube_kind": "short"
       },
       {
@@ -1756,15 +1756,15 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 24,
+    "video_count": 25,
     "short_count": 0,
-    "regular_video_count": 24,
+    "regular_video_count": 25,
     "mention_count": 34,
     "transcript_count": 8,
-    "metadata_count": 16,
-    "ocr_count": 17,
+    "metadata_count": 17,
+    "ocr_count": 18,
     "transcript_chars": 6797,
-    "ocr_chars": 8073,
+    "ocr_chars": 9091,
     "stocks": [
       {
         "ticker": "005930",
@@ -1813,6 +1813,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "LG전자•현대차•삼성전기 반등할때 나타나는 신호 (대장주 다 똑같습니다)",
+        "url": "https://youtu.be/azct_XhPW0o",
+        "published_at": "2026-06-08T12:45:34+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 1018,
+        "ocr_excerpt": "LG전자 현대차 삼성전기 이 신호 나올때 사세요 83,8000 63,6000 80,4000 81,200.0 10,000g 82,0000 33,0000 82. 000 못 들어가는 분들 많죠? 82,200.0 83,0000 11,0000 11.:00회 81 000.0 83.800.0 63,",
+        "youtube_kind": "video"
+      },
       {
         "title": "네이버•엔비디아가 찍은 한국판 스타게이트, AI팩토리 핵심 한국주식 대장주",
         "url": "https://youtu.be/pauPkD2UyDo",
@@ -4730,15 +4742,15 @@
     "region": "global",
     "youtuber": "월가아재의 과학적 투자",
     "channel_id": "UCpqD9_OJNtF6suPpi6mOQCQ",
-    "video_count": 23,
+    "video_count": 24,
     "short_count": 10,
-    "regular_video_count": 13,
+    "regular_video_count": 14,
     "mention_count": 1,
     "transcript_count": 1,
-    "metadata_count": 22,
-    "ocr_count": 9,
+    "metadata_count": 23,
+    "ocr_count": 10,
     "transcript_chars": 7192,
-    "ocr_chars": 3512,
+    "ocr_chars": 4855,
     "stocks": [
       {
         "ticker": "COIN",
@@ -4747,6 +4759,18 @@
       }
     ],
     "videos": [
+      {
+        "title": "[월가아재] 국채 5% 돌파는 악재 아니다? 진짜 위험 신호는 따로 있습니다",
+        "url": "https://youtu.be/PYIkFdtG12c",
+        "published_at": "2026-06-08T12:45:13+00:00",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 1343,
+        "ocr_excerpt": "3 PDF 판서기 O 파일 뉴런 클럽 - Community I Valle C:/Users/media/Downloads/pdf-annotator.html WSA Premium- 독점 곤텐즈 X Gemini에게 물어보기 Valley Live 26.06.01 (월) RATES & THE FE",
+        "youtube_kind": "video"
+      },
       {
         "title": "[월가아재] 호르무즈가 막혔는데 인플레는 잠잠한 이유가 있다?",
         "url": "https://youtu.be/e3-fxnKrG7E",
