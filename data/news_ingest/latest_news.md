@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-19T05:32)
+# 주식 뉴스 인제스트 (2026-06-22T05:31)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -176,7 +176,7 @@
 ### 22. 개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 - Chosunbiz
 - 시장: 한국시장
 - 출처: Google News 한국 주식 종목
-- 시각: Wed, 17 Jun 2026 21:02:34 GMT
+- 시각: Wed, 17 Jun 2026 21:00:00 GMT
 - 관련 티커: 005930, 000660
 - 요약: 개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 &nbsp;&nbsp; Chosunbiz
 - 링크: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS1IyUWZRa1RsOTR6ZHVCa21sakxDZ2hGXzR6VFp5aERQUkt5Sl9wNmV2Vnl5NGNLejZHWlYtdmh3YkVkWnN1ZXdrSTRUYnJabFN0bWlMdzFZWEpiMmRjYWEySWZkN3NNeTFTZ0lxaFRCRGxkOTJ6M3NlU1kteGJna1BMamNDR0J00gGcAUFVX3lxTE02anBGOUtMQl9lbThvMlNWaTVTY1R5TkNWSGJrUUNidjlucVhTUU5jd1ZoNFhYS3hKY01ULXM2eTJVdmpzajUzcVBfUEhuSkJtMncxcVBOV1FiYVlMSUJ0RDNNNV9jYkYzTUE5YTZiR3lwWl9iMTNQeXUxaC1rUVBGZHRvWWxObUpib004aTljOEZ0eWNFWmUycjVwTg?oc=5
@@ -471,7 +471,16 @@
 - 요약: 미국 주식 마감: 나스닥 1.91% 상승, 필라델피아 반도체 지수 6% 이상 상승해 사상 최고치 기록, SpaceX가 장중 손실을 소거하기 위해 늦게 반등 TradingKey
 - 링크: https://news.google.com/rss/articles/CBMi5AFBVV95cUxOU1E2V1dzVmNiU1ZPMFAxUE40THVXY2U2S1lDenk0UEJ3UTVsMVdiOUFCVkhfVmtuT3BneXViNmJqLUhrZzU3V3VMUmxkNEhaTmh3SFY2LUtuLUdDUFlOZFBTZWdlR1A5WFZsb25PcHFjTkFsb2I4amQwOHctcjJhOHlacmQtcm9DQmI1Vm9Qd0dXUkhkYzdRUFVyYU93TmhrUXU1bjhldG9ZUm02aEoyX3pJTHJqOXVpc1Y3SklNQlk1NnpVRVg1RnB5YnVfUjFkVV9rRHpkOFcwQ1BqUHFUeXY2NUM?oc=5
 
-### 27. 칩 제조업체가 미국 이외의 지역에서 성장을 기대하면서 Nvidia 주가 상승 - Barron's
+### 27. 인텔의 주요 반도체 랠리로 미국 주식 선물 상승 - Bloomberg.com
+- 시장: 미국시장
+- 출처: Google News US Markets AI Semis
+- 시각: Thu, 18 Jun 2026 20:17:19 GMT
+- 관련 티커: INTC
+- 원문 제목: US Stock Futures Rise With Intel Leading Semiconductor Rally - Bloomberg.com
+- 요약: 인텔의 주요 반도체 랠리로 미국 주식 선물 상승 Bloomberg.com
+- 링크: https://news.google.com/rss/articles/CBMisAFBVV95cUxONS1WU3owblRvcldNU3REVFo5MldfODE1YzctWWlXX0FqM1h0VnE2ckRDM2Q4c1FTWUNNWVp5YTJjcjVDel9HN1ZvdzFSdTRYcjcwbnJweWFaRmNqcVhQdUlKOGVZUTJyRzFoU29qS1RpcVM5bFNBWm44SWdvQUpIUXpFVFZvTEZBTGNlcDRKMDJHSDlZRUVYN01hS3RTX3l2SFFLRWNtZl8tZHNjd3JYSQ?oc=5
+
+### 28. 칩 제조업체가 미국 이외의 지역에서 성장을 기대하면서 Nvidia 주가 상승 - Barron's
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 18 Jun 2026 18:04:00 GMT
@@ -480,7 +489,7 @@
 - 요약: 칩 제조업체가 미국 외 지역에서 성장을 기대하면서 Nvidia 주가 상승 Barron's
 - 링크: https://news.google.com/rss/articles/CBMigwFBVV95cUxQZjZLUTVQd1QtY2RQaFVYTzBIMWZBRjJiM3B1WDZPZjBFNUVMVDYzOEMtTjh3NVg1UGp5SVJ1OFo4emtTMmJiRjRDN3hDM1M0SmpEbms2UUg4VV9HcDVjRnFsVVhJdk1ESDhHTkpiY1J6MnF3c2NmMkphaWJkMFZOc0hXZw?oc=5
 
-### 28. Power Integrations, Lattice Semiconductor 및 온세미 주식 트레이드업, 알아야 할 사항 - TradingView
+### 29. Power Integrations, Lattice Semiconductor 및 온세미 주식 트레이드업, 알아야 할 사항 - TradingView
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
 - 시각: Thu, 18 Jun 2026 17:10:43 GMT
@@ -489,7 +498,7 @@
 - 요약: Power Integrations, Lattice Semiconductor 및 온세미 주식 트레이드업, 알아야 할 사항 TradingView
 - 링크: https://news.google.com/rss/articles/CBMi5AFBVV95cUxNS29veGtEcHhwQjVmQTlVVjRMbG5rNHZGQXVBc01sbFNyUWc2Z3ZBUU5OTU9Mb0taa3J1V0E5NXY2dUZfUExkWjJjczNwampIeHh2dGt6NEJJUjJfY0JORFhKZmswbVItTGJFWVBvODVfZ1pYcHhYZG1MT2ZjT1BnR0cyQWE3VXNleFZGTUhIaXk2TEZpN0JRZF8xMlpqQkZoWVkxM3hYWTFsOVgwaFN6dEhvUEEzdlVhXzQ3YWJpYnlpNVdsOUdjallaVWFZS2JyUzNHS1V1MG1YUFRydmRaZkU2NFk?oc=5
 
-### 29. AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식 - Yahoo Finance
+### 30. AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식 - Yahoo Finance
 - 시장: 미국시장
 - 출처: Google News Magnificent 7
 - 시각: Thu, 18 Jun 2026 16:20:57 GMT
@@ -497,12 +506,3 @@
 - 원문 제목: Meta Platforms (META) Stock After AI Investment Surge And Recent Pullback - Yahoo Finance
 - 요약: AI 투자 급증 및 최근 하락 후 메타 플랫폼(META) 주식 야후 파이낸스
 - 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxNWmFhNUpWeUZSLWNGVzl1UTk0LXI1YUVVeFhsQXNwSmFKRjBfb0xNeG5pcGtISlpnaGppSHNDcVBKLXhwM2pnX1M5TGhKRVJCLVlCblgzLUFlRFg5aDUxbUQzV0RIV0hzUWhTUHJYQ0lrM24yVVNYYkZfNndPSUozZENHanZFUDMtcUZ4MmxxMmpod1FrcXJzYQ?oc=5
-
-### 30. 반도체 기업 급등에 엔비디아 주도로 미국 증시 상승 - The Edge Singapore
-- 시장: 미국시장
-- 출처: Google News US Markets AI Semis
-- 시각: Thu, 18 Jun 2026 16:13:38 GMT
-- 관련 티커: NVDA
-- 원문 제목: US stocks rise with Nvidia leading as semiconductor companies surge - The Edge Singapore
-- 요약: 반도체 기업 급등에 엔비디아 선두로 미국 증시 상승 The Edge Singapore
-- 링크: https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbndURnlsTXdLUUJvNjJFMXQ5bWRUeWJKSjh5N1U5ZFVoUlh6a2hWZl9ZZGxmdVlPYnI1bmk5S1gzWlR1V2otenhTcFhEbjdlQzd0NTN1Umk2T1ctS0JLSWtVNTFnTzVMaXFnZ0F6TkI3Z25WRW1fVmFwVENkWjIteVRSQ2lGMEZYTy1IYk53VHZ4VTZ5cXJKRzJnRGNhNlpBU0xmSFZZNEFpZDjSAbABQVVfeXFMTlp1eGEwUEVWVmY4aXBTSjVROVlVdWU2VjE3cEdZMjNzamt0b3RmaTdiR0hKaTZtRGo3SXppdkRTUFpBUXFHdkVpNmNWZXdFc2lvcXZPeTdEWkpvNVBBblV2cDRUZ2o3cG43Rm9lV1Z1cmtSQUllVmZWa2xfUjk1eUNOTGZRRVF5MFotczgxY1JROUQ0a2dKZml0TWpTbGVCb21pN0RnOGxJRjNSVURhYmk?oc=5
