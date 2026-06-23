@@ -61,6 +61,18 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "기술 매도가 칩을 따라잡으면서 Nvidia 주가 하락 - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PeGI2VTFHRmRxeHNCUDVWVGdhQk5kOFZSaWxITXVqaEpwQU1iN2VOOVZCeG1XTXQzQm5QSjFCNHpHSVJnTXAyb1dsOWJwUWd3ZVFVMVlzUkFWTzBxZzcxb0wxUFRreno3TGhpMEEyaHU0ZHVYdDFqa1pPTC0xdw?oc=5",
+        "published_at": "Tue, 23 Jun 2026 13:58:00 GMT",
+        "reason": "기술 매각으로 칩이 따라잡으면서 Nvidia 주가 하락    Barron's",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
         "source": "연합뉴스 경제",
         "source_role": "뉴스",
         "title": "젠슨 황, 한국서 AI·로봇 스타트업 만난다…국내 기업 총출동(종합2보)",
@@ -623,6 +635,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -1899,9 +1935,9 @@
       "연합뉴스 경제",
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
-      "경제사냥꾼",
       "강지한 차트연구소",
       "주식용사부",
+      "경제사냥꾼",
       "미국 경제 정복하기",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
@@ -1966,6 +2002,42 @@
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9yd0wySlNhX2FmLUNNQ3F5MXJIU3JxaUdlSTIwci1kdjZhX1JuR3IzTENwOFFhLTlNNXNWd1VOZkVsQS00elZjS3NGOGFrNWdrMHEzVnMyTGR6QdIBXkFVX3lxTE5qdUNxRDhJRWRlTHJ3cGVRN0NrZnlyeDhuRFJWNzJPTEZ3WnJrV1Y2bllMcjR2aFh1TVRzU3d3RXhqWXlNM0RzeDFIU0FwNnRZOHExdkpXZWR4Q3JDOUE?oc=5",
         "published_at": "Wed, 03 Jun 2026 23:37:04 GMT",
         "reason": "삼성전자 주가 오르며 몸값 뛴 이 주식...\"주가 11만원 더 오른다\" &nbsp;&nbsp; 파이낸셜뉴스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "삼성·SK, 호남·충청 반도체 클러스터 투자규모 수백조원 거론",
+        "url": "https://www.yna.co.kr/view/AKR20260623169400003",
+        "published_at": "Tue, 23 Jun 2026 20:55:06 +0900",
+        "reason": "(서울=연합뉴스) 강태우 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 광주·전남 등 호남권과 충청권에 반도체 클러스터 투자 확...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "지난달 이어 이번 달도 던졌다…외국인, 삼성전자 매도 '폭탄' [지금이뉴스] - YTN",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14cUNzTDFjSzZDU1l5ZXlMMTFsQUhtdkhGYk9RMWp6c3RHYWtOSUVNdGZQcDhWN1FPZkNXVVE1ZVRWYldTdUU2MC1QLVNRWlAtZEp1SFoyUUVOR3N6Y2c?oc=5",
+        "published_at": "Tue, 23 Jun 2026 10:30:00 GMT",
+        "reason": "지난달 이어 이번 달도 던졌다…외국인, 삼성전자 매도 '폭탄' [지금이뉴스] &nbsp;&nbsp; YTN",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "외국인, 삼성전자 보유율 47.52%…약 13년만에 최저수준 - 연합뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pS2lVX21NM0J3SW03MksyeFRuTzdoM3draTVLSVNmeE1WdUU1OEJVM3g3YmFlSE1LM0pvbjFJWW43SzZSWFF1TWdvQkRVbmIwYzNOWkJHWlRQVzJid3hXUtIBYEFVX3lxTE1pS2lVX21NM0J3SW03MksyeFRuTzdoM3draTVLSVNmeE1WdUU1OEJVM3g3YmFlSE1LM0pvbjFJWW43SzZSWFF1TWdvQkRVbmIwYzNOWkJHWlRQVzJid3hXUg?oc=5",
+        "published_at": "Tue, 23 Jun 2026 05:25:18 GMT",
+        "reason": "외국인, 삼성전자 보유율 47.52%…약 13년만에 최저수준 &nbsp;&nbsp; 연합뉴스",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -2356,6 +2428,42 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식 버블 붕괴 예측 실현될까?",
+        "url": "https://youtu.be/Jv8tqHnxueQ",
+        "published_at": "2026-06-23T09:29:36+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
         "title": "지금 '코스닥 주도주'로 새롭게 떠오르고 있다는 '종목' 정체",
@@ -2373,6 +2481,18 @@
         "title": "월가에서 '삼성전자' 가장 쌀 때 매수하는 방법",
         "url": "https://youtu.be/Hu6-R8gfKIE",
         "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 시총1위 등극한 sk하이닉스 향후 전망🔴구글, 아마존 급락에 나스닥 하락 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/rt_BlUAnx5w",
+        "published_at": "2026-06-23T03:49:04+00:00",
         "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -3777,12 +3897,13 @@
       "경제사냥꾼",
       "강지한 차트연구소",
       "주식용사부",
+      "미국 경제 정복하기",
       "블로그 magic_rabb1t",
       "경제명탐정",
       "올랜도 킴 미국주식",
       "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
-    "source_count": 11,
+    "source_count": 12,
     "evidence": [
       {
         "source": "Google News 한국 주식 종목",
@@ -3791,6 +3912,42 @@
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS1IyUWZRa1RsOTR6ZHVCa21sakxDZ2hGXzR6VFp5aERQUkt5Sl9wNmV2Vnl5NGNLejZHWlYtdmh3YkVkWnN1ZXdrSTRUYnJabFN0bWlMdzFZWEpiMmRjYWEySWZkN3NNeTFTZ0lxaFRCRGxkOTJ6M3NlU1kteGJna1BMamNDR0J00gGcAUFVX3lxTE02anBGOUtMQl9lbThvMlNWaTVTY1R5TkNWSGJrUUNidjlucVhTUU5jd1ZoNFhYS3hKY01ULXM2eTJVdmpzajUzcVBfUEhuSkJtMncxcVBOV1FiYVlMSUJ0RDNNNV9jYkYzTUE5YTZiR3lwWl9iMTNQeXUxaC1rUVBGZHRvWWxObUpib004aTljOEZ0eWNFWmUycjVwTg?oc=5",
         "published_at": "Wed, 17 Jun 2026 21:00:00 GMT",
         "reason": "개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "삼성·SK, 호남·충청 반도체 클러스터 투자규모 수백조원 거론",
+        "url": "https://www.yna.co.kr/view/AKR20260623169400003",
+        "published_at": "Tue, 23 Jun 2026 20:55:06 +0900",
+        "reason": "(서울=연합뉴스) 강태우 기자 = 삼성전자[005930]와 SK하이닉스[000660]가 광주·전남 등 호남권과 충청권에 반도체 클러스터 투자 확...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "코스피 시총 1위는 내줬지만…저가 매수세 몰리는 SK하이닉스 [주식 초고수는 지금] - 매일경제",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBQTGtDN2trMHVXY1JWa1FIdmNwTGllMUZfd1N5djdFMlZPQUUyTzdHTG5KcTlzSGZjVnZ1djNmelczbFVTaHFWaEliSW9veXlGS0E?oc=5",
+        "published_at": "Tue, 23 Jun 2026 06:21:22 GMT",
+        "reason": "코스피 시총 1위는 내줬지만…저가 매수세 몰리는 SK하이닉스 [주식 초고수는 지금] &nbsp;&nbsp; 매일경제",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "\"SK하이닉스 수익률 1241%\"…미래에셋증권 주식 부자들 크게 늘었다 - 머니투데이 - 머니투데이",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zaXBqaGRXcjVDQUIxVGV5SXpEaF9mSGh2TnRwLXlBSjVWVUY4Y1k2UmhwVmZvUUJoYmtTSjU4eTNacmZCZG90ckJLQW05S1dHVTNmYkFyUF9SbXo4NkllLVJJeWw4ZmQx0gFuQVVfeXFMUHlxcDFrWjZEOVJ6SzZRSW1IbWZfbEFpSnQ1bmZxZFhNN1BYZHlYYlZsU3BRa3luZW1zMTd3dTh2YnhleDR2bmQzTjVXald2YjU0U0JBM0dnWnZDRjQ2cmFwU3VxUDVzQWpnNXVmRHc?oc=5",
+        "published_at": "Tue, 23 Jun 2026 05:07:38 GMT",
+        "reason": "\"SK하이닉스 수익률 1241%\"…미래에셋증권 주식 부자들 크게 늘었다 - 머니투데이 &nbsp;&nbsp; 머니투데이",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4111,9 +4268,81 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
+        "title": "'시총 1위' 찍은 SK하이닉스, 코스피에 미치는 진짜 영향",
+        "url": "https://youtu.be/-8Jws0mBDcM",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식 버블 붕괴 예측 실현될까?",
+        "url": "https://youtu.be/Jv8tqHnxueQ",
+        "published_at": "2026-06-23T09:29:36+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "미국 경제 정복하기",
+        "source_role": "youtube_recommendation",
+        "title": "상위 0.1% 부자가 SK하이닉스랑 같이 쓸어담는 종목",
+        "url": "https://youtu.be/VOLfzeKedhY",
+        "published_at": "2026-06-23T09:00:12+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
         "title": "SK하이닉스' 미국 상장 임박, 투자자들이 꼭 봐야 할 투자 포인트",
         "url": "https://youtu.be/i2o4fdng37s",
         "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 시총1위 등극한 sk하이닉스 향후 전망🔴구글, 아마존 급락에 나스닥 하락 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/rt_BlUAnx5w",
+        "published_at": "2026-06-23T03:49:04+00:00",
         "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -4734,8 +4963,8 @@
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
       "강지한 차트연구소",
-      "주식용사부",
       "올랜도 킴 미국주식",
+      "주식용사부",
       "미부기",
       "경제사냥꾼",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
@@ -4768,6 +4997,42 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 빅테크 돈 들어가는 곳만 상승한다!!!",
+        "url": "https://youtu.be/2A1yeSKFJbs",
+        "published_at": "2026-06-22T20:43:40+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -5405,10 +5670,10 @@
     "name": "Tesla",
     "sources": [
       "Google News Magnificent 7",
+      "강지한 차트연구소",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-      "강지한 차트연구소",
       "주식용사부",
       "경제명탐정",
       "Yahoo Finance Top Stories",
@@ -5476,6 +5741,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "경제사냥꾼",
@@ -6296,6 +6585,18 @@
       {
         "source": "올랜도 킴 미국주식",
         "source_role": "youtube_recommendation",
+        "title": "(팔란티어) 문제는 성장률인데 언제 회복되나?",
+        "url": "https://youtu.be/S3RNDUhuDDk",
+        "published_at": "2026-06-23T05:21:16+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
         "title": "(팔란티어) 지금이 저점? 아니면 던져?",
         "url": "https://youtu.be/Gtp5Pj_L918",
         "published_at": "2026-06-17T05:12:51+00:00",
@@ -7096,8 +7397,8 @@
     "sources": [
       "연합뉴스 경제",
       "Google News 국내 증시·반도체",
-      "경제사냥꾼",
       "강지한 차트연구소",
+      "경제사냥꾼",
       "주식용사부",
       "경제명탐정",
       "Yahoo Finance Top Stories",
@@ -7188,6 +7489,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "경제사냥꾼",
@@ -7898,6 +8223,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "SK하이닉스 5% 오를 때, 2배씩 더 올랐던 숨은 수혜주 3개 공개",
         "url": "https://youtu.be/b8kl25fkIeo",
         "published_at": "2026-06-22T11:45:27+00:00",
@@ -8406,14 +8755,26 @@
     "ticker": "INTC",
     "name": "Intel",
     "sources": [
-      "Google News US Markets AI Semis",
       "Google News Magnificent 7",
+      "Google News US Markets AI Semis",
       "Yahoo Finance Top Stories",
       "올랜도 킴 미국주식",
       "T3chfeed - 테크피드 미국 주식 인사이트"
     ],
     "source_count": 5,
     "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUpzel9IQjZ5M1B5VG4tVXFNakJSeVpjRmNxTGtoVWdSREo1ejd3Z0NkZFYxLXREUEp5bkZFRnR0VEd5bzl4S1VMcFlUWksyWUpuUzBENE5NS2JMWGZISzlFYkdmSjFUdDhaQXM3Y3JFUmw3WDFOTVVsUk92VHp2ZWcwdlpMY191eVJSbndGNnlkUXcyWVpyVVJJVQ?oc=5",
+        "published_at": "Tue, 23 Jun 2026 18:14:34 GMT",
+        "reason": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다    MarketBeat",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
@@ -8481,6 +8842,18 @@
         "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRW1mMlJoM1FMOV9sZG0zcUZOVktvcC1nNjJfb3NMNU00VW9SOVpDUHVtejhkR0s0UHFyR185N1ZnYlVrYzRrSmtsYzc2LS14M1BIVFFIN2YyTnRRd0dFV1kzQTZlc0pNM05KYlo4Vk44UW1pQ3ktTVJrMl9JN00wWGYyejZ5MUVjNE1uLUttcGVfU3Q3Y1pqMml5cElINE1SNHJ1NXUyUi1CaURfbk9VM1ZVVlF4di1reExJMl83RlE2MmJqWXF3VlNQTQ?oc=5",
         "published_at": "Fri, 05 Jun 2026 13:51:50 GMT",
         "reason": "US 오픈: 반도체 주식 매도 속에 월스트리트 하락 yourIntel 하락 6%    XTB.com",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "인텔 CEO는 투자자들에게 현실 점검을 제공합니다",
+        "url": "https://finance.yahoo.com/technology/ai/articles/intel-ceo-gives-investors-reality-184700678.html",
+        "published_at": "2026-06-22T18:47:00Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -8632,6 +9005,18 @@
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkMkJMSHUzM0hOUmJ1X1F6RzI3eXJXOXZNU0NST0hLTU1IanpPbXFhdG9GR1ZPQWZjakppeGlWdVktdU5kWGZLc3FTaDE1NnU3OUtIQlVjSmpJUTRrdFhPV2Jsd3lOc1ZQMUZRNTlXWC1BN05lWGRMa2FB?oc=5",
         "published_at": "Wed, 17 Jun 2026 19:16:00 GMT",
         "reason": "마이크로소프트 주식을 팔아야 할 때인가? 이 분석가가 투자자들에게 퇴출을 경고하는 이유.    배런스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "MSFT 주식은 최고점에서 21% 하락한 후 약세장에 진입했습니다: 소매업은 조심스럽지만 분석가들은 압도적으로 강세를 유지합니다 - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNm91T1gwWnNkOURHMkZJVDB5LUNIc2tldzZ5LXQxbzdjRG9TWGNLS0lpQlZramc4UEFLaDBMMUJSSUg3TlBWQlZ0N0RndE5RZzFaSG9xcjlFYUhrSXp3TkVlekpVSTZnYXlMTU54OHBSR2hWX1p5Yk4zNzdCa0dqalliZ2lkZW5sM1p3RzJtREYzOWlwZ21UMEpn?oc=5",
+        "published_at": "Tue, 23 Jun 2026 06:36:00 GMT",
+        "reason": "MSFT 주식은 정점에서 21% 하락한 후 약세장에 진입했습니다. 소매업은 조심스럽지만 분석가들은 압도적으로 강세를 유지합니다.    Yahoo Finance",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -8800,6 +9185,18 @@
     ],
     "source_count": 5,
     "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUpzel9IQjZ5M1B5VG4tVXFNakJSeVpjRmNxTGtoVWdSREo1ejd3Z0NkZFYxLXREUEp5bkZFRnR0VEd5bzl4S1VMcFlUWksyWUpuUzBENE5NS2JMWGZISzlFYkdmSjFUdDhaQXM3Y3JFUmw3WDFOTVVsUk92VHp2ZWcwdlpMY191eVJSbndGNnlkUXcyWVpyVVJJVQ?oc=5",
+        "published_at": "Tue, 23 Jun 2026 18:14:34 GMT",
+        "reason": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다    MarketBeat",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
@@ -9137,6 +9534,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 빅테크 돈 들어가는 곳만 상승한다!!!",
+        "url": "https://youtu.be/2A1yeSKFJbs",
+        "published_at": "2026-06-22T20:43:40+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "올랜도 킴 미국주식",
@@ -9493,8 +9902,8 @@
     "sources": [
       "연합뉴스 경제",
       "Google News 국내 증시·반도체",
-      "경제사냥꾼",
-      "강지한 차트연구소"
+      "강지한 차트연구소",
+      "경제사냥꾼"
     ],
     "source_count": 4,
     "evidence": [
@@ -9533,6 +9942,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "경제사냥꾼",
@@ -9743,6 +10176,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 시총1위 등극한 sk하이닉스 향후 전망🔴구글, 아마존 급락에 나스닥 하락 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/rt_BlUAnx5w",
+        "published_at": "2026-06-23T03:49:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "주식용사부",
@@ -10297,8 +10742,8 @@
     "sources": [
       "Google News 한국 주식 종목",
       "연합뉴스 경제",
-      "경제사냥꾼",
-      "강지한 차트연구소"
+      "강지한 차트연구소",
+      "경제사냥꾼"
     ],
     "source_count": 4,
     "evidence": [
@@ -10325,6 +10770,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "경제사냥꾼",
@@ -10494,6 +10963,30 @@
         "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5",
         "published_at": "Wed, 03 Jun 2026 10:19:27 GMT",
         "reason": "Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말합니다 – META 주식은 시판 전 반등    MSN",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Zuckerberg는 Meta가 Kalshi, Polymarket의 예측 시장 경쟁자를 구축하기를 원합니다: 보고서 - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWkJkTkxCdjFJRjVLdU1sU25ZN2VodE1lQ1VYd1lHZlUwekFGWmpIdzNSODFIVmtaZnFoNVVKTFB2Xy1GQXpCbl9YVVlhTnBmSGpwNnRXX2ZsZEZsbHNZNFN4S21RdEJicHBickktZGlwa3cwQlhCSGhjUW5Fa2lRM2VETGZUdzZYX2c?oc=5",
+        "published_at": "Tue, 23 Jun 2026 17:59:00 GMT",
+        "reason": "Zuckerberg는 Meta가 Kalshi, Polymarket에 대한 예측 시장 경쟁자를 구축하기를 원합니다: 보고서    Investor's Business Daily",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "메타 스톡에 대한 거대한 베팅 - Trefis",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbTEyaDFXOG1oWXJEZjNnZFBRSkNGaEwyQnVrdzJSQkw3aVg4N1IzaDRzUlQwVDRHRm1ycE5wOG45c2ZGeUVuMF82N0tSYmp4YmpMYlJrc1VYX3hJcENIbkFWdHA4VG1LZmF3RzFPNmVjelp5UWQ0QkN2SmlYajlvMEN6RmR6VjNtaFBPZkFPQW5MRDR4UXNkWGpKMXhaQQ?oc=5",
+        "published_at": "Tue, 23 Jun 2026 16:55:53 GMT",
+        "reason": "메타 주식에 무게를 두는 거대한 베팅    Trefis",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -10822,12 +11315,36 @@
     "ticker": "009150",
     "name": "삼성전기",
     "sources": [
-      "경제사냥꾼",
       "강지한 차트연구소",
+      "경제사냥꾼",
       "주식용사부"
     ],
     "source_count": 3,
     "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
@@ -11208,6 +11725,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "국민연금이 일주일넘게 바닥에서부터 쓸어담고 있는 제2의 보스턴다이내믹스가 될 피지컬AI 숨은 대장주 3개",
         "url": "https://youtu.be/aCZJk8o1zT4",
         "published_at": "2026-06-21T11:51:18+00:00",
@@ -11491,6 +12032,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "SK하이닉스 5% 오를 때, 2배씩 더 올랐던 숨은 수혜주 3개 공개",
         "url": "https://youtu.be/b8kl25fkIeo",
         "published_at": "2026-06-22T11:45:27+00:00",
@@ -11635,6 +12200,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -12299,6 +12888,58 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "domestic",
+    "ticker": "055550",
+    "name": "신한지주",
+    "sources": [
+      "강지한 차트연구소",
+      "주식쇼퍼 - 투자도 쇼핑처럼"
+    ],
+    "source_count": 2,
+    "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 대장주 주가 폭락할때마다 외국인•기관•연기금이 쓸어담는 한국주식 3개 공개",
+        "url": "https://youtu.be/NV4g8gMHwVE",
+        "published_at": "2026-06-07T09:45:26+00:00",
+        "reason": "삼성전자 하이닉스 빠진다고 멍 때리고 있으니까 국장에서 돈 날리는 겁니다. 제가 LG 전자 14만 원대, 삼성전자 16만 원대 쫄지 말고 담으라고 했고 3천당 제약 폭락전에도 경고드렸죠. 이번에도 똑같습니다. 폭락장이 오면 큰 손들은 반도체 로봇이 아니라 배당 나오고 돈 잘 버는 금융주로 갈아탑니다. 이번에는 끝까지 보셔서 큰 손들이 쓸어담는 금융주 세 종목 절대 놓치지 마세요. 첫 번째 신한지주 작년 순익만 5조에 육박하죠. 5,억 규모의 자사주 매입소가 주주 환원율 50% 이미 달성했습니다. 총락장 금리 인상기의 핵심 종목입니다. 두 번째 KB 금융 지난해 순 이익만 6조원에 육박하죠. 연간 주주 환원 규모만 3조 600억으로 업계 최대해 올해 1분기 계에만 1400만 주를 전량 소각하기로 결정했죠. 외국인들이 한국 시장 들어오면 가장 먼저 보는 금융주입니다. 마지막 삼성생명. 삼성전자 지분만 8% 넘게 들고 있죠. 배당만 3조에서 최대 6조가 들어올 겁니다. 주주 환원 확대와 정부 밸류업 프로그램까지 지금 주가 폭락할 때가 오히려 기회입니다. 그래서이 종목들 바로 사냐? 아닙니다. 주가는 결국 수급이 붙을 때 올라가죠. 우리는 그때만 노릴 겁니다. SK 하이닉스 82만 원대 상승할 림 드렸고 240만 원에서 추락할 때 233만 원대 하락할 림도 드렸죠. 219만 원 돌파했던 삼성전기 41만 원대 상승할 림 드렸고 210만 원대 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "youtube_recommendation",
+        "title": "\"금리인상 수혜주\" 다시 금융주의 시대가 오는가?",
+        "url": "https://youtu.be/pzKZH3CtRKk",
+        "published_at": "2026-06-07T05:15:30+00:00",
+        "reason": "하이닉스가 10% 폭락했습니다. 같은 날 신한 지주는 7%가 오르면서 역사상 신고가를 달성합니다. 다시 금융주의 시대가 오는 걸까요? 6월 5일 오래 들어서 벌써 2번째 사이드카 발동입니다. 이제 하루에 5%씩 출렁이는게 익숙해지고 있어요. 이번 하락 원인은 확실하죠. 미국의 브로드컴 쇼크입니다. 브로드컴이 2분기 실적을 발표했는데 분명 지금 실적은 나쁘지 않았어요. 그런데 3분기 AI 매출 전망치가 시장 기대치보다 살짝 낮았고요. 투자자들이 기대하던 AI 목표치 상향이 없었습니다. 기대가 너무 크다 보니까 돈을 잘 벌어도 만족을 못 합니다. 나스닥에서 하루 만에 12%가 넘게 떨어졌어요.이 충격이 다음날 한국으로 그대로 넘어옵니다. 삼성은 6.4%, 하이닉스는 9.9%가 %가 떨어졌네요. 코스피 전체도 5.5%나 폭락합니다. 그런데 같은 날 재밌는게 있죠. 은행주는 11개 중에 여덟 개가 올랐습니다. 특히 신한지주 7.39%로 가장 많이 뛰었고요. 매도 사이드카가 나오는 날에 오히려 신고가를 달성합니다. KB 하나 우리 금융 다 같이 올랐어요. 여기에서 중요한 건 이게 하루짜리 반등은 아니라는 겁니다. 6월 KRX 은행 지수가 8.9% % 정도 올랐는데요. 같은 기간 코스피가 3.7% 하락했죠. 정 반대로 흐르는 모습입니다. 왜 하필 금융주일까? 크게 두 가지 이유가 있습니다. 첫 번째는 당연히 금리예요. 뉴스 보다 보면 금리 상승",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "global",
     "ticker": "VOO",
     "name": "S&P 500 ETF",
@@ -12499,46 +13140,6 @@
         "url": "https://youtu.be/kS8-KiqaIpc",
         "published_at": "",
         "reason": "[0.0s] 님들! 삼성전자 하이닉스 다음으로 레버리지 곱하기 상품 나온다는 [3.1s] 한국 종목 정체 뭔지 알고 있었어? [4.9s] 다들 오늘 출시된 삼전닉스의 레버리지 ETF에만 몰려간다. [7.8s] 막상 이 다음에 두 배 상품 나올 종목이 있다는 건 아예 모르고 있더라. [10.6s] 근데 이거 미리 알고 선점하는 개미랑 나중에 뉴스 보고 뒤늦게 뛰어드는 개미랑. [14.0s] 수익률이 완전히 달라질 수밖에 없으니까 더 늦어지기 전에 딱 1분만 집중해봐. [17.7s] 어제 경제 사냥꾼이 아주 자세하게 짚어줬듯이. [19.8s] 오늘 드디어 삼성전자 하이닉스의 레버리지 ETF가 출시됐어. [22.8s] 8개 운영사가 16개 상품을 한꺼번에 쏟아냈고. [25.4s] 하이닉스 레버리지 상품은 상장하자마자 59% 급등하면서 상한선에 거의 붙었어. [29.4s] 코스피도 장 초반에 8,450가지 치솟으면서 매수사이드카까지 터졌지. [33.0s] 단일종목 레버리지 ETF는 아무 종목이나 되는 게 아니야. [35.5s] 시가총액 비중 10% 이상 거래대금 비중 5% 이상 [38.3s] 파생거래량 1% 이상을 전부 통과해야 하는데 [40.5s] 이 기준을 다 충족하는 종목이 딱 삼전과 하이닉스 뿐이었기 때문에 [43.6s] 이들이 국내 첫 단일종목 레버리지 ETF에 주인공이 된 거야. [46.5s] 근데 여기서 진짜 아무도 모르는 반전",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
-    "ticker": "055550",
-    "name": "신한지주",
-    "sources": [
-      "강지한 차트연구소",
-      "주식쇼퍼 - 투자도 쇼핑처럼"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "코스피 대장주 주가 폭락할때마다 외국인•기관•연기금이 쓸어담는 한국주식 3개 공개",
-        "url": "https://youtu.be/NV4g8gMHwVE",
-        "published_at": "2026-06-07T09:45:26+00:00",
-        "reason": "삼성전자 하이닉스 빠진다고 멍 때리고 있으니까 국장에서 돈 날리는 겁니다. 제가 LG 전자 14만 원대, 삼성전자 16만 원대 쫄지 말고 담으라고 했고 3천당 제약 폭락전에도 경고드렸죠. 이번에도 똑같습니다. 폭락장이 오면 큰 손들은 반도체 로봇이 아니라 배당 나오고 돈 잘 버는 금융주로 갈아탑니다. 이번에는 끝까지 보셔서 큰 손들이 쓸어담는 금융주 세 종목 절대 놓치지 마세요. 첫 번째 신한지주 작년 순익만 5조에 육박하죠. 5,억 규모의 자사주 매입소가 주주 환원율 50% 이미 달성했습니다. 총락장 금리 인상기의 핵심 종목입니다. 두 번째 KB 금융 지난해 순 이익만 6조원에 육박하죠. 연간 주주 환원 규모만 3조 600억으로 업계 최대해 올해 1분기 계에만 1400만 주를 전량 소각하기로 결정했죠. 외국인들이 한국 시장 들어오면 가장 먼저 보는 금융주입니다. 마지막 삼성생명. 삼성전자 지분만 8% 넘게 들고 있죠. 배당만 3조에서 최대 6조가 들어올 겁니다. 주주 환원 확대와 정부 밸류업 프로그램까지 지금 주가 폭락할 때가 오히려 기회입니다. 그래서이 종목들 바로 사냐? 아닙니다. 주가는 결국 수급이 붙을 때 올라가죠. 우리는 그때만 노릴 겁니다. SK 하이닉스 82만 원대 상승할 림 드렸고 240만 원에서 추락할 때 233만 원대 하락할 림도 드렸죠. 219만 원 돌파했던 삼성전기 41만 원대 상승할 림 드렸고 210만 원대 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
-        "source_role": "youtube_recommendation",
-        "title": "\"금리인상 수혜주\" 다시 금융주의 시대가 오는가?",
-        "url": "https://youtu.be/pzKZH3CtRKk",
-        "published_at": "2026-06-07T05:15:30+00:00",
-        "reason": "하이닉스가 10% 폭락했습니다. 같은 날 신한 지주는 7%가 오르면서 역사상 신고가를 달성합니다. 다시 금융주의 시대가 오는 걸까요? 6월 5일 오래 들어서 벌써 2번째 사이드카 발동입니다. 이제 하루에 5%씩 출렁이는게 익숙해지고 있어요. 이번 하락 원인은 확실하죠. 미국의 브로드컴 쇼크입니다. 브로드컴이 2분기 실적을 발표했는데 분명 지금 실적은 나쁘지 않았어요. 그런데 3분기 AI 매출 전망치가 시장 기대치보다 살짝 낮았고요. 투자자들이 기대하던 AI 목표치 상향이 없었습니다. 기대가 너무 크다 보니까 돈을 잘 벌어도 만족을 못 합니다. 나스닥에서 하루 만에 12%가 넘게 떨어졌어요.이 충격이 다음날 한국으로 그대로 넘어옵니다. 삼성은 6.4%, 하이닉스는 9.9%가 %가 떨어졌네요. 코스피 전체도 5.5%나 폭락합니다. 그런데 같은 날 재밌는게 있죠. 은행주는 11개 중에 여덟 개가 올랐습니다. 특히 신한지주 7.39%로 가장 많이 뛰었고요. 매도 사이드카가 나오는 날에 오히려 신고가를 달성합니다. KB 하나 우리 금융 다 같이 올랐어요. 여기에서 중요한 건 이게 하루짜리 반등은 아니라는 겁니다. 6월 KRX 은행 지수가 8.9% % 정도 올랐는데요. 같은 기간 코스피가 3.7% 하락했죠. 정 반대로 흐르는 모습입니다. 왜 하필 금융주일까? 크게 두 가지 이유가 있습니다. 첫 번째는 당연히 금리예요. 뉴스 보다 보면 금리 상승",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
