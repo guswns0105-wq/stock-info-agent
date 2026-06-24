@@ -4,15 +4,15 @@
     "ticker": "NVDA",
     "name": "NVIDIA",
     "sources": [
-      "Google News US Markets AI Semis",
       "Google News Magnificent 7",
+      "Google News US Markets AI Semis",
       "연합뉴스 경제",
       "Google News 국내 증시·반도체",
       "Google News 한국 주식 종목",
       "마술토끼의 투자이야기",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "강지한 차트연구소",
       "경제사냥꾼",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "미국 경제 정복하기",
       "올랜도 킴 미국주식",
       "주식용사부",
@@ -24,6 +24,18 @@
     ],
     "source_count": 17,
     "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Nvidia Stock(NVDA)은 주요 지원 수준을 테스트합니다. 무엇이 상승을 막고 있나요? - 배런의",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb2ZNUXd0NlJybXd6cDZPNGlGcXdpUzRsaUhlc1JNX1p2Y1Y4TW9DeUkxMXBDWHJkcGJNVlZabnlFYklXbjdNckZkMGMwYmh3S1hOdG16NmF0aUc5WDhQdDRybHBEZUVhbVdWZzJPaDRPV09NV2lEbnA5R28zWGNqVQ?oc=5",
+        "published_at": "Wed, 24 Jun 2026 18:16:00 GMT",
+        "reason": "Nvidia Stock(NVDA)은 주요 지원 수준을 테스트합니다. 무엇이 상승을 막고 있나요?    배런스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
@@ -635,6 +647,54 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "6/24 (수) 위험한 나스닥 큰 조정 얼마 안남았다..?",
+        "url": "https://youtu.be/mPCPcKO6G5w",
+        "published_at": "2026-06-24T15:34:12+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -1936,11 +1996,11 @@
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
       "강지한 차트연구소",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식용사부",
       "경제사냥꾼",
       "미국 경제 정복하기",
       "올랜도 킴 미국주식",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "경제명탐정",
       "블로그 magic_rabb1t",
       "주식쇼퍼 - 투자도 쇼핑처럼"
@@ -2426,6 +2486,54 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스·삼성전자 급락 후 전망🔴뉴욕증시 AI·반도체주 매도세에 하락  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/uajkQGmEnqE",
+        "published_at": "2026-06-24T04:00:40+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -3908,6 +4016,66 @@
       {
         "source": "Google News 한국 주식 종목",
         "source_role": "뉴스",
+        "title": "SK하이닉스 美ADR 내달 10일 상장… 45조 규모 - v.daum.net",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jbnJKVUxreWFtNzYwRVFSalA3MEVmU2F2SFljODQyZ3VuMGh5YUU0QWNwbEZFZk1wZERuMzR1VS05cXZuZ0NmV3VjRjRZTlE?oc=5",
+        "published_at": "Wed, 24 Jun 2026 19:35:37 GMT",
+        "reason": "SK하이닉스 美ADR 내달 10일 상장… 45조 규모 &nbsp;&nbsp; v.daum.net",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "“팔 줄 몰라” SK하이닉스 100배 수익낸 주식 고수 정체는? 김문수 전 장관 - 문화일보",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9iQkcta3hyMTdXMUtNaHl5V3lkUFRpeGRvMmQ1WTZuSjNDZmdEeW5iclhQbWwyUFptT2tSYWp0Q25ScE9TWEF0Y202emZPaXVv?oc=5",
+        "published_at": "Wed, 24 Jun 2026 15:13:10 GMT",
+        "reason": "“팔 줄 몰라” SK하이닉스 100배 수익낸 주식 고수 정체는? 김문수 전 장관 &nbsp;&nbsp; 문화일보",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "SK하이닉스, 다음 달 미국 증시 입성…최대 45조원 조달 - 한겨레",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHZkptWThQWEpPVVpXNVNSVXkxQzljZUhZbFhubEp3YjRuZzIzcDFiS2duMXhWcnBCa3N3TlhuUnhxTHJxY2xlWGc5Ykt3TXBSTExnbkVIc3BNN0dTNjRXdm1wYW1yQUhhaERpY0RBNmJKdw?oc=5",
+        "published_at": "Wed, 24 Jun 2026 13:10:00 GMT",
+        "reason": "SK하이닉스, 다음 달 미국 증시 입성…최대 45조원 조달 &nbsp;&nbsp; 한겨레",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "SK하이닉스 내달 미국 ADR 상장 추진···45조 유상증자 - 경향신문",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xd0V2QV9JZmF6T2lTVTc3SUU2VDhuYTNsZjcxR3pPSlhlajhqN0FiN3FIUWlPSnJnUTBBUHFuUU85bXpxaWlYUVBVdzI0LXNRa2dKSk56X3l0d9IBX0FVX3lxTE9ZUDJpSDhhY2ZuY01hMzlTV0xKRVJHZjFtWFFXQ1lGTm1MN0puRTFCWXk2ZENZSUtxVXFYd3prc2FSdHE2X3J2UE1fUmstdU1zYTNKOVRqNks5elNQOXcw?oc=5",
+        "published_at": "Wed, 24 Jun 2026 08:18:00 GMT",
+        "reason": "SK하이닉스 내달 미국 ADR 상장 추진···45조 유상증자 &nbsp;&nbsp; 경향신문",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "SK하이닉스, 내달 10일 美 ADR 상장...45조 조달 - 조선일보",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb1Bzbzlrbi1Jbzllc2FLWFJmVElSY1hJS21rbDhCaGFUcFNPd3o2SmlJUDloNlNTckhuWmhKeFNrNTJuczlMM0ExU1E1WVJFel8wZDVpSzA0aTc1bU1jdDJBdWliTFMwbkFLbmNSUzVIOXpmQjBWblMzYm92bWFhbU9Raw?oc=5",
+        "published_at": "Wed, 24 Jun 2026 08:07:00 GMT",
+        "reason": "SK하이닉스, 내달 10일 美 ADR 상장...45조 조달 &nbsp;&nbsp; 조선일보",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
         "title": "개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 - Chosunbiz",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS1IyUWZRa1RsOTR6ZHVCa21sakxDZ2hGXzR6VFp5aERQUkt5Sl9wNmV2Vnl5NGNLejZHWlYtdmh3YkVkWnN1ZXdrSTRUYnJabFN0bWlMdzFZWEpiMmRjYWEySWZkN3NNeTFTZ0lxaFRCRGxkOTJ6M3NlU1kteGJna1BMamNDR0J00gGcAUFVX3lxTE02anBGOUtMQl9lbThvMlNWaTVTY1R5TkNWSGJrUUNidjlucVhTUU5jd1ZoNFhYS3hKY01ULXM2eTJVdmpzajUzcVBfUEhuSkJtMncxcVBOV1FiYVlMSUJ0RDNNNV9jYkYzTUE5YTZiR3lwWl9iMTNQeXUxaC1rUVBGZHRvWWxObUpib004aTljOEZ0eWNFWmUycjVwTg?oc=5",
         "published_at": "Wed, 17 Jun 2026 21:00:00 GMT",
@@ -4268,9 +4436,57 @@
       {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
+        "title": "SK하이닉스 vs SK스퀘어' 월가가 선택했다는 종목은?",
+        "url": "https://youtu.be/bHSBISpQ93c",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
         "title": "'시총 1위' 찍은 SK하이닉스, 코스피에 미치는 진짜 영향",
         "url": "https://youtu.be/-8Jws0mBDcM",
         "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스·삼성전자 급락 후 전망🔴뉴욕증시 AI·반도체주 매도세에 하락  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/uajkQGmEnqE",
+        "published_at": "2026-06-24T04:00:40+00:00",
         "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -4962,18 +5178,30 @@
     "sources": [
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
+      "경제사냥꾼",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "강지한 차트연구소",
       "올랜도 킴 미국주식",
       "주식용사부",
       "미부기",
-      "경제사냥꾼",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "Yahoo Finance Top Stories",
       "미국 경제 정복하기",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
     "source_count": 11,
     "evidence": [
+      {
+        "source": "Google News 국내 증시·반도체",
+        "source_role": "뉴스",
+        "title": "반도체 슈퍼사이클 향방은…마이크론 실적 앞 ‘변동성’ 역대 최고치 - 한겨레",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tQTRFT3htd3NGV3QxUEZQMjlwVzRPSWFQOWFqMWhwNUZkNks1Q1Q1Tks2UEdDcnowdVUwb1g4N2I2VVZxV0VwZktXT3VMbVFrTGItQm5YaXNaUGlYc0c3cnlpT09FdGM?oc=5",
+        "published_at": "Wed, 24 Jun 2026 09:37:00 GMT",
+        "reason": "반도체 슈퍼사이클 향방은…마이크론 실적 앞 ‘변동성’ 역대 최고치 &nbsp;&nbsp; 한겨레",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News 국내 증시·반도체",
         "source_role": "뉴스",
@@ -4997,6 +5225,54 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "마이크론' 실적 발표 전, 월가가 몰래 줍고있다는 '한국 수혜주' 정체",
+        "url": "https://youtu.be/vwaQ_8Q_XQw",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 펀드멘탈 문제가 아닐때는 하락은 매수관점이다!!!",
+        "url": "https://youtu.be/sCXvLUAJgBQ",
+        "published_at": "2026-06-23T20:39:16+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -5670,18 +5946,30 @@
     "name": "Tesla",
     "sources": [
       "Google News Magnificent 7",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "T3chfeed - 테크피드 미국 주식 인사이트",
       "강지한 차트연구소",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "주식용사부",
       "경제명탐정",
       "Yahoo Finance Top Stories",
-      "T3chfeed - 테크피드 미국 주식 인사이트",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
     "source_count": 10,
     "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "SpaceX가 Tesla와 합병됩니까? Q2 배송이 여전히 TSLA 재고를 주도하는 이유 - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNDUzN0x3M0xEUl9wZ3NoNzE1dER5U1N0WXJUZTk2Yjhjcno0T2lUN25LbTRZTDNlWldaUVhaaDBPZXhOLVEway1tOXk2S05lTktKZ3pvV3FhZnBkQWp2OERPQUtpcFhzQTNwWktxZUtCVWRTX0JqME9ZeTY2M01FQXVNLWI1ckth?oc=5",
+        "published_at": "Wed, 24 Jun 2026 17:34:00 GMT",
+        "reason": "SpaceX가 Tesla와 합병됩니까? Why Q2 Deliveries Still Drive TSLA Stock    Barron's",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
@@ -5741,6 +6029,42 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "6/24 (수) 위험한 나스닥 큰 조정 얼마 안남았다..?",
+        "url": "https://youtu.be/mPCPcKO6G5w",
+        "published_at": "2026-06-24T15:34:12+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "youtube_recommendation",
+        "title": "테슬라 많이 힘드신가요? 전혀 힘들 필요가 없습니다.",
+        "url": "https://youtu.be/rBcYMBaNpOI",
+        "published_at": "2026-06-24T08:48:39+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -6558,10 +6882,10 @@
     "name": "Palantir",
     "sources": [
       "마술토끼의 투자이야기",
+      "Yahoo Finance Top Stories",
       "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "T3chfeed - 테크피드 미국 주식 인사이트",
-      "Yahoo Finance Top Stories",
       "경제명탐정",
       "경제사냥꾼",
       "주식용사부",
@@ -6577,6 +6901,18 @@
         "url": "https://blog.naver.com/magic_rabb1t/224318180933?fromRss=true&trackingCode=rss",
         "published_at": "Wed, 17 Jun 2026 00:24:00 +0900",
         "reason": "프랑스 국내안보총국(DGSI)은 그동안 팔란티어 소프트웨어를 장기 계약으로 써왔는데요. 26년 6월 16일, 자국 기업 챕스비전(ChapsVision)으로 교체할 것이라는 로이터 보도가 있었어요. https://www.reuters.com/technology/france-invest-655-mln-ai-set-up-common-chatbot-all-state-services-2026-06-16/ 프랑스 국내안보총국은 2015년 파리 테러 직후, 2016년부터 팔란티어 소프트웨어를 도입해 쓰기 시작했는데요. 흩어진 데이터를 빠르게 연결해 수상한 패턴을 찾는 도구로서 팔란티어의 입지는 당시 대안이 없었죠. 2019년 당시 프랑스 국내안보총국 수장이던 니콜라 레르네(Nicolas Lerner)도 자국 기술을 키워야 한다고 말했지만, 마땅.......",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Palantir Technologies(PLTR)에 대한 GROW Small Cap Equity Fund의 논의는 다음과 같습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/grow-small-cap-equity-fund-120321115.html",
+        "published_at": "2026-06-23T12:03:21Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -7145,9 +7481,9 @@
     "name": "TSMC",
     "sources": [
       "마술토끼의 투자이야기",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "경제사냥꾼",
       "강지한 차트연구소",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "올랜도 킴 미국주식",
       "월텍남 - 월스트리트 테크남",
       "블로그 magic_rabb1t",
@@ -7167,6 +7503,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "경제사냥꾼",
@@ -7489,6 +7837,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -8223,6 +8595,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
         "url": "https://youtu.be/tNkX4cjX5_4",
         "published_at": "2026-06-23T12:45:04+00:00",
@@ -8659,6 +9055,299 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "SOXX",
+    "name": "Semiconductor ETF",
+    "sources": [
+      "Google News 국내 증시·반도체",
+      "Google News US Markets AI Semis",
+      "미부기",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "올랜도 킴 미국주식",
+      "경제사냥꾼",
+      "Yahoo Finance Top Stories"
+    ],
+    "source_count": 7,
+    "evidence": [
+      {
+        "source": "Google News 국내 증시·반도체",
+        "source_role": "뉴스",
+        "title": "반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 - 연합인포맥스",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nN1phRHR3QkwwWTl0a3F3Z2ljQUJEWk5XM3Vkb2Y0LXY4Yy1scE83ajZPRmpzVjRNbUJmMm8xYUNkRkQ2XzB6YnRoY25id3NTTjZaeFMwcjVJWUVMQjVUeWFEOGJfUWdkc1cxSnhLZ0I?oc=5",
+        "published_at": "Thu, 04 Jun 2026 23:23:37 GMT",
+        "reason": "반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 &nbsp;&nbsp; 연합인포맥스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "SOXQ Semiconductor ETF는 AI 칩 붐이 NVIDIA, Broadcom, AMD를 상승시키면서 181.74% 급등합니다 - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQamZBUXFhMUhCLTBSdUZYa01sd0xVTzhCODNIdFZadkxVVXpoUGZIVVZzZllRX3U0SkRzZk8yZmJSSTBwd3hnRVZIZUgwdE5wbW44Um55Q3RPakV5QjZObGdHQmRvc093WVM5WEltZnh6cmoxZ0gtTXJlUzh1TDVSTHdjalFQOTVkTVlQX21KVWUzdk1kLVlheGMtcW1IU3BLbUJoeTZTZThITEplTzBPSG9lNVdmM3VPUmpZOXFWYw?oc=5",
+        "published_at": "Mon, 08 Jun 2026 09:30:49 GMT",
+        "reason": "SOXQ Semiconductor ETF, AI 칩 붐으로 NVIDIA, Broadcom, AMD    24/7 Wall St. 상승으로 181.74% 급등",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "미부기",
+        "source_role": "youtube_recommendation",
+        "title": "SOXL 여기 이탈하면 시즌 종료입니다",
+        "url": "https://youtu.be/IxXq3oXJSmA",
+        "published_at": "2026-06-24T13:45:09+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 빅테크 돈 들어가는 곳만 상승한다!!!",
+        "url": "https://youtu.be/2A1yeSKFJbs",
+        "published_at": "2026-06-22T20:43:40+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(주간시황) 주가가 너무 오를때는 단기고점인지 고민하자!!!",
+        "url": "https://youtu.be/h1ZhvkZjOEU",
+        "published_at": "2026-06-21T10:00:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "투자자들이 지금이라도 알아야 할 ‘삼전+닉스 레버리지 ETF’ 투자 포인트",
+        "url": "https://youtu.be/ZB81SoqiByg",
+        "published_at": "",
+        "reason": "님들 투자자들이 알아야 할 삼성전자 플러스 하이닉스 레버리지 ETF 투자 포인트 뭔지 알고 있었어? 삼전닉스 레버리지 ETF가 상장하자마자 4흘 만에 28조가 몰렸다는데이 타이밍에서 지금 구조도 모른 채 따라 들어가면 계좌 전부 녹아 버릴 수도 있어. 경제 사냥꾼이 [음악] 우리 구독자님들 안전하게 투자할 수 있게 핵심만 뜯어왔으니까 딱 1분만 집중해 봐. 삼성전자 SK 하이닉스 레버리지 ETF 코스피 대장주인 두 종목의 하루 수익률을 두 배로 따라가는 국내 최초 단일 종목 레버리지 상품이야. [음악] 지난달 27일 출시되자마자 시장 반응은 말 그대로 폭발적이었어. 상장처 4월 동안 레버리지와 인버스 16종에서 오간 거래 대금만 27조 8,710억 원. 거의 28조 원이 사고 팔렸거든. 근데 지금이 상품이 출시된지 얼마 지나지 않아. 문제가 드러나기 시작했어. 이게 단순 투자판이 아니라 단타판이 돼 버렸거든. 즉 지금 돈이 장기 투자로 들어오고 있는게 아니라는 거지. 개인 투자자들은 같은 기간이 상품들을 구조 2,146억 원어치 샀는데 그중 5조 1,541억 원너치를 다시 팔아치웠어. 쉽게 말해 산 금액의 절반 이상을 4월 안에 접한 거야. 묻어도 두는 투자가 [음악] 아니라 들어갔다 나오고 다시 들어가는 단타판이 돼 버린 거지. 그래서이 상품을 그냥 삼성전자랑 하이닉스 좋으니까 두 배로 먹자라고 보면 안 돼. 지금부터는 수익률보다 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "SOXX ETF는 최근 10,000을 기록했지만, 그 이면에는 반도체 분할이 숨어 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/soxx-etf-recently-hit-10-145122786.html",
+        "published_at": "2026-06-03T14:51:22Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "IONQ",
+    "name": "IonQ",
+    "sources": [
+      "강지한 차트연구소",
+      "올랜도 킴 미국주식",
+      "T3chfeed - 테크피드 미국 주식 인사이트",
+      "경제명탐정",
+      "주식용사부",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
+    ],
+    "source_count": 6,
+    "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(아이온큐) 정부가 밀어주는 이유는?",
+        "url": "https://youtu.be/NqrnIRMMcik",
+        "published_at": "2026-06-24T05:25:52+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(양자섹터) 지금은 방향을 정하는 중이다.",
+        "url": "https://youtu.be/94IvAl1Vp80",
+        "published_at": "2026-06-20T09:16:18+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(아이온큐,금,비트코인) 종전후 어떤 종목이 상승하나?",
+        "url": "https://youtu.be/CSQhG4ixDj4",
+        "published_at": "2026-06-15T05:46:57+00:00",
+        "reason": "안녕하세요. 올랜도 캠킴입니다. 오늘은 아Q와 더불어서 전쟁 종식 후에 어떤 종목들이 가는지에 대해서 한번 살펴보겠습니다. 자, 오늘은 싱킹 아파에 나왔던 내용인데 아무래도 IQ가 좀 달릴 수 있다. 그 내용에 대해서 한번 알아보겠습니다. 가장 완벽한 퀀텀의 순수 플레이어의 투자기 때문에 주가는 더 많이 올라가지 않겠는가? 그렇게 이야기를 하고 있는데 자 그 내용에 대해서 한번 살펴보겠습니다. 자 그래서 그 내용들을 한번 요액해 보게 되면 IONQ는 2010년도 회견년도 1분기에 매출이 6,500만 달러를 기록하면서 분기 사상 최대 실정을 냈고 가이던스는 2,600만에서 2억 7천만 달러로 상향 조정했죠. 그래서 RPO 수주 장고 이런 것들은 전기 대비해서 554%가 급증해서 4억 7천만 달러를 기록하고 있다. 이렇게 말하고 있고 자연큐의 옥스퍼드 아오닉스 인수 그다음에 인수 추진 중인 스카이워의 테크놀로지 폭발적인 확장성을 확보해서 2017년도 8년도까지는 만에서 2만큐T의 달성을 목표를 하고 있고 30억 달러 정도의 현금을 보유하면서 퀀텀 컴퓨팅 네트워킹 보안 제조 각 분야에서 수직 통합을 추진해서 어깨지배력을 위치로 보이고 노리고 있다. 그렇게 말하고 있죠. 자 그럼에도 불구하고 지금 포홀 들어왔을 때 PS 레시오가 79.5배 한 80배 정도 되고 있고 2005년도 6년도 매출 증가율은 104%가 예상이 되고 있다. 그 전반적으",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(아이온큐) 남들이 비난할때 매수하고 칭찬할때는 조심하자!!!",
+        "url": "https://youtu.be/ic1aOliaOxE",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 1ONO 70.14 A +725% Iine tradingview.com/chartROCTiq5/ - 양자 연구 * Bookmariss 1 경제약 PLUS Leaming - Yo... mh Indicators • lonQ, Inc. • 1D• NYSE Q ARCQ• NASDAQ INFQ• NYSE 3.06% LAES • NASDAO-12.26% 49.97% CU",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "아이온큐 양자컴퓨터의 분자구조 모델  #미국주식 #목표주가 #아이온큐 #양자컴퓨터",
+        "url": "https://youtu.be/rF5hgYKZbiA",
+        "published_at": "",
+        "reason": "특히 주목할 점은 이런 분자 구조 모델링과 같은 과제가 고전 컴퓨터로는 몇 년을 해도 절대 풀 수가 없는 전형적인 문제인 것이죠 표에서도 보시는 바와 같이 문제의 크기가 커지면 커질수록 파란색 선의 고정 컴퓨터는 정비례 하면서 수만 년이 걸려 불게 되는 문제를 양성 컴퓨터는 며칠에 걸려 불게 되는 말 그대로 양자 우위의 시점이 달성되는 영역 중 하나가 바로 분자 구조 모델링 시뮬레이션입니다 [음악] 이 분자구조의 특성을 그대로 시뮬레이션함으로써 실험실에서 계속 반복적인 실험을 하며 화학 반응을 살펴봐야 하는 인원들을 대체해 컴퓨터로 말 그대로 시뮬레이션을 무한정 돌려줌으로써 신약개발 그리고 재료 과학 등의 엄청난 퀀텀 점프를 시켜줄 수 있는 잠재력을 지닌 부분이 바로이 분자 구조 모델링 시뮬레이션이며 ioq도이 부분에 매우 힘을 쓰고 있는데 됐습니다",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "아이온큐의 신제품, 포르테 엔터프라이즈 #미국주식 #목표주가 #양자컴퓨터 #아이온큐",
+        "url": "https://youtu.be/SK5XW-9pPOI",
+        "published_at": "",
+        "reason": "기존 포테 모델보다 64배 성능 향상이 되어서 총 343억 개의 가능성을 한 번에 고려할 수 있는 수준이 되었습니다 성능은 향상이 됐음에도 불구하고 크기는 기존 포트 모델보다 40% 줄일 수 있었다고 하는 아큐의 기술력은 정말 신뢰가 가지 않을 수 없었습니다 앞으로 12개월 내로이 아큐 4 엔터프라이 시스템이 고객들에게 인도화 될 예정인데 지난 파트너십을 맺었던 텀 바젤이 이포트 엔터프라이즈를 받게 되는 첫 고객 중 하나가 되겠습니다 기존에 2024년도 아지 35 AQ 달성하겠다는 아이큐는 또다시 약속했던 거보다 15개월이나 일찍 목표를 달성하게 된 것이죠 기존에 내놨던 계획보다 지속해서 조기 달성하는 기업 이보다 더 좋을 수가 있을까요",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "아이온큐의 새로운 원자, 바륨 #아이온큐 #미국주식 #양자컴퓨터",
+        "url": "https://youtu.be/7tOVUuYYl3U",
+        "published_at": "",
+        "reason": "64 AQ부터는 기존에 사용하던 원자번호 70번의 터이 아닌 원자번호 우 6번의 바륨의 이온을 사용한다고 합니다 근본적으로 터보다 더 높은 게이티 즉 더 높은 정확도를 보여줌으로써 터보다 더 정확한 양자 성능을 띄어 좋은 성능을 보여주게 될 것으로 보입니다 이에 더해서 이터는 구하기가 어려운 Earth element 히 토로 분되는 반면에 발은 쉽게 구할 수 있는 부분에서도 것이 추후 확장성에 있어서도 매우 적합한 엘레멘트를 잘 찾아냈다는 생각이 듭니다",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제명탐정",
+        "source_role": "youtube_recommendation",
+        "title": "[5월 5주차 몰아보기] 트럼프 양자 지분 인수부터 엔비디아 광통신·코스피 외국인 90조 매도까지 한 주 총정리",
+        "url": "https://youtu.be/gOMVtFrUoxk",
+        "published_at": "2026-05-31T08:20:53+00:00",
+        "reason": "안녕. 경제명탐정이야. 우리 구독자님들. 트럼프 엔부가 작년부터 미국 산업을 하나씩 골라가며 기업 지분을 인수하고 있는 거 알고 있어? 그리고 지난주 다섯 번째 산업이 추가됐어. 바로 양자 컴퓨팅이야. 미국 상무부가 아홉 개 양자 기업에 총 20억 달러를 꽂아넣었어. 발표 당일 리게티와 디웨이브가 폭등했고 그다음날 한국 KCS와 포토는 상한가를 찍었어. 근데 여기서 더 중요한게 있어. 트럼프 지분 인수 다 똑같이 오른 거 아니거든. 인텔 우리 구독자님들 알지? 트럼프 인정부가 작년 8월에 지분 9.9%를 인수했어. 그 인텔이 9개월 만에 다섯 배 가까이 갔어. 근데 어떤 종목은 단기에 폭등한 후 그대로 되돌렸어. 차이가 뭐였을까? 이번 리포트에서 그 차이점을 확실히 알려줄게. 끝까지 따라와 봐. >> 오늘 영상도 유익하게 시청하시길 바라며 구독과 좋아요, 알람 설정 부탁드립니다. 경제 진실을 파헤치는 경제 명탐정이야. 이번 리포트를 끝까지 보고 나면 우리 구독자님들은 세 가지를 알게 될 거야. 첫 번째 트럼프 정부의 지분 인수가 단순 이벤트가 아니라 산업 정책 패턴이라는 것. 두 번째 인텔이 다섯 배 폭등한 진짜 이유. 세 번째 양자주 아홉 개 중에서 어떤 종목을 봐야 할지 명확한 기준이야. 지금 양자주 매수를 고민 중이라면이 영상 끝까지 보고 결정해. 자 그럼 5월 21일 무슨 일이 벌어졌는지부터 보자. 이날 미국 상무부가 아홉개 ",
+        "target_price": "83달러",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "두 종목을 어떻게 보고 있냐? 여기서 진짜 흥미로운 비대칭이 나와. 오크로는 5월 11일에 JP 모건이 처음으로 분석 보고서를 냈어. 목표가 83달러, 상승 여력 14.5%. 근데 같은시기 다른 곳에선 목표가 120에서 130달러를 먹겼어. JP 모건이 월가 안에서는 가장 보수적인 시각인 거",
+        "confidence": "transcript"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/h7ejUIGpCOo",
+        "published_at": "2026-05-29T03:42:01+00:00",
+        "reason": "자, 어서 들어오세요. 반갑습니다. 2026년 5월 29일 금일은 금요일입니다. 다들 어서 오시고요. 라일 님, 꽃타나 님 어서 오세요. 다들 반갑습니다. 창고 님, 네, 반갑습니다. 자, 오늘의 또 특이점 체크해 보고 가야겠죠? 어디 보자. 거하고. 음. 자, 여기 있습니다. 자, 오늘 공포 타격 지수는 전일 대비 1포인트 하락했고요. 60포인트로 마무리가 되었습니다. 빅수 지수는 전일 대비 3.38% 하락했고 15.74포인트로 마무리가 되었고요. 다음 다우는 0.05% % 상승이 나왔고 나스닥은 0.0 0.91% SP 500은 0.58%로 58%로 상승 마감하였습니다. 특징주로서는 금일 팔란티어, 스노우플레이크, IBM 이렇게 세 종목을 가져와 봤고요. 그리고 원달러 환율은 1493원으로 마무리가 되었고 미국과 이란의 종전 양해 각서 승인을 앞두고 있다라는 그런 어 희소식에 조금 원달러 환율이 조정이 나왔습니다. 등값도 그에 맞춰서 어 달러 인덱스가 어느 정도 조정이 나오고이 M에 대한 얘기가 계속 지속적으로 나오고 있기 때문에 약간 긍정적인 흐름으로 흘러갔다라고 볼 수 있겠습니다. 아직까지 저점은 깨지진 않았는데 그 저점을 좀 지켜주면 한 번 더 반등을 줄 가능성이 있다라고 보는게 맞겠고요. 여기를 깨고 내려간다면 이제 위험해지는 위험해진다라는게 근값에 대한 조정 조정으로 볼 수가 있겠죠. 자, 그로 인해 가지고 근값 그리고 은",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "31,800원",
+        "price_note": "GIS GIS 5% 암호택 아모텍을 한번 노려보죠. 아모택 아모텍을 자 여기서 한번 노려 보겠습니다. 분할 매집을 한번 해 보겠습니다. 아모택 31,800원 900원. 여기 근처입니다. 아무택 모태기 모태기 아모태기 자 그리고 와 변동성 너무 크네. 여기로 잡아야겠다 이거. 자, 분할은 하단 이렇게",
+        "confidence": "transcript"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
+        "url": "https://youtu.be/2X-ugUjZMuo",
+        "published_at": "2026-05-21T16:00:11+00:00",
+        "reason": "Ah. 감사합니다. 아, 네. 민교 님 반갑습니다. 네. 반갑습니다. 일리 님 반갑습니다. 어 젤루 님 별 드셨어요. 우와 빨간색 우와 >> 아 맞아. 별 되신 분 계시 >> 우와 우와 우와 >> 어 원스타 와 >> 원스타 분 계세요? 맞아요. 어 >> 아 와 >> 맞아요. 예 >> 어 빨간색 다른데요. >> 장군님도 생기셨어요. 장군님. >> 네. 코코 님, 올리브 님, 초록사가 님 >> 어 별분 많으십니다. >> 들어오세요. >> 네, 여러분 반갑습니다. 여러분 좋아요 한번씩만 부탁드립니다. 현재 좋아요 21개.네 >> 여러분 반갑습니다. >> 네. 어서 들어오세요. 장군님도 생기셨어요. 장군님도 >> 오 빨간색 우와이 >> 디자인이 그 장군 우리 스타 장성분들 그 차네 >> 맞아요. >> 앞부분 그 번호판에 들어가는 >> 네. >> 그 디자인으로 한 겁니다. >> 어 되게 이쁜데요. 네. >> 빨갛죠. 그 체오맨 타고 나오실 것 같아요. >> 네. 체맨 그죠? >> 그런 거 다 나와야죠. >> G80 나 타고 나오시 >> 지90 지구 예. >> 네. 와 소나무님 마소 급등으로 5억 매도 4% >> 5억에 4%면 얼마죠? 와들 와 >> 5억 매도했습니다. 어 4%면 >> 5 4 20 >> 와 >> 언제 사신 거예요? 언제 >> 평단이 혹시 >> 언제 사셨는데 4% 먹으신 거예요?네 >> 수은 축하드립니다. 네. 여러분 반갑습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "유튜버",
+        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
+        "url": "https://youtu.be/cwMSV6imFo0",
+        "published_at": "2026-05-17T12:41:48+00:00",
+        "reason": "자, 5월 17일 일요일 실시간 방송 진행하도록 하겠습니다. 자, 오늘 상당히 드릴 말씀이 좀 많이 있는데 자, 기사도 좀 많이 좀 준비했고 뭐 뭐 어떻게 굵직한 얘기도 많이 좀 있습니다. 자, 어디 오세요? 초록사가님 1등이시네요. 어유 오세요. 아 모수 님, 우유찬 님, 현캐리 님 어 자 어여 들어오시고요. 반갑습니다. 자, 5월 17일네 김동아 님 벌써부터 살려드리 살려 주시나 살려 줘야 되나요? 네. hj님, 훈니 님, 김동아 님, 미스라이 님, 아기 인생님, 로즈 님 어요. 반갑습니다. 와이 님, 이승전 님, 볼만한 TV 님, 초록상아 님 어시고요. 의자 님, 네, 리즈모로 님 어시고요. 네, 세라 님 어시고 좋아요 한 번씩 부탁드릴게요. 좋아요. 네, 좋아요 한 번씩 부탁드립니다. 어 아기인세님 욕심 부리고 비중 관리 님 제임 제임 님 스틸 님 어 슬픈비 님 어 특형님 오셨네요. 어여서 오세요. 그레나이 님네 감사합니다.네 좋아요 한 번씩 좋아요 누르신 분들 7번 한번 해 주세요. 난 좋아요 눌렀다. 한번 7번 한번 출석 체크로 한번 눌러 주세요. 좋아요 눌러. 좋아요 눌렀다. 7번 한번 깡통 님 어세요. 존보장군 님 어우시고요. 자 출석 체크 7번. 설포비 님, 우이찬 님, TV 님, 왕가리 님, 모노수 님, 세라 님, 리즈모러 님, 와인 님, 승제 님, 제인수님, 초록사님, 청백인호 님, 이상훈 님, 35p 님, 비 욕",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "2,000원",
+        "price_note": "중에서 300 남기고 다 전량 다 매도를 했고 여기서 매수한 물량만 갖고 있고 여기 매수형 물량은 300만 원만 갖고 있습니다. 여기서 제가 2,000원 얼마 매수했는데 대부분 익절을 했습니다. 삼슬라도 익절할 생각이 있었는데 뭐 익절을 하지 못했고 자 목요일 날 요까지 나왔는데 금요일 날 하락",
+        "confidence": "transcript"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "아이온큐의 손실 확대는 정당화 될까?",
+        "url": "https://youtu.be/KyA-NywDwSY",
+        "published_at": "2026-05-07T01:28:24+00:00",
+        "reason": "자, 오늘 아이온가 1분기 실적을 발표했습니다. 매출 6,470만 달러, 전년 동기 대비 755%나 성장을 했죠. 회사가 제시했던 가이던스 상단 그리고 애널리스트 예상치였던 5,100만 달러를 26% 상여했습니다. 아Q는 퀀텀 컴퓨팅이라는 미래의 기술인 이유로 또 경영진 전면 교체를 이후로 의심을 자주 받지만 적어도 약속한 부분들을 계속 지켜준다는 점에서 점점 더 신뢰를 쌓아가고 있는 거 같습니다. 저는 아시다시피 아온Q의 경영진 전면 교체에 대해서 굉장히 부정적인 시각을 갖고 있었는데요. 그에 따라서 팬딩 멤버십에서는 저의 액션을 미리 공유드렸다시피 IQ는 60달러쯤의 투자 원금을 회수했었습니다. 어, 새로운 경영진이 어떤 스타일인지를 알아야 저도 편하게 투자를 할 수 있었기 때문인데요. 하지만 이후 IONQ의 실행력 또 CEO가 영량과 있는 기업들을 잘 인수해 나가는 거 같아서 30달러쯤에 추가 매수를 해 줬었는데요. 오늘 실적을 보면 그래도 계속 믿고 투자할 만하다라는 생각이 들었습니다. 자, 아이온큐처럼 적자 기업을 볼 때는 결국 자기가 한 말을 잘 지키고 있는가를 봐야 된다 생각하는데요. 그런 점에서 아이온 최근 세 개 분기 동안 일관되게 가이던스를 큰 폭으로 상회하는 매출을 보여줬습니다. 단순히 어닝 비트 한두 번이 아니고 매분기 30%씩 넘는 비트를 보여주고 있죠. 3분기는 가이던스보다 37%, 4분기는 55%, 또 2번",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "30달러",
+        "price_note": "야 저도 편하게 투자를 할 수 있었기 때문인데요. 하지만 이후 IONQ의 실행력 또 CEO가 영량과 있는 기업들을 잘 인수해 나가는 거 같아서 30달러쯤에 추가 매수를 해 줬었는데요. 오늘 실적을 보면 그래도 계속 믿고 투자할 만하다라는 생각이 들었습니다. 자, 아이온큐처럼 적자 기업을 볼 때",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "83달러",
+    "buy_zone_summary": "31,800원, 2,000원, 30달러",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "000270",
     "name": "기아",
@@ -9001,6 +9690,30 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamwwdlVVelNmUDBnMkJTa2JXZHFfM3JMYzBxRHNycFJVU1NidUtFYjVBRlhHeTY1MV9GZTQ0VVRBOEdtUm1WOURTTTNnSUdTN2VrRDBVN29CeG5SaVNTRkp6SXBMX1lQY2xPb0FZVTlPdnRqQjFIVFVwTms5X2tRUjFZTzZSZlpWd3F0YXVuZzRHTW9Wb2xv?oc=5",
+        "published_at": "Wed, 24 Jun 2026 11:09:00 GMT",
+        "reason": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago &nbsp;&nbsp; Yahoo Finance",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "$MSFT Stock News: Microsoft Stock Dropped 10% after Copilot - GlobeNewswire",
+        "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNc01uV1J4VmE3SG9hZ2Jaa3k5cUJ4bzRXazgzMmo1TFB2bHdMQ2Z5UTlmSDdZaE9XUkZ4TGtEd1NVT0s1Y3VjTnVIcmx4VTg3X1Naem91Z2dvc2JOaE5INWJzODFWSW1zYlVJVlRLNzMxcWNtSGJrRzJJeklfanNTSXFUNDFJcG5hTVFmcmZqX2ZWcUpMVDhhODF4ZzREY1p0UkVYQlI2aFJ1NHl3aUlfTTB0ZlJ2RG5xdENTcE55UENveTFLRFpwbXlTVm13SkR2UEJvSDBHam9ZeEx5SENBUkMxUlVBNFBmTWE2WkJIazdRcXlrNmwtcUhScFRsODlibGFUX29KN29WOVJYeXhNUHZ6NVVLTnhveThneVdvYi1uYnpSbDIyNk5rcU9vc0tjUFUwM3VBNEpBVFRmVGUyVFV6cUFub0VK?oc=5",
+        "published_at": "Wed, 24 Jun 2026 10:08:00 GMT",
+        "reason": "$MSFT Stock News: Microsoft Stock Dropped 10% after Copilot &nbsp;&nbsp; GlobeNewswire",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "마이크로소프트 주식을 팔아야 할 때인가? 이 분석가가 투자자들에게 퇴출을 경고하는 이유. - 배런의",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkMkJMSHUzM0hOUmJ1X1F6RzI3eXJXOXZNU0NST0hLTU1IanpPbXFhdG9GR1ZPQWZjakppeGlWdVktdU5kWGZLc3FTaDE1NnU3OUtIQlVjSmpJUTRrdFhPV2Jsd3lOc1ZQMUZRNTlXWC1BN05lWGRMa2FB?oc=5",
         "published_at": "Wed, 17 Jun 2026 19:16:00 GMT",
@@ -9188,6 +9901,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "Apple 주식, 사상 최고치를 기록하며 새로운 매수 영역을 연마 - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hKbXhnbUZqd1FNNTBRNG1TUnR6Yk1EZHlCRERjUWRCZ0lyaGtmekNXNFdKNGdkbzRXZnpCWVptYWl5NFlaSS1Ya19BTkhiNk1NU01mSHZPbWEwb3NpXzl5eG84c1dKTTdfenNpQ1ZNT3g4UTBMZW56RWlvbnczT1NSOHd5U1R1eF9SVm1nNWRaNnYzNFJzQU0xQktWUQ?oc=5",
+        "published_at": "Wed, 24 Jun 2026 20:29:00 GMT",
+        "reason": "Apple Stock Polishing New Buy Zone With All-Time High In Sight &nbsp;&nbsp; Investor's Business Daily",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다 - MarketBeat",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUpzel9IQjZ5M1B5VG4tVXFNakJSeVpjRmNxTGtoVWdSREo1ejd3Z0NkZFYxLXREUEp5bkZFRnR0VEd5bzl4S1VMcFlUWksyWUpuUzBENE5NS2JMWGZISzlFYkdmSjFUdDhaQXM3Y3JFUmw3WDFOTVVsUk92VHp2ZWcwdlpMY191eVJSbndGNnlkUXcyWVpyVVJJVQ?oc=5",
         "published_at": "Tue, 23 Jun 2026 18:14:34 GMT",
@@ -9340,248 +10065,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "IONQ",
-    "name": "IonQ",
-    "sources": [
-      "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트",
-      "경제명탐정",
-      "주식용사부",
-      "마피디 미국주식 (테슬라,TQQQ,SOXL)"
-    ],
-    "source_count": 5,
-    "evidence": [
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(양자섹터) 지금은 방향을 정하는 중이다.",
-        "url": "https://youtu.be/94IvAl1Vp80",
-        "published_at": "2026-06-20T09:16:18+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(아이온큐,금,비트코인) 종전후 어떤 종목이 상승하나?",
-        "url": "https://youtu.be/CSQhG4ixDj4",
-        "published_at": "2026-06-15T05:46:57+00:00",
-        "reason": "안녕하세요. 올랜도 캠킴입니다. 오늘은 아Q와 더불어서 전쟁 종식 후에 어떤 종목들이 가는지에 대해서 한번 살펴보겠습니다. 자, 오늘은 싱킹 아파에 나왔던 내용인데 아무래도 IQ가 좀 달릴 수 있다. 그 내용에 대해서 한번 알아보겠습니다. 가장 완벽한 퀀텀의 순수 플레이어의 투자기 때문에 주가는 더 많이 올라가지 않겠는가? 그렇게 이야기를 하고 있는데 자 그 내용에 대해서 한번 살펴보겠습니다. 자 그래서 그 내용들을 한번 요액해 보게 되면 IONQ는 2010년도 회견년도 1분기에 매출이 6,500만 달러를 기록하면서 분기 사상 최대 실정을 냈고 가이던스는 2,600만에서 2억 7천만 달러로 상향 조정했죠. 그래서 RPO 수주 장고 이런 것들은 전기 대비해서 554%가 급증해서 4억 7천만 달러를 기록하고 있다. 이렇게 말하고 있고 자연큐의 옥스퍼드 아오닉스 인수 그다음에 인수 추진 중인 스카이워의 테크놀로지 폭발적인 확장성을 확보해서 2017년도 8년도까지는 만에서 2만큐T의 달성을 목표를 하고 있고 30억 달러 정도의 현금을 보유하면서 퀀텀 컴퓨팅 네트워킹 보안 제조 각 분야에서 수직 통합을 추진해서 어깨지배력을 위치로 보이고 노리고 있다. 그렇게 말하고 있죠. 자 그럼에도 불구하고 지금 포홀 들어왔을 때 PS 레시오가 79.5배 한 80배 정도 되고 있고 2005년도 6년도 매출 증가율은 104%가 예상이 되고 있다. 그 전반적으",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(아이온큐) 남들이 비난할때 매수하고 칭찬할때는 조심하자!!!",
-        "url": "https://youtu.be/ic1aOliaOxE",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 1ONO 70.14 A +725% Iine tradingview.com/chartROCTiq5/ - 양자 연구 * Bookmariss 1 경제약 PLUS Leaming - Yo... mh Indicators • lonQ, Inc. • 1D• NYSE Q ARCQ• NASDAQ INFQ• NYSE 3.06% LAES • NASDAO-12.26% 49.97% CU",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "아이온큐 양자컴퓨터의 분자구조 모델  #미국주식 #목표주가 #아이온큐 #양자컴퓨터",
-        "url": "https://youtu.be/rF5hgYKZbiA",
-        "published_at": "",
-        "reason": "특히 주목할 점은 이런 분자 구조 모델링과 같은 과제가 고전 컴퓨터로는 몇 년을 해도 절대 풀 수가 없는 전형적인 문제인 것이죠 표에서도 보시는 바와 같이 문제의 크기가 커지면 커질수록 파란색 선의 고정 컴퓨터는 정비례 하면서 수만 년이 걸려 불게 되는 문제를 양성 컴퓨터는 며칠에 걸려 불게 되는 말 그대로 양자 우위의 시점이 달성되는 영역 중 하나가 바로 분자 구조 모델링 시뮬레이션입니다 [음악] 이 분자구조의 특성을 그대로 시뮬레이션함으로써 실험실에서 계속 반복적인 실험을 하며 화학 반응을 살펴봐야 하는 인원들을 대체해 컴퓨터로 말 그대로 시뮬레이션을 무한정 돌려줌으로써 신약개발 그리고 재료 과학 등의 엄청난 퀀텀 점프를 시켜줄 수 있는 잠재력을 지닌 부분이 바로이 분자 구조 모델링 시뮬레이션이며 ioq도이 부분에 매우 힘을 쓰고 있는데 됐습니다",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "아이온큐의 신제품, 포르테 엔터프라이즈 #미국주식 #목표주가 #양자컴퓨터 #아이온큐",
-        "url": "https://youtu.be/SK5XW-9pPOI",
-        "published_at": "",
-        "reason": "기존 포테 모델보다 64배 성능 향상이 되어서 총 343억 개의 가능성을 한 번에 고려할 수 있는 수준이 되었습니다 성능은 향상이 됐음에도 불구하고 크기는 기존 포트 모델보다 40% 줄일 수 있었다고 하는 아큐의 기술력은 정말 신뢰가 가지 않을 수 없었습니다 앞으로 12개월 내로이 아큐 4 엔터프라이 시스템이 고객들에게 인도화 될 예정인데 지난 파트너십을 맺었던 텀 바젤이 이포트 엔터프라이즈를 받게 되는 첫 고객 중 하나가 되겠습니다 기존에 2024년도 아지 35 AQ 달성하겠다는 아이큐는 또다시 약속했던 거보다 15개월이나 일찍 목표를 달성하게 된 것이죠 기존에 내놨던 계획보다 지속해서 조기 달성하는 기업 이보다 더 좋을 수가 있을까요",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "아이온큐의 새로운 원자, 바륨 #아이온큐 #미국주식 #양자컴퓨터",
-        "url": "https://youtu.be/7tOVUuYYl3U",
-        "published_at": "",
-        "reason": "64 AQ부터는 기존에 사용하던 원자번호 70번의 터이 아닌 원자번호 우 6번의 바륨의 이온을 사용한다고 합니다 근본적으로 터보다 더 높은 게이티 즉 더 높은 정확도를 보여줌으로써 터보다 더 정확한 양자 성능을 띄어 좋은 성능을 보여주게 될 것으로 보입니다 이에 더해서 이터는 구하기가 어려운 Earth element 히 토로 분되는 반면에 발은 쉽게 구할 수 있는 부분에서도 것이 추후 확장성에 있어서도 매우 적합한 엘레멘트를 잘 찾아냈다는 생각이 듭니다",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "경제명탐정",
-        "source_role": "youtube_recommendation",
-        "title": "[5월 5주차 몰아보기] 트럼프 양자 지분 인수부터 엔비디아 광통신·코스피 외국인 90조 매도까지 한 주 총정리",
-        "url": "https://youtu.be/gOMVtFrUoxk",
-        "published_at": "2026-05-31T08:20:53+00:00",
-        "reason": "안녕. 경제명탐정이야. 우리 구독자님들. 트럼프 엔부가 작년부터 미국 산업을 하나씩 골라가며 기업 지분을 인수하고 있는 거 알고 있어? 그리고 지난주 다섯 번째 산업이 추가됐어. 바로 양자 컴퓨팅이야. 미국 상무부가 아홉 개 양자 기업에 총 20억 달러를 꽂아넣었어. 발표 당일 리게티와 디웨이브가 폭등했고 그다음날 한국 KCS와 포토는 상한가를 찍었어. 근데 여기서 더 중요한게 있어. 트럼프 지분 인수 다 똑같이 오른 거 아니거든. 인텔 우리 구독자님들 알지? 트럼프 인정부가 작년 8월에 지분 9.9%를 인수했어. 그 인텔이 9개월 만에 다섯 배 가까이 갔어. 근데 어떤 종목은 단기에 폭등한 후 그대로 되돌렸어. 차이가 뭐였을까? 이번 리포트에서 그 차이점을 확실히 알려줄게. 끝까지 따라와 봐. >> 오늘 영상도 유익하게 시청하시길 바라며 구독과 좋아요, 알람 설정 부탁드립니다. 경제 진실을 파헤치는 경제 명탐정이야. 이번 리포트를 끝까지 보고 나면 우리 구독자님들은 세 가지를 알게 될 거야. 첫 번째 트럼프 정부의 지분 인수가 단순 이벤트가 아니라 산업 정책 패턴이라는 것. 두 번째 인텔이 다섯 배 폭등한 진짜 이유. 세 번째 양자주 아홉 개 중에서 어떤 종목을 봐야 할지 명확한 기준이야. 지금 양자주 매수를 고민 중이라면이 영상 끝까지 보고 결정해. 자 그럼 5월 21일 무슨 일이 벌어졌는지부터 보자. 이날 미국 상무부가 아홉개 ",
-        "target_price": "83달러",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "두 종목을 어떻게 보고 있냐? 여기서 진짜 흥미로운 비대칭이 나와. 오크로는 5월 11일에 JP 모건이 처음으로 분석 보고서를 냈어. 목표가 83달러, 상승 여력 14.5%. 근데 같은시기 다른 곳에선 목표가 120에서 130달러를 먹겼어. JP 모건이 월가 안에서는 가장 보수적인 시각인 거",
-        "confidence": "transcript"
-      },
-      {
-        "source": "주식용사부",
-        "source_role": "유튜버",
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스, 프리마켓 신고가 달성🔴뉴욕지수 미·이란 종전 합의 임박에 최고치  #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/h7ejUIGpCOo",
-        "published_at": "2026-05-29T03:42:01+00:00",
-        "reason": "자, 어서 들어오세요. 반갑습니다. 2026년 5월 29일 금일은 금요일입니다. 다들 어서 오시고요. 라일 님, 꽃타나 님 어서 오세요. 다들 반갑습니다. 창고 님, 네, 반갑습니다. 자, 오늘의 또 특이점 체크해 보고 가야겠죠? 어디 보자. 거하고. 음. 자, 여기 있습니다. 자, 오늘 공포 타격 지수는 전일 대비 1포인트 하락했고요. 60포인트로 마무리가 되었습니다. 빅수 지수는 전일 대비 3.38% 하락했고 15.74포인트로 마무리가 되었고요. 다음 다우는 0.05% % 상승이 나왔고 나스닥은 0.0 0.91% SP 500은 0.58%로 58%로 상승 마감하였습니다. 특징주로서는 금일 팔란티어, 스노우플레이크, IBM 이렇게 세 종목을 가져와 봤고요. 그리고 원달러 환율은 1493원으로 마무리가 되었고 미국과 이란의 종전 양해 각서 승인을 앞두고 있다라는 그런 어 희소식에 조금 원달러 환율이 조정이 나왔습니다. 등값도 그에 맞춰서 어 달러 인덱스가 어느 정도 조정이 나오고이 M에 대한 얘기가 계속 지속적으로 나오고 있기 때문에 약간 긍정적인 흐름으로 흘러갔다라고 볼 수 있겠습니다. 아직까지 저점은 깨지진 않았는데 그 저점을 좀 지켜주면 한 번 더 반등을 줄 가능성이 있다라고 보는게 맞겠고요. 여기를 깨고 내려간다면 이제 위험해지는 위험해진다라는게 근값에 대한 조정 조정으로 볼 수가 있겠죠. 자, 그로 인해 가지고 근값 그리고 은",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "31,800원",
-        "price_note": "GIS GIS 5% 암호택 아모텍을 한번 노려보죠. 아모택 아모텍을 자 여기서 한번 노려 보겠습니다. 분할 매집을 한번 해 보겠습니다. 아모택 31,800원 900원. 여기 근처입니다. 아무택 모태기 모태기 아모태기 자 그리고 와 변동성 너무 크네. 여기로 잡아야겠다 이거. 자, 분할은 하단 이렇게",
-        "confidence": "transcript"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "5/21 (목) 테슬라 앞으로 방향성은? I 스페이스X 상장 I FSD 중국 승인 I 주가 폭등 I",
-        "url": "https://youtu.be/2X-ugUjZMuo",
-        "published_at": "2026-05-21T16:00:11+00:00",
-        "reason": "Ah. 감사합니다. 아, 네. 민교 님 반갑습니다. 네. 반갑습니다. 일리 님 반갑습니다. 어 젤루 님 별 드셨어요. 우와 빨간색 우와 >> 아 맞아. 별 되신 분 계시 >> 우와 우와 우와 >> 어 원스타 와 >> 원스타 분 계세요? 맞아요. 어 >> 아 와 >> 맞아요. 예 >> 어 빨간색 다른데요. >> 장군님도 생기셨어요. 장군님. >> 네. 코코 님, 올리브 님, 초록사가 님 >> 어 별분 많으십니다. >> 들어오세요. >> 네, 여러분 반갑습니다. 여러분 좋아요 한번씩만 부탁드립니다. 현재 좋아요 21개.네 >> 여러분 반갑습니다. >> 네. 어서 들어오세요. 장군님도 생기셨어요. 장군님도 >> 오 빨간색 우와이 >> 디자인이 그 장군 우리 스타 장성분들 그 차네 >> 맞아요. >> 앞부분 그 번호판에 들어가는 >> 네. >> 그 디자인으로 한 겁니다. >> 어 되게 이쁜데요. 네. >> 빨갛죠. 그 체오맨 타고 나오실 것 같아요. >> 네. 체맨 그죠? >> 그런 거 다 나와야죠. >> G80 나 타고 나오시 >> 지90 지구 예. >> 네. 와 소나무님 마소 급등으로 5억 매도 4% >> 5억에 4%면 얼마죠? 와들 와 >> 5억 매도했습니다. 어 4%면 >> 5 4 20 >> 와 >> 언제 사신 거예요? 언제 >> 평단이 혹시 >> 언제 사셨는데 4% 먹으신 거예요?네 >> 수은 축하드립니다. 네. 여러분 반갑습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
-        "source_role": "유튜버",
-        "title": "5/17 (일) 폭락의 시작일까? (테슬라,엔비디아,마소,아마존,메타,알파벳)",
-        "url": "https://youtu.be/cwMSV6imFo0",
-        "published_at": "2026-05-17T12:41:48+00:00",
-        "reason": "자, 5월 17일 일요일 실시간 방송 진행하도록 하겠습니다. 자, 오늘 상당히 드릴 말씀이 좀 많이 있는데 자, 기사도 좀 많이 좀 준비했고 뭐 뭐 어떻게 굵직한 얘기도 많이 좀 있습니다. 자, 어디 오세요? 초록사가님 1등이시네요. 어유 오세요. 아 모수 님, 우유찬 님, 현캐리 님 어 자 어여 들어오시고요. 반갑습니다. 자, 5월 17일네 김동아 님 벌써부터 살려드리 살려 주시나 살려 줘야 되나요? 네. hj님, 훈니 님, 김동아 님, 미스라이 님, 아기 인생님, 로즈 님 어요. 반갑습니다. 와이 님, 이승전 님, 볼만한 TV 님, 초록상아 님 어시고요. 의자 님, 네, 리즈모로 님 어시고요. 네, 세라 님 어시고 좋아요 한 번씩 부탁드릴게요. 좋아요. 네, 좋아요 한 번씩 부탁드립니다. 어 아기인세님 욕심 부리고 비중 관리 님 제임 제임 님 스틸 님 어 슬픈비 님 어 특형님 오셨네요. 어여서 오세요. 그레나이 님네 감사합니다.네 좋아요 한 번씩 좋아요 누르신 분들 7번 한번 해 주세요. 난 좋아요 눌렀다. 한번 7번 한번 출석 체크로 한번 눌러 주세요. 좋아요 눌러. 좋아요 눌렀다. 7번 한번 깡통 님 어세요. 존보장군 님 어우시고요. 자 출석 체크 7번. 설포비 님, 우이찬 님, TV 님, 왕가리 님, 모노수 님, 세라 님, 리즈모러 님, 와인 님, 승제 님, 제인수님, 초록사님, 청백인호 님, 이상훈 님, 35p 님, 비 욕",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "2,000원",
-        "price_note": "중에서 300 남기고 다 전량 다 매도를 했고 여기서 매수한 물량만 갖고 있고 여기 매수형 물량은 300만 원만 갖고 있습니다. 여기서 제가 2,000원 얼마 매수했는데 대부분 익절을 했습니다. 삼슬라도 익절할 생각이 있었는데 뭐 익절을 하지 못했고 자 목요일 날 요까지 나왔는데 금요일 날 하락",
-        "confidence": "transcript"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "아이온큐의 손실 확대는 정당화 될까?",
-        "url": "https://youtu.be/KyA-NywDwSY",
-        "published_at": "2026-05-07T01:28:24+00:00",
-        "reason": "자, 오늘 아이온가 1분기 실적을 발표했습니다. 매출 6,470만 달러, 전년 동기 대비 755%나 성장을 했죠. 회사가 제시했던 가이던스 상단 그리고 애널리스트 예상치였던 5,100만 달러를 26% 상여했습니다. 아Q는 퀀텀 컴퓨팅이라는 미래의 기술인 이유로 또 경영진 전면 교체를 이후로 의심을 자주 받지만 적어도 약속한 부분들을 계속 지켜준다는 점에서 점점 더 신뢰를 쌓아가고 있는 거 같습니다. 저는 아시다시피 아온Q의 경영진 전면 교체에 대해서 굉장히 부정적인 시각을 갖고 있었는데요. 그에 따라서 팬딩 멤버십에서는 저의 액션을 미리 공유드렸다시피 IQ는 60달러쯤의 투자 원금을 회수했었습니다. 어, 새로운 경영진이 어떤 스타일인지를 알아야 저도 편하게 투자를 할 수 있었기 때문인데요. 하지만 이후 IONQ의 실행력 또 CEO가 영량과 있는 기업들을 잘 인수해 나가는 거 같아서 30달러쯤에 추가 매수를 해 줬었는데요. 오늘 실적을 보면 그래도 계속 믿고 투자할 만하다라는 생각이 들었습니다. 자, 아이온큐처럼 적자 기업을 볼 때는 결국 자기가 한 말을 잘 지키고 있는가를 봐야 된다 생각하는데요. 그런 점에서 아이온 최근 세 개 분기 동안 일관되게 가이던스를 큰 폭으로 상회하는 매출을 보여줬습니다. 단순히 어닝 비트 한두 번이 아니고 매분기 30%씩 넘는 비트를 보여주고 있죠. 3분기는 가이던스보다 37%, 4분기는 55%, 또 2번",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "30달러",
-        "price_note": "야 저도 편하게 투자를 할 수 있었기 때문인데요. 하지만 이후 IONQ의 실행력 또 CEO가 영량과 있는 기업들을 잘 인수해 나가는 거 같아서 30달러쯤에 추가 매수를 해 줬었는데요. 오늘 실적을 보면 그래도 계속 믿고 투자할 만하다라는 생각이 들었습니다. 자, 아이온큐처럼 적자 기업을 볼 때",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "83달러",
-    "buy_zone_summary": "31,800원, 2,000원, 30달러",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "SOXX",
-    "name": "Semiconductor ETF",
-    "sources": [
-      "Google News 국내 증시·반도체",
-      "Google News US Markets AI Semis",
-      "올랜도 킴 미국주식",
-      "경제사냥꾼",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 5,
-    "evidence": [
-      {
-        "source": "Google News 국내 증시·반도체",
-        "source_role": "뉴스",
-        "title": "반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 - 연합인포맥스",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nN1phRHR3QkwwWTl0a3F3Z2ljQUJEWk5XM3Vkb2Y0LXY4Yy1scE83ajZPRmpzVjRNbUJmMm8xYUNkRkQ2XzB6YnRoY25id3NTTjZaeFMwcjVJWUVMQjVUeWFEOGJfUWdkc1cxSnhLZ0I?oc=5",
-        "published_at": "Thu, 04 Jun 2026 23:23:37 GMT",
-        "reason": "반도체 ETF 세대교체…지수형 팔고 '단일종목·압축형' 베팅 &nbsp;&nbsp; 연합인포맥스",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News US Markets AI Semis",
-        "source_role": "뉴스",
-        "title": "SOXQ Semiconductor ETF는 AI 칩 붐이 NVIDIA, Broadcom, AMD를 상승시키면서 181.74% 급등합니다 - 24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQamZBUXFhMUhCLTBSdUZYa01sd0xVTzhCODNIdFZadkxVVXpoUGZIVVZzZllRX3U0SkRzZk8yZmJSSTBwd3hnRVZIZUgwdE5wbW44Um55Q3RPakV5QjZObGdHQmRvc093WVM5WEltZnh6cmoxZ0gtTXJlUzh1TDVSTHdjalFQOTVkTVlQX21KVWUzdk1kLVlheGMtcW1IU3BLbUJoeTZTZThITEplTzBPSG9lNVdmM3VPUmpZOXFWYw?oc=5",
-        "published_at": "Mon, 08 Jun 2026 09:30:49 GMT",
-        "reason": "SOXQ Semiconductor ETF, AI 칩 붐으로 NVIDIA, Broadcom, AMD    24/7 Wall St. 상승으로 181.74% 급등",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 빅테크 돈 들어가는 곳만 상승한다!!!",
-        "url": "https://youtu.be/2A1yeSKFJbs",
-        "published_at": "2026-06-22T20:43:40+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(주간시황) 주가가 너무 오를때는 단기고점인지 고민하자!!!",
-        "url": "https://youtu.be/h1ZhvkZjOEU",
-        "published_at": "2026-06-21T10:00:04+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
-        "title": "투자자들이 지금이라도 알아야 할 ‘삼전+닉스 레버리지 ETF’ 투자 포인트",
-        "url": "https://youtu.be/ZB81SoqiByg",
-        "published_at": "",
-        "reason": "님들 투자자들이 알아야 할 삼성전자 플러스 하이닉스 레버리지 ETF 투자 포인트 뭔지 알고 있었어? 삼전닉스 레버리지 ETF가 상장하자마자 4흘 만에 28조가 몰렸다는데이 타이밍에서 지금 구조도 모른 채 따라 들어가면 계좌 전부 녹아 버릴 수도 있어. 경제 사냥꾼이 [음악] 우리 구독자님들 안전하게 투자할 수 있게 핵심만 뜯어왔으니까 딱 1분만 집중해 봐. 삼성전자 SK 하이닉스 레버리지 ETF 코스피 대장주인 두 종목의 하루 수익률을 두 배로 따라가는 국내 최초 단일 종목 레버리지 상품이야. [음악] 지난달 27일 출시되자마자 시장 반응은 말 그대로 폭발적이었어. 상장처 4월 동안 레버리지와 인버스 16종에서 오간 거래 대금만 27조 8,710억 원. 거의 28조 원이 사고 팔렸거든. 근데 지금이 상품이 출시된지 얼마 지나지 않아. 문제가 드러나기 시작했어. 이게 단순 투자판이 아니라 단타판이 돼 버렸거든. 즉 지금 돈이 장기 투자로 들어오고 있는게 아니라는 거지. 개인 투자자들은 같은 기간이 상품들을 구조 2,146억 원어치 샀는데 그중 5조 1,541억 원너치를 다시 팔아치웠어. 쉽게 말해 산 금액의 절반 이상을 4월 안에 접한 거야. 묻어도 두는 투자가 [음악] 아니라 들어갔다 나오고 다시 들어가는 단타판이 돼 버린 거지. 그래서이 상품을 그냥 삼성전자랑 하이닉스 좋으니까 두 배로 먹자라고 보면 안 돼. 지금부터는 수익률보다 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "SOXX ETF는 최근 10,000을 기록했지만, 그 이면에는 반도체 분할이 숨어 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/soxx-etf-recently-hit-10-145122786.html",
-        "published_at": "2026-06-03T14:51:22Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
       }
     ],
     "stance": "복수 출처 추천/관심",
@@ -9946,6 +10429,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
         "url": "https://youtu.be/tNkX4cjX5_4",
         "published_at": "2026-06-23T12:45:04+00:00",
@@ -10180,6 +10687,18 @@
       {
         "source": "주식용사부",
         "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | SK하이닉스·삼성전자 급락 후 전망🔴뉴욕증시 AI·반도체주 매도세에 하락  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/uajkQGmEnqE",
+        "published_at": "2026-06-24T04:00:40+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 시총1위 등극한 sk하이닉스 향후 전망🔴구글, 아마존 급락에 나스닥 하락 마감  #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/rt_BlUAnx5w",
         "published_at": "2026-06-23T03:49:04+00:00",
@@ -10387,6 +10906,30 @@
     ],
     "source_count": 4,
     "evidence": [
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "6/24 (수) 위험한 나스닥 큰 조정 얼마 안남았다..?",
+        "url": "https://youtu.be/mPCPcKO6G5w",
+        "published_at": "2026-06-24T15:34:12+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
       {
         "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
         "source_role": "youtube_recommendation",
@@ -10598,6 +11141,144 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "domestic",
+    "ticker": "028260",
+    "name": "삼성물산",
+    "sources": [
+      "Google News 한국 주식 종목",
+      "연합뉴스 경제",
+      "강지한 차트연구소",
+      "경제사냥꾼"
+    ],
+    "source_count": 4,
+    "evidence": [
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 - 네이버 프리미엄콘텐츠",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTTFXVFRsOHJfSy1XR05tTzZVRllxbXd6TkR4NWs2TE1CRUhjX0V4MHEtQ280YUtUeE1kaUlNc0F0Skt2UTR4VThTQU9uNDg1U2ZUclBLR2gySU5oMHJpRlg5cjdVN28wZDduOTZwSHJTbkc1ZEVUYlczZ0NQOVFrMXFBVQ?oc=5",
+        "published_at": "Wed, 17 Jun 2026 05:56:00 GMT",
+        "reason": "삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 &nbsp;&nbsp; 네이버 프리미엄콘텐츠",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "연합뉴스 경제",
+        "source_role": "뉴스",
+        "title": "하나증권 \"삼성물산, 주가 여전히 저평가…목표가↑\"",
+        "url": "https://www.yna.co.kr/view/AKR20260608028700008",
+        "published_at": "Mon, 8 Jun 2026 08:45:06 +0900",
+        "reason": "(서울=연합뉴스) 이민영 기자 = 하나증권은 8일 삼성물산[028260]에 대해 최근 주가 상승에도 밸류에이션(평가가치) 매력이 여전히 크다며 ...",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
+        "url": "https://youtu.be/tNkX4cjX5_4",
+        "published_at": "2026-06-23T12:45:04+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
+        "url": "https://youtu.be/xgVM7TjGHYI",
+        "published_at": "2026-06-23T10:45:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "종전 '호재'에도, 현대건설만 역대급 폭락장 온 이유",
+        "url": "https://youtu.be/JUXUOeJpMpU",
+        "published_at": "",
+        "reason": "님들 지금 종전 소식으로 한국 건설주들 날개 달았는데 현대 건설만 역대급 폭락장 온 이유 뭔지 알고 있었어? 이것도 모르고 현대 건설 저점 매수라고 착각했다가 큰일 날 수도 있다는데 경제 사냥꾼이 월과 시점으로 뭔지 싹 다 뜯어왔으니까 딱 1분만 [음악] 집중해 봐. 지금 트럼프가 이란과 종전 합의 인박했다고 하면서 건설주들이 단체로 날아갔어. GS 건설 삼성물산도 튀었고 대우 건설도 같이 올랐어. 중동에서 부서진 시설 다시 짓는 재건 수주 기대감 때문이지. 근데 딱 한 종목 현대 건설만 거꾸로 8% 가까이 빠지고 있어. 다른 건설사는 종전 수혜만 깔끔하게 봤는데 현대 건설은 그 수혜를 덮어 버릴만큼 무거운 악재가 따로 쌓여 있었던 거야. 같은 건설주인데 왜 혼자만 반대로 가는 걸까? 사실 현대 건설은 안 오른게 아니라 너무 빨리 올라버린 거야. 종전 기대의 미국 원전 수주 기대. 거기다이자 한 푼 없이 5,억을 빌리는 데까지 성공했거든. 이게 빚지긴 한데 이자가 0이라 회사피 부담을 줄여주는 좋은 카드였어.이 세계가 겹치면서 직전 하루에만 21% 폭등 며칠 세 거의 30%가 튀어버린 [음악] 거지. 이러니까 거래소가 너무 과열됐다고 투자주의 종목으로 딱 찍어 버렸고 그동안 먹은 사람들이 차익 챙기려고 한꺼번에 던지는 거지. 거기다 GTX 삼성역 철근 누락 사건도 한목했는데 지하 기둥 여개 중에 게가 설계보다 철근이 빠진 채로 시공된",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "연기금•기관이 벌써부터 쓸어 담고있는 8월까지 최소2배 오를 한국주식 저평가 우량주 공개",
+        "url": "https://youtu.be/S3h-6XbSZsA",
+        "published_at": "2026-06-16T12:36:52+00:00",
+        "reason": "지금 사두면 8월까지 최소 두 배 급등할 종목 이미 정해져 있습니다. 제가 일요일에 종전 수혜주로 삼성물산 두빌 DLNC 얘기드렸죠. 각각 14%, [음악] 12%, 20% 급등했습니다. 그런데 이건 시작에 불과합니다. 8월까지 미친 듯이 오늘 저평가 우량주 세 종목 영상 끝까지 보셔서 절대 놓치지 마세요. 첫 번째 삼성 ENA 단순 건설 아닙니다. 세계 최대 석유 기업 아람코와 손잡고 무려 8조원 규모 LNG 사업 수주했죠. 수주 장구만 12조원이 넘고 중동 재건 LNG 삼성전자 투자 확대까지 돈 들어올 곳 넘칩니다. 국민 연금도 지분 7% 넘게 보유하고 있죠. 주가 레벨이 달라질 겁니다. 두 번째 K뱅크 국내 1위 코인 거래소 업비트랑 1대일로 연동이 되죠. 최근 한국은행이 7월 금리 인상 가능성 강하게 시사하면서 연기금 기관 미친듯이 쓸어담고 있습니다. 국가 이제 시작입니다. 마지막 대한항공 보잉 에어버스와 협력하는 국내 최대 항공사죠. 특히 글로벌 항공화물 수송량 세계 7위로 국민 연금이 집은 7% 이상 들고 있습니다. 항공수요 회복과 아시아나 합병까지 완료되면 주가 폭발할 겁니다. 그래서이 종목들 내일 당장 사냐? 아닙니다. 아무리 좋은 기업이라도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 27,000원 돌파한 대우 건설 6월 8일 오전 11시 19,000원대 상승님 드렸고 55,000원 돌파한 이넥스도 저",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰 손들이 꾸준히 모아가는 1년뒤 5배 급등할 한국주식 방산 대장주 3개 공개",
+        "url": "https://youtu.be/IszuOCAmEL8",
+        "published_at": "2026-06-16T10:45:22+00:00",
+        "reason": "전쟁 끝났다고 방산주 던지세요? 그래서 돈 못 버는 겁니다. 제가 일요일에 종전 수혜주로 삼성물산 두회빌 DLNC 얘기드렸죠? 각각 14%, 12%, [음악] 20% 급등했습니다. 그런데 이건 시작에 불과합니다. 진짜 돈은 지금부터니까 연말까지 미친듯이 급등할 방산 대장주 세 종목 영상 끝까지 보셔서 이번에는 놓치지 마세요. 첫 번째 현대로템 K2 전차 핵심 기업이죠. 폴란드에만 K2 전차 1,000대 공급합니다. 심지어 중동 맞춤형 전차 K2M이 개발 완료했죠. 이라크와 K2 전차 250대 수출 논의 중입니다. 주가 이제 시작입니다. 두 번째 LIRG 디펜스에 네네어로 사우디 UAE의 청궁투 반공 시스템 공급하죠. 러우 전쟁 이후 유럽 국방비가 17% 폭증한 걸 보면 본격적인 수주 이제 시작입니다. 게다가 나토 시장 진출을 위해 독일 방상 기업 라인 메탈과 합작 법인까지 설립했죠. 주가 레벨이 달라질 겁니다. 마지막 하나에어로스페이스 폴란드의 5조 6천억 규모 천무 미사일 공급하죠. 수주 장구만 40조에 육박합니다. 사우디 국방부와 지상 무기, 현대와 프로젝트 성사시 주가 폭발할 겁니다. 그래서이 종목들 내일 당장 사냐? 아닙니다. 아무리 좋은 기업이라도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 27,000원 돌파한 대우 건설 6월 8일 오전 11시 19,000원대 상승할림드렸고 55,000원 돌파한 이터닉스도 ",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "미국 이란 전쟁 끝나는 순간 7월까지 100% 급등할 종전 수혜주 3개 공개",
+        "url": "https://youtu.be/3BW-48mYncc",
+        "published_at": "2026-06-14T10:45:12+00:00",
+        "reason": "전쟁 끝나면 7월까지 100% 급등할 종목 이미 정해져 있습니다. 제가 LG 전자 14만 원대, LG노택 40만 원대, 삼성전자 16만 원대에 겁먹지 말고 담으라고 했죠. 이번에는 끝까지 보셔서 7월까지 미친듯 시오를 종전 수해주 세 종목 절대 놓치지 마세요. 첫 번째 삼성물산 아랍 에미리트 40조원 규모의 중동 바라카 원전 건설 경험 있죠. 최근 아랍 에미리트 원자력 공사 M까지 체결했습니다. 전쟁 끝나면 발전소 인프라 복구에 가장 먼저 돈이 쏠릴 겁니다. 지금 주가 마지막 기회입니다. 두 번째 DLNC 미국의 SMR 기업 X에너지 핵심 파트너죠. 지분 보유는 물론 최근 150억 규모의 4세대 SMR 설계까지 따냈습니다. 국내 건설사 최초입니다. 심지어 해당 원전에서 생산되는 전력은 아마존 데이터 센터로 들어갑니다. 주가 이제 시작입니다. 마지막 두애빌 미국의 세 기업 뉴스케일 X에너지 테라파워랑 [목을 가다듬음] 협력하고 있죠. 최근에는 체코 신규전에도 참여하면서 글로벌 시장 확대 중입니다. 전쟁이 끝나고 도시를 다시 세우려면 결국 전기가 핵심입니다. 주가 요동 칠 겁니다. 그래서이 종목들 내일 당장 사냐? 아닙니다. 아무리 좋은 기업이라도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 금요일 상한가 현대 건설 12만 원대 상승할 림 미리 드렸고 24% 급등한 한미 반도체도 목요일 점심 28만 원대 상승할 림 분명히",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      },
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "경제사냥꾼 구독자 전용, 종목 분석 : 대우건설",
+        "url": "https://youtu.be/X6kfI4zhGAA",
+        "published_at": "",
+        "reason": "[0.0s] 님들, 대우건설이 1년 만에 주가 772% 터졌다가 한 달 만에 폭락한 진짜 이유 뭔지 알고 있었어? [5.2s] 그래서 지금 대우건설 들고 있는 개미들 전부 다 던지고 있는데 [8.1s] 증권사들은 오히려 목표과를 줄줄이 올리고 있었어. [10.5s] 이 이유 모르고 무작정 던지면 나중에 주가 2배 올랐을 때 진짜 후회할 수도 있으니까 [14.4s] 더 늦기 전에 딱 1분만 집중해봐. [16.1s] 대우건설, 아파트 프로지오 짓는 회사로 유명하지만 [18.7s] 사실 이 회사의 진짜 정체는 원전, LNG, 해외 플랜트까지 다하는 종합 인프라 건설사야. [23.4s] 특히 지금 시장이 주목하는 건 아파트가 아니라 [25.5s] 체코 원전 시공주관사 글로벌 LNG 원청사라는 타이틀이다 보니 [28.6s] 우리 구독자님들도 많이 궁금해하셨던 종목이지. [30.9s] 근데 지금 영상 제작 시간 기준으로 대우건설 주가 보면 25,050원이야. [34.4s] 52주 최저점이 3320원이었으니까 거기서 약 7.5배 넘게 올랐다가 [38.4s] 5.3만 350원 찍고 37% 넘게 빠진 거지. [41.3s] 그래서 다들 이렇게 생각할 거야. [42.9s] 원전 테마 끝났구나, 건설주 법을 터진 거 아니냐 라고 말이야. [45.7s] 근데 이번 하락의 진짜 원인은 [47.2s] 대우건설이 깨진 게 아니라 주가만 너무 빨리 앞서갔기 때문이",
+        "target_price": "5만원",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "익 2556억 원 전년 대비 69% 폭증했어. [97.2s] 신규 수주도 3조 4천억으로 21% 들었고 [99.6s] NH 투자 증권은 목표가 5만원을 제시했어. [101.8s] 지금 영상 제작 시간 기준 주가 대비 최대 96% 상승. [104.9s] 그러니까 2배 정도 상승 여력이 있다는",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "5만원",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "global",
     "ticker": "ARM",
     "name": "Arm",
@@ -10736,47 +11417,35 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
-    "region": "domestic",
-    "ticker": "028260",
-    "name": "삼성물산",
+    "region": "global",
+    "ticker": "ASML",
+    "name": "ASML",
     "sources": [
-      "Google News 한국 주식 종목",
-      "연합뉴스 경제",
+      "마술토끼의 투자이야기",
+      "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "강지한 차트연구소",
-      "경제사냥꾼"
+      "Yahoo Finance Top Stories"
     ],
     "source_count": 4,
     "evidence": [
       {
-        "source": "Google News 한국 주식 종목",
-        "source_role": "뉴스",
-        "title": "삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 - 네이버 프리미엄콘텐츠",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTTFXVFRsOHJfSy1XR05tTzZVRllxbXd6TkR4NWs2TE1CRUhjX0V4MHEtQ280YUtUeE1kaUlNc0F0Skt2UTR4VThTQU9uNDg1U2ZUclBLR2gySU5oMHJpRlg5cjdVN28wZDduOTZwSHJTbkc1ZEVUYlczZ0NQOVFrMXFBVQ?oc=5",
-        "published_at": "Wed, 17 Jun 2026 05:56:00 GMT",
-        "reason": "삼성전자 주식을 싸게 사는 방법? 1년간 6배 상승한 삼성물산 주가 전망 &nbsp;&nbsp; 네이버 프리미엄콘텐츠",
+        "source": "마술토끼의 투자이야기",
+        "source_role": "blog_recommendation",
+        "title": "니콘, 반도체 노광장비 회복 노린다 (feat. ArF)",
+        "url": "https://blog.naver.com/magic_rabb1t/224306331298?fromRss=true&trackingCode=rss",
+        "published_at": "Fri, 05 Jun 2026 00:53:00 +0900",
+        "reason": "26년 5월 28일 보도에 따르면, 니콘이 반도체 노광장비 시장 점유율 회복을 노리고 있다고 해요. ASML이 80% 이상 시장점유율을 보유한 상황에서 가격 경쟁력으로 차별화를 시도하겠다고 했죠. 그러면서 미국·아시아 대형 반도체 업체들과 ArF(불화아르곤) 노광장비 신규 주문에 대해 논의하고 있다고 말했어요. 오무라 야스히로는 26년 4월 1일 부로 취임한 니콘의 신임 CEO인데요. 취임 약 두 달만에 공개 인터뷰 자리에서 이런 전략을 밝힌거에요. 니콘이 노리고 있는건 ASML이 독점하고 있는 EUV 장비가 아니고, ArF(불화아르곤) 장비를 말하는거에요. ArF 장비는 반도체 제조 중 포토리소그래피라고 불리는 노광 공정에서 사용되는데요. 노.......",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
       },
       {
-        "source": "연합뉴스 경제",
-        "source_role": "뉴스",
-        "title": "하나증권 \"삼성물산, 주가 여전히 저평가…목표가↑\"",
-        "url": "https://www.yna.co.kr/view/AKR20260608028700008",
-        "published_at": "Mon, 8 Jun 2026 08:45:06 +0900",
-        "reason": "(서울=연합뉴스) 이민영 기자 = 하나증권은 8일 삼성물산[028260]에 대해 최근 주가 상승에도 밸류에이션(평가가치) 매력이 여전히 크다며 ...",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
-        "url": "https://youtu.be/tNkX4cjX5_4",
-        "published_at": "2026-06-23T12:45:04+00:00",
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 폭락 가능성, 대비하지 않으면 계좌가 박살날 수 있습니다.",
+        "url": "https://youtu.be/S7pMSswL9XY",
+        "published_at": "2026-06-24T09:08:14+00:00",
         "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -10786,78 +11455,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
-        "title": "코스피 10% 폭락한 지금이 저점 매수할 타이밍, (젠슨황이 엔비디아 본사 초청한 핵심 한국기업 대장주 3개 공개)",
-        "url": "https://youtu.be/xgVM7TjGHYI",
-        "published_at": "2026-06-23T10:45:38+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
-        "title": "종전 '호재'에도, 현대건설만 역대급 폭락장 온 이유",
-        "url": "https://youtu.be/JUXUOeJpMpU",
-        "published_at": "",
-        "reason": "님들 지금 종전 소식으로 한국 건설주들 날개 달았는데 현대 건설만 역대급 폭락장 온 이유 뭔지 알고 있었어? 이것도 모르고 현대 건설 저점 매수라고 착각했다가 큰일 날 수도 있다는데 경제 사냥꾼이 월과 시점으로 뭔지 싹 다 뜯어왔으니까 딱 1분만 [음악] 집중해 봐. 지금 트럼프가 이란과 종전 합의 인박했다고 하면서 건설주들이 단체로 날아갔어. GS 건설 삼성물산도 튀었고 대우 건설도 같이 올랐어. 중동에서 부서진 시설 다시 짓는 재건 수주 기대감 때문이지. 근데 딱 한 종목 현대 건설만 거꾸로 8% 가까이 빠지고 있어. 다른 건설사는 종전 수혜만 깔끔하게 봤는데 현대 건설은 그 수혜를 덮어 버릴만큼 무거운 악재가 따로 쌓여 있었던 거야. 같은 건설주인데 왜 혼자만 반대로 가는 걸까? 사실 현대 건설은 안 오른게 아니라 너무 빨리 올라버린 거야. 종전 기대의 미국 원전 수주 기대. 거기다이자 한 푼 없이 5,억을 빌리는 데까지 성공했거든. 이게 빚지긴 한데 이자가 0이라 회사피 부담을 줄여주는 좋은 카드였어.이 세계가 겹치면서 직전 하루에만 21% 폭등 며칠 세 거의 30%가 튀어버린 [음악] 거지. 이러니까 거래소가 너무 과열됐다고 투자주의 종목으로 딱 찍어 버렸고 그동안 먹은 사람들이 차익 챙기려고 한꺼번에 던지는 거지. 거기다 GTX 삼성역 철근 누락 사건도 한목했는데 지하 기둥 여개 중에 게가 설계보다 철근이 빠진 채로 시공된",
+        "title": "SK하이닉스 미국 ADR 상장 비공개 서류 제출한 최태원 회장의 진짜 목적",
+        "url": "https://youtu.be/McgUN7OVQSk",
+        "published_at": "2026-06-18T10:45:16+00:00",
+        "reason": "하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 상장 절차까지 밟고 있냐는 거죠. 그것도 1초에 150만 원씩 버는 초 거대 기업이 말입니다. 여기에 명확한 목적이 숨겨져 있습니다. NBDI에 들어갈 차세대 HBM 생산 확대와 미국 첨단 패키징 공장 그리고 ASML EUB 장비 확보까지 앞으로도 수십조원의 투자가 필요한 겁니다. 게다가 미국 상장 이후에는 NBI, TSMC, 브로드컴 같은 글로벌 AI 반도체 대표 종목들이 담긴 ETF 편입 가능성까지도 커지죠. 그렇게 되면 코리아 디스카운트로 PR 여섯 배에서 일곱배 수준에 머물던 가치가 미국 메모리 업체 마이크론처럼 PER 11배 수준까지 재평가 받을 수 있다는 겁니다. 그런데 오늘처럼 신고가를 찍은 날 바로 들어가기 부담되는 분들 많죠. 제가 하이닉스 82만 원대에도 말씀드렸고 240만 원 찍고 빠질 때는 233만 원에 하락할 림도 드렸습니다. 그리고 최근 신곡가 돌파 직전에도 다시 상승할림 드렸죠. 이렇게 실시간 상승하락 알림은 구독자님들께만 무료로 보내 드리고 있으니 언제 사고 언제 팔아야 할지 혼자 판단하기 어렵다면 댓글 확인해 보세요. 하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 ",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
       },
       {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "연기금•기관이 벌써부터 쓸어 담고있는 8월까지 최소2배 오를 한국주식 저평가 우량주 공개",
-        "url": "https://youtu.be/S3h-6XbSZsA",
-        "published_at": "2026-06-16T12:36:52+00:00",
-        "reason": "지금 사두면 8월까지 최소 두 배 급등할 종목 이미 정해져 있습니다. 제가 일요일에 종전 수혜주로 삼성물산 두빌 DLNC 얘기드렸죠. 각각 14%, [음악] 12%, 20% 급등했습니다. 그런데 이건 시작에 불과합니다. 8월까지 미친 듯이 오늘 저평가 우량주 세 종목 영상 끝까지 보셔서 절대 놓치지 마세요. 첫 번째 삼성 ENA 단순 건설 아닙니다. 세계 최대 석유 기업 아람코와 손잡고 무려 8조원 규모 LNG 사업 수주했죠. 수주 장구만 12조원이 넘고 중동 재건 LNG 삼성전자 투자 확대까지 돈 들어올 곳 넘칩니다. 국민 연금도 지분 7% 넘게 보유하고 있죠. 주가 레벨이 달라질 겁니다. 두 번째 K뱅크 국내 1위 코인 거래소 업비트랑 1대일로 연동이 되죠. 최근 한국은행이 7월 금리 인상 가능성 강하게 시사하면서 연기금 기관 미친듯이 쓸어담고 있습니다. 국가 이제 시작입니다. 마지막 대한항공 보잉 에어버스와 협력하는 국내 최대 항공사죠. 특히 글로벌 항공화물 수송량 세계 7위로 국민 연금이 집은 7% 이상 들고 있습니다. 항공수요 회복과 아시아나 합병까지 완료되면 주가 폭발할 겁니다. 그래서이 종목들 내일 당장 사냐? 아닙니다. 아무리 좋은 기업이라도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 27,000원 돌파한 대우 건설 6월 8일 오전 11시 19,000원대 상승님 드렸고 55,000원 돌파한 이넥스도 저",
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "ASML CEO는 EU 집행위원회가 '전략적 프로젝트'를 지시하려고 해서는 안 된다고 말했습니다.",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/asml-ceo-says-eu-commission-100938436.html",
+        "published_at": "2026-06-05T10:32:30Z",
+        "reason": "요약 없음",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "큰 손들이 꾸준히 모아가는 1년뒤 5배 급등할 한국주식 방산 대장주 3개 공개",
-        "url": "https://youtu.be/IszuOCAmEL8",
-        "published_at": "2026-06-16T10:45:22+00:00",
-        "reason": "전쟁 끝났다고 방산주 던지세요? 그래서 돈 못 버는 겁니다. 제가 일요일에 종전 수혜주로 삼성물산 두회빌 DLNC 얘기드렸죠? 각각 14%, 12%, [음악] 20% 급등했습니다. 그런데 이건 시작에 불과합니다. 진짜 돈은 지금부터니까 연말까지 미친듯이 급등할 방산 대장주 세 종목 영상 끝까지 보셔서 이번에는 놓치지 마세요. 첫 번째 현대로템 K2 전차 핵심 기업이죠. 폴란드에만 K2 전차 1,000대 공급합니다. 심지어 중동 맞춤형 전차 K2M이 개발 완료했죠. 이라크와 K2 전차 250대 수출 논의 중입니다. 주가 이제 시작입니다. 두 번째 LIRG 디펜스에 네네어로 사우디 UAE의 청궁투 반공 시스템 공급하죠. 러우 전쟁 이후 유럽 국방비가 17% 폭증한 걸 보면 본격적인 수주 이제 시작입니다. 게다가 나토 시장 진출을 위해 독일 방상 기업 라인 메탈과 합작 법인까지 설립했죠. 주가 레벨이 달라질 겁니다. 마지막 하나에어로스페이스 폴란드의 5조 6천억 규모 천무 미사일 공급하죠. 수주 장구만 40조에 육박합니다. 사우디 국방부와 지상 무기, 현대와 프로젝트 성사시 주가 폭발할 겁니다. 그래서이 종목들 내일 당장 사냐? 아닙니다. 아무리 좋은 기업이라도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 27,000원 돌파한 대우 건설 6월 8일 오전 11시 19,000원대 상승할림드렸고 55,000원 돌파한 이터닉스도 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "미국 이란 전쟁 끝나는 순간 7월까지 100% 급등할 종전 수혜주 3개 공개",
-        "url": "https://youtu.be/3BW-48mYncc",
-        "published_at": "2026-06-14T10:45:12+00:00",
-        "reason": "전쟁 끝나면 7월까지 100% 급등할 종목 이미 정해져 있습니다. 제가 LG 전자 14만 원대, LG노택 40만 원대, 삼성전자 16만 원대에 겁먹지 말고 담으라고 했죠. 이번에는 끝까지 보셔서 7월까지 미친듯 시오를 종전 수해주 세 종목 절대 놓치지 마세요. 첫 번째 삼성물산 아랍 에미리트 40조원 규모의 중동 바라카 원전 건설 경험 있죠. 최근 아랍 에미리트 원자력 공사 M까지 체결했습니다. 전쟁 끝나면 발전소 인프라 복구에 가장 먼저 돈이 쏠릴 겁니다. 지금 주가 마지막 기회입니다. 두 번째 DLNC 미국의 SMR 기업 X에너지 핵심 파트너죠. 지분 보유는 물론 최근 150억 규모의 4세대 SMR 설계까지 따냈습니다. 국내 건설사 최초입니다. 심지어 해당 원전에서 생산되는 전력은 아마존 데이터 센터로 들어갑니다. 주가 이제 시작입니다. 마지막 두애빌 미국의 세 기업 뉴스케일 X에너지 테라파워랑 [목을 가다듬음] 협력하고 있죠. 최근에는 체코 신규전에도 참여하면서 글로벌 시장 확대 중입니다. 전쟁이 끝나고 도시를 다시 세우려면 결국 전기가 핵심입니다. 주가 요동 칠 겁니다. 그래서이 종목들 내일 당장 사냐? 아닙니다. 아무리 좋은 기업이라도 주가는 수급이 붙어야 올라가죠. 우리는 그때만 노릴 겁니다. 금요일 상한가 현대 건설 12만 원대 상승할 림 미리 드렸고 24% 급등한 한미 반도체도 목요일 점심 28만 원대 상승할 림 분명히",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "경제사냥꾼",
-        "source_role": "유튜버",
-        "title": "경제사냥꾼 구독자 전용, 종목 분석 : 대우건설",
-        "url": "https://youtu.be/X6kfI4zhGAA",
-        "published_at": "",
-        "reason": "[0.0s] 님들, 대우건설이 1년 만에 주가 772% 터졌다가 한 달 만에 폭락한 진짜 이유 뭔지 알고 있었어? [5.2s] 그래서 지금 대우건설 들고 있는 개미들 전부 다 던지고 있는데 [8.1s] 증권사들은 오히려 목표과를 줄줄이 올리고 있었어. [10.5s] 이 이유 모르고 무작정 던지면 나중에 주가 2배 올랐을 때 진짜 후회할 수도 있으니까 [14.4s] 더 늦기 전에 딱 1분만 집중해봐. [16.1s] 대우건설, 아파트 프로지오 짓는 회사로 유명하지만 [18.7s] 사실 이 회사의 진짜 정체는 원전, LNG, 해외 플랜트까지 다하는 종합 인프라 건설사야. [23.4s] 특히 지금 시장이 주목하는 건 아파트가 아니라 [25.5s] 체코 원전 시공주관사 글로벌 LNG 원청사라는 타이틀이다 보니 [28.6s] 우리 구독자님들도 많이 궁금해하셨던 종목이지. [30.9s] 근데 지금 영상 제작 시간 기준으로 대우건설 주가 보면 25,050원이야. [34.4s] 52주 최저점이 3320원이었으니까 거기서 약 7.5배 넘게 올랐다가 [38.4s] 5.3만 350원 찍고 37% 넘게 빠진 거지. [41.3s] 그래서 다들 이렇게 생각할 거야. [42.9s] 원전 테마 끝났구나, 건설주 법을 터진 거 아니냐 라고 말이야. [45.7s] 근데 이번 하락의 진짜 원인은 [47.2s] 대우건설이 깨진 게 아니라 주가만 너무 빨리 앞서갔기 때문이",
-        "target_price": "5만원",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "익 2556억 원 전년 대비 69% 폭증했어. [97.2s] 신규 수주도 3조 4천억으로 21% 들었고 [99.6s] NH 투자 증권은 목표가 5만원을 제시했어. [101.8s] 지금 영상 제작 시간 기준 주가 대비 최대 96% 상승. [104.9s] 그러니까 2배 정도 상승 여력이 있다는",
-        "confidence": "transcript"
+        "confidence": "source-title/meta"
       }
     ],
     "stance": "복수 출처 추천/관심",
-    "target_price_summary": "5만원",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
     "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
@@ -10872,6 +11493,30 @@
     ],
     "source_count": 3,
     "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "수요일 메타 플랫폼 주식에 무슨 일이 일어나고 있나요? - 벤징가",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR2l3QUdRbmVtcmI2TlRXMVpOS2p1c3RBaUlpNEo5a1FQRXd3NEhzVnVaaXlzNXBrNjVlcHVXSzd0eDhUX3BTUHZMcDlUdTlHLTdNNXVIelhPTzFvbUt1ZVYzMnN1WldOaElaMVBuRGMzRHhhQmViQjdTQjBWTjlfSnlreUZxOURXRnI2VjlXVFRIMWJmZV9SZ2w4a1BFWC1qcVVOa1ZsbmlWZ1Nqcnc5VldBQQ?oc=5",
+        "published_at": "Wed, 24 Jun 2026 13:39:09 GMT",
+        "reason": "수요일 메타 플랫폼 주식에 무슨 일이 일어나고 있나요?    벤징가",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "메타(META)는 헤지 펀드에 따라 매수해야 할 최고 확신 주식 중 하나입니까? - 야후 파이낸스",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDFjWlpxYm85SmxORVdVVy1XMlpqX2hlOHlTUG5UeW0wdEVHeHdwclpNbmZIV1lWelI2Wmk0aVFIRzA1c2JPSXAtcmJiRDd0dTRRMzVuLV8zMmE5OFBZWVN6YlBuZG82aWZHM1NKSWEyYVFOZVlIOWcyZkNVWmU5dG42bk1HbDJUWjJwYm9CU1A?oc=5",
+        "published_at": "Wed, 24 Jun 2026 12:14:14 GMT",
+        "reason": "메타(META)는 헤지 펀드에 따라 매수해야 할 최고 확신 주식 중 하나입니까?    야후 파이낸스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
@@ -11324,6 +11969,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
         "url": "https://youtu.be/tNkX4cjX5_4",
         "published_at": "2026-06-23T12:45:04+00:00",
@@ -11725,6 +12394,18 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
         "url": "https://youtu.be/tNkX4cjX5_4",
         "published_at": "2026-06-23T12:45:04+00:00",
@@ -11837,6 +12518,119 @@
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
+    "region": "global",
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "sources": [
+      "Google News Magnificent 7",
+      "Yahoo Finance Top Stories",
+      "올랜도 킴 미국주식"
+    ],
+    "source_count": 3,
+    "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamwwdlVVelNmUDBnMkJTa2JXZHFfM3JMYzBxRHNycFJVU1NidUtFYjVBRlhHeTY1MV9GZTQ0VVRBOEdtUm1WOURTTTNnSUdTN2VrRDBVN29CeG5SaVNTRkp6SXBMX1lQY2xPb0FZVTlPdnRqQjFIVFVwTms5X2tRUjFZTzZSZlpWd3F0YXVuZzRHTW9Wb2xv?oc=5",
+        "published_at": "Wed, 24 Jun 2026 11:09:00 GMT",
+        "reason": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago &nbsp;&nbsp; Yahoo Finance",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Berkshire Hathaway, 알파벳에 큰 투자, 기술 투자로의 전환 신호",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/berkshire-hathaway-bets-big-alphabet-175000368.html",
+        "published_at": "2026-06-05T17:50:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
+        "url": "https://youtu.be/C_d4FNv4R-E",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "오늘 알파벳 주식이 터진 이유",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/why-alphabet-stock-popped-today-173120863.html",
+        "published_at": "2026-06-04T17:31:20Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "애플은 워렌 버핏의 최고의 투자였습니다. GOOGL 주식은 Greg Abel의 명성이 될 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-warren-buffett-best-investment-163656811.html",
+        "published_at": "2026-06-03T16:36:56Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
+        "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
+        "published_at": "2026-06-03T14:01:53Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
     "region": "domestic",
     "ticker": "032830",
     "name": "삼성생명",
@@ -11915,59 +12709,6 @@
   },
   {
     "region": "global",
-    "ticker": "ASML",
-    "name": "ASML",
-    "sources": [
-      "마술토끼의 투자이야기",
-      "강지한 차트연구소",
-      "Yahoo Finance Top Stories"
-    ],
-    "source_count": 3,
-    "evidence": [
-      {
-        "source": "마술토끼의 투자이야기",
-        "source_role": "blog_recommendation",
-        "title": "니콘, 반도체 노광장비 회복 노린다 (feat. ArF)",
-        "url": "https://blog.naver.com/magic_rabb1t/224306331298?fromRss=true&trackingCode=rss",
-        "published_at": "Fri, 05 Jun 2026 00:53:00 +0900",
-        "reason": "26년 5월 28일 보도에 따르면, 니콘이 반도체 노광장비 시장 점유율 회복을 노리고 있다고 해요. ASML이 80% 이상 시장점유율을 보유한 상황에서 가격 경쟁력으로 차별화를 시도하겠다고 했죠. 그러면서 미국·아시아 대형 반도체 업체들과 ArF(불화아르곤) 노광장비 신규 주문에 대해 논의하고 있다고 말했어요. 오무라 야스히로는 26년 4월 1일 부로 취임한 니콘의 신임 CEO인데요. 취임 약 두 달만에 공개 인터뷰 자리에서 이런 전략을 밝힌거에요. 니콘이 노리고 있는건 ASML이 독점하고 있는 EUV 장비가 아니고, ArF(불화아르곤) 장비를 말하는거에요. ArF 장비는 반도체 제조 중 포토리소그래피라고 불리는 노광 공정에서 사용되는데요. 노.......",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "SK하이닉스 미국 ADR 상장 비공개 서류 제출한 최태원 회장의 진짜 목적",
-        "url": "https://youtu.be/McgUN7OVQSk",
-        "published_at": "2026-06-18T10:45:16+00:00",
-        "reason": "하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 상장 절차까지 밟고 있냐는 거죠. 그것도 1초에 150만 원씩 버는 초 거대 기업이 말입니다. 여기에 명확한 목적이 숨겨져 있습니다. NBDI에 들어갈 차세대 HBM 생산 확대와 미국 첨단 패키징 공장 그리고 ASML EUB 장비 확보까지 앞으로도 수십조원의 투자가 필요한 겁니다. 게다가 미국 상장 이후에는 NBI, TSMC, 브로드컴 같은 글로벌 AI 반도체 대표 종목들이 담긴 ETF 편입 가능성까지도 커지죠. 그렇게 되면 코리아 디스카운트로 PR 여섯 배에서 일곱배 수준에 머물던 가치가 미국 메모리 업체 마이크론처럼 PER 11배 수준까지 재평가 받을 수 있다는 겁니다. 그런데 오늘처럼 신고가를 찍은 날 바로 들어가기 부담되는 분들 많죠. 제가 하이닉스 82만 원대에도 말씀드렸고 240만 원 찍고 빠질 때는 233만 원에 하락할 림도 드렸습니다. 그리고 최근 신곡가 돌파 직전에도 다시 상승할림 드렸죠. 이렇게 실시간 상승하락 알림은 구독자님들께만 무료로 보내 드리고 있으니 언제 사고 언제 팔아야 할지 혼자 판단하기 어렵다면 댓글 확인해 보세요. 하이닉스 미국 ADR 상장 추진하고 있죠. 그런데 투자자들이 진짜 봐야 할 건 상장 그 자체가 아닙니다. 왜 굳이 21조원을 조달하려고 비공개로 ",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "ASML CEO는 EU 집행위원회가 '전략적 프로젝트'를 지시하려고 해서는 안 된다고 말했습니다.",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/asml-ceo-says-eu-commission-100938436.html",
-        "published_at": "2026-06-05T10:32:30Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "CRM",
     "name": "Salesforce",
     "sources": [
@@ -12029,6 +12770,30 @@
     ],
     "source_count": 2,
     "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
@@ -12204,6 +12969,30 @@
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자, 하이닉스 주가를 결정지을 마이크론 실적발표 하루 전, 외국인•기관•연기금이 쓸어담은 한국주식 TOP10",
+        "url": "https://youtu.be/llKCTdI48fA",
+        "published_at": "2026-06-24T07:45:15+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
         "title": "워렌버핏의 투자철학 그 자체인 국민연금도 2달넘게 매집중인 하락장에 무조건 담아야하는 한국주식",
         "url": "https://youtu.be/tNkX4cjX5_4",
         "published_at": "2026-06-23T12:45:04+00:00",
@@ -12313,106 +13102,6 @@
     "stance": "복수 출처 추천/관심",
     "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
     "buy_zone_summary": "500만원",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "sources": [
-      "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식"
-    ],
-    "source_count": 2,
-    "evidence": [
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Berkshire Hathaway, 알파벳에 큰 투자, 기술 투자로의 전환 신호",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/berkshire-hathaway-bets-big-alphabet-175000368.html",
-        "published_at": "2026-06-05T17:50:00Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 지금이 버블이라고 할수 있지만 버블중에 주가는 우리가 상상하는것 보다 더간다!!!",
-        "url": "https://youtu.be/C_d4FNv4R-E",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 상위 1% 투자자가 됩니다 17 Direrion Daily TSLA Bull 2X ETF DXY 99.025 Y-0.19% 8 Fimviz- Stock Screener finviz.com 양사 연구 * Bookmarks L 경제학 2 PLUS Leaming - Yol S&P 500 Map Stock Comparison T. 본인 확인-Google. 급 미국 - NAHB 주택시_ 미국주식 SE",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "오늘 알파벳 주식이 터진 이유",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-alphabet-stock-popped-today-173120863.html",
-        "published_at": "2026-06-04T17:31:20Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "애플은 워렌 버핏의 최고의 투자였습니다. GOOGL 주식은 Greg Abel의 명성이 될 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-warren-buffett-best-investment-163656811.html",
-        "published_at": "2026-06-03T16:36:56Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "알파벳의 800억 달러 주식 매각은 AI가 얼마나 비싸지고 있는지 보여줍니다: 오늘의 차트",
-        "url": "https://finance.yahoo.com/markets/article/alphabets-80-billion-stock-sale-shows-how-expensive-ai-is-getting-chart-of-the-day-140153236.html",
-        "published_at": "2026-06-03T14:01:53Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
     "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
   },
   {
@@ -13153,6 +13842,57 @@
   },
   {
     "region": "domestic",
+    "ticker": "006400",
+    "name": "삼성SDI",
+    "sources": [
+      "강지한 차트연구소"
+    ],
+    "source_count": 1,
+    "evidence": [
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "큰손들이 서서히 갈아타기 시작한 지금 사서 묻어두면 1년뒤에 제일 많이 오를 한국주식 3개",
+        "url": "https://youtu.be/v5rNkkIe028",
+        "published_at": "2026-06-24T10:41:56+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "국민연금이 일주일넘게 바닥에서부터 쓸어담고 있는 제2의 보스턴다이내믹스가 될 피지컬AI 숨은 대장주 3개",
+        "url": "https://youtu.be/aCZJk8o1zT4",
+        "published_at": "2026-06-21T11:51:18+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "한국주식 시가총액 TOP10, 매수하고 1년만 딱 묻어뒀으면?",
+        "url": "https://youtu.be/0TDF9rgw6gQ",
+        "published_at": "2026-06-13T04:05:05+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      }
+    ],
+    "stance": "단일 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "domestic",
     "ticker": "068270",
     "name": "셀트리온",
     "sources": [
@@ -13297,45 +14037,6 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
-      }
-    ],
-    "stance": "단일 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "domestic",
-    "ticker": "006400",
-    "name": "삼성SDI",
-    "sources": [
-      "강지한 차트연구소"
-    ],
-    "source_count": 1,
-    "evidence": [
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "국민연금이 일주일넘게 바닥에서부터 쓸어담고 있는 제2의 보스턴다이내믹스가 될 피지컬AI 숨은 대장주 3개",
-        "url": "https://youtu.be/aCZJk8o1zT4",
-        "published_at": "2026-06-21T11:51:18+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "강지한 차트연구소",
-        "source_role": "유튜버",
-        "title": "한국주식 시가총액 TOP10, 매수하고 1년만 딱 묻어뒀으면?",
-        "url": "https://youtu.be/0TDF9rgw6gQ",
-        "published_at": "2026-06-13T04:05:05+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
       }
     ],
     "stance": "단일 출처 추천/관심",
