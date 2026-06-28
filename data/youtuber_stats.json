@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 45,
+    "video_count": 52,
     "short_count": 0,
-    "regular_video_count": 45,
-    "mention_count": 166,
+    "regular_video_count": 52,
+    "mention_count": 231,
     "transcript_count": 15,
-    "metadata_count": 30,
+    "metadata_count": 37,
     "ocr_count": 18,
     "transcript_chars": 17418,
     "ocr_chars": 9091,
@@ -16,57 +16,67 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 26
+        "count": 33
       },
       {
         "ticker": "003550",
         "name": "LG",
-        "count": 25
+        "count": 32
       },
       {
         "ticker": "009150",
         "name": "삼성전기",
-        "count": 19
+        "count": 26
       },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "count": 17
+        "count": 24
       },
       {
         "ticker": "066570",
         "name": "LG전자",
-        "count": 16
+        "count": 23
       },
       {
         "ticker": "005380",
         "name": "현대차",
-        "count": 14
+        "count": 21
       },
       {
         "ticker": "034020",
         "name": "두산에너빌리티",
-        "count": 13
+        "count": 20
       },
       {
         "ticker": "042700",
         "name": "한미반도체",
-        "count": 12
-      },
-      {
-        "ticker": "028260",
-        "name": "삼성물산",
-        "count": 7
+        "count": 19
       },
       {
         "ticker": "086520",
         "name": "에코프로",
-        "count": 7
+        "count": 9
+      },
+      {
+        "ticker": "028260",
+        "name": "삼성물산",
+        "count": 8
       },
       {
         "ticker": "006400",
         "name": "삼성SDI",
-        "count": 4
+        "count": 6
+      },
+      {
+        "ticker": "012330",
+        "name": "현대모비스",
+        "count": 3
+      },
+      {
+        "ticker": "373220",
+        "name": "LG에너지솔루션",
+        "count": 2
       },
       {
         "ticker": "055550",
@@ -74,9 +84,9 @@
         "count": 2
       },
       {
-        "ticker": "012330",
-        "name": "현대모비스",
-        "count": 2
+        "ticker": "247540",
+        "name": "에코프로비엠",
+        "count": 1
       },
       {
         "ticker": "000270",
@@ -90,6 +100,162 @@
       }
     ],
     "videos": [
+      {
+        "title": "국민연금이 하락장에서 10% 넘게 사들인 저평가 국내주식 TOP3 공개",
+        "url": "https://youtu.be/8GPTYJOT2zM",
+        "published_at": "2026-06-28T11:45:02+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "373220",
+          "028260",
+          "006400",
+          "066570",
+          "042700",
+          "086520",
+          "247540",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "주식으로 돈 번 사람들이 단타는 딱 천만원으로 치는 이유",
+        "url": "https://youtu.be/I23FPtwR-es",
+        "published_at": "2026-06-28T10:45:14+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "066570",
+          "042700",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "삼성전자•SK하이닉스 수익률을 가볍게 뛰어넘는 한국 ETF TOP11",
+        "url": "https://youtu.be/CV5xKt7XAiw",
+        "published_at": "2026-06-28T04:09:18+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "066570",
+          "042700",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "상위 0.1% 투자자들이 천만원으로 천억을 만든 아주 단순한 매매법",
+        "url": "https://youtu.be/6Ln8qtlFBPA",
+        "published_at": "2026-06-27T11:53:57+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "373220",
+          "012330",
+          "006400",
+          "066570",
+          "042700",
+          "086520",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "한국인이 사랑한 국내주식 TOP10 충격적인 평단가&수익률",
+        "url": "https://youtu.be/_D9IdbFs1IY",
+        "published_at": "2026-06-27T06:40:25+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "066570",
+          "042700",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "2026년 하반기부터 달라질 10년뒤 한국을 이끌 국내주식 섹터별 대장주",
+        "url": "https://youtu.be/eQ3wtf9CtAc",
+        "published_at": "2026-06-26T11:01:28+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "066570",
+          "042700",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "SK하이닉스 놓쳤다면? AI 반도체 시대, 조용히 올라갈 대장주 TOP10",
+        "url": "https://youtu.be/JZK1PVW6Nx4",
+        "published_at": "2026-06-26T08:40:23+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "066570",
+          "042700",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "최소 주식 10년 이상한 사람들만 아는 국내주식에 물렸을 때 수익으로 탈출하는 유일한 방법",
         "url": "https://youtu.be/6rgj3Pmqzk0",
@@ -520,96 +686,6 @@
         "ocr_chars": 1217,
         "ocr_excerpt": "삼성 하이닉스 폭락 이 신호 나올때 다시 사세요 오히려 이렇게 떨어질 때 80,600.0 80,400.0 83.200.0 83,000.0 82,800.0 82,600.0 82,400.C 62,200.0 82,000.0 81,800.0 81, 400.0 81,000.0 80,800.0 9",
         "youtube_kind": "video"
-      },
-      {
-        "title": "코스피 대장주 주가 폭락할때마다 외국인•기관•연기금이 쓸어담는 한국주식 3개 공개",
-        "url": "https://youtu.be/NV4g8gMHwVE",
-        "published_at": "2026-06-07T09:45:26+00:00",
-        "tickers": [
-          "005930",
-          "055550",
-          "003550",
-          "009150",
-          "032830"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1567,
-        "ocr_status": "ok",
-        "ocr_chars": 852,
-        "ocr_excerpt": "주가 폭락할때마다 큰 손들이 갈아타는 한국기업 3,260.00 엔비디아가 새로 찍은 제2의 삼성전자 3,240.00 3,220.00 'LG전자' 3,200.00 제가 LG전자 14만원대 3180,00 4175.99 3,165.09 3,165.42 3.162.73 3,158.00 3,14",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "2026 하반기 주가를 흔들 6월 주요 일정 (반도체,조선,원전,방산,우주항공,코스피,미국기준금리)",
-        "url": "https://youtu.be/SuEHg6dHe48",
-        "published_at": "2026-06-07T03:58:22+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 455,
-        "ocr_excerpt": "6월 진짜 조심해야될 주요일정 & 핵심 종목 6/8~12 애플 WWDC 2026 온디바이스 AL, 애플 부품주 6/10 (수) 미국 5월 소비자물가지수(CPI) 글로벌 매크로 인플레이션 6/11 (목) 6/12 (금) 국내 중시 한국 선물옵션 동시 만기일 스페이스X 나스닥 상장 (SPC",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "역대급 미친 환율, 우리 일상에서 제일 먼저 체감할 10가지",
-        "url": "https://youtu.be/kenqxUYhp9E",
-        "published_at": "2026-06-06T11:56:41+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 382,
-        "ocr_excerpt": "환율 1500원 넘어가면 제일 먼저 벌어지는 10가지 1999 2099 전기• 가스요금 커피 • 초콜릿 휴대폰 • 가전제품 해외여행 택배•배달비 주식시장 휘발유•경유 가격 금등, 수유비 부담 공가 LNG•석단 수업비 증가로 공공요금 인상 압력 일•옥수수• 대두 수업가 상승, 식탁질가 급",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "국민연금이 폭락장에 순매수•순매도한 한국주식",
-        "url": "https://youtu.be/BCzjzvDst_c",
-        "published_at": "2026-06-06T10:39:36+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 278,
-        "ocr_excerpt": "국민연금이 폭락짱에 순매도 순매수한 한국기업 SAMYANG 삼양식품 식품• 라면 • 글로벌 브랜드 158억 삼성전기 MLCC• 반도체 기판 카메라오드 대한유화 식유화학• 폴리에틸렌 화학제품 달바글로벌 화장품 • 스킨케어• 글로벌 브랜드 씨에스원드 동석 나눠-통적 블레이드- 신재상에너지 ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "삼성전자•SK하이닉스 2배 단일종목 레버리지 ETF 실제 수익률 비교..",
-        "url": "https://youtu.be/OWPK9Q6PA0c",
-        "published_at": "2026-06-06T01:45:25+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 373,
-        "ocr_excerpt": "삼성 하이닉스 레버리지 처참한 실제 수익률... SK하이닉스 vs 삼성전자 단일 레버리지 수익률 비교 1,000만원 투자 기준 추자금 15) 13,000.000 -StON스 안할 해버리지 SSrN SK하이닉스 역 215만원 차이 9000000 7.000,000 SK하이더스 단열 레버리지",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "일론 머스크의 스페이스X 상장 임박, 한국 미국 핵심 ETF 상위 5개",
-        "url": "https://youtu.be/2HOIIVmhRgk",
-        "published_at": "2026-06-05T11:45:11+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 304,
-        "ocr_excerpt": "스페이스X 상장임박 한국&미국 핵심 ETF 5개 NASA ETF SeNCeX 지원 10% 전재 8모 UFO ETF 가을 오랜 감사 + TEMA TIGER 미국우주테크 ACE 미국우주테크엑티브 SesceX 추세 국대로 1Q 미국우주테크 하나 봐도 하국 우주 테크 집 동자 선도하 2026 ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "코스피 폭락장에 외국인들이 쓸어담은 한국주식 TOP10",
-        "url": "https://youtu.be/5pal6XQoZbQ",
-        "published_at": "2026-06-05T08:45:02+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 332,
-        "ocr_excerpt": "코스피 폭락장에 외국인이 쓸어담은 기업 Xb KB금융 SK스퀘어 DOOSAN 두산 한미반도체 주성엔지니어링 신한지주 008CO 포스코홀딩스 한화비전 SAMSUNG 삼성화재 LG씨엔에스 은행• 증권 • 보험 충합 금융그룹 반도체 • AI • ICT 투자 전문 지주회사 AJ 테이터센터 • ",
-        "youtube_kind": "video"
       }
     ]
   },
@@ -617,12 +693,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 156,
-    "short_count": 156,
+    "video_count": 175,
+    "short_count": 175,
     "regular_video_count": 0,
-    "mention_count": 147,
+    "mention_count": 149,
     "transcript_count": 104,
-    "metadata_count": 52,
+    "metadata_count": 71,
     "ocr_count": 27,
     "transcript_chars": 288759,
     "ocr_chars": 11694,
@@ -630,7 +706,7 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 60
+        "count": 62
       },
       {
         "ticker": "000660",
@@ -709,6 +785,238 @@
       }
     ],
     "videos": [
+      {
+        "title": "최근 '코스닥'이 끝도없이 폭락하는 진짜 이유",
+        "url": "https://youtu.be/Jk_fnh9hvUg",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "경제사냥꾼 구독자 전용 종목 분석  SK스퀘어",
+        "url": "https://youtu.be/q3Sk8k4-OwI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "투자자들이 꼭 체크하는, 다음주 '투자' 포인트(06.29~07.03)",
+        "url": "https://youtu.be/K-ZlXKO02yE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "주식 고수들이 미리 줍고 있다는 '7월 배당주' Top4",
+        "url": "https://youtu.be/ztij_nErS_o",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "월가에서 8년안에 한국 먹여 살릴 수 있다는 '반도체' 다음 '산업' 정체",
+        "url": "https://youtu.be/3hhWn8V2fnA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "현재 월가에서 몰래 줍고 있다는 '반도체 2차 수혜주' 정체",
+        "url": "https://youtu.be/PW6wK3np1Zs",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "현시점 '주가 10배' 갈 수 있다는 '미국 종목' 정체",
+        "url": "https://youtu.be/fay5eZQhcj0",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "오픈AI '상장 무산' 위기, 삼전·닉스에 미치는 진짜 영향",
+        "url": "https://youtu.be/CdpM2MmwD68",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "초보 투자자가 '반드시 피해야 할' 주식 구분하는 방법",
+        "url": "https://youtu.be/MG0KCMa4SDE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성전자가 하이닉스처럼 '미국 상장'하면 벌어지는 일",
+        "url": "https://youtu.be/DIQyd5gFdbM",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "월가에서 갑자기 '한국 로봇주'를 대놓고 밀어주는 이유",
+        "url": "https://youtu.be/oAi4tUfXv98",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "월가에서 '메타' 역대급 상승장 올 수 있다는 이유",
+        "url": "https://youtu.be/t1zVf7JN7g8",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "트럼프가 27조 쏟아붓는 '대규모 프로젝트' 1차 수혜주 정체",
+        "url": "https://youtu.be/I6S-33gB0J4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "이재용이 3년안에 '반도체' 다음으로 키울거라는 '신사업' 정체",
+        "url": "https://youtu.be/EIxfYH7tgM4",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "경제사냥꾼 구독자 전용 종목 분석 : OCI홀딩스",
+        "url": "https://youtu.be/QG_F9jJIm1Y",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "오늘 투자자들이 꼭 봐야 하는 미국 핵심 투자 포인트 '3가지'",
+        "url": "https://youtu.be/76tSug4C3kY",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "악재는 없는데 코스피가 '또' 폭락한 진짜 이유",
+        "url": "https://youtu.be/RzNXArqsUZk",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "이재명의 1000조 지원금이 '삼성전자' 주가에 끼치는 영향",
+        "url": "https://youtu.be/wo-tWOXqeo8",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "6월 26일 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
+        "url": "https://youtu.be/3oL1Q6wVZsc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "SK하이닉스 역대급 호재 떴다는 진짜 이유",
         "url": "https://youtu.be/o7wOl3ZIsRw",
@@ -848,248 +1156,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      },
-      {
-        "title": "지금 '스페이스X' 역대급 '악재' 터졌다는 이유",
-        "url": "https://youtu.be/hyisJPNrBkM",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "미국VS중국' 충돌 속, 한국 방산주가 주목받고 있는 이유",
-        "url": "https://youtu.be/9A71Tk1QrQg",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "버핏이 폭락장에서 '다음' 상승장 준비했던 방법 5가지",
-        "url": "https://youtu.be/fn8DhNzyqZQ",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "코스피 하락장' 속, 투자자들이 반드시 봐야 할 '미국 뉴스' 3가지",
-        "url": "https://youtu.be/R6_jvVl-Krc",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "오늘 코스피가 역대급 '폭락했던' 진짜 이유",
-        "url": "https://youtu.be/GxEsvOhrIdc",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "현정부가 '삼전·닉스 레버리지'를 없앨 수도 있다는 이유",
-        "url": "https://youtu.be/1m8rAqvdqCU",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "6월 23일 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
-        "url": "https://youtu.be/ytiUpy0FOkQ",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "355%오른 'LS일렉트릭' 주가가 폭락한 진짜 이유(+전력주 전망)",
-        "url": "https://youtu.be/qQbeUJm9GZw",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "'시총 1위' 찍은 SK하이닉스, 코스피에 미치는 진짜 영향",
-        "url": "https://youtu.be/-8Jws0mBDcM",
-        "published_at": "",
-        "tickers": [
-          "000660"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "SK하이닉스' 미국 상장 임박, 투자자들이 꼭 봐야 할 투자 포인트",
-        "url": "https://youtu.be/i2o4fdng37s",
-        "published_at": "",
-        "tickers": [
-          "000660"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "오늘 'LG전자' 주가가 갑자기 폭등했던 진짜 이유",
-        "url": "https://youtu.be/umBqqihEWT8",
-        "published_at": "",
-        "tickers": [
-          "066570",
-          "003550"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "오늘 투자자들이 꼭 봐야 하는 미국+중국 뉴스 3가지",
-        "url": "https://youtu.be/2yj4-jdVx6g",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "국민연금 '55조 매도 폭탄'이 코스피에 미치는 진짜 영향",
-        "url": "https://youtu.be/RgFc4JQ_4sQ",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "6월 22일 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
-        "url": "https://youtu.be/k5tQQQYB8Oo",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "지금 '코스닥 주도주'로 새롭게 떠오르고 있다는 '종목' 정체",
-        "url": "https://youtu.be/4EX3Pt7W1yw",
-        "published_at": "",
-        "tickers": [
-          "005930",
-          "009150"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 3979,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "월가에서 '삼성전자' 가장 쌀 때 매수하는 방법",
-        "url": "https://youtu.be/Hu6-R8gfKIE",
-        "published_at": "",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "투자자들이 미리 체크하는, 다음주 '투자' 포인트(06.22~06.26)",
-        "url": "https://youtu.be/v_xYl6ibmpw",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "요즘 월가가 '집중매수' 하고 있다는 의외의 '한국 종목' 정체",
-        "url": "https://youtu.be/tw44fU6PlW8",
-        "published_at": "",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 3925,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "트럼프가 이란 다음으로 전쟁하고 싶다는 '국가'",
-        "url": "https://youtu.be/gIBVUNYIERY",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
       }
     ]
   },
@@ -1097,12 +1163,12 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 41,
+    "video_count": 44,
     "short_count": 7,
-    "regular_video_count": 34,
-    "mention_count": 85,
+    "regular_video_count": 37,
+    "mention_count": 88,
     "transcript_count": 27,
-    "metadata_count": 14,
+    "metadata_count": 17,
     "ocr_count": 12,
     "transcript_chars": 805838,
     "ocr_chars": 9944,
@@ -1110,22 +1176,22 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 21
+        "count": 22
       },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "count": 14
+        "count": 15
+      },
+      {
+        "ticker": "035720",
+        "name": "카카오",
+        "count": 12
       },
       {
         "ticker": "003550",
         "name": "LG",
         "count": 12
-      },
-      {
-        "ticker": "035720",
-        "name": "카카오",
-        "count": 11
       },
       {
         "ticker": "005380",
@@ -1169,6 +1235,46 @@
       }
     ],
     "videos": [
+      {
+        "title": "주식 차트분석 공부할 때 하는 흔한 실수",
+        "url": "https://youtu.be/Cn8GyDK75c4",
+        "published_at": "2026-06-28T08:00:15+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "일주일 내 2번의 서킷브레이커 요즘 주식장 왜 이러나",
+        "url": "https://youtu.be/jJcTYBuVJvE",
+        "published_at": "2026-06-26T10:30:32+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자, SK하이닉스 정밀분석 🔴 뉴욕증시 마이크론↑ 애플↓ 혼조 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/3DQ9kZmjdJU",
+        "published_at": "2026-06-26T03:40:33+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "035720"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 |개미,삼성전자·sk하이닉스 나흘간 14조원 매수🔴뉴욕증시 유가,기술주 하락에 혼조 #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/2AUJkOxLvyk",
@@ -1565,50 +1671,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "video"
-      },
-      {
-        "title": "삼성전자, 더 오를 가능성 있는 3가지 이유",
-        "url": "https://youtu.be/wQxVjw-DlRk",
-        "published_at": "2026-06-01T09:30:23+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 323,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "국민연금 국내주식 목표비중 상향",
-        "url": "https://youtu.be/_y5f0yhVF7Q",
-        "published_at": "2026-06-01T09:03:12+00:00",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 252,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자,하이닉스 전망🔴 뉴욕증시 최고치 달성 #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/GTShwWRIaCI",
-        "published_at": "2026-06-01T03:39:23+00:00",
-        "tickers": [
-          "005930",
-          "035720",
-          "005380",
-          "086520",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 79049,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
       }
     ]
   },
@@ -1616,12 +1678,12 @@
     "region": "global",
     "youtuber": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
     "channel_id": "UCjp7GHSUKx9Joji3tIz1jCg",
-    "video_count": 32,
+    "video_count": 33,
     "short_count": 9,
-    "regular_video_count": 23,
-    "mention_count": 79,
+    "regular_video_count": 24,
+    "mention_count": 82,
     "transcript_count": 24,
-    "metadata_count": 8,
+    "metadata_count": 9,
     "ocr_count": 8,
     "transcript_chars": 523806,
     "ocr_chars": 1929,
@@ -1629,17 +1691,17 @@
       {
         "ticker": "TSLA",
         "name": "Tesla",
-        "count": 23
+        "count": 24
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 18
+        "count": 19
       },
       {
         "ticker": "QQQ",
         "name": "Nasdaq 100 ETF",
-        "count": 12
+        "count": 13
       },
       {
         "ticker": "MU",
@@ -1678,6 +1740,22 @@
       }
     ],
     "videos": [
+      {
+        "title": "6/28 (일) 3가지 큰 악재 위험한 나스닥, 반등할수 있을까?",
+        "url": "https://youtu.be/2UpcfzEPpW8",
+        "published_at": "2026-06-28T13:14:10+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "QQQ"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "마이크론 실적발표이후 투자전략 (테슬라,스페이스X,구글,마소,메타,비트코인)",
         "url": "https://youtu.be/mCokVNXqu6I",
@@ -2123,18 +2201,560 @@
         "ocr_chars": 75,
         "ocr_excerpt": "캔들의 생성 원리 장대양봉 상승의 신호 마피디TV 장대음봉 하락의 신호 역망치형 음봉 상승했지만 하락 부정적 신호 하락반전 (고정부근)",
         "youtube_kind": "short"
+      }
+    ]
+  },
+  {
+    "region": "global",
+    "youtuber": "올랜도 킴 미국주식",
+    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
+    "video_count": 40,
+    "short_count": 0,
+    "regular_video_count": 40,
+    "mention_count": 67,
+    "transcript_count": 12,
+    "metadata_count": 28,
+    "ocr_count": 12,
+    "transcript_chars": 345351,
+    "ocr_chars": 36599,
+    "stocks": [
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 20
       },
       {
-        "title": "[쉬운 주식강의] 망치형 #shorts",
-        "url": "https://youtu.be/Qu4-ymmzmb4",
-        "published_at": "",
+        "ticker": "TSLA",
+        "name": "Tesla",
+        "count": 9
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "count": 8
+      },
+      {
+        "ticker": "AMD",
+        "name": "AMD",
+        "count": 7
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 4
+      },
+      {
+        "ticker": "IONQ",
+        "name": "IonQ",
+        "count": 3
+      },
+      {
+        "ticker": "SOXX",
+        "name": "Semiconductor ETF",
+        "count": 2
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "count": 2
+      },
+      {
+        "ticker": "ASML",
+        "name": "ASML",
+        "count": 1
+      },
+      {
+        "ticker": "AAPL",
+        "name": "Apple",
+        "count": 1
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "count": 1
+      },
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "count": 1
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "count": 1
+      },
+      {
+        "ticker": "META",
+        "name": "Meta",
+        "count": 1
+      },
+      {
+        "ticker": "AVGO",
+        "name": "Broadcom",
+        "count": 1
+      },
+      {
+        "ticker": "NFLX",
+        "name": "Netflix",
+        "count": 1
+      },
+      {
+        "ticker": "ARM",
+        "name": "Arm",
+        "count": 1
+      },
+      {
+        "ticker": "INTC",
+        "name": "Intel",
+        "count": 1
+      },
+      {
+        "ticker": "ORCL",
+        "name": "Oracle",
+        "count": 1
+      },
+      {
+        "ticker": "CRM",
+        "name": "Salesforce",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "(월간시황) 왜 선수들은 AI를 아직 2-3회초라고 부르는가?",
+        "url": "https://youtu.be/FYaTwK003A4",
+        "published_at": "2026-06-28T13:00:00+00:00",
+        "tickers": [
+          "ASML",
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(관심 섹터) 52주 신고가 가는 섹터를 주의해서 보자!!!",
+        "url": "https://youtu.be/bS06FFOChHE",
+        "published_at": "2026-06-28T03:14:08+00:00",
         "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(빅테크) 빅테크가 충분한 하락폭을 겪었기에 더이상 안빠지나?",
+        "url": "https://youtu.be/X6hWfiPccQ4",
+        "published_at": "2026-06-27T10:19:43+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 반도체 하락 이유는? 조정장인지 하락장인지?",
+        "url": "https://youtu.be/cHNy5M_Bz-8",
+        "published_at": "2026-06-26T20:49:40+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(마이크론) 적정주가는? 흔들려도 계속 달리수 있나?",
+        "url": "https://youtu.be/Dq3kuxmjK_8",
+        "published_at": "2026-06-26T05:27:40+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 애플하락,마이크론 상승(빅테크 자금이 반도체로)",
+        "url": "https://youtu.be/W2L-8ya-bgg",
+        "published_at": "2026-06-25T20:45:23+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(구독자 요청) 멀티플을 확장과 축소하는 이유를 알자!!!",
+        "url": "https://youtu.be/6X_blULrOiQ",
+        "published_at": "2026-06-25T06:12:00+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 반도체 적어도 연말까지는 간다!!!",
+        "url": "https://youtu.be/r96-SrofmO4",
+        "published_at": "2026-06-24T20:54:53+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐) 정부가 밀어주는 이유는?",
+        "url": "https://youtu.be/NqrnIRMMcik",
+        "published_at": "2026-06-24T05:25:52+00:00",
+        "tickers": [
+          "IONQ"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 펀드멘탈 문제가 아닐때는 하락은 매수관점이다!!!",
+        "url": "https://youtu.be/sCXvLUAJgBQ",
+        "published_at": "2026-06-23T20:39:16+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(팔란티어) 문제는 성장률인데 언제 회복되나?",
+        "url": "https://youtu.be/S3RNDUhuDDk",
+        "published_at": "2026-06-23T05:21:16+00:00",
+        "tickers": [
+          "PLTR"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 빅테크 돈 들어가는 곳만 상승한다!!!",
+        "url": "https://youtu.be/2A1yeSKFJbs",
+        "published_at": "2026-06-22T20:43:40+00:00",
+        "tickers": [
+          "SOXX",
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(스페이스X) 심리는 매수, 펀더멘탈은 매도,쉬는 것도 투자다",
+        "url": "https://youtu.be/NmggxAx_6K4",
+        "published_at": "2026-06-22T05:14:22+00:00",
+        "tickers": [
+          "TSLA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(주간시황) 주가가 너무 오를때는 단기고점인지 고민하자!!!",
+        "url": "https://youtu.be/h1ZhvkZjOEU",
+        "published_at": "2026-06-21T10:00:04+00:00",
+        "tickers": [
+          "SOXX",
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(DRAM) 지금시장의 주도ETF는 여전히 상승 가능성 많다",
+        "url": "https://youtu.be/KqrZI3aDNtM",
+        "published_at": "2026-06-20T21:14:23+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(양자섹터) 지금은 방향을 정하는 중이다.",
+        "url": "https://youtu.be/94IvAl1Vp80",
+        "published_at": "2026-06-20T09:16:18+00:00",
+        "tickers": [
+          "IONQ"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 캐빈워시의 금리인하 계획표",
+        "url": "https://youtu.be/4kp83MxmIgM",
+        "published_at": "2026-06-19T22:40:14+00:00",
+        "tickers": [
+          "TSLA",
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(반도체주식) 조정시 매수이지만  쫒아가서 매수 하지말자",
+        "url": "https://youtu.be/tf4FaI758T8",
+        "published_at": "2026-06-19T07:25:10+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 기다리면 기회는 또온다.포모에 싸여 충동 매매하지 말자",
+        "url": "https://youtu.be/7uoE4Q-oV04",
+        "published_at": "2026-06-18T20:47:56+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(마이크론) 주가가 계속가는 이유를 알아보자",
+        "url": "https://youtu.be/PDFnnuXUTH0",
+        "published_at": "2026-06-18T05:46:39+00:00",
+        "tickers": [
+          "MU"
+        ],
         "confidence": "transcript",
-        "transcript_chars": 640,
+        "transcript_chars": 20613,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 금리인상으로 하락했지만 반도체는 계속 상승",
+        "url": "https://youtu.be/9KsNzn6w2T4",
+        "published_at": "2026-06-17T20:38:18+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 40789,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(팔란티어) 지금이 저점? 아니면 던져?",
+        "url": "https://youtu.be/Gtp5Pj_L918",
+        "published_at": "2026-06-17T05:12:51+00:00",
+        "tickers": [
+          "NVDA",
+          "AMD",
+          "PLTR",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 23461,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석) 나스닥에서 다우로 순환매,신규진입은 기다리자!!!",
+        "url": "https://youtu.be/mCLfZmxPQCE",
+        "published_at": "2026-06-16T20:42:21+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "PLTR"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 40030,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(테슬라,스페이스X) 테슬라의 AI칩이 다크호스가 될수있다.",
+        "url": "https://youtu.be/hWyngM6hPEs",
+        "published_at": "2026-06-16T05:01:45+00:00",
+        "tickers": [
+          "TSLA",
+          "TSM"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 24452,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석)  들고가는게 실력인데 보통 내공으로는 못들고간다",
+        "url": "https://youtu.be/ma17kY5yqEw",
+        "published_at": "2026-06-15T20:42:08+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 45787,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(아이온큐,금,비트코인) 종전후 어떤 종목이 상승하나?",
+        "url": "https://youtu.be/CSQhG4ixDj4",
+        "published_at": "2026-06-15T05:46:57+00:00",
+        "tickers": [
+          "IONQ"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 15115,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(주간시황) 경제지표보다는 기업의 이익에 집중하자!!!",
+        "url": "https://youtu.be/KAGHQnJLh9g",
+        "published_at": "2026-06-14T11:06:14+00:00",
+        "tickers": [
+          "AMD",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 33803,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(관심종목) 종목을 어떻게 고르나?종목 PICK하는 방법",
+        "url": "https://youtu.be/o5logbX-3Ew",
+        "published_at": "2026-06-14T01:23:15+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 27649,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
+        "url": "https://youtu.be/Dih2dabDeGA",
+        "published_at": "2026-06-07T20:38:48+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 22255,
         "ocr_status": "ok",
-        "ocr_chars": 105,
-        "ocr_excerpt": "캔들의 생성 원리 역망치형 음봉 상승했지만 하락 부정적 신호 하락반전 (고정부근) 마피디TV 망치형 양봉 하락했지만 상승 긍정적 신호 상승반전 (재정부리) 상승안전 (저점부근) (저정부근)",
-        "youtube_kind": "short"
+        "ocr_chars": 3322,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(주간시황) 다음주 초는 아직 하락세가 강하겠지만 마이크론 실적발표(6/24)가 분수령이 될것이다.",
+        "url": "https://youtu.be/iDhFOKCGfwU",
+        "published_at": "2026-06-07T00:21:30+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA",
+          "AMD",
+          "TSM",
+          "MU"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 36867,
+        "ocr_status": "ok",
+        "ocr_chars": 875,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 Key Market Data Cryptocurrency Market Cap Earnings Calendar Countries Bonds Commodities Themes & Subsectors Sectors U.S. EQUITES Name S&P 500 DJI",
+        "youtube_kind": "video"
       }
     ]
   },
@@ -2142,12 +2762,12 @@
     "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 50,
-    "short_count": 50,
+    "video_count": 51,
+    "short_count": 51,
     "regular_video_count": 0,
-    "mention_count": 63,
+    "mention_count": 64,
     "transcript_count": 44,
-    "metadata_count": 6,
+    "metadata_count": 7,
     "ocr_count": 10,
     "transcript_chars": 120096,
     "ocr_chars": 4103,
@@ -2168,6 +2788,11 @@
         "count": 11
       },
       {
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 2
+      },
+      {
         "ticker": "TSM",
         "name": "TSMC",
         "count": 2
@@ -2181,14 +2806,23 @@
         "ticker": "SOXX",
         "name": "Semiconductor ETF",
         "count": 1
-      },
-      {
-        "ticker": "PLTR",
-        "name": "Palantir",
-        "count": 1
       }
     ],
     "videos": [
+      {
+        "title": "경제사냥꾼 구독자 전용 종목 분석 : 팔란티어(PLTR)",
+        "url": "https://youtu.be/5yhfegINTHY",
+        "published_at": "",
+        "tickers": [
+          "PLTR"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "마이크론의 '역대급 실적'이, 삼전·닉스에 미치는 진짜 영향",
         "url": "https://youtu.be/hE-UNRn16CE",
@@ -2603,562 +3237,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      },
-      {
-        "title": "트럼프가 돈 쏟아붓고 머스크까지 밀어준다는 '한국 종목' 정체",
-        "url": "https://youtu.be/J8mptse_K30",
-        "published_at": "",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2182,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      }
-    ]
-  },
-  {
-    "region": "global",
-    "youtuber": "올랜도 킴 미국주식",
-    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 34,
-    "short_count": 0,
-    "regular_video_count": 34,
-    "mention_count": 61,
-    "transcript_count": 12,
-    "metadata_count": 22,
-    "ocr_count": 12,
-    "transcript_chars": 345351,
-    "ocr_chars": 36599,
-    "stocks": [
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 16
-      },
-      {
-        "ticker": "TSLA",
-        "name": "Tesla",
-        "count": 9
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA",
-        "count": 7
-      },
-      {
-        "ticker": "AMD",
-        "name": "AMD",
-        "count": 7
-      },
-      {
-        "ticker": "PLTR",
-        "name": "Palantir",
-        "count": 4
-      },
-      {
-        "ticker": "IONQ",
-        "name": "IonQ",
-        "count": 3
-      },
-      {
-        "ticker": "SOXX",
-        "name": "Semiconductor ETF",
-        "count": 2
-      },
-      {
-        "ticker": "TSM",
-        "name": "TSMC",
-        "count": 2
-      },
-      {
-        "ticker": "AAPL",
-        "name": "Apple",
-        "count": 1
-      },
-      {
-        "ticker": "MSFT",
-        "name": "Microsoft",
-        "count": 1
-      },
-      {
-        "ticker": "GOOGL",
-        "name": "Alphabet",
-        "count": 1
-      },
-      {
-        "ticker": "AMZN",
-        "name": "Amazon",
-        "count": 1
-      },
-      {
-        "ticker": "META",
-        "name": "Meta",
-        "count": 1
-      },
-      {
-        "ticker": "AVGO",
-        "name": "Broadcom",
-        "count": 1
-      },
-      {
-        "ticker": "NFLX",
-        "name": "Netflix",
-        "count": 1
-      },
-      {
-        "ticker": "ARM",
-        "name": "Arm",
-        "count": 1
-      },
-      {
-        "ticker": "INTC",
-        "name": "Intel",
-        "count": 1
-      },
-      {
-        "ticker": "ORCL",
-        "name": "Oracle",
-        "count": 1
-      },
-      {
-        "ticker": "CRM",
-        "name": "Salesforce",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "(구독자 요청) 멀티플을 확장과 축소하는 이유를 알자!!!",
-        "url": "https://youtu.be/6X_blULrOiQ",
-        "published_at": "2026-06-25T06:12:00+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 반도체 적어도 연말까지는 간다!!!",
-        "url": "https://youtu.be/r96-SrofmO4",
-        "published_at": "2026-06-24T20:54:53+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 정부가 밀어주는 이유는?",
-        "url": "https://youtu.be/NqrnIRMMcik",
-        "published_at": "2026-06-24T05:25:52+00:00",
-        "tickers": [
-          "IONQ"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 펀드멘탈 문제가 아닐때는 하락은 매수관점이다!!!",
-        "url": "https://youtu.be/sCXvLUAJgBQ",
-        "published_at": "2026-06-23T20:39:16+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(팔란티어) 문제는 성장률인데 언제 회복되나?",
-        "url": "https://youtu.be/S3RNDUhuDDk",
-        "published_at": "2026-06-23T05:21:16+00:00",
-        "tickers": [
-          "PLTR"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 빅테크 돈 들어가는 곳만 상승한다!!!",
-        "url": "https://youtu.be/2A1yeSKFJbs",
-        "published_at": "2026-06-22T20:43:40+00:00",
-        "tickers": [
-          "SOXX",
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(스페이스X) 심리는 매수, 펀더멘탈은 매도,쉬는 것도 투자다",
-        "url": "https://youtu.be/NmggxAx_6K4",
-        "published_at": "2026-06-22T05:14:22+00:00",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(주간시황) 주가가 너무 오를때는 단기고점인지 고민하자!!!",
-        "url": "https://youtu.be/h1ZhvkZjOEU",
-        "published_at": "2026-06-21T10:00:04+00:00",
-        "tickers": [
-          "SOXX",
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(DRAM) 지금시장의 주도ETF는 여전히 상승 가능성 많다",
-        "url": "https://youtu.be/KqrZI3aDNtM",
-        "published_at": "2026-06-20T21:14:23+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(양자섹터) 지금은 방향을 정하는 중이다.",
-        "url": "https://youtu.be/94IvAl1Vp80",
-        "published_at": "2026-06-20T09:16:18+00:00",
-        "tickers": [
-          "IONQ"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 캐빈워시의 금리인하 계획표",
-        "url": "https://youtu.be/4kp83MxmIgM",
-        "published_at": "2026-06-19T22:40:14+00:00",
-        "tickers": [
-          "TSLA",
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(반도체주식) 조정시 매수이지만  쫒아가서 매수 하지말자",
-        "url": "https://youtu.be/tf4FaI758T8",
-        "published_at": "2026-06-19T07:25:10+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 기다리면 기회는 또온다.포모에 싸여 충동 매매하지 말자",
-        "url": "https://youtu.be/7uoE4Q-oV04",
-        "published_at": "2026-06-18T20:47:56+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(마이크론) 주가가 계속가는 이유를 알아보자",
-        "url": "https://youtu.be/PDFnnuXUTH0",
-        "published_at": "2026-06-18T05:46:39+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 20613,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 금리인상으로 하락했지만 반도체는 계속 상승",
-        "url": "https://youtu.be/9KsNzn6w2T4",
-        "published_at": "2026-06-17T20:38:18+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 40789,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(팔란티어) 지금이 저점? 아니면 던져?",
-        "url": "https://youtu.be/Gtp5Pj_L918",
-        "published_at": "2026-06-17T05:12:51+00:00",
-        "tickers": [
-          "NVDA",
-          "AMD",
-          "PLTR",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 23461,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 나스닥에서 다우로 순환매,신규진입은 기다리자!!!",
-        "url": "https://youtu.be/mCLfZmxPQCE",
-        "published_at": "2026-06-16T20:42:21+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "PLTR"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 40030,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(테슬라,스페이스X) 테슬라의 AI칩이 다크호스가 될수있다.",
-        "url": "https://youtu.be/hWyngM6hPEs",
-        "published_at": "2026-06-16T05:01:45+00:00",
-        "tickers": [
-          "TSLA",
-          "TSM"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 24452,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석)  들고가는게 실력인데 보통 내공으로는 못들고간다",
-        "url": "https://youtu.be/ma17kY5yqEw",
-        "published_at": "2026-06-15T20:42:08+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 45787,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐,금,비트코인) 종전후 어떤 종목이 상승하나?",
-        "url": "https://youtu.be/CSQhG4ixDj4",
-        "published_at": "2026-06-15T05:46:57+00:00",
-        "tickers": [
-          "IONQ"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 15115,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(주간시황) 경제지표보다는 기업의 이익에 집중하자!!!",
-        "url": "https://youtu.be/KAGHQnJLh9g",
-        "published_at": "2026-06-14T11:06:14+00:00",
-        "tickers": [
-          "AMD",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 33803,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(관심종목) 종목을 어떻게 고르나?종목 PICK하는 방법",
-        "url": "https://youtu.be/o5logbX-3Ew",
-        "published_at": "2026-06-14T01:23:15+00:00",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 27649,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
-        "url": "https://youtu.be/Dih2dabDeGA",
-        "published_at": "2026-06-07T20:38:48+00:00",
-        "tickers": [
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 22255,
-        "ocr_status": "ok",
-        "ocr_chars": 3322,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(주간시황) 다음주 초는 아직 하락세가 강하겠지만 마이크론 실적발표(6/24)가 분수령이 될것이다.",
-        "url": "https://youtu.be/iDhFOKCGfwU",
-        "published_at": "2026-06-07T00:21:30+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "TSM",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 36867,
-        "ocr_status": "ok",
-        "ocr_chars": 875,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 Key Market Data Cryptocurrency Market Cap Earnings Calendar Countries Bonds Commodities Themes & Subsectors Sectors U.S. EQUITES Name S&P 500 DJI",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 오늘의 투매는 알고리즘 투매가 많았다!!!",
-        "url": "https://youtu.be/37nfP8BwiYQ",
-        "published_at": "2026-06-05T21:54:55+00:00",
-        "tickers": [
-          "TSLA",
-          "AMD",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 14530,
-        "ocr_status": "ok",
-        "ocr_chars": 3884,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 a Search ticker, company or profile charlessCHWAB YOUR LOVED ONED CARE WITH NO ANNUAL FEE** LEARN MORE Home News Screener Charts Maps Groups Port",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(삼전,하이닉스) 기간조정과 가격조정은 어디까지?",
-        "url": "https://youtu.be/Zo3di8xd41I",
-        "published_at": "2026-06-05T05:57:37+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 3889,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 USDJPY lade Ideas-OAND X SUCF tblor Exit ton Samsur X irweeling.com/pro/KOSt:A005930/mocirl/ecl ebli-exit 5yr 양사 연구 더 미국 NAHB 주택시... Waldhlt: ",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석)  전약후강으로  대기자금 많다.그러나 반도체 조정은 완전히 끝나지 않았다.",
-        "url": "https://youtu.be/D2TzqT51El8",
-        "published_at": "2026-06-04T20:42:32+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 3067,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 BuyAlerts p Free Options Signals Today SIGN UP P a Search ticker, company or profile Chares SCHWAR Home News Screener Charts Maps Groups Portfoli",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(아이온큐) 매도는 어떤 기준으로 하나?",
-        "url": "https://youtu.be/bH7zkRhppsU",
-        "published_at": "2026-06-04T06:46:46+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 5418,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 C Ior, Inc. JIONC) Slock ValuauL ps Mu uples lor 1ONO Ine 0N X • usS08.23 lon0. Ine (1ONO)-11 x tridingvwcom/chatt108vw; ~ 양사 연구 * Pookmarks 1 성세",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 건전한 조정 VS 하락시작",
-        "url": "https://youtu.be/G20MMisYFns",
-        "published_at": "2026-06-03T21:54:30+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 4253,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 시황분석 마이크론, 샌디스크, 웨스턴디지털 반도체 조정오나? 브로드컴 전망치 하회 Home News Screener Charts Maps Groups Porttolio Insider Futures Forex Crypto Calendar Pricing Wed J",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(시황분석) 들고가는게 중요하고 신규집입은 IPO이후로 보자",
-        "url": "https://youtu.be/oqSSFBnSysQ",
-        "published_at": "2026-06-02T21:26:39+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 5190,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 Download 1o use cxtension (Frce) a search ticker, company or profile charles scHwAs D Cick Cownload) J Add Privacy Shield for Chrome Privacy shie",
-        "youtube_kind": "video"
       }
     ]
   },
@@ -3166,12 +3244,12 @@
     "region": "global",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 22,
+    "video_count": 29,
     "short_count": 0,
-    "regular_video_count": 22,
-    "mention_count": 36,
+    "regular_video_count": 29,
+    "mention_count": 43,
     "transcript_count": 7,
-    "metadata_count": 15,
+    "metadata_count": 22,
     "ocr_count": 6,
     "transcript_chars": 6449,
     "ocr_chars": 2347,
@@ -3179,7 +3257,7 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 17
+        "count": 24
       },
       {
         "ticker": "MU",
@@ -3213,6 +3291,104 @@
       }
     ],
     "videos": [
+      {
+        "title": "국민연금이 하락장에서 10% 넘게 사들인 저평가 국내주식 TOP3 공개",
+        "url": "https://youtu.be/8GPTYJOT2zM",
+        "published_at": "2026-06-28T11:45:02+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "주식으로 돈 번 사람들이 단타는 딱 천만원으로 치는 이유",
+        "url": "https://youtu.be/I23FPtwR-es",
+        "published_at": "2026-06-28T10:45:14+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "삼성전자•SK하이닉스 수익률을 가볍게 뛰어넘는 한국 ETF TOP11",
+        "url": "https://youtu.be/CV5xKt7XAiw",
+        "published_at": "2026-06-28T04:09:18+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "상위 0.1% 투자자들이 천만원으로 천억을 만든 아주 단순한 매매법",
+        "url": "https://youtu.be/6Ln8qtlFBPA",
+        "published_at": "2026-06-27T11:53:57+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "한국인이 사랑한 국내주식 TOP10 충격적인 평단가&수익률",
+        "url": "https://youtu.be/_D9IdbFs1IY",
+        "published_at": "2026-06-27T06:40:25+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "2026년 하반기부터 달라질 10년뒤 한국을 이끌 국내주식 섹터별 대장주",
+        "url": "https://youtu.be/eQ3wtf9CtAc",
+        "published_at": "2026-06-26T11:01:28+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "SK하이닉스 놓쳤다면? AI 반도체 시대, 조용히 올라갈 대장주 TOP10",
+        "url": "https://youtu.be/JZK1PVW6Nx4",
+        "published_at": "2026-06-26T08:40:23+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "최소 주식 10년 이상한 사람들만 아는 국내주식에 물렸을 때 수익으로 탈출하는 유일한 방법",
         "url": "https://youtu.be/6rgj3Pmqzk0",
@@ -4016,12 +4192,12 @@
     "region": "global",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 14,
+    "video_count": 15,
     "short_count": 3,
-    "regular_video_count": 11,
-    "mention_count": 24,
+    "regular_video_count": 12,
+    "mention_count": 25,
     "transcript_count": 12,
-    "metadata_count": 2,
+    "metadata_count": 3,
     "ocr_count": 3,
     "transcript_chars": 800799,
     "ocr_chars": 509,
@@ -4029,7 +4205,7 @@
       {
         "ticker": "MU",
         "name": "Micron",
-        "count": 6
+        "count": 7
       },
       {
         "ticker": "NVDA",
@@ -4073,6 +4249,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 삼성전자, SK하이닉스 정밀분석 🔴 뉴욕증시 마이크론↑ 애플↓ 혼조 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/3DQ9kZmjdJU",
+        "published_at": "2026-06-26T03:40:33+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 |개미,삼성전자·sk하이닉스 나흘간 14조원 매수🔴뉴욕증시 유가,기술주 하락에 혼조 #코스닥 #코스피 #나스닥",
         "url": "https://youtu.be/2AUJkOxLvyk",
@@ -5361,12 +5551,12 @@
     "region": "global",
     "youtuber": "미부기",
     "channel_id": "UCAjv8-1z6nO-i_JRa48-wvg",
-    "video_count": 26,
+    "video_count": 27,
     "short_count": 8,
-    "regular_video_count": 18,
-    "mention_count": 7,
+    "regular_video_count": 19,
+    "mention_count": 9,
     "transcript_count": 2,
-    "metadata_count": 24,
+    "metadata_count": 25,
     "ocr_count": 9,
     "transcript_chars": 8922,
     "ocr_chars": 2353,
@@ -5374,20 +5564,35 @@
       {
         "ticker": "QQQ",
         "name": "Nasdaq 100 ETF",
-        "count": 4
+        "count": 5
+      },
+      {
+        "ticker": "SOXX",
+        "name": "Semiconductor ETF",
+        "count": 2
       },
       {
         "ticker": "MU",
         "name": "Micron",
         "count": 2
-      },
-      {
-        "ticker": "SOXX",
-        "name": "Semiconductor ETF",
-        "count": 1
       }
     ],
     "videos": [
+      {
+        "title": "상반기 마지막 주간 증시 대응 전략 (+ 스페이스X 숏)",
+        "url": "https://youtu.be/BHr4qHN7u4Q",
+        "published_at": "2026-06-27T06:35:13+00:00",
+        "tickers": [
+          "QQQ",
+          "SOXX"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "마이크론 실적 이후 이렇게 대응하세요 (+ 수혜주)",
         "url": "https://youtu.be/WzwSVe-lJx0",
@@ -6409,6 +6614,90 @@
   },
   {
     "region": "domestic",
+    "youtuber": "올랜도 킴 미국주식",
+    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
+    "video_count": 4,
+    "short_count": 0,
+    "regular_video_count": 4,
+    "mention_count": 4,
+    "transcript_count": 2,
+    "metadata_count": 2,
+    "ocr_count": 2,
+    "transcript_chars": 68042,
+    "ocr_chars": 3865,
+    "stocks": [
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "count": 2
+      },
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 2
+      }
+    ],
+    "videos": [
+      {
+        "title": "(시황분석) 반도체 하락 이유는? 조정장인지 하락장인지?",
+        "url": "https://youtu.be/cHNy5M_Bz-8",
+        "published_at": "2026-06-26T20:49:40+00:00",
+        "tickers": [
+          "000660"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(시황분석)  들고가는게 실력인데 보통 내공으로는 못들고간다",
+        "url": "https://youtu.be/ma17kY5yqEw",
+        "published_at": "2026-06-15T20:42:08+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 45787,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
+        "url": "https://youtu.be/Dih2dabDeGA",
+        "published_at": "2026-06-07T20:38:48+00:00",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "transcript",
+        "transcript_chars": 22255,
+        "ocr_status": "ok",
+        "ocr_chars": 3322,
+        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
+        "url": "https://youtu.be/jh-7Hm0CkLc",
+        "published_at": "2026-05-30T11:03:34+00:00",
+        "tickers": [
+          "000660"
+        ],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 543,
+        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
     "youtuber": "T3chfeed - 테크피드 미국 주식 인사이트",
     "channel_id": "UCH2sxkxg_vdJSK4KYRXNE0Q",
     "video_count": 3,
@@ -6479,76 +6768,6 @@
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
-        "youtube_kind": "video"
-      }
-    ]
-  },
-  {
-    "region": "domestic",
-    "youtuber": "올랜도 킴 미국주식",
-    "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 3,
-    "short_count": 0,
-    "regular_video_count": 3,
-    "mention_count": 3,
-    "transcript_count": 2,
-    "metadata_count": 1,
-    "ocr_count": 2,
-    "transcript_chars": 68042,
-    "ocr_chars": 3865,
-    "stocks": [
-      {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "count": 2
-      },
-      {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "(시황분석)  들고가는게 실력인데 보통 내공으로는 못들고간다",
-        "url": "https://youtu.be/ma17kY5yqEw",
-        "published_at": "2026-06-15T20:42:08+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 45787,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(삼전닉스,마이크론) 조정폭이 깊어지면 매수관점으로 가자!!!",
-        "url": "https://youtu.be/Dih2dabDeGA",
-        "published_at": "2026-06-07T20:38:48+00:00",
-        "tickers": [
-          "005930"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 22255,
-        "ocr_status": "ok",
-        "ocr_chars": 3322,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "(상승종목) 가격보다는 가치를 보면 높은 가격에도 살수 있다.",
-        "url": "https://youtu.be/jh-7Hm0CkLc",
-        "published_at": "2026-05-30T11:03:34+00:00",
-        "tickers": [
-          "000660"
-        ],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 543,
-        "ocr_excerpt": "상승 가능종목 가격보다 가치보자!!! 3.30. 2.385 계속 담아가는 종목 아직도 상승 여력 많다 THE WALL STREET JOURNAL. 세계 사업 우리를 정치 경제 기술 시장 및 금융 의견 자유로운 표현 기예 라이프스타일 부동산 개인 재정 건강 기술 • 거리에서 들은 이야기 ",
         "youtube_kind": "video"
       }
     ]
@@ -7311,17 +7530,29 @@
     "region": "global",
     "youtuber": "경제덕후 언쌤",
     "channel_id": "UCBHYxqFQGgcqUHdezlIfY5Q",
-    "video_count": 11,
+    "video_count": 12,
     "short_count": 0,
-    "regular_video_count": 11,
+    "regular_video_count": 12,
     "mention_count": 0,
     "transcript_count": 0,
-    "metadata_count": 11,
+    "metadata_count": 12,
     "ocr_count": 8,
     "transcript_chars": 0,
     "ocr_chars": 2399,
     "stocks": [],
     "videos": [
+      {
+        "title": "환율이 1550원대로 망가진 진짜 이유",
+        "url": "https://youtu.be/j2ADWxC_q_s",
+        "published_at": "2026-06-26T12:21:18+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "IMF때 주식을 샀다면?",
         "url": "https://youtu.be/CHBxmggc6gI",
