@@ -3,12 +3,12 @@
     "region": "domestic",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 52,
+    "video_count": 55,
     "short_count": 0,
-    "regular_video_count": 52,
-    "mention_count": 231,
+    "regular_video_count": 55,
+    "mention_count": 265,
     "transcript_count": 15,
-    "metadata_count": 37,
+    "metadata_count": 40,
     "ocr_count": 18,
     "transcript_chars": 17418,
     "ocr_chars": 9091,
@@ -16,57 +16,67 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 33
+        "count": 36
       },
       {
         "ticker": "003550",
         "name": "LG",
-        "count": 32
+        "count": 35
       },
       {
         "ticker": "009150",
         "name": "삼성전기",
-        "count": 26
+        "count": 29
       },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "count": 24
+        "count": 27
       },
       {
         "ticker": "066570",
         "name": "LG전자",
-        "count": 23
+        "count": 26
       },
       {
         "ticker": "005380",
         "name": "현대차",
-        "count": 21
+        "count": 24
       },
       {
         "ticker": "034020",
         "name": "두산에너빌리티",
-        "count": 20
+        "count": 23
       },
       {
         "ticker": "042700",
         "name": "한미반도체",
-        "count": 19
+        "count": 22
       },
       {
         "ticker": "086520",
         "name": "에코프로",
-        "count": 9
+        "count": 11
       },
       {
         "ticker": "028260",
         "name": "삼성물산",
-        "count": 8
+        "count": 10
       },
       {
         "ticker": "006400",
         "name": "삼성SDI",
-        "count": 6
+        "count": 8
+      },
+      {
+        "ticker": "373220",
+        "name": "LG에너지솔루션",
+        "count": 4
+      },
+      {
+        "ticker": "247540",
+        "name": "에코프로비엠",
+        "count": 3
       },
       {
         "ticker": "012330",
@@ -74,19 +84,9 @@
         "count": 3
       },
       {
-        "ticker": "373220",
-        "name": "LG에너지솔루션",
-        "count": 2
-      },
-      {
         "ticker": "055550",
         "name": "신한지주",
         "count": 2
-      },
-      {
-        "ticker": "247540",
-        "name": "에코프로비엠",
-        "count": 1
       },
       {
         "ticker": "000270",
@@ -100,6 +100,79 @@
       }
     ],
     "videos": [
+      {
+        "title": "지금 사두면 7월부터 연말까지 제일 많이 오를 한국주식 TOP3",
+        "url": "https://youtu.be/ZXxFVYcwfWI",
+        "published_at": "2026-06-29T12:45:13+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "373220",
+          "028260",
+          "006400",
+          "066570",
+          "042700",
+          "086520",
+          "247540",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "천만원 투자할 수 있으면 적금 대신 연말까지 미친듯이 급등할 한국주식 3개만 모으세요",
+        "url": "https://youtu.be/effSTUx2Z1g",
+        "published_at": "2026-06-29T11:11:29+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "373220",
+          "028260",
+          "006400",
+          "066570",
+          "042700",
+          "086520",
+          "247540",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "국민연금이 6월 말 바닥에서 매집중인 국내주식 TOP10",
+        "url": "https://youtu.be/_p5a1CnCwqw",
+        "published_at": "2026-06-29T02:45:33+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "005380",
+          "066570",
+          "042700",
+          "003550",
+          "034020",
+          "009150"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "국민연금이 하락장에서 10% 넘게 사들인 저평가 국내주식 TOP3 공개",
         "url": "https://youtu.be/8GPTYJOT2zM",
@@ -647,45 +720,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "video"
-      },
-      {
-        "title": "LG전자•현대차•삼성전기 반등할때 나타나는 신호 (대장주 다 똑같습니다)",
-        "url": "https://youtu.be/azct_XhPW0o",
-        "published_at": "2026-06-08T12:45:34+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 1018,
-        "ocr_excerpt": "LG전자 현대차 삼성전기 이 신호 나올때 사세요 83,8000 63,6000 80,4000 81,200.0 10,000g 82,0000 33,0000 82. 000 못 들어가는 분들 많죠? 82,200.0 83,0000 11,0000 11.:00회 81 000.0 83.800.0 63,",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "네이버•엔비디아가 찍은 한국판 스타게이트, AI팩토리 핵심 한국주식 대장주",
-        "url": "https://youtu.be/pauPkD2UyDo",
-        "published_at": "2026-06-08T10:55:22+00:00",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 377,
-        "ocr_excerpt": "네이버 엔비디아가 찍은 AI 팩토리 핵심 한국기업 1,260,00 240.00 220,00 3,200.00 네이버가 그리는 3,120.00 3,260,00 엔비디아가 새로 찍은 제2의 삼성전자 1,240.00 11만원 -> 17만원 3,140,00 AI...'전력 이 끊기자 반도체 주가",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "삼성전자•SK하이닉스 폭락 후 매수 타이밍, 한국주식 대장주는 이 때 사는겁니다",
-        "url": "https://youtu.be/AH8rUmr6nPs",
-        "published_at": "2026-06-07T11:45:02+00:00",
-        "tickers": [
-          "005930",
-          "000660"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 1083,
-        "ocr_status": "ok",
-        "ocr_chars": 1217,
-        "ocr_excerpt": "삼성 하이닉스 폭락 이 신호 나올때 다시 사세요 오히려 이렇게 떨어질 때 80,600.0 80,400.0 83.200.0 83,000.0 82,800.0 82,600.0 82,400.C 62,200.0 82,000.0 81,800.0 81, 400.0 81,000.0 80,800.0 9",
-        "youtube_kind": "video"
       }
     ]
   },
@@ -693,12 +727,12 @@
     "region": "domestic",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 175,
-    "short_count": 175,
+    "video_count": 180,
+    "short_count": 180,
     "regular_video_count": 0,
-    "mention_count": 149,
+    "mention_count": 150,
     "transcript_count": 104,
-    "metadata_count": 71,
+    "metadata_count": 76,
     "ocr_count": 27,
     "transcript_chars": 288759,
     "ocr_chars": 11694,
@@ -706,7 +740,7 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 62
+        "count": 63
       },
       {
         "ticker": "000660",
@@ -785,6 +819,68 @@
       }
     ],
     "videos": [
+      {
+        "title": "애플이 '삼전·닉스' 대신 '중국'을 선택한 진짜 이유",
+        "url": "https://youtu.be/FUxDX6FmKzc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "오늘 투자자들이 꼭 봐야하는 '미국 뉴스' 3가지",
+        "url": "https://youtu.be/4XDK2vS3fgM",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "삼성·SK가 발표한 '2000조 프로젝트' 핵심 정리",
+        "url": "https://youtu.be/Nkkh1R7JUjE",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "지금 투자자들이 '삼성전자+하이닉스'에서 봐야 하는 진짜 포인트",
+        "url": "https://youtu.be/Mltsx4uEYdI",
+        "published_at": "",
+        "tickers": [
+          "005930"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "6월 29일 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
+        "url": "https://youtu.be/15GedReFkeI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "최근 '코스닥'이 끝도없이 폭락하는 진짜 이유",
         "url": "https://youtu.be/Jk_fnh9hvUg",
@@ -1096,66 +1192,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      },
-      {
-        "title": "오늘 투자자들이 반드시 체크해야 할 '미국 뉴스' 3가지",
-        "url": "https://youtu.be/CF29bb6RG-c",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "현정부가 삼전·하이닉스에, '호남 투자'를 추진하는 진짜 이유",
-        "url": "https://youtu.be/DyssRwSC30E",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "오늘 '코스피'가 다시 올랐던, 진짜 이유",
-        "url": "https://youtu.be/YwAH5CkljfE",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "6월 24일 오늘 투자자들이 꼭 알아야 하는 투자 포인트",
-        "url": "https://youtu.be/kzjf7Ao35_U",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "빚투 38.4조 시대'.. 코스피에 미치는 진짜 영향",
-        "url": "https://youtu.be/J7PLZsuOYK0",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
       }
     ]
   },
@@ -1163,12 +1199,12 @@
     "region": "domestic",
     "youtuber": "주식용사부",
     "channel_id": "UC-jgYMsPz6NuDT9j9dmNODg",
-    "video_count": 44,
+    "video_count": 46,
     "short_count": 7,
-    "regular_video_count": 37,
-    "mention_count": 88,
+    "regular_video_count": 39,
+    "mention_count": 91,
     "transcript_count": 27,
-    "metadata_count": 17,
+    "metadata_count": 19,
     "ocr_count": 12,
     "transcript_chars": 805838,
     "ocr_chars": 9944,
@@ -1176,17 +1212,17 @@
       {
         "ticker": "005930",
         "name": "삼성전자",
-        "count": 22
+        "count": 23
       },
       {
         "ticker": "000660",
         "name": "SK하이닉스",
-        "count": 15
+        "count": 16
       },
       {
         "ticker": "035720",
         "name": "카카오",
-        "count": 12
+        "count": 13
       },
       {
         "ticker": "003550",
@@ -1235,6 +1271,34 @@
       }
     ],
     "videos": [
+      {
+        "title": "코스닥 상승의 이상적 시나리오",
+        "url": "https://youtu.be/_6YtTXhLzB4",
+        "published_at": "2026-06-29T09:30:18+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | AI·반도체주 폭락 이후 전망🔴 뉴욕증시 기술주 고점 부담에 하락 마감  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/0vW-Bll5s88",
+        "published_at": "2026-06-29T03:33:05+00:00",
+        "tickers": [
+          "005930",
+          "000660",
+          "035720"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "주식 차트분석 공부할 때 하는 흔한 실수",
         "url": "https://youtu.be/Cn8GyDK75c4",
@@ -1631,42 +1695,6 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 75523,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "젠슨황의 방한으로 기대감이 올라온 로봇주",
-        "url": "https://youtu.be/W2TMT2O0qg8",
-        "published_at": "2026-06-02T09:30:23+00:00",
-        "tickers": [
-          "005930",
-          "005380",
-          "003550"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 253,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 젠슨황 방한, LG,두산,네이버 전망🔴 뉴욕지수 유가 상승에도 최고치 마감  #코스닥 #코스피 #나스닥",
-        "url": "https://youtu.be/rapTrDT6EcM",
-        "published_at": "2026-06-02T03:35:18+00:00",
-        "tickers": [
-          "005930",
-          "000660",
-          "005380",
-          "003550",
-          "009150",
-          "032830",
-          "000810"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 63172,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
@@ -2208,12 +2236,12 @@
     "region": "global",
     "youtuber": "올랜도 킴 미국주식",
     "channel_id": "UCwSSqi-s0wcH6pJbH3YPZqQ",
-    "video_count": 40,
+    "video_count": 41,
     "short_count": 0,
-    "regular_video_count": 40,
-    "mention_count": 67,
+    "regular_video_count": 41,
+    "mention_count": 68,
     "transcript_count": 12,
-    "metadata_count": 28,
+    "metadata_count": 29,
     "ocr_count": 12,
     "transcript_chars": 345351,
     "ocr_chars": 36599,
@@ -2239,14 +2267,14 @@
         "count": 7
       },
       {
-        "ticker": "PLTR",
-        "name": "Palantir",
+        "ticker": "IONQ",
+        "name": "IonQ",
         "count": 4
       },
       {
-        "ticker": "IONQ",
-        "name": "IonQ",
-        "count": 3
+        "ticker": "PLTR",
+        "name": "Palantir",
+        "count": 4
       },
       {
         "ticker": "SOXX",
@@ -2320,6 +2348,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "(아이온큐) 주가하락의 이유가 지수변경인가?",
+        "url": "https://youtu.be/a0pdl1NM0Ck",
+        "published_at": "2026-06-29T05:05:12+00:00",
+        "tickers": [
+          "IONQ"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "(월간시황) 왜 선수들은 AI를 아직 2-3회초라고 부르는가?",
         "url": "https://youtu.be/FYaTwK003A4",
@@ -2737,24 +2779,6 @@
         "ocr_chars": 3322,
         "ocr_excerpt": "상위 1% 투자자가 됩니다 19 Sareung Electrone Co.u.h X 컨스트리트저 설 Teins al Use - Uow one 삼성전자에 대한 SY UCr EBI10 X kr.iwesling.com/prc/KOSE:A005930/modst/ecl-ebilta-exit5yr ~",
         "youtube_kind": "video"
-      },
-      {
-        "title": "(주간시황) 다음주 초는 아직 하락세가 강하겠지만 마이크론 실적발표(6/24)가 분수령이 될것이다.",
-        "url": "https://youtu.be/iDhFOKCGfwU",
-        "published_at": "2026-06-07T00:21:30+00:00",
-        "tickers": [
-          "NVDA",
-          "TSLA",
-          "AMD",
-          "TSM",
-          "MU"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 36867,
-        "ocr_status": "ok",
-        "ocr_chars": 875,
-        "ocr_excerpt": "상위 1% 투자자가 됩니다 Key Market Data Cryptocurrency Market Cap Earnings Calendar Countries Bonds Commodities Themes & Subsectors Sectors U.S. EQUITES Name S&P 500 DJI",
-        "youtube_kind": "video"
       }
     ]
   },
@@ -2762,12 +2786,12 @@
     "region": "global",
     "youtuber": "경제사냥꾼",
     "channel_id": "UC7usMJDHmtbs_oegmzQKKMA",
-    "video_count": 51,
-    "short_count": 51,
+    "video_count": 52,
+    "short_count": 52,
     "regular_video_count": 0,
-    "mention_count": 64,
+    "mention_count": 65,
     "transcript_count": 44,
-    "metadata_count": 7,
+    "metadata_count": 8,
     "ocr_count": 10,
     "transcript_chars": 120096,
     "ocr_chars": 4103,
@@ -2775,7 +2799,7 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 34
+        "count": 35
       },
       {
         "ticker": "MU",
@@ -2809,6 +2833,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "현시점 월가가 '엔비디아'보다 먼저 봐야 한다는 'AI 종목' 정체",
+        "url": "https://youtu.be/7AiTq7TVnrc",
+        "published_at": "",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "short"
+      },
       {
         "title": "경제사냥꾼 구독자 전용 종목 분석 : 팔란티어(PLTR)",
         "url": "https://youtu.be/5yhfegINTHY",
@@ -3223,20 +3261,6 @@
         "ocr_chars": 0,
         "ocr_excerpt": "",
         "youtube_kind": "short"
-      },
-      {
-        "title": "'제2의 하이닉스' 월가가 지금 주목하고 있다는 '신규 대장주' 정체",
-        "url": "https://youtu.be/HDI_HnYzxrE",
-        "published_at": "",
-        "tickers": [
-          "NVDA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 2319,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "short"
       }
     ]
   },
@@ -3244,12 +3268,12 @@
     "region": "global",
     "youtuber": "강지한 차트연구소",
     "channel_id": "UCNqWJvNS6SwrM4gApwdCUMg",
-    "video_count": 29,
+    "video_count": 32,
     "short_count": 0,
-    "regular_video_count": 29,
-    "mention_count": 43,
+    "regular_video_count": 32,
+    "mention_count": 47,
     "transcript_count": 7,
-    "metadata_count": 22,
+    "metadata_count": 25,
     "ocr_count": 6,
     "transcript_chars": 6449,
     "ocr_chars": 2347,
@@ -3257,16 +3281,16 @@
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
-        "count": 24
-      },
-      {
-        "ticker": "MU",
-        "name": "Micron",
-        "count": 7
+        "count": 27
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
+        "count": 8
+      },
+      {
+        "ticker": "MU",
+        "name": "Micron",
         "count": 7
       },
       {
@@ -3291,6 +3315,49 @@
       }
     ],
     "videos": [
+      {
+        "title": "지금 사두면 7월부터 연말까지 제일 많이 오를 한국주식 TOP3",
+        "url": "https://youtu.be/ZXxFVYcwfWI",
+        "published_at": "2026-06-29T12:45:13+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "천만원 투자할 수 있으면 적금 대신 연말까지 미친듯이 급등할 한국주식 3개만 모으세요",
+        "url": "https://youtu.be/effSTUx2Z1g",
+        "published_at": "2026-06-29T11:11:29+00:00",
+        "tickers": [
+          "NVDA",
+          "TSLA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "국민연금이 6월 말 바닥에서 매집중인 국내주식 TOP10",
+        "url": "https://youtu.be/_p5a1CnCwqw",
+        "published_at": "2026-06-29T02:45:33+00:00",
+        "tickers": [
+          "NVDA"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "국민연금이 하락장에서 10% 넘게 사들인 저평가 국내주식 TOP3 공개",
         "url": "https://youtu.be/8GPTYJOT2zM",
@@ -3682,34 +3749,6 @@
         "ocr_chars": 416,
         "ocr_excerpt": "제2회 깐부회동 젠슨황 방한 수혜주 TOP10 두번 누르면 SAMSUNG 상성전자 NAVER LG전자 OLG CNS LG CNS krunoal 현데오도어버 Mando HL만드 LAl aocen 대한전선 LSeecree LS ELECTRIC 연비디아 HBM 핵심 공급, 차세대 AI 가속기",
         "youtube_kind": "video"
-      },
-      {
-        "title": "국민연금이 직접 지분 보유한 6월 급등할 한국주식 대장주 3개 공개",
-        "url": "https://youtu.be/audbaebTWh0",
-        "published_at": "2026-05-30T11:45:23+00:00",
-        "tickers": [
-          "TSLA"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 762,
-        "ocr_status": "ok",
-        "ocr_chars": 423,
-        "ocr_excerpt": "국민연금이 쓸어담은 6월 급등할 3종목 3,260.00 3,240.00 3,220.00 3,200.00 절대 놓치지 마세요 3,180.00 3,162.41 3,158.09 13.157.31 3,156.75 3,140.00 260.00 SAMSUNG ELECIRO MECHANICS 0.0",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "LG이노텍, 삼성전기 다음 급등할 대장주 3개 공개, 부자들이 몰래 쓸어담은 한국주식",
-        "url": "https://youtu.be/5EKMn0kg64c",
-        "published_at": "2026-05-26T10:45:40+00:00",
-        "tickers": [
-          "PLTR"
-        ],
-        "confidence": "transcript",
-        "transcript_chars": 719,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
       }
     ]
   },
@@ -3717,12 +3756,12 @@
     "region": "global",
     "youtuber": "T3chfeed - 테크피드 미국 주식 인사이트",
     "channel_id": "UCH2sxkxg_vdJSK4KYRXNE0Q",
-    "video_count": 29,
+    "video_count": 30,
     "short_count": 10,
-    "regular_video_count": 19,
-    "mention_count": 35,
+    "regular_video_count": 20,
+    "mention_count": 36,
     "transcript_count": 22,
-    "metadata_count": 7,
+    "metadata_count": 8,
     "ocr_count": 9,
     "transcript_chars": 81457,
     "ocr_chars": 1744,
@@ -3740,7 +3779,7 @@
       {
         "ticker": "PLTR",
         "name": "Palantir",
-        "count": 5
+        "count": 6
       },
       {
         "ticker": "IONQ",
@@ -3784,6 +3823,20 @@
       }
     ],
     "videos": [
+      {
+        "title": "팔란티어를 혐오하는 유럽",
+        "url": "https://youtu.be/60aPlKULhcM",
+        "published_at": "2026-06-29T09:11:58+00:00",
+        "tickers": [
+          "PLTR"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "테슬라 많이 힘드신가요? 전혀 힘들 필요가 없습니다.",
         "url": "https://youtu.be/rBcYMBaNpOI",
@@ -6773,6 +6826,350 @@
     ]
   },
   {
+    "region": "global",
+    "youtuber": "월텍남 - 월스트리트 테크남",
+    "channel_id": "UCWV2Uy79TOpB1bk8hnq1nGw",
+    "video_count": 26,
+    "short_count": 8,
+    "regular_video_count": 18,
+    "mention_count": 2,
+    "transcript_count": 1,
+    "metadata_count": 25,
+    "ocr_count": 9,
+    "transcript_chars": 3729,
+    "ocr_chars": 2272,
+    "stocks": [
+      {
+        "ticker": "MU",
+        "name": "Micron",
+        "count": 1
+      },
+      {
+        "ticker": "TSM",
+        "name": "TSMC",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "2027년 피크, 빅테크 투자 멈춘다? 월가 10개 보고서 종합했습니다.",
+        "url": "https://youtu.be/nxFaHLJmUB8",
+        "published_at": "2026-06-29T10:41:08+00:00",
+        "tickers": [
+          "MU"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "차원이 다른 AI실시간 번역 기술.. 이제 언어의 벽이 완전히 무너집니다",
+        "url": "https://youtu.be/_BDyPzL6G8c",
+        "published_at": "2026-06-23T09:49:54+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "클로드 페이블..전세계에서 금지된 AI, 대체 왜?",
+        "url": "https://youtu.be/DFy2WJJYFJA",
+        "published_at": "2026-06-17T09:34:17+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "\"머스크가 이걸 몰랐을까?\" 스페이스X는 \"이거\"안하면 힘듭니다.",
+        "url": "https://youtu.be/_XwrH35IIxM",
+        "published_at": "2026-06-15T10:43:55+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "곧 판매되는 중국의 충격적인 로봇 근황..ㄷㄷ",
+        "url": "https://youtu.be/UtUyfRostjY",
+        "published_at": "2026-06-14T21:27:19+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "다시 시작된 미사일 폭격...\"데이터센터 건설 취소\" 악재까지 ㄷㄷ..",
+        "url": "https://youtu.be/PNJZEmqF68U",
+        "published_at": "2026-06-11T07:58:15+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "젠슨황 \"폭락하면 매수기회다\"..월가의 논리는 이렇습니다.",
+        "url": "https://youtu.be/OPEkVhRJysE",
+        "published_at": "2026-06-10T11:38:59+00:00",
+        "tickers": [
+          "TSM"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "나스닥, 코스피 추가로 폭락중..월가는 \"대충격\"",
+        "url": "https://youtu.be/bI-pw07N_SA",
+        "published_at": "2026-06-06T02:39:46+00:00",
+        "tickers": [],
+        "confidence": "transcript",
+        "transcript_chars": 3729,
+        "ocr_status": "ok",
+        "ocr_chars": 204,
+        "ocr_excerpt": "나스닥-5% / 필라델피아 반도체 -10% 금리 인상 우려 70% 고용지표 두배, 금리 인상 가능성 AI반도체 피크아웃 30% BNP파리바, 26년 중반이 메모리 반도체 피크 필라델피아 반도체 지수는 야 이거 금리 인상할 수 있는 거 아니야? BNP 파리바라는 투자은행에서 구조적으로 메",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "메모리는 오히려 20%더 필요하다는 계산입니다.",
+        "url": "https://youtu.be/J8WIFxgirtQ",
+        "published_at": "2026-06-05T07:27:44+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "26년에 AI슈퍼 사이클 끝?... 오해와 진실입니다",
+        "url": "https://youtu.be/ZI6boQxekzA",
+        "published_at": "2026-06-05T05:05:07+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "브로드컴 쇼크..AI 반도체 이대로 꺾이나?",
+        "url": "https://youtu.be/wA3eCk7ztJA",
+        "published_at": "2026-06-04T07:26:34+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "마벨, 젠슨황이 직접 언급한 “다음 1조 기업“ 총정리",
+        "url": "https://youtu.be/5mggPifincU",
+        "published_at": "2026-06-03T08:16:40+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "현대차 아틀라스, \"진짜 대박\" 외신들이 1등 로봇으로 극찬한 이유",
+        "url": "https://youtu.be/bcuNmn6Kt1U",
+        "published_at": "2026-06-02T23:56:45+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "[밥 친구 영상] 미장 투자자로서...코스피 8000 돌파 소식에 즐거운 마음으로 찍었습니다 재밌게 봐주세요...",
+        "url": "https://youtu.be/eOgahsD9aeQ",
+        "published_at": "2026-06-01T09:01:33+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "마이크론 3배, 삼전 60만, 하이닉스 400만.. 월가에 불고있는 새로운 논리 ㄷㄷ..",
+        "url": "https://youtu.be/Nde1E61SN2s",
+        "published_at": "2026-05-27T09:51:57+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "머스크가 10조원 데이터센터를 클로드에게 넘긴 충격적 이유 ㄷㄷ...",
+        "url": "https://youtu.be/7HiPRhfiwFc",
+        "published_at": "2026-05-23T05:46:41+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "상위 0.1% '기술 귀족'만 살아남는 시대, 당장 이 2가지를 시작하세요.",
+        "url": "https://youtu.be/uBX7PZvwoNs",
+        "published_at": "2026-05-20T10:34:12+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "반도체, 아직 사이클 중간 밖에 안 온 이유",
+        "url": "https://youtu.be/8PUP8ElaU2k",
+        "published_at": "2026-05-16T00:45:20+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
+      {
+        "title": "달러패권을 유지하기 위해 미국이 한 \"만행\"",
+        "url": "https://youtu.be/LPh2va3dyxc",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 370,
+        "ocr_excerpt": "달러 안 쓰면 박살? 미국이 작정하고 친 이유 달러 패권 수호 탈달러 동맹 분쇄 베네수엘라 원유 결제 -> 달러 강제 복귀 위안화 결제 중추 이란 -> 폭격으로 제거 브릭스 탈달러 연합 -> 척추 분쇄 여러분 미국의 진짜임은 항공모함이나 월텍남 - 월스트리트 테크남 <\"알면 소름돋는 이",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "미국의 목적은 명확합니다",
+        "url": "https://youtu.be/PX3k_1jmc2Q",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 224,
+        "ocr_excerpt": "트럼프의 사면타 콤보 중국 포위망의 완성 베네수엘라 - 석유 미국의 3연타 전략 2개월 만에 완성한 대중국 포위망 2 그랜드-광을 이란 - 요충지 베네수엘라에서 마두로를 죽출해내고 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 그린란드 분명히 광물권을 가져옵니다",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "AI가 적국의 수괴를..미친 참수작전의 비밀",
+        "url": "https://youtu.be/m7rM0PiZ0Co",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 165,
+        "ocr_excerpt": "AI가 지도자를 제거 미친 참수작전의 비밀 2026. 02.28 미국, 이란 전면 공습 단행 최고지도자 하메네이 사망 확인 2026년 2월 28일 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 2026. 02. 28 단순한 공격이 아니었어요 \"정교하게 계산된 참",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "이란이 목표가 아니라 \"000\"이 목표입니다.",
+        "url": "https://youtu.be/n0C2VICF4f0",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 168,
+        "ocr_excerpt": "미국이 이란을 공습한 진짜 소름돋는 이유 미국의 이란 공습 미중 패권 전쟁의 큰 그림 미국이 이란을 공습한건 그냥 공격이 아닙니다. 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 대부분의 사람들은 미국이랑 이란이랑 전쟁한다 월텍남 - 월스트리트 테크남 미국과 중",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "메모리 8배 압축, 더 이상 메모리 필요 없나?",
+        "url": "https://youtu.be/yvrPBHzoG-k",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 480,
+        "ocr_excerpt": "시험 문제만 딱 골라 기억하는 8배 압축 기술 그래서 메모를 안 했다고 칩시다 DMS 작동 원리 - Delayed Eviction의 힘 \"바로 버리면 정보(손실 지연시키면 모델이 정보를 먼저 흡수한다\" Immediate: Decision Decision -> Remove -> Loss ",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "실제 여자아이돌도 AI가 대체하겠네요",
+        "url": "https://youtu.be/QOYgNdaHPQI",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 324,
+        "ocr_excerpt": "가짜가 돈 버는 시대 AI 인플루언서의 위력 rChatoPT Seedance 2 모델은 진짜 미쳤네요. 다른 모델들을 완전히 압살해버리는 수준 입니다. OWN THE NUAT| 오리지널 음 근화해도 않을 나고 불리우는 00에 콘텐츠 제작 방식에 대해 전지하게 2번 좀 부부가 있어요. 1",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "중국로봇..하다하다 못해 \"이것\"까지 보여주네요",
+        "url": "https://youtu.be/swqJwECAjdU",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 49,
+        "ocr_excerpt": "중국 로봇 소름 돋네 물구나무 서고 비보잉 로봇 갈라스 여기 넘어진 적 했는데 잘 보시면",
+        "youtube_kind": "short"
+      },
+      {
+        "title": "시댄스ai로 만든 영화 근황..진짜 말이 안되네요",
+        "url": "https://youtu.be/1vbyh32VlFA",
+        "published_at": "",
+        "tickers": [],
+        "confidence": "ocr_only",
+        "transcript_chars": 0,
+        "ocr_status": "ok",
+        "ocr_chars": 288,
+        "ocr_excerpt": "클릭 한 번에 영화 끝 할리우드가 벌벌 떤다 cutx MPA(미국영화원회)와 디즈니가 Seedance 20을 두고 \"대규모 저작권 청 해를 주장하며 바이트댄스를 정면으로 공격했습니다. MPA(미국영화원회)와 디즈니가 Seedance 2.0을 두고 \"대규모 저적권 침 04I08 E 3들은",
+        "youtube_kind": "short"
+      }
+    ]
+  },
+  {
     "region": "domestic",
     "youtuber": "월가아재의 과학적 투자",
     "channel_id": "UCpqD9_OJNtF6suPpi6mOQCQ",
@@ -6821,6 +7218,49 @@
         ],
         "confidence": "transcript",
         "transcript_chars": 46319,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      }
+    ]
+  },
+  {
+    "region": "domestic",
+    "youtuber": "월텍남 - 월스트리트 테크남",
+    "channel_id": "UCWV2Uy79TOpB1bk8hnq1nGw",
+    "video_count": 1,
+    "short_count": 0,
+    "regular_video_count": 1,
+    "mention_count": 2,
+    "transcript_count": 0,
+    "metadata_count": 1,
+    "ocr_count": 0,
+    "transcript_chars": 0,
+    "ocr_chars": 0,
+    "stocks": [
+      {
+        "ticker": "005930",
+        "name": "삼성전자",
+        "count": 1
+      },
+      {
+        "ticker": "000660",
+        "name": "SK하이닉스",
+        "count": 1
+      }
+    ],
+    "videos": [
+      {
+        "title": "2027년 피크, 빅테크 투자 멈춘다? 월가 10개 보고서 종합했습니다.",
+        "url": "https://youtu.be/nxFaHLJmUB8",
+        "published_at": "2026-06-29T10:41:08+00:00",
+        "tickers": [
+          "005930",
+          "000660"
+        ],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
         "ocr_status": "",
         "ocr_chars": 0,
         "ocr_excerpt": "",
@@ -7203,344 +7643,31 @@
   },
   {
     "region": "global",
-    "youtuber": "월텍남 - 월스트리트 테크남",
-    "channel_id": "UCWV2Uy79TOpB1bk8hnq1nGw",
-    "video_count": 25,
-    "short_count": 8,
-    "regular_video_count": 17,
-    "mention_count": 1,
-    "transcript_count": 1,
-    "metadata_count": 24,
-    "ocr_count": 9,
-    "transcript_chars": 3729,
-    "ocr_chars": 2272,
-    "stocks": [
-      {
-        "ticker": "TSM",
-        "name": "TSMC",
-        "count": 1
-      }
-    ],
-    "videos": [
-      {
-        "title": "차원이 다른 AI실시간 번역 기술.. 이제 언어의 벽이 완전히 무너집니다",
-        "url": "https://youtu.be/_BDyPzL6G8c",
-        "published_at": "2026-06-23T09:49:54+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "클로드 페이블..전세계에서 금지된 AI, 대체 왜?",
-        "url": "https://youtu.be/DFy2WJJYFJA",
-        "published_at": "2026-06-17T09:34:17+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "\"머스크가 이걸 몰랐을까?\" 스페이스X는 \"이거\"안하면 힘듭니다.",
-        "url": "https://youtu.be/_XwrH35IIxM",
-        "published_at": "2026-06-15T10:43:55+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "곧 판매되는 중국의 충격적인 로봇 근황..ㄷㄷ",
-        "url": "https://youtu.be/UtUyfRostjY",
-        "published_at": "2026-06-14T21:27:19+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "다시 시작된 미사일 폭격...\"데이터센터 건설 취소\" 악재까지 ㄷㄷ..",
-        "url": "https://youtu.be/PNJZEmqF68U",
-        "published_at": "2026-06-11T07:58:15+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "젠슨황 \"폭락하면 매수기회다\"..월가의 논리는 이렇습니다.",
-        "url": "https://youtu.be/OPEkVhRJysE",
-        "published_at": "2026-06-10T11:38:59+00:00",
-        "tickers": [
-          "TSM"
-        ],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "나스닥, 코스피 추가로 폭락중..월가는 \"대충격\"",
-        "url": "https://youtu.be/bI-pw07N_SA",
-        "published_at": "2026-06-06T02:39:46+00:00",
-        "tickers": [],
-        "confidence": "transcript",
-        "transcript_chars": 3729,
-        "ocr_status": "ok",
-        "ocr_chars": 204,
-        "ocr_excerpt": "나스닥-5% / 필라델피아 반도체 -10% 금리 인상 우려 70% 고용지표 두배, 금리 인상 가능성 AI반도체 피크아웃 30% BNP파리바, 26년 중반이 메모리 반도체 피크 필라델피아 반도체 지수는 야 이거 금리 인상할 수 있는 거 아니야? BNP 파리바라는 투자은행에서 구조적으로 메",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "메모리는 오히려 20%더 필요하다는 계산입니다.",
-        "url": "https://youtu.be/J8WIFxgirtQ",
-        "published_at": "2026-06-05T07:27:44+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "26년에 AI슈퍼 사이클 끝?... 오해와 진실입니다",
-        "url": "https://youtu.be/ZI6boQxekzA",
-        "published_at": "2026-06-05T05:05:07+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "브로드컴 쇼크..AI 반도체 이대로 꺾이나?",
-        "url": "https://youtu.be/wA3eCk7ztJA",
-        "published_at": "2026-06-04T07:26:34+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "마벨, 젠슨황이 직접 언급한 “다음 1조 기업“ 총정리",
-        "url": "https://youtu.be/5mggPifincU",
-        "published_at": "2026-06-03T08:16:40+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "현대차 아틀라스, \"진짜 대박\" 외신들이 1등 로봇으로 극찬한 이유",
-        "url": "https://youtu.be/bcuNmn6Kt1U",
-        "published_at": "2026-06-02T23:56:45+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "[밥 친구 영상] 미장 투자자로서...코스피 8000 돌파 소식에 즐거운 마음으로 찍었습니다 재밌게 봐주세요...",
-        "url": "https://youtu.be/eOgahsD9aeQ",
-        "published_at": "2026-06-01T09:01:33+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "마이크론 3배, 삼전 60만, 하이닉스 400만.. 월가에 불고있는 새로운 논리 ㄷㄷ..",
-        "url": "https://youtu.be/Nde1E61SN2s",
-        "published_at": "2026-05-27T09:51:57+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "머스크가 10조원 데이터센터를 클로드에게 넘긴 충격적 이유 ㄷㄷ...",
-        "url": "https://youtu.be/7HiPRhfiwFc",
-        "published_at": "2026-05-23T05:46:41+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "상위 0.1% '기술 귀족'만 살아남는 시대, 당장 이 2가지를 시작하세요.",
-        "url": "https://youtu.be/uBX7PZvwoNs",
-        "published_at": "2026-05-20T10:34:12+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "반도체, 아직 사이클 중간 밖에 안 온 이유",
-        "url": "https://youtu.be/8PUP8ElaU2k",
-        "published_at": "2026-05-16T00:45:20+00:00",
-        "tickers": [],
-        "confidence": "caption_failed",
-        "transcript_chars": 0,
-        "ocr_status": "",
-        "ocr_chars": 0,
-        "ocr_excerpt": "",
-        "youtube_kind": "video"
-      },
-      {
-        "title": "달러패권을 유지하기 위해 미국이 한 \"만행\"",
-        "url": "https://youtu.be/LPh2va3dyxc",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 370,
-        "ocr_excerpt": "달러 안 쓰면 박살? 미국이 작정하고 친 이유 달러 패권 수호 탈달러 동맹 분쇄 베네수엘라 원유 결제 -> 달러 강제 복귀 위안화 결제 중추 이란 -> 폭격으로 제거 브릭스 탈달러 연합 -> 척추 분쇄 여러분 미국의 진짜임은 항공모함이나 월텍남 - 월스트리트 테크남 <\"알면 소름돋는 이",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "미국의 목적은 명확합니다",
-        "url": "https://youtu.be/PX3k_1jmc2Q",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 224,
-        "ocr_excerpt": "트럼프의 사면타 콤보 중국 포위망의 완성 베네수엘라 - 석유 미국의 3연타 전략 2개월 만에 완성한 대중국 포위망 2 그랜드-광을 이란 - 요충지 베네수엘라에서 마두로를 죽출해내고 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 그린란드 분명히 광물권을 가져옵니다",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "AI가 적국의 수괴를..미친 참수작전의 비밀",
-        "url": "https://youtu.be/m7rM0PiZ0Co",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 165,
-        "ocr_excerpt": "AI가 지도자를 제거 미친 참수작전의 비밀 2026. 02.28 미국, 이란 전면 공습 단행 최고지도자 하메네이 사망 확인 2026년 2월 28일 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 2026. 02. 28 단순한 공격이 아니었어요 \"정교하게 계산된 참",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "이란이 목표가 아니라 \"000\"이 목표입니다.",
-        "url": "https://youtu.be/n0C2VICF4f0",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 168,
-        "ocr_excerpt": "미국이 이란을 공습한 진짜 소름돋는 이유 미국의 이란 공습 미중 패권 전쟁의 큰 그림 미국이 이란을 공습한건 그냥 공격이 아닙니다. 월텍남- 월스트리트 테크남 <\"알면 소름돋는 이란 공습의 진짜 이유\"> 대부분의 사람들은 미국이랑 이란이랑 전쟁한다 월텍남 - 월스트리트 테크남 미국과 중",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "메모리 8배 압축, 더 이상 메모리 필요 없나?",
-        "url": "https://youtu.be/yvrPBHzoG-k",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 480,
-        "ocr_excerpt": "시험 문제만 딱 골라 기억하는 8배 압축 기술 그래서 메모를 안 했다고 칩시다 DMS 작동 원리 - Delayed Eviction의 힘 \"바로 버리면 정보(손실 지연시키면 모델이 정보를 먼저 흡수한다\" Immediate: Decision Decision -> Remove -> Loss ",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "실제 여자아이돌도 AI가 대체하겠네요",
-        "url": "https://youtu.be/QOYgNdaHPQI",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 324,
-        "ocr_excerpt": "가짜가 돈 버는 시대 AI 인플루언서의 위력 rChatoPT Seedance 2 모델은 진짜 미쳤네요. 다른 모델들을 완전히 압살해버리는 수준 입니다. OWN THE NUAT| 오리지널 음 근화해도 않을 나고 불리우는 00에 콘텐츠 제작 방식에 대해 전지하게 2번 좀 부부가 있어요. 1",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "중국로봇..하다하다 못해 \"이것\"까지 보여주네요",
-        "url": "https://youtu.be/swqJwECAjdU",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 49,
-        "ocr_excerpt": "중국 로봇 소름 돋네 물구나무 서고 비보잉 로봇 갈라스 여기 넘어진 적 했는데 잘 보시면",
-        "youtube_kind": "short"
-      },
-      {
-        "title": "시댄스ai로 만든 영화 근황..진짜 말이 안되네요",
-        "url": "https://youtu.be/1vbyh32VlFA",
-        "published_at": "",
-        "tickers": [],
-        "confidence": "ocr_only",
-        "transcript_chars": 0,
-        "ocr_status": "ok",
-        "ocr_chars": 288,
-        "ocr_excerpt": "클릭 한 번에 영화 끝 할리우드가 벌벌 떤다 cutx MPA(미국영화원회)와 디즈니가 Seedance 20을 두고 \"대규모 저작권 청 해를 주장하며 바이트댄스를 정면으로 공격했습니다. MPA(미국영화원회)와 디즈니가 Seedance 2.0을 두고 \"대규모 저적권 침 04I08 E 3들은",
-        "youtube_kind": "short"
-      }
-    ]
-  },
-  {
-    "region": "global",
     "youtuber": "경제덕후 언쌤",
     "channel_id": "UCBHYxqFQGgcqUHdezlIfY5Q",
-    "video_count": 12,
+    "video_count": 13,
     "short_count": 0,
-    "regular_video_count": 12,
+    "regular_video_count": 13,
     "mention_count": 0,
     "transcript_count": 0,
-    "metadata_count": 12,
+    "metadata_count": 13,
     "ocr_count": 8,
     "transcript_chars": 0,
     "ocr_chars": 2399,
     "stocks": [],
     "videos": [
+      {
+        "title": "큰일난 중국, 인도가 목줄을 쥐고있는 이유",
+        "url": "https://youtu.be/fEFWgHiqCRg",
+        "published_at": "2026-06-29T11:55:41+00:00",
+        "tickers": [],
+        "confidence": "caption_failed",
+        "transcript_chars": 0,
+        "ocr_status": "",
+        "ocr_chars": 0,
+        "ocr_excerpt": "",
+        "youtube_kind": "video"
+      },
       {
         "title": "환율이 1550원대로 망가진 진짜 이유",
         "url": "https://youtu.be/j2ADWxC_q_s",
