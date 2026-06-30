@@ -75,6 +75,42 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "NVIDIA 주식은 여름의 황홀경을 보고 있습니다. 5가지 촉매제는 2026년 말까지 $300까지 상승할 수 있습니다. - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM19Jd1ZzTFJDc0tZdml6bElURTZqMExRYk8yWnk3TGlTcmNnUkdoemxYRnpuVnhwVkxQOGlLai1MUFlIZjV4Z05HTzNsTXk0U2RWVGxhOExGVXZIaFUyR21rWFNVSEFJUVFlcGNnUHd4SGhvbkU2MVFXNmdxbnUwel9RX1RvMVZ6c2JEUTgyMk5KX3RwLTdHUU9SVy1RckF2TU1hTlRXY09nZEpKMWstZmNyU2pIR3FwQ0ZfTk11LUU3NVNFaGpiQXhKclFQNWs2?oc=5",
+        "published_at": "Tue, 30 Jun 2026 18:17:40 GMT",
+        "reason": "NVIDIA 주식은 여름의 황홀경을 보고 있습니다. 5개의 촉매제는 2026년 말까지 $300까지 상승할 수 있습니다.    24/7 Wall St.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Nvidia가 어떻게 칩 주식 패자가 되었는지, 그리고 그 상태로 유지될 수 있는 이유 - Barron's",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5N29vR29qZ25NcUVFTExialc2X0RWWm1qajRBdE9zOFhhUTJuczk4N3BiWmpoeFktdkxWellpREdjSDQzZkFGbFVGN0I2Mnp1NnNsUklOa1RzM1ljZ2UtNjBJRVdETDNxSkF5TmNBazFqdU8tdDJpTA?oc=5",
+        "published_at": "Tue, 30 Jun 2026 14:26:00 GMT",
+        "reason": "Nvidia가 어떻게 칩 주식 패자가 되었는지, 그리고 계속 그럴 수 있는 이유    Barron's",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "엔비디아 주가가 하락세를 보이고 있습니다. 부정적인 단기 추세의 배경은 다음과 같습니다. - 야후 파이낸스",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZFZHaS1uNkVEc0N5R1NlVVdCeFVMZDY3d3dydUhlR0hVX2IwZWJFWjIxM04yOFVqaG9Cam5WaXhXeW1ZcmpsaFByc2RfMlh5WVBpNjRKZ3VSNW1RWjFlM0I2ZkM5OVI0Q0duOEpPQWdnUkRfLXJObnVYUVhNdEE5QzRFQzdLRWxxU3cyWlU2bkNYZ1BqQ0xGWFJWMm9td1RYNU1zSUpDZ3QwYVNtbzBEUk5Pc1JUSHBheV9QY19MdUJvUW45LUZIMzA3Qnl6N3A5Wnc?oc=5",
+        "published_at": "Tue, 30 Jun 2026 12:04:47 GMT",
+        "reason": "엔비디아 주가가 하락세를 보이고 있습니다. 부정적인 단기 추세의 배경은 다음과 같습니다.    야후 파이낸스",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "기술 매도가 칩을 따라잡으면서 Nvidia 주가 하락 - Barron's",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PeGI2VTFHRmRxeHNCUDVWVGdhQk5kOFZSaWxITXVqaEpwQU1iN2VOOVZCeG1XTXQzQm5QSjFCNHpHSVJnTXAyb1dsOWJwUWd3ZVFVMVlzUkFWTzBxZzcxb0wxUFRreno3TGhpMEEyaHU0ZHVYdDFqa1pPTC0xdw?oc=5",
         "published_at": "Tue, 23 Jun 2026 13:58:00 GMT",
@@ -2223,10 +2259,10 @@
       "연합뉴스 경제",
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
-      "경제사냥꾼",
       "강지한 차트연구소",
-      "월텍남 - 월스트리트 테크남",
+      "경제사냥꾼",
       "주식용사부",
+      "월텍남 - 월스트리트 테크남",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "미국 경제 정복하기",
       "올랜도 킴 미국주식",
@@ -2777,11 +2813,47 @@
         "confidence": "source-title/meta"
       },
       {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "단타는 이렇게 쉽게 하는겁니다",
+        "url": "https://youtu.be/RPzpcybZUNA",
+        "published_at": "2026-06-30T10:45:16+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
         "source": "경제사냥꾼",
         "source_role": "유튜버",
         "title": "지금 투자자들이 '삼성전자+하이닉스'에서 봐야 하는 진짜 포인트",
         "url": "https://youtu.be/Mltsx4uEYdI",
         "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 코스닥 반등, 삼전닉스는 고점일까? 🔴 뉴욕지수 중동 긴장 완화에 기술주 반등  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/iuTkTNFoZPc",
+        "published_at": "2026-06-30T03:24:36+00:00",
         "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -4520,8 +4592,8 @@
       "마술토끼의 투자이야기",
       "Google News 국내 증시·반도체",
       "강지한 차트연구소",
-      "월텍남 - 월스트리트 테크남",
       "주식용사부",
+      "월텍남 - 월스트리트 테크남",
       "올랜도 킴 미국주식",
       "경제사냥꾼",
       "미국 경제 정복하기",
@@ -4598,6 +4670,18 @@
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS1IyUWZRa1RsOTR6ZHVCa21sakxDZ2hGXzR6VFp5aERQUkt5Sl9wNmV2Vnl5NGNLejZHWlYtdmh3YkVkWnN1ZXdrSTRUYnJabFN0bWlMdzFZWEpiMmRjYWEySWZkN3NNeTFTZ0lxaFRCRGxkOTJ6M3NlU1kteGJna1BMamNDR0J00gGcAUFVX3lxTE02anBGOUtMQl9lbThvMlNWaTVTY1R5TkNWSGJrUUNidjlucVhTUU5jd1ZoNFhYS3hKY01ULXM2eTJVdmpzajUzcVBfUEhuSkJtMncxcVBOV1FiYVlMSUJ0RDNNNV9jYkYzTUE5YTZiR3lwWl9iMTNQeXUxaC1rUVBGZHRvWWxObUpib004aTljOEZ0eWNFWmUycjVwTg?oc=5",
         "published_at": "Wed, 17 Jun 2026 21:00:00 GMT",
         "reason": "개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림 - 조선비즈 &nbsp;&nbsp; Chosunbiz",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News 한국 주식 종목",
+        "source_role": "뉴스",
+        "title": "신한은행 \"SK하이닉스 ADR, 오히려 7월 원화 약세 요인일 수도\" - KB Think",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xWGJSMENHTXdrSmpldkNHZE04T2pWQmFXcTMxWjUyUXhnSUp1VFhjeWpnUGdOalN6TlZJMXVDUXFMN1JTMTRzYU1qQ3pMeFBGeE9KRnVHTTczU2x6eUlCMm54STFJVmtoMGY3c29aX1U3UQ?oc=5",
+        "published_at": "Tue, 30 Jun 2026 04:59:04 GMT",
+        "reason": "신한은행 \"SK하이닉스 ADR, 오히려 7월 원화 약세 요인일 수도\" &nbsp;&nbsp; KB Think",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -4848,7 +4932,7 @@
         "source_role": "뉴스",
         "title": "[영상] 이미 상장됐는데 또 상장? SK하이닉스의 승부수 - v.daum.net",
         "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8ybFZlRVdYaFNSajhQMnNkTER3R0FSVVRBOWxIbmp4UlpfdGZIQmVfVDl5cjZibkNCbC04VkFtQ0RtUDN1SHF6NkR2QWxDMW8?oc=5",
-        "published_at": "Mon, 29 Jun 2026 04:10:00 GMT",
+        "published_at": "Mon, 29 Jun 2026 04:10:54 GMT",
         "reason": "[영상] 이미 상장됐는데 또 상장? SK하이닉스의 승부수 &nbsp;&nbsp; v.daum.net",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
@@ -5094,6 +5178,42 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "단타는 이렇게 쉽게 하는겁니다",
+        "url": "https://youtu.be/RPzpcybZUNA",
+        "published_at": "2026-06-30T10:45:16+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 코스닥 반등, 삼전닉스는 고점일까? 🔴 뉴욕지수 중동 긴장 완화에 기술주 반등  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/iuTkTNFoZPc",
+        "published_at": "2026-06-30T03:24:36+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -6045,8 +6165,8 @@
       "Google News 국내 증시·반도체",
       "Google News US Markets AI Semis",
       "Google News 한국 주식 종목",
-      "월텍남 - 월스트리트 테크남",
       "올랜도 킴 미국주식",
+      "월텍남 - 월스트리트 테크남",
       "경제사냥꾼",
       "주식용사부",
       "미부기",
@@ -6153,6 +6273,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(마이크론) 지금도 매수 가능한가?",
+        "url": "https://youtu.be/qU9vMfL7WxM",
+        "published_at": "2026-06-30T05:41:38+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 조정이 장중에 나오고 장의 강세가 섹터별로 확산되고있다.",
+        "url": "https://youtu.be/5iKjMkdxIZs",
+        "published_at": "2026-06-29T20:58:33+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "월텍남 - 월스트리트 테크남",
@@ -6995,8 +7139,9 @@
     "sources": [
       "Google News Magnificent 7",
       "Google News US Markets AI Semis",
-      "강지한 차트연구소",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+      "미부기",
+      "강지한 차트연구소",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "경제사냥꾼",
       "올랜도 킴 미국주식",
@@ -7005,7 +7150,7 @@
       "Yahoo Finance Top Stories",
       "주식쇼퍼 - 투자도 쇼핑처럼"
     ],
-    "source_count": 11,
+    "source_count": 12,
     "evidence": [
       {
         "source": "Google News Magnificent 7",
@@ -7038,6 +7183,18 @@
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IYW9xVG1lSVNudFF3bjZXVTlxUTJaa1ZESExCNDNPMFU3UlZDU2hXcWhWYzVfRUNUWjlUVGhRM1hsbURCT3ZnVXF0eS1xTDhhZ2Vxc201ck5VMkd5dnV3SmdNazY3Unh4V1JOQk5Qb2VWbVJwcGc5WEhQN09Mdw?oc=5",
         "published_at": "Wed, 03 Jun 2026 16:44:12 GMT",
         "reason": "Expose는 Tesla가 피해야 할 주식인 이유를 보여줍니다    MarketWise",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "테슬라 주가가 크게 반등했습니다. 트레이더들이 다음 단계를 예측하는 곳은 다음과 같습니다 - Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN0lqZVR6cFh2aFEtX2VUcl9hS1hlbnNsZmJPMlV2bVFsaGJpYmRYUnJreldMdmo4VHpFZkRLRzVRY25pQzZ6aHdSWGd2aFNlZ1RfYVNZM1NNMDB0UU9XV3RwTlA0ZHhSQkVRZTNwTnJjd1lHSDNqYmtaenFaLUdGYVR1cVZwZkk1eFlFZVYyRlNvYWlsaVhVa19MSlVtaE9KYXpzSWZiVDJGNWdvckRsV0E2R0g4ekg4b05VaGs4QzNJd2c?oc=5",
+        "published_at": "Tue, 30 Jun 2026 18:36:55 GMT",
+        "reason": "테슬라 주가가 크게 반등했습니다. 트레이더들이 다음 단계를 예측하는 곳은 다음과 같습니다.    Investopedia",
         "target_price": "출처에서 명시 안 됨",
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
@@ -7102,6 +7259,42 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "마피디 미국주식 (테슬라,TQQQ,SOXL)",
+        "source_role": "youtube_recommendation",
+        "title": "나스닥 이 가격 밑으로 떨어지면 위험합니다. (테슬라,스페이스X,메타,마소,알파벳,애플,비트코인)",
+        "url": "https://youtu.be/jqH6sptKnuc",
+        "published_at": "2026-06-30T11:30:01+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "미부기",
+        "source_role": "youtube_recommendation",
+        "title": "테슬라 주식 7월 전망 확인하세요",
+        "url": "https://youtu.be/pIUqncATGBI",
+        "published_at": "2026-06-30T11:29:02+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -7991,10 +8184,10 @@
     "name": "Palantir",
     "sources": [
       "마술토끼의 투자이야기",
+      "올랜도 킴 미국주식",
       "T3chfeed - 테크피드 미국 주식 인사이트",
       "경제사냥꾼",
       "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식",
       "마피디 미국주식 (테슬라,TQQQ,SOXL)",
       "경제명탐정",
       "주식용사부",
@@ -8014,6 +8207,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 조정이 장중에 나오고 장의 강세가 섹터별로 확산되고있다.",
+        "url": "https://youtu.be/5iKjMkdxIZs",
+        "published_at": "2026-06-29T20:58:33+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "T3chfeed - 테크피드 미국 주식 인사이트",
@@ -8338,6 +8543,18 @@
     ],
     "source_count": 9,
     "evidence": [
+      {
+        "source": "Google News US Markets AI Semis",
+        "source_role": "뉴스",
+        "title": "데이터 센터 성장을 위한 AMD 주식 및 2개의 AI 반도체 추천 - simplewall.st",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUWR2aklNZEZoNTdBbGI2ZTB4Y1diV2Rtc3NGVHl4ZV83ZExkOFg0YVhobXBFOXpJWWxjclZEX0Z3MDhnbzUzNXd5S3BWbHdXMVNjTFZJTmpSd2Z3LUszX1RZLVlLbXA1MU0ydUtmNm1UQnNtMUNFNHluUDE1NC1vVHRLb2I4UjNubm9lU1YyUDBpdV9JcnVleElHY0dxOE5xclVfV2dNNmxkMnZZM0FQUlh4UXJDY3A0XzJTaGM2NmFkc1RabzdNRHpqbmtTdVpBLTJqUFIzTG5RZVZoX0c00gHkAUFVX3lxTE96RG9MVlhnLXd0QWJvTDIzb0dISG00dzdZU2hGQXp1VjhGQUhVaXQyVjY2TGpCTVlRbmd0RUVCRjRVX0JKUGg4SnE5TWROdUItS3N3SVl4VEhLdDNObDZIYTF5S1VYUk1aYTlLNm52X0t0Q0xBS3RyT1VGMW42ajJXelJCNHl6bjFoTFE3T3BCLW1QenpWSGFxdE5LN0xTVE1IRHJkSkJWVGw5VkdybF83a1hQM3drQVBHZTZnMXZfbGE0QmNYYXh0SkhvUnNtR1J4YWE1WVA4TzNVMGZGcWJlTWlVaA?oc=5",
+        "published_at": "Tue, 30 Jun 2026 12:27:26 GMT",
+        "reason": "데이터 센터 성장을 위한 AMD 주식 및 2개의 AI 반도체 추천    simplewall.st",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
       {
         "source": "Google News US Markets AI Semis",
         "source_role": "뉴스",
@@ -8970,6 +9187,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -9868,6 +10097,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "단타는 이렇게 쉽게 하는겁니다",
+        "url": "https://youtu.be/RPzpcybZUNA",
+        "published_at": "2026-06-30T10:45:16+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -10936,6 +11189,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "AI 주식은 '공기 주머니'에 있고 Meta와 Microsoft는 '약세장 이름'처럼 거래됨 - Fortune",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGlnVHkyamtnQ1JjWnpIeHJSX0ZJS3QtTlFDYjNKdnZfOVl2VW9NeWNSYVJvOEJ1SGRVZHZQbHpIanE3M3dPRVc4QVJUQ182ZWFTb2Jpa2RYbG9hckNhRTV1Q1UzRVpmSnc1MmttTXlaRjRMWHV4MlczLVVya3ljS1VqMXRWY25LaFBibkkwYTE?oc=5",
+        "published_at": "Tue, 30 Jun 2026 10:35:00 GMT",
+        "reason": "AI 주식은 '에어 포켓', 메타와 마이크로소프트는 '약세장 이름'처럼 거래    포춘",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "MSFT 주식은 최고점에서 21% 하락한 후 약세장에 진입했습니다: 소매업은 조심스럽지만 분석가들은 압도적으로 강세를 유지합니다 - Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNm91T1gwWnNkOURHMkZJVDB5LUNIc2tldzZ5LXQxbzdjRG9TWGNLS0lpQlZramc4UEFLaDBMMUJSSUg3TlBWQlZ0N0RndE5RZzFaSG9xcjlFYUhrSXp3TkVlekpVSTZnYXlMTU54OHBSR2hWX1p5Yk4zNzdCa0dqalliZ2lkZW5sM1p3RzJtREYzOWlwZ21UMEpn?oc=5",
         "published_at": "Tue, 23 Jun 2026 06:36:00 GMT",
@@ -11124,6 +11389,241 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "transcript"
+      },
+      {
+        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
+        "source_role": "유튜버",
+        "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
+        "url": "https://youtu.be/AnDxrYqudj0",
+        "published_at": "2026-05-10T08:41:18+00:00",
+        "reason": "작년 9월 계속해서 시장이 오르면서 버블이 아니냐라는 우려가 있었을 때 저는 일관되게 뉴 노멀의 영역에 진입하는 것일 수도 있다 말씀드렸습니다. 지금은이 영상을 올린지 약 8개월이 지난 상황이라서 조금 더 시야가 확보되었는데 요즘 시장이 확실히 과열되고 있는게 느껴지죠. 전쟁 또 이로 인한 유가 상승이라는 명확한 리스크가 있는 상황임에도 엔비디아가 다시 최고가를 경신했고 실적이 안 좋았던 테슬라마저 다시 400달러 위를 회복했습니다. 또 한국의 대표 기업들이 AI 혁명에서 가장 중요한 위치를 확보하게 되는 것이 세상에 알려지면서 코스피 지수가 1년 만에 세대 가까이 올랐습니다. 제가 연초에 26년도 결국 미국 주식이라고 말씀드렸는데 뭐 지금 미국 주식도 최고가 경신하고 좋은 상황이긴 하지만 코스피에 비할 바는 안 되죠. 지금 5월이 지나가는 시점 기준으로는 재가 그렇게 맞지 않았던 거 같습니다. 자, 그런데 제3회 4회 국가도 아니고 OECD 주요국 대표 지수가 1년 만에 세배 가까이 오르는 건 현대 자본 시장에서 전례를 찾기 어려운 사건입니다. 무서운 건 앞으로도 더 오를 것으로 보인다는 것이죠. S&P 500 레이시오도 2000년 당시 역사적 고점으로 향해 가고 있습니다. 숫자만 놓고 보면 명백한 버블인 거 같죠? 자, 버블은 단순히 밸루에이션이 높아서 생기는 걸까요? 그렇진 않습니다. 버블은 비전과 현실의 간극이 생각보다 크다는",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "transcript"
+      }
+    ],
+    "stance": "복수 출처 추천/관심",
+    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
+    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
+    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
+  },
+  {
+    "region": "global",
+    "ticker": "AAPL",
+    "name": "Apple",
+    "sources": [
+      "Google News Magnificent 7",
+      "Yahoo Finance Top Stories",
+      "주식쇼퍼 - 투자도 쇼핑처럼",
+      "올랜도 킴 미국주식",
+      "T3chfeed - 테크피드 미국 주식 인사이트"
+    ],
+    "source_count": 5,
+    "evidence": [
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Apple 주식, 사상 최고치를 기록하며 새로운 매수 영역을 연마 - Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hKbXhnbUZqd1FNNTBRNG1TUnR6Yk1EZHlCRERjUWRCZ0lyaGtmekNXNFdKNGdkbzRXZnpCWVptYWl5NFlaSS1Ya19BTkhiNk1NU01mSHZPbWEwb3NpXzl5eG84c1dKTTdfenNpQ1ZNT3g4UTBMZW56RWlvbnczT1NSOHd5U1R1eF9SVm1nNWRaNnYzNFJzQU0xQktWUQ?oc=5",
+        "published_at": "Wed, 24 Jun 2026 20:29:00 GMT",
+        "reason": "Apple Stock Polishing New Buy Zone With All-Time High In Sight &nbsp;&nbsp; Investor's Business Daily",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다 - MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUpzel9IQjZ5M1B5VG4tVXFNakJSeVpjRmNxTGtoVWdSREo1ejd3Z0NkZFYxLXREUEp5bkZFRnR0VEd5bzl4S1VMcFlUWksyWUpuUzBENE5NS2JMWGZISzlFYkdmSjFUdDhaQXM3Y3JFUmw3WDFOTVVsUk92VHp2ZWcwdlpMY191eVJSbndGNnlkUXcyWVpyVVJJVQ?oc=5",
+        "published_at": "Tue, 23 Jun 2026 18:14:34 GMT",
+        "reason": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다    MarketBeat",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Apple (AAPL) 주식 거래가 하락하는 이유는 다음과 같습니다 - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcEt6LWdTaFF5cVhXWlpOWmYxdXR1Y1FOeXdpc3ZvZ3JYaG9UOGVKOHhZR29hTmY2ejNNSGlVUUYzeEZYZlptNGtoaVRzdE5aTnlqVVY4ZkFqdWVNRWpsck96MmhUTExpU2JxN013SWZERER2MWkwMldSVTNWUDBaTGFiOXZxZ1JYSmhBQXZjYVA4Q3h4ZXJVeA?oc=5",
+        "published_at": "Thu, 25 Jun 2026 23:37:50 GMT",
+        "reason": "Apple(AAPL) 주식이 하락하는 이유는 다음과 같습니다.    Yahoo Finance",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "Apple (AAPL) 주식이 하락하는 이유는 다음과 같습니다 - StockStory",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkk0RU9pbFJyZzlaelFzQmF1aXJmaWF5VHdiZUZMdW04a3E4by1DT1ZLUC1ObUxfYi14QzlmSm1FS2xTanZJSG9Pc3VjQTAwRlVybmFGempOSVhqdk5kUlFhMUpjQXQ1ZGJHa2FDYVJ1VlpDQ0VkbG9lZ3Z0SFhGVXNfN2pKNHdCNVl1RU9ZSHY5ck81Yk5yZk9BR1U1ZmltOWNpY3dMTQ?oc=5",
+        "published_at": "Thu, 25 Jun 2026 16:50:27 GMT",
+        "reason": "Apple(AAPL) 주식이 하락하는 이유는 다음과 같습니다.    StockStory",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "AI 개발 및 비용 압박에 대한 Apple Stock(AAPL)의 의견 - Quiver Quantitative",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnZnZHl6QTNzaEtvWEsxbXZEbkpoeElVY3ZGa0ZxZTRBR0U1UnVQbFVqaHZJM1JUckljZHROWUpxaURpaWZJRXdTREtuY1MwRjgzSU5lNEtCNjJiZmJSdzRURmNWZW9GTFZ5NjBSUmNWWDg5dVR5dThnZDl1NTZBSFBuc1ZGOGpjUDNBeTNzZWxEUEd6UFdIcHdtV296a3Y5Zlk0ZA?oc=5",
+        "published_at": "Sun, 21 Jun 2026 14:03:00 GMT",
+        "reason": "AI 개발 및 비용 압박에 대한 Apple Stock(AAPL) 의견    Quiver Quantitative",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "월요일의 가장 큰 분석가 전화는 다음과 같습니다: Nvidia, Apple, Tesla, Seagate, Warby Parker, AppLovin 등 - CNBC",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSVN3eUg1T2U0bUxMNURpSVF3VU5DWGNyUlBXZHpDTUo1SFJ1ZmRzU2thSW53VVlCSTJCdm1SZkdDUy1iSm9FVU8telV0RzFieGZZVWVlUVdwdlhjNzlKNE5LNHN6Rm5wUzZTNmZlZlkwTUtxcUFZSGtITFhYMnkwZWJHWmxxUUpPU0Z2YUZJTjA?oc=5",
+        "published_at": "Mon, 29 Jun 2026 12:29:20 GMT",
+        "reason": "Nvidia, Apple, Tesla, Seagate, Warby Parker, AppLovin 등 월요일의 가장 큰 분석가 전화는 다음과 같습니다.    CNBC",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
+        "title": "최고 분석가는 WWDC를 앞두고 AAPL 주식의 30% 상승 여력을 확인합니다: John Ternus처럼 '런닝머신 접근 방식'은 예상되지 않습니다 - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQTHV2T1dUNXlIdXk2X3l3LWhlb3BwTVFndF9NaVhnXzlnbWVDOXd4RVFBNHZNUW9tVG5Wakk3ekFKdHZreDQ2ZDVBa25GX05WUUJCR0FmQk5hNHFwTWxqblZLWVVhdHFPenluWXQySUl3d1FNUWxTM2lERnhKTXRVeHR3Q0ZHYXRsYXd3dExhX2FiZ3NuT2ItN0ZuN2dBRUhzdW5MR01jdnR3RXlwY3lDQjdDdEhHek1YMm0ySmswTG53Qnh3MGRvUmpXcEwwR3FsQ3pDOHZNVUI1enVJSE5qSi1rM1ppQTVyTVNacEFGd3FxQXN6bUVTTk42MlRTblpjNkpabEZCNlgxR2VyMm85Uzc1dDN0MHpIYnc?oc=5",
+        "published_at": "Mon, 08 Jun 2026 11:33:17 GMT",
+        "reason": "최고 분석가는 WWDC를 앞두고 AAPL 주식의 30% 상승 여력을 확인했습니다. John Ternus처럼 '런닝머신 접근 방식'은 예상되지 않습니다.    Benzinga",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Apple(AAPL)의 AI 전략 재설정은 사이버 보안 조사 속에서 월스트리트의 지지를 얻습니다.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-ai-strategy-reset-115326070.html",
+        "published_at": "2026-06-29T11:53:26Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "youtube_recommendation",
+        "title": "\"7월 결과가 나오기 전에\" 올리브영에 투자하는 유일한 방법",
+        "url": "https://youtu.be/dJTl2GO0TCE",
+        "published_at": "2026-06-21T05:15:35+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
+        "source_role": "youtube_recommendation",
+        "title": "S&P500만 믿다간 스페이스X 놓칩니다. 당분간은 '이 ETF'가 정답",
+        "url": "https://youtu.be/KNOm24ugJGk",
+        "published_at": "2026-06-14T05:15:12+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Apple(AAPL)은 App Store 성장이 둔화되면서 단기적인 압박에 직면해 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-near-term-124948028.html",
+        "published_at": "2026-06-08T12:49:48Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Apple(AAPL)은 억만장자 Ken Fisher 포트폴리오의 최고 주식입니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-top-stock-billionaire-105404818.html",
+        "published_at": "2026-06-08T10:54:04Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "유튜버",
+        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
+        "url": "https://youtu.be/kywJ5w4Xfu8",
+        "published_at": "",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "애플 앱스토어 지난해 매출 1조4000억 달러",
+        "url": "https://finance.yahoo.com/news/apples-app-store-generated-14-trillion-in-sales-last-year-123000379.html",
+        "published_at": "2026-06-04T12:30:00Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "애플은 워렌 버핏의 최고의 투자였습니다. GOOGL 주식은 Greg Abel의 명성이 될 수 있습니다.",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-warren-buffett-best-investment-163656811.html",
+        "published_at": "2026-06-03T16:36:56Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Yahoo Finance Top Stories",
+        "source_role": "뉴스",
+        "title": "Evercore ISI, AI 및 서비스 성장 기대 속에서 Apple(AAPL)의 목표 가격 인상",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-raises-price-target-082006105.html",
+        "published_at": "2026-06-03T08:20:06Z",
+        "reason": "요약 없음",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "올랜도 킴 미국주식",
+        "source_role": "youtube_recommendation",
+        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
+        "url": "https://youtu.be/jLRClfOo2T0",
+        "published_at": "2026-06-01T20:38:15+00:00",
+        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "ocr_only"
       },
       {
         "source": "T3chfeed - 테크피드 미국 주식 인사이트",
@@ -11380,229 +11880,6 @@
   },
   {
     "region": "global",
-    "ticker": "AAPL",
-    "name": "Apple",
-    "sources": [
-      "Google News Magnificent 7",
-      "주식쇼퍼 - 투자도 쇼핑처럼",
-      "Yahoo Finance Top Stories",
-      "올랜도 킴 미국주식",
-      "T3chfeed - 테크피드 미국 주식 인사이트"
-    ],
-    "source_count": 5,
-    "evidence": [
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Apple 주식, 사상 최고치를 기록하며 새로운 매수 영역을 연마 - Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hKbXhnbUZqd1FNNTBRNG1TUnR6Yk1EZHlCRERjUWRCZ0lyaGtmekNXNFdKNGdkbzRXZnpCWVptYWl5NFlaSS1Ya19BTkhiNk1NU01mSHZPbWEwb3NpXzl5eG84c1dKTTdfenNpQ1ZNT3g4UTBMZW56RWlvbnczT1NSOHd5U1R1eF9SVm1nNWRaNnYzNFJzQU0xQktWUQ?oc=5",
-        "published_at": "Wed, 24 Jun 2026 20:29:00 GMT",
-        "reason": "Apple Stock Polishing New Buy Zone With All-Time High In Sight &nbsp;&nbsp; Investor's Business Daily",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다 - MarketBeat",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMUpzel9IQjZ5M1B5VG4tVXFNakJSeVpjRmNxTGtoVWdSREo1ejd3Z0NkZFYxLXREUEp5bkZFRnR0VEd5bzl4S1VMcFlUWksyWUpuUzBENE5NS2JMWGZISzlFYkdmSjFUdDhaQXM3Y3JFUmw3WDFOTVVsUk92VHp2ZWcwdlpMY191eVJSbndGNnlkUXcyWVpyVVJJVQ?oc=5",
-        "published_at": "Tue, 23 Jun 2026 18:14:34 GMT",
-        "reason": "Apple의 Intel 거래는 주식에 대한 적절한 시기에 도달합니다    MarketBeat",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Apple (AAPL) 주식 거래가 하락하는 이유는 다음과 같습니다 - Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcEt6LWdTaFF5cVhXWlpOWmYxdXR1Y1FOeXdpc3ZvZ3JYaG9UOGVKOHhZR29hTmY2ejNNSGlVUUYzeEZYZlptNGtoaVRzdE5aTnlqVVY4ZkFqdWVNRWpsck96MmhUTExpU2JxN013SWZERER2MWkwMldSVTNWUDBaTGFiOXZxZ1JYSmhBQXZjYVA4Q3h4ZXJVeA?oc=5",
-        "published_at": "Thu, 25 Jun 2026 23:37:50 GMT",
-        "reason": "Apple(AAPL) 주식이 하락하는 이유는 다음과 같습니다.    Yahoo Finance",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "Apple (AAPL) 주식이 하락하는 이유는 다음과 같습니다 - StockStory",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkk0RU9pbFJyZzlaelFzQmF1aXJmaWF5VHdiZUZMdW04a3E4by1DT1ZLUC1ObUxfYi14QzlmSm1FS2xTanZJSG9Pc3VjQTAwRlVybmFGempOSVhqdk5kUlFhMUpjQXQ1ZGJHa2FDYVJ1VlpDQ0VkbG9lZ3Z0SFhGVXNfN2pKNHdCNVl1RU9ZSHY5ck81Yk5yZk9BR1U1ZmltOWNpY3dMTQ?oc=5",
-        "published_at": "Thu, 25 Jun 2026 16:50:27 GMT",
-        "reason": "Apple(AAPL) 주식이 하락하는 이유는 다음과 같습니다.    StockStory",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "AI 개발 및 비용 압박에 대한 Apple Stock(AAPL)의 의견 - Quiver Quantitative",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdnZnZHl6QTNzaEtvWEsxbXZEbkpoeElVY3ZGa0ZxZTRBR0U1UnVQbFVqaHZJM1JUckljZHROWUpxaURpaWZJRXdTREtuY1MwRjgzSU5lNEtCNjJiZmJSdzRURmNWZW9GTFZ5NjBSUmNWWDg5dVR5dThnZDl1NTZBSFBuc1ZGOGpjUDNBeTNzZWxEUEd6UFdIcHdtV296a3Y5Zlk0ZA?oc=5",
-        "published_at": "Sun, 21 Jun 2026 14:03:00 GMT",
-        "reason": "AI 개발 및 비용 압박에 대한 Apple Stock(AAPL) 의견    Quiver Quantitative",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "월요일의 가장 큰 분석가 전화는 다음과 같습니다: Nvidia, Apple, Tesla, Seagate, Warby Parker, AppLovin 등 - CNBC",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSVN3eUg1T2U0bUxMNURpSVF3VU5DWGNyUlBXZHpDTUo1SFJ1ZmRzU2thSW53VVlCSTJCdm1SZkdDUy1iSm9FVU8telV0RzFieGZZVWVlUVdwdlhjNzlKNE5LNHN6Rm5wUzZTNmZlZlkwTUtxcUFZSGtITFhYMnkwZWJHWmxxUUpPU0Z2YUZJTjA?oc=5",
-        "published_at": "Mon, 29 Jun 2026 12:29:20 GMT",
-        "reason": "Nvidia, Apple, Tesla, Seagate, Warby Parker, AppLovin 등 월요일의 가장 큰 분석가 전화는 다음과 같습니다.    CNBC",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Google News Magnificent 7",
-        "source_role": "뉴스",
-        "title": "최고 분석가는 WWDC를 앞두고 AAPL 주식의 30% 상승 여력을 확인합니다: John Ternus처럼 '런닝머신 접근 방식'은 예상되지 않습니다 - Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQTHV2T1dUNXlIdXk2X3l3LWhlb3BwTVFndF9NaVhnXzlnbWVDOXd4RVFBNHZNUW9tVG5Wakk3ekFKdHZreDQ2ZDVBa25GX05WUUJCR0FmQk5hNHFwTWxqblZLWVVhdHFPenluWXQySUl3d1FNUWxTM2lERnhKTXRVeHR3Q0ZHYXRsYXd3dExhX2FiZ3NuT2ItN0ZuN2dBRUhzdW5MR01jdnR3RXlwY3lDQjdDdEhHek1YMm0ySmswTG53Qnh3MGRvUmpXcEwwR3FsQ3pDOHZNVUI1enVJSE5qSi1rM1ppQTVyTVNacEFGd3FxQXN6bUVTTk42MlRTblpjNkpabEZCNlgxR2VyMm85Uzc1dDN0MHpIYnc?oc=5",
-        "published_at": "Mon, 08 Jun 2026 11:33:17 GMT",
-        "reason": "최고 분석가는 WWDC를 앞두고 AAPL 주식의 30% 상승 여력을 확인했습니다. John Ternus처럼 '런닝머신 접근 방식'은 예상되지 않습니다.    Benzinga",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
-        "source_role": "youtube_recommendation",
-        "title": "\"7월 결과가 나오기 전에\" 올리브영에 투자하는 유일한 방법",
-        "url": "https://youtu.be/dJTl2GO0TCE",
-        "published_at": "2026-06-21T05:15:35+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "주식쇼퍼 - 투자도 쇼핑처럼",
-        "source_role": "youtube_recommendation",
-        "title": "S&P500만 믿다간 스페이스X 놓칩니다. 당분간은 '이 ETF'가 정답",
-        "url": "https://youtu.be/KNOm24ugJGk",
-        "published_at": "2026-06-14T05:15:12+00:00",
-        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "caption_failed"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Apple(AAPL)은 App Store 성장이 둔화되면서 단기적인 압박에 직면해 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-faces-near-term-124948028.html",
-        "published_at": "2026-06-08T12:49:48Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Apple(AAPL)은 억만장자 Ken Fisher 포트폴리오의 최고 주식입니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-top-stock-billionaire-105404818.html",
-        "published_at": "2026-06-08T10:54:04Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "유튜버",
-        "title": "(시황분석) 현재 심리는 신규진입에 있어서는 많이 올라서 들어가기 어렵고 갖고 있는사람들은 더 올라갈까봐 팔지 못하는 심리를 보여준다.",
-        "url": "https://youtu.be/kywJ5w4Xfu8",
-        "published_at": "",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 4,5월 월봉:장대 양봉 243% + 2.25% +3.41% +2.29 + 3.09 42.33% Palantir 오라클, 팔란티어 급등 반도체에서 확산중 Oracle 4 5.200 + 3,300 Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Fri MAY 29 2",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "애플 앱스토어 지난해 매출 1조4000억 달러",
-        "url": "https://finance.yahoo.com/news/apples-app-store-generated-14-trillion-in-sales-last-year-123000379.html",
-        "published_at": "2026-06-04T12:30:00Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "애플은 워렌 버핏의 최고의 투자였습니다. GOOGL 주식은 Greg Abel의 명성이 될 수 있습니다.",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-warren-buffett-best-investment-163656811.html",
-        "published_at": "2026-06-03T16:36:56Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "Yahoo Finance Top Stories",
-        "source_role": "뉴스",
-        "title": "Evercore ISI, AI 및 서비스 성장 기대 속에서 Apple(AAPL)의 목표 가격 인상",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/evercore-isi-raises-price-target-082006105.html",
-        "published_at": "2026-06-03T08:20:06Z",
-        "reason": "요약 없음",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "source-title/meta"
-      },
-      {
-        "source": "올랜도 킴 미국주식",
-        "source_role": "youtube_recommendation",
-        "title": "(시황분석) 상승은 길고 하락은 짧다.적자기업은  밸류가 높을때 부분익절 가능하나 반도체등 우량종목은 매도하면 더 높은 가격에 매수한다,",
-        "url": "https://youtu.be/jLRClfOo2T0",
-        "published_at": "2026-06-01T20:38:15+00:00",
-        "reason": "OCR 화면 텍스트 기반: 시황분석 대포소리에 매수, 나팔소리에 매도 전쟁이야기 나오면 매수관점이다 finviz.com 양자 연구 * Bookmarks PLUS Learing- Yo... Home News Screener Charts S&P 500 Map S Stock Comparison T... 본인 확인 -Google. 품 미국 - NAHB 주택시... 미국주식 SEC FOR.. 17 DXY 108.103 A +0",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "ocr_only"
-      },
-      {
-        "source": "T3chfeed - 테크피드 미국 주식 인사이트",
-        "source_role": "유튜버",
-        "title": "월가의 전설도 대놓고 말하는 지금 시장 상태",
-        "url": "https://youtu.be/AnDxrYqudj0",
-        "published_at": "2026-05-10T08:41:18+00:00",
-        "reason": "작년 9월 계속해서 시장이 오르면서 버블이 아니냐라는 우려가 있었을 때 저는 일관되게 뉴 노멀의 영역에 진입하는 것일 수도 있다 말씀드렸습니다. 지금은이 영상을 올린지 약 8개월이 지난 상황이라서 조금 더 시야가 확보되었는데 요즘 시장이 확실히 과열되고 있는게 느껴지죠. 전쟁 또 이로 인한 유가 상승이라는 명확한 리스크가 있는 상황임에도 엔비디아가 다시 최고가를 경신했고 실적이 안 좋았던 테슬라마저 다시 400달러 위를 회복했습니다. 또 한국의 대표 기업들이 AI 혁명에서 가장 중요한 위치를 확보하게 되는 것이 세상에 알려지면서 코스피 지수가 1년 만에 세대 가까이 올랐습니다. 제가 연초에 26년도 결국 미국 주식이라고 말씀드렸는데 뭐 지금 미국 주식도 최고가 경신하고 좋은 상황이긴 하지만 코스피에 비할 바는 안 되죠. 지금 5월이 지나가는 시점 기준으로는 재가 그렇게 맞지 않았던 거 같습니다. 자, 그런데 제3회 4회 국가도 아니고 OECD 주요국 대표 지수가 1년 만에 세배 가까이 오르는 건 현대 자본 시장에서 전례를 찾기 어려운 사건입니다. 무서운 건 앞으로도 더 오를 것으로 보인다는 것이죠. S&P 500 레이시오도 2000년 당시 역사적 고점으로 향해 가고 있습니다. 숫자만 놓고 보면 명백한 버블인 거 같죠? 자, 버블은 단순히 밸루에이션이 높아서 생기는 걸까요? 그렇진 않습니다. 버블은 비전과 현실의 간극이 생각보다 크다는",
-        "target_price": "출처에서 명시 안 됨",
-        "buy_zone": "출처에서 명시 안 됨",
-        "price_note": "",
-        "confidence": "transcript"
-      }
-    ],
-    "stance": "복수 출처 추천/관심",
-    "target_price_summary": "출처에서 적정가/목표가를 명시하지 않았습니다.",
-    "buy_zone_summary": "출처에서 매수가/진입가를 명시하지 않았습니다.",
-    "caution": "출처 발언을 요약한 정보이며, 매수 전 실적·공시·수급·가격을 별도로 확인해야 합니다."
-  },
-  {
-    "region": "global",
     "ticker": "ASML",
     "name": "ASML",
     "sources": [
@@ -11703,6 +11980,30 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "단타는 이렇게 쉽게 하는겁니다",
+        "url": "https://youtu.be/RPzpcybZUNA",
+        "published_at": "2026-06-30T10:45:16+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -12297,6 +12598,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "강지한 차트연구소",
+        "source_role": "유튜버",
+        "title": "삼성전자•LG전자•테슬라의 목적을 눈치 채셨으면 부자가 될겁니다",
+        "url": "https://youtu.be/SF-f8Ee46YQ",
+        "published_at": "2026-06-30T10:10:23+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "강지한 차트연구소",
@@ -12993,6 +13306,18 @@
         "buy_zone": "출처에서 명시 안 됨",
         "price_note": "",
         "confidence": "source-title/meta"
+      },
+      {
+        "source": "주식용사부",
+        "source_role": "유튜버",
+        "title": "주식단테사단 용사부의 국내증시 시황 시초가 단타 스윙 중장기 라이브 | 코스닥 반등, 삼전닉스는 고점일까? 🔴 뉴욕지수 중동 긴장 완화에 기술주 반등  #코스닥 #코스피 #나스닥",
+        "url": "https://youtu.be/iuTkTNFoZPc",
+        "published_at": "2026-06-30T03:24:36+00:00",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
       },
       {
         "source": "주식용사부",
@@ -14118,6 +14443,18 @@
       {
         "source": "Google News Magnificent 7",
         "source_role": "뉴스",
+        "title": "AI 주식은 '공기 주머니'에 있고 Meta와 Microsoft는 '약세장 이름'처럼 거래됨 - Fortune",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGlnVHkyamtnQ1JjWnpIeHJSX0ZJS3QtTlFDYjNKdnZfOVl2VW9NeWNSYVJvOEJ1SGRVZHZQbHpIanE3M3dPRVc4QVJUQ182ZWFTb2Jpa2RYbG9hckNhRTV1Q1UzRVpmSnc1MmttTXlaRjRMWHV4MlczLVVya3ljS1VqMXRWY25LaFBibkkwYTE?oc=5",
+        "published_at": "Tue, 30 Jun 2026 10:35:00 GMT",
+        "reason": "AI 주식은 '에어 포켓', 메타와 마이크로소프트는 '약세장 이름'처럼 거래    포춘",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "source-title/meta"
+      },
+      {
+        "source": "Google News Magnificent 7",
+        "source_role": "뉴스",
         "title": "Zuckerberg는 Meta가 Kalshi, Polymarket의 예측 시장 경쟁자를 구축하기를 원합니다: 보고서 - Investor's Business Daily",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWkJkTkxCdjFJRjVLdU1sU25ZN2VodE1lQ1VYd1lHZlUwekFGWmpIdzNSODFIVmtaZnFoNVVKTFB2Xy1GQXpCbl9YVVlhTnBmSGpwNnRXX2ZsZEZsbHNZNFN4S21RdEJicHBickktZGlwa3cwQlhCSGhjUW5Fa2lRM2VETGZUdzZYX2c?oc=5",
         "published_at": "Tue, 23 Jun 2026 17:59:00 GMT",
@@ -14851,12 +15188,24 @@
     "ticker": "086520",
     "name": "에코프로",
     "sources": [
+      "경제사냥꾼",
       "강지한 차트연구소",
-      "주식용사부",
-      "경제사냥꾼"
+      "주식용사부"
     ],
     "source_count": 3,
     "evidence": [
+      {
+        "source": "경제사냥꾼",
+        "source_role": "유튜버",
+        "title": "'에코프로' 지금 꼭 봐야하는 뉴스",
+        "url": "https://youtu.be/EBDtU3S0tC0",
+        "published_at": "",
+        "reason": "자막 추출 실패: 이 영상은 종목/근거 분석에서 제외했습니다.",
+        "target_price": "출처에서 명시 안 됨",
+        "buy_zone": "출처에서 명시 안 됨",
+        "price_note": "",
+        "confidence": "caption_failed"
+      },
       {
         "source": "강지한 차트연구소",
         "source_role": "유튜버",

@@ -1,4 +1,4 @@
-# 주식 뉴스 인제스트 (2026-06-30T06:01)
+# 주식 뉴스 인제스트 (2026-07-01T05:31)
 
 이 파일은 1시간 크론이 읽기 쉽게 최신 RSS/Google News 헤드라인을 한국어 중심 Markdown으로 정규화한 자료입니다.
 투자 조언이 아니라 뉴스/촉매/리스크 확인용 출처 목록입니다.
@@ -481,29 +481,29 @@
 - 요약: Jensen Huang은 Meta를 칭찬하며 'AI를 더 잘 사용하는 사람은 없습니다'라고 말합니다 – META 주식은 시판 전 반등 MSN
 - 링크: https://news.google.com/rss/articles/CBMi-AFBVV95cUxPVzVBVVJSeGlBenJCZUk0Y3BDVG5Gb3RmU2g0bVJzNC05TGdQOHp6Mkctdmwzby1iQ2JiY29DSm5ka1lHcW1wdHBiaElVOXJiZFF1SFVpeVZOYThydVBCcGdSbDNkdFpEMDVBVG5ZYXQ3U09GQ1FBUmJPNjdOMS1KbW5faFFtSkVzSm1jb3JFc0tsU2RCbFdlXzNQbkgxbFZHaEFkckFtU2ZIVDduSVNIRXNLV3JRM0taTHhhbzYzaENUWl94QndJOXJNMi1IelNYRnBfMWhWeVVNWm01SDVVVE1rWlRXU1h4VW1xSnRqTWMwRi14ejlkRA?oc=5
 
-### 28. AI 지출에 대한 우려가 커지면서 월스트리트가 반도체 매각으로 하락 마감 - Reuters
+### 28. 테슬라 주가가 크게 반등했습니다. 트레이더들이 다음 단계를 예측하는 곳은 다음과 같습니다 - Investopedia
 - 시장: 미국시장
-- 출처: Google News US Markets AI Semis
-- 시각: Tue, 23 Jun 2026 23:03:21 GMT
-- 관련 티커: 종목 미검출
-- 원문 제목: Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Reuters
-- 요약: AI 지출 우려가 커지면서 월스트리트는 반도체 매도세로 하락세 마감 Reuters
-- 링크: https://news.google.com/rss/articles/CBMimAFBVV95cUxON2t3ZXZzXzl6MTZCNnY4U09lU2l4ZWZENmdOZVZuNVF2VzFjYlFleVlLR1FHNlFwbjlvRnZVVjFsOGo1RXBsOGUzVk1xVERVal9SbVFxeG1CdVhSaHZtajFlUDRRZFllalVYdVRGY1J5ZGN1bVFfN2xmRHB0aTdxQjJBRVhIMFI0NWI3SjlXeTdRWUQxaU9rRA?oc=5
+- 출처: Google News Magnificent 7
+- 시각: Tue, 30 Jun 2026 18:36:55 GMT
+- 관련 티커: TSLA
+- 원문 제목: Tesla's Stock Just Bounced Back in a Big Way. Here's Where Traders See It Going Next - Investopedia
+- 요약: 테슬라 주가가 크게 반등했습니다. 트레이더들이 다음 단계를 예측하는 곳은 다음과 같습니다. Investopedia
+- 링크: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN0lqZVR6cFh2aFEtX2VUcl9hS1hlbnNsZmJPMlV2bVFsaGJpYmRYUnJreldMdmo4VHpFZkRLRzVRY25pQzZ6aHdSWGd2aFNlZ1RfYVNZM1NNMDB0UU9XV3RwTlA0ZHhSQkVRZTNwTnJjd1lHSDNqYmtaenFaLUdGYVR1cVZwZkk1eFlFZVYyRlNvYWlsaVhVa19MSlVtaE9KYXpzSWZiVDJGNWdvckRsV0E2R0g4ekg4b05VaGs4QzNJd2c?oc=5
 
-### 29. AI 지출에 대한 우려가 커지면서 월스트리트는 반도체 매각으로 하락 마감 - Yahoo Finance
+### 29. NVIDIA 주식은 여름의 황홀경을 보고 있습니다. 5가지 촉매제는 2026년 말까지 $300까지 상승할 수 있습니다. - 24/7 Wall St.
 - 시장: 미국시장
-- 출처: Google News US Markets AI Semis
-- 시각: Tue, 23 Jun 2026 20:38:44 GMT
-- 관련 티커: 종목 미검출
-- 원문 제목: Wall Street ends lower on semiconductor selloff as AI spending concerns mount - Yahoo Finance
-- 요약: 월스트리트는 AI 지출에 대한 우려가 커지면서 반도체 매도세로 하락 마감 Yahoo Finance
-- 링크: https://news.google.com/rss/articles/CBMilgFBVV95cUxOQnlIcE1UTlduazdvRTZrdlV4TjhDcXNaOVNpbEJoRnRrd3VqdzJCcElQRVNvZXg1UU5IbVE1THNwXzJJTVB1MldQNFNpY0VwV0JOR0VhUk1idktydVlGN19XVHJkQjFtS3lHNUY4dnZNZXhJNUkxYXI1UnZIQ2xqMTNVNkhiaS1KWGpwaWNUN0pTUGF4OUE?oc=5
+- 출처: Google News Magnificent 7
+- 시각: Tue, 30 Jun 2026 18:17:40 GMT
+- 관련 티커: NVDA
+- 원문 제목: NVIDIA Stock Is Seeing a Summer Swoon. 5 Catalysts Could Rocket It to $300 By the End of 2026. - 24/7 Wall St.
+- 요약: NVIDIA 주식은 여름의 황홀경을 보고 있습니다. 5개의 촉매제는 2026년 말까지 $300까지 상승할 수 있습니다. 24/7 Wall St.
+- 링크: https://news.google.com/rss/articles/CBMi0AFBVV95cUxNM19Jd1ZzTFJDc0tZdml6bElURTZqMExRYk8yWnk3TGlTcmNnUkdoemxYRnpuVnhwVkxQOGlLai1MUFlIZjV4Z05HTzNsTXk0U2RWVGxhOExGVXZIaFUyR21rWFNVSEFJUVFlcGNnUHd4SGhvbkU2MVFXNmdxbnUwel9RX1RvMVZ6c2JEUTgyMk5KX3RwLTdHUU9SVy1RckF2TU1hTlRXY09nZEpKMWstZmNyU2pIR3FwQ0ZfTk11LUU3NVNFaGpiQXhKclFQNWs2?oc=5
 
-### 30. 칩 주식이 기록적인 높이에서 하락하고 기술 난파선을 주도 - Investor's Business Daily
+### 30. 기술주 매도, 미국 증시 거품 우려 불러일으키다 - Reuters
 - 시장: 미국시장
 - 출처: Google News US Markets AI Semis
-- 시각: Tue, 23 Jun 2026 20:36:00 GMT
+- 시각: Tue, 30 Jun 2026 17:01:15 GMT
 - 관련 티커: 종목 미검출
-- 원문 제목: Chip Stocks Tumble From Record Heights, Lead Tech Wreck - Investor's Business Daily
-- 요약: 칩 주식이 기록적인 높이에서 하락하고 주요 기술 사고 Investor's Business Daily
-- 링크: https://news.google.com/rss/articles/CBMipgFBVV95cUxNU1dlYnFOMGpwWFJNdlBKQlJUWS1ZVjYySld4Y19WUGhBSXhhZG9ucFk3U3YtZGdsYnAtUXlBelNZR2dnWFNjM0w1NHgxTWZIRE5SN2hoQzRmR2xBTU9mclVNdmdBQUMtMUJMQ0lYdDd6OWFCX1Q1UjNLaEZBT3ZFSlZsWnNoVnltbXdYci02UHctUVVvTFNkWnNrMVp5eVl1VXMzamlR?oc=5
+- 원문 제목: Tech selloff stirs bubble fears in US stock market - Reuters
+- 요약: 기술 매도는 미국 주식 시장의 거품 공포를 불러일으킵니다 Reuters
+- 링크: https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUFlQXU0QUQ2d3NhY2hNU1llc2ZCOUdyZW5IRlhzYVdYcjZ0eTkxU25fa3A3WjlZTDRRQ0FoRVFxNXF5OC1oRHI1clNXazZic0liOGhxeGVBZDNzbUx4cHpuS2JoWEZSMzE2RVhJSlNWZXotWHZwSnh2UFVjN1EtYVpuaXF5RWlUd19jZjBYWHNUNHJMTDN1bHVENXE1bGRzZ203dTJR?oc=5
