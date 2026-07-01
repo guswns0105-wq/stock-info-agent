@@ -1,0 +1,35 @@
+Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.
+IMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.
+Style: five vertical rounded cards, thin black typography, subtle green/red market accents, small abstract chart lines, no company logos, no watermark.
+
+Title: 한국주식 Top 5
+Subtitle: 적정가격과 한 줄 설명
+
+1 신한지주 055550
+현재가 96,400원 / 적정 175,300원
+출처 언급 3회, 적정가 대비 81.85% 여…
+주의: 과열 추격 금지, 적정매수가…
+
+2 현대모비스 012330
+현재가 494,000원 / 적정 707,686원
+출처 언급 6회, 적정가 대비 43.26% 여…
+주의: 과열 추격 금지, 적정매수가…
+
+3 현대차 005380
+현재가 487,500원 / 적정 933,870원
+출처 언급 59회, 적정가 대비 91.56%…
+주의: 과열 추격 금지, 적정매수가…
+
+4 기아 000270
+현재가 141,500원 / 적정 388,124원
+출처 언급 6회, 적정가 대비 174.3% 여…
+주의: 과열 추격 금지, 적정매수가…
+
+5 KB금융 105560
+현재가 158,500원 / 적정 277,395원
+출처 언급 2회, 적정가 대비 75.01% 여…
+주의: 과열 추격 금지, 적정매수가…
+
+Footer: 정보 요약용 · 투자 추천 아님
+Use generous safe margins, large Korean typography, high contrast, clear card separation.
+Avoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.

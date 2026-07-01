@@ -1,0 +1,35 @@
+Korean financial card news poster, portrait 9:16, clean premium white finance dashboard style.
+IMPORTANT: render readable Korean text exactly; no gibberish; no misspellings; all text horizontal and inside cards.
+Style: five vertical rounded cards, thin black typography, subtle blue/green market accents, small abstract chart lines, no company logos, no watermark.
+
+Title: 미국주식 Top 5
+Subtitle: 적정가격과 한 줄 설명
+
+1 Meta META
+현재가 $612.91 / 적정 $1,063.65
+출처 언급 52회, 적정가 대비 73.54%…
+주의: 과열 추격 금지, 적정매수가…
+
+2 Micron MU
+현재가 $1,032.28 / 적정 $3,452.75
+출처 언급 82회, 적정가 대비 234.5%…
+주의: 과열 추격 금지, 적정매수가…
+
+3 TSMC TSM
+현재가 $444.23 / 적정 $518.12
+출처 언급 21회, 적정가 대비 16.63%…
+주의: 과열 추격 금지, 적정매수가…
+
+4 Microsoft MSFT
+현재가 $384.28 / 적정 $543.92
+출처 언급 21회, 적정가 대비 41.54%…
+주의: 과열 추격 금지, 적정매수가…
+
+5 Alphabet GOOGL
+현재가 $361.21 / 적정 $363.35
+출처 언급 10회, 적정가 대비 0.59% 여…
+주의: 과열 추격 금지, 적정매수가…
+
+Footer: 정보 요약용 · 투자 추천 아님
+Use generous safe margins, large Korean typography, high contrast, clear card separation.
+Avoid: tiny text, blurred text, broken Korean, random English, logo, watermark, overdecorated background.
